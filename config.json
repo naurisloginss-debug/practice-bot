@@ -80,7 +80,9 @@
         "strike": "Gap spotted. Striking while the bookmakers sleep.",
         "wait": "Nothing worth the risk today. Patience is a weapon.",
         "limit": "Enough for today. The best hunters know when to stop.",
-        "stopped": "Loss limit hit. I'm going quiet until you reset me."
+        "stopped": "Loss limit hit. I'm going quiet until you reset me.",
+        "lead": "Top of the table. {rival}, patience beats noise every time.",
+        "chase": "{rival} can enjoy the view. I'm patient, and I'm coming."
       }
     },
     "quant": {
@@ -110,7 +112,9 @@
         "strike": "The numbers don't lie. Betting it.",
         "wait": "The lines are tight tonight. No edge, no bet.",
         "limit": "Daily limit reached. The data will still be here tomorrow.",
-        "stopped": "Loss limit hit. Re-checking the model before anything else."
+        "stopped": "Loss limit hit. Re-checking the model before anything else.",
+        "lead": "The data put me first. {rival}, check your model.",
+        "chase": "{rival} is ahead on paper. My numbers say not for long."
       }
     },
     "shark": {
@@ -140,7 +144,9 @@
         "strike": "Blood in the water. Getting in before the market moves.",
         "wait": "The market's sharp this week. Circling, not biting.",
         "limit": "Limit reached. Sharks don't chase.",
-        "stopped": "Loss limit hit. Back to the depths until you reset me."
+        "stopped": "Loss limit hit. Back to the depths until you reset me.",
+        "lead": "Apex predator. {rival}, keep swimming.",
+        "chase": "I smell {rival}'s lead from here. Closing in."
       }
     }
   },

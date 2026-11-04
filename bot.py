@@ -468,6 +468,159 @@ def level_of(bets, strategy):
     return out
 
 
+# ---------- competition ----------
+# The characters compete on skill (Sport IQ, beating the market, discoveries), never on profit or
+# how much they bet, so wanting to win never pushes them into reckless bets.
+
+ACHIEVEMENTS = [
+    ("first_blood", "🩸", "First Blood", "Placed its first bet."),
+    ("beat_it", "🎯", "Beat the Market", "Got a better price than the final one."),
+    ("ten_measured", "📏", "Measured Ten", "10 bets checked against the final price."),
+    ("on_fire", "🔥", "On Fire", "Beat the market 5 bets in a row."),
+    ("scholar", "📚", "Scholar", "Studied 100 games."),
+    ("pattern", "🔍", "Pattern Hunter", "Found its first 'Likely' pattern in its sport."),
+    ("rule", "⚙️", "Rule Maker", "Turned a finding into a betting rule."),
+    ("lesson", "🧪", "Self-Critic", "Cut or backed a kind of bet based on its own record."),
+    ("iq100", "🧠", "IQ 100", "Reached Sport IQ 100."),
+    ("iq120", "💡", "IQ 120", "Reached Sport IQ 120."),
+    ("sharp", "⚡", "Sharp Mind", "Reached level Sharp."),
+    ("master", "👑", "Mastermind", "Reached the top level."),
+]
+
+
+def streaks(bets, strategy):
+    measured = sorted((b for b in bets if b["strategy"] == strategy and b.get("clv") is not None), key=lambda b: b["start"])
+    best = cur = 0
+    for b in measured:
+        cur = cur + 1 if b["clv"] > 0 else 0
+        best = max(best, cur)
+    return cur, best
+
+
+def week_stats(obs, bets, strategy, week_start, week_end):
+    leagues = CONFIG["strategies"][strategy]["leagues"]
+    studied = sum(1 for o in obs.values() if o["league"] in leagues and week_start <= parse(o["start"]) < week_end)
+    measured = [b for b in bets if b["strategy"] == strategy and b.get("clv") is not None and week_start <= parse(b["start"]) < week_end]
+    beat = sum(1 for b in measured if b["clv"] > 0) / len(measured) if measured else None
+    return {"studied": studied, "measured": len(measured), "beat": beat}
+
+
+def competition(bets, state, now, notes):
+    """Achievements, streaks, weekly self-set goals and the arena ranking."""
+    obs = load(OBS_FILE, {})
+    week_start = datetime(now.year, now.month, now.day, tzinfo=timezone.utc) - timedelta(days=now.weekday())
+    unlocked = state.setdefault("achievements", {})
+    out = {}
+    for s, c in CONFIG["strategies"].items():
+        mind = knowledge_of(obs, state.get("knowledge", {}), bets, s)
+        lv = level_of(bets, s)
+        cur, best = streaks(bets, s)
+        mine = [b for b in bets if b["strategy"] == s]
+        measured = [b for b in mine if b.get("clv") is not None]
+        have = {
+            "first_blood": bool(mine), "beat_it": any(b["clv"] > 0 for b in measured), "ten_measured": len(measured) >= 10,
+            "on_fire": best >= 5, "scholar": mind["studied"] >= 100,
+            "pattern": any(f["conf"] in ("likely", "using") for f in mind["facts"]), "rule": bool(mind["rules"]),
+            "lesson": bool(learn(bets, s)[1]), "iq100": mind["iq"] >= 100, "iq120": mind["iq"] >= 120,
+            "sharp": lv["n"] >= 3 and not lv["cold"], "master": lv["n"] >= 4 and not lv["cold"],
+        }
+        mine_unlocked = unlocked.setdefault(s, {})
+        for key, emoji, title, desc in ACHIEVEMENTS:
+            if have[key] and key not in mine_unlocked:
+                mine_unlocked[key] = iso(now)
+                notes.append(f"🏅 {c['emoji']} {c['name']} unlocked {emoji} {title}: {desc}")
+        # Weekly goals: beat last week by 10%, with a floor so a quiet week still has a target.
+        last = week_stats(obs, bets, s, week_start - timedelta(days=7), week_start)
+        this = week_stats(obs, bets, s, week_start, week_start + timedelta(days=7))
+        goals = [
+            {"text": "Games studied", "target": max(20, math.ceil(last["studied"] * 1.1)), "now": this["studied"]},
+            {"text": "Bets checked against the market", "target": max(3, math.ceil(last["measured"] * 1.1)), "now": this["measured"]},
+            {"text": "Beat the market on", "target": round(min(0.95, max(0.55, (last["beat"] or 0) + 0.02)) * 100), "now": round((this["beat"] or 0) * 100), "unit": "%",
+             "pending": this["measured"] < 3},
+        ]
+        hist = state.get("iq_history", {}).get(s, [])
+        start_iq = next((h["iq"] for h in hist if h["d"] >= week_start.date().isoformat()), mind["iq"])
+        out[s] = {"iq": mind["iq"], "iq_gain": mind["iq"] - start_iq, "streak": cur, "best_streak": best,
+                  "achievements": [{"key": k, "emoji": e, "title": t, "desc": d, "at": mine_unlocked.get(k)} for k, e, t, d in ACHIEVEMENTS],
+                  "goals": goals, "score": mind["iq"] + 5 * len(mine_unlocked)}
+    award_trophies(out, bets, obs, state, now, week_start, notes)
+    trophies = state.get("trophies", [])
+    for s in out:
+        out[s]["trophies"] = [t for t in trophies if t["who"] == s][::-1]
+    ranking = sorted(out, key=lambda s: -out[s]["score"])
+    grower = max(out, key=lambda s: out[s]["iq_gain"])
+    leader = ranking[0]
+    if state.get("leader") and state["leader"] != leader:
+        c = CONFIG["strategies"][leader]
+        notes.append(f"🏟️ {c['emoji']} {c['name']} takes the lead in the Arena.")
+    state["leader"] = leader
+    talk = []
+    for i, s in enumerate(ranking):
+        v = CONFIG["strategies"][s].get("voice", {})
+        rival = CONFIG["strategies"][ranking[1 if i == 0 else 0]]["name"]
+        line = (v.get("lead") if i == 0 else v.get("chase", "")).format(rival=rival)
+        talk.append({"who": s, "text": line})
+    return {"ranking": ranking, "grower": grower if out[grower]["iq_gain"] > 0 else None, "talk": talk, "chars": out,
+            "week_start": week_start.date().isoformat()}
+
+
+TROPHIES = {
+    "champion": ("🏆", "Weekly Champion", "Gained the most Arena points in the week: Sport IQ growth plus new badges."),
+    "grower": ("📈", "Grower of the Week", "Biggest Sport IQ jump of the week."),
+    "sharpshooter": ("🎯", "Sharpshooter of the Week", "Best 'beat the market' rate of the week (5+ bets)."),
+    "mastermind": ("🧠", "Betting Mastermind of the Month", "Highest Sport IQ when the month ended."),
+}
+
+
+def iq_on(state, s, day):
+    """The character's Sport IQ on a given day (the last value recorded on or before it)."""
+    hist = state.get("iq_history", {}).get(s, [])
+    vals = [h["iq"] for h in hist if h["d"] <= day]
+    return vals[-1] if vals else (hist[0]["iq"] if hist else None)
+
+
+def award_trophies(chars, bets, obs, state, now, week_start, notes):
+    """Hands out last week's trophies on the first run of a new week, and the monthly one on a new month."""
+    trophies = state.setdefault("trophies", [])
+
+    def give(kind, who, period, detail):
+        e, title, _ = TROPHIES[kind]
+        trophies.append({"kind": kind, "emoji": e, "title": title, "who": who, "period": period, "detail": detail, "at": iso(now)})
+        c = CONFIG["strategies"][who]
+        notes.append(f"{e} {c['emoji']} {c['name']} wins {title} ({period}). {detail}")
+
+    this_week = week_start.date().isoformat()
+    prev = state.get("trophy_week")
+    if prev and prev != this_week:
+        p_start = parse(prev + "T00:00:00Z")
+        period = f"week of {p_start.strftime('%d %b')}"
+        gains = {s: (iq_on(state, s, this_week) or 0) - (iq_on(state, s, prev) or 0) for s in chars}
+        badges = {s: sum(1 for t in state.get("achievements", {}).get(s, {}).values() if prev <= t[:10] < this_week) for s in chars}
+        points = {s: gains[s] + 5 * badges[s] for s in chars}
+        # Ties go to the underdog (lower Sport IQ), so the leader has to keep growing to win.
+        champ = max(chars, key=lambda s: (points[s], -chars[s]["iq"]))
+        if points[champ] > 0:
+            give("champion", champ, period, f"+{points[champ]} Arena points (+{gains[champ]} IQ, {badges[champ]} new badge{'s' if badges[champ] != 1 else ''}).")
+        g = max(chars, key=lambda s: (gains[s], -chars[s]["iq"]))
+        if gains[g] > 0:
+            give("grower", g, period, f"+{gains[g]} Sport IQ.")
+        rates = {}
+        for s in chars:
+            st = week_stats(obs, bets, s, p_start, week_start)
+            if st["measured"] >= 5:
+                rates[s] = (st["beat"], st["measured"])
+        if rates:
+            best = max(rates, key=rates.get)
+            give("sharpshooter", best, period, f"Beat the market on {rates[best][0]*100:.0f}% of {rates[best][1]} bets.")
+    state["trophy_week"] = this_week
+    this_month = now.strftime("%Y-%m")
+    prev_m = state.get("trophy_month")
+    if prev_m and prev_m != this_month:
+        best = max(chars, key=lambda s: chars[s]["iq"])
+        give("mastermind", best, datetime.strptime(prev_m, "%Y-%m").strftime("%B %Y"), f"Sport IQ {chars[best]['iq']}.")
+    state["trophy_month"] = this_month
+
+
 # ---------- jobs ----------
 
 def odds_params(markets, **extra):
@@ -782,11 +935,12 @@ def mind_of(strategy, bets, state, now):
             "rules": len(k["rules"]), "studied": k["studied"], "resolved": k["resolved"]}
 
 
-def write_dashboard(bets, state, now, notes):
+def write_dashboard(bets, state, now, notes, arena=None):
     data = {
         "updated": iso(now),
         "start_fund": CONFIG["start_fund"],
         "order": list(CONFIG["strategies"]),
+        "arena": arena,
         "credits_left": state.get("credits_left"),
         "last_scan": state.get("last_scan"),
         "strategies": {s: summary(bets, s) | {"diary": state.get("diary", {}).get(s), "level": level_of(bets, s),
@@ -822,8 +976,9 @@ def main():
             up = lv["n"] > next((x["n"] for x in LEVELS if x["title"] == before), 0) and not lv["cold"]
             notes.append(f"{c['emoji']} {c['name']} {'levelled up' if up else 'changed level'}: {before} → {lv['badge']} {now_title}. {lv['perk']}")
         state["levels"][s] = now_title
+    arena = competition(bets, state, now, notes)
     save(BETS_FILE, bets)
-    write_dashboard(bets, state, now, notes)
+    write_dashboard(bets, state, now, notes, arena)
     save(STATE_FILE, state)
     if notes:
         NOTIFY_FILE.write_text("\n\n".join(notes) + "\n")

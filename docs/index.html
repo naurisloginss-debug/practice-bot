@@ -160,6 +160,34 @@
   .thought.pass div { color: var(--ink-2); font-size: 13px; margin-top: 2px; }
   .think { margin-top: 6px; } .think summary { cursor: pointer; font-size: 12px; color: var(--accent); }
   .xp { margin: 12px 0 0; }
+  .rank { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+  .rank li { display: grid; grid-template-columns: 30px 40px 1fr auto auto auto; gap: 10px; align-items: center; padding: 8px 12px; border-radius: 14px; background: var(--card-2); border: 1px solid var(--line); }
+  .rank li.me { border-color: var(--pc); box-shadow: inset 3px 0 0 var(--pc); }
+  .medal { font-size: 20px; text-align: center; }
+  .r-av { width: 40px; height: 40px; border-radius: 50%; display: grid; place-items: center; font-size: 22px; background: var(--card); box-shadow: 0 0 0 2px var(--pc); }
+  .r-name small, .r-stat small { display: block; color: var(--muted); font-size: 11px; }
+  .r-stat { text-align: right; min-width: 40px; } .r-stat b { font-size: 18px; }
+  .crown { margin-top: 10px; padding: 8px 12px; border-radius: 12px; background: var(--warn-bg); color: var(--warn); font-size: 14px; }
+  .talk { display: grid; gap: 6px; margin-top: 10px; }
+  .say { display: flex; gap: 8px; align-items: flex-start; font-size: 14px; padding: 8px 12px; border-radius: 12px; background: var(--card-2); border-left: 3px solid var(--pc); }
+  .goals { display: grid; gap: 12px; }
+  .g-head { display: flex; justify-content: space-between; gap: 10px; font-size: 14px; margin-bottom: 6px; }
+  .goal .progress { margin-top: 0; }
+  .g-streak { margin-top: 12px; font-size: 14px; color: var(--ink-2); }
+  .wall { background-image: linear-gradient(180deg, var(--card), var(--card-2)); }
+  .trophies { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 10px; }
+  .trophy { text-align: center; padding: 14px 10px; border-radius: 14px; border: 2px solid #c9a227; background: radial-gradient(circle at 50% 0%, rgba(201,162,39,.22), transparent 70%), var(--card); }
+  .trophy.mastermind { border-color: var(--accent); background: radial-gradient(circle at 50% 0%, rgba(57,135,229,.25), transparent 70%), var(--card); }
+  .trophy { position: relative; }
+  .t-count { position: absolute; top: 8px; right: 10px; font-weight: 700; font-size: 14px; color: #c9a227; }
+  .t-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; font-size: 13px; }
+  .t-emoji { font-size: 34px; display: block; filter: drop-shadow(0 3px 4px rgba(0,0,0,.25)); }
+  .trophy b { display: block; font-size: 13px; margin-top: 4px; } .trophy small { display: block; font-size: 11px; color: var(--muted); }
+  .badges { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 8px; }
+  .badge2 { padding: 10px; border-radius: 12px; background: var(--card-2); border: 1px solid var(--line); opacity: .5; text-align: center; }
+  .badge2.on { opacity: 1; border-color: var(--good); }
+  .badge2 span { font-size: 24px; display: block; } .badge2 b { display: block; font-size: 13px; } .badge2 small { display: block; font-size: 11px; color: var(--muted); }
+  @media (max-width: 560px) { .rank li { grid-template-columns: 26px 36px 1fr auto auto auto; gap: 8px; padding: 8px; } .r-av { width: 36px; height: 36px; } }
   .p-id .lvl { white-space: nowrap; margin-right: 4px; }
   .p-id .lvl b { display: inline; font-size: inherit; }
   .morefacts { margin-top: 8px; } .morefacts summary { cursor: pointer; font-size: 13px; color: var(--accent); margin-bottom: 8px; }
@@ -265,6 +293,8 @@ function render() {
   const winRate = s.won + s.lost ? Math.round(s.won / (s.won + s.lost) * 100) : null;
 
   document.getElementById('app').innerHTML = `
+  ${arenaCard()}
+
   <section class="card hero" aria-label="Practice fund">
     ${spark(s)}
     <div class="label">${esc(s.emoji || '')} ${esc(s.name)}'s pretend money · started with ${money(start)}</div>
@@ -274,6 +304,8 @@ function render() {
   </section>
 
   ${character(s)}
+
+  ${driveCard()}
 
   <section class="card verdict ${v.cls}" aria-label="Is it working">
     <div class="badge" aria-hidden="true">${v.icon}</div>
@@ -318,6 +350,7 @@ function render() {
     <dt>Beat the market</dt><dd>The price we got was better than the final price just before kick-off. Doing this again and again is the best early sign of a real edge, long before the money shows it.</dd>
     <dt>The characters</dt><dd>Three bots, each with its own sport, style, risk level and pretend money. Inspired by real bettors' approaches, not run by them.</dd>
     <dt>Sport IQ</dt><dd>How much the character knows about its sport. Grows as it studies more games, measures more bets and proves its findings right. Pricing badly pulls it down.</dd>
+    <dt>Trophies and badges</dt><dd>Trophies are won against the other characters (weekly and monthly). Badges are personal milestones. Both reward skill, never risk.</dd>
     <dt>Learning</dt><dd>Each character studies its own bets and cuts the kinds that keep losing to the market, and backs the kinds that keep beating it a bit harder.</dd>
     <dt>Pretend money</dt><dd>No real bets are placed. The bot practises until the numbers say it is worth it.</dd>
   </dl></details></section>
@@ -447,6 +480,7 @@ function mind(s) {
     ${d && d.passed && d.passed.length ? `<div class="m-sec">What I passed on</div>${d.passed.map(m => `<div class="thought pass"><b>${esc(m.pick)} @ ${Number(m.odds).toFixed(2)}</b> <span class="sub">${esc(m.game)} · ${esc(m.book)}</span>
         <div>${esc(m.reason)}</div></div>`).join('')}` : ''}
     ${s.mind && s.mind.facts.length ? `<div class="m-sec">What I know</div>${s.mind.facts.slice(0, 3).map(f => `<div class="thought">${esc(f.text)} <span class="sub">${esc(f.detail)}</span></div>`).join('')}` : ''}
+    ${rivalWatch()}
     ${(s.lessons || []).length ? `<div class="m-sec">What I've learned</div>${s.lessons.map(l => `<div class="thought">${l.kind === 'avoid' ? '✕' : '▲'} ${esc(l.text)} <span class="sub">${esc(l.detail)}</span></div>`).join('')}` : ''}
   </div>`;
 }
@@ -472,6 +506,69 @@ function knowledgeCard(s) {
       : '<div class="empty">Studying every game it scans. Its first findings appear after about 40 finished games per league.</div>'}
     <p class="sub" style="margin:10px 0 0">Watching → Likely → Using it. A finding becomes a betting rule only after 200+ games and strong evidence, and even then it only nudges the fair price by half the gap.</p>
   </section>`;
+}
+
+// ---------- competition ----------
+function arenaCard() {
+  const a = data.arena;
+  if (!a) return '';
+  const medals = ['🥇', '🥈', '🥉'];
+  const lead = a.ranking[0];
+  return `<section class="card arena"><h2>🏟️ The Arena</h2>
+    <ol class="rank">${a.ranking.map((k, i) => { const c = a.chars[k], st = data.strategies[k];
+      return `<li class="${k === current ? 'me' : ''}" style="--pc:${COLORS[k]}">
+        <span class="medal" aria-label="Place ${i + 1}">${medals[i] || i + 1}</span>
+        <span class="r-av" aria-hidden="true">${esc(st.emoji)}</span>
+        <span class="r-name"><b>${esc(st.name)}</b><small>${esc(st.sport)}${c.streak >= 2 ? ` · 🔥${c.streak} in a row` : ''}</small></span>
+        <span class="r-stat"><b class="num">${c.iq}</b><small>IQ${c.iq_gain ? ` <span class="${c.iq_gain > 0 ? 'pos' : 'neg'}">${c.iq_gain > 0 ? '▲' : '▼'}${Math.abs(c.iq_gain)}</span>` : ''}</small></span>
+        <span class="r-stat"><b class="num">${(c.trophies || []).length}</b><small>🏆</small></span>
+        <span class="r-stat"><b class="num">${c.achievements.filter(x => x.at).length}</b><small>🏅</small></span>
+      </li>`; }).join('')}</ol>
+    ${a.grower ? `<div class="crown">📈 Grower of the week: <b>${esc(data.strategies[a.grower].emoji)} ${esc(data.strategies[a.grower].name)}</b> (+${a.chars[a.grower].iq_gain} IQ)</div>` : ''}
+    <div class="talk">${a.talk.map(t => `<div class="say" style="--pc:${COLORS[t.who]}"><span aria-hidden="true">${esc(data.strategies[t.who].emoji)}</span><span>${esc(t.text)}</span></div>`).join('')}</div>
+    <p class="sub" style="margin:8px 0 0">Ranked on skill: Sport IQ plus 5 points per achievement. Never on profit or how much they bet, so competing can't make them reckless.</p>
+  </section>`;
+}
+
+function driveCard() {
+  const a = data.arena, c = a && a.chars[current];
+  if (!c) return '';
+  const got = c.achievements.filter(x => x.at).length;
+  return `<section class="card"><h2>This week's goals · ${esc(data.strategies[current].name)} vs last week</h2>
+    <div class="goals">${c.goals.map(g => { const pct = g.pending ? 0 : Math.min(100, g.now / g.target * 100), done = !g.pending && g.now >= g.target;
+      return `<div class="goal"><div class="g-head"><span>${done ? '✅' : '🎯'} ${esc(g.text)}</span><span class="num">${g.pending ? 'needs 3 bets' : `${g.now}${g.unit || ''} / ${g.target}${g.unit || ''}`}</span></div>
+        <div class="progress"><i style="width:${pct}%;background:${COLORS[current]}"></i></div></div>`; }).join('')}</div>
+    <div class="g-streak">🔥 Current streak: <b>${c.streak}</b> · best: <b>${c.best_streak}</b> bets in a row beating the market</div>
+  </section>
+
+  <section class="card wall"><h2>🏆 ${esc(data.strategies[current].name)}'s trophy wall</h2>
+    ${(c.trophies || []).length ? (() => {
+        const kinds = {};
+        for (const t of c.trophies) (kinds[t.kind] = kinds[t.kind] || []).push(t);  // newest first
+        const shelf = Object.values(kinds).map(list => { const t = list[0];
+          return `<div class="trophy ${t.kind}"><span class="t-emoji" aria-hidden="true">${esc(t.emoji)}</span>${list.length > 1 ? `<span class="t-count">×${list.length}</span>` : ''}
+            <b>${esc(t.title)}</b><small>Latest: ${esc(t.period)}</small><small>${esc(t.detail)}</small></div>`; }).join('');
+        return `<div class="trophies">${shelf}</div><details class="morefacts"><summary>See all ${c.trophies.length} trophies</summary><ul class="t-list">${
+          c.trophies.map(t => `<li>${esc(t.emoji)} <b>${esc(t.title)}</b> <span class="sub">${esc(t.period)} · ${esc(t.detail)}</span></li>`).join('')}</ul></details>`; })()
+      : `<div class="empty">No trophies yet. Weekly trophies are handed out every Monday: 🏆 Champion, 📈 Grower, 🎯 Sharpshooter. Plus 🧠 Betting Mastermind of the Month.</div>`}
+    <h2 style="margin-top:16px">Badges · ${got} of ${c.achievements.length}</h2>
+    <div class="badges">${c.achievements.map(x => `<div class="badge2 ${x.at ? 'on' : ''}" title="${esc(x.desc)}"><span aria-hidden="true">${x.at ? esc(x.emoji) : '🔒'}</span><b>${esc(x.title)}</b><small>${esc(x.desc)}</small></div>`).join('')}</div>
+  </section>`;
+}
+
+function rivalWatch() {
+  const a = data.arena;
+  if (!a) return '';
+  const me = a.chars[current], lines = [];
+  for (const k of a.ranking) {
+    if (k === current) continue;
+    const o = a.chars[k], name = data.strategies[k].name;
+    if (o.iq > me.iq) lines.push(`${name} is ${o.iq - me.iq} IQ points ahead of me. I need to study harder.`);
+    else if (o.iq < me.iq) lines.push(`I'm ${me.iq - o.iq} IQ points ahead of ${name}. Can't relax.`);
+    if (o.iq_gain > me.iq_gain && o.iq_gain > 0) lines.push(`${name} gained +${o.iq_gain} IQ this week. Faster than me.`);
+    if (o.streak >= 3) lines.push(`${name} is on a ${o.streak}-bet streak. Respect, but streaks end.`);
+  }
+  return lines.length ? `<div class="m-sec">Rival watch</div>${lines.slice(0, 4).map(l => `<div class="thought">👀 ${esc(l)}</div>`).join('')}` : '';
 }
 
 function lessonsCard(s) {
