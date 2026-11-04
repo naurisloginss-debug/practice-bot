@@ -48,6 +48,7 @@ LEAGUES = {  # football-data code: (name, The Odds API key)
 }
 # Bookmakers for the "All bookmakers" strategy (column prefixes). 1xBet is left out, as in the live bot.
 BOOKS = {"B365": "bet365", "BW": "bwin", "IW": "Interwetten", "WH": "William Hill", "VC": "BetVictor", "LB": "Ladbrokes", "BF": "Betfair Sportsbook"}
+ERRORS = []
 EXCHANGE = "BFE"  # Betfair Exchange
 COMMISSION = bot.CONFIG["commission"].get("betfair_ex_eu", 0.05)
 MIN_EDGE, MAX_EDGE = bot.CONFIG["min_edge"], bot.CONFIG["max_edge"]
@@ -116,13 +117,20 @@ def fetch_tennis(year, tour, folder=None):
                 break
             except urllib.error.HTTPError as e:
                 if e.code == 404:
+                    ERRORS.append(f"{url}: not found")
                     return None
+                ERRORS.append(f"{url}: HTTP {e.code}")
                 time.sleep(2 ** attempt)
-            except Exception:
+            except Exception as e:
+                ERRORS.append(f"{url}: {e}")
                 time.sleep(2 ** attempt)
         if raw is None:
             return None
-    ws = openpyxl.load_workbook(io.BytesIO(raw), read_only=True, data_only=True).active
+    try:
+        ws = openpyxl.load_workbook(io.BytesIO(raw), read_only=True, data_only=True).active
+    except Exception as e:
+        ERRORS.append(f"tennis {year}{tour}: could not read the file ({e})")
+        return None
     it = ws.iter_rows(values_only=True)
     head = [str(h).strip() if h is not None else "" for h in next(it)]
     return [dict(zip(head, (str(v) if v is not None else "" for v in row))) for row in it]
@@ -295,6 +303,7 @@ def run(folder=None):
         "seasons": SEASONS,
         "min_edge": MIN_EDGE,
         "bookmakers": sorted(found_books),
+        "download_errors": ERRORS[-20:],
         "odds_keys": {name: key for name, key in LEAGUES.values()},
         "strategies": {},
     }
@@ -309,6 +318,8 @@ def run(folder=None):
     t = out["strategies"]["all"]["total"]
     print(f"{matches} matches from {len(loaded)} files. All bookmakers: {t['bets']} bets, return {t['roi']}, vs final price {t['avg_clv']}")
     b = out["strategies"]["betfair"]["total"]
+    for e in ERRORS:
+        print("Download problem:", e)
     print(f"Betfair bot: {b['bets']} bets, return {b['roi']}, vs final price {b['avg_clv']}")
 
 
