@@ -94,7 +94,9 @@ def fair(prices):
 
 
 # ---------- tennis (tennis-data.co.uk) ----------
-TENNIS_YEARS = ["2024", "2025", "2026"]
+# tennis-data.co.uk refuses automated downloads (HTTP 403), so tennis is off.
+# To use it, download the yearly files by hand into a folder and run: python backtest.py --dir FOLDER
+TENNIS_YEARS = []
 TENNIS_TOURS = {"": "ATP tennis (men)", "w": "WTA tennis (women)"}
 TENNIS_BOOKS = {"B365": "bet365", "EX": "Expekt", "LB": "Ladbrokes", "SJ": "Stan James", "UB": "Unibet", "CB": "Centrebet", "GB": "Gamebookers", "IW": "Interwetten", "SB": "Sportingbet"}
 
