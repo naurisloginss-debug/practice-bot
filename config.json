@@ -1,42 +1,147 @@
 {
   "start_fund": 200,
-  "kelly_fraction": 0.25,
-  "max_stake_pct": 3,
   "min_stake": 0.5,
-  "max_bets_per_day": 20,
-  "max_stake_per_day": 50,
-  "stop_below": 120,
+  "kelly_fraction": 0.4,
+  "max_stake_pct": 5,
   "min_edge": 0.02,
   "max_edge": 0.1,
+  "min_odds": 1.5,
+  "max_odds": 6.0,
+  "max_bets_per_day": 6,
+  "max_stake_per_day": 30,
+  "stop_below": 110,
   "days_ahead": 3,
+  "markets": [
+    "h2h"
+  ],
   "scan_hours_utc": [
     9
   ],
   "closing_window_minutes": 75,
   "settle_after_hours": 3,
   "settle_every_hours": 24,
+  "daily_credit_budget": 15,
   "keep_credits": 60,
-  "markets": [
-    "h2h"
-  ],
+  "learning": {
+    "min_bets": 15,
+    "avoid_below": -0.005,
+    "favour_above": 0.015,
+    "favour_beat": 0.58,
+    "favour_boost": 1.3
+  },
+  "renamed": {
+    "all": "lizard"
+  },
+  "sport_groups": [],
+  "skip_competitions": [],
   "leagues": {
     "soccer_italy_serie_b": "Serie B (Italy 2)",
     "soccer_efl_champ": "Championship (England 2)",
     "soccer_spain_segunda_division": "La Liga 2 (Spain 2)",
-    "soccer_france_ligue_one": "Ligue 1 (France)"
+    "soccer_france_ligue_one": "Ligue 1 (France)",
+    "soccer_england_league2": "League Two (England 4)",
+    "soccer_england_league1": "League One (England 3)",
+    "soccer_germany_bundesliga2": "2. Bundesliga",
+    "soccer_france_ligue_two": "Ligue 2 (France 2)",
+    "basketball_nba": "NBA",
+    "basketball_euroleague": "EuroLeague",
+    "americanfootball_nfl": "NFL",
+    "americanfootball_ncaaf": "College football (US)"
   },
   "strategies": {
-    "betfair": {
-      "name": "Betfair bot",
-      "about": "Only Betfair Exchange, after its 5% commission. This is what the real bot could do.",
-      "books": [
-        "betfair_ex_eu"
-      ]
+    "lizard": {
+      "name": "The Lizard",
+      "emoji": "🦎",
+      "sport": "Football",
+      "inspired_by": "Tony Bloom",
+      "story": "Nicknamed 'The Lizard' at the poker table. Built Starlizard, a betting-research firm, and used the winnings to buy Brighton & Hove Albion. His edge: patient models and leagues the bookmakers watch less closely.",
+      "style": "Hunts second-division football where prices are lazy. Waits for a clear gap, then strikes hard.",
+      "motto": "Patience is a weapon.",
+      "backtest": "all",
+      "books": "all",
+      "leagues": [
+        "soccer_italy_serie_b",
+        "soccer_efl_champ",
+        "soccer_spain_segunda_division",
+        "soccer_france_ligue_one"
+      ],
+      "markets": [
+        "h2h"
+      ],
+      "kelly_fraction": 0.4,
+      "max_stake_pct": 5,
+      "min_edge": 0.025,
+      "min_odds": 1.6,
+      "max_odds": 6.0,
+      "max_bets_per_day": 6,
+      "max_stake_per_day": 30,
+      "days_ahead": 3,
+      "voice": {
+        "strike": "Gap spotted. Striking while the bookmakers sleep.",
+        "wait": "Nothing worth the risk today. Patience is a weapon.",
+        "limit": "Enough for today. The best hunters know when to stop.",
+        "stopped": "Loss limit hit. I'm going quiet until you reset me."
+      }
     },
-    "all": {
-      "name": "All bookmakers",
-      "about": "Best price at any bookmaker. Shows how much value exists if you bet by hand.",
-      "books": "all"
+    "quant": {
+      "name": "The Quant",
+      "emoji": "🧮",
+      "sport": "Basketball",
+      "inspired_by": "Bob Voulgaris",
+      "story": "Turned an NBA obsession into one of betting's best-known careers by spotting how bookmakers misjudged the way games actually play out: pace, rotations, coaches' habits. Later ran analytics for the Dallas Mavericks and bought Spanish club CD Castellón.",
+      "style": "Bets NBA total points, where tempo and tired legs move the numbers more than the bookmakers think.",
+      "motto": "The scoreboard is just data.",
+      "books": "all",
+      "leagues": [
+        "basketball_nba"
+      ],
+      "markets": [
+        "totals"
+      ],
+      "kelly_fraction": 0.5,
+      "max_stake_pct": 5,
+      "min_edge": 0.02,
+      "min_odds": 1.6,
+      "max_odds": 2.6,
+      "max_bets_per_day": 4,
+      "max_stake_per_day": 30,
+      "days_ahead": 1,
+      "voice": {
+        "strike": "The numbers don't lie. Betting it.",
+        "wait": "The lines are tight tonight. No edge, no bet.",
+        "limit": "Daily limit reached. The data will still be here tomorrow.",
+        "stopped": "Loss limit hit. Re-checking the model before anything else."
+      }
+    },
+    "shark": {
+      "name": "The Shark",
+      "emoji": "🦈",
+      "sport": "American football",
+      "inspired_by": "Billy Walters",
+      "story": "Las Vegas legend who beat NFL point spreads for decades with computer models, getting his bets in before the market moved. The classic 'beat the closing line' bettor.",
+      "style": "Bets NFL point spreads early in the week, before the market catches up.",
+      "motto": "Get there before the market does.",
+      "books": "all",
+      "leagues": [
+        "americanfootball_nfl"
+      ],
+      "markets": [
+        "spreads"
+      ],
+      "kelly_fraction": 0.5,
+      "max_stake_pct": 6,
+      "min_edge": 0.02,
+      "min_odds": 1.6,
+      "max_odds": 2.6,
+      "max_bets_per_day": 4,
+      "max_stake_per_day": 40,
+      "days_ahead": 6,
+      "voice": {
+        "strike": "Blood in the water. Getting in before the market moves.",
+        "wait": "The market's sharp this week. Circling, not biting.",
+        "limit": "Limit reached. Sharks don't chase.",
+        "stopped": "Loss limit hit. Back to the depths until you reset me."
+      }
     }
   },
   "commission": {
@@ -45,8 +150,5 @@
   },
   "exclude_books": [
     "onexbet"
-  ],
-  "daily_credit_budget": 25,
-  "sport_groups": [],
-  "skip_competitions": []
+  ]
 }

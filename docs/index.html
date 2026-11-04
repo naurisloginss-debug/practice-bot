@@ -18,14 +18,14 @@
 <style>
   :root {
     --bg: #f3f2ee; --bg-glow: rgba(42,120,214,.10); --card: #ffffff; --card-2: #f7f6f2; --ink: #16161a; --ink-2: #4b4a52; --muted: #7a7882; --line: #e3e1db;
-    --accent: #2a78d6; --accent-2: #eb6834;
+    --accent: #2a78d6; --accent-2: #eb6834; --c-lizard: #1baf7a; --c-quant: #2a78d6; --c-shark: #eb6834;
     --good: #0b7a3b; --good-bg: #e2f4e8; --bad: #c0281c; --bad-bg: #fbe4e1; --warn: #8a5a00; --warn-bg: #fbf0d4; --neutral-bg: #edebe5;
     --bar-good: #1f9d55; --bar-bad: #d9483b;
   }
   @media (prefers-color-scheme: dark) {
     :root:not([data-theme="light"]) {
       --bg: #0d0f12; --bg-glow: rgba(57,135,229,.18); --card: #16191e; --card-2: #1c2026; --ink: #f2f1ee; --ink-2: #c4c3be; --muted: #8d8c93; --line: #262a31;
-      --accent: #3987e5; --accent-2: #d95926;
+      --accent: #3987e5; --accent-2: #d95926; --c-lizard: #199e70; --c-quant: #3987e5; --c-shark: #d95926;
       --good: #5fd08b; --good-bg: #10301f; --bad: #ff8a7d; --bad-bg: #3a1613; --warn: #f2c25d; --warn-bg: #33280e; --neutral-bg: #20242b;
       --bar-good: #3fbf72; --bar-bad: #e5604f;
     }
@@ -53,6 +53,7 @@
     background: linear-gradient(90deg, var(--ink) 30%, var(--accent) 75%, var(--accent-2)); -webkit-background-clip: text; background-clip: text; color: transparent; }
   .hello span { -webkit-text-fill-color: initial; color: initial; }
   .switch { display: inline-flex; background: var(--neutral-bg); border-radius: 12px; padding: 4px; margin-bottom: 16px; }
+  @media (max-width: 560px) { .switch { display: flex; } .switch button { flex: 1; padding: 7px 6px; white-space: nowrap; } }
   .switch button { font: inherit; font-size: 14px; font-weight: 500; border: 0; background: transparent; color: var(--ink-2); padding: 7px 14px; border-radius: 9px; cursor: pointer; }
   .switch button[aria-pressed="true"] { background: var(--card); color: var(--ink); box-shadow: 0 1px 3px rgba(0,0,0,.12); }
 
@@ -135,6 +136,44 @@
   .grid line { stroke: var(--line); }
   .tip { position: absolute; pointer-events: none; background: var(--ink); color: var(--card); font-size: 12px; padding: 6px 9px; border-radius: 8px; white-space: nowrap; transform: translate(-50%, -110%); display: none; }
 
+  .persona { border-left: 4px solid var(--pc); }
+  .p-top { display: flex; gap: 14px; align-items: center; }
+  .avatar-wrap { position: relative; flex: none; }
+  .avatar { width: 76px; height: 76px; border-radius: 50%; display: grid; place-items: center; font-size: 40px;
+    background: radial-gradient(circle at 30% 25%, var(--card), var(--neutral-bg)); box-shadow: 0 0 0 3px var(--pc), 0 6px 18px rgba(0,0,0,.18); }
+  .brain { position: absolute; right: -8px; bottom: -6px; width: 36px; height: 36px; border-radius: 50%; border: 2px solid var(--card);
+    background: var(--ink); font-size: 18px; cursor: pointer; display: grid; place-items: center; padding: 0; }
+  .brain.live { animation: think 2.4s ease-in-out infinite; }
+  .brain[aria-expanded="true"] { background: var(--pc); animation: none; }
+  @keyframes think { 0%, 100% { box-shadow: 0 0 0 0 rgba(235,104,52,.45); } 50% { box-shadow: 0 0 0 7px rgba(235,104,52,0); } }
+  @media (prefers-reduced-motion: reduce) { .brain.live { animation: none; } }
+  .p-id b { font-size: 21px; display: block; }
+  .lvl { display: inline-block; margin-top: 6px; font-size: 12px; font-weight: 700; padding: 3px 10px; border-radius: 999px; background: var(--neutral-bg); }
+  .lvl.cold { background: var(--bad-bg); color: var(--bad); }
+  .bubble { position: relative; margin: 14px 0 4px; padding: 10px 14px; border-radius: 14px; background: var(--card-2); border: 1px solid var(--line); font-weight: 500; }
+  .bubble::before { content: ""; position: absolute; left: 28px; top: -7px; width: 12px; height: 12px; background: var(--card-2); border-left: 1px solid var(--line); border-top: 1px solid var(--line); transform: rotate(45deg); }
+  .mind { margin: 10px 0; padding: 14px; border-radius: 14px; background: var(--card-2); border: 1px dashed var(--pc); }
+  .mind-h { font-weight: 700; margin-bottom: 6px; }
+  .m-sec { font-size: 12px; text-transform: uppercase; letter-spacing: .07em; color: var(--muted); margin: 12px 0 6px; }
+  .thought { font-size: 14px; padding: 8px 0; border-top: 1px solid var(--line); }
+  .thought ol, .think ol { margin: 6px 0 0; padding-left: 20px; color: var(--ink-2); font-size: 13px; }
+  .thought.pass div { color: var(--ink-2); font-size: 13px; margin-top: 2px; }
+  .think { margin-top: 6px; } .think summary { cursor: pointer; font-size: 12px; color: var(--accent); }
+  .xp { margin: 12px 0 0; }
+  .xp-head { display: flex; justify-content: space-between; gap: 10px; flex-wrap: wrap; font-size: 14px; }
+  .xp .progress { margin-top: 8px; }
+  .needs { list-style: none; padding: 0; margin: 8px 0 0; display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 12px; color: var(--ink-2); }
+  .needs li.ok { color: var(--good); }
+    .motto { font-size: 18px; font-weight: 700; margin: 12px 0 4px; }
+  .story { margin: 0 0 12px; color: var(--ink-2); font-size: 14px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; }
+  .pchip { font-size: 12px; padding: 4px 10px; border-radius: 999px; background: var(--neutral-bg); color: var(--ink-2); }
+  .pchip b { color: var(--ink); }
+  .lessons { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+  .lessons li { display: grid; grid-template-columns: 28px 1fr; gap: 10px; align-items: start; padding: 10px 12px; border-radius: 12px; background: var(--card-2); border: 1px solid var(--line); }
+  .lessons small { display: block; color: var(--muted); font-size: 12px; }
+  .li-icon { width: 28px; height: 28px; border-radius: 8px; display: grid; place-items: center; font-weight: 700; font-size: 13px; }
+  .lessons .avoid .li-icon { background: var(--bad-bg); color: var(--bad); } .lessons .favour .li-icon { background: var(--good-bg); color: var(--good); }
   details.help summary { cursor: pointer; font-weight: 500; }
   details.help dl { margin: 10px 0 0; display: grid; gap: 10px; }
   details.help dt { font-weight: 700; } details.help dd { margin: 0; color: var(--ink-2); font-size: 14px; }
@@ -156,16 +195,13 @@
 </main>
 
 <script>
-const NAMES = { all: 'Any bookmaker', betfair: 'Betfair only' };
-const ABOUT = {
-  all: 'Takes the best price at any bookmaker. Shows how much value is out there.',
-  betfair: 'Only Betfair, after its 5% fee. This is what a real automatic bot could do.'
-};
-const COLORS = { all: 'var(--accent-2)', betfair: 'var(--accent)' };
+const COLORS = new Proxy({ lizard: 'var(--c-lizard)', quant: 'var(--c-quant)', shark: 'var(--c-shark)' }, { get: (o, k) => o[k] || 'var(--accent)' });
+const nameOf = k => data.strategies[k].name;
+const order = () => (data.order || Object.keys(data.strategies)).filter(k => data.strategies[k]);
 const NEED = 30; // bets with a final price before we judge
 let data = null, backtest = null;
 const ls = { get(k, d) { try { return localStorage.getItem(k) || d; } catch (e) { return d; } }, set(k, v) { try { localStorage.setItem(k, v); } catch (e) {} } };
-let current = ls.get('strategy', 'all'), board = ls.get('board', 'by_league'), past = ls.get('past', 'by_league'), showAll = false;
+let current = ls.get('strategy', 'lizard'), board = ls.get('board', 'by_league'), past = ls.get('past', 'by_league'), showAll = false;
 
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const money = n => Number(n).toFixed(2);
@@ -208,10 +244,10 @@ function render() {
   const mins = (Date.now() - new Date(data.updated)) / 60000;
   document.getElementById('dot').className = 'dot' + (mins > 150 ? ' stale' : '');
   document.getElementById('updated').innerHTML = (mins > 150 ? 'Last run ' : '<span class="long">Live · </span>updated ') + rel(data.updated);
-  document.getElementById('switch').innerHTML = ['all', 'betfair'].filter(k => data.strategies[k]).map(k =>
-    `<button type="button" data-s="${k}" aria-pressed="${k === current}"><span class="sw" style="background:${COLORS[k]};margin-right:6px"></span>${NAMES[k]}</button>`).join('');
+  document.getElementById('switch').innerHTML = order().map(k =>
+    `<button type="button" data-s="${k}" aria-pressed="${k === current}"><span aria-hidden="true" style="margin-right:6px">${data.strategies[k].emoji || ''}</span>${esc(nameOf(k))}</button>`).join('');
 
-  const change = s.fund - data.start_fund, v = verdict(s);
+  const start = s.start_fund || data.start_fund, change = s.fund - start, v = verdict(s);
   const mine = data.bets.filter(b => b.strategy === current);
   const open = mine.filter(b => b.status === 'open').sort((a, b) => a.start.localeCompare(b.start));
   const done = mine.filter(b => b.status !== 'open').sort((a, b) => (b.settled_at || '').localeCompare(a.settled_at || ''));
@@ -220,11 +256,13 @@ function render() {
   document.getElementById('app').innerHTML = `
   <section class="card hero" aria-label="Practice fund">
     ${spark(s)}
-    <div class="label">Pretend money · started with ${money(data.start_fund)}</div>
+    <div class="label">${esc(s.emoji || '')} ${esc(s.name)}'s pretend money · started with ${money(start)}</div>
     <div class="money num">${money(s.fund)}</div>
-    <span class="change num ${change > 0.004 ? 'up' : change < -0.004 ? 'down' : 'flat'}">${change > 0.004 ? '▲' : change < -0.004 ? '▼' : '•'} ${signed(change)} · ${pct(change / data.start_fund)}</span>
-    <div class="hero-note">${ABOUT[current]}</div>
+    <span class="change num ${change > 0.004 ? 'up' : change < -0.004 ? 'down' : 'flat'}">${change > 0.004 ? '▲' : change < -0.004 ? '▼' : '•'} ${signed(change)} · ${pct(change / start)}</span>
+    <div class="hero-note">${esc(s.style || '')}</div>
   </section>
+
+  ${character(s)}
 
   <section class="card verdict ${v.cls}" aria-label="Is it working">
     <div class="badge" aria-hidden="true">${v.icon}</div>
@@ -255,6 +293,8 @@ function render() {
     ${leaderboard(s[board], true)}
   </section>
 
+  ${lessonsCard(s)}
+
   ${pastCard()}
 
   <section class="card"><h2>Pretend money over time</h2>${chart()}</section>
@@ -263,6 +303,8 @@ function render() {
     <dt>Value bet</dt><dd>A price higher than the fair price. Like buying something below what it is worth.</dd>
     <dt>Fair price</dt><dd>Taken from Pinnacle, the bookmaker with the sharpest prices, with its built-in margin removed.</dd>
     <dt>Beat the market</dt><dd>The price we got was better than the final price just before kick-off. Doing this again and again is the best early sign of a real edge, long before the money shows it.</dd>
+    <dt>The characters</dt><dd>Three bots, each with its own sport, style, risk level and pretend money. Inspired by real bettors' approaches, not run by them.</dd>
+    <dt>Learning</dt><dd>Each character studies its own bets and cuts the kinds that keep losing to the market, and backs the kinds that keep beating it a bit harder.</dd>
     <dt>Pretend money</dt><dd>No real bets are placed. The bot practises until the numbers say it is worth it.</dd>
   </dl></details></section>
 
@@ -306,6 +348,7 @@ function matchCard(b) {
       <div class="pick">${esc(b.pick)} <span class="odds num">${Number(b.odds).toFixed(2)}</span></div>
       <div class="meta">${esc(b.league)} · ${open ? day(b.start) + ' · ' + rel(b.start) : (b.score ? esc(b.score) : day(b.start))}</div>
       <div class="meta">${esc(b.book)} · ${pct(b.edge)} edge${clv}</div>
+      ${b.thoughts ? `<details class="think"><summary>🧠 See my thinking</summary><ol>${b.thoughts.map(t => `<li>${esc(t)}</li>`).join('')}</ol></details>` : ''}
     </div><div class="side">${side}</div></div>`;
 }
 
@@ -337,9 +380,74 @@ function leaderboard(rows, live) {
   <div class="axis"><span></span><span><span>◀ worse than market</span><span>better ▶</span></span><span></span></div></div>`;
 }
 
+let brainOpen = false;
+function character(s) {
+  if (!s.inspired_by) return '';
+  const r = s.risk || {}, lv = s.level || {}, d = s.diary;
+  const style = r.kelly >= 0.5 ? 'Bold' : r.kelly >= 0.33 ? 'Aggressive-careful' : 'Careful';
+  const mood = d ? d.mood : 'Waking up. First scan is coming.';
+  const nx = lv.next;
+  return `<section class="card persona" style="--pc:${COLORS[current]}" aria-label="About ${esc(s.name)}">
+    <div class="p-top">
+      <div class="avatar-wrap">
+        <div class="avatar" aria-hidden="true">${esc(s.emoji)}</div>
+        <button type="button" class="brain${d ? ' live' : ''}" data-brain aria-expanded="${brainOpen}" aria-controls="mind" title="See what ${esc(s.name)} is thinking">🧠</button>
+      </div>
+      <div class="p-id">
+        <b>${esc(s.name)}</b>
+        <div class="sub">${esc(s.sport)} · inspired by ${esc(s.inspired_by)}</div>
+        <span class="lvl ${lv.cold ? 'cold' : ''}">${esc(lv.badge || '🐣')} Level ${lv.n || 1} · ${esc(lv.title || 'Rookie')}</span>
+      </div>
+    </div>
+    <div class="bubble">${esc(mood)}</div>
+    ${brainOpen ? mind(s) : ''}
+    <div class="xp">
+      ${nx ? `<div class="xp-head"><span>Next: ${esc(nx.badge)} <b>${esc(nx.title)}</b></span><span class="sub">${esc(nx.perk)}</span></div>
+        <div class="progress" role="progressbar" aria-label="Progress to ${esc(nx.title)}" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${Math.round(nx.progress * 100)}"><i style="width:${nx.progress * 100}%;background:var(--pc)"></i></div>
+        <ul class="needs">${nx.needs.map(n => `<li class="${n.done ? 'ok' : ''}"><span aria-hidden="true">${n.done ? '✓' : '○'}</span> ${esc(n.text)} <span class="sub">(${esc(n.now)})</span></li>`).join('')}</ul>`
+      : `<div class="xp-head"><span>👑 <b>Top level reached.</b></span><span class="sub">${esc(lv.perk || '')}</span></div>`}
+      ${lv.perk && nx ? `<div class="sub" style="margin-top:6px">Now: ${esc(lv.perk)}</div>` : ''}
+    </div>
+    <p class="motto">“${esc(s.motto)}”</p>
+    <p class="story">${esc(s.story)}</p>
+    <div class="chips">
+      <span class="pchip"><b>${style}</b> stakes</span>
+      <span class="pchip">max <b>${r.max_stake_pct}%</b> per bet</span>
+      <span class="pchip">needs <b>${Math.round(r.min_edge * 1000) / 10}%+</b> edge</span>
+      <span class="pchip">odds <b>${r.odds?.[0]}–${r.odds?.[1]}</b></span>
+      <span class="pchip">stops below <b>${r.stop_below}</b></span>
+      <span class="pchip">${esc((s.leagues || []).join(', '))} · ${esc((s.markets || []).join(', ').toLowerCase())}</span>
+    </div></section>`;
+}
+
+// The character's mind: its latest scan, what it bet and why, what it passed on and why.
+function mind(s) {
+  const d = s.diary;
+  const recent = data.bets.filter(b => b.strategy === current && b.thoughts).sort((a, b) => b.placed_at.localeCompare(a.placed_at)).slice(0, 3);
+  return `<div class="mind" id="mind">
+    <div class="mind-h">🧠 Inside ${esc(s.name)}'s head</div>
+    ${d ? `<p class="sub" style="margin:0 0 10px">Last scan ${rel(d.t)}: looked at <b>${d.looked}</b> game${d.looked === 1 ? '' : 's'}, bet on <b>${d.placed}</b>.</p>` : '<p class="sub">No scan yet. Thoughts appear after the next morning scan.</p>'}
+    ${recent.length ? `<div class="m-sec">Why I bet</div>${recent.map(b => `<div class="thought"><b>${esc(b.pick)} @ ${Number(b.odds).toFixed(2)}</b> <span class="sub">${esc(b.home)} vs ${esc(b.away)}</span>
+        <ol>${b.thoughts.map(t => `<li>${esc(t)}</li>`).join('')}</ol></div>`).join('')}` : ''}
+    ${d && d.passed && d.passed.length ? `<div class="m-sec">What I passed on</div>${d.passed.map(m => `<div class="thought pass"><b>${esc(m.pick)} @ ${Number(m.odds).toFixed(2)}</b> <span class="sub">${esc(m.game)} · ${esc(m.book)}</span>
+        <div>${esc(m.reason)}</div></div>`).join('')}` : ''}
+    ${(s.lessons || []).length ? `<div class="m-sec">What I've learned</div>${s.lessons.map(l => `<div class="thought">${l.kind === 'avoid' ? '✕' : '▲'} ${esc(l.text)} <span class="sub">${esc(l.detail)}</span></div>`).join('')}` : ''}
+  </div>`;
+}
+
+function lessonsCard(s) {
+  const L = s.lessons || [];
+  return `<section class="card"><h2>What ${esc(s.name)} has learned</h2>
+    ${L.length ? `<ul class="lessons">${L.map(l => `<li class="${l.kind}"><span class="li-icon" aria-hidden="true">${l.kind === 'avoid' ? '✕' : '▲'}</span>
+        <span><b>${esc(l.text)}</b><small>${esc(l.detail)}</small></span></li>`).join('')}</ul>`
+      : `<div class="empty">Still studying. After 15 measured bets of one kind (league, bet type, odds range) it starts cutting what loses to the market and backing what beats it.</div>`}
+  </section>`;
+}
+
 function pastCard() {
-  if (!backtest || !backtest.strategies[current]) return '';
-  const s = backtest.strategies[current], t = s.total;
+  const key = data.strategies[current].backtest;
+  if (!backtest || !key || !backtest.strategies[key]) return '';
+  const s = backtest.strategies[key], t = s.total;
   const good = (s.by_league || []).filter(r => r.verdict === 'promising').map(r => r.name);
   return `<section class="card"><h2>What history says</h2>
     <p style="margin:0 0 12px">We replayed the same rules on <b>${backtest.matches.toLocaleString()} real football matches</b> from past seasons.
@@ -352,7 +460,7 @@ function pastCard() {
 function spark(s) {
   const pts = s.history || [];
   if (pts.length < 2) return '';
-  const vals = pts.map(p => p.fund), lo = Math.min(...vals, data.start_fund), hi = Math.max(...vals, data.start_fund), W = 300, H = 100;
+  const st = s.start_fund || data.start_fund, vals = pts.map(p => p.fund), lo = Math.min(...vals, st), hi = Math.max(...vals, st), W = 300, H = 100;
   const x = i => i / (pts.length - 1) * W, y = v => H - 8 - (v - lo) / ((hi - lo) || 1) * (H - 24);
   let d = `M0,${y(vals[0])}`; vals.forEach((v, i) => { if (i) d += ` H${x(i)} V${y(v)}`; });
   return `<svg class="spark" viewBox="0 0 ${W} ${H}" preserveAspectRatio="none" aria-hidden="true">
@@ -363,13 +471,14 @@ function spark(s) {
 let chartState = null;
 function chart() {
   const W = Math.round(Math.min(800, Math.max(330, document.querySelector('main').clientWidth - 38))), H = W < 500 ? 210 : 250, L = 40, R = W < 500 ? 96 : 116, T = 12, B = 28;
-  const series = ['all', 'betfair'].filter(k => data.strategies[k]).map(k => ({ k, name: NAMES[k], pts: data.strategies[k].history.map(p => ({ t: +new Date(p.t), v: p.fund })) })).filter(s => s.pts.length);
+  const series = order().map(k => ({ k, name: nameOf(k), pts: data.strategies[k].history.map(p => ({ t: +new Date(p.t), v: p.fund })) })).filter(s => s.pts.length);
   const all = series.flatMap(s => s.pts);
   const legend = `<div class="legend">${series.map(s => `<span><span class="sw" style="background:${COLORS[s.k]}"></span>${s.name}</span>`).join('')}<span><svg aria-hidden="true"><line x1="0" y1="3" x2="18" y2="3" stroke="var(--muted)" stroke-dasharray="3 3"/></svg>Start</span></div>`;
   if (all.length < 3) return legend + '<div class="empty">The line grows as results come in.</div>';
   let t0 = Math.min(...all.map(p => p.t)), t1 = Math.max(Date.now(), ...all.map(p => p.t));
   if (t1 - t0 < 86400000) t0 = t1 - 86400000;
-  let lo = Math.min(data.start_fund, ...all.map(p => p.v)), hi = Math.max(data.start_fund, ...all.map(p => p.v));
+  const base = data.start_fund;
+  let lo = Math.min(base, ...all.map(p => p.v)), hi = Math.max(data.start_fund, ...all.map(p => p.v));
   const pad = Math.max(3, (hi - lo) * .15); lo -= pad; hi += pad;
   const x = t => L + (t - t0) / (t1 - t0) * (W - L - R), y = v => T + (hi - v) / (hi - lo) * (H - T - B);
   let svg = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Pretend money over time"><g class="grid axis-t">`;
@@ -383,7 +492,7 @@ function chart() {
     const on = s.k === current, last = pts[pts.length - 1];
     svg += `<path d="${d}" fill="none" stroke="${COLORS[s.k]}" stroke-width="${on ? 2.5 : 1.5}" stroke-opacity="${on ? 1 : .5}" stroke-linejoin="round"/>
       <circle cx="${x(last.t)}" cy="${y(last.v)}" r="4" fill="${COLORS[s.k]}" stroke="var(--card)" stroke-width="2"/>
-      <text x="${x(last.t) + 8}" y="${y(last.v) + 4}" font-size="12" fill="var(--ink-2)">${s.name.split(' ')[0]} ${money(last.v)}</text>`;
+      <text x="${x(last.t) + 8}" y="${y(last.v) + 4}" font-size="12" fill="var(--ink-2)">${esc(data.strategies[s.k].emoji || s.name)} ${money(last.v)}</text>`;
   }
   svg += `<line id="xh" y1="${T}" y2="${H - B}" stroke="var(--muted)" style="display:none"/><rect id="hit" x="${L}" y="${T}" width="${W - L - R}" height="${H - T - B}" fill="transparent"/></svg>`;
   chartState = { series, t0, t1, W, L, R };
@@ -410,6 +519,7 @@ document.addEventListener('click', e => {
   else if (t.dataset.board) { board = t.dataset.board; ls.set('board', board); }
   else if (t.dataset.past) { past = t.dataset.past; ls.set('past', past); }
   else if ('more' in t.dataset) { showAll = !showAll; }
+  else if ('brain' in t.dataset) { brainOpen = !brainOpen; render(); const m = document.getElementById('mind'); if (m) m.scrollIntoView({ block: 'nearest', behavior: 'smooth' }); document.querySelector('[data-brain]').focus(); return; }
   else return;
   render();
 });
