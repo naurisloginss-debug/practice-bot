@@ -1,0 +1,69 @@
+{
+  "start_fund": 200,
+  "kelly_fraction": 0.25,
+  "max_stake_pct": 3,
+  "min_stake": 0.5,
+  "max_bets_per_day": 20,
+  "max_stake_per_day": 50,
+  "stop_below": 120,
+  "min_edge": 0.02,
+  "max_edge": 0.1,
+  "days_ahead": 3,
+  "scan_hours_utc": [
+    8,
+    16
+  ],
+  "closing_window_minutes": 75,
+  "settle_after_hours": 3,
+  "settle_every_hours": 6,
+  "keep_credits": 1500,
+  "markets": [
+    "h2h",
+    "spreads",
+    "totals"
+  ],
+  "leagues": {
+    "soccer_epl": "Premier League",
+    "soccer_spain_la_liga": "La Liga",
+    "soccer_italy_serie_a": "Serie A",
+    "basketball_nba": "NBA",
+    "basketball_euroleague": "EuroLeague"
+  },
+  "strategies": {
+    "betfair": {
+      "name": "Betfair bot",
+      "about": "Only Betfair Exchange, after its 5% commission. This is what the real bot could do.",
+      "books": [
+        "betfair_ex_eu"
+      ]
+    },
+    "all": {
+      "name": "All bookmakers",
+      "about": "Best price at any bookmaker. Shows how much value exists if you bet by hand.",
+      "books": "all"
+    }
+  },
+  "commission": {
+    "betfair_ex_eu": 0.05,
+    "matchbook": 0.02
+  },
+  "exclude_books": [
+    "onexbet"
+  ],
+  "daily_credit_budget": 550,
+  "sport_groups": [
+    "Soccer",
+    "Basketball",
+    "Tennis",
+    "Ice Hockey",
+    "American Football",
+    "Mixed Martial Arts",
+    "Boxing",
+    "Baseball",
+    "Rugby League",
+    "Rugby Union",
+    "Aussie Rules",
+    "Cricket"
+  ],
+  "skip_competitions": []
+}

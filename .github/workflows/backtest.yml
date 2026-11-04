@@ -1,0 +1,35 @@
+name: Past seasons test
+
+on:
+  workflow_dispatch:          # run by hand from the Actions tab
+  schedule:
+    - cron: "41 3 * * 1"      # and every Monday, to add the latest matches
+
+permissions:
+  contents: write
+
+concurrency: bot
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install openpyxl
+
+      - name: Replay past seasons
+        run: python backtest.py
+
+      - name: Save results
+        run: |
+          git config user.name "practice-bot"
+          git config user.email "practice-bot@users.noreply.github.com"
+          git add docs/backtest.json
+          git diff --cached --quiet || git commit -m "Past seasons test $(date -u +%Y-%m-%d)"
+          git pull --rebase --quiet && git push

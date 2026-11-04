@@ -1,0 +1,49 @@
+name: Practice bot
+
+on:
+  schedule:
+    - cron: "23 * * * *"   # every hour, at :23
+  workflow_dispatch:         # lets you run it by hand from the Actions tab
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency: bot
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run the bot
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+        run: python bot.py
+
+      - name: Save results
+        run: |
+          git config user.name "practice-bot"
+          git config user.email "practice-bot@users.noreply.github.com"
+          git add data docs
+          git diff --cached --quiet || git commit -m "Bot update $(date -u +%Y-%m-%dT%H:%MZ)"
+          git pull --rebase --quiet && git push
+
+      - name: Notify
+        if: hashFiles('notify.md') != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          num=$(gh issue list --label bot --state open --json number -q '.[0].number')
+          if [ -z "$num" ]; then
+            gh label create bot --color 1D76DB --force
+            gh issue create --title "Bot updates" --label bot --body "The bot comments here when it places a bet or a result comes in. Watch this issue to get emails."
+            num=$(gh issue list --label bot --state open --json number -q '.[0].number')
+          fi
+          gh issue comment "$num" --body-file notify.md

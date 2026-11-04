@@ -1,0 +1,353 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Practice Bot</title>
+<style>
+  :root {
+    --bg: #f4f3ef; --surface: #fcfcfb; --ink: #1b1a17; --ink-2: #55534d; --muted: #77746c; --line: #e4e1da;
+    --s1: #2a78d6; --s2: #eb6834;
+    --good: #0b7a3b; --good-bg: #e3f4e8; --warn: #8a5a00; --warn-bg: #fbf0d6; --bad: #b42318; --bad-bg: #fbe5e2;
+    --neutral-bg: #eeece6;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #121211; --surface: #1a1a19; --ink: #f0efec; --ink-2: #c3c2b7; --muted: #9a988f; --line: #2e2d2a;
+      --s1: #3987e5; --s2: #d95926;
+      --good: #5fd08b; --good-bg: #133222; --warn: #f0c060; --warn-bg: #352a10; --bad: #ff8a80; --bad-bg: #3a1714;
+      --neutral-bg: #252422;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink);
+    font: 15px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 880px; margin: 0 auto; padding: 20px 16px 48px; }
+  header { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; margin-bottom: 16px; }
+  h1 { font-size: 22px; margin: 0; letter-spacing: -0.01em; }
+  .pill { font-size: 12px; font-weight: 600; padding: 3px 10px; border-radius: 999px; background: var(--warn-bg); color: var(--warn); }
+  .updated { font-size: 13px; color: var(--muted); }
+  .seg { display: inline-flex; background: var(--neutral-bg); border-radius: 10px; padding: 3px; margin-bottom: 16px; }
+  .seg button { font: inherit; font-size: 14px; font-weight: 600; border: 0; background: transparent; color: var(--ink-2);
+    padding: 7px 14px; border-radius: 8px; cursor: pointer; display: flex; align-items: center; gap: 8px; }
+  .seg button[aria-pressed="true"] { background: var(--surface); color: var(--ink); box-shadow: 0 1px 2px rgba(0,0,0,.08); }
+  .swatch { width: 10px; height: 10px; border-radius: 3px; display: inline-block; }
+  :focus-visible { outline: 2px solid var(--s1); outline-offset: 2px; }
+  .card { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 16px; margin-bottom: 14px; }
+  .hero { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+  @media (max-width: 620px) { .hero { grid-template-columns: 1fr; } }
+  .label { font-size: 13px; color: var(--muted); }
+  .big { font-size: 40px; font-weight: 750; letter-spacing: -0.02em; line-height: 1.1; margin: 4px 0; font-variant-numeric: tabular-nums; }
+  .delta { font-weight: 600; font-variant-numeric: tabular-nums; }
+  .pos { color: var(--good); } .neg { color: var(--bad); }
+  .verdict { border-radius: 14px; padding: 16px; display: flex; gap: 12px; align-items: flex-start; }
+  .verdict .icon { font-size: 22px; line-height: 1; margin-top: 2px; }
+  .verdict b { display: block; font-size: 18px; margin-bottom: 2px; }
+  .verdict p { margin: 0; font-size: 14px; color: var(--ink-2); }
+  .v-good { background: var(--good-bg); } .v-good b { color: var(--good); }
+  .v-warn { background: var(--warn-bg); } .v-warn b { color: var(--warn); }
+  .v-bad { background: var(--bad-bg); } .v-bad b { color: var(--bad); }
+  .v-neutral { background: var(--neutral-bg); }
+  .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; }
+  @media (max-width: 620px) { .stats { grid-template-columns: repeat(2, 1fr); } }
+  .stat { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 12px; }
+  .stat b { display: block; font-size: 22px; font-variant-numeric: tabular-nums; }
+  .stat small { color: var(--muted); font-size: 12px; }
+  h2 { font-size: 16px; margin: 0 0 10px; }
+  .legend { display: flex; gap: 16px; font-size: 13px; color: var(--ink-2); margin-bottom: 6px; flex-wrap: wrap; }
+  .legend span { display: flex; align-items: center; gap: 6px; }
+  .legend svg { width: 18px; height: 6px; display: inline-block; }
+  .chartwrap { position: relative; }
+  svg { display: block; width: 100%; height: auto; overflow: visible; }
+  .axis text { fill: var(--muted); font-size: 11px; }
+  .grid line { stroke: var(--line); }
+  .tip { position: absolute; pointer-events: none; background: var(--ink); color: var(--surface); font-size: 12px; padding: 6px 9px;
+    border-radius: 8px; white-space: nowrap; transform: translate(-50%, -110%); display: none; }
+  .bet { display: grid; grid-template-columns: 1fr auto; gap: 4px 12px; padding: 12px 0; border-top: 1px solid var(--line); }
+  .bet:first-of-type { border-top: 0; }
+  .bet .what { font-weight: 600; }
+  .bet .meta { font-size: 13px; color: var(--muted); }
+  .bet .right { text-align: right; font-variant-numeric: tabular-nums; }
+  .chip { font-size: 12px; font-weight: 700; padding: 2px 8px; border-radius: 999px; display: inline-block; }
+  .c-won { background: var(--good-bg); color: var(--good); } .c-lost { background: var(--bad-bg); color: var(--bad); }
+  .c-open, .c-void { background: var(--neutral-bg); color: var(--ink-2); }
+  .empty { color: var(--muted); font-size: 14px; padding: 8px 0; }
+  details summary { cursor: pointer; font-weight: 600; }
+  .log { font-size: 13px; color: var(--ink-2); white-space: pre-wrap; margin: 8px 0 0; }
+  .log div { padding: 6px 0; border-top: 1px solid var(--line); }
+  footer { font-size: 12px; color: var(--muted); margin-top: 18px; }
+  table.rank { width: 100%; border-collapse: collapse; font-size: 14px; font-variant-numeric: tabular-nums; }
+  table.rank th { text-align: right; font-size: 12px; color: var(--muted); font-weight: 600; padding: 6px 8px; border-bottom: 1px solid var(--line); }
+  table.rank td { text-align: right; padding: 7px 8px; border-bottom: 1px solid var(--line); white-space: nowrap; }
+  table.rank th:first-child, table.rank td:first-child { text-align: left; white-space: normal; }
+  .scroll { overflow-x: auto; }
+  @media (max-width: 620px) { table.rank th, table.rank td { padding: 6px 4px; font-size: 13px; } }
+  .c-promising { background: var(--good-bg); color: var(--good); } .c-noedge { background: var(--bad-bg); color: var(--bad); }
+  .c-unclear { background: var(--warn-bg); color: var(--warn); } .c-few { background: var(--neutral-bg); color: var(--ink-2); }
+  .tabs2 { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 10px; }
+  .tabs2 button { font: inherit; font-size: 13px; border: 1px solid var(--line); background: transparent; color: var(--ink-2); border-radius: 999px; padding: 4px 12px; cursor: pointer; }
+  .tabs2 button[aria-pressed="true"] { background: var(--ink); color: var(--surface); border-color: var(--ink); }
+  .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap">
+      <h1>Practice bot</h1><span class="pill">Pretend money · no real bets</span>
+    </div>
+    <span class="updated" id="updated">Loading…</span>
+  </header>
+
+  <div class="seg" role="group" aria-label="Strategy" id="seg"></div>
+
+  <div id="app"><div class="card empty">Loading…</div></div>
+</main>
+
+<script>
+const COLORS = { betfair: 'var(--s1)', all: 'var(--s2)' };
+let data = null, backtest = null;
+let current = (() => { try { return localStorage.getItem('strategy') || 'betfair'; } catch (e) { return 'betfair'; } })();
+
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+const money = n => Number(n).toFixed(2);
+const signed = n => (n > 0 ? '+' : n < 0 ? '−' : '') + money(Math.abs(n));
+const pct = n => (n > 0 ? '+' : n < 0 ? '−' : '') + Math.abs(n * 100).toFixed(1) + '%';
+const when = t => new Date(t).toLocaleString(undefined, { weekday: 'short', day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' });
+function ago(t) {
+  const m = Math.round((Date.now() - new Date(t)) / 60000);
+  if (m < 1) return 'just now';
+  if (m < 60) return m + ' min ago';
+  const h = Math.round(m / 60);
+  return h < 48 ? h + ' h ago' : Math.round(h / 24) + ' days ago';
+}
+
+async function load() {
+  try {
+    const res = await fetch('data.json?t=' + Date.now(), { cache: 'no-store' });
+    data = await res.json();
+    try { const b = await fetch('backtest.json?t=' + Date.now(), { cache: 'no-store' }); if (b.ok) backtest = await b.json(); } catch (e) {}
+    render();
+  } catch (e) {
+    document.getElementById('app').innerHTML = '<div class="card empty">No data yet. The bot fills this in after its first run.</div>';
+  }
+}
+
+function verdict(s) {
+  const need = 30;
+  if (s.clv_count < 10) {
+    return { cls: 'v-neutral', icon: '⏳', title: 'Too early to tell',
+      text: `It needs about ${need} bets with a final price to judge. ${s.clv_count} so far.` };
+  }
+  const beat = s.beat_close, clv = s.avg_clv;
+  if (clv > 0.005 && beat >= 0.55) return { cls: 'v-good', icon: '✓', title: 'Good sign',
+    text: `It beat the final price on ${Math.round(beat * 100)}% of bets, by ${pct(clv)} on average. That is what a real edge looks like, even in a losing week.` };
+  if (clv < 0 || beat < 0.45) return { cls: 'v-bad', icon: '✕', title: 'Not working so far',
+    text: `It beat the final price on only ${Math.round(beat * 100)}% of bets (${pct(clv)} on average). Do not switch to real money with these settings.` };
+  return { cls: 'v-warn', icon: '!', title: 'Unclear',
+    text: `It beat the final price on ${Math.round(beat * 100)}% of bets (${pct(clv)} on average). Give it more bets before deciding.` };
+}
+
+function renderSeg() {
+  document.getElementById('seg').innerHTML = Object.entries(data.strategies).map(([k, s]) =>
+    `<button type="button" data-k="${k}" aria-pressed="${k === current}"><span class="swatch" style="background:${COLORS[k]}"></span>${esc(s.name)}</button>`).join('');
+}
+document.getElementById('seg').addEventListener('click', e => {
+  const b = e.target.closest('button');
+  if (!b) return;
+  current = b.dataset.k;
+  try { localStorage.setItem('strategy', current); } catch (err) {}
+  render();
+});
+
+function render() {
+  if (!data.strategies[current]) current = Object.keys(data.strategies)[0];
+  renderSeg();
+  document.getElementById('updated').textContent = 'Updated ' + ago(data.updated);
+  const s = data.strategies[current];
+  const change = s.fund - data.start_fund;
+  const v = verdict(s);
+  const mine = data.bets.filter(b => b.strategy === current);
+  const open = mine.filter(b => b.status === 'open').sort((a, b) => a.start.localeCompare(b.start));
+  const done = mine.filter(b => b.status !== 'open').sort((a, b) => (b.settled_at || '').localeCompare(a.settled_at || ''));
+
+  let html = `<div class="hero">
+    <div class="card" style="margin:0">
+      <div class="label">Practice fund · ${esc(s.name)}</div>
+      <div class="big">${money(s.fund)}</div>
+      <div class="delta ${change > 0 ? 'pos' : change < 0 ? 'neg' : ''}">${signed(change)} (${pct(change / data.start_fund)}) since start of ${money(data.start_fund)}</div>
+      <div class="label" style="margin-top:8px">${esc(s.about)}</div>
+    </div>
+    <div class="verdict ${v.cls}"><span class="icon" aria-hidden="true">${v.icon}</span>
+      <div><span class="label">Is it working?</span><b>${v.title}</b><p>${v.text}</p></div></div>
+  </div>
+
+  <div class="stats" style="margin:14px 0">
+    <div class="stat"><small>Bets</small><b>${s.bets}</b><small>${s.open} waiting for result</small></div>
+    <div class="stat"><small>Won – lost</small><b>${s.won} – ${s.lost}</b><small>${s.won + s.lost ? Math.round(s.won / (s.won + s.lost) * 100) + '% won' : 'no results yet'}</small></div>
+    <div class="stat"><small>Return on stakes</small><b class="${s.roi > 0 ? 'pos' : s.roi < 0 ? 'neg' : ''}">${s.roi == null ? '–' : pct(s.roi)}</b><small>${money(s.staked)} staked</small></div>
+    <div class="stat"><small>Price vs final price</small><b class="${s.avg_clv > 0 ? 'pos' : s.avg_clv < 0 ? 'neg' : ''}">${s.avg_clv == null ? '–' : pct(s.avg_clv)}</b><small>the best early sign</small></div>
+  </div>
+
+  <div class="card"><h2>Practice fund over time</h2>${chart()}</div>
+
+  ${whereItWorks(s)}
+  ${pastSeasons()}
+
+  <div class="card"><h2>Waiting for result (${open.length})</h2>${open.length ? open.map(betRow).join('') : '<div class="empty">No open bets. The bot looks for new ones once a day.</div>'}</div>
+  <div class="card"><h2>Results</h2>${done.length ? done.slice(0, 30).map(betRow).join('') : '<div class="empty">No results yet.</div>'}</div>
+
+  <div class="card"><details><summary>Bot activity</summary><div class="log">${
+    (data.log || []).slice().reverse().map(l => `<div><span class="label">${when(l.t)}</span>\n${esc(l.text.replace(/\*\*/g, ''))}</div>`).join('') || '<div>Nothing yet.</div>'
+  }</div></details></div>
+  <footer>Odds credits left this month: ${data.credits_left ?? '–'} · Last scan: ${data.last_scan ?? 'not yet'} · The page refreshes itself every 5 minutes.</footer>`;
+  document.getElementById('app').innerHTML = html;
+  wireChart();
+}
+
+// ---------- "what works" tables ----------
+const VERDICT = {
+  promising: ['c-promising', '✓ Good'], 'no edge': ['c-noedge', '✕ No edge'],
+  unclear: ['c-unclear', '! Unclear'], 'too few bets': ['c-few', 'Too few']
+};
+function liveVerdict(r) {
+  if (r.clv_count < 15) return 'too few bets';
+  if (r.avg_clv > 0.01 && r.beat_close >= 0.55) return 'promising';
+  if (r.avg_clv < 0 || r.beat_close < 0.45) return 'no edge';
+  return 'unclear';
+}
+function rankTable(rows, live) {
+  if (!rows || !rows.length) return '<div class="empty">No bets yet.</div>';
+  return `<div class="scroll"><table class="rank"><thead><tr><th></th><th>Bets</th><th>Return</th><th>vs final</th><th>Verdict</th></tr></thead><tbody>${
+    rows.map(r => {
+      const v = live ? liveVerdict(r) : r.verdict;
+      const [cls, label] = VERDICT[v] || VERDICT['too few bets'];
+      return `<tr><td>${esc(r.name)}</td><td>${r.bets}</td>
+        <td class="${r.roi > 0 ? 'pos' : r.roi < 0 ? 'neg' : ''}">${r.roi == null ? '–' : pct(r.roi)}</td>
+        <td class="${r.avg_clv > 0 ? 'pos' : r.avg_clv < 0 ? 'neg' : ''}">${r.avg_clv == null ? '–' : pct(r.avg_clv)}</td>
+        <td><span class="chip ${cls}">${label}</span></td></tr>`;
+    }).join('')}</tbody></table></div>`;
+}
+let breakdown = (() => { try { return localStorage.getItem('breakdown') || 'by_sport'; } catch (e) { return 'by_sport'; } })();
+let btView = (() => { try { return localStorage.getItem('btView') || 'by_league'; } catch (e) { return 'by_league'; } })();
+const VIEWS = [['by_sport', 'Sport'], ['by_league', 'League'], ['by_market', 'Bet type']];
+function viewButtons(attr, active, list) {
+  return `<div class="tabs2" role="group">${list.map(([k, l]) => `<button type="button" ${attr}="${k}" aria-pressed="${k === active}">${l}</button>`).join('')}</div>`;
+}
+function whereItWorks(s) {
+  return `<div class="card"><h2>Where it works (live practice)</h2>
+    ${viewButtons('data-bd', breakdown, VIEWS)}
+    ${rankTable(s[breakdown], true)}
+    <p class="label" style="margin-top:8px">Sorted by "vs final price", the most reliable early sign. A verdict needs at least 15 bets with a final price.</p></div>`;
+}
+function pastSeasons() {
+  if (!backtest) return `<div class="card"><h2>Past seasons test</h2><div class="empty">Not run yet.</div></div>`;
+  const s = backtest.strategies[current];
+  const t = s.total;
+  const [cls, label] = VERDICT[t.verdict] || VERDICT['too few bets'];
+  return `<div class="card"><h2>Past seasons test · ${esc(s.name)}</h2>
+    <p class="label" style="margin:0 0 10px">${backtest.matches.toLocaleString()} real matches replayed (football ${backtest.seasons[0].slice(0, 2)}/${backtest.seasons[0].slice(2)} to now, tennis ${'2024'}–now), 1 unit per bet.
+      Football compares with Pinnacle's final price. Tennis data has no final price, so only its return counts, and that needs many bets.</p>
+    <div class="stats" style="margin-bottom:12px">
+      <div class="stat"><small>Bets</small><b>${t.bets.toLocaleString()}</b></div>
+      <div class="stat"><small>Return</small><b class="${t.roi > 0 ? 'pos' : t.roi < 0 ? 'neg' : ''}">${t.roi == null ? '–' : pct(t.roi)}</b></div>
+      <div class="stat"><small>vs final price</small><b class="${t.avg_clv > 0 ? 'pos' : t.avg_clv < 0 ? 'neg' : ''}">${t.avg_clv == null ? '–' : pct(t.avg_clv)}</b></div>
+      <div class="stat"><small>Verdict</small><b><span class="chip ${cls}">${label}</span></b></div>
+    </div>
+    ${viewButtons('data-bt', btView, VIEWS.concat([['by_season', 'Season']]))}
+    ${rankTable(s[btView], false)}
+    <p class="label" style="margin-top:8px">Run on ${when(backtest.generated)}. Bookmakers compared: ${esc(backtest.bookmakers.join(', '))}.</p></div>`;
+}
+document.addEventListener('click', e => {
+  const bd = e.target.closest('[data-bd]'), bt = e.target.closest('[data-bt]');
+  if (bd) { breakdown = bd.dataset.bd; try { localStorage.setItem('breakdown', breakdown); } catch (err) {} render(); }
+  if (bt) { btView = bt.dataset.bt; try { localStorage.setItem('btView', btView); } catch (err) {} render(); }
+});
+
+function betRow(b) {
+  const right = b.status === 'open'
+    ? `<span class="chip c-open">Open</span><div class="meta">stake ${money(b.stake)}</div>`
+    : `<span class="chip c-${b.status}">${b.status === 'won' ? 'Won' : b.status === 'lost' ? 'Lost' : 'Void'}</span><div class="${b.profit > 0 ? 'pos' : b.profit < 0 ? 'neg' : 'meta'}">${signed(b.profit)}</div>`;
+  const clv = b.clv == null ? '' : ` · vs final price ${pct(b.clv)}`;
+  return `<div class="bet"><div>
+      <div class="what">${esc(b.pick)} @ ${Number(b.odds).toFixed(2)} <span class="meta">${esc(b.market_name || '')}</span></div>
+      <div class="meta">${esc(b.game)} · ${esc(b.league)} · ${when(b.start)}</div>
+      <div class="meta">${esc(b.book)} · edge ${pct(b.edge)}${clv}${b.score ? ' · ' + esc(b.score) : ''}</div>
+    </div><div class="right">${right}</div></div>`;
+}
+
+// ---------- chart: practice fund over time, one line per strategy ----------
+let chartState = null;
+function chart() {
+  const W = Math.round(Math.min(800, Math.max(330, document.querySelector('main').clientWidth - 34))), H = W < 500 ? 220 : 260, L = 40, R = W < 500 ? 92 : 110, T = 12, B = 28;
+  const series = Object.entries(data.strategies).map(([k, s]) => ({ k, name: s.name, pts: s.history.map(p => ({ t: +new Date(p.t), v: p.fund })) }))
+    .filter(s => s.pts.length);
+  const all = series.flatMap(s => s.pts);
+  const legend = `<div class="legend">${Object.entries(data.strategies).map(([k, s]) => `<span><span class="swatch" style="background:${COLORS[k]}"></span>${esc(s.name)}</span>`).join('')}
+    <span><svg width="18" height="6" aria-hidden="true"><line x1="0" y1="3" x2="18" y2="3" stroke="var(--muted)" stroke-dasharray="3 3"/></svg>Start (${money(data.start_fund)})</span></div>`;
+  if (all.length < 2) return legend + '<div class="empty">The line appears after the first results come in.</div>';
+  let t0 = Math.min(...all.map(p => p.t)), t1 = Math.max(...all.map(p => p.t), Date.now());
+  if (t1 - t0 < 86400000) t0 = t1 - 86400000;
+  let lo = Math.min(data.start_fund, ...all.map(p => p.v)), hi = Math.max(data.start_fund, ...all.map(p => p.v));
+  const pad = Math.max(5, (hi - lo) * 0.15); lo -= pad; hi += pad;
+  const x = t => L + (t - t0) / (t1 - t0) * (W - L - R);
+  const y = v => T + (hi - v) / (hi - lo) * (H - T - B);
+  const ticks = 4, step = (hi - lo) / ticks;
+  let svg = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Practice fund over time for each strategy">`;
+  svg += '<g class="grid axis">';
+  for (let i = 0; i <= ticks; i++) {
+    const v = lo + step * i;
+    svg += `<line x1="${L}" x2="${W - R}" y1="${y(v)}" y2="${y(v)}"/><text x="${L - 6}" y="${y(v) + 4}" text-anchor="end">${Math.round(v)}</text>`;
+  }
+  const nx = W < 500 ? 2 : 3;
+  for (let i = 0; i <= nx; i++) {
+    const t = t0 + (t1 - t0) * i / nx;
+    svg += `<text x="${x(t)}" y="${H - 8}" text-anchor="${i === 0 ? 'start' : i === nx ? 'end' : 'middle'}">${new Date(t).toLocaleDateString(undefined, { day: 'numeric', month: 'short' })}</text>`;
+  }
+  svg += '</g>';
+  svg += `<line x1="${L}" x2="${W - R}" y1="${y(data.start_fund)}" y2="${y(data.start_fund)}" stroke="var(--muted)" stroke-dasharray="4 4"/>`;
+  for (const s of series) {
+    // Step line: the fund only changes when a bet settles. Extend to now.
+    const pts = s.pts.concat([{ t: t1, v: s.pts[s.pts.length - 1].v }]);
+    let d = `M${x(pts[0].t)},${y(pts[0].v)}`;
+    for (let i = 1; i < pts.length; i++) d += ` H${x(pts[i].t)} V${y(pts[i].v)}`;
+    svg += `<path d="${d}" fill="none" stroke="${COLORS[s.k]}" stroke-width="${s.k === current ? 2.5 : 1.5}" stroke-opacity="${s.k === current ? 1 : 0.55}" stroke-linejoin="round"/>`;
+    const last = pts[pts.length - 1];
+    svg += `<circle cx="${x(last.t)}" cy="${y(last.v)}" r="4" fill="${COLORS[s.k]}" stroke="var(--surface)" stroke-width="2"/>`;
+    svg += `<text x="${x(last.t) + 8}" y="${y(last.v) + 4}" font-size="12" fill="var(--ink-2)">${esc(s.name.split(' ')[0])} ${money(last.v)}</text>`;
+  }
+  svg += `<line id="xh" y1="${T}" y2="${H - B}" stroke="var(--muted)" stroke-width="1" style="display:none"/>`;
+  svg += `<rect id="hit" x="${L}" y="${T}" width="${W - L - R}" height="${H - T - B}" fill="transparent"/></svg>`;
+  chartState = { series, x, t0, t1, W, L, R };
+  // Table view for screen readers.
+  const table = `<table class="sr"><caption>Practice fund after each result</caption><tr><th>Strategy</th><th>Time</th><th>Fund</th></tr>${
+    series.flatMap(s => s.pts.map(p => `<tr><td>${esc(s.name)}</td><td>${when(p.t)}</td><td>${money(p.v)}</td></tr>`)).join('')}</table>`;
+  return legend + `<div class="chartwrap">${svg}<div class="tip" id="tip"></div></div>` + table;
+}
+
+function wireChart() {
+  const hit = document.getElementById('hit');
+  if (!hit || !chartState) return;
+  const svg = hit.ownerSVGElement, tip = document.getElementById('tip'), xh = document.getElementById('xh');
+  const { series, x, t0, t1, W, L, R } = chartState;
+  const valueAt = (pts, t) => { let v = pts[0].v; for (const p of pts) { if (p.t <= t) v = p.v; } return v; };
+  hit.addEventListener('pointermove', e => {
+    const box = svg.getBoundingClientRect();
+    const px = (e.clientX - box.left) / box.width * W;
+    const t = t0 + (px - L) / (W - L - R) * (t1 - t0);
+    if (t < t0 || t > t1) return;
+    xh.setAttribute('x1', px); xh.setAttribute('x2', px); xh.style.display = '';
+    tip.innerHTML = `<b>${new Date(t).toLocaleDateString(undefined, { day: 'numeric', month: 'short' })}</b><br>` +
+      series.map(s => `<span class="swatch" style="background:${COLORS[s.k]}"></span> ${esc(s.name)}: ${money(valueAt(s.pts, t))}`).join('<br>');
+    tip.style.display = 'block';
+    tip.style.left = (px / W * box.width) + 'px';
+    tip.style.top = '20px';
+  });
+  hit.addEventListener('pointerleave', () => { tip.style.display = 'none'; xh.style.display = 'none'; });
+}
+
+load();
+setInterval(load, 5 * 60 * 1000);
+</script>
+</body>
+</html>
