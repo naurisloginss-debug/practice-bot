@@ -43,7 +43,7 @@ jobs:
           num=$(gh issue list --label bot --state open --json number -q '.[0].number')
           if [ -z "$num" ]; then
             gh label create bot --color 1D76DB --force
-            gh issue create --title "Bot updates" --label bot --body "The bot comments here when it places a bet or a result comes in. Watch this issue to get emails."
-            num=$(gh issue list --label bot --state open --json number -q '.[0].number')
+            url=$(gh issue create --title "Bot updates" --label bot --body "The bot comments here when it places a bet or a result comes in. Watch this issue to get emails.")
+            num=${url##*/}
           fi
           gh issue comment "$num" --body-file notify.md
