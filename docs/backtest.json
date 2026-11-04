@@ -1,0 +1,646 @@
+{
+  "generated": "2026-11-04T12:40:58Z",
+  "matches": 21695,
+  "files": [
+    "E0-2324",
+    "E0-2425",
+    "E0-2526",
+    "E0-2627",
+    "E1-2324",
+    "E1-2425",
+    "E1-2526",
+    "E1-2627",
+    "E2-2324",
+    "E2-2425",
+    "E2-2526",
+    "E2-2627",
+    "E3-2324",
+    "E3-2425",
+    "E3-2526",
+    "E3-2627",
+    "SC0-2324",
+    "SC0-2425",
+    "SC0-2526",
+    "SC0-2627",
+    "D1-2324",
+    "D1-2425",
+    "D1-2526",
+    "D1-2627",
+    "D2-2324",
+    "D2-2425",
+    "D2-2526",
+    "D2-2627",
+    "I1-2324",
+    "I1-2425",
+    "I1-2526",
+    "I1-2627",
+    "I2-2324",
+    "I2-2425",
+    "I2-2526",
+    "I2-2627",
+    "SP1-2324",
+    "SP1-2425",
+    "SP1-2526",
+    "SP1-2627",
+    "SP2-2324",
+    "SP2-2425",
+    "SP2-2526",
+    "SP2-2627",
+    "F1-2324",
+    "F1-2425",
+    "F1-2526",
+    "F1-2627",
+    "F2-2324",
+    "F2-2425",
+    "F2-2526",
+    "F2-2627",
+    "N1-2324",
+    "N1-2425",
+    "N1-2526",
+    "N1-2627",
+    "B1-2324",
+    "B1-2425",
+    "B1-2526",
+    "B1-2627",
+    "P1-2324",
+    "P1-2425",
+    "P1-2526",
+    "P1-2627",
+    "T1-2324",
+    "T1-2425",
+    "T1-2526",
+    "T1-2627",
+    "G1-2324",
+    "G1-2425",
+    "G1-2526",
+    "G1-2627"
+  ],
+  "seasons": [
+    "2324",
+    "2425",
+    "2526",
+    "2627"
+  ],
+  "min_edge": 0.02,
+  "bookmakers": [
+    "BetVictor",
+    "Betfair Sportsbook",
+    "Interwetten",
+    "Ladbrokes",
+    "William Hill",
+    "bet365",
+    "bwin"
+  ],
+  "odds_keys": {
+    "Premier League": "soccer_epl",
+    "Championship (England 2)": "soccer_efl_champ",
+    "League One (England 3)": "soccer_england_league1",
+    "League Two (England 4)": "soccer_england_league2",
+    "Scottish Premiership": "soccer_spl",
+    "Bundesliga": "soccer_germany_bundesliga",
+    "2. Bundesliga": "soccer_germany_bundesliga2",
+    "Serie A": "soccer_italy_serie_a",
+    "Serie B": "soccer_italy_serie_b",
+    "La Liga": "soccer_spain_la_liga",
+    "La Liga 2": "soccer_spain_segunda_division",
+    "Ligue 1": "soccer_france_ligue_one",
+    "Ligue 2": "soccer_france_ligue_two",
+    "Eredivisie": "soccer_netherlands_eredivisie",
+    "Belgian Pro League": "soccer_belgium_first_div",
+    "Primeira Liga": "soccer_portugal_primeira_liga",
+    "Süper Lig": "soccer_turkey_super_league",
+    "Greek Super League": "soccer_greece_super_league"
+  },
+  "strategies": {
+    "betfair": {
+      "name": "Betfair bot",
+      "total": {
+        "bets": 1059,
+        "roi": -0.0908,
+        "profit_units": -96.14,
+        "avg_edge": 0.0476,
+        "avg_clv": 0.0088,
+        "beat_close": 0.5175,
+        "verdict": "unclear"
+      },
+      "by_league": [
+        {
+          "name": "Belgian Pro League",
+          "bets": 45,
+          "roi": -0.145,
+          "profit_units": -6.52,
+          "avg_edge": 0.0508,
+          "avg_clv": 0.0278,
+          "beat_close": 0.4667,
+          "verdict": "too few bets"
+        },
+        {
+          "name": "League Two (England 4)",
+          "bets": 37,
+          "roi": -0.1103,
+          "profit_units": -4.08,
+          "avg_edge": 0.0382,
+          "avg_clv": 0.0232,
+          "beat_close": 0.7027,
+          "verdict": "too few bets"
+        },
+        {
+          "name": "La Liga 2",
+          "bets": 32,
+          "roi": 0.0544,
+          "profit_units": 1.74,
+          "avg_edge": 0.0436,
+          "avg_clv": 0.0226,
+          "beat_close": 0.5938,
+          "verdict": "too few bets"
+        },
+        {
+          "name": "Serie B",
+          "bets": 11,
+          "roi": -0.2382,
+          "profit_units": -2.62,
+          "avg_edge": 0.0461,
+          "avg_clv": 0.0179,
+          "beat_close": 0.5455,
+          "verdict": "too few bets"
+        },
+        {
+          "name": "La Liga",
+          "bets": 98,
+          "roi": -0.1077,
+          "profit_units": -10.56,
+          "avg_edge": 0.0472,
+          "avg_clv": 0.0179,
+          "beat_close": 0.4592,
+          "verdict": "unclear"
+        },
+        {
+          "name": "Premier League",
+          "bets": 100,
+          "roi": -0.1467,
+          "profit_units": -14.67,
+          "avg_edge": 0.0487,
+          "avg_clv": 0.015,
+          "beat_close": 0.52,
+          "verdict": "unclear"
+        },
+        {
+          "name": "Ligue 1",
+          "bets": 52,
+          "roi": -0.1182,
+          "profit_units": -6.14,
+          "avg_edge": 0.044,
+          "avg_clv": 0.0131,
+          "beat_close": 0.5769,
+          "verdict": "too few bets"
+        },
+        {
+          "name": "Bundesliga",
+          "bets": 71,
+          "roi": -0.3099,
+          "profit_units": -22.0,
+          "avg_edge": 0.0484,
+          "avg_clv": 0.013,
+          "beat_close": 0.6197,
+          "verdict": "promising"
+        },
+        {
+          "name": "Eredivisie",
+          "bets": 80,
+          "roi": -0.2795,
+          "profit_units": -22.36,
+          "avg_edge": 0.0528,
+          "avg_clv": 0.0072,
+          "beat_close": 0.5375,
+          "verdict": "unclear"
+        },
+        {
+          "name": "Championship (England 2)",
+          "bets": 87,
+          "roi": 0.0433,
+          "profit_units": 3.77,
+          "avg_edge": 0.0452,
+          "avg_clv": 0.006,
+          "beat_close": 0.5862,
+          "verdict": "unclear"
+        },
+        {
+          "name": "Primeira Liga",
+          "bets": 105,
+          "roi": 0.0002,
+          "profit_units": 0.02,
+          "avg_edge": 0.0507,
+          "avg_clv": 0.0057,
+          "beat_close": 0.4762,
+          "verdict": "unclear"
+        },
+        {
+          "name": "League One (England 3)",
+          "bets": 71,
+          "roi": 0.6408,
+          "profit_units": 45.5,
+          "avg_edge": 0.0408,
+          "avg_clv": 0.0055,
+          "beat_close": 0.507,
+          "verdict": "unclear"
+        },
+        {
+          "name": "Serie A",
+          "bets": 109,
+          "roi": -0.3312,
+          "profit_units": -36.1,
+          "avg_edge": 0.048,
+          "avg_clv": 0.0053,
+          "beat_close": 0.4771,
+          "verdict": "unclear"
+        },
+        {
+          "name": "Süper Lig",
+          "bets": 76,
+          "roi": -0.3941,
+          "profit_units": -29.95,
+          "avg_edge": 0.0481,
+          "avg_clv": -0.0001,
+          "beat_close": 0.4868,
+          "verdict": "no edge"
+        },
+        {
+          "name": "Greek Super League",
+          "bets": 17,
+          "roi": 0.6196,
+          "profit_units": 10.53,
+          "avg_edge": 0.05,
+          "avg_clv": -0.0034,
+          "beat_close": 0.4706,
+          "verdict": "too few bets"
+        },
+        {
+          "name": "Ligue 2",
+          "bets": 15,
+          "roi": -0.566,
+          "profit_units": -8.49,
+          "avg_edge": 0.0473,
+          "avg_clv": -0.0112,
+          "beat_close": 0.4,
+          "verdict": "too few bets"
+        },
+        {
+          "name": "2. Bundesliga",
+          "bets": 22,
+          "roi": -0.2707,
+          "profit_units": -5.96,
+          "avg_edge": 0.0406,
+          "avg_clv": -0.0137,
+          "beat_close": 0.4091,
+          "verdict": "too few bets"
+        },
+        {
+          "name": "Scottish Premiership",
+          "bets": 31,
+          "roi": 0.3794,
+          "profit_units": 11.76,
+          "avg_edge": 0.0594,
+          "avg_clv": -0.021,
+          "beat_close": 0.4194,
+          "verdict": "too few bets"
+        }
+      ],
+      "by_sport": [
+        {
+          "name": "Football",
+          "bets": 1059,
+          "roi": -0.0908,
+          "profit_units": -96.14,
+          "avg_edge": 0.0476,
+          "avg_clv": 0.0088,
+          "beat_close": 0.5175,
+          "verdict": "unclear"
+        }
+      ],
+      "by_market": [
+        {
+          "name": "Total (2.5 goals)",
+          "bets": 35,
+          "roi": -0.2208,
+          "profit_units": -7.73,
+          "avg_edge": 0.0508,
+          "avg_clv": 0.0493,
+          "beat_close": 0.8,
+          "verdict": "too few bets"
+        },
+        {
+          "name": "Asian handicap",
+          "bets": 33,
+          "roi": -0.1014,
+          "profit_units": -3.35,
+          "avg_edge": 0.0406,
+          "avg_clv": 0.0179,
+          "beat_close": 0.6667,
+          "verdict": "too few bets"
+        },
+        {
+          "name": "Winner",
+          "bets": 991,
+          "roi": -0.0858,
+          "profit_units": -85.06,
+          "avg_edge": 0.0477,
+          "avg_clv": 0.0071,
+          "beat_close": 0.5025,
+          "verdict": "unclear"
+        }
+      ],
+      "by_season": [
+        {
+          "name": "2425",
+          "bets": 688,
+          "roi": -0.0432,
+          "profit_units": -29.74,
+          "avg_edge": 0.0476,
+          "avg_clv": 0.0072,
+          "beat_close": 0.4985,
+          "verdict": "unclear"
+        },
+        {
+          "name": "2526",
+          "bets": 371,
+          "roi": -0.179,
+          "profit_units": -66.39,
+          "avg_edge": 0.0475,
+          "avg_clv": 0.012,
+          "beat_close": 0.5526,
+          "verdict": "promising"
+        }
+      ]
+    },
+    "all": {
+      "name": "All bookmakers",
+      "total": {
+        "bets": 1952,
+        "roi": -0.0307,
+        "profit_units": -59.94,
+        "avg_edge": 0.0457,
+        "avg_clv": 0.0071,
+        "beat_close": 0.5369,
+        "verdict": "unclear"
+      },
+      "by_league": [
+        {
+          "name": "Serie B",
+          "bets": 112,
+          "roi": 0.0864,
+          "profit_units": 9.68,
+          "avg_edge": 0.0406,
+          "avg_clv": 0.034,
+          "beat_close": 0.7054,
+          "verdict": "promising"
+        },
+        {
+          "name": "Serie A",
+          "bets": 135,
+          "roi": -0.2978,
+          "profit_units": -40.2,
+          "avg_edge": 0.0511,
+          "avg_clv": 0.0338,
+          "beat_close": 0.5111,
+          "verdict": "unclear"
+        },
+        {
+          "name": "Ligue 1",
+          "bets": 77,
+          "roi": -0.2464,
+          "profit_units": -18.97,
+          "avg_edge": 0.0454,
+          "avg_clv": 0.0311,
+          "beat_close": 0.6234,
+          "verdict": "promising"
+        },
+        {
+          "name": "Championship (England 2)",
+          "bets": 118,
+          "roi": -0.1006,
+          "profit_units": -11.87,
+          "avg_edge": 0.0454,
+          "avg_clv": 0.0291,
+          "beat_close": 0.6017,
+          "verdict": "promising"
+        },
+        {
+          "name": "La Liga 2",
+          "bets": 124,
+          "roi": 0.0966,
+          "profit_units": 11.98,
+          "avg_edge": 0.0397,
+          "avg_clv": 0.0275,
+          "beat_close": 0.6452,
+          "verdict": "promising"
+        },
+        {
+          "name": "League Two (England 4)",
+          "bets": 125,
+          "roi": 0.0042,
+          "profit_units": 0.52,
+          "avg_edge": 0.0397,
+          "avg_clv": 0.0164,
+          "beat_close": 0.632,
+          "verdict": "promising"
+        },
+        {
+          "name": "League One (England 3)",
+          "bets": 125,
+          "roi": 0.2616,
+          "profit_units": 32.7,
+          "avg_edge": 0.0409,
+          "avg_clv": 0.0117,
+          "beat_close": 0.536,
+          "verdict": "unclear"
+        },
+        {
+          "name": "Ligue 2",
+          "bets": 75,
+          "roi": -0.0907,
+          "profit_units": -6.8,
+          "avg_edge": 0.0421,
+          "avg_clv": 0.0089,
+          "beat_close": 0.6,
+          "verdict": "unclear"
+        },
+        {
+          "name": "Greek Super League",
+          "bets": 150,
+          "roi": 0.1257,
+          "profit_units": 18.85,
+          "avg_edge": 0.0558,
+          "avg_clv": 0.0049,
+          "beat_close": 0.48,
+          "verdict": "unclear"
+        },
+        {
+          "name": "Bundesliga",
+          "bets": 88,
+          "roi": 0.4557,
+          "profit_units": 40.1,
+          "avg_edge": 0.044,
+          "avg_clv": 0.0048,
+          "beat_close": 0.5909,
+          "verdict": "unclear"
+        },
+        {
+          "name": "La Liga",
+          "bets": 126,
+          "roi": -0.2763,
+          "profit_units": -34.82,
+          "avg_edge": 0.0489,
+          "avg_clv": 0.0042,
+          "beat_close": 0.4683,
+          "verdict": "unclear"
+        },
+        {
+          "name": "Süper Lig",
+          "bets": 106,
+          "roi": 0.225,
+          "profit_units": 23.85,
+          "avg_edge": 0.0432,
+          "avg_clv": 0.0019,
+          "beat_close": 0.5377,
+          "verdict": "unclear"
+        },
+        {
+          "name": "2. Bundesliga",
+          "bets": 45,
+          "roi": -0.2871,
+          "profit_units": -12.92,
+          "avg_edge": 0.0361,
+          "avg_clv": 0.0018,
+          "beat_close": 0.5111,
+          "verdict": "too few bets"
+        },
+        {
+          "name": "Premier League",
+          "bets": 104,
+          "roi": -0.1548,
+          "profit_units": -16.1,
+          "avg_edge": 0.0493,
+          "avg_clv": -0.009,
+          "beat_close": 0.4712,
+          "verdict": "no edge"
+        },
+        {
+          "name": "Belgian Pro League",
+          "bets": 92,
+          "roi": -0.2039,
+          "profit_units": -18.76,
+          "avg_edge": 0.0432,
+          "avg_clv": -0.0125,
+          "beat_close": 0.5,
+          "verdict": "no edge"
+        },
+        {
+          "name": "Eredivisie",
+          "bets": 163,
+          "roi": -0.0086,
+          "profit_units": -1.4,
+          "avg_edge": 0.0473,
+          "avg_clv": -0.0174,
+          "beat_close": 0.4479,
+          "verdict": "no edge"
+        },
+        {
+          "name": "Primeira Liga",
+          "bets": 89,
+          "roi": -0.2228,
+          "profit_units": -19.83,
+          "avg_edge": 0.0507,
+          "avg_clv": -0.0221,
+          "beat_close": 0.4494,
+          "verdict": "no edge"
+        },
+        {
+          "name": "Scottish Premiership",
+          "bets": 98,
+          "roi": -0.1628,
+          "profit_units": -15.95,
+          "avg_edge": 0.049,
+          "avg_clv": -0.0307,
+          "beat_close": 0.398,
+          "verdict": "no edge"
+        }
+      ],
+      "by_sport": [
+        {
+          "name": "Football",
+          "bets": 1952,
+          "roi": -0.0307,
+          "profit_units": -59.94,
+          "avg_edge": 0.0457,
+          "avg_clv": 0.0071,
+          "beat_close": 0.5369,
+          "verdict": "unclear"
+        }
+      ],
+      "by_market": [
+        {
+          "name": "Total (2.5 goals)",
+          "bets": 42,
+          "roi": 0.0598,
+          "profit_units": 2.51,
+          "avg_edge": 0.0457,
+          "avg_clv": 0.0251,
+          "beat_close": 0.6905,
+          "verdict": "too few bets"
+        },
+        {
+          "name": "Asian handicap",
+          "bets": 57,
+          "roi": 0.0559,
+          "profit_units": 3.19,
+          "avg_edge": 0.0376,
+          "avg_clv": 0.0097,
+          "beat_close": 0.5263,
+          "verdict": "too few bets"
+        },
+        {
+          "name": "Winner",
+          "bets": 1853,
+          "roi": -0.0354,
+          "profit_units": -65.63,
+          "avg_edge": 0.046,
+          "avg_clv": 0.0066,
+          "beat_close": 0.5337,
+          "verdict": "unclear"
+        }
+      ],
+      "by_season": [
+        {
+          "name": "2324",
+          "bets": 837,
+          "roi": -0.1352,
+          "profit_units": -113.19,
+          "avg_edge": 0.0445,
+          "avg_clv": 0.0126,
+          "beat_close": 0.5448,
+          "verdict": "unclear"
+        },
+        {
+          "name": "2425",
+          "bets": 907,
+          "roi": 0.1088,
+          "profit_units": 98.69,
+          "avg_edge": 0.0465,
+          "avg_clv": 0.0027,
+          "beat_close": 0.5281,
+          "verdict": "unclear"
+        },
+        {
+          "name": "2526",
+          "bets": 208,
+          "roi": -0.2184,
+          "profit_units": -45.44,
+          "avg_edge": 0.0473,
+          "avg_clv": 0.0044,
+          "beat_close": 0.5433,
+          "verdict": "unclear"
+        }
+      ]
+    }
+  }
+}
