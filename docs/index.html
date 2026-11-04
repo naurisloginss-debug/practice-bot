@@ -281,8 +281,8 @@ function render() {
   if (!data.strategies[current]) current = Object.keys(data.strategies)[0];
   const s = data.strategies[current];
   const mins = (Date.now() - new Date(data.updated)) / 60000;
-  document.getElementById('dot').className = 'dot' + (mins > 150 ? ' stale' : '');
-  document.getElementById('updated').innerHTML = (mins > 150 ? 'Last run ' : '<span class="long">Live · </span>updated ') + rel(data.updated);
+  document.getElementById('dot').className = 'dot' + (mins > 45 ? ' stale' : '');
+  document.getElementById('updated').innerHTML = (mins > 45 ? 'Last run ' : '<span class="long">Live · </span>updated ') + rel(data.updated);
   document.getElementById('switch').innerHTML = order().map(k =>
     `<button type="button" data-s="${k}" aria-pressed="${k === current}"><span aria-hidden="true" style="margin-right:6px">${data.strategies[k].emoji || ''}</span>${esc(nameOf(k))}</button>`).join('');
 

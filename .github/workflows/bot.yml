@@ -2,7 +2,7 @@ name: Practice bot
 
 on:
   schedule:
-    - cron: "23 * * * *"   # every hour, at :23
+    - cron: "7,22,37,52 * * * *"   # every 15 minutes
   workflow_dispatch:         # lets you run it by hand from the Actions tab
 
 permissions:
