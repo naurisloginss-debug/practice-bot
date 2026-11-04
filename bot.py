@@ -9,6 +9,7 @@ Then it writes docs/data.json, which the dashboard (docs/index.html) reads.
 No real money is involved. Needs the ODDS_API_KEY environment variable.
 """
 import json
+import math
 import os
 import sys
 import urllib.parse
@@ -22,6 +23,7 @@ BETS_FILE = ROOT / "data" / "bets.json"
 STATE_FILE = ROOT / "data" / "state.json"
 DASH_FILE = ROOT / "docs" / "data.json"
 NOTIFY_FILE = ROOT / "notify.md"
+OBS_FILE = ROOT / "data" / "observations.json"
 API = "https://api.the-odds-api.com/v4"
 SHARP = "pinnacle"
 
@@ -220,12 +222,14 @@ def best_value(rows, fair, strategy, market, league_key, playbook):
     return best, miss
 
 
-def thoughts_for(strategy, v, league_key, fund, stake, favoured, level):
+def thoughts_for(strategy, v, league_key, fund, stake, favoured, level, nudges=()):
     """The character's reasoning for a bet, step by step, in plain words."""
     c = CONFIG["strategies"][strategy]
     pick = pick_label(v["market"], v["name"], v["point"])
     lines = [
-        f"Pinnacle, the sharpest bookmaker, rates {pick} at {v['prob']*100:.1f}%. That makes the fair price {v['fair_odds']:.2f}.",
+        f"Pinnacle, the sharpest bookmaker, rates {pick} at {v['prob']*100:.1f}%. That makes the fair price {v['fair_odds']:.2f}."
+        if not nudges else
+        f"Pinnacle's price, adjusted with what I know about {league_name(league_key)} ({', '.join(nudges)}), gives {pick} {v['prob']*100:.1f}%: fair price {v['fair_odds']:.2f}.",
         f"{v['book']} pays {v['odds']:.2f}" + (f" ({v['eff_odds']:.2f} after the exchange fee)" if v["eff_odds"] != v["odds"] else "") +
         f". That is +{v['edge']*100:.1f}% above fair. My bar is +{P(strategy, 'min_edge')*100:.1f}%.",
     ]
@@ -289,6 +293,146 @@ def learn(bets, strategy):
     return playbook, sorted(lessons, key=lambda x: x["kind"])
 
 
+# ---------- knowledge ----------
+# Each character studies every game it scans (not only its bets): the fair chances the market gave
+# and, later, what actually happened. Over time it finds where the market is biased in its sport.
+# A finding it is very sure about becomes a rule that nudges its fair price by half the gap.
+
+def observe(obs, knowledge, ev, league_key, rows, fair, now):
+    if ev["id"] not in obs:
+        h2h = {}
+        for (m, name, point), p in fair.items():
+            if m == "h2h":
+                role = "home" if name == ev["home_team"] else "away" if name == ev["away_team"] else "draw"
+                h2h[role] = round(p, 4)
+        over = [(point, p) for (m, name, point), p in fair.items() if m == "totals" and name == "Over"]
+        obs[ev["id"]] = {"league": league_key, "start": ev["commence_time"], "home": ev["home_team"], "away": ev["away_team"],
+                         "h2h": h2h or None, "tot": {"point": over[0][0], "over": round(over[0][1], 4)} if over else None, "result": None}
+    books = knowledge.setdefault("books", {}).setdefault(league_key, {})
+    for r in rows:
+        if r["key"] == SHARP:
+            continue
+        n_soft = [0, 0]
+        for k, price in r["prices"].items():
+            if k in fair:
+                n_soft[0] += 1
+                n_soft[1] += effective_odds(price, r["key"]) * fair[k] - 1 >= 0.02
+        if n_soft[0]:
+            have = books.setdefault(r["title"], [0, 0])
+            have[0] += n_soft[0]
+            have[1] += n_soft[1]
+
+
+ROLE_NAMES = {"home": "home wins", "draw": "draws", "away": "away wins", "over": "overs"}
+
+
+def bias_stats(obs, league_key):
+    """Per outcome type: how often it happened vs how often the market priced it."""
+    done = [o for o in obs.values() if o["league"] == league_key and o.get("result")]
+    out = {}
+    for role in ("home", "draw", "away"):
+        g = [o for o in done if o["h2h"] and role in o["h2h"]]
+        if g:
+            hit = [(1.0 if (role == "home" and o["result"][0] > o["result"][1]) or (role == "away" and o["result"][1] > o["result"][0])
+                    or (role == "draw" and o["result"][0] == o["result"][1]) else 0.0) for o in g]
+            out[role] = (len(g), sum(o["h2h"][role] for o in g) / len(g), sum(hit) / len(g))
+    g = [o for o in done if o.get("tot") and sum(o["result"]) != o["tot"]["point"]]
+    if g:
+        out["over"] = (len(g), sum(o["tot"]["over"] for o in g) / len(g), sum(1.0 for o in g if sum(o["result"]) > o["tot"]["point"]) / len(g))
+    return out
+
+
+def knowledge_of(obs, knowledge, bets, strategy):
+    """Facts the character has discovered about its sport, the rules it now uses, and its Sport IQ."""
+    K = CONFIG["knowledge"]
+    leagues = CONFIG["strategies"][strategy]["leagues"]
+    facts, rules = [], {}
+    for lk in leagues:
+        for role, (n, priced, actual) in bias_stats(obs, lk).items():
+            if n < K["min_games"]:
+                continue
+            se = math.sqrt(max(priced * (1 - priced), 1e-6) / n)
+            z = (actual - priced) / se
+            gap = actual - priced
+            if n >= K["rule_games"] and abs(z) >= K["rule_z"]:
+                conf = "using"
+                rules[f"{lk}|{role}"] = round(gap / 2, 4)
+            elif n >= K["likely_games"] and abs(z) >= 2:
+                conf = "likely"
+            elif abs(gap) >= 0.02 and abs(z) >= 1.5:
+                conf = "watching"
+            elif n >= K["likely_games"] and abs(z) < 1:
+                facts.append({"conf": "solid", "n": n, "z": 0, "text": f"The market prices {ROLE_NAMES[role]} in {league_name(lk)} accurately.",
+                              "detail": f"{actual*100:.0f}% happened, {priced*100:.0f}% priced, {n} games"})
+                continue
+            else:
+                continue
+            word = "more" if gap > 0 else "less"
+            facts.append({"conf": conf, "n": n, "z": abs(z),
+                          "text": f"{ROLE_NAMES[role].capitalize()} in {league_name(lk)} happen {word} often than priced.",
+                          "detail": f"{actual*100:.0f}% happened vs {priced*100:.0f}% priced, {n} games"})
+        books = knowledge.get("books", {}).get(lk, {})
+        rated = {b: v for b, v in books.items() if v[0] >= K["min_prices"]}
+        if len(rated) >= 2:
+            avg = sum(v[1] for v in rated.values()) / sum(v[0] for v in rated.values())
+            best, v = max(rated.items(), key=lambda kv: kv[1][1] / kv[1][0])
+            if v[1] / v[0] > avg * 1.3:
+                facts.append({"conf": "solid", "n": v[0], "z": 0, "text": f"{best} is the softest bookmaker in {league_name(lk)}.",
+                              "detail": f"beats fair by 2%+ on {v[1]/v[0]*100:.0f}% of its prices vs {avg*100:.0f}% across all bookmakers"})
+    mine = [b for b in bets if b["strategy"] == strategy and b.get("clv") is not None]
+    if len(mine) >= 10:
+        moved = sum(1 for b in mine if b["clv"] > 0) / len(mine)
+        facts.append({"conf": "solid" if len(mine) >= 30 else "watching", "n": len(mine), "z": 0,
+                      "text": f"When I find value, the market moves my way before kick-off {moved*100:.0f}% of the time.",
+                      "detail": f"{len(mine)} bets measured"})
+    order = {"using": 0, "likely": 1, "solid": 2, "watching": 3}
+    facts.sort(key=lambda f: (order[f["conf"]], -f["z"], -f["n"]))
+    studied = [o for o in obs.values() if o["league"] in leagues]
+    resolved = [o for o in studied if o.get("result")]
+    lessons = learn(bets, strategy)[1]
+    # Sport IQ: grows with games studied, bets measured and knowledge proven; good or bad pricing moves it too.
+    iq = 80 + 6 * math.log2(1 + len(resolved) / 50) + 3 * math.log2(1 + len(studied) / 200) + 5 * math.log2(1 + len(mine) / 20) \
+        + 4 * sum(1 for f in facts if f["conf"] == "using") + min(10, sum(1 for f in facts if f["conf"] in ("likely", "solid"))) + 1.5 * len(lessons)
+    if len(mine) >= 20:
+        iq += max(-8, min(8, sum(b["clv"] for b in mine) / len(mine) * 300))
+    return {"facts": facts[:12], "rules": rules, "iq": round(min(iq, 180)), "studied": len(studied), "resolved": len(resolved)}
+
+
+def prune_obs(obs, now):
+    """Keep finished games for a year and unfinished ones for a week after kick-off."""
+    keep = {}
+    for k, o in obs.items():
+        age = now - parse(o["start"])
+        if age < timedelta(days=365 if o.get("result") else 7):
+            keep[k] = o
+    return keep
+
+
+def adjust_fair(fair, ev, league_key, rules):
+    """Nudge the market's fair chances using rules the character is sure about. Returns (fair, notes)."""
+    if not rules:
+        return fair, []
+    out, notes = dict(fair), []
+    role_of = lambda name: "home" if name == ev["home_team"] else "away" if name == ev["away_team"] else "draw"
+    h2h = [k for k in fair if k[0] == "h2h"]
+    for k in h2h:
+        d = rules.get(f"{league_key}|{role_of(k[1])}")
+        if d:
+            out[k] = min(0.97, max(0.02, fair[k] + d))
+            notes.append(f"{ROLE_NAMES[role_of(k[1])]} {d*100:+.1f}%")
+    if h2h and notes:
+        total = sum(out[k] for k in h2h)
+        for k in h2h:
+            out[k] /= total
+    d = rules.get(f"{league_key}|over")
+    if d:
+        for k in fair:
+            if k[0] == "totals":
+                out[k] = min(0.97, max(0.03, fair[k] + (d if k[1] == "Over" else -d)))
+        notes.append(f"overs {d*100:+.1f}%")
+    return out, notes
+
+
 # ---------- levels ----------
 # A character earns its level by beating the market's final price, measured over many bets.
 # Higher levels unlock slightly bolder stakes (still under the hard per-bet cap). A cold streak cuts them.
@@ -350,6 +494,9 @@ def scan(api, bets, state, now, notes):
         return
     placed = []
     start_from = now + timedelta(hours=1)
+    obs = load(OBS_FILE, {})
+    know = state.setdefault("knowledge", {})
+    rules = {s: knowledge_of(obs, know, bets, s)["rules"] for s in CONFIG["strategies"]}
     playbooks = {s: learn(bets, s)[0] for s in CONFIG["strategies"]}
     levels = {s: level_of(bets, s) for s in CONFIG["strategies"]}
     looked = {s: set() for s in CONFIG["strategies"]}
@@ -370,10 +517,12 @@ def scan(api, bets, state, now, notes):
             continue
         for ev in events:
             rows = market_rows(ev)
-            fair = fair_probs(rows)
-            if not fair:
+            fair_market = fair_probs(rows)
+            if not fair_market:
                 continue
+            observe(obs, know, ev, league_key, rows, fair_market, now)
             for strategy in chars:
+                fair, nudges = adjust_fair(fair_market, ev, league_key, rules[strategy])
                 if parse(ev["commence_time"]) > now + timedelta(days=P(strategy, "days_ahead")):
                     continue
                 for market in P(strategy, "markets"):
@@ -410,10 +559,11 @@ def scan(api, bets, state, now, notes):
                         "odds": v["odds"], "eff_odds": v["eff_odds"], "fair_odds": v["fair_odds"], "edge": v["edge"],
                         "stake": stake, "status": "open", "closing_fair_odds": None, "clv": None, "profit": 0.0,
                         "score": None, "settled_at": None,
-                        "thoughts": thoughts_for(strategy, v, league_key, fund, stake, favoured, levels[strategy]),
+                        "thoughts": thoughts_for(strategy, v, league_key, fund, stake, favoured, levels[strategy], nudges),
                     }
                     bets.append(bet)
                     placed.append(bet)
+    save(OBS_FILE, prune_obs(obs, now))
     # Each character's diary entry for this scan: what it looked at, what it did, what it passed on.
     diary = state.setdefault("diary", {})
     for strategy, c in CONFIG["strategies"].items():
@@ -509,8 +659,8 @@ def settle(api, bets, state, now, notes):
         if api.low_on_credits():
             return
         try:
-            scores = api.get(f"/sports/{league_key}/scores", daysFrom=3, dateFormat="iso",
-                             eventIds=",".join(sorted({b["event_id"] for b in group})))
+            # No event filter: same cost, and the results of every game help the character learn its sport.
+            scores = api.get(f"/sports/{league_key}/scores", daysFrom=3, dateFormat="iso")
         except Exception as e:
             if getattr(e, "code", None) in (404, 422):
                 state.setdefault("no_scores", []).append(league_key)
@@ -519,6 +669,14 @@ def settle(api, bets, state, now, notes):
             continue
         checked[league_key] = iso(now)
         found = {s["id"]: s for s in scores}
+        obs = load(OBS_FILE, {})
+        for sid, sc in found.items():
+            o = obs.get(sid)
+            if o and not o.get("result") and sc.get("completed") and sc.get("scores"):
+                pts = {x["name"]: float(x["score"]) for x in sc["scores"]}
+                if o["home"] in pts and o["away"] in pts:
+                    o["result"] = [pts[o["home"]], pts[o["away"]]]
+        save(OBS_FILE, obs)
         for b in group:
             s = found.get(b["event_id"])
             if s is None:
@@ -608,6 +766,22 @@ def breakdown(bets, field):
     return sorted(out, key=lambda r: (r["avg_clv"] is None, -(r["avg_clv"] or 0)))
 
 
+def mind_of(strategy, bets, state, now):
+    """Knowledge book + Sport IQ, with a daily IQ history so growth is visible."""
+    k = knowledge_of(load(OBS_FILE, {}), state.get("knowledge", {}), bets, strategy)
+    hist = state.setdefault("iq_history", {}).setdefault(strategy, [])
+    today = now.date().isoformat()
+    if hist and hist[-1]["d"] == today:
+        hist[-1]["iq"] = k["iq"]
+    else:
+        hist.append({"d": today, "iq": k["iq"]})
+    del hist[:-120]
+    week_ago = (now - timedelta(days=7)).date().isoformat()
+    base = next((h["iq"] for h in reversed(hist) if h["d"] <= week_ago), hist[0]["iq"])
+    return {"iq": k["iq"], "iq_week": k["iq"] - base, "iq_history": hist[-60:], "facts": k["facts"],
+            "rules": len(k["rules"]), "studied": k["studied"], "resolved": k["resolved"]}
+
+
 def write_dashboard(bets, state, now, notes):
     data = {
         "updated": iso(now),
@@ -615,7 +789,8 @@ def write_dashboard(bets, state, now, notes):
         "order": list(CONFIG["strategies"]),
         "credits_left": state.get("credits_left"),
         "last_scan": state.get("last_scan"),
-        "strategies": {s: summary(bets, s) | {"diary": state.get("diary", {}).get(s), "level": level_of(bets, s)} for s in CONFIG["strategies"]},
+        "strategies": {s: summary(bets, s) | {"diary": state.get("diary", {}).get(s), "level": level_of(bets, s),
+                                              "mind": mind_of(s, bets, state, now)} for s in CONFIG["strategies"]},
         "bets": sorted(bets, key=lambda b: b["start"], reverse=True)[:200],
         "log": (state.get("log", []) + [{"t": iso(now), "text": n} for n in notes])[-30:],
     }

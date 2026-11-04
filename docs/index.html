@@ -160,6 +160,17 @@
   .thought.pass div { color: var(--ink-2); font-size: 13px; margin-top: 2px; }
   .think { margin-top: 6px; } .think summary { cursor: pointer; font-size: 12px; color: var(--accent); }
   .xp { margin: 12px 0 0; }
+  .p-id .lvl { white-space: nowrap; margin-right: 4px; }
+  .p-id .lvl b { display: inline; font-size: inherit; }
+  .morefacts { margin-top: 8px; } .morefacts summary { cursor: pointer; font-size: 13px; color: var(--accent); margin-bottom: 8px; }
+  .iqrow { display: flex; align-items: center; gap: 16px; margin-bottom: 12px; flex-wrap: wrap; }
+  .iqnum { font-size: 40px; font-weight: 700; letter-spacing: -.02em; line-height: 1; }
+  .iqspark { width: 120px; height: 34px; }
+  .facts { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+  .facts li { display: grid; grid-template-columns: 82px 1fr; gap: 10px; align-items: start; padding: 10px 12px; border-radius: 12px; background: var(--card-2); border: 1px solid var(--line); }
+  .facts small { display: block; color: var(--muted); font-size: 12px; }
+  .facts .chip { text-align: center; }
+  .c-likely { background: var(--warn-bg); color: var(--warn); } .c-solid { background: var(--neutral-bg); color: var(--ink); }
   .xp-head { display: flex; justify-content: space-between; gap: 10px; flex-wrap: wrap; font-size: 14px; }
   .xp .progress { margin-top: 8px; }
   .needs { list-style: none; padding: 0; margin: 8px 0 0; display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 12px; color: var(--ink-2); }
@@ -295,6 +306,8 @@ function render() {
 
   ${lessonsCard(s)}
 
+  ${knowledgeCard(s)}
+
   ${pastCard()}
 
   <section class="card"><h2>Pretend money over time</h2>${chart()}</section>
@@ -304,6 +317,7 @@ function render() {
     <dt>Fair price</dt><dd>Taken from Pinnacle, the bookmaker with the sharpest prices, with its built-in margin removed.</dd>
     <dt>Beat the market</dt><dd>The price we got was better than the final price just before kick-off. Doing this again and again is the best early sign of a real edge, long before the money shows it.</dd>
     <dt>The characters</dt><dd>Three bots, each with its own sport, style, risk level and pretend money. Inspired by real bettors' approaches, not run by them.</dd>
+    <dt>Sport IQ</dt><dd>How much the character knows about its sport. Grows as it studies more games, measures more bets and proves its findings right. Pricing badly pulls it down.</dd>
     <dt>Learning</dt><dd>Each character studies its own bets and cuts the kinds that keep losing to the market, and backs the kinds that keep beating it a bit harder.</dd>
     <dt>Pretend money</dt><dd>No real bets are placed. The bot practises until the numbers say it is worth it.</dd>
   </dl></details></section>
@@ -397,6 +411,7 @@ function character(s) {
         <b>${esc(s.name)}</b>
         <div class="sub">${esc(s.sport)} · inspired by ${esc(s.inspired_by)}</div>
         <span class="lvl ${lv.cold ? 'cold' : ''}">${esc(lv.badge || '🐣')} Level ${lv.n || 1} · ${esc(lv.title || 'Rookie')}</span>
+        ${s.mind ? `<span class="lvl iq">🧠 Sport IQ <b>${s.mind.iq}</b>${s.mind.iq_week ? ` <span class="${s.mind.iq_week > 0 ? 'pos' : 'neg'}">${s.mind.iq_week > 0 ? '▲' : '▼'}${Math.abs(s.mind.iq_week)} this week</span>` : ''}</span>` : ''}
       </div>
     </div>
     <div class="bubble">${esc(mood)}</div>
@@ -431,8 +446,32 @@ function mind(s) {
         <ol>${b.thoughts.map(t => `<li>${esc(t)}</li>`).join('')}</ol></div>`).join('')}` : ''}
     ${d && d.passed && d.passed.length ? `<div class="m-sec">What I passed on</div>${d.passed.map(m => `<div class="thought pass"><b>${esc(m.pick)} @ ${Number(m.odds).toFixed(2)}</b> <span class="sub">${esc(m.game)} · ${esc(m.book)}</span>
         <div>${esc(m.reason)}</div></div>`).join('')}` : ''}
+    ${s.mind && s.mind.facts.length ? `<div class="m-sec">What I know</div>${s.mind.facts.slice(0, 3).map(f => `<div class="thought">${esc(f.text)} <span class="sub">${esc(f.detail)}</span></div>`).join('')}` : ''}
     ${(s.lessons || []).length ? `<div class="m-sec">What I've learned</div>${s.lessons.map(l => `<div class="thought">${l.kind === 'avoid' ? '✕' : '▲'} ${esc(l.text)} <span class="sub">${esc(l.detail)}</span></div>`).join('')}` : ''}
   </div>`;
+}
+
+const CONF = { using: ['c-won', 'Using it'], likely: ['c-likely', 'Likely'], solid: ['c-solid', 'Solid'], watching: ['c-void', 'Watching'] };
+function knowledgeCard(s) {
+  const m = s.mind;
+  if (!m) return '';
+  const h = m.iq_history || [];
+  let spark = '';
+  if (h.length >= 2) {
+    const lo = Math.min(...h.map(x => x.iq)) - 2, hi = Math.max(...h.map(x => x.iq)) + 2, W = 120, H = 34;
+    const pts = h.map((x, i) => `${(i / (h.length - 1) * W).toFixed(1)},${(H - (x.iq - lo) / (hi - lo) * H).toFixed(1)}`).join(' ');
+    spark = `<svg class="iqspark" viewBox="0 0 ${W} ${H}" aria-hidden="true"><polyline points="${pts}" fill="none" stroke="${COLORS[current]}" stroke-width="2" stroke-linejoin="round"/></svg>`;
+  }
+  return `<section class="card"><h2>What ${esc(s.name)} knows about ${esc((s.sport || '').toLowerCase())}</h2>
+    <div class="iqrow"><div><div class="iqnum num">${m.iq}</div><div class="sub">Sport IQ · starts at 80</div></div>${spark}
+      <div class="sub" style="margin-left:auto;text-align:right">Studied <b>${m.studied}</b> games<br><b>${m.resolved}</b> with results · <b>${m.rules}</b> rule${m.rules === 1 ? '' : 's'} in use</div></div>
+    ${m.facts.length ? (() => { const li = f => { const [c, l] = CONF[f.conf] || CONF.watching;
+        return `<li><span class="chip ${c}">${l}</span><span><b>${esc(f.text)}</b><small>${esc(f.detail)}</small></span></li>`; };
+        return `<ul class="facts">${m.facts.slice(0, 5).map(li).join('')}</ul>` +
+          (m.facts.length > 5 ? `<details class="morefacts"><summary>Show ${m.facts.length - 5} more</summary><ul class="facts">${m.facts.slice(5).map(li).join('')}</ul></details>` : ''); })()
+      : '<div class="empty">Studying every game it scans. Its first findings appear after about 40 finished games per league.</div>'}
+    <p class="sub" style="margin:10px 0 0">Watching → Likely → Using it. A finding becomes a betting rule only after 200+ games and strong evidence, and even then it only nudges the fair price by half the gap.</p>
+  </section>`;
 }
 
 function lessonsCard(s) {

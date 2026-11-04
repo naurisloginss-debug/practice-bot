@@ -161,5 +161,12 @@
   },
   "exclude_books": [
     "onexbet"
-  ]
+  ],
+  "knowledge": {
+    "min_games": 40,
+    "likely_games": 80,
+    "rule_games": 200,
+    "rule_z": 2.5,
+    "min_prices": 150
+  }
 }
