@@ -19,3 +19,10 @@ Needs one repository secret: `ODDS_API_KEY`.
 ## Past seasons test
 
 `backtest.py` replays the same rules on real past odds and results from football-data.co.uk (18 football leagues) and tennis-data.co.uk (ATP and WTA). It uses no odds credits. Run it from the Actions tab ("Past seasons test"); it also runs every Monday.
+
+## Free plan vs 20K plan
+
+`config.json` is set for the free Odds API plan (500 credits a month): four football leagues that looked
+promising in the past seasons test, winner bets only, one scan a day.
+`config.20k.json` is the wider setup for the 20K plan (many sports, three bet types, two scans a day).
+To switch, copy `config.20k.json` over `config.json`.
