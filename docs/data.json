@@ -1,33 +1,45 @@
 {
-  "updated": "2026-11-04T12:49:24Z",
+  "updated": "2026-11-04T15:25:46Z",
   "start_fund": 200,
+  "order": [
+    "lizard",
+    "quant",
+    "shark"
+  ],
   "credits_left": 486,
   "last_scan": "2026-11-04@9",
   "strategies": {
-    "betfair": {
-      "name": "Betfair bot",
-      "about": "Only Betfair Exchange, after its 5% commission. This is what the real bot could do.",
+    "lizard": {
+      "name": "The Lizard",
+      "emoji": "🦎",
+      "sport": "Football",
+      "inspired_by": "Tony Bloom",
+      "story": "Nicknamed 'The Lizard' at the poker table. Built Starlizard, a betting-research firm, and used the winnings to buy Brighton & Hove Albion. His edge: patient models and leagues the bookmakers watch less closely.",
+      "style": "Hunts second-division football where prices are lazy. Waits for a clear gap, then strikes hard.",
+      "motto": "Patience is a weapon.",
+      "backtest": "all",
+      "risk": {
+        "kelly": 0.4,
+        "max_stake_pct": 5,
+        "min_edge": 0.025,
+        "odds": [
+          1.6,
+          6.0
+        ],
+        "stop_below": 110
+      },
+      "leagues": [
+        "Serie B (Italy 2)",
+        "Championship (England 2)",
+        "La Liga 2 (Spain 2)",
+        "Ligue 1 (France)"
+      ],
+      "markets": [
+        "Winner"
+      ],
+      "start_fund": 200,
       "fund": 200,
-      "bets": 0,
-      "open": 0,
-      "won": 0,
-      "lost": 0,
-      "staked": 0,
-      "profit": 0,
-      "roi": null,
-      "avg_edge": null,
-      "avg_clv": null,
-      "beat_close": null,
-      "clv_count": 0,
-      "history": [],
-      "by_league": [],
-      "by_market": [],
-      "by_sport": []
-    },
-    "all": {
-      "name": "All bookmakers",
-      "about": "Best price at any bookmaker. Shows how much value exists if you bet by hand.",
-      "fund": 200,
+      "lessons": [],
       "bets": 1,
       "open": 1,
       "won": 0,
@@ -77,13 +89,206 @@
           "beat_close": null,
           "clv_count": 0
         }
-      ]
+      ],
+      "diary": null,
+      "level": {
+        "n": 1,
+        "title": "Rookie",
+        "badge": "🐣",
+        "stake": 1.0,
+        "perk": "Normal stakes while it proves itself.",
+        "measured": 0,
+        "clv": 0.0,
+        "beat": 0.0,
+        "cold": false,
+        "next": {
+          "title": "Apprentice",
+          "badge": "🎓",
+          "perk": "Has a track record. Starts learning which bets work.",
+          "needs": [
+            {
+              "text": "15 measured bets",
+              "done": false,
+              "now": "0"
+            },
+            {
+              "text": "beat the market on 50%+",
+              "done": false,
+              "now": "–"
+            },
+            {
+              "text": "average price +0.0%+ vs market",
+              "done": false,
+              "now": "–"
+            }
+          ],
+          "progress": 0.0
+        }
+      }
+    },
+    "quant": {
+      "name": "The Quant",
+      "emoji": "🧮",
+      "sport": "Basketball",
+      "inspired_by": "Bob Voulgaris",
+      "story": "Turned an NBA obsession into one of betting's best-known careers by spotting how bookmakers misjudged the way games actually play out: pace, rotations, coaches' habits. Later ran analytics for the Dallas Mavericks and bought Spanish club CD Castellón.",
+      "style": "Bets NBA total points, where tempo and tired legs move the numbers more than the bookmakers think.",
+      "motto": "The scoreboard is just data.",
+      "backtest": null,
+      "risk": {
+        "kelly": 0.5,
+        "max_stake_pct": 5,
+        "min_edge": 0.02,
+        "odds": [
+          1.6,
+          2.6
+        ],
+        "stop_below": 110
+      },
+      "leagues": [
+        "NBA"
+      ],
+      "markets": [
+        "Total"
+      ],
+      "start_fund": 200,
+      "fund": 200,
+      "lessons": [],
+      "bets": 0,
+      "open": 0,
+      "won": 0,
+      "lost": 0,
+      "staked": 0,
+      "profit": 0,
+      "roi": null,
+      "avg_edge": null,
+      "avg_clv": null,
+      "beat_close": null,
+      "clv_count": 0,
+      "history": [],
+      "by_league": [],
+      "by_market": [],
+      "by_sport": [],
+      "diary": null,
+      "level": {
+        "n": 1,
+        "title": "Rookie",
+        "badge": "🐣",
+        "stake": 1.0,
+        "perk": "Normal stakes while it proves itself.",
+        "measured": 0,
+        "clv": 0.0,
+        "beat": 0.0,
+        "cold": false,
+        "next": {
+          "title": "Apprentice",
+          "badge": "🎓",
+          "perk": "Has a track record. Starts learning which bets work.",
+          "needs": [
+            {
+              "text": "15 measured bets",
+              "done": false,
+              "now": "0"
+            },
+            {
+              "text": "beat the market on 50%+",
+              "done": false,
+              "now": "–"
+            },
+            {
+              "text": "average price +0.0%+ vs market",
+              "done": false,
+              "now": "–"
+            }
+          ],
+          "progress": 0.0
+        }
+      }
+    },
+    "shark": {
+      "name": "The Shark",
+      "emoji": "🦈",
+      "sport": "American football",
+      "inspired_by": "Billy Walters",
+      "story": "Las Vegas legend who beat NFL point spreads for decades with computer models, getting his bets in before the market moved. The classic 'beat the closing line' bettor.",
+      "style": "Bets NFL point spreads early in the week, before the market catches up.",
+      "motto": "Get there before the market does.",
+      "backtest": null,
+      "risk": {
+        "kelly": 0.5,
+        "max_stake_pct": 6,
+        "min_edge": 0.02,
+        "odds": [
+          1.6,
+          2.6
+        ],
+        "stop_below": 110
+      },
+      "leagues": [
+        "NFL"
+      ],
+      "markets": [
+        "Spread"
+      ],
+      "start_fund": 200,
+      "fund": 200,
+      "lessons": [],
+      "bets": 0,
+      "open": 0,
+      "won": 0,
+      "lost": 0,
+      "staked": 0,
+      "profit": 0,
+      "roi": null,
+      "avg_edge": null,
+      "avg_clv": null,
+      "beat_close": null,
+      "clv_count": 0,
+      "history": [],
+      "by_league": [],
+      "by_market": [],
+      "by_sport": [],
+      "diary": null,
+      "level": {
+        "n": 1,
+        "title": "Rookie",
+        "badge": "🐣",
+        "stake": 1.0,
+        "perk": "Normal stakes while it proves itself.",
+        "measured": 0,
+        "clv": 0.0,
+        "beat": 0.0,
+        "cold": false,
+        "next": {
+          "title": "Apprentice",
+          "badge": "🎓",
+          "perk": "Has a track record. Starts learning which bets work.",
+          "needs": [
+            {
+              "text": "15 measured bets",
+              "done": false,
+              "now": "0"
+            },
+            {
+              "text": "beat the market on 50%+",
+              "done": false,
+              "now": "–"
+            },
+            {
+              "text": "average price +0.0%+ vs market",
+              "done": false,
+              "now": "–"
+            }
+          ],
+          "progress": 0.0
+        }
+      }
     }
   },
   "bets": [
     {
       "id": "af665449ac9e2c4e1f183376e85fc936-all-h2h",
-      "strategy": "all",
+      "strategy": "lizard",
       "placed_at": "2026-11-04T12:49:24Z",
       "league_key": "soccer_efl_champ",
       "league": "Championship (England 2)",
