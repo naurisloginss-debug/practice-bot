@@ -42,6 +42,9 @@
   @keyframes pulse { 0% { box-shadow: 0 0 0 0 rgba(31,157,85,.5); } 70% { box-shadow: 0 0 0 8px rgba(31,157,85,0); } 100% { box-shadow: 0 0 0 0 rgba(31,157,85,0); } }
   @media (prefers-reduced-motion: reduce) { .dot { animation: none; } * { transition: none !important; } }
 
+  .hello { font-size: clamp(24px, 6vw, 34px); font-weight: 700; letter-spacing: -.02em; line-height: 1.15; margin: 4px 0 16px;
+    background: linear-gradient(90deg, var(--ink) 30%, var(--accent) 75%, var(--accent-2)); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .hello span { -webkit-text-fill-color: initial; color: initial; }
   .switch { display: inline-flex; background: var(--neutral-bg); border-radius: 12px; padding: 4px; margin-bottom: 16px; }
   .switch button { font: inherit; font-size: 14px; font-weight: 500; border: 0; background: transparent; color: var(--ink-2); padding: 7px 14px; border-radius: 9px; cursor: pointer; }
   .switch button[aria-pressed="true"] { background: var(--card); color: var(--ink); box-shadow: 0 1px 3px rgba(0,0,0,.12); }
@@ -140,6 +143,7 @@
     <div class="brand"><span class="logo" aria-hidden="true">⚡</span>Edge Bot <span class="sub" style="font-weight:400">· practice</span></div>
     <div class="live"><span class="dot" id="dot"></span><span id="updated">Loading…</span></div>
   </div>
+  <h1 class="hello">Hi Nauris, we will become betting masterminds <span aria-hidden="true">😄</span></h1>
   <div class="switch" role="group" aria-label="Which strategy" id="switch"></div>
   <div id="app"><div class="card empty">Loading…</div></div>
 </main>
