@@ -213,7 +213,7 @@ def best_value(rows, fair, strategy, market, league_key, playbook):
             elif edge < min_edge:
                 if edge <= 0:
                     continue
-                reason = f"Only +{edge*100:.1f}% edge. I need +{min_edge*100:.1f}% before I move."
+                reason = f"Only +{edge*100:.2f}% edge. I need +{min_edge*100:.1f}% before I move."
             if reason:
                 if miss is None or edge > miss["edge"]:
                     miss = {**option, "reason": reason}
