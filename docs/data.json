@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05T02:42:02Z",
+  "updated": "2026-11-05T09:51:42Z",
   "start_fund": 200,
   "order": [
     "lizard",
@@ -12,7 +12,7 @@
       "quant",
       "shark"
     ],
-    "grower": null,
+    "grower": "lizard",
     "talk": [
       {
         "who": "lizard",
@@ -29,8 +29,8 @@
     ],
     "chars": {
       "lizard": {
-        "iq": 80,
-        "iq_gain": 0,
+        "iq": 81,
+        "iq_gain": 1,
         "streak": 0,
         "best_streak": 0,
         "achievements": [
@@ -123,7 +123,7 @@
           {
             "text": "Games studied",
             "target": 20,
-            "now": 0
+            "now": 28
           },
           {
             "text": "Bets checked against the market",
@@ -138,7 +138,7 @@
             "pending": true
           }
         ],
-        "score": 85,
+        "score": 86,
         "trophies": []
       },
       "quant": {
@@ -236,7 +236,7 @@
           {
             "text": "Games studied",
             "target": 20,
-            "now": 0
+            "now": 2
           },
           {
             "text": "Bets checked against the market",
@@ -349,7 +349,7 @@
           {
             "text": "Games studied",
             "target": 20,
-            "now": 0
+            "now": 13
           },
           {
             "text": "Bets checked against the market",
@@ -370,8 +370,8 @@
     },
     "week_start": "2026-11-02"
   },
-  "credits_left": 486,
-  "last_scan": "2026-11-04@9",
+  "credits_left": 480,
+  "last_scan": "2026-11-05@9",
   "strategies": {
     "lizard": {
       "name": "The Lizard",
@@ -404,14 +404,14 @@
       "start_fund": 200,
       "fund": 200,
       "lessons": [],
-      "bets": 1,
-      "open": 1,
+      "bets": 6,
+      "open": 6,
       "won": 0,
       "lost": 0,
       "staked": 0,
       "profit": 0,
       "roi": null,
-      "avg_edge": 0.0247,
+      "avg_edge": 0.041,
       "avg_clv": null,
       "beat_close": null,
       "clv_count": 0,
@@ -424,7 +424,7 @@
       "by_league": [
         {
           "name": "Championship (England 2)",
-          "bets": 1,
+          "bets": 6,
           "profit": 0,
           "roi": null,
           "avg_clv": null,
@@ -435,7 +435,7 @@
       "by_market": [
         {
           "name": "Winner",
-          "bets": 1,
+          "bets": 6,
           "profit": 0,
           "roi": null,
           "avg_clv": null,
@@ -446,7 +446,7 @@
       "by_sport": [
         {
           "name": "Football",
-          "bets": 1,
+          "bets": 6,
           "profit": 0,
           "roi": null,
           "avg_clv": null,
@@ -454,7 +454,50 @@
           "clv_count": 0
         }
       ],
-      "diary": null,
+      "diary": {
+        "t": "2026-11-05T09:51:42Z",
+        "mood": "Gap spotted. Striking while the bookmakers sleep.",
+        "looked": 27,
+        "placed": 5,
+        "passed": [
+          {
+            "game": "Paris Saint Germain vs Troyes",
+            "league": "Ligue 1 (France)",
+            "pick": "Troyes",
+            "odds": 26.0,
+            "book": "Betfair",
+            "edge": 0.3579,
+            "reason": "+35.8% looks too good to be true. Probably a price the bookmaker forgot to update."
+          },
+          {
+            "game": "Bristol City vs Norwich City",
+            "league": "Championship (England 2)",
+            "pick": "Draw",
+            "odds": 3.7,
+            "book": "Matchbook",
+            "edge": 0.0247,
+            "reason": "Only +2.5% edge. I need +2.5% before I move."
+          },
+          {
+            "game": "Queens Park Rangers vs Lincoln City",
+            "league": "Championship (England 2)",
+            "pick": "Lincoln City",
+            "odds": 5.3,
+            "book": "Betfair",
+            "edge": 0.0206,
+            "reason": "Only +2.1% edge. I need +2.5% before I move."
+          },
+          {
+            "game": "Blackburn Rovers vs West Ham United",
+            "league": "Championship (England 2)",
+            "pick": "Blackburn Rovers",
+            "odds": 5.0,
+            "book": "Codere (IT)",
+            "edge": 0.0169,
+            "reason": "Only +1.7% edge. I need +2.5% before I move."
+          }
+        ]
+      },
       "level": {
         "n": 1,
         "title": "Rookie",
@@ -490,8 +533,8 @@
         }
       },
       "mind": {
-        "iq": 80,
-        "iq_week": 0,
+        "iq": 81,
+        "iq_week": 1,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -499,12 +542,12 @@
           },
           {
             "d": "2026-11-05",
-            "iq": 80
+            "iq": 81
           }
         ],
         "facts": [],
         "rules": 0,
-        "studied": 0,
+        "studied": 28,
         "resolved": 0
       }
     },
@@ -551,7 +594,13 @@
       "by_league": [],
       "by_market": [],
       "by_sport": [],
-      "diary": null,
+      "diary": {
+        "t": "2026-11-05T09:51:42Z",
+        "mood": "The lines are tight tonight. No edge, no bet.",
+        "looked": 2,
+        "placed": 0,
+        "passed": []
+      },
       "level": {
         "n": 1,
         "title": "Rookie",
@@ -601,7 +650,7 @@
         ],
         "facts": [],
         "rules": 0,
-        "studied": 0,
+        "studied": 2,
         "resolved": 0
       }
     },
@@ -648,7 +697,23 @@
       "by_league": [],
       "by_market": [],
       "by_sport": [],
-      "diary": null,
+      "diary": {
+        "t": "2026-11-05T09:51:42Z",
+        "mood": "The market's sharp this week. Circling, not biting.",
+        "looked": 15,
+        "placed": 0,
+        "passed": [
+          {
+            "game": "Atlanta Falcons vs Cincinnati Bengals",
+            "league": "NFL",
+            "pick": "Cincinnati Bengals -3",
+            "odds": 1.97,
+            "book": "Coolbet",
+            "edge": 0.0179,
+            "reason": "Only +1.8% edge. I need +2.0% before I move."
+          }
+        ]
+      },
       "level": {
         "n": 1,
         "title": "Rookie",
@@ -698,12 +763,197 @@
         ],
         "facts": [],
         "rules": 0,
-        "studied": 0,
+        "studied": 15,
         "resolved": 0
       }
     }
   },
   "bets": [
+    {
+      "id": "228a3fca36f1fc8943ab0b7c54f06860-lizard-h2h",
+      "strategy": "lizard",
+      "placed_at": "2026-11-05T09:51:42Z",
+      "league_key": "soccer_efl_champ",
+      "league": "Championship (England 2)",
+      "sport": "Football",
+      "event_id": "228a3fca36f1fc8943ab0b7c54f06860",
+      "game": "Blackburn Rovers vs West Ham United",
+      "home": "Blackburn Rovers",
+      "away": "West Ham United",
+      "start": "2026-11-07T15:00:00Z",
+      "market": "h2h",
+      "market_name": "Winner",
+      "name": "Blackburn Rovers",
+      "point": null,
+      "pick": "Blackburn Rovers",
+      "book": "Matchbook",
+      "book_key": "matchbook",
+      "odds": 5.3,
+      "eff_odds": 5.214,
+      "fair_odds": 4.917,
+      "edge": 0.0605,
+      "stake": 1.15,
+      "status": "open",
+      "closing_fair_odds": null,
+      "clv": null,
+      "profit": 0.0,
+      "score": null,
+      "settled_at": null,
+      "thoughts": [
+        "Pinnacle, the sharpest bookmaker, rates Blackburn Rovers at 20.3%. That makes the fair price 4.92.",
+        "Matchbook pays 5.30 (5.21 after the exchange fee). That is +6.0% above fair. My bar is +2.5%.",
+        "Full Kelly says 1.4% of my fund. I play 0.4× Kelly, capped at 5%: 1.15 of my 200.00.",
+        "Gap spotted. Striking while the bookmakers sleep."
+      ]
+    },
+    {
+      "id": "611adbd4bc3a3e1b8b03def9d8a29e54-lizard-h2h",
+      "strategy": "lizard",
+      "placed_at": "2026-11-05T09:51:42Z",
+      "league_key": "soccer_efl_champ",
+      "league": "Championship (England 2)",
+      "sport": "Football",
+      "event_id": "611adbd4bc3a3e1b8b03def9d8a29e54",
+      "game": "Queens Park Rangers vs Lincoln City",
+      "home": "Queens Park Rangers",
+      "away": "Lincoln City",
+      "start": "2026-11-07T15:00:00Z",
+      "market": "h2h",
+      "market_name": "Winner",
+      "name": "Lincoln City",
+      "point": null,
+      "pick": "Lincoln City",
+      "book": "Matchbook",
+      "book_key": "matchbook",
+      "odds": 5.2,
+      "eff_odds": 5.116,
+      "fair_odds": 4.982,
+      "edge": 0.0268,
+      "stake": 0.52,
+      "status": "open",
+      "closing_fair_odds": null,
+      "clv": null,
+      "profit": 0.0,
+      "score": null,
+      "settled_at": null,
+      "thoughts": [
+        "Pinnacle, the sharpest bookmaker, rates Lincoln City at 20.1%. That makes the fair price 4.98.",
+        "Matchbook pays 5.20 (5.12 after the exchange fee). That is +2.7% above fair. My bar is +2.5%.",
+        "Full Kelly says 0.7% of my fund. I play 0.4× Kelly, capped at 5%: 0.52 of my 200.00.",
+        "Gap spotted. Striking while the bookmakers sleep."
+      ]
+    },
+    {
+      "id": "a30b201e4df636949371d73491c620b5-lizard-h2h",
+      "strategy": "lizard",
+      "placed_at": "2026-11-05T09:51:42Z",
+      "league_key": "soccer_efl_champ",
+      "league": "Championship (England 2)",
+      "sport": "Football",
+      "event_id": "a30b201e4df636949371d73491c620b5",
+      "game": "Watford vs Middlesbrough",
+      "home": "Watford",
+      "away": "Middlesbrough",
+      "start": "2026-11-07T15:00:00Z",
+      "market": "h2h",
+      "market_name": "Winner",
+      "name": "Watford",
+      "point": null,
+      "pick": "Watford",
+      "book": "Matchbook",
+      "book_key": "matchbook",
+      "odds": 5.9,
+      "eff_odds": 5.802,
+      "fair_odds": 5.51,
+      "edge": 0.0529,
+      "stake": 0.88,
+      "status": "open",
+      "closing_fair_odds": null,
+      "clv": null,
+      "profit": 0.0,
+      "score": null,
+      "settled_at": null,
+      "thoughts": [
+        "Pinnacle, the sharpest bookmaker, rates Watford at 18.1%. That makes the fair price 5.51.",
+        "Matchbook pays 5.90 (5.80 after the exchange fee). That is +5.3% above fair. My bar is +2.5%.",
+        "Full Kelly says 1.1% of my fund. I play 0.4× Kelly, capped at 5%: 0.88 of my 200.00.",
+        "Gap spotted. Striking while the bookmakers sleep."
+      ]
+    },
+    {
+      "id": "4330962b4e3ef6768d90008d6befb10d-lizard-h2h",
+      "strategy": "lizard",
+      "placed_at": "2026-11-05T09:51:42Z",
+      "league_key": "soccer_efl_champ",
+      "league": "Championship (England 2)",
+      "sport": "Football",
+      "event_id": "4330962b4e3ef6768d90008d6befb10d",
+      "game": "Preston North End vs Southampton",
+      "home": "Preston North End",
+      "away": "Southampton",
+      "start": "2026-11-07T15:00:00Z",
+      "market": "h2h",
+      "market_name": "Winner",
+      "name": "Preston North End",
+      "point": null,
+      "pick": "Preston North End",
+      "book": "Matchbook",
+      "book_key": "matchbook",
+      "odds": 5.2,
+      "eff_odds": 5.116,
+      "fair_odds": 4.847,
+      "edge": 0.0555,
+      "stake": 1.08,
+      "status": "open",
+      "closing_fair_odds": null,
+      "clv": null,
+      "profit": 0.0,
+      "score": null,
+      "settled_at": null,
+      "thoughts": [
+        "Pinnacle, the sharpest bookmaker, rates Preston North End at 20.6%. That makes the fair price 4.85.",
+        "Matchbook pays 5.20 (5.12 after the exchange fee). That is +5.5% above fair. My bar is +2.5%.",
+        "Full Kelly says 1.3% of my fund. I play 0.4× Kelly, capped at 5%: 1.08 of my 200.00.",
+        "Gap spotted. Striking while the bookmakers sleep."
+      ]
+    },
+    {
+      "id": "89fe6860f3058526dd227dc27efd902a-lizard-h2h",
+      "strategy": "lizard",
+      "placed_at": "2026-11-05T09:51:42Z",
+      "league_key": "soccer_efl_champ",
+      "league": "Championship (England 2)",
+      "sport": "Football",
+      "event_id": "89fe6860f3058526dd227dc27efd902a",
+      "game": "Bristol City vs Norwich City",
+      "home": "Bristol City",
+      "away": "Norwich City",
+      "start": "2026-11-07T12:30:00Z",
+      "market": "h2h",
+      "market_name": "Winner",
+      "name": "Draw",
+      "point": null,
+      "pick": "Draw",
+      "book": "LeoVegas (SE)",
+      "book_key": "leovegas_se",
+      "odds": 3.65,
+      "eff_odds": 3.65,
+      "fair_odds": 3.558,
+      "edge": 0.0258,
+      "stake": 0.78,
+      "status": "open",
+      "closing_fair_odds": null,
+      "clv": null,
+      "profit": 0.0,
+      "score": null,
+      "settled_at": null,
+      "thoughts": [
+        "Pinnacle, the sharpest bookmaker, rates Draw at 28.1%. That makes the fair price 3.56.",
+        "LeoVegas (SE) pays 3.65. That is +2.6% above fair. My bar is +2.5%.",
+        "Full Kelly says 1.0% of my fund. I play 0.4× Kelly, capped at 5%: 0.78 of my 200.00.",
+        "Gap spotted. Striking while the bookmakers sleep."
+      ]
+    },
     {
       "id": "af665449ac9e2c4e1f183376e85fc936-all-h2h",
       "strategy": "lizard",
@@ -744,6 +994,10 @@
     {
       "t": "2026-11-04T15:49:45Z",
       "text": "🏅 🦎 The Lizard unlocked 🩸 First Blood: Placed its first bet."
+    },
+    {
+      "t": "2026-11-05T09:51:42Z",
+      "text": "Placed 5 practice bets:\n- The Lizard: **Draw** (Winner) in Bristol City vs Norwich City (Championship (England 2)) at 3.65 on LeoVegas (SE), stake 0.78, edge +2.6%\n- The Lizard: **Blackburn Rovers** (Winner) in Blackburn Rovers vs West Ham United (Championship (England 2)) at 5.3 on Matchbook, stake 1.15, edge +6.0%\n- The Lizard: **Lincoln City** (Winner) in Queens Park Rangers vs Lincoln City (Championship (England 2)) at 5.2 on Matchbook, stake 0.52, edge +2.7%\n- The Lizard: **Watford** (Winner) in Watford vs Middlesbrough (Championship (England 2)) at 5.9 on Matchbook, stake 0.88, edge +5.3%\n- The Lizard: **Preston North End** (Winner) in Preston North End vs Southampton (Championship (England 2)) at 5.2 on Matchbook, stake 1.08, edge +5.5%"
     }
   ]
 }
