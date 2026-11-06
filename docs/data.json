@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T13:25:29Z",
+  "updated": "2026-11-06T13:27:04Z",
   "start_fund": 200,
   "order": [
     "lizard",
@@ -371,7 +371,7 @@
     "week_start": "2026-11-02"
   },
   "credits_left": 474,
-  "last_scan": "2026-11-06@8",
+  "last_scan": "2026-11-06@0",
   "strategies": {
     "lizard": {
       "name": "The Lizard",
@@ -1213,6 +1213,10 @@
     {
       "t": "2026-11-06T13:25:29Z",
       "text": "Skipped a scan: odds credits are running low."
+    },
+    {
+      "t": "2026-11-06T13:27:04Z",
+      "text": "Waiting to scan: odds credits are below the reserve. It will run as soon as credits are available."
     }
   ]
 }

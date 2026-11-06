@@ -32,6 +32,10 @@
     {
       "t": "2026-11-06T13:25:29Z",
       "text": "Skipped a scan: odds credits are running low."
+    },
+    {
+      "t": "2026-11-06T13:27:04Z",
+      "text": "Waiting to scan: odds credits are below the reserve. It will run as soon as credits are available."
     }
   ],
   "levels": {
@@ -645,5 +649,6 @@
         }
       ]
     }
-  }
+  },
+  "skip_note": "2026-11-06@8"
 }
