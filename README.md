@@ -22,7 +22,6 @@ Needs one repository secret: `ODDS_API_KEY`.
 
 ## Free plan vs 20K plan
 
-`config.json` is set for the free Odds API plan (500 credits a month): four football leagues that looked
-promising in the past seasons test, winner bets only, one scan a day.
-`config.20k.json` is the wider setup for the 20K plan (many sports, three bet types, two scans a day).
-To switch, copy `config.20k.json` over `config.json`.
+`config.json` is the active setup. It is currently the 20K plan setup (many leagues, three bet types,
+two scans a day, results every 6 hours). `config.free.json` keeps the smaller setup for the free
+Odds API plan (500 credits a month), and `config.20k.json` the 20K one. To switch, copy one over `config.json`.
