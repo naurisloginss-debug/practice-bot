@@ -968,6 +968,10 @@ def main():
         b["strategy"] = CONFIG.get("renamed", {}).get(b["strategy"], b["strategy"])
     bets[:] = [b for b in bets if b["strategy"] in CONFIG["strategies"]]
     notes = []
+    try:
+        api.get("/sports")  # free call: refreshes the real credit balance (e.g. after a plan upgrade or new key)
+    except Exception:
+        pass
     scan(api, bets, state, now, notes)
     record_closing(api, bets, now, notes)
     settle(api, bets, state, now, notes)
