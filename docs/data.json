@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T21:45:29Z",
+  "updated": "2026-11-06T22:00:53Z",
   "start_fund": 200,
   "order": [
     "lizard",
@@ -29,8 +29,8 @@
     ],
     "chars": {
       "lizard": {
-        "iq": 83,
-        "iq_gain": 3,
+        "iq": 84,
+        "iq_gain": 4,
         "streak": 2,
         "best_streak": 2,
         "achievements": [
@@ -138,7 +138,7 @@
             "pending": true
           }
         ],
-        "score": 93,
+        "score": 94,
         "trophies": []
       },
       "quant": {
@@ -370,7 +370,7 @@
     },
     "week_start": "2026-11-02"
   },
-  "credits_left": 19946,
+  "credits_left": 19944,
   "last_scan": "2026-11-06@16",
   "strategies": {
     "lizard": {
@@ -408,15 +408,15 @@
         "Total"
       ],
       "start_fund": 200,
-      "fund": 200,
+      "fund": 199.05,
       "lessons": [],
       "bets": 16,
-      "open": 16,
+      "open": 15,
       "won": 0,
-      "lost": 0,
-      "staked": 0,
-      "profit": 0,
-      "roi": null,
+      "lost": 1,
+      "staked": 0.95,
+      "profit": -0.95,
+      "roi": -1.0,
       "avg_edge": 0.0362,
       "avg_clv": 0.0164,
       "beat_close": 1.0,
@@ -425,14 +425,18 @@
         {
           "t": "2026-11-04T12:49:24Z",
           "fund": 200
+        },
+        {
+          "t": "2026-11-06T22:00:53Z",
+          "fund": 199.05
         }
       ],
       "by_league": [
         {
           "name": "Ligue 2 (France 2)",
           "bets": 1,
-          "profit": 0,
-          "roi": null,
+          "profit": -0.95,
+          "roi": -1.0,
           "avg_clv": 0.0243,
           "beat_close": 1.0,
           "clv_count": 1
@@ -487,8 +491,8 @@
         {
           "name": "Winner",
           "bets": 15,
-          "profit": 0,
-          "roi": null,
+          "profit": -0.95,
+          "roi": -1.0,
           "avg_clv": 0.0164,
           "beat_close": 1.0,
           "clv_count": 2
@@ -507,8 +511,8 @@
         {
           "name": "Football",
           "bets": 16,
-          "profit": 0,
-          "roi": null,
+          "profit": -0.95,
+          "roi": -1.0,
           "avg_clv": 0.0164,
           "beat_close": 1.0,
           "clv_count": 2
@@ -593,8 +597,8 @@
         }
       },
       "mind": {
-        "iq": 83,
-        "iq_week": 3,
+        "iq": 84,
+        "iq_week": 4,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -606,7 +610,7 @@
           },
           {
             "d": "2026-11-06",
-            "iq": 83
+            "iq": 84
           }
         ],
         "facts": [
@@ -620,7 +624,7 @@
         ],
         "rules": 0,
         "studied": 58,
-        "resolved": 0
+        "resolved": 6
       }
     },
     "quant": {
@@ -1444,12 +1448,12 @@
       "fair_odds": 3.024,
       "edge": 0.025,
       "stake": 0.95,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 3.027,
       "clv": 0.0243,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -0.95,
+      "score": "Boulogne 3 - 0 Annecy FC",
+      "settled_at": "2026-11-06T22:00:53Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates Draw at 33.1%. That makes the fair price 3.02.",
         "Coolbet pays 3.10. That is +2.5% above fair. My bar is +2.5%.",
@@ -1494,6 +1498,10 @@
     {
       "t": "2026-11-06T18:30:45Z",
       "text": "🏅 🦎 The Lizard unlocked 🎯 Beat the Market: Got a better price than the final one."
+    },
+    {
+      "t": "2026-11-06T22:00:53Z",
+      "text": "Results:\n- Lost -0.95: Draw (Winner) in Boulogne vs Annecy FC (Boulogne 3 - 0 Annecy FC)"
     }
   ]
 }
