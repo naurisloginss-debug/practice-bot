@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T13:27:04Z",
+  "updated": "2026-11-06T13:27:45Z",
   "start_fund": 200,
   "order": [
     "lizard",
@@ -9,22 +9,22 @@
   "arena": {
     "ranking": [
       "lizard",
-      "quant",
-      "shark"
+      "shark",
+      "quant"
     ],
     "grower": "lizard",
     "talk": [
       {
         "who": "lizard",
-        "text": "Top of the table. The Quant, patience beats noise every time."
-      },
-      {
-        "who": "quant",
-        "text": "The Lizard is ahead on paper. My numbers say not for long."
+        "text": "Top of the table. The Shark, patience beats noise every time."
       },
       {
         "who": "shark",
         "text": "I smell The Lizard's lead from here. Closing in."
+      },
+      {
+        "who": "quant",
+        "text": "The Lizard is ahead on paper. My numbers say not for long."
       }
     ],
     "chars": {
@@ -123,7 +123,7 @@
           {
             "text": "Games studied",
             "target": 20,
-            "now": 40
+            "now": 58
           },
           {
             "text": "Bets checked against the market",
@@ -236,7 +236,7 @@
           {
             "text": "Games studied",
             "target": 20,
-            "now": 11
+            "now": 15
           },
           {
             "text": "Bets checked against the market",
@@ -255,8 +255,8 @@
         "trophies": []
       },
       "shark": {
-        "iq": 80,
-        "iq_gain": 0,
+        "iq": 81,
+        "iq_gain": 1,
         "streak": 0,
         "best_streak": 0,
         "achievements": [
@@ -349,7 +349,7 @@
           {
             "text": "Games studied",
             "target": 20,
-            "now": 13
+            "now": 68
           },
           {
             "text": "Bets checked against the market",
@@ -364,14 +364,14 @@
             "pending": true
           }
         ],
-        "score": 80,
+        "score": 81,
         "trophies": []
       }
     },
     "week_start": "2026-11-02"
   },
-  "credits_left": 474,
-  "last_scan": "2026-11-06@0",
+  "credits_left": 19974,
+  "last_scan": "2026-11-06@8",
   "strategies": {
     "lizard": {
       "name": "The Lizard",
@@ -410,14 +410,14 @@
       "start_fund": 200,
       "fund": 200,
       "lessons": [],
-      "bets": 10,
-      "open": 10,
+      "bets": 12,
+      "open": 12,
       "won": 0,
       "lost": 0,
       "staked": 0,
       "profit": 0,
       "roi": null,
-      "avg_edge": 0.0397,
+      "avg_edge": 0.0389,
       "avg_clv": null,
       "beat_close": null,
       "clv_count": 0,
@@ -428,6 +428,15 @@
         }
       ],
       "by_league": [
+        {
+          "name": "2. Bundesliga",
+          "bets": 1,
+          "profit": 0,
+          "roi": null,
+          "avg_clv": null,
+          "beat_close": null,
+          "clv_count": 0
+        },
         {
           "name": "Championship (England 2)",
           "bets": 7,
@@ -448,7 +457,7 @@
         },
         {
           "name": "Ligue 1 (France)",
-          "bets": 1,
+          "bets": 2,
           "profit": 0,
           "roi": null,
           "avg_clv": null,
@@ -468,7 +477,7 @@
       "by_market": [
         {
           "name": "Winner",
-          "bets": 10,
+          "bets": 12,
           "profit": 0,
           "roi": null,
           "avg_clv": null,
@@ -479,7 +488,7 @@
       "by_sport": [
         {
           "name": "Football",
-          "bets": 10,
+          "bets": 12,
           "profit": 0,
           "roi": null,
           "avg_clv": null,
@@ -488,46 +497,46 @@
         }
       ],
       "diary": {
-        "t": "2026-11-06T09:00:59Z",
+        "t": "2026-11-06T13:27:45Z",
         "mood": "Gap spotted. Striking while the bookmakers sleep.",
-        "looked": 33,
-        "placed": 4,
+        "looked": 57,
+        "placed": 2,
         "passed": [
           {
             "game": "Paris Saint Germain vs Troyes",
             "league": "Ligue 1 (France)",
             "pick": "Troyes",
-            "odds": 27.0,
-            "book": "Betfair",
-            "edge": 0.3807,
-            "reason": "+38.1% looks too good to be true. Probably a price the bookmaker forgot to update."
-          },
-          {
-            "game": "Toulouse vs Strasbourg",
-            "league": "Ligue 1 (France)",
-            "pick": "Draw",
-            "odds": 3.8,
-            "book": "GTbets",
-            "edge": 0.0193,
-            "reason": "Only +1.93% edge. I need +2.5% before I move."
-          },
-          {
-            "game": "Rennes vs Lille",
-            "league": "Ligue 1 (France)",
-            "pick": "Lille",
-            "odds": 3.45,
+            "odds": 23.0,
             "book": "Unibet (SE)",
+            "edge": 0.3304,
+            "reason": "+33.0% looks too good to be true. Probably a price the bookmaker forgot to update."
+          },
+          {
+            "game": "Holstein Kiel vs Arminia Bielefeld",
+            "league": "2. Bundesliga",
+            "pick": "Draw",
+            "odds": 3.5,
+            "book": "BetOnline.ag",
+            "edge": 0.0207,
+            "reason": "Only +2.07% edge. I need +2.5% before I move."
+          },
+          {
+            "game": "USL Dunkerque vs Guingamp",
+            "league": "Ligue 2 (France 2)",
+            "pick": "Draw",
+            "odds": 3.75,
+            "book": "Coolbet",
+            "edge": 0.0206,
+            "reason": "Only +2.06% edge. I need +2.5% before I move."
+          },
+          {
+            "game": "Charlton Athletic vs Sheffield United",
+            "league": "Championship (England 2)",
+            "pick": "Charlton Athletic",
+            "odds": 3.8,
+            "book": "Matchbook",
             "edge": 0.018,
             "reason": "Only +1.80% edge. I need +2.5% before I move."
-          },
-          {
-            "game": "Angers vs Nice",
-            "league": "Ligue 1 (France)",
-            "pick": "Draw",
-            "odds": 3.85,
-            "book": "Coolbet",
-            "edge": 0.0175,
-            "reason": "Only +1.75% edge. I need +2.5% before I move."
           }
         ]
       },
@@ -584,7 +593,7 @@
         ],
         "facts": [],
         "rules": 0,
-        "studied": 40,
+        "studied": 58,
         "resolved": 0
       }
     },
@@ -634,140 +643,11 @@
       "by_market": [],
       "by_sport": [],
       "diary": {
-        "t": "2026-11-06T09:00:59Z",
+        "t": "2026-11-06T13:27:45Z",
         "mood": "The lines are tight tonight. No edge, no bet.",
-        "looked": 9,
+        "looked": 13,
         "placed": 0,
-        "passed": [
-          {
-            "game": "Charlotte Hornets vs Boston Celtics",
-            "league": "NBA",
-            "pick": "Under 210.5",
-            "odds": 1.93,
-            "book": "Unibet (NL)",
-            "edge": 0.0024,
-            "reason": "Only +0.24% edge. I need +2.0% before I move."
-          }
-        ]
-      },
-      "level": {
-        "n": 1,
-        "title": "Rookie",
-        "badge": "🐣",
-        "stake": 1.0,
-        "perk": "Normal stakes while it proves itself.",
-        "measured": 0,
-        "clv": 0.0,
-        "beat": 0.0,
-        "cold": false,
-        "next": {
-          "title": "Apprentice",
-          "badge": "🎓",
-          "perk": "Has a track record. Starts learning which bets work.",
-          "needs": [
-            {
-              "text": "15 measured bets",
-              "done": false,
-              "now": "0"
-            },
-            {
-              "text": "beat the market on 50%+",
-              "done": false,
-              "now": "–"
-            },
-            {
-              "text": "average price +0.0%+ vs market",
-              "done": false,
-              "now": "–"
-            }
-          ],
-          "progress": 0.0
-        }
-      },
-      "mind": {
-        "iq": 80,
-        "iq_week": 0,
-        "iq_history": [
-          {
-            "d": "2026-11-04",
-            "iq": 80
-          },
-          {
-            "d": "2026-11-05",
-            "iq": 80
-          },
-          {
-            "d": "2026-11-06",
-            "iq": 80
-          }
-        ],
-        "facts": [],
-        "rules": 0,
-        "studied": 11,
-        "resolved": 0
-      }
-    },
-    "shark": {
-      "name": "The Shark",
-      "emoji": "🦈",
-      "sport": "American football",
-      "inspired_by": "Billy Walters",
-      "story": "Las Vegas legend who beat NFL point spreads for decades with computer models, getting his bets in before the market moved. The classic 'beat the closing line' bettor.",
-      "style": "Bets NFL point spreads early in the week, before the market catches up.",
-      "motto": "Get there before the market does.",
-      "backtest": null,
-      "risk": {
-        "kelly": 0.5,
-        "max_stake_pct": 6,
-        "min_edge": 0.02,
-        "odds": [
-          1.6,
-          2.6
-        ],
-        "stop_below": 110
-      },
-      "leagues": [
-        "NFL",
-        "College football (US)"
-      ],
-      "markets": [
-        "Spread",
-        "Total"
-      ],
-      "start_fund": 200,
-      "fund": 200,
-      "lessons": [],
-      "bets": 0,
-      "open": 0,
-      "won": 0,
-      "lost": 0,
-      "staked": 0,
-      "profit": 0,
-      "roi": null,
-      "avg_edge": null,
-      "avg_clv": null,
-      "beat_close": null,
-      "clv_count": 0,
-      "history": [],
-      "by_league": [],
-      "by_market": [],
-      "by_sport": [],
-      "diary": {
-        "t": "2026-11-06T09:00:59Z",
-        "mood": "The market's sharp this week. Circling, not biting.",
-        "looked": 14,
-        "placed": 0,
-        "passed": [
-          {
-            "game": "Washington Commanders vs Los Angeles Rams",
-            "league": "NFL",
-            "pick": "Washington Commanders +5.5",
-            "odds": 1.89,
-            "book": "LeoVegas (SE)",
-            "edge": 0.0032,
-            "reason": "Only +0.32% edge. I need +2.0% before I move."
-          }
-        ]
+        "passed": []
       },
       "level": {
         "n": 1,
@@ -823,6 +703,134 @@
         "facts": [],
         "rules": 0,
         "studied": 15,
+        "resolved": 0
+      }
+    },
+    "shark": {
+      "name": "The Shark",
+      "emoji": "🦈",
+      "sport": "American football",
+      "inspired_by": "Billy Walters",
+      "story": "Las Vegas legend who beat NFL point spreads for decades with computer models, getting his bets in before the market moved. The classic 'beat the closing line' bettor.",
+      "style": "Bets NFL point spreads early in the week, before the market catches up.",
+      "motto": "Get there before the market does.",
+      "backtest": null,
+      "risk": {
+        "kelly": 0.5,
+        "max_stake_pct": 6,
+        "min_edge": 0.02,
+        "odds": [
+          1.6,
+          2.6
+        ],
+        "stop_below": 110
+      },
+      "leagues": [
+        "NFL",
+        "College football (US)"
+      ],
+      "markets": [
+        "Spread",
+        "Total"
+      ],
+      "start_fund": 200,
+      "fund": 200,
+      "lessons": [],
+      "bets": 0,
+      "open": 0,
+      "won": 0,
+      "lost": 0,
+      "staked": 0,
+      "profit": 0,
+      "roi": null,
+      "avg_edge": null,
+      "avg_clv": null,
+      "beat_close": null,
+      "clv_count": 0,
+      "history": [],
+      "by_league": [],
+      "by_market": [],
+      "by_sport": [],
+      "diary": {
+        "t": "2026-11-06T13:27:45Z",
+        "mood": "The market's sharp this week. Circling, not biting.",
+        "looked": 68,
+        "placed": 0,
+        "passed": [
+          {
+            "game": "Coastal Carolina Chanticleers vs Old Dominion Monarchs",
+            "league": "College football (US)",
+            "pick": "Old Dominion Monarchs +6.5",
+            "odds": 2.05,
+            "book": "BetOnline.ag",
+            "edge": 0.0171,
+            "reason": "Only +1.71% edge. I need +2.0% before I move."
+          },
+          {
+            "game": "Washington Commanders vs Los Angeles Rams",
+            "league": "NFL",
+            "pick": "Washington Commanders +5.5",
+            "odds": 1.89,
+            "book": "LeoVegas (SE)",
+            "edge": 0.0032,
+            "reason": "Only +0.32% edge. I need +2.0% before I move."
+          }
+        ]
+      },
+      "level": {
+        "n": 1,
+        "title": "Rookie",
+        "badge": "🐣",
+        "stake": 1.0,
+        "perk": "Normal stakes while it proves itself.",
+        "measured": 0,
+        "clv": 0.0,
+        "beat": 0.0,
+        "cold": false,
+        "next": {
+          "title": "Apprentice",
+          "badge": "🎓",
+          "perk": "Has a track record. Starts learning which bets work.",
+          "needs": [
+            {
+              "text": "15 measured bets",
+              "done": false,
+              "now": "0"
+            },
+            {
+              "text": "beat the market on 50%+",
+              "done": false,
+              "now": "–"
+            },
+            {
+              "text": "average price +0.0%+ vs market",
+              "done": false,
+              "now": "–"
+            }
+          ],
+          "progress": 0.0
+        }
+      },
+      "mind": {
+        "iq": 81,
+        "iq_week": 1,
+        "iq_history": [
+          {
+            "d": "2026-11-04",
+            "iq": 80
+          },
+          {
+            "d": "2026-11-05",
+            "iq": 80
+          },
+          {
+            "d": "2026-11-06",
+            "iq": 81
+          }
+        ],
+        "facts": [],
+        "rules": 0,
+        "studied": 70,
         "resolved": 0
       }
     }
@@ -936,6 +944,43 @@
         "Pinnacle, the sharpest bookmaker, rates Draw at 26.0%. That makes the fair price 3.85.",
         "Unibet (SE) pays 3.95. That is +2.5% above fair. My bar is +2.5%.",
         "Full Kelly says 0.9% of my fund. I play 0.4× Kelly, capped at 5%: 0.69 of my 200.00.",
+        "Gap spotted. Striking while the bookmakers sleep."
+      ]
+    },
+    {
+      "id": "8553a80cf1ae5cbe3e7a69b76ce8167f-lizard-h2h",
+      "strategy": "lizard",
+      "placed_at": "2026-11-06T13:27:45Z",
+      "league_key": "soccer_france_ligue_one",
+      "league": "Ligue 1 (France)",
+      "sport": "Football",
+      "event_id": "8553a80cf1ae5cbe3e7a69b76ce8167f",
+      "game": "Auxerre vs Paris FC",
+      "home": "Auxerre",
+      "away": "Paris FC",
+      "start": "2026-11-07T18:00:00Z",
+      "market": "h2h",
+      "market_name": "Winner",
+      "name": "Auxerre",
+      "point": null,
+      "pick": "Auxerre",
+      "book": "LeoVegas (SE)",
+      "book_key": "leovegas_se",
+      "odds": 4.6,
+      "eff_odds": 4.6,
+      "fair_odds": 4.445,
+      "edge": 0.0348,
+      "stake": 0.77,
+      "status": "open",
+      "closing_fair_odds": null,
+      "clv": null,
+      "profit": 0.0,
+      "score": null,
+      "settled_at": null,
+      "thoughts": [
+        "Pinnacle, the sharpest bookmaker, rates Auxerre at 22.5%. That makes the fair price 4.45.",
+        "LeoVegas (SE) pays 4.60. That is +3.5% above fair. My bar is +2.5%.",
+        "Full Kelly says 1.0% of my fund. I play 0.4× Kelly, capped at 5%: 0.77 of my 200.00.",
         "Gap spotted. Striking while the bookmakers sleep."
       ]
     },
@@ -1162,6 +1207,43 @@
       ]
     },
     {
+      "id": "1a2b66dec637d06c15d3902ac9068c1f-lizard-h2h",
+      "strategy": "lizard",
+      "placed_at": "2026-11-06T13:27:45Z",
+      "league_key": "soccer_germany_bundesliga2",
+      "league": "2. Bundesliga",
+      "sport": "Football",
+      "event_id": "1a2b66dec637d06c15d3902ac9068c1f",
+      "game": "Holstein Kiel vs Arminia Bielefeld",
+      "home": "Holstein Kiel",
+      "away": "Arminia Bielefeld",
+      "start": "2026-11-07T12:00:00Z",
+      "market": "h2h",
+      "market_name": "Winner",
+      "name": "Draw",
+      "point": null,
+      "pick": "Draw",
+      "book": "Unibet (NL)",
+      "book_key": "unibet_nl",
+      "odds": 3.55,
+      "eff_odds": 3.55,
+      "fair_odds": 3.429,
+      "edge": 0.0353,
+      "stake": 1.11,
+      "status": "open",
+      "closing_fair_odds": null,
+      "clv": null,
+      "profit": 0.0,
+      "score": null,
+      "settled_at": null,
+      "thoughts": [
+        "Pinnacle, the sharpest bookmaker, rates Draw at 29.2%. That makes the fair price 3.43.",
+        "Unibet (NL) pays 3.55. That is +3.5% above fair. My bar is +2.5%.",
+        "Full Kelly says 1.4% of my fund. I play 0.4× Kelly, capped at 5%: 1.11 of my 200.00.",
+        "Gap spotted. Striking while the bookmakers sleep."
+      ]
+    },
+    {
       "id": "af665449ac9e2c4e1f183376e85fc936-all-h2h",
       "strategy": "lizard",
       "placed_at": "2026-11-04T12:49:24Z",
@@ -1217,6 +1299,10 @@
     {
       "t": "2026-11-06T13:27:04Z",
       "text": "Waiting to scan: odds credits are below the reserve. It will run as soon as credits are available."
+    },
+    {
+      "t": "2026-11-06T13:27:45Z",
+      "text": "Placed 2 practice bets:\n- The Lizard: **Auxerre** (Winner) in Auxerre vs Paris FC (Ligue 1 (France)) at 4.6 on LeoVegas (SE), stake 0.77, edge +3.5%\n- The Lizard: **Draw** (Winner) in Holstein Kiel vs Arminia Bielefeld (2. Bundesliga) at 3.55 on Unibet (NL), stake 1.11, edge +3.5%"
     }
   ]
 }
