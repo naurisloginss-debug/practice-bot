@@ -80,8 +80,8 @@
       "min_edge": 0.025,
       "min_odds": 1.6,
       "max_odds": 6.0,
-      "max_bets_per_day": 6,
-      "max_stake_per_day": 30,
+      "max_bets_per_day": 20,
+      "max_stake_per_day": 80,
       "days_ahead": 3,
       "voice": {
         "strike": "Gap spotted. Striking while the bookmakers sleep.",
@@ -114,8 +114,8 @@
       "min_edge": 0.02,
       "min_odds": 1.6,
       "max_odds": 2.6,
-      "max_bets_per_day": 4,
-      "max_stake_per_day": 30,
+      "max_bets_per_day": 10,
+      "max_stake_per_day": 40,
       "days_ahead": 1,
       "voice": {
         "strike": "The numbers don't lie. Betting it.",
@@ -148,8 +148,8 @@
       "min_edge": 0.02,
       "min_odds": 1.6,
       "max_odds": 2.6,
-      "max_bets_per_day": 4,
-      "max_stake_per_day": 40,
+      "max_bets_per_day": 10,
+      "max_stake_per_day": 50,
       "days_ahead": 6,
       "voice": {
         "strike": "Blood in the water. Getting in before the market moves.",
@@ -174,5 +174,6 @@
     "rule_games": 200,
     "rule_z": 2.5,
     "min_prices": 150
-  }
+  },
+  "practice_note": "Practice mode: daily limits are raised to collect data faster. Before real money, set them back to 6/30 (lizard), 4/30 (quant), 4/40 (shark)."
 }
