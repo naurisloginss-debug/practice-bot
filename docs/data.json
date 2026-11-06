@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T22:45:30Z",
+  "updated": "2026-11-06T23:00:57Z",
   "start_fund": 200,
   "order": [
     "lizard",
@@ -370,7 +370,7 @@
     },
     "week_start": "2026-11-02"
   },
-  "credits_left": 19944,
+  "credits_left": 19942,
   "last_scan": "2026-11-06@16",
   "strategies": {
     "lizard": {
@@ -408,14 +408,14 @@
         "Total"
       ],
       "start_fund": 200,
-      "fund": 199.05,
+      "fund": 198.42,
       "lessons": [],
       "bets": 16,
-      "open": 15,
+      "open": 14,
       "won": 0,
-      "lost": 1,
-      "staked": 0.95,
-      "profit": -0.95,
+      "lost": 2,
+      "staked": 1.58,
+      "profit": -1.58,
       "roi": -1.0,
       "avg_edge": 0.0362,
       "avg_clv": 0.0164,
@@ -429,6 +429,10 @@
         {
           "t": "2026-11-06T22:00:53Z",
           "fund": 199.05
+        },
+        {
+          "t": "2026-11-06T23:00:57Z",
+          "fund": 198.42
         }
       ],
       "by_league": [
@@ -444,8 +448,8 @@
         {
           "name": "Championship (England 2)",
           "bets": 8,
-          "profit": 0,
-          "roi": null,
+          "profit": -0.63,
+          "roi": -1.0,
           "avg_clv": 0.0085,
           "beat_close": 1.0,
           "clv_count": 1
@@ -491,7 +495,7 @@
         {
           "name": "Winner",
           "bets": 15,
-          "profit": -0.95,
+          "profit": -1.58,
           "roi": -1.0,
           "avg_clv": 0.0164,
           "beat_close": 1.0,
@@ -511,7 +515,7 @@
         {
           "name": "Football",
           "bets": 16,
-          "profit": -0.95,
+          "profit": -1.58,
           "roi": -1.0,
           "avg_clv": 0.0164,
           "beat_close": 1.0,
@@ -624,7 +628,7 @@
         ],
         "rules": 0,
         "studied": 58,
-        "resolved": 6
+        "resolved": 7
       }
     },
     "quant": {
@@ -1417,12 +1421,12 @@
       "fair_odds": 2.879,
       "edge": 0.0247,
       "stake": 0.63,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 2.925,
       "clv": 0.0085,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null
+      "profit": -0.63,
+      "score": "Derby County 3 - 1 Bolton Wanderers",
+      "settled_at": "2026-11-06T23:00:57Z"
     },
     {
       "id": "57fc8cfc03a9f7081a2d90bbaf77e899-lizard-h2h",
@@ -1502,6 +1506,10 @@
     {
       "t": "2026-11-06T22:00:53Z",
       "text": "Results:\n- Lost -0.95: Draw (Winner) in Boulogne vs Annecy FC (Boulogne 3 - 0 Annecy FC)"
+    },
+    {
+      "t": "2026-11-06T23:00:57Z",
+      "text": "Results:\n- Lost -0.63: Bolton Wanderers (Winner) in Derby County vs Bolton Wanderers (Derby County 3 - 1 Bolton Wanderers)"
     }
   ]
 }

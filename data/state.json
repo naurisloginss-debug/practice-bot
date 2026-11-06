@@ -1,6 +1,6 @@
 {
   "last_scan": "2026-11-06@16",
-  "credits_left": 19944,
+  "credits_left": 19942,
   "league_names": {
     "soccer_italy_serie_b": "Serie B (Italy 2)",
     "soccer_efl_champ": "Championship (England 2)",
@@ -18,7 +18,8 @@
   "budget_day": "2026-11-06",
   "credits_day_start": 480,
   "last_settle_check": {
-    "soccer_france_ligue_two": "2026-11-06T22:00:53Z"
+    "soccer_france_ligue_two": "2026-11-06T22:00:53Z",
+    "soccer_efl_champ": "2026-11-06T23:00:57Z"
   },
   "log": [
     {
@@ -60,6 +61,10 @@
     {
       "t": "2026-11-06T22:00:53Z",
       "text": "Results:\n- Lost -0.95: Draw (Winner) in Boulogne vs Annecy FC (Boulogne 3 - 0 Annecy FC)"
+    },
+    {
+      "t": "2026-11-06T23:00:57Z",
+      "text": "Results:\n- Lost -0.63: Bolton Wanderers (Winner) in Derby County vs Bolton Wanderers (Derby County 3 - 1 Bolton Wanderers)"
     }
   ],
   "levels": {
