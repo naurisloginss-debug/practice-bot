@@ -641,10 +641,13 @@ def scan(api, bets, state, now, notes):
     if not slot:
         return
     today = now.date().isoformat()
-    state["last_scan"] = slot
     if api.low_on_credits():
-        notes.append("Skipped a scan: odds credits are running low.")
+        # Don't use up the scan: it runs on the next 15-minute check once credits are back. Say so once.
+        if state.get("skip_note") != slot:
+            state["skip_note"] = slot
+            notes.append("Waiting to scan: odds credits are below the reserve. It will run as soon as credits are available.")
         return
+    state["last_scan"] = slot
     placed = []
     start_from = now + timedelta(hours=1)
     obs = load(OBS_FILE, {})
