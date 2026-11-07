@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T07:45:30Z",
+  "updated": "2026-11-07T08:00:52Z",
   "start_fund": 200,
   "order": [
     "lizard",
@@ -29,8 +29,8 @@
     ],
     "chars": {
       "lizard": {
-        "iq": 84,
-        "iq_gain": 4,
+        "iq": 85,
+        "iq_gain": 5,
         "streak": 2,
         "best_streak": 2,
         "achievements": [
@@ -123,7 +123,7 @@
           {
             "text": "Games studied",
             "target": 20,
-            "now": 58
+            "now": 59
           },
           {
             "text": "Bets checked against the market",
@@ -138,7 +138,7 @@
             "pending": true
           }
         ],
-        "score": 94,
+        "score": 95,
         "trophies": []
       },
       "quant": {
@@ -236,7 +236,7 @@
           {
             "text": "Games studied",
             "target": 20,
-            "now": 15
+            "now": 20
           },
           {
             "text": "Bets checked against the market",
@@ -370,8 +370,8 @@
     },
     "week_start": "2026-11-02"
   },
-  "credits_left": 19942,
-  "last_scan": "2026-11-06@16",
+  "credits_left": 19918,
+  "last_scan": "2026-11-07@8",
   "strategies": {
     "lizard": {
       "name": "The Lizard",
@@ -410,14 +410,14 @@
       "start_fund": 200,
       "fund": 198.42,
       "lessons": [],
-      "bets": 16,
-      "open": 14,
+      "bets": 17,
+      "open": 15,
       "won": 0,
       "lost": 2,
       "staked": 1.58,
       "profit": -1.58,
       "roi": -1.0,
-      "avg_edge": 0.0362,
+      "avg_edge": 0.0357,
       "avg_clv": 0.0164,
       "beat_close": 1.0,
       "clv_count": 2,
@@ -447,7 +447,7 @@
         },
         {
           "name": "Championship (England 2)",
-          "bets": 8,
+          "bets": 9,
           "profit": -0.63,
           "roi": -1.0,
           "avg_clv": 0.0085,
@@ -494,7 +494,7 @@
       "by_market": [
         {
           "name": "Winner",
-          "bets": 15,
+          "bets": 16,
           "profit": -1.58,
           "roi": -1.0,
           "avg_clv": 0.0164,
@@ -514,7 +514,7 @@
       "by_sport": [
         {
           "name": "Football",
-          "bets": 16,
+          "bets": 17,
           "profit": -1.58,
           "roi": -1.0,
           "avg_clv": 0.0164,
@@ -523,46 +523,46 @@
         }
       ],
       "diary": {
-        "t": "2026-11-06T16:00:57Z",
+        "t": "2026-11-07T08:00:52Z",
         "mood": "Gap spotted. Striking while the bookmakers sleep.",
-        "looked": 57,
-        "placed": 4,
+        "looked": 46,
+        "placed": 1,
         "passed": [
           {
             "game": "Paris Saint Germain vs Troyes",
             "league": "Ligue 1 (France)",
             "pick": "Troyes",
-            "odds": 23.0,
+            "odds": 22.0,
             "book": "Betfair",
-            "edge": 0.2587,
-            "reason": "+25.9% looks too good to be true. Probably a price the bookmaker forgot to update."
+            "edge": 0.0378,
+            "reason": "Odds 22.00 are outside my game (1.6–6.0)."
           },
           {
-            "game": "Portsmouth vs Stoke City",
-            "league": "Championship (England 2)",
-            "pick": "Portsmouth",
-            "odds": 2.38,
-            "book": "LeoVegas (SE)",
-            "edge": 0.0249,
-            "reason": "Only +2.49% edge. I need +2.5% before I move."
+            "game": "Cádiz CF vs Oviedo",
+            "league": "La Liga 2 (Spain 2)",
+            "pick": "Oviedo",
+            "odds": 2.6,
+            "book": "Unibet (NL)",
+            "edge": 0.0225,
+            "reason": "Only +2.25% edge. I need +2.5% before I move."
           },
           {
-            "game": "USL Dunkerque vs Guingamp",
-            "league": "Ligue 2 (France 2)",
+            "game": "Le Havre vs Lorient",
+            "league": "Ligue 1 (France)",
             "pick": "Draw",
-            "odds": 3.75,
+            "odds": 3.5,
             "book": "Coolbet",
-            "edge": 0.0238,
-            "reason": "Only +2.38% edge. I need +2.5% before I move."
+            "edge": 0.0209,
+            "reason": "Only +2.09% edge. I need +2.5% before I move."
           },
           {
-            "game": "Charlton Athletic vs Sheffield United",
-            "league": "Championship (England 2)",
-            "pick": "Charlton Athletic",
-            "odds": 3.65,
-            "book": "LeoVegas (SE)",
-            "edge": 0.0221,
-            "reason": "Only +2.21% edge. I need +2.5% before I move."
+            "game": "Virtus Entella vs Modena",
+            "league": "Serie B (Italy 2)",
+            "pick": "Draw",
+            "odds": 3.25,
+            "book": "Marathon Bet",
+            "edge": 0.0179,
+            "reason": "Only +1.79% edge. I need +2.5% before I move."
           }
         ]
       },
@@ -601,8 +601,8 @@
         }
       },
       "mind": {
-        "iq": 84,
-        "iq_week": 4,
+        "iq": 85,
+        "iq_week": 5,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -618,20 +618,27 @@
           },
           {
             "d": "2026-11-07",
-            "iq": 84
+            "iq": 85
           }
         ],
         "facts": [
           {
             "conf": "solid",
-            "n": 160,
+            "n": 203,
             "z": 0,
             "text": "LeoVegas (SE) is the softest bookmaker in Championship (England 2).",
-            "detail": "beats fair by 2%+ on 8% of its prices vs 1% across all bookmakers"
+            "detail": "beats fair by 2%+ on 7% of its prices vs 1% across all bookmakers"
+          },
+          {
+            "conf": "solid",
+            "n": 180,
+            "z": 0,
+            "text": "Unibet (NL) is the softest bookmaker in Serie B (Italy 2).",
+            "detail": "beats fair by 2%+ on 2% of its prices vs 0% across all bookmakers"
           }
         ],
         "rules": 0,
-        "studied": 58,
+        "studied": 60,
         "resolved": 7
       }
     },
@@ -681,11 +688,21 @@
       "by_market": [],
       "by_sport": [],
       "diary": {
-        "t": "2026-11-06T16:00:57Z",
+        "t": "2026-11-07T08:00:52Z",
         "mood": "The lines are tight tonight. No edge, no bet.",
-        "looked": 12,
+        "looked": 5,
         "placed": 0,
-        "passed": []
+        "passed": [
+          {
+            "game": "Cleveland Cavaliers vs New York Knicks",
+            "league": "NBA",
+            "pick": "Cleveland Cavaliers +5",
+            "odds": 2.02,
+            "book": "Matchbook",
+            "edge": 0.0049,
+            "reason": "Only +0.49% edge. I need +2.0% before I move."
+          }
+        ]
       },
       "level": {
         "n": 1,
@@ -744,7 +761,7 @@
         ],
         "facts": [],
         "rules": 0,
-        "studied": 15,
+        "studied": 20,
         "resolved": 0
       }
     },
@@ -794,37 +811,46 @@
       "by_market": [],
       "by_sport": [],
       "diary": {
-        "t": "2026-11-06T16:00:57Z",
+        "t": "2026-11-07T08:00:52Z",
         "mood": "The market's sharp this week. Circling, not biting.",
-        "looked": 69,
+        "looked": 63,
         "placed": 0,
         "passed": [
+          {
+            "game": "Washington Commanders vs Los Angeles Rams",
+            "league": "NFL",
+            "pick": "Washington Commanders +4.5",
+            "odds": 2.0,
+            "book": "888sport",
+            "edge": 0.018,
+            "reason": "Only +1.80% edge. I need +2.0% before I move."
+          },
           {
             "game": "Coastal Carolina Chanticleers vs Old Dominion Monarchs",
             "league": "College football (US)",
             "pick": "Old Dominion Monarchs +6.5",
             "odds": 2.05,
             "book": "BetOnline.ag",
-            "edge": 0.0171,
-            "reason": "Only +1.71% edge. I need +2.0% before I move."
+            "edge": 0.0144,
+            "reason": "Only +1.44% edge. I need +2.0% before I move."
           },
           {
-            "game": "Jacksonville State Gamecocks vs Sam Houston State Bearkats",
+            "game": "Arkansas State Red Wolves vs UL Monroe Warhawks",
             "league": "College football (US)",
-            "pick": "Under 46.5",
-            "odds": 1.93,
-            "book": "Unibet (NL)",
-            "edge": 0.005,
-            "reason": "Only +0.50% edge. I need +2.0% before I move."
+            "pick": "Over 52.5",
+            "odds": 1.97,
+            "book": "Matchbook",
+            "edge": 0.0133,
+            "reason": "Only +1.33% edge. I need +2.0% before I move."
           },
           {
-            "game": "Washington Commanders vs Los Angeles Rams",
-            "league": "NFL",
-            "pick": "Over 48",
-            "odds": 1.92,
-            "book": "Unibet (NL)",
-            "edge": 0.0045,
-            "reason": "Only +0.45% edge. I need +2.0% before I move."
+            "game": "San Jose State Spartans vs Northern Illinois Huskies",
+            "league": "College football (US)",
+            "pick": "Over 52",
+            "odds": 1.95,
+            "book": "BetOnline.ag",
+            "edge": 0.013,
+            "reason": "Only +1.30% edge. I need +2.0% before I move."
           }
         ]
       },
@@ -1262,6 +1288,43 @@
       ]
     },
     {
+      "id": "463c2870517b0ad28afcbd8775287064-lizard-h2h",
+      "strategy": "lizard",
+      "placed_at": "2026-11-07T08:00:52Z",
+      "league_key": "soccer_efl_champ",
+      "league": "Championship (England 2)",
+      "sport": "Football",
+      "event_id": "463c2870517b0ad28afcbd8775287064",
+      "game": "Cardiff City vs Burnley",
+      "home": "Cardiff City",
+      "away": "Burnley",
+      "start": "2026-11-07T15:00:00Z",
+      "market": "h2h",
+      "market_name": "Winner",
+      "name": "Cardiff City",
+      "point": null,
+      "pick": "Cardiff City",
+      "book": "LeoVegas (SE)",
+      "book_key": "leovegas_se",
+      "odds": 2.12,
+      "eff_odds": 2.12,
+      "fair_odds": 2.064,
+      "edge": 0.0269,
+      "stake": 1.91,
+      "status": "open",
+      "closing_fair_odds": null,
+      "clv": null,
+      "profit": 0.0,
+      "score": null,
+      "settled_at": null,
+      "thoughts": [
+        "Pinnacle, the sharpest bookmaker, rates Cardiff City at 48.4%. That makes the fair price 2.06.",
+        "LeoVegas (SE) pays 2.12. That is +2.7% above fair. My bar is +2.5%.",
+        "Full Kelly says 2.4% of my fund. I play 0.4× Kelly, capped at 5%: 1.91 of my 198.42.",
+        "Gap spotted. Striking while the bookmakers sleep."
+      ]
+    },
+    {
       "id": "89fe6860f3058526dd227dc27efd902a-lizard-h2h",
       "strategy": "lizard",
       "placed_at": "2026-11-05T09:51:42Z",
@@ -1522,6 +1585,10 @@
     {
       "t": "2026-11-06T23:00:57Z",
       "text": "Results:\n- Lost -0.63: Bolton Wanderers (Winner) in Derby County vs Bolton Wanderers (Derby County 3 - 1 Bolton Wanderers)"
+    },
+    {
+      "t": "2026-11-07T08:00:52Z",
+      "text": "Placed 1 practice bet:\n- The Lizard: **Cardiff City** (Winner) in Cardiff City vs Burnley (Championship (England 2)) at 2.12 on LeoVegas (SE), stake 1.91, edge +2.7%"
     }
   ]
 }

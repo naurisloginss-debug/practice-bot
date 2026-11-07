@@ -1,6 +1,6 @@
 {
-  "last_scan": "2026-11-06@16",
-  "credits_left": 19942,
+  "last_scan": "2026-11-07@8",
+  "credits_left": 19918,
   "league_names": {
     "soccer_italy_serie_b": "Serie B (Italy 2)",
     "soccer_efl_champ": "Championship (England 2)",
@@ -15,8 +15,8 @@
     "americanfootball_nfl": "NFL",
     "americanfootball_ncaaf": "College football (US)"
   },
-  "budget_day": "2026-11-06",
-  "credits_day_start": 480,
+  "budget_day": "2026-11-07",
+  "credits_day_start": 19942,
   "last_settle_check": {
     "soccer_france_ligue_two": "2026-11-06T22:00:53Z",
     "soccer_efl_champ": "2026-11-06T23:00:57Z"
@@ -65,6 +65,10 @@
     {
       "t": "2026-11-06T23:00:57Z",
       "text": "Results:\n- Lost -0.63: Bolton Wanderers (Winner) in Derby County vs Bolton Wanderers (Derby County 3 - 1 Bolton Wanderers)"
+    },
+    {
+      "t": "2026-11-07T08:00:52Z",
+      "text": "Placed 1 practice bet:\n- The Lizard: **Cardiff City** (Winner) in Cardiff City vs Burnley (Championship (England 2)) at 2.12 on LeoVegas (SE), stake 1.91, edge +2.7%"
     }
   ],
   "levels": {
@@ -100,7 +104,7 @@
       },
       {
         "d": "2026-11-07",
-        "iq": 84
+        "iq": 85
       }
     ],
     "quant": [
@@ -144,379 +148,379 @@
     "books": {
       "soccer_italy_serie_b": {
         "PMU (FR)": [
-          139,
+          180,
           0
         ],
         "Unibet (FR)": [
-          111,
+          138,
           0
         ],
         "Unibet (NL)": [
-          139,
-          3
+          180,
+          4
         ],
         "Unibet (SE)": [
-          139,
-          3
+          180,
+          4
         ],
         "LeoVegas (SE)": [
-          139,
+          180,
           0
         ],
         "Betsson": [
-          139,
+          180,
           0
         ],
         "Nordic Bet": [
-          139,
+          180,
           0
         ],
         "Betclic (FR)": [
-          111,
+          138,
           0
         ],
         "Winamax (FR)": [
-          111,
+          138,
           0
         ],
         "Winamax (DE)": [
-          111,
+          138,
           0
         ],
         "BetOnline.ag": [
-          160,
+          217,
           0
         ],
         "Coolbet": [
-          143,
-          3
+          186,
+          4
         ],
         "1xBet": [
-          153,
+          200,
           0
         ],
         "Marathon Bet": [
-          145,
+          191,
           0
         ],
         "Tipico": [
-          139,
+          180,
           0
         ],
         "888sport": [
-          111,
+          138,
           0
         ],
         "William Hill": [
-          139,
+          180,
           0
         ],
         "Codere (IT)": [
-          139,
+          180,
           0
         ],
         "Matchbook": [
-          175,
+          234,
           0
         ],
         "Betfair": [
-          111,
+          138,
           0
         ]
       },
       "soccer_efl_champ": {
         "LeoVegas (SE)": [
-          160,
-          13
+          203,
+          15
         ],
         "Unibet (SE)": [
-          160,
+          203,
           0
         ],
         "Unibet (NL)": [
-          160,
+          203,
           0
         ],
         "Betclic (FR)": [
-          144,
-          0
-        ],
-        "PMU (FR)": [
-          160,
-          0
-        ],
-        "Unibet (FR)": [
-          144,
-          0
-        ],
-        "Winamax (DE)": [
-          132,
-          0
-        ],
-        "Winamax (FR)": [
-          144,
-          0
-        ],
-        "1xBet": [
-          168,
-          0
-        ],
-        "GTbets": [
-          166,
-          1
-        ],
-        "Coolbet": [
           177,
           0
         ],
+        "PMU (FR)": [
+          203,
+          0
+        ],
+        "Unibet (FR)": [
+          177,
+          0
+        ],
+        "Winamax (DE)": [
+          162,
+          0
+        ],
+        "Winamax (FR)": [
+          177,
+          0
+        ],
+        "1xBet": [
+          213,
+          0
+        ],
+        "GTbets": [
+          213,
+          1
+        ],
+        "Coolbet": [
+          228,
+          0
+        ],
         "Marathon Bet": [
-          178,
+          227,
           0
         ],
         "888sport": [
-          144,
+          177,
           0
         ],
         "William Hill": [
-          160,
+          203,
           0
         ],
         "Codere (IT)": [
-          160,
+          203,
           0
         ],
         "Betsson": [
-          160,
+          203,
           0
         ],
         "Nordic Bet": [
-          160,
+          203,
           0
         ],
         "Betfair": [
-          144,
-          8
+          177,
+          9
         ],
         "Matchbook": [
-          206,
-          10
+          269,
+          14
         ],
         "Tipico": [
-          160,
+          203,
           0
         ],
         "BetOnline.ag": [
-          196,
+          253,
           1
         ]
       },
       "soccer_spain_segunda_division": {
         "LeoVegas (SE)": [
-          106,
+          138,
           0
         ],
         "Unibet (SE)": [
-          106,
-          0
+          138,
+          1
         ],
         "Unibet (NL)": [
-          90,
-          0
+          114,
+          1
         ],
         "Nordic Bet": [
-          81,
+          113,
           0
         ],
         "PMU (FR)": [
-          106,
+          138,
           0
         ],
         "Unibet (FR)": [
-          69,
+          93,
           0
         ],
         "Betsson": [
-          81,
+          113,
           0
         ],
         "Betclic (FR)": [
-          69,
+          93,
           0
         ],
         "1xBet": [
-          85,
-          5
+          117,
+          7
         ],
         "Winamax (DE)": [
-          69,
+          93,
           0
         ],
         "Winamax (FR)": [
-          69,
+          93,
           0
         ],
         "Coolbet": [
-          85,
-          1
+          119,
+          2
         ],
         "Betfair": [
-          69,
+          93,
           0
         ],
         "BetOnline.ag": [
-          135,
+          189,
           0
         ],
         "William Hill": [
-          106,
+          138,
           0
         ],
         "Codere (IT)": [
-          81,
+          110,
           0
         ],
         "Tipico": [
-          81,
+          113,
           0
         ],
         "Marathon Bet": [
-          116,
+          150,
           0
         ],
         "Matchbook": [
-          101,
+          149,
           0
         ],
         "BetAnything": [
-          124,
+          171,
           0
         ]
       },
       "soccer_france_ligue_one": {
         "Unibet (FR)": [
-          90,
+          114,
           2
         ],
         "Betclic (FR)": [
-          90,
+          102,
           0
         ],
         "William Hill": [
-          90,
+          114,
           0
         ],
         "Winamax (FR)": [
-          90,
+          114,
           0
         ],
         "1xBet": [
-          102,
-          9
+          132,
+          14
         ],
         "888sport": [
-          90,
+          114,
           0
         ],
         "Winamax (DE)": [
-          90,
+          114,
           0
         ],
         "Marathon Bet": [
-          102,
+          132,
           4
         ],
         "Betfair": [
-          90,
-          5
+          114,
+          6
         ],
         "Tipico": [
-          90,
+          116,
           1
         ],
         "LeoVegas (SE)": [
-          90,
-          10
+          116,
+          12
         ],
         "PMU (FR)": [
-          90,
+          116,
           0
         ],
         "Unibet (NL)": [
-          90,
+          116,
           2
         ],
         "Unibet (SE)": [
-          90,
-          10
+          116,
+          12
         ],
         "Nordic Bet": [
-          90,
+          114,
           4
         ],
         "Betsson": [
-          90,
+          114,
           4
         ],
         "Coolbet": [
-          92,
-          5
+          120,
+          7
         ],
         "GTbets": [
-          102,
-          4
+          130,
+          5
         ],
         "Codere (IT)": [
-          90,
+          116,
           4
         ],
         "Everygame": [
-          90,
+          114,
           0
         ],
         "BetOnline.ag": [
-          116,
+          150,
           3
         ]
       },
       "basketball_nba": {
         "888sport": [
-          60,
+          66,
           0
         ],
         "William Hill": [
-          60,
+          66,
           0
         ],
         "MyBookie.ag": [
-          50,
+          62,
           0
         ],
         "Nordic Bet": [
-          42,
+          48,
           0
         ],
         "1xBet": [
-          56,
+          62,
           0
         ],
         "Betsson": [
-          42,
+          48,
           0
         ],
         "GTbets": [
-          58,
+          70,
           0
         ],
         "Codere (IT)": [
-          32,
+          36,
           0
         ],
         "Everygame": [
-          44,
+          52,
           0
         ],
         "Unibet (NL)": [
-          52,
+          56,
           0
         ],
         "PMU (FR)": [
@@ -524,261 +528,269 @@
           0
         ],
         "Marathon Bet": [
-          48,
+          54,
           0
         ],
         "BetAnything": [
-          44,
+          50,
           0
         ],
         "BetOnline.ag": [
-          48,
+          56,
           0
         ],
         "Tipico": [
-          28,
+          30,
           0
         ],
         "LeoVegas (SE)": [
-          28,
+          32,
           0
         ],
         "Unibet (SE)": [
-          28,
+          32,
+          0
+        ],
+        "Coolbet": [
+          8,
+          0
+        ],
+        "Matchbook": [
+          6,
           0
         ]
       },
       "americanfootball_nfl": {
         "BetOnline.ag": [
-          106,
+          134,
           0
         ],
         "MyBookie.ag": [
-          92,
+          126,
           0
         ],
         "GTbets": [
-          96,
+          132,
           0
         ],
         "LeoVegas (SE)": [
-          64,
+          80,
           0
         ],
         "Unibet (SE)": [
-          64,
+          80,
           0
         ],
         "PMU (FR)": [
-          90,
+          120,
           0
         ],
         "Unibet (NL)": [
-          90,
+          120,
           0
         ],
         "Matchbook": [
-          78,
+          102,
           0
         ],
         "Coolbet": [
-          96,
+          124,
           0
         ],
         "BetAnything": [
-          98,
+          128,
           0
         ],
         "Everygame": [
-          98,
+          130,
           0
         ],
         "Nordic Bet": [
-          44,
+          68,
           0
         ],
         "Betsson": [
-          52,
+          76,
           0
         ],
         "1xBet": [
-          64,
+          88,
           0
         ],
         "888sport": [
-          42,
+          68,
           0
         ],
         "Marathon Bet": [
-          58,
+          84,
           0
         ],
         "Tipico": [
-          62,
+          86,
           0
         ]
       },
       "soccer_germany_bundesliga2": {
         "Unibet (NL)": [
-          62,
-          3
+          87,
+          4
         ],
         "PMU (FR)": [
-          62,
+          87,
           0
         ],
         "Unibet (SE)": [
-          62,
-          3
+          87,
+          4
         ],
         "LeoVegas (SE)": [
-          62,
+          87,
           1
         ],
         "Tipico": [
-          62,
+          87,
           0
         ],
         "Nordic Bet": [
-          58,
+          81,
           0
         ],
         "Unibet (FR)": [
-          54,
+          75,
           0
         ],
         "Betsson": [
-          58,
+          81,
           0
         ],
         "Betclic (FR)": [
-          54,
+          75,
           0
         ],
         "Codere (IT)": [
-          62,
+          87,
           1
         ],
         "Winamax (DE)": [
-          54,
+          75,
           2
         ],
         "Winamax (FR)": [
-          54,
+          75,
           0
         ],
         "1xBet": [
-          70,
+          97,
           0
         ],
         "Coolbet": [
-          66,
+          95,
           2
         ],
         "888sport": [
-          54,
+          75,
           0
         ],
         "William Hill": [
-          58,
+          81,
           0
         ],
         "Betfair": [
-          54,
+          75,
           0
         ],
         "Marathon Bet": [
-          70,
+          97,
           0
         ],
         "BetOnline.ag": [
-          82,
+          113,
           1
         ],
         "Matchbook": [
-          98,
+          137,
           0
         ]
       },
       "soccer_france_ligue_two": {
         "Winamax (FR)": [
-          54,
+          63,
           0
         ],
         "BetOnline.ag": [
-          112,
+          129,
           0
         ],
         "Betsson": [
-          70,
+          81,
           0
         ],
         "Winamax (DE)": [
-          54,
+          63,
           0
         ],
         "Nordic Bet": [
-          70,
+          81,
           0
         ],
         "Betclic (FR)": [
-          54,
+          60,
           0
         ],
         "Unibet (FR)": [
-          54,
+          63,
           0
         ],
         "Codere (IT)": [
-          70,
+          81,
           0
         ],
         "1xBet": [
-          78,
+          89,
           0
         ],
         "Marathon Bet": [
-          82,
+          93,
           0
         ],
         "888sport": [
-          54,
+          63,
           0
         ],
         "William Hill": [
-          70,
+          81,
           0
         ],
         "Coolbet": [
-          82,
+          93,
           3
         ],
         "Tipico": [
-          70,
+          81,
           0
         ],
         "Unibet (NL)": [
-          70,
+          81,
           0
         ],
         "PMU (FR)": [
-          70,
+          81,
           0
         ],
         "LeoVegas (SE)": [
-          70,
+          81,
           0
         ],
         "Unibet (SE)": [
-          70,
+          81,
           0
         ],
         "Betfair": [
-          54,
+          63,
           0
         ],
         "Matchbook": [
-          106,
+          123,
           0
         ]
       },
@@ -850,59 +862,59 @@
       },
       "americanfootball_ncaaf": {
         "Betsson": [
-          68,
+          90,
           0
         ],
         "Nordic Bet": [
-          68,
+          90,
           0
         ],
         "Matchbook": [
-          248,
+          366,
           0
         ],
         "Coolbet": [
-          218,
+          312,
           0
         ],
         "Unibet (NL)": [
-          194,
+          278,
           0
         ],
         "BetOnline.ag": [
-          220,
+          326,
           0
         ],
         "GTbets": [
-          230,
+          336,
           0
         ],
         "1xBet": [
-          84,
+          116,
           0
         ],
         "MyBookie.ag": [
-          236,
+          336,
           0
         ],
         "BetAnything": [
-          254,
+          368,
           0
         ],
         "Marathon Bet": [
-          208,
+          286,
           0
         ],
         "Everygame": [
-          236,
+          342,
           0
         ],
         "LeoVegas (SE)": [
-          88,
+          132,
           0
         ],
         "Unibet (SE)": [
-          88,
+          132,
           0
         ]
       }
@@ -910,88 +922,107 @@
   },
   "diary": {
     "lizard": {
-      "t": "2026-11-06T16:00:57Z",
+      "t": "2026-11-07T08:00:52Z",
       "mood": "Gap spotted. Striking while the bookmakers sleep.",
-      "looked": 57,
-      "placed": 4,
+      "looked": 46,
+      "placed": 1,
       "passed": [
         {
           "game": "Paris Saint Germain vs Troyes",
           "league": "Ligue 1 (France)",
           "pick": "Troyes",
-          "odds": 23.0,
+          "odds": 22.0,
           "book": "Betfair",
-          "edge": 0.2587,
-          "reason": "+25.9% looks too good to be true. Probably a price the bookmaker forgot to update."
+          "edge": 0.0378,
+          "reason": "Odds 22.00 are outside my game (1.6–6.0)."
         },
         {
-          "game": "Portsmouth vs Stoke City",
-          "league": "Championship (England 2)",
-          "pick": "Portsmouth",
-          "odds": 2.38,
-          "book": "LeoVegas (SE)",
-          "edge": 0.0249,
-          "reason": "Only +2.49% edge. I need +2.5% before I move."
+          "game": "Cádiz CF vs Oviedo",
+          "league": "La Liga 2 (Spain 2)",
+          "pick": "Oviedo",
+          "odds": 2.6,
+          "book": "Unibet (NL)",
+          "edge": 0.0225,
+          "reason": "Only +2.25% edge. I need +2.5% before I move."
         },
         {
-          "game": "USL Dunkerque vs Guingamp",
-          "league": "Ligue 2 (France 2)",
+          "game": "Le Havre vs Lorient",
+          "league": "Ligue 1 (France)",
           "pick": "Draw",
-          "odds": 3.75,
+          "odds": 3.5,
           "book": "Coolbet",
-          "edge": 0.0238,
-          "reason": "Only +2.38% edge. I need +2.5% before I move."
+          "edge": 0.0209,
+          "reason": "Only +2.09% edge. I need +2.5% before I move."
         },
         {
-          "game": "Charlton Athletic vs Sheffield United",
-          "league": "Championship (England 2)",
-          "pick": "Charlton Athletic",
-          "odds": 3.65,
-          "book": "LeoVegas (SE)",
-          "edge": 0.0221,
-          "reason": "Only +2.21% edge. I need +2.5% before I move."
+          "game": "Virtus Entella vs Modena",
+          "league": "Serie B (Italy 2)",
+          "pick": "Draw",
+          "odds": 3.25,
+          "book": "Marathon Bet",
+          "edge": 0.0179,
+          "reason": "Only +1.79% edge. I need +2.5% before I move."
         }
       ]
     },
     "quant": {
-      "t": "2026-11-06T16:00:57Z",
+      "t": "2026-11-07T08:00:52Z",
       "mood": "The lines are tight tonight. No edge, no bet.",
-      "looked": 12,
-      "placed": 0,
-      "passed": []
-    },
-    "shark": {
-      "t": "2026-11-06T16:00:57Z",
-      "mood": "The market's sharp this week. Circling, not biting.",
-      "looked": 69,
+      "looked": 5,
       "placed": 0,
       "passed": [
+        {
+          "game": "Cleveland Cavaliers vs New York Knicks",
+          "league": "NBA",
+          "pick": "Cleveland Cavaliers +5",
+          "odds": 2.02,
+          "book": "Matchbook",
+          "edge": 0.0049,
+          "reason": "Only +0.49% edge. I need +2.0% before I move."
+        }
+      ]
+    },
+    "shark": {
+      "t": "2026-11-07T08:00:52Z",
+      "mood": "The market's sharp this week. Circling, not biting.",
+      "looked": 63,
+      "placed": 0,
+      "passed": [
+        {
+          "game": "Washington Commanders vs Los Angeles Rams",
+          "league": "NFL",
+          "pick": "Washington Commanders +4.5",
+          "odds": 2.0,
+          "book": "888sport",
+          "edge": 0.018,
+          "reason": "Only +1.80% edge. I need +2.0% before I move."
+        },
         {
           "game": "Coastal Carolina Chanticleers vs Old Dominion Monarchs",
           "league": "College football (US)",
           "pick": "Old Dominion Monarchs +6.5",
           "odds": 2.05,
           "book": "BetOnline.ag",
-          "edge": 0.0171,
-          "reason": "Only +1.71% edge. I need +2.0% before I move."
+          "edge": 0.0144,
+          "reason": "Only +1.44% edge. I need +2.0% before I move."
         },
         {
-          "game": "Jacksonville State Gamecocks vs Sam Houston State Bearkats",
+          "game": "Arkansas State Red Wolves vs UL Monroe Warhawks",
           "league": "College football (US)",
-          "pick": "Under 46.5",
-          "odds": 1.93,
-          "book": "Unibet (NL)",
-          "edge": 0.005,
-          "reason": "Only +0.50% edge. I need +2.0% before I move."
+          "pick": "Over 52.5",
+          "odds": 1.97,
+          "book": "Matchbook",
+          "edge": 0.0133,
+          "reason": "Only +1.33% edge. I need +2.0% before I move."
         },
         {
-          "game": "Washington Commanders vs Los Angeles Rams",
-          "league": "NFL",
-          "pick": "Over 48",
-          "odds": 1.92,
-          "book": "Unibet (NL)",
-          "edge": 0.0045,
-          "reason": "Only +0.45% edge. I need +2.0% before I move."
+          "game": "San Jose State Spartans vs Northern Illinois Huskies",
+          "league": "College football (US)",
+          "pick": "Over 52",
+          "odds": 1.95,
+          "book": "BetOnline.ag",
+          "edge": 0.013,
+          "reason": "Only +1.30% edge. I need +2.0% before I move."
         }
       ]
     }
