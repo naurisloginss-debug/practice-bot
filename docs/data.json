@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T20:45:29Z",
+  "updated": "2026-11-07T21:00:51Z",
   "start_fund": 200,
   "order": [
     "lizard",
@@ -370,7 +370,7 @@
     },
     "week_start": "2026-11-02"
   },
-  "credits_left": 19888,
+  "credits_left": 19886,
   "last_scan": "2026-11-07@16",
   "strategies": {
     "lizard": {
@@ -408,14 +408,14 @@
         "Total"
       ],
       "start_fund": 200,
-      "fund": 192.66,
+      "fund": 191.89,
       "lessons": [],
       "bets": 17,
-      "open": 11,
+      "open": 10,
       "won": 0,
-      "lost": 6,
-      "staked": 7.34,
-      "profit": -7.34,
+      "lost": 7,
+      "staked": 8.11,
+      "profit": -8.11,
       "roi": -1.0,
       "avg_edge": 0.0357,
       "avg_clv": -0.0203,
@@ -449,6 +449,10 @@
         {
           "t": "2026-11-07T15:30:44Z",
           "fund": 192.66
+        },
+        {
+          "t": "2026-11-07T21:00:51Z",
+          "fund": 191.89
         }
       ],
       "by_league": [
@@ -482,8 +486,8 @@
         {
           "name": "Ligue 1 (France)",
           "bets": 3,
-          "profit": 0,
-          "roi": null,
+          "profit": -0.77,
+          "roi": -1.0,
           "avg_clv": -0.1703,
           "beat_close": 0.0,
           "clv_count": 1
@@ -520,7 +524,7 @@
         {
           "name": "Winner",
           "bets": 16,
-          "profit": -5.23,
+          "profit": -6.0,
           "roi": -1.0,
           "avg_clv": -0.0236,
           "beat_close": 0.5833,
@@ -531,7 +535,7 @@
         {
           "name": "Football",
           "bets": 17,
-          "profit": -7.34,
+          "profit": -8.11,
           "roi": -1.0,
           "avg_clv": -0.0203,
           "beat_close": 0.6154,
@@ -676,7 +680,7 @@
         ],
         "rules": 0,
         "studied": 60,
-        "resolved": 15
+        "resolved": 17
       }
     },
     "quant": {
@@ -1235,12 +1239,12 @@
       "fair_odds": 4.445,
       "edge": 0.0348,
       "stake": 0.77,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 5.544,
       "clv": -0.1703,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -0.77,
+      "score": "Auxerre 0 - 1 Paris FC",
+      "settled_at": "2026-11-07T21:00:51Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates Auxerre at 22.5%. That makes the fair price 4.45.",
         "LeoVegas (SE) pays 4.60. That is +3.5% above fair. My bar is +2.5%.",
@@ -1759,6 +1763,10 @@
     {
       "t": "2026-11-07T16:00:52Z",
       "text": "🏅 🦈 The Shark unlocked 🩸 First Blood: Placed its first bet."
+    },
+    {
+      "t": "2026-11-07T21:00:51Z",
+      "text": "Results:\n- Lost -0.77: Auxerre (Winner) in Auxerre vs Paris FC (Auxerre 0 - 1 Paris FC)"
     }
   ]
 }
