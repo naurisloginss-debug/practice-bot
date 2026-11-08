@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08T15:45:30Z",
+  "updated": "2026-11-08T16:00:16Z",
   "start_fund": 200,
   "order": [
     "lizard",
@@ -255,8 +255,8 @@
         "trophies": []
       },
       "shark": {
-        "iq": 81,
-        "iq_gain": 1,
+        "iq": 82,
+        "iq_gain": 2,
         "streak": 0,
         "best_streak": 0,
         "achievements": [
@@ -364,14 +364,14 @@
             "pending": true
           }
         ],
-        "score": 86,
+        "score": 87,
         "trophies": []
       }
     },
     "week_start": "2026-11-02"
   },
-  "credits_left": 19864,
-  "last_scan": "2026-11-08@8",
+  "credits_left": 19849,
+  "last_scan": "2026-11-08@16",
   "strategies": {
     "lizard": {
       "name": "The Lizard",
@@ -567,46 +567,19 @@
         }
       ],
       "diary": {
-        "t": "2026-11-08T08:00:54Z",
-        "mood": "Gap spotted. Striking while the bookmakers sleep.",
-        "looked": 16,
-        "placed": 2,
+        "t": "2026-11-08T16:00:16Z",
+        "mood": "Nothing worth the risk today. Patience is a weapon.",
+        "looked": 4,
+        "placed": 0,
         "passed": [
           {
-            "game": "Vicenza vs Cremonese",
-            "league": "Serie B (Italy 2)",
-            "pick": "Under 2.5",
-            "odds": 1.93,
-            "book": "LeoVegas (SE)",
-            "edge": 0.0244,
-            "reason": "Only +2.44% edge. I need +2.5% before I move."
-          },
-          {
-            "game": "Le Havre vs Lorient",
-            "league": "Ligue 1 (France)",
-            "pick": "Draw",
-            "odds": 3.4,
-            "book": "LeoVegas (SE)",
-            "edge": 0.0241,
-            "reason": "Only +2.41% edge. I need +2.5% before I move."
-          },
-          {
-            "game": "Angers vs Nice",
-            "league": "Ligue 1 (France)",
-            "pick": "Draw",
-            "odds": 3.8,
-            "book": "Unibet (SE)",
-            "edge": 0.0231,
-            "reason": "Only +2.31% edge. I need +2.5% before I move."
-          },
-          {
-            "game": "Le Mans FC vs AS Monaco",
-            "league": "Ligue 1 (France)",
-            "pick": "Draw",
-            "odds": 4.22,
-            "book": "BetOnline.ag",
-            "edge": 0.0188,
-            "reason": "Only +1.88% edge. I need +2.5% before I move."
+            "game": "Sabadell FC vs Real Sociedad B",
+            "league": "La Liga 2 (Spain 2)",
+            "pick": "Sabadell FC",
+            "odds": 1.55,
+            "book": "PMU (FR)",
+            "edge": -0.1427,
+            "reason": "Odds 1.55 are outside my game (1.6–6.0)."
           }
         ]
       },
@@ -672,10 +645,10 @@
         "facts": [
           {
             "conf": "solid",
-            "n": 211,
+            "n": 216,
             "z": 0,
             "text": "Unibet (NL) is the softest bookmaker in Serie B (Italy 2).",
-            "detail": "beats fair by 2%+ on 3% of its prices vs 0% across all bookmakers"
+            "detail": "beats fair by 2%+ on 3% of its prices vs 1% across all bookmakers"
           },
           {
             "conf": "solid",
@@ -686,17 +659,17 @@
           },
           {
             "conf": "solid",
-            "n": 186,
+            "n": 189,
             "z": 0,
             "text": "1xBet is the softest bookmaker in Ligue 1 (France).",
             "detail": "beats fair by 2%+ on 13% of its prices vs 4% across all bookmakers"
           },
           {
             "conf": "solid",
-            "n": 168,
+            "n": 157,
             "z": 0,
-            "text": "Unibet (SE) is the softest bookmaker in La Liga 2 (Spain 2).",
-            "detail": "beats fair by 2%+ on 1% of its prices vs 0% across all bookmakers"
+            "text": "1xBet is the softest bookmaker in La Liga 2 (Spain 2).",
+            "detail": "beats fair by 2%+ on 4% of its prices vs 1% across all bookmakers"
           },
           {
             "conf": "watching",
@@ -757,11 +730,21 @@
       "by_market": [],
       "by_sport": [],
       "diary": {
-        "t": "2026-11-08T08:00:54Z",
+        "t": "2026-11-08T16:00:16Z",
         "mood": "The lines are tight tonight. No edge, no bet.",
         "looked": 7,
         "placed": 0,
-        "passed": []
+        "passed": [
+          {
+            "game": "Dallas Mavericks vs Brooklyn Nets",
+            "league": "NBA",
+            "pick": "Over 222.5",
+            "odds": 1.95,
+            "book": "Tipico",
+            "edge": 0.01,
+            "reason": "Only +1.00% edge. I need +2.0% before I move."
+          }
+        ]
       },
       "level": {
         "n": 1,
@@ -909,37 +892,37 @@
         }
       ],
       "diary": {
-        "t": "2026-11-08T08:00:54Z",
+        "t": "2026-11-08T16:00:16Z",
         "mood": "The market's sharp this week. Circling, not biting.",
         "looked": 13,
         "placed": 0,
         "passed": [
           {
-            "game": "Los Angeles Chargers vs Houston Texans",
-            "league": "NFL",
-            "pick": "Los Angeles Chargers +6",
-            "odds": 2.0,
-            "book": "BetAnything",
-            "edge": 0.018,
-            "reason": "Only +1.80% edge. I need +2.0% before I move."
-          },
-          {
-            "game": "Kansas City Chiefs vs New York Jets",
-            "league": "NFL",
-            "pick": "New York Jets +10",
-            "odds": 1.87,
-            "book": "Unibet (NL)",
-            "edge": 0.0091,
-            "reason": "Only +0.91% edge. I need +2.0% before I move."
-          },
-          {
             "game": "New Orleans Saints vs Cleveland Browns",
             "league": "NFL",
-            "pick": "Under 42.5",
-            "odds": 1.97,
-            "book": "Tipico",
-            "edge": 0.0003,
-            "reason": "Only +0.03% edge. I need +2.0% before I move."
+            "pick": "New Orleans Saints -3.5",
+            "odds": 2.0,
+            "book": "888sport",
+            "edge": 0.0128,
+            "reason": "Only +1.28% edge. I need +2.0% before I move."
+          },
+          {
+            "game": "New England Patriots vs Green Bay Packers",
+            "league": "NFL",
+            "pick": "New England Patriots -3",
+            "odds": 1.88,
+            "book": "Coolbet",
+            "edge": 0.0119,
+            "reason": "Only +1.19% edge. I need +2.0% before I move."
+          },
+          {
+            "game": "Carolina Panthers vs Denver Broncos",
+            "league": "NFL",
+            "pick": "Over 44.5",
+            "odds": 1.92,
+            "book": "GTbets",
+            "edge": 0.0069,
+            "reason": "Only +0.69% edge. I need +2.0% before I move."
           }
         ]
       },
@@ -978,8 +961,8 @@
         }
       },
       "mind": {
-        "iq": 81,
-        "iq_week": 1,
+        "iq": 82,
+        "iq_week": 2,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -999,10 +982,18 @@
           },
           {
             "d": "2026-11-08",
-            "iq": 81
+            "iq": 82
           }
         ],
-        "facts": [],
+        "facts": [
+          {
+            "conf": "solid",
+            "n": 158,
+            "z": 0,
+            "text": "Tipico is the softest bookmaker in NFL.",
+            "detail": "beats fair by 2%+ on 1% of its prices vs 0% across all bookmakers"
+          }
+        ],
         "rules": 0,
         "studied": 70,
         "resolved": 0
