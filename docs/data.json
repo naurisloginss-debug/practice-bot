@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08T23:00:54Z",
+  "updated": "2026-11-08T23:15:28Z",
   "start_fund": 200,
   "order": [
     "lizard",
@@ -29,8 +29,8 @@
     ],
     "chars": {
       "lizard": {
-        "iq": 95,
-        "iq_gain": 15,
+        "iq": 96,
+        "iq_gain": 16,
         "streak": 6,
         "best_streak": 7,
         "achievements": [
@@ -138,7 +138,7 @@
             "pending": false
           }
         ],
-        "score": 115,
+        "score": 116,
         "trophies": []
       },
       "quant": {
@@ -370,7 +370,7 @@
     },
     "week_start": "2026-11-02"
   },
-  "credits_left": 19837,
+  "credits_left": 19835,
   "last_scan": "2026-11-08@16",
   "strategies": {
     "lizard": {
@@ -408,15 +408,15 @@
         "Total"
       ],
       "start_fund": 200,
-      "fund": 197.08,
+      "fund": 197.17,
       "lessons": [],
       "bets": 19,
-      "open": 3,
-      "won": 3,
-      "lost": 13,
-      "staked": 18.5,
-      "profit": -2.92,
-      "roi": -0.1578,
+      "open": 0,
+      "won": 4,
+      "lost": 15,
+      "staked": 21.57,
+      "profit": -2.83,
+      "roi": -0.1312,
       "avg_edge": 0.0353,
       "avg_clv": -0.0016,
       "beat_close": 0.7368,
@@ -489,6 +489,18 @@
         {
           "t": "2026-11-08T21:30:42Z",
           "fund": 197.08
+        },
+        {
+          "t": "2026-11-08T23:15:28Z",
+          "fund": 199.22
+        },
+        {
+          "t": "2026-11-08T23:15:28Z",
+          "fund": 198.17
+        },
+        {
+          "t": "2026-11-08T23:15:28Z",
+          "fund": 197.17
         }
       ],
       "by_league": [
@@ -531,8 +543,8 @@
         {
           "name": "Ligue 1 (France)",
           "bets": 5,
-          "profit": -1.46,
-          "roi": -1.0,
+          "profit": -1.37,
+          "roi": -0.3024,
           "avg_clv": -0.0005,
           "beat_close": 0.8,
           "clv_count": 5
@@ -560,8 +572,8 @@
         {
           "name": "Winner",
           "bets": 18,
-          "profit": -0.81,
-          "roi": -0.0494,
+          "profit": -0.72,
+          "roi": -0.037,
           "avg_clv": -0.0028,
           "beat_close": 0.7222,
           "clv_count": 18
@@ -571,8 +583,8 @@
         {
           "name": "Football",
           "bets": 19,
-          "profit": -2.92,
-          "roi": -0.1578,
+          "profit": -2.83,
+          "roi": -0.1312,
           "avg_clv": -0.0016,
           "beat_close": 0.7368,
           "clv_count": 19
@@ -630,8 +642,8 @@
         }
       },
       "mind": {
-        "iq": 95,
-        "iq_week": 15,
+        "iq": 96,
+        "iq_week": 16,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -651,7 +663,7 @@
           },
           {
             "d": "2026-11-08",
-            "iq": 95
+            "iq": 96
           }
         ],
         "facts": [
@@ -693,7 +705,7 @@
         ],
         "rules": 0,
         "studied": 60,
-        "resolved": 43
+        "resolved": 48
       }
     },
     "quant": {
@@ -1041,12 +1053,12 @@
       "fair_odds": 3.019,
       "edge": 0.0267,
       "stake": 1.02,
-      "status": "open",
+      "status": "won",
       "closing_fair_odds": 3.074,
       "clv": 0.0085,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": 2.14,
+      "score": "RC Lens 1 - 2 Marseille",
+      "settled_at": "2026-11-08T23:15:28Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates Marseille at 33.1%. That makes the fair price 3.02.",
         "Unibet (SE) pays 3.10. That is +2.7% above fair. My bar is +2.5%.",
@@ -1226,12 +1238,12 @@
       "fair_odds": 3.519,
       "edge": 0.0344,
       "stake": 1.05,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 3.597,
       "clv": 0.0119,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -1.05,
+      "score": "Brest 2 - 0 Lyon",
+      "settled_at": "2026-11-08T23:15:28Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates Draw at 28.4%. That makes the fair price 3.52.",
         "Marathon Bet pays 3.64. That is +3.4% above fair. My bar is +2.5%.",
@@ -1263,12 +1275,12 @@
       "fair_odds": 3.32,
       "edge": 0.0301,
       "stake": 1.0,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 3.361,
       "clv": 0.0177,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -1.0,
+      "score": "Le Havre 0 - 2 Lorient",
+      "settled_at": "2026-11-08T23:15:28Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates Draw at 30.1%. That makes the fair price 3.32.",
         "Marathon Bet pays 3.42. That is +3.0% above fair. My bar is +2.5%.",
@@ -1893,6 +1905,10 @@
     {
       "t": "2026-11-08T21:30:42Z",
       "text": "Results:\n- Lost -1.15: Draw (Winner) in Vicenza vs Cremonese (Vicenza 1 - 4 Cremonese)"
+    },
+    {
+      "t": "2026-11-08T23:15:28Z",
+      "text": "Results:\n- Won +2.14: Marseille (Winner) in RC Lens vs Marseille (RC Lens 1 - 2 Marseille)\n- Lost -1.05: Draw (Winner) in Brest vs Lyon (Brest 2 - 0 Lyon)\n- Lost -1.00: Draw (Winner) in Le Havre vs Lorient (Le Havre 0 - 2 Lorient)"
     }
   ]
 }
