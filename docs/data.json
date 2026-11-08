@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08T21:15:30Z",
+  "updated": "2026-11-08T21:30:42Z",
   "start_fund": 200,
   "order": [
     "lizard",
@@ -29,8 +29,8 @@
     ],
     "chars": {
       "lizard": {
-        "iq": 94,
-        "iq_gain": 14,
+        "iq": 95,
+        "iq_gain": 15,
         "streak": 6,
         "best_streak": 7,
         "achievements": [
@@ -138,7 +138,7 @@
             "pending": false
           }
         ],
-        "score": 114,
+        "score": 115,
         "trophies": []
       },
       "quant": {
@@ -370,7 +370,7 @@
     },
     "week_start": "2026-11-02"
   },
-  "credits_left": 19839,
+  "credits_left": 19837,
   "last_scan": "2026-11-08@16",
   "strategies": {
     "lizard": {
@@ -408,15 +408,15 @@
         "Total"
       ],
       "start_fund": 200,
-      "fund": 198.23,
+      "fund": 197.08,
       "lessons": [],
       "bets": 19,
-      "open": 4,
+      "open": 3,
       "won": 3,
-      "lost": 12,
-      "staked": 17.35,
-      "profit": -1.77,
-      "roi": -0.102,
+      "lost": 13,
+      "staked": 18.5,
+      "profit": -2.92,
+      "roi": -0.1578,
       "avg_edge": 0.0353,
       "avg_clv": -0.0016,
       "beat_close": 0.7368,
@@ -485,6 +485,10 @@
         {
           "t": "2026-11-08T20:30:44Z",
           "fund": 198.23
+        },
+        {
+          "t": "2026-11-08T21:30:42Z",
+          "fund": 197.08
         }
       ],
       "by_league": [
@@ -518,8 +522,8 @@
         {
           "name": "Serie B (Italy 2)",
           "bets": 1,
-          "profit": 0,
-          "roi": null,
+          "profit": -1.15,
+          "roi": -1.0,
           "avg_clv": 0.0183,
           "beat_close": 1.0,
           "clv_count": 1
@@ -556,8 +560,8 @@
         {
           "name": "Winner",
           "bets": 18,
-          "profit": 0.34,
-          "roi": 0.0223,
+          "profit": -0.81,
+          "roi": -0.0494,
           "avg_clv": -0.0028,
           "beat_close": 0.7222,
           "clv_count": 18
@@ -567,8 +571,8 @@
         {
           "name": "Football",
           "bets": 19,
-          "profit": -1.77,
-          "roi": -0.102,
+          "profit": -2.92,
+          "roi": -0.1578,
           "avg_clv": -0.0016,
           "beat_close": 0.7368,
           "clv_count": 19
@@ -626,8 +630,8 @@
         }
       },
       "mind": {
-        "iq": 94,
-        "iq_week": 14,
+        "iq": 95,
+        "iq_week": 15,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -647,7 +651,7 @@
           },
           {
             "d": "2026-11-08",
-            "iq": 94
+            "iq": 95
           }
         ],
         "facts": [
@@ -689,7 +693,7 @@
         ],
         "rules": 0,
         "studied": 60,
-        "resolved": 33
+        "resolved": 43
       }
     },
     "quant": {
@@ -1074,12 +1078,12 @@
       "fair_odds": 3.287,
       "edge": 0.0344,
       "stake": 1.15,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 3.339,
       "clv": 0.0183,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -1.15,
+      "score": "Vicenza 1 - 4 Cremonese",
+      "settled_at": "2026-11-08T21:30:42Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates Draw at 30.4%. That makes the fair price 3.29.",
         "Coolbet pays 3.40. That is +3.4% above fair. My bar is +2.5%.",
@@ -1885,6 +1889,10 @@
     {
       "t": "2026-11-08T21:00:53Z",
       "text": "Results:\n- Lost -2.31: Miami Dolphins +6.5 (Spread) in Miami Dolphins vs Detroit Lions (Miami Dolphins 9 - 19 Detroit Lions)"
+    },
+    {
+      "t": "2026-11-08T21:30:42Z",
+      "text": "Results:\n- Lost -1.15: Draw (Winner) in Vicenza vs Cremonese (Vicenza 1 - 4 Cremonese)"
     }
   ]
 }
