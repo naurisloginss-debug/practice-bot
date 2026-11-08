@@ -1,6 +1,6 @@
 {
   "last_scan": "2026-11-08@16",
-  "credits_left": 19846,
+  "credits_left": 19845,
   "league_names": {
     "soccer_italy_serie_b": "Serie B (Italy 2)",
     "soccer_efl_champ": "Championship (England 2)",
@@ -111,6 +111,10 @@
     {
       "t": "2026-11-08T17:00:55Z",
       "text": "Results:\n- Lost -0.69: Draw (Winner) in Rennes vs Lille (Rennes 1 - 2 Lille)"
+    },
+    {
+      "t": "2026-11-08T17:30:42Z",
+      "text": "🏅 🦈 The Shark unlocked 🎯 Beat the Market: Got a better price than the final one."
     }
   ],
   "levels": {
@@ -127,7 +131,8 @@
     },
     "quant": {},
     "shark": {
-      "first_blood": "2026-11-07T16:00:52Z"
+      "first_blood": "2026-11-07T16:00:52Z",
+      "beat_it": "2026-11-08T17:30:42Z"
     }
   },
   "trophies": [],
@@ -198,7 +203,7 @@
       },
       {
         "d": "2026-11-08",
-        "iq": 82
+        "iq": 83
       }
     ]
   },

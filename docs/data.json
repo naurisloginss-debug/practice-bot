@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08T17:15:29Z",
+  "updated": "2026-11-08T17:30:42Z",
   "start_fund": 200,
   "order": [
     "lizard",
@@ -255,10 +255,10 @@
         "trophies": []
       },
       "shark": {
-        "iq": 82,
-        "iq_gain": 2,
+        "iq": 83,
+        "iq_gain": 3,
         "streak": 0,
-        "best_streak": 0,
+        "best_streak": 1,
         "achievements": [
           {
             "key": "first_blood",
@@ -272,7 +272,7 @@
             "emoji": "🎯",
             "title": "Beat the Market",
             "desc": "Got a better price than the final one.",
-            "at": null
+            "at": "2026-11-08T17:30:42Z"
           },
           {
             "key": "ten_measured",
@@ -354,23 +354,23 @@
           {
             "text": "Bets checked against the market",
             "target": 3,
-            "now": 0
+            "now": 2
           },
           {
             "text": "Beat the market on",
             "target": 55,
-            "now": 0,
+            "now": 50,
             "unit": "%",
             "pending": true
           }
         ],
-        "score": 87,
+        "score": 93,
         "trophies": []
       }
     },
     "week_start": "2026-11-02"
   },
-  "credits_left": 19846,
+  "credits_left": 19845,
   "last_scan": "2026-11-08@16",
   "strategies": {
     "lizard": {
@@ -853,9 +853,9 @@
       "profit": 0,
       "roi": null,
       "avg_edge": 0.0269,
-      "avg_clv": null,
-      "beat_close": null,
-      "clv_count": 0,
+      "avg_clv": 0.0246,
+      "beat_close": 0.5,
+      "clv_count": 2,
       "history": [
         {
           "t": "2026-11-07T16:00:52Z",
@@ -868,9 +868,9 @@
           "bets": 2,
           "profit": 0,
           "roi": null,
-          "avg_clv": null,
-          "beat_close": null,
-          "clv_count": 0
+          "avg_clv": 0.0246,
+          "beat_close": 0.5,
+          "clv_count": 2
         }
       ],
       "by_market": [
@@ -879,9 +879,9 @@
           "bets": 2,
           "profit": 0,
           "roi": null,
-          "avg_clv": null,
-          "beat_close": null,
-          "clv_count": 0
+          "avg_clv": 0.0246,
+          "beat_close": 0.5,
+          "clv_count": 2
         }
       ],
       "by_sport": [
@@ -890,9 +890,9 @@
           "bets": 2,
           "profit": 0,
           "roi": null,
-          "avg_clv": null,
-          "beat_close": null,
-          "clv_count": 0
+          "avg_clv": 0.0246,
+          "beat_close": 0.5,
+          "clv_count": 2
         }
       ],
       "diary": {
@@ -936,9 +936,9 @@
         "badge": "🐣",
         "stake": 1.0,
         "perk": "Normal stakes while it proves itself.",
-        "measured": 0,
-        "clv": 0.0,
-        "beat": 0.0,
+        "measured": 2,
+        "clv": 0.0246,
+        "beat": 0.5,
         "cold": false,
         "next": {
           "title": "Apprentice",
@@ -948,25 +948,25 @@
             {
               "text": "15 measured bets",
               "done": false,
-              "now": "0"
+              "now": "2"
             },
             {
               "text": "beat the market on 50%+",
-              "done": false,
-              "now": "–"
+              "done": true,
+              "now": "50%"
             },
             {
               "text": "average price +0.0%+ vs market",
-              "done": false,
-              "now": "–"
+              "done": true,
+              "now": "+2.5%"
             }
           ],
-          "progress": 0.0
+          "progress": 0.133
         }
       },
       "mind": {
-        "iq": 82,
-        "iq_week": 2,
+        "iq": 83,
+        "iq_week": 3,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -986,7 +986,7 @@
           },
           {
             "d": "2026-11-08",
-            "iq": 82
+            "iq": 83
           }
         ],
         "facts": [
@@ -1104,8 +1104,8 @@
       "edge": 0.0307,
       "stake": 3.38,
       "status": "open",
-      "closing_fair_odds": null,
-      "clv": null,
+      "closing_fair_odds": 1.82,
+      "clv": 0.0493,
       "profit": 0.0,
       "score": null,
       "settled_at": null,
@@ -1141,8 +1141,8 @@
       "edge": 0.0231,
       "stake": 2.31,
       "status": "open",
-      "closing_fair_odds": null,
-      "clv": null,
+      "closing_fair_odds": 2.0,
+      "clv": 0.0,
       "profit": 0.0,
       "score": null,
       "settled_at": null,
@@ -1865,6 +1865,10 @@
     {
       "t": "2026-11-08T17:00:55Z",
       "text": "Results:\n- Lost -0.69: Draw (Winner) in Rennes vs Lille (Rennes 1 - 2 Lille)"
+    },
+    {
+      "t": "2026-11-08T17:30:42Z",
+      "text": "🏅 🦈 The Shark unlocked 🎯 Beat the Market: Got a better price than the final one."
     }
   ]
 }
