@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08T20:20:50Z",
+  "updated": "2026-11-08T20:30:44Z",
   "start_fund": 200,
   "order": [
     "lizard",
@@ -370,7 +370,7 @@
     },
     "week_start": "2026-11-02"
   },
-  "credits_left": 19843,
+  "credits_left": 19841,
   "last_scan": "2026-11-08@16",
   "strategies": {
     "lizard": {
@@ -408,15 +408,15 @@
         "Total"
       ],
       "start_fund": 200,
-      "fund": 200.26,
+      "fund": 198.23,
       "lessons": [],
       "bets": 19,
-      "open": 5,
+      "open": 4,
       "won": 3,
-      "lost": 11,
-      "staked": 15.32,
-      "profit": 0.26,
-      "roi": 0.017,
+      "lost": 12,
+      "staked": 17.35,
+      "profit": -1.77,
+      "roi": -0.102,
       "avg_edge": 0.0353,
       "avg_clv": -0.0016,
       "beat_close": 0.7368,
@@ -481,14 +481,18 @@
         {
           "t": "2026-11-08T17:00:55Z",
           "fund": 200.26
+        },
+        {
+          "t": "2026-11-08T20:30:44Z",
+          "fund": 198.23
         }
       ],
       "by_league": [
         {
           "name": "La Liga 2 (Spain 2)",
           "bets": 1,
-          "profit": 0,
-          "roi": null,
+          "profit": -2.03,
+          "roi": -1.0,
           "avg_clv": 0.0478,
           "beat_close": 1.0,
           "clv_count": 1
@@ -552,8 +556,8 @@
         {
           "name": "Winner",
           "bets": 18,
-          "profit": 2.37,
-          "roi": 0.1794,
+          "profit": 0.34,
+          "roi": 0.0223,
           "avg_clv": -0.0028,
           "beat_close": 0.7222,
           "clv_count": 18
@@ -563,8 +567,8 @@
         {
           "name": "Football",
           "bets": 19,
-          "profit": 0.26,
-          "roi": 0.017,
+          "profit": -1.77,
+          "roi": -0.102,
           "avg_clv": -0.0016,
           "beat_close": 0.7368,
           "clv_count": 19
@@ -685,7 +689,7 @@
         ],
         "rules": 0,
         "studied": 60,
-        "resolved": 27
+        "resolved": 33
       }
     },
     "quant": {
@@ -1177,12 +1181,12 @@
       "fair_odds": 3.204,
       "edge": 0.061,
       "stake": 2.03,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 3.245,
       "clv": 0.0478,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -2.03,
+      "score": "Sporting Gijón 1 - 2 Real Valladolid CF",
+      "settled_at": "2026-11-08T20:30:44Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates Draw at 31.2%. That makes the fair price 3.20.",
         "Coolbet pays 3.40. That is +6.1% above fair. My bar is +2.5%.",
@@ -1869,6 +1873,10 @@
     {
       "t": "2026-11-08T17:30:42Z",
       "text": "🏅 🦈 The Shark unlocked 🎯 Beat the Market: Got a better price than the final one."
+    },
+    {
+      "t": "2026-11-08T20:30:44Z",
+      "text": "Results:\n- Lost -2.03: Draw (Winner) in Sporting Gijón vs Real Valladolid CF (Sporting Gijón 1 - 2 Real Valladolid CF)"
     }
   ]
 }
