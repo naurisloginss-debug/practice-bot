@@ -357,7 +357,7 @@ function render() {
     <dt>Sport IQ</dt><dd>How much the character knows about its sport. Grows as it studies more games, measures more bets and proves its findings right. Pricing badly pulls it down.</dd>
     <dt>Trophies and badges</dt><dd>Trophies are won against the other characters (weekly and monthly). Badges are personal milestones. Both reward skill, never risk.</dd>
     <dt>Gut feeling</dt><dd>Sometimes a character follows a hunch its rules don't accept: a price that's almost good enough, or sharp money moving. Hunches are small, rare, marked 💭 and graded. A gut that beats the market earns more trust.</dd>
-    <dt>Wild bets</dt><dd>Once or twice a day a character may take a bold long shot (odds 4.5–15) with a tiny stake, just because. Marked 🎲 and kept out of its serious record.</dd>
+    <dt>Wild bets</dt><dd>A character may choose a bold long shot (odds 4.5–15, tiny stake, at most two a day). It's a choice, not a rule: it's bolder on a hot streak, careful on a cold one, and never chases losses. Its 🧠 says why it did or didn't.</dd>
     <dt>Reading</dt><dd>Twice a day each character skims its sport's news headlines and notices injuries, suspensions and good news. Its reasoning shows what it read.</dd>
     <dt>Learning</dt><dd>Each character studies its own bets and cuts the kinds that keep losing to the market, and backs the kinds that keep beating it a bit harder.</dd>
     <dt>Pretend money</dt><dd>No real bets are placed. The bot practises until the numbers say it is worth it.</dd>
@@ -518,6 +518,7 @@ function mind(s) {
     ${d ? `<p class="sub" style="margin:0 0 10px">Last scan ${rel(d.t)}: looked at <b>${d.looked}</b> game${d.looked === 1 ? '' : 's'}, bet on <b>${d.placed}</b>.</p>` : '<p class="sub">No scan yet. Thoughts appear after the next morning scan.</p>'}
     ${recent.length ? `<div class="m-sec">Why I bet</div>${recent.map(b => `<div class="thought"><b>${esc(b.pick)} @ ${Number(b.odds).toFixed(2)}</b> <span class="sub">${esc(b.home)} vs ${esc(b.away)}</span>
         <ol>${b.thoughts.map(t => `<li>${esc(t)}</li>`).join('')}</ol></div>`).join('')}` : ''}
+    ${d && d.wild_choice ? `<div class="m-sec">🎲 Wild bet today?</div><div class="thought">${esc(d.wild_choice)}</div>` : ''}
     ${hunches.length ? `<div class="m-sec">💭 Gut calls</div>${hunches.map(b => `<div class="thought"><b>${esc(b.pick)} @ ${Number(b.odds).toFixed(2)}</b> <span class="sub">${esc(b.home)} vs ${esc(b.away)}${b.status !== 'open' ? ' · ' + (b.status === 'won' ? '✓ won' : b.status === 'lost' ? '✕ lost' : 'void') : ''}${b.clv != null ? ` · ${b.clv > 0 ? 'beat' : 'missed'} the market` : ''}</span>
         <ol>${b.thoughts.map(t => `<li>${esc(t)}</li>`).join('')}</ol></div>`).join('')}` : ''}
     ${d && d.passed && d.passed.length ? `<div class="m-sec">What I passed on</div>${d.passed.map(m => `<div class="thought pass"><b>${esc(m.pick)} @ ${Number(m.odds).toFixed(2)}</b> <span class="sub">${esc(m.game)} · ${esc(m.book)}</span>

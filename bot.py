@@ -872,26 +872,51 @@ def wild_candidates(strategy, ev, league_key, rows, fair_market, news, now):
     return out
 
 
+def wild_mood(bets, strategy):
+    """How the character feels about a wild bet today, and why. Returns (multiplier, reason)."""
+    fund = fund_of(bets, strategy)
+    start = P(strategy, "start_fund")
+    cur, _ = streaks(bets, strategy)
+    lv = level_of(bets, strategy)
+    if fund < start * 0.95:
+        return 0.0, f"I'm down ({fund:.2f} of {start:.0f}), and I don't chase losses."
+    if lv["cold"]:
+        return 0.3, "I'm on a cold streak. Staying careful."
+    if cur >= 3:
+        return 1.4, f"Feeling sharp after beating the market {cur} times in a row."
+    return 1.0, ""
+
+
 def place_wild_bets(bets, wild_pool, placed, now, today):
+    """Wild bets are a choice, never a duty: the character decides each day, by appetite and mood,
+    and says why it did or didn't. Returns {strategy: choice text}."""
     W = CONFIG["wild"]
+    choices = {}
     for strategy, pool in wild_pool.items():
-        if not pool:
-            continue
         c_cfg = CONFIG["strategies"][strategy]
-        appetite = c_cfg.get("wild_appetite", 0.3)
+        if not pool:
+            choices[strategy] = "No long shot worth a look today."
+            continue
+        pool = sorted(pool, key=lambda c: -(c["score"] + random.uniform(0, 0.02)))
+        top = pool[0]
+        tempting = f"{pick_label(top['market'], top['name'], top['point'])} at {top['odds']:.2f}"
+        mult, why = wild_mood(bets, strategy)
+        appetite = min(0.9, c_cfg.get("wild_appetite", 0.3) * mult)
         done = sum(1 for b in bets if b["strategy"] == strategy and b.get("wild") and b["placed_at"][:10] == today)
         fund = fund_of(bets, strategy)
-        if fund < P(strategy, "stop_below"):
+        if done >= W["per_day"]:
             continue
-        # Best value long shots first, one per game, with a little randomness in which one tempts it.
-        pool = sorted(pool, key=lambda c: -(c["score"] + random.uniform(0, 0.02)))
+        if fund < P(strategy, "stop_below") or appetite == 0:
+            choices[strategy] = f"Saw {tempting}. Tempting. Passed: {why or 'not today.'}"
+            continue
+        took = []
         for c in pool:
             if done >= W["per_day"]:
                 break
             if any(b["event_id"] == c["ev"]["id"] and b["strategy"] == strategy for b in bets):
                 continue
             if random.random() >= appetite * (0.6 if done else 1.0):
-                break  # not feeling wild (again) today
+                break  # its choice: not (again) today
             ev, market = c["ev"], c["market"]
             stake = round(max(CONFIG["min_stake"], fund * W["stake_pct"] / 100), 2)
             pick = pick_label(market, c["name"], c["point"])
@@ -903,13 +928,19 @@ def place_wild_bets(bets, wild_pool, placed, now, today):
                 "name": c["name"], "point": c["point"], "pick": pick, "book": c["book"], "book_key": c["book_key"],
                 "odds": c["odds"], "eff_odds": c["eff_odds"], "fair_odds": c["fair_odds"], "edge": c["edge"],
                 "stake": stake, "status": "open", "closing_fair_odds": None, "clv": None, "profit": 0.0, "score": None, "settled_at": None,
-                "thoughts": [f"Wild one: {pick} at {c['odds']:.2f}. The market gives it {c['prob']*100:.0f}%.",
-                             c_cfg.get("voice", {}).get("wild", "Probably won't land. But if it does..."),
-                             f"Tiny stake: {stake:.2f} ({W['stake_pct']:g}% of my fund). Kept out of my serious record."],
+                "thoughts": [f"Wild one: {pick} at {c['odds']:.2f}. The market gives it {c['prob']*100:.0f}%."] + ([why] if why else []) +
+                            [c_cfg.get("voice", {}).get("wild", "Probably won't land. But if it does..."),
+                             f"My choice, tiny stake: {stake:.2f} ({W['stake_pct']:g}% of my fund). Kept out of my serious record."],
             }
             bets.append(bet)
             placed.append(bet)
+            took.append(f"{pick} at {c['odds']:.2f}")
             done += 1
+        if took:
+            choices[strategy] = (why + " " if why else "") + "Took a shot: " + ", ".join(took) + "."
+        else:
+            choices[strategy] = f"Saw {tempting}. Tempting, but I passed. {why or 'Not feeling it today.'}".strip()
+    return choices
 
 
 def scan(api, bets, state, now, notes):
@@ -1007,7 +1038,7 @@ def scan(api, bets, state, now, notes):
                     for c in wild_candidates(strategy, ev, league_key, rows, fair_market, news, now):
                         wild_pool[strategy].append({**c, "ev": ev, "league_key": league_key, "league": league})
     place_gut_bets(bets, gut_pool, placed, now, today)
-    place_wild_bets(bets, wild_pool, placed, now, today)
+    wild_choices = place_wild_bets(bets, wild_pool, placed, now, today)
     for b in placed:  # what the character read about these teams goes into its reasoning
         extra = news_thought(news, b, now)
         if extra:
@@ -1028,6 +1059,7 @@ def scan(api, bets, state, now, notes):
             mood = voice.get("wait", "Nothing worth the risk today.")
         top = sorted(misses[strategy], key=lambda m: -m["edge"])[:4]
         diary[strategy] = {"t": iso(now), "mood": mood, "looked": len(looked[strategy]), "placed": len(mine),
+                           "wild_choice": wild_choices.get(strategy),
                            "passed": [{k: m[k] for k in ("game", "league", "pick", "odds", "book", "edge", "reason")} for m in top]}
     if placed:
         lines = [f"- {CONFIG['strategies'][b['strategy']]['name']}{' 💭 gut' if b.get('gut') else ''}{' 🎲 wild' if b.get('wild') else ''}: **{b['pick']}** ({b['market_name']}) in {b['game']} "
