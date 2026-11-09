@@ -259,8 +259,10 @@ def segment(league_key, market, odds=None):
 
 
 def verdict_for(playbook, league_key, market, odds):
-    """'avoid' wins over 'favour'; the narrow group is checked before the broad one."""
-    found = [playbook.get(segment(league_key, market, odds)), playbook.get(segment(league_key, market))]
+    """'avoid' wins over 'favour'. Checks this league at these odds, this league overall,
+    and these odds across all leagues."""
+    found = [playbook.get(segment(league_key, market, odds)), playbook.get(segment(league_key, market)),
+             playbook.get(segment("*", market, odds))]
     return "avoid" if "avoid" in found else "favour" if "favour" in found else None
 
 
@@ -270,7 +272,8 @@ def learn(bets, strategy):
     groups = {}
     for b in bets:
         if b["strategy"] == strategy and b.get("clv") is not None:
-            for key in (segment(b["league_key"], b["market"], b["odds"]), segment(b["league_key"], b["market"])):
+            for key in (segment(b["league_key"], b["market"], b["odds"]), segment(b["league_key"], b["market"]),
+                        segment("*", b["market"], b["odds"])):
                 groups.setdefault(key, []).append(b)
     playbook, lessons = {}, []
     for seg, group in sorted(groups.items()):
@@ -279,7 +282,8 @@ def learn(bets, strategy):
         clv = sum(b["clv"] for b in group) / len(group)
         beat = sum(1 for b in group if b["clv"] > 0) / len(group)
         league_key, market, band = seg.split("|")
-        label = f"{league_name(league_key)} · {MARKET_NAMES[market].lower()}" + ("" if band == "*" else f" · {band}")
+        where = "all leagues" if league_key == "*" else league_name(league_key)
+        label = f"{where} · {MARKET_NAMES[market].lower()}" + ("" if band == "*" else f" · {band}")
         if clv <= L["avoid_below"]:
             playbook[seg] = "avoid"
             lessons.append({"seg": seg, "kind": "avoid", "text": f"Stopped: {label}", "detail": f"{clv*100:+.1f}% vs the market over {len(group)} bets"})
@@ -800,6 +804,13 @@ def settle(api, bets, state, now, notes):
     by_league = {}
     for b in waiting:
         by_league.setdefault(b["league_key"], []).append(b)
+    # Leagues with studied games that have finished but have no result yet: fetch them too, so the
+    # characters learn from every game, not only the ones they bet on.
+    since = now - timedelta(days=3)
+    for o in load(OBS_FILE, {}).values():
+        start = parse(o["start"])
+        if not o.get("result") and since <= start <= now - timedelta(hours=CONFIG["settle_after_hours"]):
+            by_league.setdefault(o["league"], [])
     checked = state.setdefault("last_settle_check", {})
     results = []
     for league_key, group in by_league.items():
