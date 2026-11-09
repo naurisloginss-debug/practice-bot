@@ -160,6 +160,8 @@
   .thought.pass div { color: var(--ink-2); font-size: 13px; margin-top: 2px; }
   .think { margin-top: 6px; } .think summary { cursor: pointer; font-size: 12px; color: var(--accent); }
   .xp { margin: 12px 0 0; }
+  .gut { margin: 14px 0 0; padding: 12px; border-radius: 14px; background: var(--card-2); border: 1px solid var(--line); }
+  .gutchip { font-size: 11px; font-weight: 700; padding: 1px 7px; border-radius: 999px; background: rgba(155,107,214,.18); color: #9b6bd6; }
   .rank { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
   .rank li { display: grid; grid-template-columns: 30px 40px 1fr auto auto auto; gap: 10px; align-items: center; padding: 8px 12px; border-radius: 14px; background: var(--card-2); border: 1px solid var(--line); }
   .rank li.me { border-color: var(--pc); box-shadow: inset 3px 0 0 var(--pc); }
@@ -351,6 +353,7 @@ function render() {
     <dt>The characters</dt><dd>Three bots, each with its own sport, style, risk level and pretend money. Inspired by real bettors' approaches, not run by them.</dd>
     <dt>Sport IQ</dt><dd>How much the character knows about its sport. Grows as it studies more games, measures more bets and proves its findings right. Pricing badly pulls it down.</dd>
     <dt>Trophies and badges</dt><dd>Trophies are won against the other characters (weekly and monthly). Badges are personal milestones. Both reward skill, never risk.</dd>
+    <dt>Gut feeling</dt><dd>Sometimes a character follows a hunch its rules don't accept: a price that's almost good enough, or sharp money moving. Hunches are small, rare, marked 💭 and graded. A gut that beats the market earns more trust.</dd>
     <dt>Learning</dt><dd>Each character studies its own bets and cuts the kinds that keep losing to the market, and backs the kinds that keep beating it a bit harder.</dd>
     <dt>Pretend money</dt><dd>No real bets are placed. The bot practises until the numbers say it is worth it.</dd>
   </dl></details></section>
@@ -392,10 +395,10 @@ function matchCard(b) {
   const clv = b.clv == null ? '' : ` · ${b.clv > 0 ? 'beat' : 'missed'} the market by ${Math.abs(b.clv * 100).toFixed(1)}%`;
   return `<div class="match"><div>
       <div class="teams">${esc(b.home)} <span class="sub">vs</span> ${esc(b.away)}</div>
-      <div class="pick">${esc(b.pick)} <span class="odds num">${Number(b.odds).toFixed(2)}</span></div>
+      <div class="pick">${esc(b.pick)} <span class="odds num">${Number(b.odds).toFixed(2)}</span>${b.gut ? '<span class="gutchip" title="A hunch, not a calculated edge">💭 gut</span>' : ''}</div>
       <div class="meta">${esc(b.league)} · ${open ? day(b.start) + ' · ' + rel(b.start) : (b.score ? esc(b.score) : day(b.start))}</div>
       <div class="meta">${esc(b.book)} · ${pct(b.edge)} edge${clv}</div>
-      ${b.thoughts ? `<details class="think"><summary>🧠 See my thinking</summary><ol>${b.thoughts.map(t => `<li>${esc(t)}</li>`).join('')}</ol></details>` : ''}
+      ${b.thoughts ? `<details class="think"><summary>${b.gut ? '💭 Why I followed my gut' : '🧠 See my thinking'}</summary><ol>${b.thoughts.map(t => `<li>${esc(t)}</li>`).join('')}</ol></details>` : ''}
     </div><div class="side">${side}</div></div>`;
 }
 
@@ -456,6 +459,7 @@ function character(s) {
       : `<div class="xp-head"><span>👑 <b>Top level reached.</b></span><span class="sub">${esc(lv.perk || '')}</span></div>`}
       ${lv.perk && nx ? `<div class="sub" style="margin-top:6px">Now: ${esc(lv.perk)}</div>` : ''}
     </div>
+    ${gutMeter(s)}
     <p class="motto">“${esc(s.motto)}”</p>
     <p class="story">${esc(s.story)}</p>
     <div class="chips">
@@ -468,14 +472,29 @@ function character(s) {
     </div></section>`;
 }
 
+function gutMeter(s) {
+  const g = s.gut;
+  if (!g) return '';
+  const trust = Math.round(g.trust * 100), base = Math.round(g.base * 100);
+  const verdict = g.measured < 8 ? `Still finding out if its gut is any good (${g.measured} of 8 hunches graded).`
+    : g.avg_clv > 0 ? `Its gut beats the market by ${pct(g.avg_clv)} on average, so it trusts it more.`
+    : `Its gut has been wrong more than right (${pct(g.avg_clv)} vs the market), so it trusts it less.`;
+  return `<div class="gut"><div class="xp-head"><span>💭 <b>Gut feeling</b> · trusts it ${trust}%</span><span class="sub">started at ${base}%</span></div>
+    <div class="progress" role="progressbar" aria-label="Gut trust" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${trust}"><i style="width:${trust}%;background:linear-gradient(90deg,#9b6bd6,var(--pc))"></i></div>
+    <div class="sub" style="margin-top:6px">${g.bets} hunch${g.bets === 1 ? '' : 'es'}${g.won + g.lost ? ` · ${g.won} won, ${g.lost} lost (${signed(g.profit)})` : ''}. ${verdict}</div></div>`;
+}
+
 // The character's mind: its latest scan, what it bet and why, what it passed on and why.
 function mind(s) {
   const d = s.diary;
-  const recent = data.bets.filter(b => b.strategy === current && b.thoughts).sort((a, b) => b.placed_at.localeCompare(a.placed_at)).slice(0, 3);
+  const recent = data.bets.filter(b => b.strategy === current && b.thoughts && !b.gut).sort((a, b) => b.placed_at.localeCompare(a.placed_at)).slice(0, 3);
+  const hunches = data.bets.filter(b => b.strategy === current && b.gut).sort((a, b) => b.placed_at.localeCompare(a.placed_at)).slice(0, 2);
   return `<div class="mind" id="mind">
     <div class="mind-h">🧠 Inside ${esc(s.name)}'s head</div>
     ${d ? `<p class="sub" style="margin:0 0 10px">Last scan ${rel(d.t)}: looked at <b>${d.looked}</b> game${d.looked === 1 ? '' : 's'}, bet on <b>${d.placed}</b>.</p>` : '<p class="sub">No scan yet. Thoughts appear after the next morning scan.</p>'}
     ${recent.length ? `<div class="m-sec">Why I bet</div>${recent.map(b => `<div class="thought"><b>${esc(b.pick)} @ ${Number(b.odds).toFixed(2)}</b> <span class="sub">${esc(b.home)} vs ${esc(b.away)}</span>
+        <ol>${b.thoughts.map(t => `<li>${esc(t)}</li>`).join('')}</ol></div>`).join('')}` : ''}
+    ${hunches.length ? `<div class="m-sec">💭 Gut calls</div>${hunches.map(b => `<div class="thought"><b>${esc(b.pick)} @ ${Number(b.odds).toFixed(2)}</b> <span class="sub">${esc(b.home)} vs ${esc(b.away)}${b.status !== 'open' ? ' · ' + (b.status === 'won' ? '✓ won' : b.status === 'lost' ? '✕ lost' : 'void') : ''}${b.clv != null ? ` · ${b.clv > 0 ? 'beat' : 'missed'} the market` : ''}</span>
         <ol>${b.thoughts.map(t => `<li>${esc(t)}</li>`).join('')}</ol></div>`).join('')}` : ''}
     ${d && d.passed && d.passed.length ? `<div class="m-sec">What I passed on</div>${d.passed.map(m => `<div class="thought pass"><b>${esc(m.pick)} @ ${Number(m.odds).toFixed(2)}</b> <span class="sub">${esc(m.game)} · ${esc(m.book)}</span>
         <div>${esc(m.reason)}</div></div>`).join('')}` : ''}

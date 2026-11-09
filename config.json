@@ -89,8 +89,10 @@
         "limit": "Enough for today. The best hunters know when to stop.",
         "stopped": "Loss limit hit. I'm going quiet until you reset me.",
         "lead": "Top of the table. {rival}, patience beats noise every time.",
-        "chase": "{rival} can enjoy the view. I'm patient, and I'm coming."
-      }
+        "chase": "{rival} can enjoy the view. I'm patient, and I'm coming.",
+        "gut": "But something in the grass is moving. I'm taking a nibble."
+      },
+      "gut_trust": 0.35
     },
     "quant": {
       "name": "The Quant",
@@ -123,8 +125,10 @@
         "limit": "Daily limit reached. The data will still be here tomorrow.",
         "stopped": "Loss limit hit. Re-checking the model before anything else.",
         "lead": "The data put me first. {rival}, check your model.",
-        "chase": "{rival} is ahead on paper. My numbers say not for long."
-      }
+        "chase": "{rival} is ahead on paper. My numbers say not for long.",
+        "gut": "The model says no. The 2% of me that isn't a model says try it."
+      },
+      "gut_trust": 0.2
     },
     "shark": {
       "name": "The Shark",
@@ -157,8 +161,10 @@
         "limit": "Limit reached. Sharks don't chase.",
         "stopped": "Loss limit hit. Back to the depths until you reset me.",
         "lead": "Apex predator. {rival}, keep swimming.",
-        "chase": "I smell {rival}'s lead from here. Closing in."
-      }
+        "chase": "I smell {rival}'s lead from here. Closing in.",
+        "gut": "I smell it before I can prove it. Biting."
+      },
+      "gut_trust": 0.5
     }
   },
   "commission": {
@@ -175,5 +181,17 @@
     "rule_z": 2.5,
     "min_prices": 150
   },
-  "practice_note": "Practice mode: daily limits are raised to collect data faster. Before real money, set them back to 6/30 (lizard), 4/30 (quant), 4/40 (shark)."
+  "practice_note": "Practice mode: daily limits are raised to collect data faster. Before real money, set them back to 6/30 (lizard), 4/30 (quant), 4/40 (shark).",
+  "gut": {
+    "stake_pct": 0.5,
+    "min_edge": 0.008,
+    "steam": 0.025,
+    "daily_cap": 1,
+    "daily_cap_high": 2,
+    "high_trust": 0.6,
+    "min_measured": 8,
+    "trust_per_clv": 15,
+    "trust_min": 0.1,
+    "trust_max": 0.75
+  }
 }
