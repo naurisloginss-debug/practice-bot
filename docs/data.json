@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-09T17:01:03Z",
+  "updated": "2026-11-09T17:15:32Z",
   "start_fund": 200,
   "order": [
     "lizard",
@@ -12,7 +12,7 @@
       "shark",
       "quant"
     ],
-    "grower": null,
+    "grower": "shark",
     "talk": [
       {
         "who": "lizard",
@@ -170,8 +170,8 @@
         ]
       },
       "quant": {
-        "iq": 81,
-        "iq_gain": 0,
+        "iq": 84,
+        "iq_gain": 3,
         "streak": 0,
         "best_streak": 0,
         "achievements": [
@@ -279,12 +279,12 @@
             "pending": true
           }
         ],
-        "score": 81,
+        "score": 84,
         "trophies": []
       },
       "shark": {
-        "iq": 86,
-        "iq_gain": 0,
+        "iq": 91,
+        "iq_gain": 5,
         "streak": 0,
         "best_streak": 1,
         "achievements": [
@@ -392,13 +392,13 @@
             "pending": true
           }
         ],
-        "score": 101,
+        "score": 106,
         "trophies": []
       }
     },
     "week_start": "2026-11-09"
   },
-  "credits_left": 19815,
+  "credits_left": 19801,
   "last_scan": "2026-11-09@16",
   "strategies": {
     "lizard": {
@@ -737,7 +737,7 @@
         ],
         "rules": 0,
         "studied": 61,
-        "resolved": 48
+        "resolved": 55
       }
     },
     "quant": {
@@ -827,8 +827,8 @@
         }
       },
       "mind": {
-        "iq": 81,
-        "iq_week": 1,
+        "iq": 84,
+        "iq_week": 4,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -852,13 +852,13 @@
           },
           {
             "d": "2026-11-09",
-            "iq": 81
+            "iq": 84
           }
         ],
         "facts": [],
         "rules": 0,
         "studied": 37,
-        "resolved": 0
+        "resolved": 26
       }
     },
     "shark": {
@@ -1001,8 +1001,8 @@
         }
       },
       "mind": {
-        "iq": 86,
-        "iq_week": 6,
+        "iq": 91,
+        "iq_week": 11,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -1026,7 +1026,7 @@
           },
           {
             "d": "2026-11-09",
-            "iq": 86
+            "iq": 91
           }
         ],
         "facts": [
@@ -1040,7 +1040,7 @@
         ],
         "rules": 0,
         "studied": 139,
-        "resolved": 13
+        "resolved": 69
       }
     }
   },
