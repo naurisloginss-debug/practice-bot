@@ -134,6 +134,18 @@
     {
       "t": "2026-11-08T23:15:28Z",
       "text": "Results:\n- Won +2.14: Marseille (Winner) in RC Lens vs Marseille (RC Lens 1 - 2 Marseille)\n- Lost -1.05: Draw (Winner) in Brest vs Lyon (Brest 2 - 0 Lyon)\n- Lost -1.00: Draw (Winner) in Le Havre vs Lorient (Le Havre 0 - 2 Lorient)"
+    },
+    {
+      "t": "2026-11-09T00:00:57Z",
+      "text": "🏆 🦎 The Lizard wins Weekly Champion (week of 02 Nov). +36 Arena points (+16 IQ, 4 new badges)."
+    },
+    {
+      "t": "2026-11-09T00:00:57Z",
+      "text": "📈 🦎 The Lizard wins Grower of the Week (week of 02 Nov). +16 Sport IQ."
+    },
+    {
+      "t": "2026-11-09T00:00:57Z",
+      "text": "🎯 🦎 The Lizard wins Sharpshooter of the Week (week of 02 Nov). Beat the market on 74% of 19 bets."
     }
   ],
   "levels": {
@@ -154,8 +166,36 @@
       "beat_it": "2026-11-08T17:30:42Z"
     }
   },
-  "trophies": [],
-  "trophy_week": "2026-11-02",
+  "trophies": [
+    {
+      "kind": "champion",
+      "emoji": "🏆",
+      "title": "Weekly Champion",
+      "who": "lizard",
+      "period": "week of 02 Nov",
+      "detail": "+36 Arena points (+16 IQ, 4 new badges).",
+      "at": "2026-11-09T00:00:57Z"
+    },
+    {
+      "kind": "grower",
+      "emoji": "📈",
+      "title": "Grower of the Week",
+      "who": "lizard",
+      "period": "week of 02 Nov",
+      "detail": "+16 Sport IQ.",
+      "at": "2026-11-09T00:00:57Z"
+    },
+    {
+      "kind": "sharpshooter",
+      "emoji": "🎯",
+      "title": "Sharpshooter of the Week",
+      "who": "lizard",
+      "period": "week of 02 Nov",
+      "detail": "Beat the market on 74% of 19 bets.",
+      "at": "2026-11-09T00:00:57Z"
+    }
+  ],
+  "trophy_week": "2026-11-09",
   "trophy_month": "2026-11",
   "leader": "lizard",
   "iq_history": {
@@ -179,6 +219,10 @@
       {
         "d": "2026-11-08",
         "iq": 96
+      },
+      {
+        "d": "2026-11-09",
+        "iq": 96
       }
     ],
     "quant": [
@@ -201,6 +245,10 @@
       {
         "d": "2026-11-08",
         "iq": 81
+      },
+      {
+        "d": "2026-11-09",
+        "iq": 81
       }
     ],
     "shark": [
@@ -222,6 +270,10 @@
       },
       {
         "d": "2026-11-08",
+        "iq": 83
+      },
+      {
+        "d": "2026-11-09",
         "iq": 83
       }
     ]
