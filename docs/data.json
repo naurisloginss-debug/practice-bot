@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-09T23:01:00Z",
+  "updated": "2026-11-09T23:15:32Z",
   "start_fund": 200,
   "order": [
     "lizard",
@@ -12,7 +12,7 @@
       "shark",
       "quant"
     ],
-    "grower": null,
+    "grower": "lizard",
     "talk": [
       {
         "who": "lizard",
@@ -29,8 +29,8 @@
     ],
     "chars": {
       "lizard": {
-        "iq": 96,
-        "iq_gain": 0,
+        "iq": 97,
+        "iq_gain": 1,
         "streak": 6,
         "best_streak": 7,
         "achievements": [
@@ -138,7 +138,7 @@
             "pending": true
           }
         ],
-        "score": 116,
+        "score": 117,
         "trophies": [
           {
             "kind": "sharpshooter",
@@ -398,7 +398,7 @@
     },
     "week_start": "2026-11-09"
   },
-  "credits_left": 19801,
+  "credits_left": 19799,
   "last_scan": "2026-11-09@16",
   "strategies": {
     "lizard": {
@@ -681,8 +681,8 @@
         }
       },
       "mind": {
-        "iq": 96,
-        "iq_week": 16,
+        "iq": 97,
+        "iq_week": 17,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -706,7 +706,7 @@
           },
           {
             "d": "2026-11-09",
-            "iq": 96
+            "iq": 97
           }
         ],
         "facts": [
@@ -748,7 +748,7 @@
         ],
         "rules": 0,
         "studied": 61,
-        "resolved": 55
+        "resolved": 57
       }
     },
     "quant": {
