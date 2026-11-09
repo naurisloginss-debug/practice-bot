@@ -3040,5 +3040,69 @@
       "over": 0.4974
     },
     "result": null
+  },
+  "7bfc2afc162934f011a8425159e340da": {
+    "league": "soccer_spain_segunda_division",
+    "start": "2026-11-09T19:30:00Z",
+    "home": "Las Palmas",
+    "away": "CD Eldense",
+    "h2h": {
+      "away": 0.2628,
+      "home": 0.464,
+      "draw": 0.2732
+    },
+    "tot": {
+      "point": 2.75,
+      "over": 0.4871
+    },
+    "result": null
+  },
+  "07361a8381206817e27bd2697fad7479": {
+    "league": "basketball_nba",
+    "start": "2026-11-10T00:10:00Z",
+    "home": "Atlanta Hawks",
+    "away": "Los Angeles Lakers",
+    "h2h": null,
+    "tot": {
+      "point": 235.5,
+      "over": 0.5116
+    },
+    "result": null
+  },
+  "9866fa22adc8509d487522ef4cf0fc24": {
+    "league": "basketball_nba",
+    "start": "2026-11-10T01:10:00Z",
+    "home": "Dallas Mavericks",
+    "away": "Indiana Pacers",
+    "h2h": null,
+    "tot": {
+      "point": 226.0,
+      "over": 0.4794
+    },
+    "result": null
+  },
+  "3619e1cf4b0a325c3e0ba5b1fb7f3d91": {
+    "league": "basketball_nba",
+    "start": "2026-11-10T03:10:00Z",
+    "home": "Golden State Warriors",
+    "away": "New Orleans Pelicans",
+    "h2h": null,
+    "tot": {
+      "point": 232.5,
+      "over": 0.5013
+    },
+    "result": null
+  },
+  "b8c10fdf1e0ac4e13deee7f7c0af0b0b": {
+    "league": "americanfootball_nfl",
+    "start": "2026-11-15T14:30:00Z",
+    "home": "Detroit Lions",
+    "away": "New England Patriots",
+    "h2h": null,
+    "tot": {
+      "point": 51.0,
+      "over": 0.5065
+    },
+    "result": null
   }
 }

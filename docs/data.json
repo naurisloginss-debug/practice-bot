@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-09T15:45:30Z",
+  "updated": "2026-11-09T16:00:59Z",
   "start_fund": 200,
   "order": [
     "lizard",
@@ -123,7 +123,7 @@
           {
             "text": "Games studied",
             "target": 65,
-            "now": 1
+            "now": 2
           },
           {
             "text": "Bets checked against the market",
@@ -264,7 +264,7 @@
           {
             "text": "Games studied",
             "target": 27,
-            "now": 10
+            "now": 13
           },
           {
             "text": "Bets checked against the market",
@@ -377,7 +377,7 @@
           {
             "text": "Games studied",
             "target": 75,
-            "now": 70
+            "now": 71
           },
           {
             "text": "Bets checked against the market",
@@ -398,8 +398,8 @@
     },
     "week_start": "2026-11-09"
   },
-  "credits_left": 19824,
-  "last_scan": "2026-11-09@8",
+  "credits_left": 19815,
+  "last_scan": "2026-11-09@16",
   "strategies": {
     "lizard": {
       "name": "The Lizard",
@@ -619,19 +619,19 @@
         }
       ],
       "diary": {
-        "t": "2026-11-09T08:00:57Z",
+        "t": "2026-11-09T16:00:59Z",
         "mood": "Nothing worth the risk today. Patience is a weapon.",
-        "looked": 1,
+        "looked": 2,
         "placed": 0,
         "passed": [
           {
             "game": "Sabadell FC vs Real Sociedad B",
             "league": "La Liga 2 (Spain 2)",
-            "pick": "Sabadell FC",
-            "odds": 1.55,
-            "book": "PMU (FR)",
-            "edge": -0.1569,
-            "reason": "Odds 1.55 are outside my game (1.6–6.0)."
+            "pick": "Real Sociedad B",
+            "odds": 5.4,
+            "book": "Betfair",
+            "edge": 0.0091,
+            "reason": "Only +0.91% edge. I need +2.5% before I move."
           }
         ]
       },
@@ -722,7 +722,7 @@
           },
           {
             "conf": "solid",
-            "n": 162,
+            "n": 168,
             "z": 0,
             "text": "1xBet is the softest bookmaker in La Liga 2 (Spain 2).",
             "detail": "beats fair by 2%+ on 4% of its prices vs 1% across all bookmakers"
@@ -736,7 +736,7 @@
           }
         ],
         "rules": 0,
-        "studied": 60,
+        "studied": 61,
         "resolved": 48
       }
     },
@@ -786,21 +786,11 @@
       "by_market": [],
       "by_sport": [],
       "diary": {
-        "t": "2026-11-09T08:00:57Z",
+        "t": "2026-11-09T16:00:59Z",
         "mood": "The lines are tight tonight. No edge, no bet.",
-        "looked": 5,
+        "looked": 8,
         "placed": 0,
-        "passed": [
-          {
-            "game": "Phoenix Suns vs San Antonio Spurs",
-            "league": "NBA",
-            "pick": "Under 228.5",
-            "odds": 1.93,
-            "book": "Unibet (NL)",
-            "edge": 0.0024,
-            "reason": "Only +0.24% edge. I need +2.0% before I move."
-          }
-        ]
+        "passed": []
       },
       "level": {
         "n": 1,
@@ -867,7 +857,7 @@
         ],
         "facts": [],
         "rules": 0,
-        "studied": 34,
+        "studied": 37,
         "resolved": 0
       }
     },
@@ -960,11 +950,21 @@
         }
       ],
       "diary": {
-        "t": "2026-11-09T08:00:57Z",
+        "t": "2026-11-09T16:00:59Z",
         "mood": "The market's sharp this week. Circling, not biting.",
-        "looked": 69,
+        "looked": 70,
         "placed": 0,
-        "passed": []
+        "passed": [
+          {
+            "game": "Rice Owls vs Tulane Green Wave",
+            "league": "College football (US)",
+            "pick": "Under 48.5",
+            "odds": 1.95,
+            "book": "Unibet (NL)",
+            "edge": 0.0105,
+            "reason": "Only +1.05% edge. I need +2.0% before I move."
+          }
+        ]
       },
       "level": {
         "n": 1,
@@ -1032,14 +1032,14 @@
         "facts": [
           {
             "conf": "solid",
-            "n": 160,
+            "n": 164,
             "z": 0,
             "text": "Tipico is the softest bookmaker in NFL.",
             "detail": "beats fair by 2%+ on 1% of its prices vs 0% across all bookmakers"
           }
         ],
         "rules": 0,
-        "studied": 138,
+        "studied": 139,
         "resolved": 13
       }
     }
