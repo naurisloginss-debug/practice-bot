@@ -161,6 +161,7 @@
   .think { margin-top: 6px; } .think summary { cursor: pointer; font-size: 12px; color: var(--accent); }
   .xp { margin: 12px 0 0; }
   .gut { margin: 14px 0 0; padding: 12px; border-radius: 14px; background: var(--card-2); border: 1px solid var(--line); }
+  .wildchip { background: rgba(235,104,52,.18) !important; color: var(--accent-2) !important; margin-left: 4px; }
   .gutchip { font-size: 11px; font-weight: 700; padding: 1px 7px; border-radius: 999px; background: rgba(155,107,214,.18); color: #9b6bd6; }
   .rank { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
   .rank li { display: grid; grid-template-columns: 30px 40px 1fr auto auto auto; gap: 10px; align-items: center; padding: 8px 12px; border-radius: 14px; background: var(--card-2); border: 1px solid var(--line); }
@@ -342,6 +343,8 @@ function render() {
 
   ${knowledgeCard(s)}
 
+  ${readingCard(s)}
+
   ${pastCard()}
 
   <section class="card"><h2>Pretend money over time</h2>${chart()}</section>
@@ -354,6 +357,8 @@ function render() {
     <dt>Sport IQ</dt><dd>How much the character knows about its sport. Grows as it studies more games, measures more bets and proves its findings right. Pricing badly pulls it down.</dd>
     <dt>Trophies and badges</dt><dd>Trophies are won against the other characters (weekly and monthly). Badges are personal milestones. Both reward skill, never risk.</dd>
     <dt>Gut feeling</dt><dd>Sometimes a character follows a hunch its rules don't accept: a price that's almost good enough, or sharp money moving. Hunches are small, rare, marked 💭 and graded. A gut that beats the market earns more trust.</dd>
+    <dt>Wild bets</dt><dd>Once or twice a day a character may take a bold long shot (odds 4.5–15) with a tiny stake, just because. Marked 🎲 and kept out of its serious record.</dd>
+    <dt>Reading</dt><dd>Twice a day each character skims its sport's news headlines and notices injuries, suspensions and good news. Its reasoning shows what it read.</dd>
     <dt>Learning</dt><dd>Each character studies its own bets and cuts the kinds that keep losing to the market, and backs the kinds that keep beating it a bit harder.</dd>
     <dt>Pretend money</dt><dd>No real bets are placed. The bot practises until the numbers say it is worth it.</dd>
   </dl></details></section>
@@ -395,10 +400,10 @@ function matchCard(b) {
   const clv = b.clv == null ? '' : ` · ${b.clv > 0 ? 'beat' : 'missed'} the market by ${Math.abs(b.clv * 100).toFixed(1)}%`;
   return `<div class="match"><div>
       <div class="teams">${esc(b.home)} <span class="sub">vs</span> ${esc(b.away)}</div>
-      <div class="pick">${esc(b.pick)} <span class="odds num">${Number(b.odds).toFixed(2)}</span>${b.gut ? '<span class="gutchip" title="A hunch, not a calculated edge">💭 gut</span>' : ''}</div>
+      <div class="pick">${esc(b.pick)} <span class="odds num">${Number(b.odds).toFixed(2)}</span>${b.gut ? '<span class="gutchip" title="A hunch, not a calculated edge">💭 gut</span>' : ''}${b.wild ? '<span class="gutchip wildchip" title="A wild long shot with a tiny stake">🎲 wild</span>' : ''}</div>
       <div class="meta">${esc(b.league)} · ${open ? day(b.start) + ' · ' + rel(b.start) : (b.score ? esc(b.score) : day(b.start))}</div>
       <div class="meta">${esc(b.book)} · ${pct(b.edge)} edge${clv}</div>
-      ${b.thoughts ? `<details class="think"><summary>${b.gut ? '💭 Why I followed my gut' : '🧠 See my thinking'}</summary><ol>${b.thoughts.map(t => `<li>${esc(t)}</li>`).join('')}</ol></details>` : ''}
+      ${b.thoughts ? `<details class="think"><summary>${b.wild ? '🎲 Why I went wild' : b.gut ? '💭 Why I followed my gut' : '🧠 See my thinking'}</summary><ol>${b.thoughts.map(t => `<li>${esc(t)}</li>`).join('')}</ol></details>` : ''}
     </div><div class="side">${side}</div></div>`;
 }
 
@@ -460,6 +465,7 @@ function character(s) {
       ${lv.perk && nx ? `<div class="sub" style="margin-top:6px">Now: ${esc(lv.perk)}</div>` : ''}
     </div>
     ${gutMeter(s)}
+    ${wildLine(s)}
     <p class="motto">“${esc(s.motto)}”</p>
     <p class="story">${esc(s.story)}</p>
     <div class="chips">
@@ -470,6 +476,24 @@ function character(s) {
       <span class="pchip">stops below <b>${r.stop_below}</b></span>
       <span class="pchip">${esc((s.leagues || []).join(', '))} · ${esc((s.markets || []).join(', ').toLowerCase())}</span>
     </div></section>`;
+}
+
+function wildLine(s) {
+  const w = s.wild;
+  if (!w) return '';
+  return `<div class="gut"><div class="xp-head"><span>🎲 <b>Wild bets</b> · appetite ${Math.round(w.appetite * 100)}%</span><span class="sub">up to 2 a day, tiny stakes</span></div>
+    <div class="sub" style="margin-top:6px">${w.bets ? `${w.bets} wild bet${w.bets === 1 ? '' : 's'} · ${w.won} landed, ${w.lost} missed (${signed(w.profit)})${w.best ? ` · biggest hit at ${Number(w.best).toFixed(2)}` : ''}` : 'No wild bets yet.'}</div></div>`;
+}
+
+function readingCard(s) {
+  const r = s.reading;
+  if (!r) return '';
+  return `<section class="card"><h2>📰 What ${esc(s.name)} has been reading</h2>
+    <p class="sub" style="margin:0 0 10px">${r.week} ${esc((s.sport || '').toLowerCase())} headline${r.week === 1 ? '' : 's'} skimmed this week. It notices injuries, suspensions and good news, and uses them in its reasoning and hunches.</p>
+    ${r.latest.length ? `<ul class="facts">${r.latest.map(n => `<li><span class="chip ${n.tone < 0 ? 'c-lost' : n.tone > 0 ? 'c-won' : 'c-void'}">${n.tone < 0 ? 'Bad news' : n.tone > 0 ? 'Good news' : 'News'}</span>
+        <span><b><a href="${esc(n.link)}" target="_blank" rel="noopener noreferrer" style="color:inherit">${esc(n.title)}</a></b><small>${esc(n.source)} · ${rel(n.t)}</small></span></li>`).join('')}</ul>`
+      : '<div class="empty">Nothing read yet. It reads the news at each scan.</div>'}
+  </section>`;
 }
 
 function gutMeter(s) {

@@ -83,9 +83,11 @@
         "stopped": "Loss limit hit. I'm going quiet until you reset me.",
         "lead": "Top of the table. {rival}, patience beats noise every time.",
         "chase": "{rival} can enjoy the view. I'm patient, and I'm coming.",
-        "gut": "But something in the grass is moving. I'm taking a nibble."
+        "gut": "But something in the grass is moving. I'm taking a nibble.",
+        "wild": "Patience is a weapon, but even lizards sunbathe on a crazy rock now and then."
       },
-      "gut_trust": 0.35
+      "gut_trust": 0.35,
+      "wild_appetite": 0.35
     },
     "quant": {
       "name": "The Quant",
@@ -117,9 +119,11 @@
         "stopped": "Loss limit hit. Re-checking the model before anything else.",
         "lead": "The data put me first. {rival}, check your model.",
         "chase": "{rival} is ahead on paper. My numbers say not for long.",
-        "gut": "The model says no. The 2% of me that isn't a model says try it."
+        "gut": "The model says no. The 2% of me that isn't a model says try it.",
+        "wild": "Statistically silly. Doing it anyway, for science."
       },
-      "gut_trust": 0.2
+      "gut_trust": 0.2,
+      "wild_appetite": 0.2
     },
     "shark": {
       "name": "The Shark",
@@ -151,9 +155,11 @@
         "stopped": "Loss limit hit. Back to the depths until you reset me.",
         "lead": "Apex predator. {rival}, keep swimming.",
         "chase": "I smell {rival}'s lead from here. Closing in.",
-        "gut": "I smell it before I can prove it. Biting."
+        "gut": "I smell it before I can prove it. Biting.",
+        "wild": "Big fish, long line. Let's see if it bites."
       },
-      "gut_trust": 0.5
+      "gut_trust": 0.5,
+      "wild_appetite": 0.5
     }
   },
   "commission": {
@@ -181,5 +187,27 @@
     "trust_per_clv": 15,
     "trust_min": 0.1,
     "trust_max": 0.75
+  },
+  "news_feeds": {
+    "Football": [
+      "https://feeds.bbci.co.uk/sport/football/rss.xml",
+      "https://feeds.bbci.co.uk/sport/football/championship/rss.xml",
+      "https://feeds.bbci.co.uk/sport/football/european/rss.xml",
+      "https://football-italia.net/feed/"
+    ],
+    "Basketball": [
+      "https://www.espn.com/espn/rss/nba/news"
+    ],
+    "American football": [
+      "https://www.espn.com/espn/rss/nfl/news",
+      "https://www.espn.com/espn/rss/ncf/news"
+    ]
+  },
+  "wild": {
+    "stake_pct": 0.25,
+    "min_odds": 4.5,
+    "max_odds": 15,
+    "min_edge": -0.03,
+    "per_day": 2
   }
 }

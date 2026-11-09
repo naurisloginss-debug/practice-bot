@@ -15,6 +15,8 @@ import os
 import sys
 import urllib.parse
 import urllib.request
+import xml.etree.ElementTree as ET
+from email.utils import parsedate_to_datetime
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
@@ -25,6 +27,7 @@ STATE_FILE = ROOT / "data" / "state.json"
 DASH_FILE = ROOT / "docs" / "data.json"
 NOTIFY_FILE = ROOT / "notify.md"
 OBS_FILE = ROOT / "data" / "observations.json"
+NEWS_FILE = ROOT / "data" / "news.json"
 API = "https://api.the-odds-api.com/v4"
 SHARP = "pinnacle"
 
@@ -272,7 +275,7 @@ def learn(bets, strategy):
     L = CONFIG["learning"]
     groups = {}
     for b in bets:
-        if b["strategy"] == strategy and b.get("clv") is not None and not b.get("gut"):
+        if b["strategy"] == strategy and b.get("clv") is not None and not b.get("gut") and not b.get("wild"):
             for key in (segment(b["league_key"], b["market"], b["odds"]), segment(b["league_key"], b["market"]),
                         segment("*", b["market"], b["odds"])):
                 groups.setdefault(key, []).append(b)
@@ -384,7 +387,7 @@ def knowledge_of(obs, knowledge, bets, strategy):
             if v[1] / v[0] > avg * 1.3:
                 facts.append({"conf": "solid", "n": v[0], "z": 0, "text": f"{best} is the softest bookmaker in {league_name(lk)}.",
                               "detail": f"beats fair by 2%+ on {v[1]/v[0]*100:.0f}% of its prices vs {avg*100:.0f}% across all bookmakers"})
-    mine = [b for b in bets if b["strategy"] == strategy and b.get("clv") is not None and not b.get("gut")]
+    mine = [b for b in bets if b["strategy"] == strategy and b.get("clv") is not None and not b.get("gut") and not b.get("wild")]
     if len(mine) >= 10:
         moved = sum(1 for b in mine if b["clv"] > 0) / len(mine)
         facts.append({"conf": "solid" if len(mine) >= 30 else "watching", "n": len(mine), "z": 0,
@@ -400,6 +403,9 @@ def knowledge_of(obs, knowledge, bets, strategy):
         + 4 * sum(1 for f in facts if f["conf"] == "using") + min(10, sum(1 for f in facts if f["conf"] in ("likely", "solid"))) + 1.5 * len(lessons)
     if len(mine) >= 20:
         iq += max(-8, min(8, sum(b["clv"] for b in mine) / len(mine) * 300))
+    sport_set = {sport_of(k) for k in leagues}
+    read = sum(1 for n in load(NEWS_FILE, []) if n["sport"] in sport_set)
+    iq += min(6, 2 * math.log2(1 + read / 50))  # a little from reading the news
     return {"facts": facts[:12], "rules": rules, "iq": round(min(iq, 180)), "studied": len(studied), "resolved": len(resolved)}
 
 
@@ -451,7 +457,7 @@ COLD = {"title": "Cold streak", "badge": "🥶", "stake": 0.6, "perk": "Stakes c
 
 
 def level_of(bets, strategy):
-    measured = [b["clv"] for b in bets if b["strategy"] == strategy and b.get("clv") is not None and not b.get("gut")]
+    measured = [b["clv"] for b in bets if b["strategy"] == strategy and b.get("clv") is not None and not b.get("gut") and not b.get("wild")]
     n = len(measured)
     clv = sum(measured) / n if n else 0.0
     beat = sum(1 for c in measured if c > 0) / n if n else 0.0
@@ -626,6 +632,84 @@ def award_trophies(chars, bets, obs, state, now, week_start, notes):
     state["trophy_month"] = this_month
 
 
+# ---------- reading the news ----------
+# Twice a day each character skims its sport's news headlines (public RSS feeds), like a person
+# reading the sports pages. It spots which teams are in the news and whether the news is bad
+# (injuries, suspensions, a sacked coach) or good (a key player back). It uses this in its reasoning,
+# as a possible hunch, and for a little Sport IQ. Headlines are data only; nothing in them is acted on
+# as an instruction.
+
+BAD_NEWS = ("injur", "ruled out", "sidelined", "out for", "doubt", "suspend", "banned", "sacked", "crisis", "illness",
+            "hamstring", "torn", "surgery", "setback", "fracture")
+GOOD_NEWS = ("return", "back in training", "fit again", "boost", "unbeaten", "winning run", "winning streak", "cleared to play")
+GENERIC = {"united", "city", "real", "club", "sporting", "athletic", "atletico", "town", "county", "rovers", "wanderers",
+           "albion", "the", "fc", "cf", "ac", "as", "sc", "de", "la", "north", "south", "west", "east", "new", "state", "saint", "st"}
+
+
+def fetch_news(state, now, notes):
+    """Read each sport's feeds once per scan slot. Keeps 7 days of headlines."""
+    news = load(NEWS_FILE, [])
+    seen = {n["link"] for n in news}
+    sports = {sport_of(k) for c in CONFIG["strategies"].values() for k in c["leagues"]}
+    added = 0
+    for sport in sports:
+        for url in CONFIG.get("news_feeds", {}).get(sport, []):
+            try:
+                req = urllib.request.Request(url, headers={"User-Agent": "practice-bot (RSS reader)"})
+                with urllib.request.urlopen(req, timeout=20) as res:
+                    root = ET.fromstring(res.read())
+            except Exception:
+                continue
+            for item in root.iter("item"):
+                title = (item.findtext("title") or "").strip()
+                link = (item.findtext("link") or "").strip()
+                if not title or not link or link in seen:
+                    continue
+                try:
+                    t = parsedate_to_datetime(item.findtext("pubDate")).astimezone(timezone.utc)
+                except Exception:
+                    t = now
+                if now - t > timedelta(days=7):
+                    continue
+                desc = (item.findtext("description") or "")[:300]
+                low = (title + " " + desc).lower()
+                tone = -1 if any(w in low for w in BAD_NEWS) else 1 if any(w in low for w in GOOD_NEWS) else 0
+                news.append({"t": iso(t), "sport": sport, "title": title[:200], "link": link, "source": url.split("/")[2], "tone": tone,
+                             "text": low[:500]})
+                seen.add(link)
+                added += 1
+    news = [n for n in news if now - parse(n["t"]) <= timedelta(days=7)][-600:]
+    save(NEWS_FILE, news)
+    return news
+
+
+def team_aliases(team):
+    words = [w for w in team.replace(".", "").split() if w.lower() not in GENERIC and len(w) >= 4]
+    return {team.lower()} | {w.lower() for w in words}
+
+
+def team_buzz(news, team, sport, now, hours=48):
+    al = team_aliases(team)
+    out = []
+    for n in news:
+        if n["sport"] != sport or now - parse(n["t"]) > timedelta(hours=hours):
+            continue
+        if any(f" {a} " in f" {n['text']} " or n["text"].startswith(a) for a in al):
+            out.append(n)
+    return out
+
+
+def news_thought(news, b, now):
+    lines = []
+    for team in (b["home"], b["away"]):
+        items = team_buzz(news, team, b["sport"], now)
+        if items:
+            mood = sum(i["tone"] for i in items)
+            feel = "bad news for them" if mood < 0 else "good news for them" if mood > 0 else "nothing that changes much"
+            lines.append(f"I read {len(items)} article{'s' if len(items) != 1 else ''} about {team} lately ({feel}): “{items[-1]['title']}”")
+    return lines
+
+
 # ---------- gut feeling ----------
 # Like people, the characters sometimes act on a hunch: a half-formed signal their rules don't accept.
 # Hunches are small (a fixed slice of the fund), rare (a daily cap), tracked separately, and graded
@@ -646,10 +730,33 @@ def gut_record(bets, strategy):
             "profit": round(sum(b["profit"] for b in g if b["status"] in ("won", "lost")), 2)}
 
 
-def gut_candidates(strategy, ev, league_key, rows, fair_market, first_seen, misses_here, playbook):
-    """Hunches for one game: 'almost an edge' near misses, and 'smart money moving' price drift."""
+def gut_candidates(strategy, ev, league_key, rows, fair_market, first_seen, misses_here, playbook, news=(), now=None):
+    """Hunches for one game: 'almost an edge' near misses, 'smart money moving' price drift,
+    and 'I read bad news about their opponent'."""
     G = CONFIG["gut"]
     out = []
+    if news and "h2h" in P(strategy, "markets"):
+        sport = sport_of(league_key)
+        for team, other in ((ev["home_team"], ev["away_team"]), (ev["away_team"], ev["home_team"])):
+            bad = [n for n in team_buzz(news, team, sport, now) if n["tone"] < 0]
+            k = ("h2h", other, None)
+            if not bad or k not in fair_market:
+                continue
+            best = None
+            for r in books_for(strategy, rows):
+                odds = r["prices"].get(k)
+                if not odds or not P(strategy, "min_odds") <= odds <= P(strategy, "max_odds"):
+                    continue
+                if verdict_for(playbook, league_key, "h2h", odds) == "avoid":
+                    continue
+                eff = effective_odds(odds, r["key"])
+                edge = eff * fair_market[k] - 1
+                if edge >= -0.005 and (best is None or edge > best["edge"]):
+                    best = {"market": "h2h", "name": other, "point": None, "book": r["title"], "book_key": r["key"], "odds": odds,
+                            "eff_odds": round(eff, 4), "fair_odds": round(1 / fair_market[k], 3), "prob": fair_market[k], "edge": round(edge, 4)}
+            if best:
+                out.append({**best, "score": 1.1 + 0.1 * len(bad), "signal": "news",
+                            "why": f"I read that {team} have trouble: “{bad[-1]['title']}”. The price on {other} may not have caught up yet."})
     lo, hi = P(strategy, "min_odds"), P(strategy, "max_odds")
     for m in misses_here:
         if m["reason"].startswith("Only +") and m["edge"] >= G["min_edge"]:
@@ -737,6 +844,74 @@ def place_gut_bets(bets, gut_pool, placed, now, today):
             done_today += 1
 
 
+def wild_record(bets, strategy):
+    w = [b for b in bets if b["strategy"] == strategy and b.get("wild")]
+    m = [b["clv"] for b in w if b.get("clv") is not None]
+    return {"bets": len(w), "won": sum(1 for b in w if b["status"] == "won"), "lost": sum(1 for b in w if b["status"] == "lost"),
+            "profit": round(sum(b["profit"] for b in w if b["status"] in ("won", "lost")), 2),
+            "best": max((b["odds"] for b in w if b["status"] == "won"), default=None),
+            "avg_clv": round(sum(m) / len(m), 4) if m else None, "appetite": CONFIG["strategies"][strategy].get("wild_appetite", 0.3)}
+
+
+def wild_candidates(strategy, ev, league_key, rows, fair_market, news, now):
+    """Bold long shots: odds in the wild range, not terrible value. News or a moving price makes one more tempting."""
+    W = CONFIG["wild"]
+    out = []
+    for r in books_for(strategy, rows):
+        for k, odds in r["prices"].items():
+            wild_markets = P(strategy, "markets") + CONFIG["strategies"][strategy].get("wild_markets", [])
+            if k not in fair_market or k[0] not in wild_markets or not W["min_odds"] <= odds <= W["max_odds"]:
+                continue
+            eff = effective_odds(odds, r["key"])
+            edge = eff * fair_market[k] - 1
+            if edge < W["min_edge"]:
+                continue
+            out.append({"market": k[0], "name": k[1], "point": k[2], "book": r["title"], "book_key": r["key"], "odds": odds,
+                        "eff_odds": round(eff, 4), "fair_odds": round(1 / fair_market[k], 3), "prob": fair_market[k], "edge": round(edge, 4),
+                        "score": edge + 0.02 * len(team_buzz(news, k[1], sport_of(league_key), now)) if news else edge})
+    return out
+
+
+def place_wild_bets(bets, wild_pool, placed, now, today):
+    W = CONFIG["wild"]
+    for strategy, pool in wild_pool.items():
+        if not pool:
+            continue
+        c_cfg = CONFIG["strategies"][strategy]
+        appetite = c_cfg.get("wild_appetite", 0.3)
+        done = sum(1 for b in bets if b["strategy"] == strategy and b.get("wild") and b["placed_at"][:10] == today)
+        fund = fund_of(bets, strategy)
+        if fund < P(strategy, "stop_below"):
+            continue
+        # Best value long shots first, one per game, with a little randomness in which one tempts it.
+        pool = sorted(pool, key=lambda c: -(c["score"] + random.uniform(0, 0.02)))
+        for c in pool:
+            if done >= W["per_day"]:
+                break
+            if any(b["event_id"] == c["ev"]["id"] and b["strategy"] == strategy for b in bets):
+                continue
+            if random.random() >= appetite * (0.6 if done else 1.0):
+                break  # not feeling wild (again) today
+            ev, market = c["ev"], c["market"]
+            stake = round(max(CONFIG["min_stake"], fund * W["stake_pct"] / 100), 2)
+            pick = pick_label(market, c["name"], c["point"])
+            bet = {
+                "id": f"{ev['id']}-{strategy}-{market}-wild", "strategy": strategy, "placed_at": iso(now), "wild": True,
+                "league_key": c["league_key"], "league": c["league"], "sport": sport_of(c["league_key"]), "event_id": ev["id"],
+                "game": f"{ev['home_team']} vs {ev['away_team']}", "home": ev["home_team"], "away": ev["away_team"],
+                "start": ev["commence_time"], "market": market, "market_name": MARKET_NAMES[market],
+                "name": c["name"], "point": c["point"], "pick": pick, "book": c["book"], "book_key": c["book_key"],
+                "odds": c["odds"], "eff_odds": c["eff_odds"], "fair_odds": c["fair_odds"], "edge": c["edge"],
+                "stake": stake, "status": "open", "closing_fair_odds": None, "clv": None, "profit": 0.0, "score": None, "settled_at": None,
+                "thoughts": [f"Wild one: {pick} at {c['odds']:.2f}. The market gives it {c['prob']*100:.0f}%.",
+                             c_cfg.get("voice", {}).get("wild", "Probably won't land. But if it does..."),
+                             f"Tiny stake: {stake:.2f} ({W['stake_pct']:g}% of my fund). Kept out of my serious record."],
+            }
+            bets.append(bet)
+            placed.append(bet)
+            done += 1
+
+
 def scan(api, bets, state, now, notes):
     slot = due_scan(state, now)
     if not slot:
@@ -760,10 +935,12 @@ def scan(api, bets, state, now, notes):
     misses = {s: [] for s in CONFIG["strategies"]}
     limited, stopped = {}, {}
     gut_pool = {s: [] for s in CONFIG["strategies"]}
+    wild_pool = {s: [] for s in CONFIG["strategies"]}
+    news = fetch_news(state, now, notes)
     for league_key in competitions(api, state):
         league = league_name(league_key)
         chars = [s for s, c in CONFIG["strategies"].items() if league_key in c["leagues"]]
-        markets = {m for s in chars for m in P(s, "markets")}
+        markets = {m for s in chars for m in P(s, "markets") + CONFIG["strategies"][s].get("wild_markets", [])}
         start_to = now + timedelta(days=max(P(s, "days_ahead") for s in chars))
         if api.low_on_credits():
             notes.append(f"Stopped the scan at {league}: daily odds budget used up.")
@@ -825,9 +1002,16 @@ def scan(api, bets, state, now, notes):
                     bets.append(bet)
                     placed.append(bet)
                 if not any(b["event_id"] == ev["id"] and b["strategy"] == strategy for b in bets):
-                    for c in gut_candidates(strategy, ev, league_key, rows, fair_market, first_seen, misses_here, playbooks[strategy]):
+                    for c in gut_candidates(strategy, ev, league_key, rows, fair_market, first_seen, misses_here, playbooks[strategy], news, now):
                         gut_pool[strategy].append({**c, "ev": ev, "league_key": league_key, "league": league})
+                    for c in wild_candidates(strategy, ev, league_key, rows, fair_market, news, now):
+                        wild_pool[strategy].append({**c, "ev": ev, "league_key": league_key, "league": league})
     place_gut_bets(bets, gut_pool, placed, now, today)
+    place_wild_bets(bets, wild_pool, placed, now, today)
+    for b in placed:  # what the character read about these teams goes into its reasoning
+        extra = news_thought(news, b, now)
+        if extra:
+            b["thoughts"] = b["thoughts"][:-1] + extra + b["thoughts"][-1:]
     save(OBS_FILE, prune_obs(obs, now))
     # Each character's diary entry for this scan: what it looked at, what it did, what it passed on.
     diary = state.setdefault("diary", {})
@@ -846,7 +1030,7 @@ def scan(api, bets, state, now, notes):
         diary[strategy] = {"t": iso(now), "mood": mood, "looked": len(looked[strategy]), "placed": len(mine),
                            "passed": [{k: m[k] for k in ("game", "league", "pick", "odds", "book", "edge", "reason")} for m in top]}
     if placed:
-        lines = [f"- {CONFIG['strategies'][b['strategy']]['name']}{' 💭 gut' if b.get('gut') else ''}: **{b['pick']}** ({b['market_name']}) in {b['game']} "
+        lines = [f"- {CONFIG['strategies'][b['strategy']]['name']}{' 💭 gut' if b.get('gut') else ''}{' 🎲 wild' if b.get('wild') else ''}: **{b['pick']}** ({b['market_name']}) in {b['game']} "
                  f"({b['league']}) at {b['odds']} on {b['book']}, stake {b['stake']:.2f}, edge +{b['edge']*100:.1f}%"
                  for b in placed]
         notes.append(f"Placed {len(placed)} practice bet{'s' if len(placed) != 1 else ''}:\n" + "\n".join(lines))
@@ -1008,6 +1192,8 @@ def summary(bets, strategy):
         "by_market": breakdown(mine, "market_name"),
         "by_sport": breakdown(mine, "sport"),
         "gut": gut_record(bets, strategy),
+        "wild": wild_record(bets, strategy),
+        "reading": reading_of(strategy),
     }
 
 
@@ -1020,6 +1206,14 @@ def profile(strategy):
         "leagues": [league_name(k) for k in c["leagues"]],
         "markets": [MARKET_NAMES[m] for m in P(strategy, "markets")],
     }
+
+
+def reading_of(strategy):
+    sports = {sport_of(k) for k in CONFIG["strategies"][strategy]["leagues"]}
+    news = [n for n in load(NEWS_FILE, []) if n["sport"] in sports]
+    news.sort(key=lambda n: n["t"], reverse=True)
+    flagged = [n for n in news if n["tone"] != 0][:6]
+    return {"week": len(news), "latest": [{k: n[k] for k in ("t", "title", "link", "source", "tone")} for n in (flagged or news)[:6]]}
 
 
 def breakdown(bets, field):
