@@ -673,6 +673,8 @@ def fetch_news(state, now, notes, force=False):
                 link = (item.findtext("link") or "").strip()
                 if not title or not link or link in seen:
                     continue
+                if any(w in title.lower() for w in ("promo", "bonus code", "betting apps", "sportsbook offer")):
+                    continue  # adverts, not news
                 try:
                     t = parsedate_to_datetime(item.findtext("pubDate")).astimezone(timezone.utc)
                 except Exception:
