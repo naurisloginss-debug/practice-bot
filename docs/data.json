@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-10T15:45:33Z",
+  "updated": "2026-11-10T16:00:59Z",
   "start_fund": 200,
   "order": [
     "lizard",
@@ -377,7 +377,7 @@
           {
             "text": "Games studied",
             "target": 75,
-            "now": 79
+            "now": 80
           },
           {
             "text": "Bets checked against the market",
@@ -398,8 +398,8 @@
     },
     "week_start": "2026-11-09"
   },
-  "credits_left": 19778,
-  "last_scan": "2026-11-10@8",
+  "credits_left": 19769,
+  "last_scan": "2026-11-10@16",
   "strategies": {
     "lizard": {
       "name": "The Lizard",
@@ -686,7 +686,7 @@
         ]
       },
       "diary": {
-        "t": "2026-11-10T08:00:56Z",
+        "t": "2026-11-10T16:00:59Z",
         "mood": "Nothing worth the risk today. Patience is a weapon.",
         "looked": 0,
         "placed": 0,
@@ -915,11 +915,11 @@
         ]
       },
       "diary": {
-        "t": "2026-11-10T08:00:56Z",
+        "t": "2026-11-10T16:00:59Z",
         "mood": "The lines are tight tonight. No edge, no bet.",
         "looked": 6,
         "placed": 0,
-        "wild_choice": "Saw Milwaukee Bucks at 10.00. Tempting, but I passed. Not feeling it today.",
+        "wild_choice": "Saw Milwaukee Bucks at 9.20. Tempting, but I passed. Not feeling it today.",
         "passed": []
       },
       "level": {
@@ -992,10 +992,10 @@
         "facts": [
           {
             "conf": "solid",
-            "n": 154,
+            "n": 172,
             "z": 0,
-            "text": "1xBet is the softest bookmaker in NBA.",
-            "detail": "beats fair by 2%+ on 1% of its prices vs 0% across all bookmakers"
+            "text": "888sport is the softest bookmaker in NBA.",
+            "detail": "beats fair by 2%+ on 1% of its prices vs 1% across all bookmakers"
           }
         ],
         "rules": 0,
@@ -1168,27 +1168,18 @@
         ]
       },
       "diary": {
-        "t": "2026-11-10T08:00:56Z",
-        "mood": "Blood in the water. Getting in before the market moves.",
-        "looked": 78,
-        "placed": 1,
-        "wild_choice": "Saw Sacramento State Hornets at 8.70. Tempting, but I passed. Not feeling it today.",
+        "t": "2026-11-10T16:00:59Z",
+        "mood": "The market's sharp this week. Circling, not biting.",
+        "looked": 79,
+        "placed": 0,
+        "wild_choice": "Saw Southern Mississippi Golden Eagles at 7.37. Tempting, but I passed. Not feeling it today.",
         "passed": [
           {
-            "game": "SMU Mustangs vs Wake Forest Demon Deacons",
-            "league": "College football (US)",
-            "pick": "Under 61",
-            "odds": 1.98,
-            "book": "BetOnline.ag",
-            "edge": 0.0158,
-            "reason": "Only +1.58% edge. I need +2.0% before I move."
-          },
-          {
-            "game": "UTEP Miners vs Wyoming Cowboys",
-            "league": "College football (US)",
-            "pick": "Wyoming Cowboys -7.5",
-            "odds": 1.95,
-            "book": "BetOnline.ag",
+            "game": "Arizona Cardinals vs Los Angeles Rams",
+            "league": "NFL",
+            "pick": "Under 39.5",
+            "odds": 2.0,
+            "book": "888sport",
             "edge": 0.013,
             "reason": "Only +1.30% edge. I need +2.0% before I move."
           },
@@ -1202,13 +1193,22 @@
             "reason": "Only +1.02% edge. I need +2.0% before I move."
           },
           {
-            "game": "New Orleans Saints vs Carolina Panthers",
-            "league": "NFL",
-            "pick": "Over 47.5",
-            "odds": 1.93,
+            "game": "Iowa State Cyclones vs Cincinnati Bearcats",
+            "league": "College football (US)",
+            "pick": "Iowa State Cyclones -3",
+            "odds": 1.96,
             "book": "Unibet (NL)",
-            "edge": 0.01,
-            "reason": "Only +1.00% edge. I need +2.0% before I move."
+            "edge": 0.008,
+            "reason": "Only +0.80% edge. I need +2.0% before I move."
+          },
+          {
+            "game": "New York Giants vs Washington Commanders",
+            "league": "NFL",
+            "pick": "Washington Commanders +2.5",
+            "odds": 2.0,
+            "book": "888sport",
+            "edge": 0.0052,
+            "reason": "Only +0.52% edge. I need +2.0% before I move."
           }
         ]
       },
@@ -1282,21 +1282,21 @@
         "facts": [
           {
             "conf": "solid",
-            "n": 470,
+            "n": 670,
             "z": 0,
             "text": "Unibet (SE) is the softest bookmaker in College football (US).",
             "detail": "beats fair by 2%+ on 1% of its prices vs 0% across all bookmakers"
           },
           {
             "conf": "solid",
-            "n": 198,
+            "n": 250,
             "z": 0,
             "text": "888sport is the softest bookmaker in NFL.",
             "detail": "beats fair by 2%+ on 2% of its prices vs 0% across all bookmakers"
           }
         ],
         "rules": 0,
-        "studied": 148,
+        "studied": 149,
         "resolved": 70
       }
     }
