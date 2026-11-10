@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-10T07:45:30Z",
+  "updated": "2026-11-10T08:00:56Z",
   "start_fund": 200,
   "order": [
     "lizard",
@@ -12,7 +12,7 @@
       "shark",
       "quant"
     ],
-    "grower": "quant",
+    "grower": "lizard",
     "talk": [
       {
         "who": "lizard",
@@ -29,8 +29,8 @@
     ],
     "chars": {
       "lizard": {
-        "iq": 97,
-        "iq_gain": 0,
+        "iq": 100,
+        "iq_gain": 3,
         "streak": 6,
         "best_streak": 7,
         "achievements": [
@@ -95,7 +95,7 @@
             "emoji": "🧠",
             "title": "IQ 100",
             "desc": "Reached Sport IQ 100.",
-            "at": null
+            "at": "2026-11-10T08:00:56Z"
           },
           {
             "key": "iq120",
@@ -138,7 +138,7 @@
             "pending": true
           }
         ],
-        "score": 117,
+        "score": 125,
         "trophies": [
           {
             "kind": "sharpshooter",
@@ -170,8 +170,8 @@
         ]
       },
       "quant": {
-        "iq": 85,
-        "iq_gain": 1,
+        "iq": 86,
+        "iq_gain": 2,
         "streak": 0,
         "best_streak": 0,
         "achievements": [
@@ -264,7 +264,7 @@
           {
             "text": "Games studied",
             "target": 27,
-            "now": 13
+            "now": 19
           },
           {
             "text": "Bets checked against the market",
@@ -279,12 +279,12 @@
             "pending": true
           }
         ],
-        "score": 85,
+        "score": 86,
         "trophies": []
       },
       "shark": {
-        "iq": 91,
-        "iq_gain": 0,
+        "iq": 93,
+        "iq_gain": 2,
         "streak": 0,
         "best_streak": 1,
         "achievements": [
@@ -377,7 +377,7 @@
           {
             "text": "Games studied",
             "target": 75,
-            "now": 71
+            "now": 79
           },
           {
             "text": "Bets checked against the market",
@@ -392,14 +392,14 @@
             "pending": true
           }
         ],
-        "score": 106,
+        "score": 108,
         "trophies": []
       }
     },
     "week_start": "2026-11-09"
   },
-  "credits_left": 19793,
-  "last_scan": "2026-11-09@16",
+  "credits_left": 19784,
+  "last_scan": "2026-11-10@8",
   "strategies": {
     "lizard": {
       "name": "The Lizard",
@@ -639,25 +639,59 @@
         "appetite": 0.35
       },
       "reading": {
-        "week": 0,
-        "latest": []
-      },
-      "diary": {
-        "t": "2026-11-09T16:00:59Z",
-        "mood": "Nothing worth the risk today. Patience is a weapon.",
-        "looked": 2,
-        "placed": 0,
-        "passed": [
+        "week": 104,
+        "latest": [
           {
-            "game": "Sabadell FC vs Real Sociedad B",
-            "league": "La Liga 2 (Spain 2)",
-            "pick": "Real Sociedad B",
-            "odds": 5.4,
-            "book": "Betfair",
-            "edge": 0.0091,
-            "reason": "Only +0.91% edge. I need +2.5% before I move."
+            "t": "2026-11-10T04:13:48Z",
+            "title": "Injuries, noise & scalps - Wrexham's season so far",
+            "link": "https://www.bbc.co.uk/sport/football/articles/c8x232yy5494o?at_medium=RSS&at_campaign=rss",
+            "source": "feeds.bbci.co.uk",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-09T21:44:23Z",
+            "title": "NI's O'Neill ruled out of Nations League matches",
+            "link": "https://www.bbc.co.uk/sport/football/articles/cm5ynylnd71yo?at_medium=RSS&at_campaign=rss",
+            "source": "feeds.bbci.co.uk",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-09T21:33:00Z",
+            "title": "Football Daily",
+            "link": "https://www.bbc.co.uk/sounds/play/p0pm5xwv?at_medium=RSS&at_campaign=rss",
+            "source": "feeds.bbci.co.uk",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-09T20:23:06Z",
+            "title": "Napoli draw up Allegri wish list for big January spending",
+            "link": "https://football-italia.net/napoli-draw-allegri-wish-list-january-spending/",
+            "source": "football-italia.net",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-09T18:50:09Z",
+            "title": "D’Aversa chosen as new Sassuolo coach after Aquilani sacked",
+            "link": "https://football-italia.net/daversa-chosen-sassuolo-coach-aquilani-sacked/",
+            "source": "football-italia.net",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-09T18:30:38Z",
+            "title": "Inter striker Bonny ruled out of Ivory Coast squad through injury",
+            "link": "https://football-italia.net/inter-striker-bonny-out-of-ivory-coast-squad/",
+            "source": "football-italia.net",
+            "tone": -1
           }
         ]
+      },
+      "diary": {
+        "t": "2026-11-10T08:00:56Z",
+        "mood": "Nothing worth the risk today. Patience is a weapon.",
+        "looked": 0,
+        "placed": 0,
+        "wild_choice": "No long shot worth a look today.",
+        "passed": []
       },
       "level": {
         "n": 1,
@@ -694,8 +728,8 @@
         }
       },
       "mind": {
-        "iq": 97,
-        "iq_week": 17,
+        "iq": 100,
+        "iq_week": 20,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -723,7 +757,7 @@
           },
           {
             "d": "2026-11-10",
-            "iq": 97
+            "iq": 100
           }
         ],
         "facts": [
@@ -838,10 +872,11 @@
         "latest": []
       },
       "diary": {
-        "t": "2026-11-09T16:00:59Z",
+        "t": "2026-11-10T08:00:56Z",
         "mood": "The lines are tight tonight. No edge, no bet.",
-        "looked": 8,
+        "looked": 6,
         "placed": 0,
+        "wild_choice": "Saw Milwaukee Bucks at 10.00. Tempting, but I passed. Not feeling it today.",
         "passed": []
       },
       "level": {
@@ -879,8 +914,8 @@
         }
       },
       "mind": {
-        "iq": 85,
-        "iq_week": 5,
+        "iq": 86,
+        "iq_week": 6,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -908,12 +943,20 @@
           },
           {
             "d": "2026-11-10",
-            "iq": 85
+            "iq": 86
           }
         ],
-        "facts": [],
+        "facts": [
+          {
+            "conf": "solid",
+            "n": 154,
+            "z": 0,
+            "text": "1xBet is the softest bookmaker in NBA.",
+            "detail": "beats fair by 2%+ on 1% of its prices vs 0% across all bookmakers"
+          }
+        ],
         "rules": 0,
-        "studied": 37,
+        "studied": 43,
         "resolved": 30
       }
     },
@@ -947,14 +990,14 @@
       "start_fund": 200,
       "fund": 200.77,
       "lessons": [],
-      "bets": 2,
-      "open": 0,
+      "bets": 3,
+      "open": 1,
       "won": 1,
       "lost": 1,
       "staked": 5.69,
       "profit": 0.77,
       "roi": 0.1353,
-      "avg_edge": 0.0269,
+      "avg_edge": 0.0213,
       "avg_clv": 0.0246,
       "beat_close": 0.5,
       "clv_count": 2,
@@ -975,7 +1018,7 @@
       "by_league": [
         {
           "name": "NFL",
-          "bets": 2,
+          "bets": 3,
           "profit": 0.77,
           "roi": 0.1353,
           "avg_clv": 0.0246,
@@ -992,12 +1035,21 @@
           "avg_clv": 0.0246,
           "beat_close": 0.5,
           "clv_count": 2
+        },
+        {
+          "name": "Total",
+          "bets": 1,
+          "profit": 0,
+          "roi": null,
+          "avg_clv": null,
+          "beat_close": null,
+          "clv_count": 0
         }
       ],
       "by_sport": [
         {
           "name": "American football",
-          "bets": 2,
+          "bets": 3,
           "profit": 0.77,
           "roi": 0.1353,
           "avg_clv": 0.0246,
@@ -1006,7 +1058,7 @@
         }
       ],
       "gut": {
-        "bets": 0,
+        "bets": 1,
         "measured": 0,
         "avg_clv": null,
         "beat": null,
@@ -1030,19 +1082,47 @@
         "latest": []
       },
       "diary": {
-        "t": "2026-11-09T16:00:59Z",
-        "mood": "The market's sharp this week. Circling, not biting.",
-        "looked": 70,
-        "placed": 0,
+        "t": "2026-11-10T08:00:56Z",
+        "mood": "Blood in the water. Getting in before the market moves.",
+        "looked": 78,
+        "placed": 1,
+        "wild_choice": "Saw Sacramento State Hornets at 8.70. Tempting, but I passed. Not feeling it today.",
         "passed": [
           {
-            "game": "Rice Owls vs Tulane Green Wave",
+            "game": "SMU Mustangs vs Wake Forest Demon Deacons",
             "league": "College football (US)",
-            "pick": "Under 48.5",
+            "pick": "Under 61",
+            "odds": 1.98,
+            "book": "BetOnline.ag",
+            "edge": 0.0158,
+            "reason": "Only +1.58% edge. I need +2.0% before I move."
+          },
+          {
+            "game": "UTEP Miners vs Wyoming Cowboys",
+            "league": "College football (US)",
+            "pick": "Wyoming Cowboys -7.5",
             "odds": 1.95,
+            "book": "BetOnline.ag",
+            "edge": 0.013,
+            "reason": "Only +1.30% edge. I need +2.0% before I move."
+          },
+          {
+            "game": "TCU Horned Frogs vs Kansas State Wildcats",
+            "league": "College football (US)",
+            "pick": "Over 45.5",
+            "odds": 1.93,
             "book": "Unibet (NL)",
-            "edge": 0.0105,
-            "reason": "Only +1.05% edge. I need +2.0% before I move."
+            "edge": 0.0102,
+            "reason": "Only +1.02% edge. I need +2.0% before I move."
+          },
+          {
+            "game": "New Orleans Saints vs Carolina Panthers",
+            "league": "NFL",
+            "pick": "Over 47.5",
+            "odds": 1.93,
+            "book": "Unibet (NL)",
+            "edge": 0.01,
+            "reason": "Only +1.00% edge. I need +2.0% before I move."
           }
         ]
       },
@@ -1081,8 +1161,8 @@
         }
       },
       "mind": {
-        "iq": 91,
-        "iq_week": 11,
+        "iq": 93,
+        "iq_week": 13,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -1110,25 +1190,69 @@
           },
           {
             "d": "2026-11-10",
-            "iq": 91
+            "iq": 93
           }
         ],
         "facts": [
           {
             "conf": "solid",
-            "n": 164,
+            "n": 470,
             "z": 0,
-            "text": "Tipico is the softest bookmaker in NFL.",
+            "text": "Unibet (SE) is the softest bookmaker in College football (US).",
             "detail": "beats fair by 2%+ on 1% of its prices vs 0% across all bookmakers"
+          },
+          {
+            "conf": "solid",
+            "n": 198,
+            "z": 0,
+            "text": "888sport is the softest bookmaker in NFL.",
+            "detail": "beats fair by 2%+ on 2% of its prices vs 0% across all bookmakers"
           }
         ],
         "rules": 0,
-        "studied": 139,
+        "studied": 148,
         "resolved": 69
       }
     }
   },
   "bets": [
+    {
+      "id": "e5aa20e1364dd639f042af1c2281bbe2-shark-totals-gut",
+      "strategy": "shark",
+      "placed_at": "2026-11-10T08:00:56Z",
+      "gut": true,
+      "league_key": "americanfootball_nfl",
+      "league": "NFL",
+      "sport": "American football",
+      "event_id": "e5aa20e1364dd639f042af1c2281bbe2",
+      "game": "New Orleans Saints vs Carolina Panthers",
+      "home": "New Orleans Saints",
+      "away": "Carolina Panthers",
+      "start": "2026-11-15T18:00:00Z",
+      "market": "totals",
+      "market_name": "Total",
+      "name": "Over",
+      "point": 47.5,
+      "pick": "Over 47.5",
+      "book": "Unibet (NL)",
+      "book_key": "unibet_nl",
+      "odds": 1.93,
+      "eff_odds": 1.93,
+      "fair_odds": 1.911,
+      "edge": 0.01,
+      "stake": 1.0,
+      "status": "open",
+      "closing_fair_odds": null,
+      "clv": null,
+      "profit": 0.0,
+      "score": null,
+      "settled_at": null,
+      "thoughts": [
+        "Only +1.00% edge, just under my +2.0% bar. Can't prove it, but I like it.",
+        "My rules say no. I smell it before I can prove it. Biting.",
+        "A hunch gets a small stake: 1.00 (0.5% of my fund). My gut is trusted 50% right now, and every hunch is graded against the market."
+      ]
+    },
     {
       "id": "4e917e19b59093a02a0e12bcf9a5ecc4-lizard-h2h",
       "strategy": "lizard",
@@ -1903,14 +2027,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-05T09:51:42Z",
-      "text": "Placed 5 practice bets:\n- The Lizard: **Draw** (Winner) in Bristol City vs Norwich City (Championship (England 2)) at 3.65 on LeoVegas (SE), stake 0.78, edge +2.6%\n- The Lizard: **Blackburn Rovers** (Winner) in Blackburn Rovers vs West Ham United (Championship (England 2)) at 5.3 on Matchbook, stake 1.15, edge +6.0%\n- The Lizard: **Lincoln City** (Winner) in Queens Park Rangers vs Lincoln City (Championship (England 2)) at 5.2 on Matchbook, stake 0.52, edge +2.7%\n- The Lizard: **Watford** (Winner) in Watford vs Middlesbrough (Championship (England 2)) at 5.9 on Matchbook, stake 0.88, edge +5.3%\n- The Lizard: **Preston North End** (Winner) in Preston North End vs Southampton (Championship (England 2)) at 5.2 on Matchbook, stake 1.08, edge +5.5%"
-    },
-    {
-      "t": "2026-11-06T09:00:59Z",
-      "text": "Placed 4 practice bets:\n- The Lizard: **Draw** (Winner) in Vicenza vs Cremonese (Serie B (Italy 2)) at 3.4 on Coolbet, stake 1.15, edge +3.4%\n- The Lizard: **Wolverhampton Wanderers** (Winner) in Wrexham AFC vs Wolverhampton Wanderers (Championship (England 2)) at 2.35 on LeoVegas (SE), stake 1.76, edge +3.0%\n- The Lizard: **Draw** (Winner) in Sporting Gijón vs Real Valladolid CF (La Liga 2 (Spain 2)) at 3.4 on Coolbet, stake 2.03, edge +6.1%\n- The Lizard: **Draw** (Winner) in Rennes vs Lille (Ligue 1 (France)) at 3.95 on Unibet (SE), stake 0.69, edge +2.5%"
-    },
-    {
       "t": "2026-11-06T13:25:29Z",
       "text": "Skipped a scan: odds credits are running low."
     },
@@ -2021,6 +2137,14 @@
     {
       "t": "2026-11-09T08:00:57Z",
       "text": "🏅 🦈 The Shark unlocked 📚 Scholar: Studied 100 games."
+    },
+    {
+      "t": "2026-11-10T08:00:56Z",
+      "text": "Placed 1 practice bet:\n- The Shark 💭 gut: **Over 47.5** (Total) in New Orleans Saints vs Carolina Panthers (NFL) at 1.93 on Unibet (NL), stake 1.00, edge +1.0%"
+    },
+    {
+      "t": "2026-11-10T08:00:56Z",
+      "text": "🏅 🦎 The Lizard unlocked 🧠 IQ 100: Reached Sport IQ 100."
     }
   ]
 }

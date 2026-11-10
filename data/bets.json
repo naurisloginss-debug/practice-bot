@@ -769,5 +769,42 @@
       "Full Kelly says 1.2% of my fund. I play 0.4× Kelly, capped at 5%: 1.00 of my 200.95.",
       "Gap spotted. Striking while the bookmakers sleep."
     ]
+  },
+  {
+    "id": "e5aa20e1364dd639f042af1c2281bbe2-shark-totals-gut",
+    "strategy": "shark",
+    "placed_at": "2026-11-10T08:00:56Z",
+    "gut": true,
+    "league_key": "americanfootball_nfl",
+    "league": "NFL",
+    "sport": "American football",
+    "event_id": "e5aa20e1364dd639f042af1c2281bbe2",
+    "game": "New Orleans Saints vs Carolina Panthers",
+    "home": "New Orleans Saints",
+    "away": "Carolina Panthers",
+    "start": "2026-11-15T18:00:00Z",
+    "market": "totals",
+    "market_name": "Total",
+    "name": "Over",
+    "point": 47.5,
+    "pick": "Over 47.5",
+    "book": "Unibet (NL)",
+    "book_key": "unibet_nl",
+    "odds": 1.93,
+    "eff_odds": 1.93,
+    "fair_odds": 1.911,
+    "edge": 0.01,
+    "stake": 1.0,
+    "status": "open",
+    "closing_fair_odds": null,
+    "clv": null,
+    "profit": 0.0,
+    "score": null,
+    "settled_at": null,
+    "thoughts": [
+      "Only +1.00% edge, just under my +2.0% bar. Can't prove it, but I like it.",
+      "My rules say no. I smell it before I can prove it. Biting.",
+      "A hunch gets a small stake: 1.00 (0.5% of my fund). My gut is trusted 50% right now, and every hunch is graded against the market."
+    ]
   }
 ]
