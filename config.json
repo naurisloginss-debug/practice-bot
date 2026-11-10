@@ -47,7 +47,8 @@
     "basketball_nba": "NBA",
     "basketball_euroleague": "EuroLeague",
     "americanfootball_nfl": "NFL",
-    "americanfootball_ncaaf": "College football (US)"
+    "americanfootball_ncaaf": "College football (US)",
+    "basketball_ncaab": "College basketball (US)"
   },
   "strategies": {
     "lizard": {
@@ -102,25 +103,27 @@
       "sport": "Basketball",
       "inspired_by": "Bob Voulgaris",
       "story": "Turned an NBA obsession into one of betting's best-known careers by spotting how bookmakers misjudged the way games actually play out: pace, rotations, coaches' habits. Later ran analytics for the Dallas Mavericks and bought Spanish club CD Castellón.",
-      "style": "Bets NBA total points, where tempo and tired legs move the numbers more than the bookmakers think.",
+      "style": "Hunts college basketball and NBA lines where the bookmakers are lazy: totals, spreads and underdogs. Bold when the numbers line up.",
       "motto": "The scoreboard is just data.",
       "books": "all",
       "leagues": [
         "basketball_nba",
+        "basketball_ncaab",
         "basketball_euroleague"
       ],
       "markets": [
         "totals",
-        "spreads"
+        "spreads",
+        "h2h"
       ],
       "kelly_fraction": 0.5,
       "max_stake_pct": 5,
-      "min_edge": 0.02,
+      "min_edge": 0.015,
       "min_odds": 1.6,
-      "max_odds": 2.6,
+      "max_odds": 3.5,
       "max_bets_per_day": 10,
       "max_stake_per_day": 40,
-      "days_ahead": 1,
+      "days_ahead": 2,
       "voice": {
         "strike": "The numbers don't lie. Betting it.",
         "wait": "The lines are tight tonight. No edge, no bet.",
@@ -131,11 +134,9 @@
         "gut": "The model says no. The 2% of me that isn't a model says try it.",
         "wild": "Statistically silly. Doing it anyway, for science."
       },
-      "gut_trust": 0.2,
-      "wild_appetite": 0.2,
-      "wild_markets": [
-        "h2h"
-      ]
+      "gut_trust": 0.4,
+      "wild_appetite": 0.35,
+      "wild_markets": []
     },
     "shark": {
       "name": "The Shark",
