@@ -261,7 +261,7 @@
       },
       {
         "d": "2026-11-10",
-        "iq": 86
+        "iq": 89
       }
     ],
     "shark": [
@@ -291,7 +291,7 @@
       },
       {
         "d": "2026-11-10",
-        "iq": 93
+        "iq": 96
       }
     ]
   },
@@ -1170,5 +1170,20 @@
       ]
     }
   },
-  "skip_note": "2026-11-06@8"
+  "skip_note": "2026-11-06@8",
+  "news_at": "2026-11-10T08:42:16Z",
+  "feed_status": {
+    "https://www.espn.com/espn/rss/nba/news": "error 2026-11-10T08:42:16Z: no element found: line 1, column 0",
+    "https://www.cbssports.com/rss/headlines/nba/": "ok 2026-11-10T08:42:16Z",
+    "https://sports.yahoo.com/nba/rss.xml": "ok 2026-11-10T08:42:16Z",
+    "https://www.espn.com/espn/rss/nfl/news": "error 2026-11-10T08:42:16Z: no element found: line 1, column 0",
+    "https://www.espn.com/espn/rss/ncf/news": "error 2026-11-10T08:42:16Z: no element found: line 1, column 0",
+    "https://www.cbssports.com/rss/headlines/nfl/": "ok 2026-11-10T08:42:16Z",
+    "https://sports.yahoo.com/nfl/rss.xml": "ok 2026-11-10T08:42:16Z",
+    "https://sports.yahoo.com/college-football/rss.xml": "ok 2026-11-10T08:42:16Z",
+    "https://feeds.bbci.co.uk/sport/football/rss.xml": "ok 2026-11-10T08:42:16Z",
+    "https://feeds.bbci.co.uk/sport/football/championship/rss.xml": "ok 2026-11-10T08:42:16Z",
+    "https://feeds.bbci.co.uk/sport/football/european/rss.xml": "ok 2026-11-10T08:42:16Z",
+    "https://football-italia.net/feed/": "ok 2026-11-10T08:42:16Z"
+  }
 }

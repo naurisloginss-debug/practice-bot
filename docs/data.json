@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-10T08:30:47Z",
+  "updated": "2026-11-10T08:42:16Z",
   "start_fund": 200,
   "order": [
     "lizard",
@@ -12,7 +12,7 @@
       "shark",
       "quant"
     ],
-    "grower": "lizard",
+    "grower": "quant",
     "talk": [
       {
         "who": "lizard",
@@ -170,8 +170,8 @@
         ]
       },
       "quant": {
-        "iq": 86,
-        "iq_gain": 2,
+        "iq": 89,
+        "iq_gain": 5,
         "streak": 0,
         "best_streak": 0,
         "achievements": [
@@ -279,12 +279,12 @@
             "pending": true
           }
         ],
-        "score": 86,
+        "score": 89,
         "trophies": []
       },
       "shark": {
-        "iq": 93,
-        "iq_gain": 2,
+        "iq": 96,
+        "iq_gain": 5,
         "streak": 0,
         "best_streak": 1,
         "achievements": [
@@ -392,7 +392,7 @@
             "pending": true
           }
         ],
-        "score": 108,
+        "score": 111,
         "trophies": []
       }
     },
@@ -639,7 +639,7 @@
         "appetite": 0.35
       },
       "reading": {
-        "week": 104,
+        "week": 106,
         "latest": [
           {
             "t": "2026-11-10T04:13:48Z",
@@ -868,8 +868,51 @@
         "appetite": 0.2
       },
       "reading": {
-        "week": 0,
-        "latest": []
+        "week": 86,
+        "latest": [
+          {
+            "t": "2026-11-10T05:53:39Z",
+            "title": "Jazz vs Heat Preview: The rise of Darryn Peterson is here",
+            "link": "https://sports.yahoo.com/articles/jazz-vs-heat-preview-rise-055339295.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-10T05:33:36Z",
+            "title": "Warriors backcourt depth takes hit losing Brandon Williams, Will Richard",
+            "link": "https://sports.yahoo.com/articles/warriors-backcourt-depth-takes-hit-053336643.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-10T04:50:08Z",
+            "title": "Brandon Williams leaves Warriors game with hamstring injury",
+            "link": "https://sports.yahoo.com/articles/brandon-williams-leaves-warriors-game-045008661.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-10T02:48:42Z",
+            "title": "Lakers get a major boost from an unexpected source in sixth straight victory",
+            "link": "https://sports.yahoo.com/articles/lakers-major-boost-unexpected-source-024842298.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-10T02:21:10Z",
+            "title": "Warriors vs. Pelicans injury report: No Zion Williamson or Trey Murphy III",
+            "link": "https://sports.yahoo.com/articles/warriors-vs-pelicans-injury-report-022110340.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-10T02:02:43Z",
+            "title": "Warriors guard Will Richard sidelined by torn ligament in left thumb",
+            "link": "https://sports.yahoo.com/articles/warriors-guard-richard-sidelined-torn-020243788.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          }
+        ]
       },
       "diary": {
         "t": "2026-11-10T08:00:56Z",
@@ -914,8 +957,8 @@
         }
       },
       "mind": {
-        "iq": 86,
-        "iq_week": 6,
+        "iq": 89,
+        "iq_week": 9,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -943,7 +986,7 @@
           },
           {
             "d": "2026-11-10",
-            "iq": 86
+            "iq": 89
           }
         ],
         "facts": [
@@ -1078,8 +1121,51 @@
         "appetite": 0.5
       },
       "reading": {
-        "week": 0,
-        "latest": []
+        "week": 135,
+        "latest": [
+          {
+            "t": "2026-11-10T05:59:14Z",
+            "title": "Illinois vs UCLA Prediction: The Illini Are Wrecking the Big Ten",
+            "link": "https://sports.yahoo.com/articles/illinois-vs-ucla-prediction-illini-055914741.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-10T05:05:28Z",
+            "title": "Oregon HC Dan Lanning makes tough Teitum Tuioti injury update before Michigan clash",
+            "link": "https://sports.yahoo.com/articles/oregon-hc-dan-lanning-makes-050528763.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-10T04:12:43Z",
+            "title": "The big-play potential returns for Browns offense with Shedeur Sanders",
+            "link": "https://sports.yahoo.com/articles/big-play-potential-returns-browns-041243888.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-10T03:49:10Z",
+            "title": "Rhamondre Stevenson set to miss time with knee injury",
+            "link": "https://sports.yahoo.com/articles/rhamondre-stevenson-set-miss-time-034910022.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-10T03:46:25Z",
+            "title": "Oregon Loses Another Star for Remainder of Season to Injury",
+            "link": "https://sports.yahoo.com/articles/oregon-loses-another-star-remainder-034625275.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-10T03:21:18Z",
+            "title": "Patriots RB Rhamondre Stevenson reportedly expected to miss a &#39;few weeks&#39; with tendon injury in knee",
+            "link": "https://sports.yahoo.com/nfl/breaking-news/article/patriots-rb-rhamondre-stevenson-reportedly-expected-to-miss-a-few-weeks-with-tendon-injury-in-knee-032118587.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          }
+        ]
       },
       "diary": {
         "t": "2026-11-10T08:00:56Z",
@@ -1161,8 +1247,8 @@
         }
       },
       "mind": {
-        "iq": 93,
-        "iq_week": 13,
+        "iq": 96,
+        "iq_week": 16,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -1190,7 +1276,7 @@
           },
           {
             "d": "2026-11-10",
-            "iq": 93
+            "iq": 96
           }
         ],
         "facts": [
