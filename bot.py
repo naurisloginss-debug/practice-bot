@@ -646,9 +646,15 @@ GENERIC = {"united", "city", "real", "club", "sporting", "athletic", "atletico",
            "albion", "the", "fc", "cf", "ac", "as", "sc", "de", "la", "north", "south", "west", "east", "new", "state", "saint", "st"}
 
 
-def fetch_news(state, now, notes):
-    """Read each sport's feeds once per scan slot. Keeps 7 days of headlines."""
+def fetch_news(state, now, notes, force=False):
+    """Read each sport's feeds (at most every few hours). Keeps 7 days of headlines.
+    Records each feed's status so a broken feed is easy to spot."""
     news = load(NEWS_FILE, [])
+    last = state.get("news_at")
+    if not force and last and now - parse(last) < timedelta(hours=CONFIG.get("news_every_hours", 3)):
+        return news
+    state["news_at"] = iso(now)
+    status = state.setdefault("feed_status", {})
     seen = {n["link"] for n in news}
     sports = {sport_of(k) for c in CONFIG["strategies"].values() for k in c["leagues"]}
     added = 0
@@ -658,7 +664,9 @@ def fetch_news(state, now, notes):
                 req = urllib.request.Request(url, headers={"User-Agent": "practice-bot (RSS reader)"})
                 with urllib.request.urlopen(req, timeout=20) as res:
                     root = ET.fromstring(res.read())
-            except Exception:
+                status[url] = f"ok {iso(now)}"
+            except Exception as e:
+                status[url] = f"error {iso(now)}: {str(e)[:80]}"
                 continue
             for item in root.iter("item"):
                 title = (item.findtext("title") or "").strip()
@@ -967,7 +975,7 @@ def scan(api, bets, state, now, notes):
     limited, stopped = {}, {}
     gut_pool = {s: [] for s in CONFIG["strategies"]}
     wild_pool = {s: [] for s in CONFIG["strategies"]}
-    news = fetch_news(state, now, notes)
+    news = load(NEWS_FILE, [])
     for league_key in competitions(api, state):
         league = league_name(league_key)
         chars = [s for s, c in CONFIG["strategies"].items() if league_key in c["leagues"]]
@@ -1311,6 +1319,10 @@ def main():
         b["strategy"] = CONFIG.get("renamed", {}).get(b["strategy"], b["strategy"])
     bets[:] = [b for b in bets if b["strategy"] in CONFIG["strategies"]]
     notes = []
+    try:
+        fetch_news(state, now, notes)
+    except Exception as e:
+        print("News reading failed:", e)
     try:
         api.get("/sports")  # free call: refreshes the real credit balance (e.g. after a plan upgrade or new key)
     except Exception:
