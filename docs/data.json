@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-10T17:45:32Z",
+  "updated": "2026-11-10T18:01:00Z",
   "start_fund": 200,
   "order": [
     "lizard",
@@ -283,8 +283,8 @@
         "trophies": []
       },
       "shark": {
-        "iq": 98,
-        "iq_gain": 7,
+        "iq": 99,
+        "iq_gain": 8,
         "streak": 0,
         "best_streak": 1,
         "achievements": [
@@ -392,7 +392,7 @@
             "pending": true
           }
         ],
-        "score": 113,
+        "score": 114,
         "trophies": []
       }
     },
@@ -639,8 +639,36 @@
         "appetite": 0.35
       },
       "reading": {
-        "week": 139,
+        "week": 116,
         "latest": [
+          {
+            "t": "2026-11-10T17:39:43Z",
+            "title": "Stankovic leaves Serbia camp and returns to Inter with adductor injury",
+            "link": "https://football-italia.net/stankovic-leaves-serbia-camp-returns-to-inter/",
+            "source": "football-italia.net",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-10T16:17:10Z",
+            "title": "Pochettino, Howe, Emery... or Carrick? Man Utd's managerial options",
+            "link": "https://www.bbc.co.uk/sport/football/articles/c5rmymrvm004o?at_medium=RSS&at_campaign=rss",
+            "source": "feeds.bbci.co.uk",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-10T15:43:31Z",
+            "title": "Thuram drops out of France squad with hamstring injury and returns to Inter",
+            "link": "https://football-italia.net/thuram-drops-out-of-france-squad-returns-inter/",
+            "source": "football-italia.net",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-10T14:57:33Z",
+            "title": "Cisse: ‘I like pressure, Balotelli my Italy role model’",
+            "link": "https://football-italia.net/cisse-i-like-pressure-balotelli-role-model/",
+            "source": "football-italia.net",
+            "tone": -1
+          },
           {
             "t": "2026-11-10T11:47:59Z",
             "title": "Wales call up MK Dons' Collins as Moore withdraws",
@@ -653,34 +681,6 @@
             "title": "Yildiz targets December return as Juventus plan comeback date",
             "link": "https://football-italia.net/yildiz-targets-december-return-as-juventus/",
             "source": "football-italia.net",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-10T10:00:00Z",
-            "title": "Lazio and Roma make Serie A history as unbeaten Rome duo chase Inter",
-            "link": "https://football-italia.net/lazio-and-roma-make-serie-a-history-inter/",
-            "source": "football-italia.net",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-10T04:13:48Z",
-            "title": "Injuries, noise & scalps - Wrexham's season so far",
-            "link": "https://www.bbc.co.uk/sport/football/articles/c8x232yy5494o?at_medium=RSS&at_campaign=rss",
-            "source": "feeds.bbci.co.uk",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-09T21:44:23Z",
-            "title": "NI's O'Neill ruled out of Nations League matches",
-            "link": "https://www.bbc.co.uk/sport/football/articles/cm5ynylnd71yo?at_medium=RSS&at_campaign=rss",
-            "source": "feeds.bbci.co.uk",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-09T21:33:00Z",
-            "title": "Football Daily",
-            "link": "https://www.bbc.co.uk/sounds/play/p0pm5xwv?at_medium=RSS&at_campaign=rss",
-            "source": "feeds.bbci.co.uk",
             "tone": -1
           }
         ]
@@ -868,8 +868,22 @@
         "appetite": 0.2
       },
       "reading": {
-        "week": 100,
+        "week": 113,
         "latest": [
+          {
+            "t": "2026-11-10T14:48:41Z",
+            "title": "Frustrated Jordan Poole open to Bay Area return after 51-point loss to Warriors",
+            "link": "https://sports.yahoo.com/articles/frustrated-jordan-poole-open-bay-144841458.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-10T12:38:06Z",
+            "title": "Back in Philadelphia with Celtics, Paul George looks forward to ‘a regular game&#39;",
+            "link": "https://sports.yahoo.com/articles/back-philadelphia-celtics-paul-george-111819903.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
           {
             "t": "2026-11-10T12:00:00Z",
             "title": "Sixers return home for tough test against Celtics",
@@ -895,20 +909,6 @@
             "t": "2026-11-10T04:50:08Z",
             "title": "Brandon Williams leaves Warriors game with hamstring injury",
             "link": "https://sports.yahoo.com/articles/brandon-williams-leaves-warriors-game-045008661.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-10T02:48:42Z",
-            "title": "Lakers get a major boost from an unexpected source in sixth straight victory",
-            "link": "https://sports.yahoo.com/articles/lakers-major-boost-unexpected-source-024842298.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-10T02:21:10Z",
-            "title": "Warriors vs. Pelicans injury report: No Zion Williamson or Trey Murphy III",
-            "link": "https://sports.yahoo.com/articles/warriors-vs-pelicans-injury-report-022110340.html",
             "source": "sports.yahoo.com",
             "tone": -1
           }
@@ -1121,47 +1121,47 @@
         "appetite": 0.5
       },
       "reading": {
-        "week": 269,
+        "week": 371,
         "latest": [
           {
-            "t": "2026-11-10T14:10:06Z",
-            "title": "Random Thoughts Week 10: Separation Saturday",
-            "link": "https://sports.yahoo.com/articles/random-thoughts-week-10-separation-141006531.html",
+            "t": "2026-11-10T17:56:44Z",
+            "title": "Jonathan Taylor mock trades: How Giants, Broncos, Seahawks could target Colts star RB",
+            "link": "https://www.cbssports.com/nfl/news/nfl-trade-deadline-jonathan-taylor-mock-trades/",
+            "source": "www.cbssports.com",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-10T17:46:20Z",
+            "title": "Ryan Day announces decision on Ohio State quarterback after blowout loss",
+            "link": "https://sports.yahoo.com/articles/ryan-day-announces-decision-ohio-174620197.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-10T13:55:11Z",
-            "title": "Dan Lanning Admits He Knows Exactly How Ryan Day Feels Right Now",
-            "link": "https://sports.yahoo.com/articles/dan-lanning-admits-knows-exactly-135511140.html",
+            "t": "2026-11-10T17:16:26Z",
+            "title": "Rutgers football coach Greg Schiano isn’t getting fired despite absolutely disastrous season",
+            "link": "https://sports.yahoo.com/articles/rutgers-football-coach-greg-schiano-171626955.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-10T17:13:35Z",
+            "title": "23 players suspended in post-HBCU football brawl",
+            "link": "https://sports.yahoo.com/articles/23-players-suspended-post-hbcu-171335727.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-10T13:53:45Z",
-            "title": "Rams&#39; dream season has been a survival test. Now Puka Nacua is out | Opinion",
-            "link": "https://sports.yahoo.com/articles/rams-dream-season-survival-test-135345136.html",
+            "t": "2026-11-10T17:02:09Z",
+            "title": "Greg Schiano To Return As Rutgers Football Head Coach In 2027",
+            "link": "https://sports.yahoo.com/articles/greg-schiano-return-rutgers-football-170209734.html",
             "source": "sports.yahoo.com",
-            "tone": -1
+            "tone": 1
           },
           {
-            "t": "2026-11-10T13:35:40Z",
-            "title": "Report: DT Jordan Elliott to work out for Bears",
-            "link": "https://sports.yahoo.com/articles/report-dt-jordan-elliott-bears-133540416.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-10T13:27:56Z",
-            "title": "Don’t Bench LaNorris Sellers If He Is Healthy For Arkansas",
-            "link": "https://sports.yahoo.com/articles/don-t-bench-lanorris-sellers-132756444.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-10T13:27:21Z",
-            "title": "What Teitum Tuioti&#39;s injury means for Oregon Ducks defensive line",
-            "link": "https://sports.yahoo.com/articles/teitum-tuiotis-injury-means-oregon-132721742.html",
+            "t": "2026-11-10T16:52:15Z",
+            "title": "Best fantasy football waiver wire pickups: 12 players to add for NFL Week 10",
+            "link": "https://sports.yahoo.com/articles/best-fantasy-football-waiver-wire-165215419.html",
             "source": "sports.yahoo.com",
             "tone": -1
           }
@@ -1247,8 +1247,8 @@
         }
       },
       "mind": {
-        "iq": 98,
-        "iq_week": 18,
+        "iq": 99,
+        "iq_week": 19,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -1276,7 +1276,7 @@
           },
           {
             "d": "2026-11-10",
-            "iq": 98
+            "iq": 99
           }
         ],
         "facts": [
