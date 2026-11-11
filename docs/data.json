@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11T15:50:37Z",
+  "updated": "2026-11-11T16:01:00Z",
   "start_fund": 200,
   "order": [
     "lizard",
@@ -398,8 +398,8 @@
     },
     "week_start": "2026-11-09"
   },
-  "credits_left": 19682,
-  "last_scan": "2026-11-11@8",
+  "credits_left": 19652,
+  "last_scan": "2026-11-11@16",
   "strategies": {
     "lizard": {
       "name": "The Lizard",
@@ -445,14 +445,14 @@
       "start_fund": 200,
       "fund": 197.17,
       "lessons": [],
-      "bets": 22,
-      "open": 3,
+      "bets": 23,
+      "open": 4,
       "won": 4,
       "lost": 15,
       "staked": 21.57,
       "profit": -2.83,
       "roi": -0.1312,
-      "avg_edge": 0.0334,
+      "avg_edge": 0.0323,
       "avg_clv": -0.0016,
       "beat_close": 0.7368,
       "clv_count": 19,
@@ -595,7 +595,7 @@
         },
         {
           "name": "League Two (England 4)",
-          "bets": 2,
+          "bets": 3,
           "profit": 0,
           "roi": null,
           "avg_clv": null,
@@ -615,7 +615,7 @@
         },
         {
           "name": "Winner",
-          "bets": 20,
+          "bets": 21,
           "profit": -0.72,
           "roi": -0.037,
           "avg_clv": -0.0028,
@@ -626,7 +626,7 @@
       "by_sport": [
         {
           "name": "Football",
-          "bets": 22,
+          "bets": 23,
           "profit": -2.83,
           "roi": -0.1312,
           "avg_clv": -0.0016,
@@ -702,40 +702,13 @@
         ]
       },
       "diary": {
-        "t": "2026-11-11T15:50:37Z",
+        "t": "2026-11-11T16:01:00Z",
         "mood": "Gap spotted. Striking while the bookmakers sleep.",
         "looked": 17,
-        "placed": 3,
-        "wild_choice": "Saw Northampton Town at 5.70. Tempting, but I passed. Feeling sharp after beating the market 6 times in a row.",
+        "placed": 1,
+        "wild_choice": "No long shot worth a look today.",
         "scouts": 1,
         "passed": [
-          {
-            "game": "Salford City vs Northampton Town",
-            "league": "League Two (England 4)",
-            "pick": "Northampton Town",
-            "odds": 5.7,
-            "book": "Betfair",
-            "edge": 0.0183,
-            "reason": "Only +1.83% edge. I need +2.0% before I move."
-          },
-          {
-            "game": "Crewe Alexandra vs Newport County",
-            "league": "League Two (England 4)",
-            "pick": "Under 2.5",
-            "odds": 1.92,
-            "book": "Unibet (NL)",
-            "edge": 0.0156,
-            "reason": "Only +1.56% edge. I need +2.0% before I move."
-          },
-          {
-            "game": "Real Sociedad B vs Sporting Gijón",
-            "league": "La Liga 2 (Spain 2)",
-            "pick": "Draw",
-            "odds": 3.25,
-            "book": "Unibet (SE)",
-            "edge": 0.0146,
-            "reason": "Only +1.46% edge. I need +2.0% before I move."
-          },
           {
             "game": "Rochdale vs York City",
             "league": "League Two (England 4)",
@@ -744,6 +717,15 @@
             "book": "Betsson",
             "edge": 0.0077,
             "reason": "Only +0.77% edge. I need +2.0% before I move."
+          },
+          {
+            "game": "Milton Keynes Dons vs Burton Albion",
+            "league": "League One (England 3)",
+            "pick": "Milton Keynes Dons",
+            "odds": 1.55,
+            "book": "Tipico",
+            "edge": -0.1264,
+            "reason": "Odds 1.55 are outside my game (1.6–6.0)."
           }
         ]
       },
@@ -791,7 +773,7 @@
         "adopted": [],
         "tried": [],
         "curiosity": 0.5,
-        "scouts": 1,
+        "scouts": 2,
         "scout_clv": null,
         "scout_measured": 0
       },
@@ -849,17 +831,17 @@
           },
           {
             "conf": "solid",
+            "n": 200,
+            "z": 0,
+            "text": "1xBet is the softest bookmaker in La Liga 2 (Spain 2).",
+            "detail": "beats fair by 2%+ on 4% of its prices vs 0% across all bookmakers"
+          },
+          {
+            "conf": "solid",
             "n": 189,
             "z": 0,
             "text": "1xBet is the softest bookmaker in Ligue 1 (France).",
             "detail": "beats fair by 2%+ on 13% of its prices vs 4% across all bookmakers"
-          },
-          {
-            "conf": "solid",
-            "n": 187,
-            "z": 0,
-            "text": "1xBet is the softest bookmaker in La Liga 2 (Spain 2).",
-            "detail": "beats fair by 2%+ on 4% of its prices vs 0% across all bookmakers"
           },
           {
             "conf": "watching",
@@ -1065,50 +1047,13 @@
         ]
       },
       "diary": {
-        "t": "2026-11-11T15:50:37Z",
-        "mood": "The numbers don't lie. Betting it.",
-        "looked": 66,
-        "placed": 10,
+        "t": "2026-11-11T16:01:00Z",
+        "mood": "Daily limit reached. The data will still be here tomorrow.",
+        "looked": 0,
+        "placed": 0,
         "wild_choice": null,
-        "scouts": 3,
-        "passed": [
-          {
-            "game": "Colorado St Rams vs Portland St Vikings",
-            "league": "College basketball (US)",
-            "pick": "Portland St Vikings",
-            "odds": 12.6,
-            "book": "GTbets",
-            "edge": 0.0475,
-            "reason": "Odds 12.60 are outside my game (1.6–3.5)."
-          },
-          {
-            "game": "UNC Wilmington Seahawks vs Kent State Golden Flashes",
-            "league": "College basketball (US)",
-            "pick": "Kent State Golden Flashes",
-            "odds": 4.1,
-            "book": "LeoVegas (SE)",
-            "edge": 0.0391,
-            "reason": "Odds 4.10 are outside my game (1.6–3.5)."
-          },
-          {
-            "game": "St. Bonaventure Bonnies vs Cornell Big Red",
-            "league": "College basketball (US)",
-            "pick": "Cornell Big Red",
-            "odds": 4.27,
-            "book": "BetOnline.ag",
-            "edge": 0.0232,
-            "reason": "Odds 4.27 are outside my game (1.6–3.5)."
-          },
-          {
-            "game": "Florida A&M Rattlers vs UMKC Kangaroos",
-            "league": "College basketball (US)",
-            "pick": "Florida A&M Rattlers",
-            "odds": 3.75,
-            "book": "GTbets",
-            "edge": 0.0185,
-            "reason": "Odds 3.75 are outside my game (1.6–3.5)."
-          }
-        ]
+        "scouts": 0,
+        "passed": []
       },
       "level": {
         "n": 1,
@@ -1198,17 +1143,17 @@
         "facts": [
           {
             "conf": "solid",
-            "n": 294,
+            "n": 414,
             "z": 0,
             "text": "BetOnline.ag is the softest bookmaker in College basketball (US).",
             "detail": "beats fair by 2%+ on 2% of its prices vs 1% across all bookmakers"
           },
           {
             "conf": "solid",
-            "n": 208,
+            "n": 246,
             "z": 0,
             "text": "Matchbook is the softest bookmaker in NBA.",
-            "detail": "beats fair by 2%+ on 3% of its prices vs 1% across all bookmakers"
+            "detail": "beats fair by 2%+ on 4% of its prices vs 1% across all bookmakers"
           }
         ],
         "rules": 0,
@@ -1401,12 +1346,12 @@
         ]
       },
       "diary": {
-        "t": "2026-11-11T15:50:37Z",
-        "mood": "Blood in the water. Getting in before the market moves.",
+        "t": "2026-11-11T16:01:00Z",
+        "mood": "The market's sharp this week. Circling, not biting.",
         "looked": 79,
-        "placed": 7,
-        "wild_choice": "Took a shot: Middle Tennessee Blue Raiders at 11.50, Tennessee Titans at 5.80.",
-        "scouts": 2,
+        "placed": 0,
+        "wild_choice": null,
+        "scouts": 0,
         "passed": [
           {
             "game": "Central Michigan Chippewas vs Sacramento State Hornets",
@@ -1414,7 +1359,7 @@
             "pick": "Sacramento State Hornets",
             "odds": 8.5,
             "book": "BetAnything",
-            "edge": 0.0857,
+            "edge": 0.0845,
             "reason": "Odds 8.50 are outside my game (1.6–4.0)."
           },
           {
@@ -1427,15 +1372,6 @@
             "reason": "Odds 7.00 are outside my game (1.6–4.0)."
           },
           {
-            "game": "Tennessee Titans vs Jacksonville Jaguars",
-            "league": "NFL",
-            "pick": "Tennessee Titans",
-            "odds": 5.8,
-            "book": "Unibet (NL)",
-            "edge": 0.0611,
-            "reason": "Odds 5.80 are outside my game (1.6–4.0)."
-          },
-          {
             "game": "TCU Horned Frogs vs Kansas State Wildcats",
             "league": "College football (US)",
             "pick": "Kansas State Wildcats",
@@ -1443,6 +1379,15 @@
             "book": "MyBookie.ag",
             "edge": 0.0598,
             "reason": "Odds 4.50 are outside my game (1.6–4.0)."
+          },
+          {
+            "game": "Ohio State Buckeyes vs Northwestern Wildcats",
+            "league": "College football (US)",
+            "pick": "Northwestern Wildcats",
+            "odds": 5.2,
+            "book": "MyBookie.ag",
+            "edge": 0.0522,
+            "reason": "Odds 5.20 are outside my game (1.6–4.0)."
           }
         ]
       },
@@ -1534,17 +1479,17 @@
         "facts": [
           {
             "conf": "solid",
-            "n": 418,
+            "n": 392,
             "z": 0,
-            "text": "888sport is the softest bookmaker in NFL.",
-            "detail": "beats fair by 2%+ on 2% of its prices vs 1% across all bookmakers"
+            "text": "Betfair is the softest bookmaker in College football (US).",
+            "detail": "beats fair by 2%+ on 3% of its prices vs 1% across all bookmakers"
           },
           {
             "conf": "solid",
-            "n": 294,
+            "n": 154,
             "z": 0,
-            "text": "Betfair is the softest bookmaker in College football (US).",
-            "detail": "beats fair by 2%+ on 3% of its prices vs 0% across all bookmakers"
+            "text": "William Hill is the softest bookmaker in NFL.",
+            "detail": "beats fair by 2%+ on 3% of its prices vs 1% across all bookmakers"
           }
         ],
         "rules": 0,
@@ -2047,6 +1992,43 @@
         "Only +1.83% edge, just under my +2.0% bar. Can't prove it, but I like it.",
         "My rules say no. But something in the grass is moving. I'm taking a nibble.",
         "A hunch gets a small stake: 0.99 (0.5% of my fund). My gut is trusted 45% right now, and every hunch is graded against the market."
+      ]
+    },
+    {
+      "id": "c85f68dde3ac31fe8f0da78b1ddca180-lizard-h2h-scout",
+      "strategy": "lizard",
+      "placed_at": "2026-11-11T16:01:00Z",
+      "scout": true,
+      "league_key": "soccer_england_league2",
+      "league": "League Two (England 4)",
+      "sport": "Football",
+      "event_id": "c85f68dde3ac31fe8f0da78b1ddca180",
+      "game": "Rochdale vs York City",
+      "home": "Rochdale",
+      "away": "York City",
+      "start": "2026-11-14T15:00:00Z",
+      "market": "h2h",
+      "market_name": "Winner",
+      "name": "Rochdale",
+      "point": null,
+      "pick": "Rochdale",
+      "book": "Betsson",
+      "book_key": "betsson",
+      "odds": 4.25,
+      "eff_odds": 4.25,
+      "fair_odds": 4.217,
+      "edge": 0.0077,
+      "stake": 0.99,
+      "status": "open",
+      "closing_fair_odds": null,
+      "clv": null,
+      "profit": 0.0,
+      "score": null,
+      "settled_at": null,
+      "thoughts": [
+        "🧭 Exploring. I've only made 0 bets like this (League Two (England 4) winner bets at long shots).",
+        "Rochdale at 4.25 is +0.77% above fair: below my usual bar, but the only way to learn if this kind of bet works for me is to try it.",
+        "Scout stake: 0.99 (0.5% of my fund). The result feeds my learning."
       ]
     },
     {
@@ -3357,10 +3339,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-07T15:00:56Z",
-      "text": "Results:\n- Lost -1.11: Draw (Winner) in Holstein Kiel vs Arminia Bielefeld (Holstein Kiel 1 - 2 Arminia Bielefeld)\n- Lost -2.11: Under 2.5 (Total) in Holstein Kiel vs Arminia Bielefeld (Holstein Kiel 1 - 2 Arminia Bielefeld)"
-    },
-    {
       "t": "2026-11-07T15:30:44Z",
       "text": "Results:\n- Lost -0.78: Draw (Winner) in Bristol City vs Norwich City (Bristol City 0 - 5 Norwich City)\n- Lost -1.76: Wolverhampton Wanderers (Winner) in Wrexham AFC vs Wolverhampton Wanderers (Wrexham AFC 1 - 1 Wolverhampton Wanderers)"
     },
@@ -3475,6 +3453,10 @@
     {
       "t": "2026-11-11T15:50:37Z",
       "text": "Placed 20 practice bets:\n- The Lizard: **Draw** (Winner) in Real Sociedad B vs Sporting Gijón (La Liga 2 (Spain 2)) at 3.3 on Coolbet, stake 1.04, edge +3.0%\n- The Quant: **Toronto Raptors** (Winner) in Toronto Raptors vs Boston Celtics (NBA) at 3.15 on Coolbet, stake 2.35, edge +5.0%\n- The Quant: **Utah Jazz** (Winner) in Utah Jazz vs Orlando Magic (NBA) at 2.43 on Unibet (NL), stake 1.20, edge +1.7%\n- The Quant: **Milwaukee Panthers** (Winner) in Indiana St Sycamores vs Milwaukee Panthers (College basketball (US)) at 2.63 on Unibet (NL), stake 1.21, edge +1.9%\n- The Quant: **Over 136** (Total) in Norfolk St Spartans vs Old Dominion Monarchs (College basketball (US)) at 1.98 on BetOnline.ag, stake 2.17, edge +2.1%\n- The Quant: **Long Beach St 49ers** (Winner) in Long Beach St 49ers vs Pacific Tigers (College basketball (US)) at 3.25 on LeoVegas (SE), stake 1.34, edge +3.0%\n- The Quant: **Pallacanestro Olimpia Milano** (Winner) in Pallacanestro Olimpia Milano vs Žalgiris (EuroLeague) at 2.19 on Marathon Bet, stake 4.21, edge +5.0%\n- The Shark: **Las Vegas Raiders** (Winner) in Las Vegas Raiders vs Seattle Seahawks (NFL) at 3.68 on Marathon Bet, stake 2.26, edge +6.0%\n- The Shark: **Sam Houston State Bearkats** (Winner) in Sam Houston State Bearkats vs Kennesaw State Owls (College football (US)) at 3.55 on MyBookie.ag, stake 0.90, edge +2.3%\n- The Shark: **Hawaii Rainbow Warriors** (Winner) in Hawaii Rainbow Warriors vs North Dakota State Bison (College football (US)) at 3.26 on MyBookie.ag, stake 1.26, edge +2.8%\n- The Lizard 🧭 scout: **Under 2.5** (Total) in Crewe Alexandra vs Newport County (League Two (England 4)) at 1.92 on Unibet (NL), stake 0.99, edge +1.6%\n- The Quant 🧭 scout: **KK Partizan NIS -8** (Spread) in KK Partizan NIS vs Saski Baskonia (EuroLeague) at 2.02 on BetOnline.ag, stake 1.01, edge +1.3%\n- The Quant 🧭 scout: **Under 152** (Total) in North Texas Mean Green vs Santa Clara Broncos (College basketball (US)) at 1.95 on BetOnline.ag, stake 1.01, edge +0.6%\n- The Quant 🧭 scout: **Golden State Warriors** (Winner) in Houston Rockets vs Golden State Warriors (NBA) at 3.3 on Matchbook, stake 1.01, edge +0.6%\n- The Shark 🧭 scout: **Cincinnati Bearcats** (Winner) in Iowa State Cyclones vs Cincinnati Bearcats (College football (US)) at 2.4 on BetAnything, stake 1.00, edge +1.3%\n- The Shark 🧭 scout: **Los Angeles Chargers** (Winner) in Baltimore Ravens vs Los Angeles Chargers (NFL) at 2.9 on 888sport, stake 1.00, edge +1.0%\n- The Lizard 💭 gut: **Northampton Town** (Winner) in Salford City vs Northampton Town (League Two (England 4)) at 5.7 on Betfair, stake 0.99, edge +1.8%\n- The Quant 💭 gut: **Over 158** (Total) in Temple Owls vs Charleston Cougars (College basketball (US)) at 1.97 on BetOnline.ag, stake 1.01, edge +0.8%\n- The Shark 🎲 wild: **Middle Tennessee Blue Raiders** (Winner) in Liberty Flames vs Middle Tennessee Blue Raiders (College football (US)) at 11.5 on Betfair, stake 0.50, edge +5.0%\n- The Shark 🎲 wild: **Tennessee Titans** (Winner) in Tennessee Titans vs Jacksonville Jaguars (NFL) at 5.8 on Unibet (SE), stake 0.50, edge +6.1%"
+    },
+    {
+      "t": "2026-11-11T16:01:00Z",
+      "text": "Placed 1 practice bet:\n- The Lizard 🧭 scout: **Rochdale** (Winner) in Rochdale vs York City (League Two (England 4)) at 4.25 on Betsson, stake 0.99, edge +0.8%"
     }
   ]
 }
