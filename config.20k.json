@@ -107,7 +107,9 @@
         "wild": "Patience is a weapon, but even lizards sunbathe on a crazy rock now and then."
       },
       "gut_trust": 0.45,
-      "wild_appetite": 0.45
+      "wild_appetite": 0.45,
+      "curiosity": 0.5,
+      "explore_group": "Soccer"
     },
     "quant": {
       "name": "The Quant",
@@ -148,7 +150,9 @@
       },
       "gut_trust": 0.4,
       "wild_appetite": 0.35,
-      "wild_markets": []
+      "wild_markets": [],
+      "curiosity": 0.6,
+      "explore_group": "Basketball"
     },
     "shark": {
       "name": "The Shark",
@@ -188,7 +192,9 @@
       },
       "gut_trust": 0.55,
       "wild_appetite": 0.6,
-      "wild_markets": []
+      "wild_markets": [],
+      "curiosity": 0.5,
+      "explore_group": "American Football"
     }
   },
   "commission": {
@@ -242,5 +248,13 @@
     "min_edge": -0.03,
     "per_day": 2
   },
-  "news_every_hours": 3
+  "news_every_hours": 3,
+  "explore": {
+    "min_edge": 0.005,
+    "until": 8,
+    "stake_pct": 0.5,
+    "per_day": 3,
+    "retry_days": 60,
+    "adopt_bets": 3
+  }
 }

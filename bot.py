@@ -105,12 +105,20 @@ def league_name(key):
     return LEAGUE_NAMES.get(key, key)
 
 
+EXTRA_LEAGUES = {}  # per character: competitions it adopted or is exploring this week (set from state each run)
+
+
+def leagues_of(strategy):
+    base = CONFIG["strategies"][strategy]["leagues"]
+    return base + [k for k in EXTRA_LEAGUES.get(strategy, []) if k not in base]
+
+
 def competitions(api, state):
     """The fixed list from config first, then every other active competition in the chosen sport groups.
     Listing sports costs no credits."""
     keys = []
-    for s in CONFIG["strategies"].values():
-        keys += [k for k in s["leagues"] if k not in keys]
+    for s in CONFIG["strategies"]:
+        keys += [k for k in leagues_of(s) if k not in keys]
     try:
         for x in api.get("/sports"):
             if x["group"] in CONFIG["sport_groups"] and x.get("active") and not x.get("has_outrights") and x["key"] not in keys \
@@ -353,7 +361,7 @@ def bias_stats(obs, league_key):
 def knowledge_of(obs, knowledge, bets, strategy):
     """Facts the character has discovered about its sport, the rules it now uses, and its Sport IQ."""
     K = CONFIG["knowledge"]
-    leagues = CONFIG["strategies"][strategy]["leagues"]
+    leagues = leagues_of(strategy)
     facts, rules = [], {}
     for lk in leagues:
         for role, (n, priced, actual) in bias_stats(obs, lk).items():
@@ -457,7 +465,8 @@ COLD = {"title": "Cold streak", "badge": "🥶", "stake": 0.6, "perk": "Stakes c
 
 
 def level_of(bets, strategy):
-    measured = [b["clv"] for b in bets if b["strategy"] == strategy and b.get("clv") is not None and not b.get("gut") and not b.get("wild")]
+    measured = [b["clv"] for b in bets if b["strategy"] == strategy and b.get("clv") is not None
+                and not b.get("gut") and not b.get("wild") and not b.get("scout")]
     n = len(measured)
     clv = sum(measured) / n if n else 0.0
     beat = sum(1 for c in measured if c > 0) / n if n else 0.0
@@ -509,7 +518,7 @@ def streaks(bets, strategy):
 
 
 def week_stats(obs, bets, strategy, week_start, week_end):
-    leagues = CONFIG["strategies"][strategy]["leagues"]
+    leagues = leagues_of(strategy)
     studied = sum(1 for o in obs.values() if o["league"] in leagues and week_start <= parse(o["start"]) < week_end)
     measured = [b for b in bets if b["strategy"] == strategy and b.get("clv") is not None and week_start <= parse(b["start"]) < week_end]
     beat = sum(1 for b in measured if b["clv"] > 0) / len(measured) if measured else None
@@ -632,6 +641,109 @@ def award_trophies(chars, bets, obs, state, now, week_start, notes):
     state["trophy_month"] = this_month
 
 
+# ---------- explorer mindset ----------
+# Real experts keep trying new things in small, smart amounts (explore vs. exploit).
+# 1) Scout bets: a promising price in a kind of bet the character has barely tried gets a small
+#    "scout" bet even below its usual edge bar, to find out whether that kind of bet works.
+# 2) A new competition each week: it scans one competition in its sport that it has never covered.
+#    If its bets there beat the market, it adopts the competition; if not, it moves on.
+
+def experience(bets, strategy, league_key, market, odds):
+    seg = segment(league_key, market, odds)
+    return sum(1 for b in bets if b["strategy"] == strategy and not b.get("wild") and not b.get("gut")
+               and segment(b["league_key"], b["market"], b["odds"]) == seg)
+
+
+def explore_update(sports_list, state, bets, now, notes):
+    """Weekly: judge last week's exploration (adopt or move on) and pick a new competition to explore."""
+    E = CONFIG["explore"]
+    week = (now - timedelta(days=now.weekday())).date().isoformat()
+    ex_all = state.setdefault("exploring", {})
+    adopted_all = state.setdefault("adopted", {})
+    tried_all = state.setdefault("tried", {})
+    for s, c in CONFIG["strategies"].items():
+        group = c.get("explore_group")
+        if not group:
+            continue
+        adopted = adopted_all.setdefault(s, [])
+        tried = tried_all.setdefault(s, {})
+        ex = ex_all.get(s)
+        if ex and ex["week"] != week:
+            measured = [b["clv"] for b in bets if b["strategy"] == s and b["league_key"] == ex["key"] and b.get("clv") is not None and not b.get("wild")]
+            avg = sum(measured) / len(measured) if measured else None
+            if len(measured) >= E["adopt_bets"] and avg > 0:
+                adopted.append(ex["key"])
+                notes.append(f"🗺️ {c['emoji']} {c['name']} adopted {ex['name']}: it beat the market there ({avg*100:+.1f}% over {len(measured)} bets).")
+            else:
+                tried[ex["key"]] = week
+                why = "not enough bets to judge" if len(measured) < E["adopt_bets"] else f"{avg*100:+.1f}% vs the market"
+                notes.append(f"🧭 {c['emoji']} {c['name']} moved on from {ex['name']} ({why}).")
+            ex = None
+        if not ex and sports_list:
+            known = set(leagues_of(s)) | set(adopted)
+            fresh = [x for x in sports_list if x.get("group") == group and x.get("active") and not x.get("has_outrights")
+                     and x["key"] not in known and x["key"] not in CONFIG.get("skip_competitions", [])
+                     and not (x["key"] in tried and parse(tried[x["key"]] + "T00:00:00Z") > now - timedelta(days=E["retry_days"]))]
+            if fresh:
+                pick = random.choice(fresh)
+                ex = {"key": pick["key"], "name": pick["title"], "week": week, "since": iso(now)}
+                LEAGUE_NAMES[pick["key"]] = pick["title"]
+                notes.append(f"🧭 {c['emoji']} {c['name']} is exploring {pick['title']} this week.")
+        ex_all[s] = ex
+        EXTRA_LEAGUES[s] = adopted + ([ex["key"]] if ex else [])
+        for k in EXTRA_LEAGUES[s]:
+            state.setdefault("league_names", {})[k] = league_name(k)
+
+
+def explorer_of(strategy, bets, state):
+    sc = [b for b in bets if b["strategy"] == strategy and b.get("scout")]
+    m = [b["clv"] for b in sc if b.get("clv") is not None]
+    ex = state.get("exploring", {}).get(strategy)
+    return {"exploring": ex, "adopted": [league_name(k) for k in state.get("adopted", {}).get(strategy, [])],
+            "tried": [league_name(k) for k in state.get("tried", {}).get(strategy, {})],
+            "curiosity": CONFIG["strategies"][strategy].get("curiosity", 0.5),
+            "scouts": len(sc), "scout_clv": round(sum(m) / len(m), 4) if m else None, "scout_measured": len(m)}
+
+
+def place_scout_bets(bets, scout_pool, placed, now, today):
+    E = CONFIG["explore"]
+    for strategy, pool in scout_pool.items():
+        if not pool:
+            continue
+        curiosity = CONFIG["strategies"][strategy].get("curiosity", 0.5)
+        done = sum(1 for b in bets if b["strategy"] == strategy and b.get("scout") and b["placed_at"][:10] == today)
+        fund = fund_of(bets, strategy)
+        if fund < P(strategy, "stop_below"):
+            continue
+        # Least-tried kinds of bets first: that's where there is most to learn.
+        for c in sorted(pool, key=lambda c: (c["experience"], -c["edge"])):
+            if done >= E["per_day"]:
+                break
+            if any(b["event_id"] == c["ev"]["id"] and b["strategy"] == strategy for b in bets):
+                continue
+            if random.random() >= curiosity:
+                continue
+            ev, market = c["ev"], c["market"]
+            stake = round(max(CONFIG["min_stake"], fund * E["stake_pct"] / 100), 2)
+            pick = pick_label(market, c["name"], c["point"])
+            label = f"{c['league']} {MARKET_NAMES[market].lower()} bets at {odds_band(c['odds'])}"
+            bet = {
+                "id": f"{ev['id']}-{strategy}-{market}-scout", "strategy": strategy, "placed_at": iso(now), "scout": True,
+                "league_key": c["league_key"], "league": c["league"], "sport": sport_of(c["league_key"]), "event_id": ev["id"],
+                "game": f"{ev['home_team']} vs {ev['away_team']}", "home": ev["home_team"], "away": ev["away_team"],
+                "start": ev["commence_time"], "market": market, "market_name": MARKET_NAMES[market],
+                "name": c["name"], "point": c["point"], "pick": pick, "book": c["book"], "book_key": c["book_key"],
+                "odds": c["odds"], "eff_odds": c["eff_odds"], "fair_odds": c["fair_odds"], "edge": c["edge"],
+                "stake": stake, "status": "open", "closing_fair_odds": None, "clv": None, "profit": 0.0, "score": None, "settled_at": None,
+                "thoughts": [f"🧭 Exploring. I've only made {c['experience']} bet{'s' if c['experience'] != 1 else ''} like this ({label}).",
+                             f"{pick} at {c['odds']:.2f} is +{c['edge']*100:.2f}% above fair: below my usual bar, but the only way to learn if this kind of bet works for me is to try it.",
+                             f"Scout stake: {stake:.2f} ({E['stake_pct']:g}% of my fund). The result feeds my learning."],
+            }
+            bets.append(bet)
+            placed.append(bet)
+            done += 1
+
+
 # ---------- reading the news ----------
 # Twice a day each character skims its sport's news headlines (public RSS feeds), like a person
 # reading the sports pages. It spots which teams are in the news and whether the news is bad
@@ -656,7 +768,7 @@ def fetch_news(state, now, notes, force=False):
     state["news_at"] = iso(now)
     status = state.setdefault("feed_status", {})
     seen = {n["link"] for n in news}
-    sports = {sport_of(k) for c in CONFIG["strategies"].values() for k in c["leagues"]}
+    sports = {sport_of(k) for st_ in CONFIG["strategies"] for k in leagues_of(st_)}
     added = 0
     for sport in sports:
         for url in CONFIG.get("news_feeds", {}).get(sport, []):
@@ -976,11 +1088,12 @@ def scan(api, bets, state, now, notes):
     misses = {s: [] for s in CONFIG["strategies"]}
     limited, stopped = {}, {}
     gut_pool = {s: [] for s in CONFIG["strategies"]}
+    scout_pool = {s: [] for s in CONFIG["strategies"]}
     wild_pool = {s: [] for s in CONFIG["strategies"]}
     news = load(NEWS_FILE, [])
     for league_key in competitions(api, state):
         league = league_name(league_key)
-        chars = [s for s, c in CONFIG["strategies"].items() if league_key in c["leagues"]]
+        chars = [s for s in CONFIG["strategies"] if league_key in leagues_of(s)]
         markets = {m for s in chars for m in P(s, "markets") + CONFIG["strategies"][s].get("wild_markets", [])}
         start_to = now + timedelta(days=max(P(s, "days_ahead") for s in chars))
         if api.low_on_credits():
@@ -1017,6 +1130,11 @@ def scan(api, bets, state, now, notes):
                         misses[strategy].append({**miss, "game": f"{ev['home_team']} vs {ev['away_team']}", "league": league,
                                                  "pick": pick_label(market, miss["name"], miss["point"])})
                         misses_here.append(miss)
+                        E = CONFIG["explore"]
+                        if not v and miss["reason"].startswith("Only +") and miss["edge"] >= E["min_edge"]:
+                            exp = experience(bets, strategy, league_key, market, miss["odds"])
+                            if exp < E["until"]:
+                                scout_pool[strategy].append({**miss, "experience": exp, "ev": ev, "league_key": league_key, "league": league})
                     if not v:
                         continue
                     fund = fund_of(bets, strategy)
@@ -1047,6 +1165,7 @@ def scan(api, bets, state, now, notes):
                         gut_pool[strategy].append({**c, "ev": ev, "league_key": league_key, "league": league})
                     for c in wild_candidates(strategy, ev, league_key, rows, fair_market, news, now):
                         wild_pool[strategy].append({**c, "ev": ev, "league_key": league_key, "league": league})
+    place_scout_bets(bets, scout_pool, placed, now, today)
     place_gut_bets(bets, gut_pool, placed, now, today)
     wild_choices = place_wild_bets(bets, wild_pool, placed, now, today)
     for b in placed:  # what the character read about these teams goes into its reasoning
@@ -1070,9 +1189,10 @@ def scan(api, bets, state, now, notes):
         top = sorted(misses[strategy], key=lambda m: -m["edge"])[:4]
         diary[strategy] = {"t": iso(now), "mood": mood, "looked": len(looked[strategy]), "placed": len(mine),
                            "wild_choice": wild_choices.get(strategy),
+                           "scouts": sum(1 for b in mine if b.get("scout")),
                            "passed": [{k: m[k] for k in ("game", "league", "pick", "odds", "book", "edge", "reason")} for m in top]}
     if placed:
-        lines = [f"- {CONFIG['strategies'][b['strategy']]['name']}{' 💭 gut' if b.get('gut') else ''}{' 🎲 wild' if b.get('wild') else ''}: **{b['pick']}** ({b['market_name']}) in {b['game']} "
+        lines = [f"- {CONFIG['strategies'][b['strategy']]['name']}{' 💭 gut' if b.get('gut') else ''}{' 🎲 wild' if b.get('wild') else ''}{' 🧭 scout' if b.get('scout') else ''}: **{b['pick']}** ({b['market_name']}) in {b['game']} "
                  f"({b['league']}) at {b['odds']} on {b['book']}, stake {b['stake']:.2f}, edge +{b['edge']*100:.1f}%"
                  for b in placed]
         notes.append(f"Placed {len(placed)} practice bet{'s' if len(placed) != 1 else ''}:\n" + "\n".join(lines))
@@ -1245,13 +1365,13 @@ def profile(strategy):
         "risk": {"kelly": P(strategy, "kelly_fraction"), "max_stake_pct": P(strategy, "max_stake_pct"),
                  "min_edge": P(strategy, "min_edge"), "odds": [P(strategy, "min_odds"), P(strategy, "max_odds")],
                  "stop_below": P(strategy, "stop_below")},
-        "leagues": [league_name(k) for k in c["leagues"]],
+        "leagues": [league_name(k) for k in leagues_of(strategy)],
         "markets": [MARKET_NAMES[m] for m in P(strategy, "markets")],
     }
 
 
 def reading_of(strategy):
-    sports = {sport_of(k) for k in CONFIG["strategies"][strategy]["leagues"]}
+    sports = {sport_of(k) for k in leagues_of(strategy)}
     news = [n for n in load(NEWS_FILE, []) if n["sport"] in sports]
     news.sort(key=lambda n: n["t"], reverse=True)
     flagged = [n for n in news if n["tone"] != 0][:6]
@@ -1300,6 +1420,7 @@ def write_dashboard(bets, state, now, notes, arena=None):
         "credits_left": state.get("credits_left"),
         "last_scan": state.get("last_scan"),
         "strategies": {s: summary(bets, s) | {"diary": state.get("diary", {}).get(s), "level": level_of(bets, s),
+                                              "explorer": explorer_of(s, bets, state),
                                               "mind": mind_of(s, bets, state, now)} for s in CONFIG["strategies"]},
         "bets": sorted(bets, key=lambda b: b["start"], reverse=True)[:200],
         "log": (state.get("log", []) + [{"t": iso(now), "text": n} for n in notes])[-30:],
@@ -1325,10 +1446,15 @@ def main():
         fetch_news(state, now, notes)
     except Exception as e:
         print("News reading failed:", e)
+    sports_list = []
     try:
-        api.get("/sports")  # free call: refreshes the real credit balance (e.g. after a plan upgrade or new key)
+        sports_list = api.get("/sports")  # free call: refreshes the real credit balance (e.g. after a plan upgrade or new key)
     except Exception:
         pass
+    for s_ in CONFIG["strategies"]:
+        ex = state.get("exploring", {}).get(s_)
+        EXTRA_LEAGUES[s_] = state.get("adopted", {}).get(s_, []) + ([ex["key"]] if ex else [])
+    explore_update(sports_list, state, bets, now, notes)
     scan(api, bets, state, now, notes)
     record_closing(api, bets, now, notes)
     settle(api, bets, state, now, notes)
