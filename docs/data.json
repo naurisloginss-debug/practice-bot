@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11T23:15:31Z",
+  "updated": "2026-11-11T23:30:43Z",
   "start_fund": 200,
   "order": [
     "lizard",
@@ -9,22 +9,22 @@
   "arena": {
     "ranking": [
       "lizard",
-      "shark",
-      "quant"
+      "quant",
+      "shark"
     ],
     "grower": "quant",
     "talk": [
       {
         "who": "lizard",
-        "text": "Top of the table. The Shark, patience beats noise every time."
-      },
-      {
-        "who": "shark",
-        "text": "I smell The Lizard's lead from here. Closing in."
+        "text": "Top of the table. The Quant, patience beats noise every time."
       },
       {
         "who": "quant",
         "text": "The Lizard is ahead on paper. My numbers say not for long."
+      },
+      {
+        "who": "shark",
+        "text": "I smell The Lizard's lead from here. Closing in."
       }
     ],
     "chars": {
@@ -184,10 +184,10 @@
         ]
       },
       "quant": {
-        "iq": 98,
-        "iq_gain": 14,
-        "streak": 0,
-        "best_streak": 2,
+        "iq": 99,
+        "iq_gain": 15,
+        "streak": 3,
+        "best_streak": 3,
         "achievements": [
           {
             "key": "challenge",
@@ -297,17 +297,17 @@
           {
             "text": "Bets checked against the market",
             "target": 3,
-            "now": 3
+            "now": 7
           },
           {
             "text": "Beat the market on",
             "target": 55,
-            "now": 67,
+            "now": 71,
             "unit": "%",
             "pending": false
           }
         ],
-        "score": 113,
+        "score": 114,
         "trophies": []
       },
       "shark": {
@@ -440,7 +440,7 @@
     },
     "week_start": "2026-11-09"
   },
-  "credits_left": 19644,
+  "credits_left": 19641,
   "last_scan": "2026-11-11@16",
   "strategies": {
     "lizard": {
@@ -968,9 +968,9 @@
       "profit": 2.87,
       "roi": 0.9472,
       "avg_edge": 0.0334,
-      "avg_clv": 0.0139,
-      "beat_close": 0.6667,
-      "clv_count": 3,
+      "avg_clv": 0.0226,
+      "beat_close": 0.7143,
+      "clv_count": 7,
       "history": [
         {
           "t": "2026-11-10T21:01:26Z",
@@ -987,6 +987,15 @@
       ],
       "by_league": [
         {
+          "name": "NBA",
+          "bets": 7,
+          "profit": 1.84,
+          "roi": 0.9109,
+          "avg_clv": 0.0493,
+          "beat_close": 1.0,
+          "clv_count": 3
+        },
+        {
           "name": "EuroLeague",
           "bets": 2,
           "profit": 1.03,
@@ -996,22 +1005,13 @@
           "clv_count": 1
         },
         {
-          "name": "NBA",
-          "bets": 7,
-          "profit": 1.84,
-          "roi": 0.9109,
-          "avg_clv": 0.018,
-          "beat_close": 1.0,
-          "clv_count": 1
-        },
-        {
           "name": "College basketball (US)",
           "bets": 5,
           "profit": 0,
           "roi": null,
-          "avg_clv": -0.0098,
-          "beat_close": 0.0,
-          "clv_count": 1
+          "avg_clv": -0.0077,
+          "beat_close": 0.3333,
+          "clv_count": 3
         }
       ],
       "by_market": [
@@ -1029,18 +1029,18 @@
           "bets": 10,
           "profit": 1.84,
           "roi": 0.9109,
-          "avg_clv": 0.018,
-          "beat_close": 1.0,
-          "clv_count": 1
+          "avg_clv": 0.0284,
+          "beat_close": 0.75,
+          "clv_count": 4
         },
         {
           "name": "Total",
           "bets": 3,
           "profit": 0,
           "roi": null,
-          "avg_clv": -0.0098,
-          "beat_close": 0.0,
-          "clv_count": 1
+          "avg_clv": 0.0057,
+          "beat_close": 0.5,
+          "clv_count": 2
         }
       ],
       "by_sport": [
@@ -1049,9 +1049,9 @@
           "bets": 14,
           "profit": 2.87,
           "roi": 0.9472,
-          "avg_clv": 0.0139,
-          "beat_close": 0.6667,
-          "clv_count": 3
+          "avg_clv": 0.0226,
+          "beat_close": 0.7143,
+          "clv_count": 7
         }
       ],
       "gut": {
@@ -1136,9 +1136,9 @@
         "badge": "🐣",
         "stake": 1.0,
         "perk": "Normal stakes while it proves itself.",
-        "measured": 1,
-        "clv": 0.018,
-        "beat": 1.0,
+        "measured": 5,
+        "clv": 0.0269,
+        "beat": 0.8,
         "cold": false,
         "next": {
           "title": "Apprentice",
@@ -1148,20 +1148,20 @@
             {
               "text": "15 measured bets",
               "done": false,
-              "now": "1"
+              "now": "5"
             },
             {
               "text": "beat the market on 50%+",
               "done": true,
-              "now": "100%"
+              "now": "80%"
             },
             {
               "text": "average price +0.0%+ vs market",
               "done": true,
-              "now": "+1.8%"
+              "now": "+2.7%"
             }
           ],
-          "progress": 0.067
+          "progress": 0.333
         }
       },
       "explorer": {
@@ -1208,8 +1208,8 @@
         "streak": 0
       },
       "mind": {
-        "iq": 98,
-        "iq_week": 18,
+        "iq": 99,
+        "iq_week": 19,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -1241,7 +1241,7 @@
           },
           {
             "d": "2026-11-11",
-            "iq": 98
+            "iq": 99
           }
         ],
         "facts": [
@@ -2457,8 +2457,8 @@
       "edge": 0.0229,
       "stake": 1.58,
       "status": "open",
-      "closing_fair_odds": null,
-      "clv": null,
+      "closing_fair_odds": 2.399,
+      "clv": 0.0213,
       "profit": 0.0,
       "score": null,
       "settled_at": null,
@@ -2496,8 +2496,8 @@
       "edge": 0.05,
       "stake": 2.35,
       "status": "open",
-      "closing_fair_odds": null,
-      "clv": null,
+      "closing_fair_odds": 2.841,
+      "clv": 0.1087,
       "profit": 0.0,
       "score": null,
       "settled_at": null,
@@ -2534,8 +2534,8 @@
       "edge": 0.0195,
       "stake": 1.21,
       "status": "open",
-      "closing_fair_odds": null,
-      "clv": null,
+      "closing_fair_odds": 2.724,
+      "clv": -0.0344,
       "profit": 0.0,
       "score": null,
       "settled_at": null,
@@ -2573,8 +2573,8 @@
       "edge": 0.0211,
       "stake": 2.17,
       "status": "open",
-      "closing_fair_odds": null,
-      "clv": null,
+      "closing_fair_odds": 1.939,
+      "clv": 0.0211,
       "profit": 0.0,
       "score": null,
       "settled_at": null,
