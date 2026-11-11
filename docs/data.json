@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11T18:00:56Z",
+  "updated": "2026-11-11T18:12:32Z",
   "start_fund": 200,
   "order": [
     "lizard",
@@ -34,6 +34,20 @@
         "streak": 6,
         "best_streak": 7,
         "achievements": [
+          {
+            "key": "challenge",
+            "emoji": "🎯",
+            "title": "Challenge Accepted",
+            "desc": "Completed its first daily challenge.",
+            "at": null
+          },
+          {
+            "key": "iron_will",
+            "emoji": "🔥",
+            "title": "Iron Will",
+            "desc": "Completed 5 daily challenges in a row.",
+            "at": null
+          },
           {
             "key": "first_blood",
             "emoji": "🩸",
@@ -176,6 +190,20 @@
         "best_streak": 1,
         "achievements": [
           {
+            "key": "challenge",
+            "emoji": "🎯",
+            "title": "Challenge Accepted",
+            "desc": "Completed its first daily challenge.",
+            "at": null
+          },
+          {
+            "key": "iron_will",
+            "emoji": "🔥",
+            "title": "Iron Will",
+            "desc": "Completed 5 daily challenges in a row.",
+            "at": null
+          },
+          {
             "key": "first_blood",
             "emoji": "🩸",
             "title": "First Blood",
@@ -289,6 +317,20 @@
         "best_streak": 1,
         "achievements": [
           {
+            "key": "challenge",
+            "emoji": "🎯",
+            "title": "Challenge Accepted",
+            "desc": "Completed its first daily challenge.",
+            "at": null
+          },
+          {
+            "key": "iron_will",
+            "emoji": "🔥",
+            "title": "Iron Will",
+            "desc": "Completed 5 daily challenges in a row.",
+            "at": null
+          },
+          {
             "key": "first_blood",
             "emoji": "🩸",
             "title": "First Blood",
@@ -398,7 +440,7 @@
     },
     "week_start": "2026-11-09"
   },
-  "credits_left": 19652,
+  "credits_left": 19650,
   "last_scan": "2026-11-11@16",
   "strategies": {
     "lizard": {
@@ -777,6 +819,35 @@
         "scout_clv": null,
         "scout_measured": 0
       },
+      "challenge": {
+        "today": {
+          "day": "2026-11-11",
+          "id": "new_ground",
+          "emoji": "🗺️",
+          "title": "New ground",
+          "text": "Make a bet in the bet type I use least: spread.",
+          "status": "active",
+          "market": "spreads",
+          "target": 20,
+          "league": "soccer_greece_super_league"
+        },
+        "recent": [
+          {
+            "day": "2026-11-11",
+            "id": "new_ground",
+            "emoji": "🗺️",
+            "title": "New ground",
+            "text": "Make a bet in the bet type I use least: spread.",
+            "status": "active",
+            "market": "spreads",
+            "target": 20,
+            "league": "soccer_greece_super_league"
+          }
+        ],
+        "done": 0,
+        "judged": 0,
+        "streak": 0
+      },
       "mind": {
         "iq": 101,
         "iq_week": 21,
@@ -1103,6 +1174,35 @@
         "scout_clv": null,
         "scout_measured": 0
       },
+      "challenge": {
+        "today": {
+          "day": "2026-11-11",
+          "id": "underdog",
+          "emoji": "🐶",
+          "title": "Underdog hunter",
+          "text": "Back an underdog (odds 2.5+) that beats the market.",
+          "status": "active",
+          "market": "spreads",
+          "target": 20,
+          "league": "basketball_nbl"
+        },
+        "recent": [
+          {
+            "day": "2026-11-11",
+            "id": "underdog",
+            "emoji": "🐶",
+            "title": "Underdog hunter",
+            "text": "Back an underdog (odds 2.5+) that beats the market.",
+            "status": "active",
+            "market": "spreads",
+            "target": 20,
+            "league": "basketball_nbl"
+          }
+        ],
+        "done": 0,
+        "judged": 0,
+        "streak": 0
+      },
       "mind": {
         "iq": 97,
         "iq_week": 17,
@@ -1173,7 +1273,7 @@
       "risk": {
         "kelly": 0.5,
         "max_stake_pct": 6,
-        "min_edge": 0.015,
+        "min_edge": 0.025,
         "odds": [
           1.6,
           4.0
@@ -1438,6 +1538,35 @@
         "scouts": 2,
         "scout_clv": null,
         "scout_measured": 0
+      },
+      "challenge": {
+        "today": {
+          "day": "2026-11-11",
+          "id": "precision",
+          "emoji": "🎯",
+          "title": "Precision day",
+          "text": "Only bets with an edge 1% above my usual bar, and at least 2 of them must beat the market.",
+          "status": "active",
+          "market": "totals",
+          "target": 20,
+          "league": "americanfootball_cfl"
+        },
+        "recent": [
+          {
+            "day": "2026-11-11",
+            "id": "precision",
+            "emoji": "🎯",
+            "title": "Precision day",
+            "text": "Only bets with an edge 1% above my usual bar, and at least 2 of them must beat the market.",
+            "status": "active",
+            "market": "totals",
+            "target": 20,
+            "league": "americanfootball_cfl"
+          }
+        ],
+        "done": 0,
+        "judged": 0,
+        "streak": 0
       },
       "mind": {
         "iq": 99,
@@ -3339,18 +3468,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-07T15:30:44Z",
-      "text": "Results:\n- Lost -0.78: Draw (Winner) in Bristol City vs Norwich City (Bristol City 0 - 5 Norwich City)\n- Lost -1.76: Wolverhampton Wanderers (Winner) in Wrexham AFC vs Wolverhampton Wanderers (Wrexham AFC 1 - 1 Wolverhampton Wanderers)"
-    },
-    {
-      "t": "2026-11-07T16:00:52Z",
-      "text": "Placed 2 practice bets:\n- The Shark: **Indianapolis Colts +5.5** (Spread) in Indianapolis Colts vs Dallas Cowboys (NFL) at 1.91 on 888sport, stake 3.38, edge +3.1%\n- The Shark: **Miami Dolphins +6.5** (Spread) in Miami Dolphins vs Detroit Lions (NFL) at 2.0 on 888sport, stake 2.31, edge +2.3%"
-    },
-    {
-      "t": "2026-11-07T16:00:52Z",
-      "text": "🏅 🦈 The Shark unlocked 🩸 First Blood: Placed its first bet."
-    },
-    {
       "t": "2026-11-07T21:00:51Z",
       "text": "Results:\n- Lost -0.77: Auxerre (Winner) in Auxerre vs Paris FC (Auxerre 0 - 1 Paris FC)"
     },
@@ -3457,6 +3574,18 @@
     {
       "t": "2026-11-11T16:01:00Z",
       "text": "Placed 1 practice bet:\n- The Lizard 🧭 scout: **Rochdale** (Winner) in Rochdale vs York City (League Two (England 4)) at 4.25 on Betsson, stake 0.99, edge +0.8%"
+    },
+    {
+      "t": "2026-11-11T18:12:32Z",
+      "text": "🎯 🦎 The Lizard's challenge today: 🗺️ New ground. Make a bet in the bet type I use least: spread."
+    },
+    {
+      "t": "2026-11-11T18:12:32Z",
+      "text": "🎯 🧮 The Quant's challenge today: 🐶 Underdog hunter. Back an underdog (odds 2.5+) that beats the market."
+    },
+    {
+      "t": "2026-11-11T18:12:32Z",
+      "text": "🎯 🦈 The Shark's challenge today: 🎯 Precision day. Only bets with an edge 1% above my usual bar, and at least 2 of them must beat the market."
     }
   ]
 }
