@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11T18:45:31Z",
+  "updated": "2026-11-11T19:00:54Z",
   "start_fund": 200,
   "order": [
     "lizard",
@@ -29,8 +29,8 @@
     ],
     "chars": {
       "lizard": {
-        "iq": 101,
-        "iq_gain": 4,
+        "iq": 100,
+        "iq_gain": 3,
         "streak": 6,
         "best_streak": 7,
         "achievements": [
@@ -152,7 +152,7 @@
             "pending": true
           }
         ],
-        "score": 126,
+        "score": 125,
         "trophies": [
           {
             "kind": "sharpshooter",
@@ -697,8 +697,29 @@
         "appetite": 0.45
       },
       "reading": {
-        "week": 136,
+        "week": 116,
         "latest": [
+          {
+            "t": "2026-11-11T18:48:43Z",
+            "title": "Inter relief at Thuram injury, but muscular issues becoming a problem",
+            "link": "https://football-italia.net/inter-relief-thuram-injury-muscular-issues/",
+            "source": "football-italia.net",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-11T17:38:18Z",
+            "title": "Legally restrict heading a football in training, says MP",
+            "link": "https://www.bbc.co.uk/sport/football/articles/cm1ewpjyy3dzo?at_medium=RSS&at_campaign=rss",
+            "source": "feeds.bbci.co.uk",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-11T16:26:24Z",
+            "title": "Referee observer banned for discriminatory comments",
+            "link": "https://www.bbc.co.uk/sport/football/articles/ckedq15wq0dlo?at_medium=RSS&at_campaign=rss",
+            "source": "feeds.bbci.co.uk",
+            "tone": -1
+          },
           {
             "t": "2026-11-11T15:35:36Z",
             "title": "Lazio lose Nuno Tavares and Sutalo for at least 3 weeks to fresh injury",
@@ -718,27 +739,6 @@
             "title": "Lukaku out of Belgium squad against Turkiye, major doubt to face Italy",
             "link": "https://football-italia.net/lukaku-out-belgium-turkiye-major-doubt-italy/",
             "source": "football-italia.net",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-11T13:37:08Z",
-            "title": "Turkey-based Bates replaces Binks in Scotland squad",
-            "link": "https://www.bbc.co.uk/sport/football/articles/c539gkdrn7yeo?at_medium=RSS&at_campaign=rss",
-            "source": "feeds.bbci.co.uk",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-11T13:20:40Z",
-            "title": "Report injured Mbappé out of France squad to face Italy in Nations League",
-            "link": "https://football-italia.net/injured-mbappe-france-italy-in-nations-league/",
-            "source": "football-italia.net",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-11T11:59:18Z",
-            "title": "Scotland without captain Weir for World Cup play-off",
-            "link": "https://www.bbc.co.uk/sport/football/articles/c64gnlevgj1zo?at_medium=RSS&at_campaign=rss",
-            "source": "feeds.bbci.co.uk",
             "tone": -1
           }
         ]
@@ -849,8 +849,8 @@
         "streak": 0
       },
       "mind": {
-        "iq": 101,
-        "iq_week": 21,
+        "iq": 100,
+        "iq_week": 20,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -882,7 +882,7 @@
           },
           {
             "d": "2026-11-11",
-            "iq": 101
+            "iq": 100
           }
         ],
         "facts": [
@@ -1071,8 +1071,29 @@
         "appetite": 0.35
       },
       "reading": {
-        "week": 102,
+        "week": 79,
         "latest": [
+          {
+            "t": "2026-11-11T18:25:08Z",
+            "title": "Jazz F Lauri Markkanen to be re-evaluated in 4 weeks after suffering 2 non-displaced fractures in right hand",
+            "link": "https://sports.yahoo.com/nba/breaking-news/article/jazz-f-lauri-markkanen-to-be-re-evaluated-in-4-weeks-after-suffering-2-non-displaced-fractures-in-right-hand-183316150.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-11T15:57:21Z",
+            "title": "Paul George gives &#39;a**hole&#39; Sixers fan the finger late in Celtics&#39; blowout win",
+            "link": "https://sports.yahoo.com/nba/article/paul-george-gives-ahole-sixers-fan-the-finger-late-in-celtics-blowout-win-155721219.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-11T15:07:57Z",
+            "title": "Poeltl must continue to be top-15 centre ahead of game vs. Celtics",
+            "link": "https://sports.yahoo.com/articles/poeltl-must-continue-top-15-150757525.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
           {
             "t": "2026-11-11T14:58:52Z",
             "title": "Warriors vs. Rockets NBA odds, picks: Kevin Durant faces Steph Curry in latest Hall of Fame duel Wednesday",
@@ -1093,27 +1114,6 @@
             "link": "https://sports.yahoo.com/articles/knicks-117-bucks-85-looked-114629802.html",
             "source": "sports.yahoo.com",
             "tone": 1
-          },
-          {
-            "t": "2026-11-11T11:00:00Z",
-            "title": "Paul George steals the show in his return to Philadelphia",
-            "link": "https://sports.yahoo.com/articles/paul-george-steals-show-return-110000846.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-11T10:12:18Z",
-            "title": "Back in Philadelphia with Celtics, Paul George looks forward to ‘a regular game&#39;",
-            "link": "https://sports.yahoo.com/articles/back-philadelphia-celtics-paul-george-111819903.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-11T05:56:47Z",
-            "title": "Egor Demin set to return to Nets’ lineup against Pelicans",
-            "link": "https://sports.yahoo.com/articles/egor-demin-set-return-nets-055647719.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
           }
         ]
       },
@@ -1399,47 +1399,47 @@
         "appetite": 0.6
       },
       "reading": {
-        "week": 362,
+        "week": 405,
         "latest": [
           {
-            "t": "2026-11-11T14:42:23Z",
-            "title": "Browns roster: 4 moves after trade deadline, including bringing back 2 familiar names",
-            "link": "https://sports.yahoo.com/articles/browns-roster-4-moves-trade-144223240.html",
+            "t": "2026-11-11T18:44:49Z",
+            "title": "Mike Tomlin leaves door open to coaching return: ‘I’ll cross that bridge when I come to it’",
+            "link": "https://sports.yahoo.com/nfl/article/mike-tomlin-leaves-door-open-to-coaching-return-ill-cross-that-bridge-when-i-come-to-it-184449997.html",
             "source": "sports.yahoo.com",
             "tone": 1
           },
           {
-            "t": "2026-11-11T13:54:16Z",
-            "title": "SoCal native Katin Houser returns as Illinois&#39; starting quarterback",
-            "link": "https://sports.yahoo.com/articles/socal-native-katin-houser-returns-135416211.html",
+            "t": "2026-11-11T18:40:26Z",
+            "title": "Xavier Legette, Mike Jackson, Jonathon Brooks return to Panthers practice",
+            "link": "https://sports.yahoo.com/articles/xavier-legette-mike-jackson-jonathon-184026993.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-11T18:36:38Z",
+            "title": "Report: Harrison Mevis, Riley Patterson among kickers working out for Ravens",
+            "link": "https://sports.yahoo.com/articles/report-harrison-mevis-riley-patterson-183638562.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-11T18:24:01Z",
+            "title": "Braden Chaffin Flips From Stanford to Michigan, Bolstering 2027 Offensive Line Class",
+            "link": "https://sports.yahoo.com/articles/braden-chaffin-flips-stanford-michigan-182401371.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-11T18:15:04Z",
+            "title": "Report: Josh Jacobs could return in 2-3 weeks from broken finger",
+            "link": "https://sports.yahoo.com/articles/report-josh-jacobs-could-return-181504159.html",
             "source": "sports.yahoo.com",
             "tone": 1
           },
           {
-            "t": "2026-11-11T13:43:03Z",
-            "title": "Prisco's Week 10 NFL picks: Giants over Commanders on 'TNF,' Lions top Patriots in Munich",
-            "link": "https://www.cbssports.com/nfl/news/pete-priscos-week-10-expert-nfl-picks/",
-            "source": "www.cbssports.com",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-11T12:27:04Z",
-            "title": "South Carolina’s Shane Beamer issues warning about Arkansas as Gamecocks chase fifth straight SEC win",
-            "link": "https://sports.yahoo.com/articles/south-carolina-shane-beamer-issues-122704635.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-11T12:00:51Z",
-            "title": "Does Duke Present the Biggest Test to the No. 7 Miami Hurricanes&#39; Run Defense?",
-            "link": "https://sports.yahoo.com/articles/does-duke-present-biggest-test-120051143.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-11T12:00:00Z",
-            "title": "Survey: Will the Lions beat the Patriots in Week 10?",
-            "link": "https://sports.yahoo.com/articles/survey-lions-beat-patriots-week-120000206.html",
+            "t": "2026-11-11T18:02:53Z",
+            "title": "Mike Tomlin not thinking about coaching return",
+            "link": "https://sports.yahoo.com/articles/mike-tomlin-not-thinking-coaching-180253219.html",
             "source": "sports.yahoo.com",
             "tone": 1
           }
