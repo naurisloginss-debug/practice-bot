@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11T23:30:43Z",
+  "updated": "2026-11-11T23:45:30Z",
   "start_fund": 200,
   "order": [
     "lizard",
@@ -194,7 +194,7 @@
             "emoji": "🎯",
             "title": "Challenge Accepted",
             "desc": "Completed its first daily challenge.",
-            "at": null
+            "at": "2026-11-11T23:45:30Z"
           },
           {
             "key": "iron_will",
@@ -307,7 +307,7 @@
             "pending": false
           }
         ],
-        "score": 114,
+        "score": 122,
         "trophies": []
       },
       "shark": {
@@ -1185,10 +1185,11 @@
           "emoji": "🐶",
           "title": "Underdog hunter",
           "text": "Back an underdog (odds 2.5+) that beats the market.",
-          "status": "active",
+          "status": "done",
           "market": "spreads",
           "target": 20,
-          "league": "basketball_nbl"
+          "league": "basketball_nbl",
+          "detail": "1 bet beat the market."
         },
         "recent": [
           {
@@ -1197,15 +1198,16 @@
             "emoji": "🐶",
             "title": "Underdog hunter",
             "text": "Back an underdog (odds 2.5+) that beats the market.",
-            "status": "active",
+            "status": "done",
             "market": "spreads",
             "target": 20,
-            "league": "basketball_nbl"
+            "league": "basketball_nbl",
+            "detail": "1 bet beat the market."
           }
         ],
-        "done": 0,
-        "judged": 0,
-        "streak": 0
+        "done": 1,
+        "judged": 1,
+        "streak": 1
       },
       "mind": {
         "iq": 99,
@@ -3472,14 +3474,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-07T21:45:28Z",
-      "text": "Results:\n- Won +4.85: Blackburn Rovers (Winner) in Blackburn Rovers vs West Ham United (Blackburn Rovers 2 - 1 West Ham United)\n- Lost -0.52: Lincoln City (Winner) in Queens Park Rangers vs Lincoln City (Queens Park Rangers 2 - 1 Lincoln City)\n- Lost -0.88: Watford (Winner) in Watford vs Middlesbrough (Watford 0 - 0 Middlesbrough)\n- Won +4.45: Preston North End (Winner) in Preston North End vs Southampton (Preston North End 1 - 0 Southampton)\n- Lost -0.98: Millwall (Winner) in West Bromwich Albion vs Millwall (West Bromwich Albion 3 - 0 Millwall)\n- Won +2.14: Cardiff City (Winner) in Cardiff City vs Burnley (Cardiff City 5 - 4 Burnley)"
-    },
-    {
-      "t": "2026-11-08T08:00:54Z",
-      "text": "Placed 2 practice bets:\n- The Lizard: **Draw** (Winner) in Brest vs Lyon (Ligue 1 (France)) at 3.64 on Marathon Bet, stake 1.05, edge +3.4%\n- The Lizard: **Draw** (Winner) in Le Havre vs Lorient (Ligue 1 (France)) at 3.42 on Marathon Bet, stake 1.00, edge +3.0%"
-    },
-    {
       "t": "2026-11-08T17:00:55Z",
       "text": "Results:\n- Lost -0.69: Draw (Winner) in Rennes vs Lille (Rennes 1 - 2 Lille)"
     },
@@ -3590,6 +3584,14 @@
     {
       "t": "2026-11-11T22:45:29Z",
       "text": "Results:\n- Won +1.03: KK Partizan NIS -8 (Spread) in KK Partizan NIS vs Saski Baskonia (KK Partizan NIS 80 - 66 Saski Baskonia)"
+    },
+    {
+      "t": "2026-11-11T23:45:30Z",
+      "text": "✅ 🧮 The Quant completed 🐶 Underdog hunter: 1 bet beat the market."
+    },
+    {
+      "t": "2026-11-11T23:45:30Z",
+      "text": "🏅 🧮 The Quant unlocked 🎯 Challenge Accepted: Completed its first daily challenge."
     }
   ]
 }
