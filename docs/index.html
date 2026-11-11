@@ -163,6 +163,14 @@
   .gut { margin: 14px 0 0; padding: 12px; border-radius: 14px; background: var(--card-2); border: 1px solid var(--line); }
   .wildchip { background: rgba(235,104,52,.18) !important; color: var(--accent-2) !important; margin-left: 4px; }
   .scoutchip { background: rgba(31,157,85,.16) !important; color: var(--good) !important; margin-left: 4px; }
+  .challenge { border-top: 4px solid var(--pc); }
+  .ch-main { display: flex; gap: 14px; align-items: flex-start; }
+  .ch-emoji { font-size: 36px; line-height: 1; }
+  .ch-main b { font-size: 19px; } .ch-main p { margin: 2px 0 8px; color: var(--ink-2); font-size: 14px; }
+  .ch-row { display: flex; gap: 6px; align-items: center; flex-wrap: wrap; margin-top: 12px; }
+  .ch-dot { position: relative; font-size: 18px; width: 34px; height: 34px; display: grid; place-items: center; border-radius: 10px; background: var(--card-2); border: 1px solid var(--line); }
+  .ch-dot i { position: absolute; right: -4px; bottom: -4px; font-style: normal; font-size: 10px; font-weight: 700; width: 16px; height: 16px; border-radius: 50%; display: grid; place-items: center; background: var(--neutral-bg); }
+  .ch-dot.done i { background: var(--good-bg); color: var(--good); } .ch-dot.failed i { background: var(--bad-bg); color: var(--bad); }
   .gutchip { font-size: 11px; font-weight: 700; padding: 1px 7px; border-radius: 999px; background: rgba(155,107,214,.18); color: #9b6bd6; }
   .rank { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
   .rank li { display: grid; grid-template-columns: 30px 40px 1fr auto auto auto; gap: 10px; align-items: center; padding: 8px 12px; border-radius: 14px; background: var(--card-2); border: 1px solid var(--line); }
@@ -307,6 +315,8 @@ function render() {
     <div class="hero-note">${esc(s.style || '')}</div>
   </section>
 
+  ${challengeCard(s)}
+
   ${character(s)}
 
   ${driveCard()}
@@ -358,6 +368,7 @@ function render() {
     <dt>Sport IQ</dt><dd>How much the character knows about its sport. Grows as it studies more games, measures more bets and proves its findings right. Pricing badly pulls it down.</dd>
     <dt>Trophies and badges</dt><dd>Trophies are won against the other characters (weekly and monthly). Badges are personal milestones. Both reward skill, never risk.</dd>
     <dt>Gut feeling</dt><dd>Sometimes a character follows a hunch its rules don't accept: a price that's almost good enough, or sharp money moving. Hunches are small, rare, marked 💭 and graded. A gut that beats the market earns more trust.</dd>
+    <dt>Daily challenge</dt><dd>Every morning each character gets a challenge aimed at its weak spot: precision, discipline, new bet types, sharp edges, study, exploring, using the news, or underdogs. Challenges reward skill, never risk. Completed ones count in the Arena.</dd>
     <dt>Explorer</dt><dd>Each character keeps trying new things in small amounts: 🧭 scout bets on kinds of bets it has barely tried, and one new competition each week. What works, it keeps; what doesn't, it drops.</dd>
     <dt>Wild bets</dt><dd>A character may choose a bold long shot (odds 4.5–15, tiny stake, at most two a day). It's a choice, not a rule: it's bolder on a hot streak, careful on a cold one, and never chases losses. Its 🧠 says why it did or didn't.</dd>
     <dt>Reading</dt><dd>Twice a day each character skims its sport's news headlines and notices injuries, suspensions and good news. Its reasoning shows what it read.</dd>
@@ -479,6 +490,21 @@ function character(s) {
       <span class="pchip">stops below <b>${r.stop_below}</b></span>
       <span class="pchip">${esc((s.leagues || []).join(', '))} · ${esc((s.markets || []).join(', ').toLowerCase())}</span>
     </div></section>`;
+}
+
+function challengeCard(s) {
+  const c = s.challenge;
+  if (!c || !c.today) return '';
+  const t = c.today;
+  const state = { active: ['c-open', 'In progress'], judging: ['c-likely', 'Waiting for final prices'], done: ['c-won', '✓ Completed'], failed: ['c-lost', '✕ Missed'], none: ['c-void', 'No chance today'] };
+  const [cls, label] = state[t.status] || state.active;
+  const icon = { done: '✓', failed: '✕', judging: '…', active: '•', none: '–' };
+  return `<section class="card challenge" style="--pc:${COLORS[current]}"><h2>Today's challenge</h2>
+    <div class="ch-main"><span class="ch-emoji" aria-hidden="true">${esc(t.emoji)}</span>
+      <div><b>${esc(t.title)}</b><p>${esc(t.text)}</p><span class="chip ${cls}">${label}</span>${t.detail ? ` <span class="sub">${esc(t.detail)}</span>` : ''}</div></div>
+    <div class="ch-row"><span class="sub">Last days:</span>${c.recent.slice(1).map(x => `<span class="ch-dot ${x.status}" title="${esc(x.day)}: ${esc(x.title)}${x.detail ? ' · ' + esc(x.detail) : ''}">${esc(x.emoji)}<i>${icon[x.status] || '•'}</i></span>`).join('') || '<span class="sub">first day</span>'}
+      <span class="sub" style="margin-left:auto">${c.done} of ${c.judged} completed${c.streak >= 2 ? ` · 🔥 ${c.streak} in a row` : ''}</span></div>
+  </section>`;
 }
 
 function explorerLine(s) {

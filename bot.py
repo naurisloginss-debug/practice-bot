@@ -85,8 +85,16 @@ class Api:
         return left < CONFIG["keep_credits"] or used_today >= CONFIG["daily_credit_budget"]
 
 
+TODAY_MODS = {}  # per character: today's challenge rules (set each run)
+
+
 def P(strategy, key):
-    """A character's own setting, or the shared default."""
+    """Today's challenge rule, else the character's own setting, else the shared default."""
+    mods = TODAY_MODS.get(strategy, {})
+    if key == "min_edge" and "edge_bonus" in mods:
+        return CONFIG["strategies"][strategy].get(key, CONFIG.get(key)) + mods["edge_bonus"]
+    if key in mods:
+        return mods[key]
     return CONFIG["strategies"][strategy].get(key, CONFIG.get(key))
 
 
@@ -493,6 +501,8 @@ def level_of(bets, strategy):
 # how much they bet, so wanting to win never pushes them into reckless bets.
 
 ACHIEVEMENTS = [
+    ("challenge", "🎯", "Challenge Accepted", "Completed its first daily challenge."),
+    ("iron_will", "🔥", "Iron Will", "Completed 5 daily challenges in a row."),
     ("first_blood", "🩸", "First Blood", "Placed its first bet."),
     ("beat_it", "🎯", "Beat the Market", "Got a better price than the final one."),
     ("ten_measured", "📏", "Measured Ten", "10 bets checked against the final price."),
@@ -543,6 +553,7 @@ def competition(bets, state, now, notes):
             "pattern": any(f["conf"] in ("likely", "using") for f in mind["facts"]), "rule": bool(mind["rules"]),
             "lesson": bool(learn(bets, s)[1]), "iq100": mind["iq"] >= 100, "iq120": mind["iq"] >= 120,
             "sharp": lv["n"] >= 3 and not lv["cold"], "master": lv["n"] >= 4 and not lv["cold"],
+            "challenge": challenge_stats(state, s)["done"] >= 1, "iron_will": challenge_stats(state, s)["streak"] >= 5,
         }
         mine_unlocked = unlocked.setdefault(s, {})
         for key, emoji, title, desc in ACHIEVEMENTS:
@@ -562,7 +573,7 @@ def competition(bets, state, now, notes):
         start_iq = next((h["iq"] for h in hist if h["d"] >= week_start.date().isoformat()), mind["iq"])
         out[s] = {"iq": mind["iq"], "iq_gain": mind["iq"] - start_iq, "streak": cur, "best_streak": best,
                   "achievements": [{"key": k, "emoji": e, "title": t, "desc": d, "at": mine_unlocked.get(k)} for k, e, t, d in ACHIEVEMENTS],
-                  "goals": goals, "score": mind["iq"] + 5 * len(mine_unlocked)}
+                  "goals": goals, "score": mind["iq"] + 5 * len(mine_unlocked) + 3 * challenge_stats(state, s)["done"]}
     award_trophies(out, bets, obs, state, now, week_start, notes)
     trophies = state.get("trophies", [])
     for s in out:
@@ -716,8 +727,10 @@ def place_scout_bets(bets, scout_pool, placed, now, today):
         if fund < P(strategy, "stop_below"):
             continue
         # Least-tried kinds of bets first: that's where there is most to learn.
-        for c in sorted(pool, key=lambda c: (c["experience"], -c["edge"])):
-            if done >= E["per_day"]:
+        focus = TODAY_MODS.get(strategy, {}).get("focus_market")
+        cap = E["per_day"] + (2 if focus else 0)
+        for c in sorted(pool, key=lambda c: (c["market"] != focus, c["experience"], -c["edge"])):
+            if done >= cap:
                 break
             if any(b["event_id"] == c["ev"]["id"] and b["strategy"] == strategy for b in bets):
                 continue
@@ -911,6 +924,152 @@ def gut_candidates(strategy, ev, league_key, rows, fair_market, first_seen, miss
     return out
 
 
+# ---------- daily challenges ----------
+# Every morning each character gets a challenge aimed at its weak spot. Challenges reward skill
+# (beating the market, studying, adapting), never volume or risk. Some change how it bets that day.
+
+CHALLENGES = {
+    "precision": ("🎯", "Precision day", "Only bets with an edge 1% above my usual bar, and at least 2 of them must beat the market."),
+    "discipline": ("🧘", "Discipline day", "No gut calls, no wild bets, nothing above odds 3.0, and still beat the market."),
+    "new_ground": ("🗺️", "New ground", "Make a bet in the bet type I use least: {market}."),
+    "sharp_eye": ("🦅", "Sharp eye", "Find a +3% edge that holds up against the market."),
+    "study": ("📚", "Study day", "Study at least {target} games today."),
+    "explorer": ("🧭", "Explorer day", "Make a bet in {competition}, the competition I'm exploring."),
+    "news": ("📰", "Read and react", "Use something I read in a bet today."),
+    "underdog": ("🐶", "Underdog hunter", "Back an underdog (odds 2.5+) that beats the market."),
+}
+
+
+def day_bets(bets, strategy, day):
+    return [b for b in bets if b["strategy"] == strategy and b["placed_at"][:10] == day]
+
+
+def pick_challenge(bets, state, strategy, day):
+    mine = [b for b in bets if b["strategy"] == strategy and not b.get("wild")]
+    measured = [b for b in mine if b.get("clv") is not None]
+    beat = sum(1 for b in measured if b["clv"] > 0) / len(measured) if measured else None
+    longs = [b["clv"] for b in measured if b["odds"] >= 3.5]
+    markets = P(strategy, "markets")
+    use = {m: sum(1 for b in mine if b["market"] == m) for m in markets}
+    least = min(use, key=use.get)
+    weights = {"precision": 1, "discipline": 1, "sharp_eye": 1, "study": 1, "news": 1}
+    if beat is not None and beat < 0.55:
+        weights["precision"] += 3
+    if longs and sum(longs) / len(longs) < 0:
+        weights["discipline"] += 3
+    if len(markets) > 1 and use[least] < 0.15 * max(1, len(mine)):
+        weights["new_ground"] = 3
+    if state.get("exploring", {}).get(strategy):
+        weights["explorer"] = 2
+    if "h2h" in markets and sport_of(CONFIG["strategies"][strategy]["leagues"][0]) != "Football":
+        weights["underdog"] = 2
+    recent = [c["id"] for c in state.get("challenges", {}).get(strategy, [])[-2:]]
+    for cid in recent:  # vary the challenges
+        if cid in weights:
+            weights[cid] = max(0.3, weights[cid] / 3)
+    cid = random.choices(list(weights), weights=list(weights.values()))[0]
+    emoji, title, text = CHALLENGES[cid]
+    looked = [v for v in state.get("looked_by_day", {}).get(strategy, {}).values()]
+    target = max(10, round(0.8 * (sum(looked) / len(looked)))) if looked else 20
+    ex = state.get("exploring", {}).get(strategy) or {}
+    text = text.format(market=MARKET_NAMES[least].lower(), target=target, competition=ex.get("name", "a new competition"))
+    return {"day": day, "id": cid, "emoji": emoji, "title": title, "text": text, "status": "active",
+            "market": least, "target": target, "league": ex.get("key")}
+
+
+def challenge_mods(ch):
+    if not ch or ch["status"] != "active":
+        return {}
+    if ch["id"] == "precision":
+        return {"edge_bonus": 0.01, "no_gut": True, "no_wild": True}
+    if ch["id"] == "discipline":
+        return {"max_odds": 3.0, "no_gut": True, "no_wild": True}
+    if ch["id"] == "new_ground":
+        return {"focus_market": ch["market"]}
+    return {}
+
+
+def judge_challenge(ch, bets, state, strategy, now):
+    """'done', 'failed', or None while it can't be judged yet (e.g. waiting for final prices)."""
+    day_over = now.date().isoformat() > ch["day"]
+    mine = day_bets(bets, strategy, ch["day"])
+    serious = [b for b in mine if not b.get("gut") and not b.get("wild")]
+    waiting = any(b.get("clv") is None and b["status"] == "open" for b in serious)
+    cid = ch["id"]
+    if cid in ("precision", "discipline", "sharp_eye", "underdog"):
+        pool = serious
+        if cid == "sharp_eye":
+            pool = [b for b in serious if b["edge"] >= 0.03]
+        if cid == "underdog":
+            pool = [b for b in serious if b["market"] == "h2h" and b["odds"] >= 2.5]
+        beat = [b for b in pool if b.get("clv") is not None and b["clv"] > 0]
+        need = 2 if cid == "precision" else 1
+        if len(beat) >= need:
+            return "done", f"{len(beat)} bet{'s' if len(beat) != 1 else ''} beat the market."
+        if day_over and not pool:
+            return "none", "No chance today: nothing fit the challenge, and not betting was the right call."
+        if day_over and not any(b.get("clv") is None for b in pool):
+            return "failed", f"{len(pool)} bet{'s' if len(pool) != 1 else ''}, but not enough beat the market."
+        return None, ""
+    if cid == "new_ground":
+        hit = [b for b in mine if b["market"] == ch["market"]]
+        if hit:
+            return "done", f"Bet {hit[0]['pick']} ({MARKET_NAMES[ch['market']].lower()})."
+        return ("failed", "No bet of that type today.") if day_over else (None, "")
+    if cid == "study":
+        n = state.get("looked_by_day", {}).get(strategy, {}).get(ch["day"], 0)
+        if n >= ch["target"]:
+            return "done", f"Studied {n} games."
+        return ("failed", f"Studied {n} of {ch['target']} games.") if day_over else (None, "")
+    if cid == "explorer":
+        hit = [b for b in mine if b["league_key"] == ch.get("league")]
+        if hit:
+            return "done", f"Bet {hit[0]['pick']} there."
+        return ("failed", "No bet there today.") if day_over else (None, "")
+    if cid == "news":
+        hit = [b for b in mine if any("I read" in t for t in b.get("thoughts", []))]
+        if hit:
+            return "done", f"Used the news in {hit[0]['pick']}."
+        return ("failed", "Nothing I read connected to a bet.") if day_over else (None, "")
+    return None, ""
+
+
+def run_challenges(bets, state, now, notes):
+    """Judge open challenges, give each character today's challenge, and set today's rules."""
+    day = now.date().isoformat()
+    all_ch = state.setdefault("challenges", {})
+    for s, c in CONFIG["strategies"].items():
+        hist = all_ch.setdefault(s, [])
+        for ch in hist:
+            if ch["status"] in ("active", "judging"):
+                verdict, detail = judge_challenge(ch, bets, state, s, now)
+                if verdict:
+                    ch["status"], ch["detail"] = verdict, detail
+                    if verdict != "none":
+                        notes.append(f"{'✅' if verdict == 'done' else '❌'} {c['emoji']} {c['name']} "
+                                     f"{'completed' if verdict == 'done' else 'missed'} {ch['emoji']} {ch['title']}: {detail}")
+                elif ch["day"] < day:
+                    ch["status"] = "judging"  # the day is over, waiting for final prices
+        if not hist or hist[-1]["day"] != day:
+            ch = pick_challenge(bets, state, s, day)
+            hist.append(ch)
+            notes.append(f"🎯 {c['emoji']} {c['name']}'s challenge today: {ch['emoji']} {ch['title']}. {ch['text']}")
+        del hist[:-60]
+        TODAY_MODS[s] = challenge_mods(hist[-1])
+
+
+def challenge_stats(state, strategy):
+    hist = state.get("challenges", {}).get(strategy, [])
+    done = [c for c in hist if c["status"] == "done"]
+    streak = 0
+    for c in reversed([c for c in hist if c["status"] in ("done", "failed")]):
+        if c["status"] != "done":
+            break
+        streak += 1
+    return {"today": hist[-1] if hist else None, "recent": hist[-8:][::-1], "done": len(done),
+            "judged": sum(1 for c in hist if c["status"] in ("done", "failed")), "streak": streak}
+
+
 # ---------- jobs ----------
 
 def odds_params(markets, **extra):
@@ -929,7 +1088,7 @@ def due_scan(state, now):
 def place_gut_bets(bets, gut_pool, placed, now, today):
     G = CONFIG["gut"]
     for strategy, pool in gut_pool.items():
-        if not pool:
+        if not pool or TODAY_MODS.get(strategy, {}).get("no_gut"):
             continue
         rec = gut_record(bets, strategy)
         cap = G["daily_cap_high"] if rec["trust"] >= G["high_trust"] else G["daily_cap"]
@@ -1016,6 +1175,9 @@ def place_wild_bets(bets, wild_pool, placed, now, today):
     choices = {}
     for strategy, pool in wild_pool.items():
         c_cfg = CONFIG["strategies"][strategy]
+        if TODAY_MODS.get(strategy, {}).get("no_wild"):
+            choices[strategy] = "No wild bets today: today's challenge is about discipline."
+            continue
         if not pool:
             choices[strategy] = "No long shot worth a look today."
             continue
@@ -1187,6 +1349,10 @@ def scan(api, bets, state, now, notes):
         else:
             mood = voice.get("wait", "Nothing worth the risk today.")
         top = sorted(misses[strategy], key=lambda m: -m["edge"])[:4]
+        lbd = state.setdefault("looked_by_day", {}).setdefault(strategy, {})
+        lbd[today] = lbd.get(today, 0) + len(looked[strategy])
+        for d_ in sorted(lbd)[:-14]:
+            del lbd[d_]
         diary[strategy] = {"t": iso(now), "mood": mood, "looked": len(looked[strategy]), "placed": len(mine),
                            "wild_choice": wild_choices.get(strategy),
                            "scouts": sum(1 for b in mine if b.get("scout")),
@@ -1421,6 +1587,7 @@ def write_dashboard(bets, state, now, notes, arena=None):
         "last_scan": state.get("last_scan"),
         "strategies": {s: summary(bets, s) | {"diary": state.get("diary", {}).get(s), "level": level_of(bets, s),
                                               "explorer": explorer_of(s, bets, state),
+                                              "challenge": challenge_stats(state, s),
                                               "mind": mind_of(s, bets, state, now)} for s in CONFIG["strategies"]},
         "bets": sorted(bets, key=lambda b: b["start"], reverse=True)[:200],
         "log": (state.get("log", []) + [{"t": iso(now), "text": n} for n in notes])[-30:],
@@ -1455,6 +1622,7 @@ def main():
         ex = state.get("exploring", {}).get(s_)
         EXTRA_LEAGUES[s_] = state.get("adopted", {}).get(s_, []) + ([ex["key"]] if ex else [])
     explore_update(sports_list, state, bets, now, notes)
+    run_challenges(bets, state, now, notes)
     scan(api, bets, state, now, notes)
     record_closing(api, bets, now, notes)
     settle(api, bets, state, now, notes)
