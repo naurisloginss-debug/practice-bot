@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11T09:15:31Z",
+  "updated": "2026-11-11T09:30:47Z",
   "start_fund": 200,
   "order": [
     "lizard",
@@ -639,8 +639,15 @@
         "appetite": 0.35
       },
       "reading": {
-        "week": 109,
+        "week": 120,
         "latest": [
+          {
+            "t": "2026-11-11T07:40:54Z",
+            "title": "Wimmer among Aberdeen applicants - gossip",
+            "link": "https://www.bbc.co.uk/sport/football/articles/c6y97eew80p7o?at_medium=RSS&at_campaign=rss",
+            "source": "feeds.bbci.co.uk",
+            "tone": 1
+          },
           {
             "t": "2026-11-10T20:07:12Z",
             "title": "Chelsea play out goalless draw with Hacken",
@@ -674,13 +681,6 @@
             "title": "Cisse: ‘I like pressure, Balotelli my Italy role model’",
             "link": "https://football-italia.net/cisse-i-like-pressure-balotelli-role-model/",
             "source": "football-italia.net",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-10T11:47:59Z",
-            "title": "Wales call up MK Dons' Collins as Moore withdraws",
-            "link": "https://www.bbc.co.uk/sport/football/articles/c62l4l2k0lyro?at_medium=RSS&at_campaign=rss",
-            "source": "feeds.bbci.co.uk",
             "tone": -1
           }
         ]
@@ -909,8 +909,36 @@
         "appetite": 0.35
       },
       "reading": {
-        "week": 101,
+        "week": 113,
         "latest": [
+          {
+            "t": "2026-11-11T05:07:53Z",
+            "title": "Paul George flips off fan for ‘being an a–hole’ in Philadelphia return after Jaylen Brown blockbuster",
+            "link": "https://sports.yahoo.com/articles/paul-george-flips-off-fan-050753385.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-11T05:00:00Z",
+            "title": "Houston Rockets vs. Golden State Warriors game preview",
+            "link": "https://sports.yahoo.com/articles/houston-rockets-vs-golden-state-050000699.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-11T04:39:51Z",
+            "title": "Lakers vs. Bucks Preview: Trap game in the making",
+            "link": "https://sports.yahoo.com/articles/lakers-vs-bucks-preview-trap-043951534.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-11T02:35:00Z",
+            "title": "Paul George flips the script — and the bird — in Philadelphia return",
+            "link": "https://sports.yahoo.com/articles/paul-george-flips-script-bird-023500511.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
           {
             "t": "2026-11-11T00:30:00Z",
             "title": "Cavs at Knicks: How to watch, odds, and injury report",
@@ -924,34 +952,6 @@
             "link": "https://sports.yahoo.com/articles/injury-pileup-gets-bigger-brandon-233604547.html",
             "source": "sports.yahoo.com",
             "tone": -1
-          },
-          {
-            "t": "2026-11-10T18:19:59Z",
-            "title": "Paul George treating return to Philly as “a regular game”",
-            "link": "https://sports.yahoo.com/articles/paul-george-treating-return-philly-181959867.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-10T18:06:30Z",
-            "title": "Steve Kerr sounds alarm over Warriors’ latest injury: ‘It’s a big concern’",
-            "link": "https://sports.yahoo.com/articles/steve-kerr-sounds-alarm-over-180630459.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-10T15:57:37Z",
-            "title": "NBA analyst suggests Warriors use Kristaps Porziņģis to trade for Magic center",
-            "link": "https://sports.yahoo.com/articles/nba-analyst-suggests-warriors-kristaps-155737457.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-10T14:48:41Z",
-            "title": "Frustrated Jordan Poole open to Bay Area return after 51-point loss to Warriors",
-            "link": "https://sports.yahoo.com/articles/frustrated-jordan-poole-open-bay-144841458.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
           }
         ]
       },
@@ -1228,12 +1228,33 @@
         "appetite": 0.5
       },
       "reading": {
-        "week": 390,
+        "week": 367,
         "latest": [
+          {
+            "t": "2026-11-11T06:45:13Z",
+            "title": "Urban Meyer Criticizes Ohio State’s QB Stance as Ryan Day Refuses to Consider Change",
+            "link": "https://sports.yahoo.com/articles/urban-meyer-criticizes-ohio-state-064513440.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
           {
             "t": "2026-11-11T04:44:27Z",
             "title": "BYU Remains in Top 10 of Latest College Football Playoff Rankings",
             "link": "https://sports.yahoo.com/articles/byu-remains-top-10-latest-044427134.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-11T04:43:24Z",
+            "title": "Joe Montana Interview Series:  Why Marcus Freeman is Special for Notre Dame",
+            "link": "https://sports.yahoo.com/articles/joe-montana-interview-series-why-044324464.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-11T03:33:05Z",
+            "title": "J.J. McCarthy puts end to any Giants hip injury speculation",
+            "link": "https://sports.yahoo.com/articles/j-j-mccarthy-puts-end-033305664.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
@@ -1245,32 +1266,11 @@
             "tone": -1
           },
           {
-            "t": "2026-11-11T01:21:25Z",
-            "title": "Former Super Bowl champion says Rams are ‘toast’ after Puka Nacua injury",
-            "link": "https://sports.yahoo.com/articles/former-super-bowl-champion-says-012125895.html",
+            "t": "2026-11-11T02:35:00Z",
+            "title": "Jordan Davis trade grades: Eagles celebrated, Jaguars dragged",
+            "link": "https://sports.yahoo.com/articles/jordan-davis-trade-grades-eagles-102943943.html",
             "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-11T00:41:56Z",
-            "title": "Dolphins workout multiple quarterbacks following Malik Willis injury news",
-            "link": "https://sports.yahoo.com/articles/dolphins-workout-multiple-quarterbacks-following-004156944.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-11T00:02:25Z",
-            "title": "Commanders upgrade WR Treylon Burks to full practice participation",
-            "link": "https://sports.yahoo.com/articles/commanders-upgrade-wr-treylon-burks-000225099.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-10T23:51:26Z",
-            "title": "Rams make pair of wide receiver moves amid Puka Nacua injury after quiet trade deadline",
-            "link": "https://sports.yahoo.com/articles/rams-pair-wide-receiver-moves-235126788.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
+            "tone": 1
           }
         ]
       },
