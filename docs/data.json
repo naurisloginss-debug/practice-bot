@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11T00:15:29Z",
+  "updated": "2026-11-11T00:30:43Z",
   "start_fund": 200,
   "order": [
     "lizard",
@@ -172,8 +172,8 @@
       "quant": {
         "iq": 91,
         "iq_gain": 7,
-        "streak": 0,
-        "best_streak": 0,
+        "streak": 1,
+        "best_streak": 1,
         "achievements": [
           {
             "key": "first_blood",
@@ -187,7 +187,7 @@
             "emoji": "🎯",
             "title": "Beat the Market",
             "desc": "Got a better price than the final one.",
-            "at": null
+            "at": "2026-11-11T00:30:43Z"
           },
           {
             "key": "ten_measured",
@@ -269,17 +269,17 @@
           {
             "text": "Bets checked against the market",
             "target": 3,
-            "now": 0
+            "now": 1
           },
           {
             "text": "Beat the market on",
             "target": 55,
-            "now": 0,
+            "now": 100,
             "unit": "%",
             "pending": true
           }
         ],
-        "score": 101,
+        "score": 106,
         "trophies": []
       },
       "shark": {
@@ -398,7 +398,7 @@
     },
     "week_start": "2026-11-09"
   },
-  "credits_left": 19747,
+  "credits_left": 19746,
   "last_scan": "2026-11-10@16",
   "strategies": {
     "lizard": {
@@ -846,9 +846,9 @@
       "profit": 0,
       "roi": null,
       "avg_edge": 0.0183,
-      "avg_clv": null,
-      "beat_close": null,
-      "clv_count": 0,
+      "avg_clv": 0.018,
+      "beat_close": 1.0,
+      "clv_count": 1,
       "history": [
         {
           "t": "2026-11-10T21:01:26Z",
@@ -861,9 +861,9 @@
           "bets": 1,
           "profit": 0,
           "roi": null,
-          "avg_clv": null,
-          "beat_close": null,
-          "clv_count": 0
+          "avg_clv": 0.018,
+          "beat_close": 1.0,
+          "clv_count": 1
         }
       ],
       "by_market": [
@@ -872,9 +872,9 @@
           "bets": 1,
           "profit": 0,
           "roi": null,
-          "avg_clv": null,
-          "beat_close": null,
-          "clv_count": 0
+          "avg_clv": 0.018,
+          "beat_close": 1.0,
+          "clv_count": 1
         }
       ],
       "by_sport": [
@@ -883,9 +883,9 @@
           "bets": 1,
           "profit": 0,
           "roi": null,
-          "avg_clv": null,
-          "beat_close": null,
-          "clv_count": 0
+          "avg_clv": 0.018,
+          "beat_close": 1.0,
+          "clv_count": 1
         }
       ],
       "gut": {
@@ -1006,9 +1006,9 @@
         "badge": "🐣",
         "stake": 1.0,
         "perk": "Normal stakes while it proves itself.",
-        "measured": 0,
-        "clv": 0.0,
-        "beat": 0.0,
+        "measured": 1,
+        "clv": 0.018,
+        "beat": 1.0,
         "cold": false,
         "next": {
           "title": "Apprentice",
@@ -1018,20 +1018,20 @@
             {
               "text": "15 measured bets",
               "done": false,
-              "now": "0"
+              "now": "1"
             },
             {
               "text": "beat the market on 50%+",
-              "done": false,
-              "now": "–"
+              "done": true,
+              "now": "100%"
             },
             {
               "text": "average price +0.0%+ vs market",
-              "done": false,
-              "now": "–"
+              "done": true,
+              "now": "+1.8%"
             }
           ],
-          "progress": 0.0
+          "progress": 0.067
         }
       },
       "mind": {
@@ -1553,8 +1553,8 @@
       "edge": 0.0183,
       "stake": 2.02,
       "status": "open",
-      "closing_fair_odds": null,
-      "clv": null,
+      "closing_fair_odds": 1.876,
+      "clv": 0.018,
       "profit": 0.0,
       "score": null,
       "settled_at": null,
@@ -2341,10 +2341,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-06T16:00:57Z",
-      "text": "Placed 4 practice bets:\n- The Lizard: **Millwall** (Winner) in West Bromwich Albion vs Millwall (Championship (England 2)) at 3.74 on BetOnline.ag, stake 0.98, edge +3.4%\n- The Lizard: **Marseille** (Winner) in RC Lens vs Marseille (Ligue 1 (France)) at 3.1 on Unibet (SE), stake 1.02, edge +2.7%\n- The Lizard: **Under 2.5** (Total) in Holstein Kiel vs Arminia Bielefeld (2. Bundesliga) at 2.05 on LeoVegas (SE), stake 2.11, edge +2.8%\n- The Lizard: **Draw** (Winner) in Boulogne vs Annecy FC (Ligue 2 (France 2)) at 3.1 on Coolbet, stake 0.95, edge +2.5%"
-    },
-    {
       "t": "2026-11-06T18:30:45Z",
       "text": "🏅 🦎 The Lizard unlocked 🎯 Beat the Market: Got a better price than the final one."
     },
@@ -2459,6 +2455,10 @@
     {
       "t": "2026-11-10T21:01:26Z",
       "text": "🏅 🧮 The Quant unlocked 📚 Scholar: Studied 100 games."
+    },
+    {
+      "t": "2026-11-11T00:30:43Z",
+      "text": "🏅 🧮 The Quant unlocked 🎯 Beat the Market: Got a better price than the final one."
     }
   ]
 }
