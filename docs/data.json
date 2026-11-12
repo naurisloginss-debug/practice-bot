@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T13:15:31Z",
+  "updated": "2026-11-12T13:30:44Z",
   "start_fund": 200,
   "order": [
     "lizard",
@@ -29,8 +29,8 @@
     ],
     "chars": {
       "lizard": {
-        "iq": 101,
-        "iq_gain": 4,
+        "iq": 102,
+        "iq_gain": 5,
         "streak": 6,
         "best_streak": 7,
         "achievements": [
@@ -152,7 +152,7 @@
             "pending": true
           }
         ],
-        "score": 126,
+        "score": 127,
         "trophies": [
           {
             "kind": "sharpshooter",
@@ -697,8 +697,22 @@
         "appetite": 0.45
       },
       "reading": {
-        "week": 119,
+        "week": 130,
         "latest": [
+          {
+            "t": "2026-11-12T13:11:49Z",
+            "title": "Police investigation into Vigar's death ongoing",
+            "link": "https://www.bbc.co.uk/sport/football/articles/ckm2mn2lvld9o?at_medium=RSS&at_campaign=rss",
+            "source": "feeds.bbci.co.uk",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-12T12:23:47Z",
+            "title": "Crystal Palace sack boss Sage after 16 games",
+            "link": "https://www.bbc.co.uk/sport/football/articles/cv5y18lkk87do?at_medium=RSS&at_campaign=rss",
+            "source": "feeds.bbci.co.uk",
+            "tone": -1
+          },
           {
             "t": "2026-11-12T10:21:29Z",
             "title": "The chaos that took Carrick from two-year deal to sacked within 15 games",
@@ -725,20 +739,6 @@
             "title": "Legally restrict heading a football in training, says MP",
             "link": "https://www.bbc.co.uk/sport/football/articles/cm1ewpjyy3dzo?at_medium=RSS&at_campaign=rss",
             "source": "feeds.bbci.co.uk",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-11T16:26:24Z",
-            "title": "Referee observer banned for discriminatory comments",
-            "link": "https://www.bbc.co.uk/sport/football/articles/ckedq15wq0dlo?at_medium=RSS&at_campaign=rss",
-            "source": "feeds.bbci.co.uk",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-11T15:35:36Z",
-            "title": "Lazio lose Nuno Tavares and Sutalo for at least 3 weeks to fresh injury",
-            "link": "https://football-italia.net/lazio-lose-nuno-tavares-and-sutalo-for-3-weeks/",
-            "source": "football-italia.net",
             "tone": -1
           }
         ]
@@ -879,8 +879,8 @@
         "streak": 0
       },
       "mind": {
-        "iq": 101,
-        "iq_week": 20,
+        "iq": 102,
+        "iq_week": 21,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -916,7 +916,7 @@
           },
           {
             "d": "2026-11-12",
-            "iq": 101
+            "iq": 102
           }
         ],
         "facts": [
@@ -1160,8 +1160,29 @@
         "appetite": 0.35
       },
       "reading": {
-        "week": 130,
+        "week": 90,
         "latest": [
+          {
+            "t": "2026-11-12T07:32:41Z",
+            "title": "Lakers’ Collin Sexton gets stitches after scary collision in win over Bucks",
+            "link": "https://sports.yahoo.com/articles/lakers-collin-sexton-gets-stitches-073241368.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-12T07:20:50Z",
+            "title": "Luka Doncic’s, Austin Reaves’ injury scares dose of scary deja vu for Lakers",
+            "link": "https://sports.yahoo.com/articles/luka-doncic-austin-reaves-injury-072050738.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-12T06:55:21Z",
+            "title": "Stephen Curry exits with injury in Warriors’ loss to Rockets: ‘Concern is high’",
+            "link": "https://sports.yahoo.com/articles/stephen-curry-exits-injury-warriors-065521393.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
           {
             "t": "2026-11-12T06:47:41Z",
             "title": "Stephen Curry injury: 'Concern high' as Warriors superstar has MRI on abdomen",
@@ -1182,27 +1203,6 @@
             "link": "https://sports.yahoo.com/articles/rockets-beat-warriors-115-108-053508847.html",
             "source": "sports.yahoo.com",
             "tone": 1
-          },
-          {
-            "t": "2026-11-12T05:16:39Z",
-            "title": "Yaxel Lendeborg, Warriors can’t overcome Steph Curry injury in loss to Rockets",
-            "link": "https://sports.yahoo.com/articles/yaxel-lendeborg-warriors-t-overcome-051639047.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-12T04:33:34Z",
-            "title": "Wizards host Pistons Preview: Washington returns from four-game road trip",
-            "link": "https://sports.yahoo.com/articles/wizards-host-pistons-preview-washington-043334418.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-12T04:21:38Z",
-            "title": "Luka Doncic has injury scare against Bucks",
-            "link": "https://sports.yahoo.com/articles/luka-doncic-injury-scare-against-042138708.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
           }
         ]
       },
@@ -1548,49 +1548,49 @@
         "appetite": 0.6
       },
       "reading": {
-        "week": 351,
+        "week": 380,
         "latest": [
           {
-            "t": "2026-11-12T10:00:00Z",
-            "title": "How to watch Commanders vs Giants: TV, radio, streaming, Week 10 injury report",
-            "link": "https://sports.yahoo.com/articles/watch-commanders-vs-giants-tv-100000605.html",
+            "t": "2026-11-12T13:00:42Z",
+            "title": "SMU vs. Wake Forest: Key Injuries Could Shape Top-25 ACC Showdown",
+            "link": "https://sports.yahoo.com/articles/smu-vs-wake-forest-key-130042181.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-12T09:33:00Z",
-            "title": "Wayshawn Parker Questionable for Utah&#39;s Matchup With Arizona",
-            "link": "https://sports.yahoo.com/articles/wayshawn-parker-questionable-utahs-matchup-093300936.html",
+            "t": "2026-11-12T12:59:00Z",
+            "title": "Dolphins news: Injuries, roster changes, and preparation for Colts in Week 10",
+            "link": "https://sports.yahoo.com/articles/dolphins-news-injuries-roster-changes-125900686.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-12T09:02:25Z",
-            "title": "Longtime Rutgers football player &#39;elated&#39; Greg Schiano returning in 2027",
-            "link": "https://sports.yahoo.com/articles/longtime-rutgers-football-player-elated-090225496.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-12T09:01:47Z",
-            "title": "Georgia football vs Missouri scouting report, bold predictions, injury updates",
-            "link": "https://sports.yahoo.com/articles/georgia-football-vs-missouri-scouting-090147693.html",
+            "t": "2026-11-12T12:50:02Z",
+            "title": "LSU football upgrades Whit Weeks to questionable for Texas game",
+            "link": "https://sports.yahoo.com/articles/lsu-football-upgrades-whit-weeks-125002231.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-12T08:29:37Z",
-            "title": "UW Huskies Film Study: Penn State Nittany Lions",
-            "link": "https://sports.yahoo.com/articles/uw-huskies-film-study-penn-082937141.html",
+            "t": "2026-11-12T12:26:02Z",
+            "title": "Oklahoma vs. Ole Miss: Key players set to return for Sooners",
+            "link": "https://sports.yahoo.com/articles/oklahoma-vs-ole-miss-key-122602922.html",
             "source": "sports.yahoo.com",
             "tone": 1
           },
           {
-            "t": "2026-11-12T04:59:00Z",
-            "title": "Eagles’ Chavis named league POY; Hunt COY",
-            "link": "https://sports.yahoo.com/articles/eagles-chavis-named-league-poy-045900947.html",
+            "t": "2026-11-12T12:12:21Z",
+            "title": "Dolphins QB Kyle McCord: Experience in big games something I can draw from",
+            "link": "https://sports.yahoo.com/articles/dolphins-qb-kyle-mccord-experience-121221570.html",
             "source": "sports.yahoo.com",
-            "tone": 1
+            "tone": -1
+          },
+          {
+            "t": "2026-11-12T12:04:41Z",
+            "title": "When will Jaxson Dart return? Giants QB suffered leg injury Week 2, timeline",
+            "link": "https://sports.yahoo.com/articles/jaxson-dart-return-giants-qb-120441408.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
           }
         ]
       },
