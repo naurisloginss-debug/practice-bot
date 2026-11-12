@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T08:00:52Z",
+  "updated": "2026-11-12T08:15:30Z",
   "start_fund": 200,
   "order": [
     "lizard",
@@ -184,8 +184,8 @@
         ]
       },
       "quant": {
-        "iq": 103,
-        "iq_gain": 19,
+        "iq": 104,
+        "iq_gain": 20,
         "streak": 2,
         "best_streak": 3,
         "achievements": [
@@ -307,7 +307,7 @@
             "pending": false
           }
         ],
-        "score": 136,
+        "score": 137,
         "trophies": []
       },
       "shark": {
@@ -440,7 +440,7 @@
     },
     "week_start": "2026-11-09"
   },
-  "credits_left": 19592,
+  "credits_left": 19590,
   "last_scan": "2026-11-12@8",
   "strategies": {
     "lizard": {
@@ -999,15 +999,15 @@
         "Winner"
       ],
       "start_fund": 200,
-      "fund": 198.94,
+      "fund": 203.7,
       "lessons": [],
       "bets": 15,
-      "open": 11,
-      "won": 2,
-      "lost": 2,
-      "staked": 6.96,
-      "profit": -1.06,
-      "roi": -0.1523,
+      "open": 6,
+      "won": 6,
+      "lost": 3,
+      "staked": 13.7,
+      "profit": 3.7,
+      "roi": 0.2701,
       "avg_edge": 0.0321,
       "avg_clv": 0.0026,
       "beat_close": 0.6667,
@@ -1032,6 +1032,26 @@
         {
           "t": "2026-11-12T03:15:30Z",
           "fund": 198.94
+        },
+        {
+          "t": "2026-11-12T08:15:30Z",
+          "fund": 200.91
+        },
+        {
+          "t": "2026-11-12T08:15:30Z",
+          "fund": 198.74
+        },
+        {
+          "t": "2026-11-12T08:15:30Z",
+          "fund": 201.76
+        },
+        {
+          "t": "2026-11-12T08:15:30Z",
+          "fund": 202.72
+        },
+        {
+          "t": "2026-11-12T08:15:30Z",
+          "fund": 203.7
         }
       ],
       "by_league": [
@@ -1047,8 +1067,8 @@
         {
           "name": "College basketball (US)",
           "bets": 6,
-          "profit": 0,
-          "roi": null,
+          "profit": 4.76,
+          "roi": 0.7062,
           "avg_clv": 0.0053,
           "beat_close": 0.5,
           "clv_count": 4
@@ -1076,8 +1096,8 @@
         {
           "name": "Total",
           "bets": 3,
-          "profit": 0,
-          "roi": null,
+          "profit": -0.23,
+          "roi": -0.0549,
           "avg_clv": 0.0057,
           "beat_close": 0.5,
           "clv_count": 2
@@ -1085,8 +1105,8 @@
         {
           "name": "Winner",
           "bets": 11,
-          "profit": -2.09,
-          "roi": -0.3513,
+          "profit": 2.9,
+          "roi": 0.3412,
           "avg_clv": -0.0015,
           "beat_close": 0.6667,
           "clv_count": 9
@@ -1096,8 +1116,8 @@
         {
           "name": "Basketball",
           "bets": 15,
-          "profit": -1.06,
-          "roi": -0.1523,
+          "profit": 3.7,
+          "roi": 0.2701,
           "avg_clv": 0.0026,
           "beat_close": 0.6667,
           "clv_count": 12
@@ -1110,9 +1130,9 @@
         "beat": 0.0,
         "trust": 0.4,
         "base": 0.4,
-        "won": 0,
+        "won": 1,
         "lost": 0,
-        "profit": 0
+        "profit": 0.98
       },
       "wild": {
         "bets": 2,
@@ -1306,8 +1326,8 @@
         "streak": 1
       },
       "mind": {
-        "iq": 103,
-        "iq_week": 23,
+        "iq": 104,
+        "iq_week": 24,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -1343,7 +1363,7 @@
           },
           {
             "d": "2026-11-12",
-            "iq": 103
+            "iq": 104
           }
         ],
         "facts": [
@@ -1363,15 +1383,15 @@
           },
           {
             "conf": "solid",
-            "n": 82,
+            "n": 103,
             "z": 0,
             "text": "The market prices overs in College basketball (US) accurately.",
-            "detail": "45% happened, 50% priced, 82 games"
+            "detail": "47% happened, 50% priced, 103 games"
           }
         ],
         "rules": 0,
         "studied": 183,
-        "resolved": 127
+        "resolved": 148
       }
     },
     "shark": {
@@ -2617,12 +2637,12 @@
       "fair_odds": 3.156,
       "edge": 0.0298,
       "stake": 1.34,
-      "status": "open",
+      "status": "won",
       "closing_fair_odds": 3.113,
       "clv": 0.0441,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": 3.02,
+      "score": "Long Beach St 49ers 62 - 59 Pacific Tigers",
+      "settled_at": "2026-11-12T08:15:30Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates Long Beach St 49ers at 31.7%. That makes the fair price 3.16.",
         "LeoVegas (SE) pays 3.25. That is +3.0% above fair. My bar is +1.5%.",
@@ -2811,12 +2831,12 @@
       "fair_odds": 1.939,
       "edge": 0.0056,
       "stake": 1.01,
-      "status": "open",
+      "status": "won",
       "closing_fair_odds": null,
       "clv": null,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": 0.96,
+      "score": "North Texas Mean Green 71 - 76 Santa Clara Broncos",
+      "settled_at": "2026-11-12T08:15:30Z",
       "thoughts": [
         "🧭 Exploring. I've only made 1 bet like this (College basketball (US) total bets at favourites).",
         "Under 152 at 1.95 is +0.56% above fair: below my usual bar, but the only way to learn if this kind of bet works for me is to try it.",
@@ -2925,12 +2945,12 @@
       "fair_odds": 2.58,
       "edge": 0.0195,
       "stake": 1.21,
-      "status": "open",
+      "status": "won",
       "closing_fair_odds": 2.724,
       "clv": -0.0344,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": 1.97,
+      "score": "Indiana St Sycamores 73 - 82 Milwaukee Panthers",
+      "settled_at": "2026-11-12T08:15:30Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates Milwaukee Panthers at 38.8%. That makes the fair price 2.58.",
         "Unibet (NL) pays 2.63. That is +1.9% above fair. My bar is +1.5%.",
@@ -2964,12 +2984,12 @@
       "fair_odds": 1.939,
       "edge": 0.0211,
       "stake": 2.17,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 1.939,
       "clv": 0.0211,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -2.17,
+      "score": "Norfolk St Spartans 60 - 71 Old Dominion Monarchs",
+      "settled_at": "2026-11-12T08:15:30Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates Over 136 at 51.6%. That makes the fair price 1.94.",
         "BetOnline.ag pays 1.98. That is +2.1% above fair. My bar is +1.5%.",
@@ -3002,12 +3022,12 @@
       "fair_odds": 1.954,
       "edge": 0.0083,
       "stake": 1.01,
-      "status": "open",
+      "status": "won",
       "closing_fair_odds": 1.99,
       "clv": -0.0098,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": 0.98,
+      "score": "Temple Owls 81 - 91 Charleston Cougars",
+      "settled_at": "2026-11-12T08:15:30Z",
       "thoughts": [
         "Only +0.83% edge, just under my +1.5% bar. Can't prove it, but I like it.",
         "My rules say no. The model says no. The 2% of me that isn't a model says try it.",
@@ -3864,10 +3884,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-09T03:00:57Z",
-      "text": "Results:\n- Won +3.08: Indianapolis Colts +5.5 (Spread) in Indianapolis Colts vs Dallas Cowboys (Indianapolis Colts 23 - 27 Dallas Cowboys)"
-    },
-    {
       "t": "2026-11-09T08:00:57Z",
       "text": "🏅 🦈 The Shark unlocked 📚 Scholar: Studied 100 games."
     },
@@ -3982,6 +3998,10 @@
     {
       "t": "2026-11-12T08:00:52Z",
       "text": "Placed 7 practice bets:\n- The Lizard: **Córdoba** (Winner) in Mallorca vs Córdoba (La Liga 2 (Spain 2)) at 4.1 on Unibet (NL), stake 1.78, edge +7.0%\n- The Shark: **Maryland Terrapins** (Winner) in Maryland Terrapins vs Wisconsin Badgers (College football (US)) at 3.92 on BetOnline.ag, stake 1.14, edge +3.3%\n- The Shark: **UTEP Miners** (Winner) in UTEP Miners vs Wyoming Cowboys (College football (US)) at 3.88 on MyBookie.ag, stake 1.28, edge +3.7%\n- The Quant 🧭 scout: **South Alabama Jaguars** (Winner) in South Alabama Jaguars vs Loyola Marymount Lions (College basketball (US)) at 2.0 on Unibet (NL), stake 0.99, edge +1.3%\n- The Shark 🧭 scout: **Green Bay Packers** (Winner) in Green Bay Packers vs Minnesota Vikings (NFL) at 1.67 on Unibet (SE), stake 1.00, edge +1.4%\n- The Shark 💭 gut: **Miami Dolphins** (Winner) in Indianapolis Colts vs Miami Dolphins (NFL) at 2.8 on GTbets, stake 1.00, edge +-0.1%\n- The Shark 🎲 wild: **Michigan Wolverines** (Winner) in Oregon Ducks vs Michigan Wolverines (College football (US)) at 4.5 on Coolbet, stake 0.50, edge +-0.9%"
+    },
+    {
+      "t": "2026-11-12T08:15:30Z",
+      "text": "Results:\n- Won +1.97: Milwaukee Panthers (Winner) in Indiana St Sycamores vs Milwaukee Panthers (Indiana St Sycamores 73 - 82 Milwaukee Panthers)\n- Lost -2.17: Over 136 (Total) in Norfolk St Spartans vs Old Dominion Monarchs (Norfolk St Spartans 60 - 71 Old Dominion Monarchs)\n- Won +3.02: Long Beach St 49ers (Winner) in Long Beach St 49ers vs Pacific Tigers (Long Beach St 49ers 62 - 59 Pacific Tigers)\n- Won +0.96: Under 152 (Total) in North Texas Mean Green vs Santa Clara Broncos (North Texas Mean Green 71 - 76 Santa Clara Broncos)\n- Won +0.98: Over 158 (Total) in Temple Owls vs Charleston Cougars (Temple Owls 81 - 91 Charleston Cougars)"
     }
   ]
 }
