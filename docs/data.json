@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T16:15:32Z",
+  "updated": "2026-11-12T16:30:44Z",
   "start_fund": 200,
   "order": [
     "lizard",
@@ -29,8 +29,8 @@
     ],
     "chars": {
       "lizard": {
-        "iq": 102,
-        "iq_gain": 5,
+        "iq": 101,
+        "iq_gain": 4,
         "streak": 6,
         "best_streak": 7,
         "achievements": [
@@ -152,7 +152,7 @@
             "pending": true
           }
         ],
-        "score": 127,
+        "score": 126,
         "trophies": [
           {
             "kind": "sharpshooter",
@@ -697,8 +697,36 @@
         "appetite": 0.45
       },
       "reading": {
-        "week": 130,
+        "week": 100,
         "latest": [
+          {
+            "t": "2026-11-12T16:23:54Z",
+            "title": "Inter receive double boost: Confidence over defender’s extension and injury return",
+            "link": "https://football-italia.net/inter-double-boost-defender-extension-injury/",
+            "source": "football-italia.net",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-12T15:39:19Z",
+            "title": "Owono undecided over future following De Miguel death",
+            "link": "https://www.bbc.co.uk/sport/football/articles/ckedq01zve04o?at_medium=RSS&at_campaign=rss",
+            "source": "feeds.bbci.co.uk",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-12T15:33:20Z",
+            "title": "Mbappé omission vs. Italy may not be injury-related only",
+            "link": "https://football-italia.net/mbappe-omission-v-italy-may-not-injury-only/",
+            "source": "football-italia.net",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-12T14:22:24Z",
+            "title": "Mbappe included in France matchday squad vs. Italy despite injury concerns",
+            "link": "https://football-italia.net/mbappe-included-france-matchday-squad-vs-italy/",
+            "source": "football-italia.net",
+            "tone": -1
+          },
           {
             "t": "2026-11-12T13:11:49Z",
             "title": "Police investigation into Vigar's death ongoing",
@@ -710,34 +738,6 @@
             "t": "2026-11-12T12:23:47Z",
             "title": "Crystal Palace sack boss Sage after 16 games",
             "link": "https://www.bbc.co.uk/sport/football/articles/cv5y18lkk87do?at_medium=RSS&at_campaign=rss",
-            "source": "feeds.bbci.co.uk",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-12T10:21:29Z",
-            "title": "The chaos that took Carrick from two-year deal to sacked within 15 games",
-            "link": "https://www.bbc.co.uk/sport/football/articles/cm0rl4kwn8vqo?at_medium=RSS&at_campaign=rss",
-            "source": "feeds.bbci.co.uk",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-11T21:03:33Z",
-            "title": "Italy vs. France probable line-ups: Injuries dictate Nations League teams",
-            "link": "https://football-italia.net/italy-france-probable-line-ups-nations-league/",
-            "source": "football-italia.net",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-11T18:48:43Z",
-            "title": "Inter relief at Thuram injury, but muscular issues becoming a problem",
-            "link": "https://football-italia.net/inter-relief-thuram-injury-muscular-issues/",
-            "source": "football-italia.net",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-11T17:38:18Z",
-            "title": "Legally restrict heading a football in training, says MP",
-            "link": "https://www.bbc.co.uk/sport/football/articles/cm1ewpjyy3dzo?at_medium=RSS&at_campaign=rss",
             "source": "feeds.bbci.co.uk",
             "tone": -1
           }
@@ -880,8 +880,8 @@
       },
       "traits": [],
       "mind": {
-        "iq": 102,
-        "iq_week": 21,
+        "iq": 101,
+        "iq_week": 20,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -917,7 +917,7 @@
           },
           {
             "d": "2026-11-12",
-            "iq": 102
+            "iq": 101
           }
         ],
         "facts": [
@@ -1161,8 +1161,22 @@
         "appetite": 0.35
       },
       "reading": {
-        "week": 90,
+        "week": 107,
         "latest": [
+          {
+            "t": "2026-11-12T14:53:23Z",
+            "title": "Stephen Curry to undergo MRI for abdominal injury; Warriors&#39; concern level is &quot;high&quot;",
+            "link": "https://sports.yahoo.com/articles/stephen-curry-undergo-mri-abdominal-145323381.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-12T13:35:33Z",
+            "title": "Marcus Smart called out for 'fake toughness' after throwing punch at Warriors' Charles Bassey",
+            "link": "https://www.cbssports.com/nba/news/marcus-smart-fake-toughness-punch-warriors-charles-bassey/",
+            "source": "www.cbssports.com",
+            "tone": -1
+          },
           {
             "t": "2026-11-12T07:32:41Z",
             "title": "Lakers’ Collin Sexton gets stitches after scary collision in win over Bucks",
@@ -1190,20 +1204,6 @@
             "link": "https://www.cbssports.com/nba/news/stephen-curry-injury-warriors-abdominal/",
             "source": "www.cbssports.com",
             "tone": -1
-          },
-          {
-            "t": "2026-11-12T05:39:01Z",
-            "title": "What does Steph Curry injury mean for Warriors? Can they weather the storm?",
-            "link": "https://sports.yahoo.com/articles/does-steph-curry-injury-mean-053901663.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-12T05:35:08Z",
-            "title": "Rockets beat Warriors 115-108 to end Golden State’s 8-game winning streak after Curry’s early exit",
-            "link": "https://sports.yahoo.com/articles/rockets-beat-warriors-115-108-053508847.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
           }
         ]
       },
@@ -1550,47 +1550,47 @@
         "appetite": 0.6
       },
       "reading": {
-        "week": 380,
+        "week": 393,
         "latest": [
           {
-            "t": "2026-11-12T13:00:42Z",
-            "title": "SMU vs. Wake Forest: Key Injuries Could Shape Top-25 ACC Showdown",
-            "link": "https://sports.yahoo.com/articles/smu-vs-wake-forest-key-130042181.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-12T12:59:00Z",
-            "title": "Dolphins news: Injuries, roster changes, and preparation for Colts in Week 10",
-            "link": "https://sports.yahoo.com/articles/dolphins-news-injuries-roster-changes-125900686.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-12T12:50:02Z",
-            "title": "LSU football upgrades Whit Weeks to questionable for Texas game",
-            "link": "https://sports.yahoo.com/articles/lsu-football-upgrades-whit-weeks-125002231.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-12T12:26:02Z",
-            "title": "Oklahoma vs. Ole Miss: Key players set to return for Sooners",
-            "link": "https://sports.yahoo.com/articles/oklahoma-vs-ole-miss-key-122602922.html",
+            "t": "2026-11-12T16:01:00Z",
+            "title": "5 things to know about Northwestern",
+            "link": "https://sports.yahoo.com/articles/5-things-know-northwestern-160100820.html",
             "source": "sports.yahoo.com",
             "tone": 1
           },
           {
-            "t": "2026-11-12T12:12:21Z",
-            "title": "Dolphins QB Kyle McCord: Experience in big games something I can draw from",
-            "link": "https://sports.yahoo.com/articles/dolphins-qb-kyle-mccord-experience-121221570.html",
+            "t": "2026-11-12T15:40:57Z",
+            "title": "Fantasy football injury report: Week 10 updates on Patrick Mahomes, A.J. Brown",
+            "link": "https://sports.yahoo.com/articles/fantasy-football-injury-report-week-154057993.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-12T12:04:41Z",
-            "title": "When will Jaxson Dart return? Giants QB suffered leg injury Week 2, timeline",
-            "link": "https://sports.yahoo.com/articles/jaxson-dart-return-giants-qb-120441408.html",
+            "t": "2026-11-12T15:23:56Z",
+            "title": "Michigan Receives Devastating Offensive Line News Ahead of Oregon Showdown",
+            "link": "https://sports.yahoo.com/articles/michigan-receives-devastating-offensive-line-152356312.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-12T15:23:03Z",
+            "title": "College football Week 11 players to watch: Can Wake Forest&#39;s Gio Lopez return with big game vs. SMU?",
+            "link": "https://sports.yahoo.com/college-football/article/college-football-week-11-players-to-watch-can-wake-forests-gio-lopez-return-with-big-game-vs-smu-152303851.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-12T15:17:49Z",
+            "title": "Week 10 Fantasy Football Sleepers: Puka Nacua injury opens up opportunity for Konata Mumpfield",
+            "link": "https://sports.yahoo.com/fantasy/article/week-10-fantasy-football-sleepers-puka-nacua-injury-opens-up-opportunity-for-konata-mumpfield-151749386.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-12T15:14:58Z",
+            "title": "Jumbo Package: Alabama football at Vanderbilt initial injury report",
+            "link": "https://sports.yahoo.com/articles/jumbo-package-alabama-football-vanderbilt-151458168.html",
             "source": "sports.yahoo.com",
             "tone": -1
           }
