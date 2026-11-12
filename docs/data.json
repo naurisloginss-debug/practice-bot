@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T03:00:57Z",
+  "updated": "2026-11-12T03:15:30Z",
   "start_fund": 200,
   "order": [
     "lizard",
@@ -440,7 +440,7 @@
     },
     "week_start": "2026-11-09"
   },
-  "credits_left": 19631,
+  "credits_left": 19629,
   "last_scan": "2026-11-11@16",
   "strategies": {
     "lizard": {
@@ -974,15 +974,15 @@
         "Winner"
       ],
       "start_fund": 200,
-      "fund": 202.87,
+      "fund": 198.94,
       "lessons": [],
       "bets": 14,
-      "open": 12,
+      "open": 10,
       "won": 2,
-      "lost": 0,
-      "staked": 3.03,
-      "profit": 2.87,
-      "roi": 0.9472,
+      "lost": 2,
+      "staked": 6.96,
+      "profit": -1.06,
+      "roi": -0.1523,
       "avg_edge": 0.0334,
       "avg_clv": 0.0026,
       "beat_close": 0.6667,
@@ -999,6 +999,14 @@
         {
           "t": "2026-11-11T22:45:29Z",
           "fund": 202.87
+        },
+        {
+          "t": "2026-11-12T03:15:30Z",
+          "fund": 201.29
+        },
+        {
+          "t": "2026-11-12T03:15:30Z",
+          "fund": 198.94
         }
       ],
       "by_league": [
@@ -1023,8 +1031,8 @@
         {
           "name": "NBA",
           "bets": 7,
-          "profit": 1.84,
-          "roi": 0.9109,
+          "profit": -2.09,
+          "roi": -0.3513,
           "avg_clv": -0.0033,
           "beat_close": 0.7143,
           "clv_count": 7
@@ -1052,8 +1060,8 @@
         {
           "name": "Winner",
           "bets": 10,
-          "profit": 1.84,
-          "roi": 0.9109,
+          "profit": -2.09,
+          "roi": -0.3513,
           "avg_clv": -0.0015,
           "beat_close": 0.6667,
           "clv_count": 9
@@ -1063,8 +1071,8 @@
         {
           "name": "Basketball",
           "bets": 14,
-          "profit": 2.87,
-          "roi": 0.9472,
+          "profit": -1.06,
+          "roi": -0.1523,
           "avg_clv": 0.0026,
           "beat_close": 0.6667,
           "clv_count": 12
@@ -1301,7 +1309,7 @@
         ],
         "rules": 0,
         "studied": 165,
-        "resolved": 124
+        "resolved": 127
       }
     },
     "shark": {
@@ -2510,12 +2518,12 @@
       "fair_odds": 2.395,
       "edge": 0.0229,
       "stake": 1.58,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 2.399,
       "clv": 0.0213,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -1.58,
+      "score": "Indiana Pacers 114 - 101 Washington Wizards",
+      "settled_at": "2026-11-12T03:15:30Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates Washington Wizards at 41.8%. That makes the fair price 2.40.",
         "Everygame pays 2.45. That is +2.3% above fair. My bar is +1.5%.",
@@ -2549,12 +2557,12 @@
       "fair_odds": 3.0,
       "edge": 0.05,
       "stake": 2.35,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 2.841,
       "clv": 0.1087,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -2.35,
+      "score": "Toronto Raptors 93 - 98 Boston Celtics",
+      "settled_at": "2026-11-12T03:15:30Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates Toronto Raptors at 33.3%. That makes the fair price 3.00.",
         "Coolbet pays 3.15. That is +5.0% above fair. My bar is +1.5%.",
@@ -3527,10 +3535,6 @@
   "log": [
     {
       "t": "2026-11-09T00:00:57Z",
-      "text": "📈 🦎 The Lizard wins Grower of the Week (week of 02 Nov). +16 Sport IQ."
-    },
-    {
-      "t": "2026-11-09T00:00:57Z",
       "text": "🎯 🦎 The Lizard wins Sharpshooter of the Week (week of 02 Nov). Beat the market on 74% of 19 bets."
     },
     {
@@ -3644,6 +3648,10 @@
     {
       "t": "2026-11-12T02:00:51Z",
       "text": "🏅 🧮 The Quant unlocked 🧠 IQ 100: Reached Sport IQ 100."
+    },
+    {
+      "t": "2026-11-12T03:15:30Z",
+      "text": "Results:\n- Lost -1.58: Washington Wizards (Winner) in Indiana Pacers vs Washington Wizards (Indiana Pacers 114 - 101 Washington Wizards)\n- Lost -2.35: Toronto Raptors (Winner) in Toronto Raptors vs Boston Celtics (Toronto Raptors 93 - 98 Boston Celtics)"
     }
   ]
 }
