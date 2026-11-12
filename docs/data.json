@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T02:00:51Z",
+  "updated": "2026-11-12T02:15:29Z",
   "start_fund": 200,
   "order": [
     "lizard",
@@ -184,8 +184,8 @@
         ]
       },
       "quant": {
-        "iq": 100,
-        "iq_gain": 16,
+        "iq": 102,
+        "iq_gain": 18,
         "streak": 1,
         "best_streak": 3,
         "achievements": [
@@ -307,7 +307,7 @@
             "pending": false
           }
         ],
-        "score": 133,
+        "score": 135,
         "trophies": []
       },
       "shark": {
@@ -440,7 +440,7 @@
     },
     "week_start": "2026-11-09"
   },
-  "credits_left": 19634,
+  "credits_left": 19632,
   "last_scan": "2026-11-11@16",
   "strategies": {
     "lizard": {
@@ -1236,8 +1236,8 @@
         "streak": 1
       },
       "mind": {
-        "iq": 100,
-        "iq_week": 20,
+        "iq": 102,
+        "iq_week": 22,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -1273,7 +1273,7 @@
           },
           {
             "d": "2026-11-12",
-            "iq": 100
+            "iq": 102
           }
         ],
         "facts": [
@@ -1290,11 +1290,18 @@
             "z": 0,
             "text": "Matchbook is the softest bookmaker in NBA.",
             "detail": "beats fair by 2%+ on 4% of its prices vs 1% across all bookmakers"
+          },
+          {
+            "conf": "solid",
+            "n": 82,
+            "z": 0,
+            "text": "The market prices overs in College basketball (US) accurately.",
+            "detail": "45% happened, 50% priced, 82 games"
           }
         ],
         "rules": 0,
         "studied": 165,
-        "resolved": 99
+        "resolved": 124
       }
     },
     "shark": {
