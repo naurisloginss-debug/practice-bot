@@ -163,6 +163,8 @@
   .gut { margin: 14px 0 0; padding: 12px; border-radius: 14px; background: var(--card-2); border: 1px solid var(--line); }
   .wildchip { background: rgba(235,104,52,.18) !important; color: var(--accent-2) !important; margin-left: 4px; }
   .scoutchip { background: rgba(31,157,85,.16) !important; color: var(--good) !important; margin-left: 4px; }
+  .race { border-top: 4px solid #c9a227; }
+  .race-top { display: flex; gap: 18px; align-items: center; flex-wrap: wrap; }
   .challenge { border-top: 4px solid var(--pc); }
   .ch-main { display: flex; gap: 14px; align-items: flex-start; }
   .ch-emoji { font-size: 36px; line-height: 1; }
@@ -305,6 +307,8 @@ function render() {
   const winRate = s.won + s.lost ? Math.round(s.won / (s.won + s.lost) * 100) : null;
 
   document.getElementById('app').innerHTML = `
+  ${raceCard()}
+
   ${arenaCard()}
 
   <section class="card hero" aria-label="Practice fund">
@@ -369,6 +373,7 @@ function render() {
     <dt>Trophies and badges</dt><dd>Trophies are won against the other characters (weekly and monthly). Badges are personal milestones. Both reward skill, never risk.</dd>
     <dt>Gut feeling</dt><dd>Sometimes a character follows a hunch its rules don't accept: a price that's almost good enough, or sharp money moving. Hunches are small, rare, marked 💭 and graded. A gut that beats the market earns more trust.</dd>
     <dt>Daily challenge</dt><dd>Every morning each character gets a challenge aimed at its weak spot: precision, discipline, new bet types, sharp edges, study, exploring, using the news, or underdogs. Challenges reward skill, never risk. Completed ones count in the Arena.</dd>
+    <dt>Race to go live</dt><dd>After the test only one character continues with real money. It's chosen on proven skill: a cautious measure of how reliably it beats the market's final price (at least 30 measured bets), plus a little for challenges and traits. Profit and lucky streaks don't decide it.</dd>
     <dt>Character traits</dt><dd>When a daily challenge clearly makes a character stronger (its bets on those days beat the market by more than usual), it becomes a permanent trait that changes how it bets. If a trait stops helping, it's dropped. At most 3 at a time.</dd>
     <dt>Explorer</dt><dd>Each character keeps trying new things in small amounts: 🧭 scout bets on kinds of bets it has barely tried, and one new competition each week. What works, it keeps; what doesn't, it drops.</dd>
     <dt>Wild bets</dt><dd>A character may choose a bold long shot (odds 4.5–15, tiny stake, at most two a day). It's a choice, not a rule: it's bolder on a hot streak, careful on a cold one, and never chases losses. Its 🧠 says why it did or didn't.</dd>
@@ -563,6 +568,7 @@ function mind(s) {
   const hunches = data.bets.filter(b => b.strategy === current && b.gut).sort((a, b) => b.placed_at.localeCompare(a.placed_at)).slice(0, 2);
   return `<div class="mind" id="mind">
     <div class="mind-h">🧠 Inside ${esc(s.name)}'s head</div>
+    ${d && d.mindset ? `<div class="thought" style="border-top:0">🏁 ${esc(d.mindset)}</div>` : ''}
     ${d ? `<p class="sub" style="margin:0 0 10px">Last scan ${rel(d.t)}: looked at <b>${d.looked}</b> game${d.looked === 1 ? '' : 's'}, bet on <b>${d.placed}</b>.</p>` : '<p class="sub">No scan yet. Thoughts appear after the next morning scan.</p>'}
     ${recent.length ? `<div class="m-sec">Why I bet</div>${recent.map(b => `<div class="thought"><b>${esc(b.pick)} @ ${Number(b.odds).toFixed(2)}</b> <span class="sub">${esc(b.home)} vs ${esc(b.away)}</span>
         <ol>${b.thoughts.map(t => `<li>${esc(t)}</li>`).join('')}</ol></div>`).join('')}` : ''}
@@ -602,6 +608,25 @@ function knowledgeCard(s) {
 }
 
 // ---------- competition ----------
+function raceCard() {
+  const r = data.arena && data.arena.race;
+  if (!r) return '';
+  const when = new Date(r.date + 'T12:00:00Z').toLocaleDateString(undefined, { day: 'numeric', month: 'long' });
+  return `<section class="card race"><h2>🏁 Race to go live</h2>
+    <div class="race-top"><div><div class="iqnum num">${r.days_left}</div><div class="sub">day${r.days_left === 1 ? '' : 's'} to selection · ${esc(when)}</div></div>
+      <p class="sub" style="margin:0;max-width:440px">Only <b>one</b> character continues with real money. The winner is chosen on <b>proven skill</b>: how reliably it beats the market's final price, judged cautiously so a lucky streak can't win. At least ${r.min_bets} measured bets needed.</p></div>
+    <ol class="rank" style="margin-top:12px">${r.rows.map((x, i) => { const st = data.strategies[x.who];
+      return `<li style="--pc:${COLORS[x.who]}" class="${x.who === current ? 'me' : ''}">
+        <span class="medal">${x.eligible ? ['🥇', '🥈', '🥉'][i] || i + 1 : '⏳'}</span>
+        <span class="r-av" aria-hidden="true">${esc(st.emoji)}</span>
+        <span class="r-name"><b>${esc(st.name)}</b><small>${x.eligible ? `proven edge ${pct(x.cautious)} · beats market ${Math.round(x.beat * 100)}%` : `needs ${x.need} more measured bet${x.need === 1 ? '' : 's'}`}</small></span>
+        <span class="r-stat"><b class="num">${x.measured}</b><small>bets</small></span>
+        <span class="r-stat"><b class="num">${Math.round(x.challenges * 100)}%</b><small>🎯</small></span>
+        <span class="r-stat"><b class="num">${x.traits}</b><small>🧬</small></span>
+      </li>`; }).join('')}</ol>
+  </section>`;
+}
+
 function arenaCard() {
   const a = data.arena;
   if (!a) return '';

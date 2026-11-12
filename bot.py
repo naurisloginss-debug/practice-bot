@@ -595,8 +595,48 @@ def competition(bets, state, now, notes):
         rival = CONFIG["strategies"][ranking[1 if i == 0 else 0]]["name"]
         line = (v.get("lead") if i == 0 else v.get("chase", "")).format(rival=rival)
         talk.append({"who": s, "text": line})
+    race = selection_race(bets, state, now, notes)
+    for t in talk:  # they all know only one of them goes live
+        v = CONFIG["strategies"][t["who"]].get("voice", {})
+        pos = race["ranking"].index(t["who"]) if t["who"] in race["ranking"] else 2
+        line = v.get("race_lead" if pos == 0 else "race_chase")
+        if line:
+            t["text"] += " " + line.format(days=race["days_left"])
     return {"ranking": ranking, "grower": grower if out[grower]["iq_gain"] > 0 else None, "talk": talk, "chars": out,
-            "week_start": week_start.date().isoformat()}
+            "week_start": week_start.date().isoformat(), "race": race}
+
+
+def selection_race(bets, state, now, notes):
+    """Only one character continues with real money after the test. Ranked on proven skill:
+    a cautious estimate of how reliably it beats the market's final price (few bets or wild swings
+    count against it, so a lucky streak can't win), plus a little for challenges and traits."""
+    R = CONFIG["selection"]
+    sel_day = parse(R["date"] + "T00:00:00Z")
+    days_left = max(0, (sel_day - now).days + (1 if (sel_day - now).seconds else 0))
+    rows = []
+    for s, c in CONFIG["strategies"].items():
+        m = [b["clv"] for b in bets if b["strategy"] == s and b.get("clv") is not None
+             and not b.get("gut") and not b.get("wild") and not b.get("scout")]
+        n = len(m)
+        mean = sum(m) / n if n else 0.0
+        sd = math.sqrt(sum((x - mean) ** 2 for x in m) / (n - 1)) if n > 1 else 0.05
+        cautious = mean - sd / math.sqrt(n) if n else -0.05  # lower edge of what its record proves
+        beat = sum(1 for x in m if x > 0) / n if n else 0.0
+        ch = challenge_stats(state, s)
+        ch_rate = ch["done"] / ch["judged"] if ch["judged"] else 0.0
+        traits = len(state.get("traits", {}).get(s, {}))
+        score = 1000 * cautious + 20 * (beat - 0.5) + 5 * ch_rate + 2 * traits
+        rows.append({"who": s, "eligible": n >= R["min_bets"], "measured": n, "need": max(0, R["min_bets"] - n),
+                     "clv": round(mean, 4), "cautious": round(cautious, 4), "beat": round(beat, 4),
+                     "challenges": round(ch_rate, 3), "traits": traits, "score": round(score, 2)})
+    rows.sort(key=lambda r: (not r["eligible"], -r["score"]))
+    leader = rows[0]["who"]
+    if state.get("race_leader") and state["race_leader"] != leader:
+        c = CONFIG["strategies"][leader]
+        notes.append(f"🏁 {c['emoji']} {c['name']} now leads the race to go live ({days_left} days to selection).")
+    state["race_leader"] = leader
+    return {"date": R["date"], "days_left": days_left, "min_bets": R["min_bets"], "rows": rows,
+            "ranking": [r["who"] for r in rows], "leader": leader}
 
 
 TROPHIES = {
@@ -1424,7 +1464,8 @@ def scan(api, bets, state, now, notes):
         lbd[today] = lbd.get(today, 0) + len(looked[strategy])
         for d_ in sorted(lbd)[:-14]:
             del lbd[d_]
-        diary[strategy] = {"t": iso(now), "mood": mood, "looked": len(looked[strategy]), "placed": len(mine),
+        mindset = c.get("voice", {}).get("mindset")
+        diary[strategy] = {"t": iso(now), "mood": mood, "mindset": mindset, "looked": len(looked[strategy]), "placed": len(mine),
                            "wild_choice": wild_choices.get(strategy),
                            "scouts": sum(1 for b in mine if b.get("scout")),
                            "passed": [{k: m[k] for k in ("game", "league", "pick", "odds", "book", "edge", "reason")} for m in top]}

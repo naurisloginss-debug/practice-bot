@@ -104,7 +104,10 @@
         "lead": "Top of the table. {rival}, patience beats noise every time.",
         "chase": "{rival} can enjoy the view. I'm patient, and I'm coming.",
         "gut": "But something in the grass is moving. I'm taking a nibble.",
-        "wild": "Patience is a weapon, but even lizards sunbathe on a crazy rock now and then."
+        "wild": "Patience is a weapon, but even lizards sunbathe on a crazy rock now and then.",
+        "race_lead": "And only one of us goes live in {days} days. Patience wins races.",
+        "race_chase": "Only one of us goes live in {days} days. I'll be the one still standing.",
+        "mindset": "Only one of us gets real money after the test. Reckless bets would only cost me that chance, so: patience, precision, proof."
       },
       "gut_trust": 0.45,
       "wild_appetite": 0.45,
@@ -146,7 +149,10 @@
         "lead": "The data put me first. {rival}, check your model.",
         "chase": "{rival} is ahead on paper. My numbers say not for long.",
         "gut": "The model says no. The 2% of me that isn't a model says try it.",
-        "wild": "Statistically silly. Doing it anyway, for science."
+        "wild": "Statistically silly. Doing it anyway, for science.",
+        "race_lead": "The data says I'm the one going live. {days} days to prove it.",
+        "race_chase": "{days} days until selection. Regression to the mean is coming for the leader.",
+        "mindset": "One of us gets real money. The selection rewards proven edge, not lucky wins, so I bet what the numbers support."
       },
       "gut_trust": 0.4,
       "wild_appetite": 0.35,
@@ -188,7 +194,10 @@
         "lead": "Apex predator. {rival}, keep swimming.",
         "chase": "I smell {rival}'s lead from here. Closing in.",
         "gut": "I smell it before I can prove it. Biting.",
-        "wild": "Big fish, long line. Let's see if it bites."
+        "wild": "Big fish, long line. Let's see if it bites.",
+        "race_lead": "Only one of us gets real money. Smell that? It's me.",
+        "race_chase": "Only one of us gets real money, in {days} days. And I'm hungry.",
+        "mindset": "Only one of us goes live. Sharks don't thrash around: one clean bite at a time beats the market and wins the seat."
       },
       "gut_trust": 0.55,
       "wild_appetite": 0.6,
@@ -264,5 +273,9 @@
     "min_gain": 0.005,
     "drop_bets": 15,
     "max_traits": 3
+  },
+  "selection": {
+    "date": "2026-12-04",
+    "min_bets": 30
   }
 }
