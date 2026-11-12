@@ -369,6 +369,7 @@ function render() {
     <dt>Trophies and badges</dt><dd>Trophies are won against the other characters (weekly and monthly). Badges are personal milestones. Both reward skill, never risk.</dd>
     <dt>Gut feeling</dt><dd>Sometimes a character follows a hunch its rules don't accept: a price that's almost good enough, or sharp money moving. Hunches are small, rare, marked 💭 and graded. A gut that beats the market earns more trust.</dd>
     <dt>Daily challenge</dt><dd>Every morning each character gets a challenge aimed at its weak spot: precision, discipline, new bet types, sharp edges, study, exploring, using the news, or underdogs. Challenges reward skill, never risk. Completed ones count in the Arena.</dd>
+    <dt>Character traits</dt><dd>When a daily challenge clearly makes a character stronger (its bets on those days beat the market by more than usual), it becomes a permanent trait that changes how it bets. If a trait stops helping, it's dropped. At most 3 at a time.</dd>
     <dt>Explorer</dt><dd>Each character keeps trying new things in small amounts: 🧭 scout bets on kinds of bets it has barely tried, and one new competition each week. What works, it keeps; what doesn't, it drops.</dd>
     <dt>Wild bets</dt><dd>A character may choose a bold long shot (odds 4.5–15, tiny stake, at most two a day). It's a choice, not a rule: it's bolder on a hot streak, careful on a cold one, and never chases losses. Its 🧠 says why it did or didn't.</dd>
     <dt>Reading</dt><dd>Twice a day each character skims its sport's news headlines and notices injuries, suspensions and good news. Its reasoning shows what it read.</dd>
@@ -477,6 +478,7 @@ function character(s) {
       : `<div class="xp-head"><span>👑 <b>Top level reached.</b></span><span class="sub">${esc(lv.perk || '')}</span></div>`}
       ${lv.perk && nx ? `<div class="sub" style="margin-top:6px">Now: ${esc(lv.perk)}</div>` : ''}
     </div>
+    ${traitsBlock(s)}
     ${explorerLine(s)}
     ${gutMeter(s)}
     ${wildLine(s)}
@@ -505,6 +507,14 @@ function challengeCard(s) {
     <div class="ch-row"><span class="sub">Last days:</span>${c.recent.slice(1).map(x => `<span class="ch-dot ${x.status}" title="${esc(x.day)}: ${esc(x.title)}${x.detail ? ' · ' + esc(x.detail) : ''}">${esc(x.emoji)}<i>${icon[x.status] || '•'}</i></span>`).join('') || '<span class="sub">first day</span>'}
       <span class="sub" style="margin-left:auto">${c.done} of ${c.judged} completed${c.streak >= 2 ? ` · 🔥 ${c.streak} in a row` : ''}</span></div>
   </section>`;
+}
+
+function traitsBlock(s) {
+  const t = s.traits || [];
+  return `<div class="gut"><div class="xp-head"><span>🧬 <b>Character traits</b></span><span class="sub">learned from its daily challenges</span></div>
+    ${t.length ? `<ul class="facts" style="margin-top:8px">${t.map(x => `<li><span class="chip c-won">${esc(x.emoji)} ${esc(x.title)}</span>
+        <span><b>${esc(x.effect)}</b><small>From ${esc(x.from)}: on those days its bets beat the market by ${pct(x.on)}, vs ${pct(x.off)} normally (${x.bets} bets).</small></span></li>`).join('')}</ul>`
+      : `<div class="sub" style="margin-top:6px">None yet. When a daily challenge clearly makes it stronger, that becomes part of its character.</div>`}</div>`;
 }
 
 function explorerLine(s) {

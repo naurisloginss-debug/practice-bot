@@ -223,5 +223,13 @@
     "per_day": 3,
     "retry_days": 60,
     "adopt_bets": 3
+  },
+  "traits": {
+    "min_days": 3,
+    "min_bets": 8,
+    "min_base_bets": 15,
+    "min_gain": 0.005,
+    "drop_bets": 15,
+    "max_traits": 3
   }
 }
