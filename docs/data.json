@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13T18:45:31Z",
+  "updated": "2026-11-13T19:00:53Z",
   "start_fund": 200,
   "order": [
     "lizard",
@@ -186,7 +186,7 @@
       "quant": {
         "iq": 109,
         "iq_gain": 25,
-        "streak": 1,
+        "streak": 2,
         "best_streak": 3,
         "achievements": [
           {
@@ -297,12 +297,12 @@
           {
             "text": "Bets checked against the market",
             "target": 3,
-            "now": 15
+            "now": 16
           },
           {
             "text": "Beat the market on",
             "target": 55,
-            "now": 60,
+            "now": 62,
             "unit": "%",
             "pending": false
           }
@@ -447,14 +447,14 @@
         {
           "who": "quant",
           "eligible": false,
-          "measured": 9,
-          "need": 21,
-          "clv": 0.0202,
-          "cautious": 0.0023,
-          "beat": 0.6667,
+          "measured": 10,
+          "need": 20,
+          "clv": 0.0232,
+          "cautious": 0.0069,
+          "beat": 0.7,
           "challenges": 1.0,
           "traits": 0,
-          "score": 10.65
+          "score": 15.9
         },
         {
           "who": "shark",
@@ -489,7 +489,7 @@
       "leader": "quant"
     }
   },
-  "credits_left": 19453,
+  "credits_left": 19452,
   "last_scan": "2026-11-13@16",
   "strategies": {
     "lizard": {
@@ -1076,9 +1076,9 @@
       "profit": -0.96,
       "roi": -0.0412,
       "avg_edge": 0.0317,
-      "avg_clv": 0.006,
-      "beat_close": 0.6,
-      "clv_count": 15,
+      "avg_clv": 0.0087,
+      "beat_close": 0.625,
+      "clv_count": 16,
       "history": [
         {
           "t": "2026-11-10T21:01:26Z",
@@ -1151,6 +1151,15 @@
       ],
       "by_league": [
         {
+          "name": "EuroLeague",
+          "bets": 3,
+          "profit": -3.18,
+          "roi": -0.6092,
+          "avg_clv": 0.0248,
+          "beat_close": 0.6667,
+          "clv_count": 3
+        },
+        {
           "name": "College basketball (US)",
           "bets": 10,
           "profit": 7.52,
@@ -1158,15 +1167,6 @@
           "avg_clv": 0.0147,
           "beat_close": 0.5,
           "clv_count": 6
-        },
-        {
-          "name": "EuroLeague",
-          "bets": 3,
-          "profit": -3.18,
-          "roi": -0.6092,
-          "avg_clv": 0.0122,
-          "beat_close": 0.5,
-          "clv_count": 2
         },
         {
           "name": "NBA",
@@ -1184,9 +1184,9 @@
           "bets": 2,
           "profit": 1.03,
           "roi": 1.0198,
-          "avg_clv": 0.0336,
+          "avg_clv": 0.0417,
           "beat_close": 1.0,
-          "clv_count": 1
+          "clv_count": 2
         },
         {
           "name": "Total",
@@ -1213,9 +1213,9 @@
           "bets": 20,
           "profit": -0.96,
           "roi": -0.0412,
-          "avg_clv": 0.006,
-          "beat_close": 0.6,
-          "clv_count": 15
+          "avg_clv": 0.0087,
+          "beat_close": 0.625,
+          "clv_count": 16
         }
       ],
       "gut": {
@@ -1338,9 +1338,9 @@
         "badge": "🐣",
         "stake": 1.0,
         "perk": "Normal stakes while it proves itself.",
-        "measured": 9,
-        "clv": 0.0202,
-        "beat": 0.6667,
+        "measured": 10,
+        "clv": 0.0232,
+        "beat": 0.7,
         "cold": false,
         "next": {
           "title": "Apprentice",
@@ -1350,20 +1350,20 @@
             {
               "text": "15 measured bets",
               "done": false,
-              "now": "9"
+              "now": "10"
             },
             {
               "text": "beat the market on 50%+",
               "done": true,
-              "now": "67%"
+              "now": "70%"
             },
             {
               "text": "average price +0.0%+ vs market",
               "done": true,
-              "now": "+2.0%"
+              "now": "+2.3%"
             }
           ],
-          "progress": 0.6
+          "progress": 0.667
         }
       },
       "explorer": {
@@ -1517,10 +1517,10 @@
           },
           {
             "conf": "watching",
-            "n": 12,
+            "n": 13,
             "z": 0,
-            "text": "When I find value, the market moves my way before kick-off 67% of the time.",
-            "detail": "12 bets measured"
+            "text": "When I find value, the market moves my way before kick-off 69% of the time.",
+            "detail": "13 bets measured"
           }
         ],
         "rules": 0,
@@ -3304,8 +3304,8 @@
       "edge": 0.058,
       "stake": 5.06,
       "status": "open",
-      "closing_fair_odds": null,
-      "clv": null,
+      "closing_fair_odds": 2.048,
+      "clv": 0.0499,
       "profit": 0.0,
       "score": null,
       "settled_at": null,
