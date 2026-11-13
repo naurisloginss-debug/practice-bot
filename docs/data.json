@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-13T19:00:53Z",
-  "start_fund": 200,
+  "updated": "2026-11-13T19:15:31Z",
+  "start_fund": 500,
   "order": [
     "lizard",
     "quant",
@@ -502,14 +502,14 @@
       "motto": "Patience is a weapon.",
       "backtest": "all",
       "risk": {
-        "kelly": 0.4,
-        "max_stake_pct": 5,
+        "kelly": 0.5,
+        "max_stake_pct": 7,
         "min_edge": 0.02,
         "odds": [
           1.6,
           3.0
         ],
-        "stop_below": 110
+        "stop_below": 250
       },
       "leagues": [
         "Serie B (Italy 2)",
@@ -533,8 +533,8 @@
         "Spread",
         "Total"
       ],
-      "start_fund": 200,
-      "fund": 197.17,
+      "start_fund": 500,
+      "fund": 497.17,
       "lessons": [],
       "bets": 25,
       "open": 6,
@@ -550,83 +550,83 @@
       "history": [
         {
           "t": "2026-11-04T12:49:24Z",
-          "fund": 200
+          "fund": 500
         },
         {
           "t": "2026-11-06T22:00:53Z",
-          "fund": 199.05
+          "fund": 499.05
         },
         {
           "t": "2026-11-06T23:00:57Z",
-          "fund": 198.42
+          "fund": 498.42
         },
         {
           "t": "2026-11-07T15:00:56Z",
-          "fund": 197.31
+          "fund": 497.31
         },
         {
           "t": "2026-11-07T15:00:56Z",
-          "fund": 195.2
+          "fund": 495.2
         },
         {
           "t": "2026-11-07T15:30:44Z",
-          "fund": 194.42
+          "fund": 494.42
         },
         {
           "t": "2026-11-07T15:30:44Z",
-          "fund": 192.66
+          "fund": 492.66
         },
         {
           "t": "2026-11-07T21:00:51Z",
-          "fund": 191.89
+          "fund": 491.89
         },
         {
           "t": "2026-11-07T21:45:28Z",
-          "fund": 196.74
+          "fund": 496.74
         },
         {
           "t": "2026-11-07T21:45:28Z",
-          "fund": 196.22
+          "fund": 496.22
         },
         {
           "t": "2026-11-07T21:45:28Z",
-          "fund": 195.34
+          "fund": 495.34
         },
         {
           "t": "2026-11-07T21:45:28Z",
-          "fund": 199.79
+          "fund": 499.79
         },
         {
           "t": "2026-11-07T21:45:28Z",
-          "fund": 198.81
+          "fund": 498.81
         },
         {
           "t": "2026-11-07T21:45:28Z",
-          "fund": 200.95
+          "fund": 500.95
         },
         {
           "t": "2026-11-08T17:00:55Z",
-          "fund": 200.26
+          "fund": 500.26
         },
         {
           "t": "2026-11-08T20:30:44Z",
-          "fund": 198.23
+          "fund": 498.23
         },
         {
           "t": "2026-11-08T21:30:42Z",
-          "fund": 197.08
+          "fund": 497.08
         },
         {
           "t": "2026-11-08T23:15:28Z",
-          "fund": 199.22
+          "fund": 499.22
         },
         {
           "t": "2026-11-08T23:15:28Z",
-          "fund": 198.17
+          "fund": 498.17
         },
         {
           "t": "2026-11-08T23:15:28Z",
-          "fund": 197.17
+          "fund": 497.17
         }
       ],
       "by_league": [
@@ -1045,14 +1045,14 @@
       "motto": "The scoreboard is just data.",
       "backtest": null,
       "risk": {
-        "kelly": 0.5,
-        "max_stake_pct": 5,
+        "kelly": 0.6,
+        "max_stake_pct": 7,
         "min_edge": 0.025,
         "odds": [
           1.6,
           3.5
         ],
-        "stop_below": 110
+        "stop_below": 250
       },
       "leagues": [
         "NBA",
@@ -1065,8 +1065,8 @@
         "Spread",
         "Winner"
       ],
-      "start_fund": 200,
-      "fund": 199.04,
+      "start_fund": 500,
+      "fund": 499.04,
       "lessons": [],
       "bets": 20,
       "open": 4,
@@ -1082,71 +1082,71 @@
       "history": [
         {
           "t": "2026-11-10T21:01:26Z",
-          "fund": 200
+          "fund": 500
         },
         {
           "t": "2026-11-11T09:45:31Z",
-          "fund": 201.84
+          "fund": 501.84
         },
         {
           "t": "2026-11-11T22:45:29Z",
-          "fund": 202.87
+          "fund": 502.87
         },
         {
           "t": "2026-11-12T03:15:30Z",
-          "fund": 201.29
+          "fund": 501.29
         },
         {
           "t": "2026-11-12T03:15:30Z",
-          "fund": 198.94
+          "fund": 498.94
         },
         {
           "t": "2026-11-12T08:15:30Z",
-          "fund": 200.91
+          "fund": 500.91
         },
         {
           "t": "2026-11-12T08:15:30Z",
-          "fund": 198.74
+          "fund": 498.74
         },
         {
           "t": "2026-11-12T08:15:30Z",
-          "fund": 201.76
+          "fund": 501.76
         },
         {
           "t": "2026-11-12T08:15:30Z",
-          "fund": 202.72
+          "fund": 502.72
         },
         {
           "t": "2026-11-12T08:15:30Z",
-          "fund": 203.7
+          "fund": 503.7
         },
         {
           "t": "2026-11-12T09:15:31Z",
-          "fund": 203.2
+          "fund": 503.2
         },
         {
           "t": "2026-11-12T09:15:31Z",
-          "fund": 202.7
+          "fund": 502.7
         },
         {
           "t": "2026-11-12T09:15:31Z",
-          "fund": 201.5
+          "fund": 501.5
         },
         {
           "t": "2026-11-12T09:15:31Z",
-          "fund": 200.49
+          "fund": 500.49
         },
         {
           "t": "2026-11-13T04:15:30Z",
-          "fund": 196.28
+          "fund": 496.28
         },
         {
           "t": "2026-11-13T05:15:31Z",
-          "fund": 197.27
+          "fund": 497.27
         },
         {
           "t": "2026-11-13T05:15:31Z",
-          "fund": 199.04
+          "fund": 499.04
         }
       ],
       "by_league": [
@@ -1538,14 +1538,14 @@
       "motto": "Get there before the market does.",
       "backtest": null,
       "risk": {
-        "kelly": 0.5,
-        "max_stake_pct": 6,
+        "kelly": 0.6,
+        "max_stake_pct": 7,
         "min_edge": 0.015,
         "odds": [
           1.6,
           4.0
         ],
-        "stop_below": 110
+        "stop_below": 250
       },
       "leagues": [
         "NFL",
@@ -1557,8 +1557,8 @@
         "Total",
         "Winner"
       ],
-      "start_fund": 200,
-      "fund": 200.77,
+      "start_fund": 500,
+      "fund": 500.77,
       "lessons": [],
       "bets": 28,
       "open": 26,
@@ -1574,15 +1574,15 @@
       "history": [
         {
           "t": "2026-11-07T16:00:52Z",
-          "fund": 200
+          "fund": 500
         },
         {
           "t": "2026-11-08T21:00:53Z",
-          "fund": 197.69
+          "fund": 497.69
         },
         {
           "t": "2026-11-09T03:00:57Z",
-          "fund": 200.77
+          "fund": 500.77
         }
       ],
       "by_league": [
@@ -4699,10 +4699,6 @@
   "log": [
     {
       "t": "2026-11-11T18:12:32Z",
-      "text": "🎯 🦎 The Lizard's challenge today: 🗺️ New ground. Make a bet in the bet type I use least: spread."
-    },
-    {
-      "t": "2026-11-11T18:12:32Z",
       "text": "🎯 🧮 The Quant's challenge today: 🐶 Underdog hunter. Back an underdog (odds 2.5+) that beats the market."
     },
     {
@@ -4816,6 +4812,10 @@
     {
       "t": "2026-11-13T16:00:54Z",
       "text": "Placed 8 practice bets:\n- The Quant: **SE Missouri St Redhawks** (Winner) in Middle Tennessee Blue Raiders vs SE Missouri St Redhawks (College basketball (US)) at 3.25 on LeoVegas (SE), stake 1.21, edge +2.8%\n- The Quant: **UIC Flames** (Winner) in Saint Mary's Gaels vs UIC Flames (College basketball (US)) at 3.3 on BetOnline.ag, stake 1.15, edge +2.7%\n- The Shark: **Kansas Jayhawks** (Winner) in West Virginia Mountaineers vs Kansas Jayhawks (College football (US)) at 2.38 on Unibet (NL), stake 1.58, edge +2.2%\n- The Shark: **UTSA Roadrunners** (Winner) in UTSA Roadrunners vs North Texas Mean Green (College football (US)) at 2.19 on BetOnline.ag, stake 1.38, edge +1.6%\n- The Shark: **Edmonton Elks** (Winner) in Edmonton Elks vs Montreal Alouettes (CFL) at 2.53 on BetOnline.ag, stake 1.12, edge +1.7%\n- The Shark 🧭 scout: **New England Patriots +2.5** (Spread) in Detroit Lions vs New England Patriots (NFL) at 2.1 on 888sport, stake 1.00, edge +0.7%\n- The Shark 🎲 wild: **New York Jets** (Winner) in New York Jets vs Buffalo Bills (NFL) at 4.7 on Matchbook, stake 0.50, edge +2.1%\n- The Shark 🎲 wild: **Georgia Tech Yellow Jackets** (Winner) in Clemson Tigers vs Georgia Tech Yellow Jackets (College football (US)) at 5.8 on Betfair, stake 0.50, edge +-0.4%"
+    },
+    {
+      "t": "2026-11-13T00:00:00Z",
+      "text": "💰 Nauris topped every character up to a 500 practice fund and loosened the limits: more action, same rule — every serious bet still has to beat the market."
     }
   ]
 }
