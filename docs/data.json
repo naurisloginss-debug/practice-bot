@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13T05:00:52Z",
+  "updated": "2026-11-13T05:15:31Z",
   "start_fund": 200,
   "order": [
     "lizard",
@@ -184,8 +184,8 @@
         ]
       },
       "quant": {
-        "iq": 106,
-        "iq_gain": 22,
+        "iq": 108,
+        "iq_gain": 24,
         "streak": 1,
         "best_streak": 3,
         "achievements": [
@@ -307,7 +307,7 @@
             "pending": false
           }
         ],
-        "score": 142,
+        "score": 144,
         "trophies": []
       },
       "shark": {
@@ -489,7 +489,7 @@
       "leader": "quant"
     }
   },
-  "credits_left": 19531,
+  "credits_left": 19529,
   "last_scan": "2026-11-12@16",
   "strategies": {
     "lizard": {
@@ -1065,15 +1065,15 @@
         "Winner"
       ],
       "start_fund": 200,
-      "fund": 196.28,
+      "fund": 199.04,
       "lessons": [],
       "bets": 17,
-      "open": 3,
-      "won": 6,
+      "open": 1,
+      "won": 8,
       "lost": 8,
-      "staked": 21.12,
-      "profit": -3.72,
-      "roi": -0.1761,
+      "staked": 23.29,
+      "profit": -0.96,
+      "roi": -0.0412,
       "avg_edge": 0.0327,
       "avg_clv": 0.006,
       "beat_close": 0.6,
@@ -1138,14 +1138,22 @@
         {
           "t": "2026-11-13T04:15:30Z",
           "fund": 196.28
+        },
+        {
+          "t": "2026-11-13T05:15:31Z",
+          "fund": 197.27
+        },
+        {
+          "t": "2026-11-13T05:15:31Z",
+          "fund": 199.04
         }
       ],
       "by_league": [
         {
           "name": "College basketball (US)",
           "bets": 7,
-          "profit": 4.76,
-          "roi": 0.7062,
+          "profit": 7.52,
+          "roi": 0.844,
           "avg_clv": 0.0147,
           "beat_close": 0.5,
           "clv_count": 6
@@ -1191,8 +1199,8 @@
         {
           "name": "Winner",
           "bets": 12,
-          "profit": -4.52,
-          "roi": -0.2839,
+          "profit": -1.76,
+          "roi": -0.0973,
           "avg_clv": 0.0037,
           "beat_close": 0.5833,
           "clv_count": 12
@@ -1202,8 +1210,8 @@
         {
           "name": "Basketball",
           "bets": 17,
-          "profit": -3.72,
-          "roi": -0.1761,
+          "profit": -0.96,
+          "roi": -0.0412,
           "avg_clv": 0.006,
           "beat_close": 0.6,
           "clv_count": 15
@@ -1425,8 +1433,8 @@
       },
       "traits": [],
       "mind": {
-        "iq": 106,
-        "iq_week": 26,
+        "iq": 108,
+        "iq_week": 28,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -1466,7 +1474,7 @@
           },
           {
             "d": "2026-11-13",
-            "iq": 106
+            "iq": 108
           }
         ],
         "facts": [
@@ -1486,10 +1494,24 @@
           },
           {
             "conf": "solid",
-            "n": 104,
+            "n": 126,
             "z": 0,
             "text": "The market prices overs in College basketball (US) accurately.",
-            "detail": "47% happened, 50% priced, 104 games"
+            "detail": "46% happened, 50% priced, 126 games"
+          },
+          {
+            "conf": "solid",
+            "n": 85,
+            "z": 0,
+            "text": "The market prices home wins in College basketball (US) accurately.",
+            "detail": "65% happened, 62% priced, 85 games"
+          },
+          {
+            "conf": "solid",
+            "n": 85,
+            "z": 0,
+            "text": "The market prices away wins in College basketball (US) accurately.",
+            "detail": "35% happened, 38% priced, 85 games"
           },
           {
             "conf": "watching",
@@ -1501,7 +1523,7 @@
         ],
         "rules": 0,
         "studied": 198,
-        "resolved": 164
+        "resolved": 187
       }
     },
     "shark": {
@@ -2843,12 +2865,12 @@
       "fair_odds": 1.974,
       "edge": 0.013,
       "stake": 0.99,
-      "status": "open",
+      "status": "won",
       "closing_fair_odds": 2.021,
       "clv": -0.0104,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": 0.99,
+      "score": "South Alabama Jaguars 79 - 72 Loyola Marymount Lions",
+      "settled_at": "2026-11-13T05:15:31Z",
       "thoughts": [
         "🧭 Exploring. I've only made 2 bets like this (College basketball (US) winner bets at middle odds).",
         "South Alabama Jaguars at 2.00 is +1.30% above fair: below my usual bar, but the only way to learn if this kind of bet works for me is to try it.",
@@ -2879,12 +2901,12 @@
       "fair_odds": 2.457,
       "edge": 0.0176,
       "stake": 1.18,
-      "status": "open",
+      "status": "won",
       "closing_fair_odds": 2.32,
       "clv": 0.0778,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": 1.77,
+      "score": "Southern Illinois Salukis 80 - 70 Richmond Spiders",
+      "settled_at": "2026-11-13T05:15:31Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates Southern Illinois Salukis at 40.7%. That makes the fair price 2.46.",
         "Everygame pays 2.50. That is +1.8% above fair. My bar is +1.5%.",
@@ -4201,10 +4223,6 @@
   "log": [
     {
       "t": "2026-11-11T15:50:37Z",
-      "text": "🧭 🦎 The Lizard is exploring Super League - Greece this week."
-    },
-    {
-      "t": "2026-11-11T15:50:37Z",
       "text": "🧭 🧮 The Quant is exploring NBL this week."
     },
     {
@@ -4318,6 +4336,10 @@
     {
       "t": "2026-11-13T04:15:30Z",
       "text": "Results:\n- Lost -4.21: Pallacanestro Olimpia Milano (Winner) in Pallacanestro Olimpia Milano vs Žalgiris (Pallacanestro Olimpia Milano 83 - 86 Žalgiris)"
+    },
+    {
+      "t": "2026-11-13T05:15:31Z",
+      "text": "Results:\n- Won +0.99: South Alabama Jaguars (Winner) in South Alabama Jaguars vs Loyola Marymount Lions (South Alabama Jaguars 79 - 72 Loyola Marymount Lions)\n- Won +1.77: Southern Illinois Salukis (Winner) in Southern Illinois Salukis vs Richmond Spiders (Southern Illinois Salukis 80 - 70 Richmond Spiders)"
     }
   ]
 }
