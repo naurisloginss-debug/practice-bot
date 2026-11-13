@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13T08:00:53Z",
+  "updated": "2026-11-13T08:15:31Z",
   "start_fund": 200,
   "order": [
     "lizard",
@@ -321,7 +321,7 @@
             "emoji": "🎯",
             "title": "Challenge Accepted",
             "desc": "Completed its first daily challenge.",
-            "at": null
+            "at": "2026-11-13T08:15:31Z"
           },
           {
             "key": "iron_will",
@@ -434,7 +434,7 @@
             "pending": true
           }
         ],
-        "score": 114,
+        "score": 122,
         "trophies": []
       }
     },
@@ -464,9 +464,9 @@
           "clv": 0.0246,
           "cautious": 0.0,
           "beat": 0.5,
-          "challenges": 0.0,
+          "challenges": 0.5,
           "traits": 0,
-          "score": 0.0
+          "score": 2.5
         },
         {
           "who": "lizard",
@@ -1814,10 +1814,11 @@
           "emoji": "🗺️",
           "title": "New ground",
           "text": "Make a bet in the bet type I use least: total.",
-          "status": "active",
+          "status": "done",
           "market": "totals",
           "target": 122,
-          "league": "americanfootball_cfl"
+          "league": "americanfootball_cfl",
+          "detail": "Bet Over 43.5 (total)."
         },
         "recent": [
           {
@@ -1826,10 +1827,11 @@
             "emoji": "🗺️",
             "title": "New ground",
             "text": "Make a bet in the bet type I use least: total.",
-            "status": "active",
+            "status": "done",
             "market": "totals",
             "target": 122,
-            "league": "americanfootball_cfl"
+            "league": "americanfootball_cfl",
+            "detail": "Bet Over 43.5 (total)."
           },
           {
             "day": "2026-11-12",
@@ -1855,9 +1857,9 @@
             "league": "americanfootball_cfl"
           }
         ],
-        "done": 0,
-        "judged": 1,
-        "streak": 0
+        "done": 1,
+        "judged": 2,
+        "streak": 1
       },
       "traits": [],
       "mind": {
@@ -4380,14 +4382,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-11T15:50:37Z",
-      "text": "🧭 🦈 The Shark is exploring CFL this week."
-    },
-    {
-      "t": "2026-11-11T15:50:37Z",
-      "text": "Placed 20 practice bets:\n- The Lizard: **Draw** (Winner) in Real Sociedad B vs Sporting Gijón (La Liga 2 (Spain 2)) at 3.3 on Coolbet, stake 1.04, edge +3.0%\n- The Quant: **Toronto Raptors** (Winner) in Toronto Raptors vs Boston Celtics (NBA) at 3.15 on Coolbet, stake 2.35, edge +5.0%\n- The Quant: **Utah Jazz** (Winner) in Utah Jazz vs Orlando Magic (NBA) at 2.43 on Unibet (NL), stake 1.20, edge +1.7%\n- The Quant: **Milwaukee Panthers** (Winner) in Indiana St Sycamores vs Milwaukee Panthers (College basketball (US)) at 2.63 on Unibet (NL), stake 1.21, edge +1.9%\n- The Quant: **Over 136** (Total) in Norfolk St Spartans vs Old Dominion Monarchs (College basketball (US)) at 1.98 on BetOnline.ag, stake 2.17, edge +2.1%\n- The Quant: **Long Beach St 49ers** (Winner) in Long Beach St 49ers vs Pacific Tigers (College basketball (US)) at 3.25 on LeoVegas (SE), stake 1.34, edge +3.0%\n- The Quant: **Pallacanestro Olimpia Milano** (Winner) in Pallacanestro Olimpia Milano vs Žalgiris (EuroLeague) at 2.19 on Marathon Bet, stake 4.21, edge +5.0%\n- The Shark: **Las Vegas Raiders** (Winner) in Las Vegas Raiders vs Seattle Seahawks (NFL) at 3.68 on Marathon Bet, stake 2.26, edge +6.0%\n- The Shark: **Sam Houston State Bearkats** (Winner) in Sam Houston State Bearkats vs Kennesaw State Owls (College football (US)) at 3.55 on MyBookie.ag, stake 0.90, edge +2.3%\n- The Shark: **Hawaii Rainbow Warriors** (Winner) in Hawaii Rainbow Warriors vs North Dakota State Bison (College football (US)) at 3.26 on MyBookie.ag, stake 1.26, edge +2.8%\n- The Lizard 🧭 scout: **Under 2.5** (Total) in Crewe Alexandra vs Newport County (League Two (England 4)) at 1.92 on Unibet (NL), stake 0.99, edge +1.6%\n- The Quant 🧭 scout: **KK Partizan NIS -8** (Spread) in KK Partizan NIS vs Saski Baskonia (EuroLeague) at 2.02 on BetOnline.ag, stake 1.01, edge +1.3%\n- The Quant 🧭 scout: **Under 152** (Total) in North Texas Mean Green vs Santa Clara Broncos (College basketball (US)) at 1.95 on BetOnline.ag, stake 1.01, edge +0.6%\n- The Quant 🧭 scout: **Golden State Warriors** (Winner) in Houston Rockets vs Golden State Warriors (NBA) at 3.3 on Matchbook, stake 1.01, edge +0.6%\n- The Shark 🧭 scout: **Cincinnati Bearcats** (Winner) in Iowa State Cyclones vs Cincinnati Bearcats (College football (US)) at 2.4 on BetAnything, stake 1.00, edge +1.3%\n- The Shark 🧭 scout: **Los Angeles Chargers** (Winner) in Baltimore Ravens vs Los Angeles Chargers (NFL) at 2.9 on 888sport, stake 1.00, edge +1.0%\n- The Lizard 💭 gut: **Northampton Town** (Winner) in Salford City vs Northampton Town (League Two (England 4)) at 5.7 on Betfair, stake 0.99, edge +1.8%\n- The Quant 💭 gut: **Over 158** (Total) in Temple Owls vs Charleston Cougars (College basketball (US)) at 1.97 on BetOnline.ag, stake 1.01, edge +0.8%\n- The Shark 🎲 wild: **Middle Tennessee Blue Raiders** (Winner) in Liberty Flames vs Middle Tennessee Blue Raiders (College football (US)) at 11.5 on Betfair, stake 0.50, edge +5.0%\n- The Shark 🎲 wild: **Tennessee Titans** (Winner) in Tennessee Titans vs Jacksonville Jaguars (NFL) at 5.8 on Unibet (SE), stake 0.50, edge +6.1%"
-    },
-    {
       "t": "2026-11-11T16:01:00Z",
       "text": "Placed 1 practice bet:\n- The Lizard 🧭 scout: **Rochdale** (Winner) in Rochdale vs York City (League Two (England 4)) at 4.25 on Betsson, stake 0.99, edge +0.8%"
     },
@@ -4498,6 +4492,14 @@
     {
       "t": "2026-11-13T08:00:53Z",
       "text": "Placed 4 practice bets:\n- The Quant 🧭 scout: **Lindenwood Lions** (Winner) in Omaha Mavericks vs Lindenwood Lions (College basketball (US)) at 2.7 on Unibet (NL), stake 1.00, edge +2.3%\n- The Shark 🧭 scout: **Over 43.5** (Total) in Michigan State Spartans vs Washington Huskies (College football (US)) at 1.95 on Unibet (NL), stake 1.00, edge +0.8%\n- The Shark 🧭 scout: **Dallas Cowboys** (Winner) in Dallas Cowboys vs San Francisco 49ers (NFL) at 2.92 on Matchbook, stake 1.00, edge +1.0%\n- The Shark 💭 gut: **Oklahoma Sooners** (Winner) in Oklahoma Sooners vs Ole Miss Rebels (College football (US)) at 1.94 on MyBookie.ag, stake 1.00, edge +0.2%"
+    },
+    {
+      "t": "2026-11-13T08:15:31Z",
+      "text": "✅ 🦈 The Shark completed 🗺️ New ground: Bet Over 43.5 (total)."
+    },
+    {
+      "t": "2026-11-13T08:15:31Z",
+      "text": "🏅 🦈 The Shark unlocked 🎯 Challenge Accepted: Completed its first daily challenge."
     }
   ]
 }
