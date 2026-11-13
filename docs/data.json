@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13T10:45:31Z",
+  "updated": "2026-11-13T11:00:56Z",
   "start_fund": 200,
   "order": [
     "lizard",
@@ -29,8 +29,8 @@
     ],
     "chars": {
       "lizard": {
-        "iq": 101,
-        "iq_gain": 4,
+        "iq": 102,
+        "iq_gain": 5,
         "streak": 6,
         "best_streak": 7,
         "achievements": [
@@ -152,7 +152,7 @@
             "pending": true
           }
         ],
-        "score": 126,
+        "score": 127,
         "trophies": [
           {
             "kind": "sharpshooter",
@@ -184,8 +184,8 @@
         ]
       },
       "quant": {
-        "iq": 109,
-        "iq_gain": 25,
+        "iq": 108,
+        "iq_gain": 24,
         "streak": 1,
         "best_streak": 3,
         "achievements": [
@@ -307,7 +307,7 @@
             "pending": false
           }
         ],
-        "score": 145,
+        "score": 144,
         "trophies": []
       },
       "shark": {
@@ -746,8 +746,22 @@
         "appetite": 0.45
       },
       "reading": {
-        "week": 111,
+        "week": 124,
         "latest": [
+          {
+            "t": "2026-11-13T10:00:46Z",
+            "title": "The club preparing to play again after the death of a player",
+            "link": "https://www.bbc.co.uk/sport/football/articles/c6vg7gz9w5edo?at_medium=RSS&at_campaign=rss",
+            "source": "feeds.bbci.co.uk",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-13T08:13:19Z",
+            "title": "From postcards to texts, the different ways a manager gets the sack - Pulis",
+            "link": "https://www.bbc.co.uk/sport/football/articles/cve8716dg46xo?at_medium=RSS&at_campaign=rss",
+            "source": "feeds.bbci.co.uk",
+            "tone": -1
+          },
           {
             "t": "2026-11-13T07:48:33Z",
             "title": "Pocognoli courts potential new Scotland players - gossip",
@@ -775,20 +789,6 @@
             "link": "https://www.bbc.co.uk/sport/football/articles/ckedq01zve04o?at_medium=RSS&at_campaign=rss",
             "source": "feeds.bbci.co.uk",
             "tone": 1
-          },
-          {
-            "t": "2026-11-12T16:23:54Z",
-            "title": "Inter receive double boost: Confidence over defender’s extension and injury return",
-            "link": "https://football-italia.net/inter-double-boost-defender-extension-injury/",
-            "source": "football-italia.net",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-12T15:33:20Z",
-            "title": "Mbappé omission vs. Italy may not be injury-related only",
-            "link": "https://football-italia.net/mbappe-omission-v-italy-may-not-injury-only/",
-            "source": "football-italia.net",
-            "tone": -1
           }
         ]
       },
@@ -942,8 +942,8 @@
       },
       "traits": [],
       "mind": {
-        "iq": 101,
-        "iq_week": 17,
+        "iq": 102,
+        "iq_week": 18,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -983,7 +983,7 @@
           },
           {
             "d": "2026-11-13",
-            "iq": 101
+            "iq": 102
           }
         ],
         "facts": [
@@ -1239,8 +1239,15 @@
         "appetite": 0.35
       },
       "reading": {
-        "week": 119,
+        "week": 92,
         "latest": [
+          {
+            "t": "2026-11-13T10:00:00Z",
+            "title": "Cavs at Heat: How to watch, odds, and injury report",
+            "link": "https://sports.yahoo.com/articles/cavs-heat-watch-odds-injury-100000279.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
           {
             "t": "2026-11-13T07:15:47Z",
             "title": "Clippers&#39; Bradley Beal still sidelined, getting &#39;not good results&#39; in ramp-up",
@@ -1273,13 +1280,6 @@
             "t": "2026-11-13T02:36:08Z",
             "title": "Marcus Smart suspended three games for punch",
             "link": "https://sports.yahoo.com/articles/marcus-smart-suspended-three-games-023608364.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-13T02:05:20Z",
-            "title": "Marcus Smart suspended for throwing punch that made contact with Warriors player&#39;s face",
-            "link": "https://sports.yahoo.com/articles/marcus-smart-suspended-throwing-punch-020520777.html",
             "source": "sports.yahoo.com",
             "tone": -1
           }
@@ -1435,8 +1435,8 @@
       },
       "traits": [],
       "mind": {
-        "iq": 109,
-        "iq_week": 29,
+        "iq": 108,
+        "iq_week": 28,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -1476,7 +1476,7 @@
           },
           {
             "d": "2026-11-13",
-            "iq": 109
+            "iq": 108
           }
         ],
         "facts": [
@@ -1666,12 +1666,40 @@
         "appetite": 0.6
       },
       "reading": {
-        "week": 370,
+        "week": 384,
         "latest": [
+          {
+            "t": "2026-11-13T10:06:19Z",
+            "title": "Luke McCaffrey knew the rules and made a heads-up play, causing a kickoff out of bounds",
+            "link": "https://sports.yahoo.com/articles/luke-mccaffrey-knew-rules-made-100619763.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-13T10:06:11Z",
+            "title": "Patriots vs. Lions weather forecast: Nothing to worry about for Drake Maye",
+            "link": "https://sports.yahoo.com/articles/patriots-vs-lions-weather-forecast-100611823.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-13T09:02:23Z",
+            "title": "Nebraska DB Andrew Marshall listed out with injury for Rutgers game",
+            "link": "https://sports.yahoo.com/articles/nebraska-db-andrew-marshall-listed-090223663.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
           {
             "t": "2026-11-13T06:35:15Z",
             "title": "Five Bold Predictions For Indiana vs. USC",
             "link": "https://sports.yahoo.com/articles/five-bold-predictions-indiana-vs-063515149.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-13T05:39:02Z",
+            "title": "Heroes, zeros from Giants’ loss to Commanders: Jayden Daniels remains unbeaten against Big Blue",
+            "link": "https://sports.yahoo.com/articles/heroes-zeros-giants-loss-commanders-053902806.html",
             "source": "sports.yahoo.com",
             "tone": 1
           },
@@ -1681,34 +1709,6 @@
             "link": "https://sports.yahoo.com/articles/unfortunate-utah-hc-morgan-scalley-030752360.html",
             "source": "sports.yahoo.com",
             "tone": 1
-          },
-          {
-            "t": "2026-11-13T02:09:28Z",
-            "title": "Cardinals name Carson Beck starting QB: Rookie faces Aaron Donald, Myles Garrett in NFL debut",
-            "link": "https://www.cbssports.com/nfl/news/cardinals-starting-qb-carson-beck-2026/",
-            "source": "www.cbssports.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-13T01:57:43Z",
-            "title": "FSU Football at Pittsburgh Panthers: Seminoles Get Boost On Defense",
-            "link": "https://sports.yahoo.com/articles/fsu-football-pittsburgh-panthers-seminoles-015743200.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-13T01:54:39Z",
-            "title": "Texas DT Hero Kanu upgraded, OL Cole Hutson joins Thursday injury report",
-            "link": "https://sports.yahoo.com/articles/texas-dt-hero-kanu-upgraded-015439918.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-13T01:36:19Z",
-            "title": "Tennessee football injury update, starting left guard Nic Moore ruled out vs Texas A&M",
-            "link": "https://sports.yahoo.com/articles/tennessee-football-injury-ol-nic-013619502.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
           }
         ]
       },
