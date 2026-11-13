@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T23:45:30Z",
+  "updated": "2026-11-13T00:01:00Z",
   "start_fund": 200,
   "order": [
     "lizard",
@@ -16,15 +16,15 @@
     "talk": [
       {
         "who": "quant",
-        "text": "The data put me first. The Lizard, check your model. The data says I'm the one going live. 22 days to prove it."
+        "text": "The data put me first. The Lizard, check your model. The data says I'm the one going live. 21 days to prove it."
       },
       {
         "who": "lizard",
-        "text": "The Quant can enjoy the view. I'm patient, and I'm coming. Only one of us goes live in 22 days. I'll be the one still standing."
+        "text": "The Quant can enjoy the view. I'm patient, and I'm coming. Only one of us goes live in 21 days. I'll be the one still standing."
       },
       {
         "who": "shark",
-        "text": "I smell The Quant's lead from here. Closing in. Only one of us gets real money, in 22 days. And I'm hungry."
+        "text": "I smell The Quant's lead from here. Closing in. Only one of us gets real money, in 21 days. And I'm hungry."
       }
     ],
     "chars": {
@@ -441,7 +441,7 @@
     "week_start": "2026-11-09",
     "race": {
       "date": "2026-12-04",
-      "days_left": 22,
+      "days_left": 21,
       "min_bets": 30,
       "rows": [
         {
@@ -507,7 +507,7 @@
         "min_edge": 0.02,
         "odds": [
           1.6,
-          6.0
+          3.0
         ],
         "stop_below": 110
       },
@@ -888,27 +888,39 @@
       },
       "challenge": {
         "today": {
-          "day": "2026-11-12",
-          "id": "explorer",
-          "emoji": "🧭",
-          "title": "Explorer day",
-          "text": "Make a bet in Super League - Greece, the competition I'm exploring.",
+          "day": "2026-11-13",
+          "id": "discipline",
+          "emoji": "🧘",
+          "title": "Discipline day",
+          "text": "No gut calls, no wild bets, nothing above odds 3.0, and still beat the market.",
           "status": "active",
           "market": "spreads",
-          "target": 20,
+          "target": 38,
           "league": "soccer_greece_super_league"
         },
         "recent": [
+          {
+            "day": "2026-11-13",
+            "id": "discipline",
+            "emoji": "🧘",
+            "title": "Discipline day",
+            "text": "No gut calls, no wild bets, nothing above odds 3.0, and still beat the market.",
+            "status": "active",
+            "market": "spreads",
+            "target": 38,
+            "league": "soccer_greece_super_league"
+          },
           {
             "day": "2026-11-12",
             "id": "explorer",
             "emoji": "🧭",
             "title": "Explorer day",
             "text": "Make a bet in Super League - Greece, the competition I'm exploring.",
-            "status": "active",
+            "status": "failed",
             "market": "spreads",
             "target": 20,
-            "league": "soccer_greece_super_league"
+            "league": "soccer_greece_super_league",
+            "detail": "No bet there today."
           },
           {
             "day": "2026-11-11",
@@ -924,13 +936,13 @@
           }
         ],
         "done": 0,
-        "judged": 1,
+        "judged": 2,
         "streak": 0
       },
       "traits": [],
       "mind": {
         "iq": 101,
-        "iq_week": 20,
+        "iq_week": 17,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -966,6 +978,10 @@
           },
           {
             "d": "2026-11-12",
+            "iq": 101
+          },
+          {
+            "d": "2026-11-13",
             "iq": 101
           }
         ],
@@ -1030,10 +1046,10 @@
       "risk": {
         "kelly": 0.5,
         "max_stake_pct": 5,
-        "min_edge": 0.015,
+        "min_edge": 0.025,
         "odds": [
           1.6,
-          3.0
+          3.5
         ],
         "stop_below": 110
       },
@@ -1352,24 +1368,35 @@
       },
       "challenge": {
         "today": {
-          "day": "2026-11-12",
-          "id": "discipline",
-          "emoji": "🧘",
-          "title": "Discipline day",
-          "text": "No gut calls, no wild bets, nothing above odds 3.0, and still beat the market.",
+          "day": "2026-11-13",
+          "id": "precision",
+          "emoji": "🎯",
+          "title": "Precision day",
+          "text": "Only bets with an edge 1% above my usual bar, and at least 2 of them must beat the market.",
           "status": "active",
           "market": "spreads",
-          "target": 20,
+          "target": 50,
           "league": "basketball_nbl"
         },
         "recent": [
+          {
+            "day": "2026-11-13",
+            "id": "precision",
+            "emoji": "🎯",
+            "title": "Precision day",
+            "text": "Only bets with an edge 1% above my usual bar, and at least 2 of them must beat the market.",
+            "status": "active",
+            "market": "spreads",
+            "target": 50,
+            "league": "basketball_nbl"
+          },
           {
             "day": "2026-11-12",
             "id": "discipline",
             "emoji": "🧘",
             "title": "Discipline day",
             "text": "No gut calls, no wild bets, nothing above odds 3.0, and still beat the market.",
-            "status": "active",
+            "status": "judging",
             "market": "spreads",
             "target": 20,
             "league": "basketball_nbl"
@@ -1430,6 +1457,10 @@
           },
           {
             "d": "2026-11-12",
+            "iq": 105
+          },
+          {
+            "d": "2026-11-13",
             "iq": 105
           }
         ],
@@ -1748,27 +1779,39 @@
       },
       "challenge": {
         "today": {
-          "day": "2026-11-12",
-          "id": "explorer",
-          "emoji": "🧭",
-          "title": "Explorer day",
-          "text": "Make a bet in CFL, the competition I'm exploring.",
+          "day": "2026-11-13",
+          "id": "new_ground",
+          "emoji": "🗺️",
+          "title": "New ground",
+          "text": "Make a bet in the bet type I use least: total.",
           "status": "active",
           "market": "totals",
-          "target": 20,
+          "target": 122,
           "league": "americanfootball_cfl"
         },
         "recent": [
+          {
+            "day": "2026-11-13",
+            "id": "new_ground",
+            "emoji": "🗺️",
+            "title": "New ground",
+            "text": "Make a bet in the bet type I use least: total.",
+            "status": "active",
+            "market": "totals",
+            "target": 122,
+            "league": "americanfootball_cfl"
+          },
           {
             "day": "2026-11-12",
             "id": "explorer",
             "emoji": "🧭",
             "title": "Explorer day",
             "text": "Make a bet in CFL, the competition I'm exploring.",
-            "status": "active",
+            "status": "failed",
             "market": "totals",
             "target": 20,
-            "league": "americanfootball_cfl"
+            "league": "americanfootball_cfl",
+            "detail": "No bet there today."
           },
           {
             "day": "2026-11-11",
@@ -1783,13 +1826,13 @@
           }
         ],
         "done": 0,
-        "judged": 0,
+        "judged": 1,
         "streak": 0
       },
       "traits": [],
       "mind": {
         "iq": 99,
-        "iq_week": 19,
+        "iq_week": 18,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -1825,6 +1868,10 @@
           },
           {
             "d": "2026-11-12",
+            "iq": 99
+          },
+          {
+            "d": "2026-11-13",
             "iq": 99
           }
         ],
@@ -4148,26 +4195,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-10T08:00:56Z",
-      "text": "🏅 🦎 The Lizard unlocked 🧠 IQ 100: Reached Sport IQ 100."
-    },
-    {
-      "t": "2026-11-10T21:01:26Z",
-      "text": "Placed 3 practice bets:\n- The Quant: **Boston Celtics** (Winner) in Philadelphia 76ers vs Boston Celtics (NBA) at 1.91 on William Hill, stake 2.02, edge +1.8%\n- The Shark: **Cincinnati Bengals -3.5** (Spread) in Cincinnati Bengals vs Pittsburgh Steelers (NFL) at 2.08 on Matchbook, stake 2.02, edge +2.1%\n- The Shark 🎲 wild: **Southern Mississippi Golden Eagles** (Winner) in Louisiana Tech Bulldogs vs Southern Mississippi Golden Eagles (College football (US)) at 8.0 on Betfair, stake 0.50, edge +0.8%"
-    },
-    {
-      "t": "2026-11-10T21:01:26Z",
-      "text": "🏅 🧮 The Quant unlocked 🩸 First Blood: Placed its first bet."
-    },
-    {
-      "t": "2026-11-10T21:01:26Z",
-      "text": "🏅 🧮 The Quant unlocked 📚 Scholar: Studied 100 games."
-    },
-    {
-      "t": "2026-11-11T00:30:43Z",
-      "text": "🏅 🧮 The Quant unlocked 🎯 Beat the Market: Got a better price than the final one."
-    },
-    {
       "t": "2026-11-11T08:00:55Z",
       "text": "Placed 3 practice bets:\n- The Quant: **Washington Wizards** (Winner) in Indiana Pacers vs Washington Wizards (NBA) at 2.45 on Everygame, stake 1.58, edge +2.3%\n- The Quant 🎲 wild: **Milwaukee Bucks** (Winner) in Milwaukee Bucks vs Los Angeles Lakers (NBA) at 6.4 on Matchbook, stake 0.50, edge +11.4%\n- The Quant 🎲 wild: **Chicago Bulls** (Winner) in Chicago Bulls vs San Antonio Spurs (NBA) at 10.0 on Betfair, stake 0.50, edge +9.3%"
     },
@@ -4266,6 +4293,26 @@
     {
       "t": "2026-11-12T16:00:54Z",
       "text": "Placed 5 practice bets:\n- The Quant: **Southern Illinois Salukis** (Winner) in Southern Illinois Salukis vs Richmond Spiders (College basketball (US)) at 2.5 on Everygame, stake 1.18, edge +1.8%\n- The Quant: **ASVEL Lyon Villeurbanne -2.5** (Spread) in ASVEL Lyon Villeurbanne vs Beşiktaş J.K. (EuroLeague) at 2.15 on William Hill, stake 5.06, edge +5.8%\n- The Lizard 🧭 scout: **Draw** (Winner) in Granada CF vs Las Palmas (La Liga 2 (Spain 2)) at 3.75 on Coolbet, stake 0.99, edge +0.6%\n- The Shark 🧭 scout: **Northern Illinois Huskies** (Winner) in Northern Illinois Huskies vs Nevada Wolf Pack (College football (US)) at 3.4 on LeoVegas (SE), stake 1.00, edge +1.1%\n- The Shark 🧭 scout: **Arizona Wildcats** (Winner) in Arizona Wildcats vs Utah Utes (College football (US)) at 2.25 on BetOnline.ag, stake 1.00, edge +0.8%"
+    },
+    {
+      "t": "2026-11-13T00:01:00Z",
+      "text": "❌ 🦎 The Lizard missed 🧭 Explorer day: No bet there today."
+    },
+    {
+      "t": "2026-11-13T00:01:00Z",
+      "text": "🎯 🦎 The Lizard's challenge today: 🧘 Discipline day. No gut calls, no wild bets, nothing above odds 3.0, and still beat the market."
+    },
+    {
+      "t": "2026-11-13T00:01:00Z",
+      "text": "🎯 🧮 The Quant's challenge today: 🎯 Precision day. Only bets with an edge 1% above my usual bar, and at least 2 of them must beat the market."
+    },
+    {
+      "t": "2026-11-13T00:01:00Z",
+      "text": "❌ 🦈 The Shark missed 🧭 Explorer day: No bet there today."
+    },
+    {
+      "t": "2026-11-13T00:01:00Z",
+      "text": "🎯 🦈 The Shark's challenge today: 🗺️ New ground. Make a bet in the bet type I use least: total."
     }
   ]
 }
