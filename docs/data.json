@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13T00:30:43Z",
+  "updated": "2026-11-13T00:45:30Z",
   "start_fund": 200,
   "order": [
     "lizard",
@@ -307,7 +307,7 @@
             "pending": false
           }
         ],
-        "score": 138,
+        "score": 141,
         "trophies": []
       },
       "shark": {
@@ -1396,10 +1396,11 @@
             "emoji": "🧘",
             "title": "Discipline day",
             "text": "No gut calls, no wild bets, nothing above odds 3.0, and still beat the market.",
-            "status": "judging",
+            "status": "done",
             "market": "spreads",
             "target": 20,
-            "league": "basketball_nbl"
+            "league": "basketball_nbl",
+            "detail": "1 bet beat the market."
           },
           {
             "day": "2026-11-11",
@@ -1414,9 +1415,9 @@
             "detail": "1 bet beat the market."
           }
         ],
-        "done": 1,
-        "judged": 1,
-        "streak": 1
+        "done": 2,
+        "judged": 2,
+        "streak": 2
       },
       "traits": [],
       "mind": {
@@ -4195,10 +4196,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-11T08:00:55Z",
-      "text": "Placed 3 practice bets:\n- The Quant: **Washington Wizards** (Winner) in Indiana Pacers vs Washington Wizards (NBA) at 2.45 on Everygame, stake 1.58, edge +2.3%\n- The Quant 🎲 wild: **Milwaukee Bucks** (Winner) in Milwaukee Bucks vs Los Angeles Lakers (NBA) at 6.4 on Matchbook, stake 0.50, edge +11.4%\n- The Quant 🎲 wild: **Chicago Bulls** (Winner) in Chicago Bulls vs San Antonio Spurs (NBA) at 10.0 on Betfair, stake 0.50, edge +9.3%"
-    },
-    {
       "t": "2026-11-11T09:45:31Z",
       "text": "Results:\n- Won +1.84: Boston Celtics (Winner) in Philadelphia 76ers vs Boston Celtics (Philadelphia 76ers 101 - 123 Boston Celtics)"
     },
@@ -4313,6 +4310,10 @@
     {
       "t": "2026-11-13T00:01:00Z",
       "text": "🎯 🦈 The Shark's challenge today: 🗺️ New ground. Make a bet in the bet type I use least: total."
+    },
+    {
+      "t": "2026-11-13T00:45:30Z",
+      "text": "✅ 🧮 The Quant completed 🧘 Discipline day: 1 bet beat the market."
     }
   ]
 }
