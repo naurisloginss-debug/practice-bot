@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13T20:00:51Z",
+  "updated": "2026-11-13T20:15:31Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -746,8 +746,22 @@
         "appetite": 0.45
       },
       "reading": {
-        "week": 99,
+        "week": 107,
         "latest": [
+          {
+            "t": "2026-11-13T17:40:36Z",
+            "title": "Good news for Roma with Dybala on target, others ready for return",
+            "link": "https://football-italia.net/good-news-for-roma-with-dybala-on-target-ready/",
+            "source": "football-italia.net",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-13T17:23:18Z",
+            "title": "Tare: ‘Milan biggest disappointment was Pulisic, choosing Allegri, Cardinale problem’",
+            "link": "https://football-italia.net/tare-milan-pulisic-choosing-allegri-cardinale/",
+            "source": "football-italia.net",
+            "tone": -1
+          },
           {
             "t": "2026-11-13T10:00:46Z",
             "title": "The club preparing to play again after the death of a player",
@@ -773,20 +787,6 @@
             "t": "2026-11-13T07:48:33Z",
             "title": "Pocognoli courts potential new Scotland players - gossip",
             "link": "https://www.bbc.co.uk/sport/football/articles/cmglrknl3j5no?at_medium=RSS&at_campaign=rss",
-            "source": "feeds.bbci.co.uk",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-12T17:15:20Z",
-            "title": "Crystal Palace sack boss Sage after 16 games",
-            "link": "https://www.bbc.co.uk/sport/football/articles/cv5y18lkk87do?at_medium=RSS&at_campaign=rss",
-            "source": "feeds.bbci.co.uk",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-12T16:41:49Z",
-            "title": "Owono undecided over future following De Miguel death",
-            "link": "https://www.bbc.co.uk/sport/football/articles/ckedq01zve04o?at_medium=RSS&at_campaign=rss",
             "source": "feeds.bbci.co.uk",
             "tone": 1
           }
@@ -1239,8 +1239,15 @@
         "appetite": 0.35
       },
       "reading": {
-        "week": 99,
+        "week": 77,
         "latest": [
+          {
+            "t": "2026-11-13T17:09:34Z",
+            "title": "NBA Rookie of the Year race: Three players at top, but don't count out AJ Dybantsa, Darryn Peterson just yet",
+            "link": "https://www.cbssports.com/nba/news/nba-rookie-of-the-year-race-yaxel-lendeborg-cameron-boozer-darryn-peterson-aj-dybantsa/",
+            "source": "www.cbssports.com",
+            "tone": -1
+          },
           {
             "t": "2026-11-13T15:22:30Z",
             "title": "Must-See 65: The plan to kill the NBA back-to-back and re-energize the sport&#39;s biggest stars",
@@ -1273,13 +1280,6 @@
             "t": "2026-11-13T10:00:00Z",
             "title": "Cavs at Heat: How to watch, odds, and injury report",
             "link": "https://sports.yahoo.com/articles/cavs-heat-watch-odds-injury-100000279.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-13T08:25:23Z",
-            "title": "Lendeborg, Podziemski set to give Warriors a glimpse at post-Steph Curry era",
-            "link": "https://sports.yahoo.com/articles/lendeborg-podziemski-set-warriors-glimpse-082523370.html",
             "source": "sports.yahoo.com",
             "tone": -1
           }
@@ -1675,49 +1675,49 @@
         "appetite": 0.6
       },
       "reading": {
-        "week": 402,
+        "week": 416,
         "latest": [
           {
-            "t": "2026-11-13T16:54:16Z",
-            "title": "Lions, Patriots injury report: Amon-Ra St. Brown questionable",
-            "link": "https://sports.yahoo.com/articles/lions-patriots-injury-report-amon-165416262.html",
+            "t": "2026-11-13T19:52:19Z",
+            "title": "Steelers reporter doesn’t expect Derrick Harmon to return against Bengals",
+            "link": "https://sports.yahoo.com/articles/steelers-reporter-doesn-t-expect-195219707.html",
             "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-13T16:46:18Z",
-            "title": "Carnell Tate injury update: Titans rookie WR to miss second straight game",
-            "link": "https://sports.yahoo.com/articles/carnell-tate-injury-titans-rookie-164618382.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-13T16:44:57Z",
-            "title": "Fantasy Football Usage Report: Tank Dell flashes in second game back from injury",
-            "link": "https://sports.yahoo.com/articles/fantasy-football-usage-report-tank-164457478.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-13T16:10:00Z",
-            "title": "Tennessee RB Daune Morris car accident knocks him out for rest of season",
-            "link": "https://sports.yahoo.com/articles/tennessee-rb-daune-morris-car-161000195.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-13T16:06:10Z",
-            "title": "UCF Hosts Arizona State: How To Watch, Stats, Betting Odds, Storyline",
-            "link": "https://sports.yahoo.com/articles/ucf-hosts-arizona-state-watch-160610747.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-13T16:00:24Z",
-            "title": "NFL Week 10 bold predictions: Joe Burrow lights up first-place Steelers, Tony Pollard bulldozes new-look Jags",
-            "link": "https://www.cbssports.com/nfl/news/nfl-week-10-bold-predictions-joe-burrow-lights-up-steelers-tony-pollard-bulldozes-jags/",
-            "source": "www.cbssports.com",
             "tone": 1
+          },
+          {
+            "t": "2026-11-13T19:38:19Z",
+            "title": "Cardinals reportedly extend No. 2 TE Elijah Higgins, going all-in on tight ends amid WR injuries",
+            "link": "https://www.cbssports.com/nfl/news/cardinals-sign-2-tight-end-elijah-higgins-three-year-extension-per-report/",
+            "source": "www.cbssports.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-13T19:26:03Z",
+            "title": "Cowboys' Joey Porter Jr. breaks silence on chatter that absence is contract related",
+            "link": "https://www.cbssports.com/nfl/news/cowboys-joey-porter-jr-breaks-silence-on-chatter-that-absence-is-contract-related/",
+            "source": "www.cbssports.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-13T18:58:27Z",
+            "title": "Former LSU championship winning coach returns to Tiger Stadium with Texas",
+            "link": "https://sports.yahoo.com/articles/former-lsu-championship-winning-coach-185827219.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-13T18:31:36Z",
+            "title": "A.J. Brown injury update as Patriots WR eyes international game return",
+            "link": "https://sports.yahoo.com/articles/j-brown-injury-patriots-wr-183136051.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-13T18:16:06Z",
+            "title": "Jaguars vs Titans: Injury Report Ahead of Week 10",
+            "link": "https://sports.yahoo.com/articles/jaguars-vs-titans-injury-report-181606260.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
           }
         ]
       },
