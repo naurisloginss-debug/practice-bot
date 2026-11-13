@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13T15:45:30Z",
+  "updated": "2026-11-13T16:00:54Z",
   "start_fund": 200,
   "order": [
     "lizard",
@@ -292,7 +292,7 @@
           {
             "text": "Games studied",
             "target": 25,
-            "now": 218
+            "now": 238
           },
           {
             "text": "Bets checked against the market",
@@ -489,8 +489,8 @@
       "leader": "quant"
     }
   },
-  "credits_left": 19486,
-  "last_scan": "2026-11-13@8",
+  "credits_left": 19453,
+  "last_scan": "2026-11-13@16",
   "strategies": {
     "lizard": {
       "name": "The Lizard",
@@ -793,7 +793,7 @@
         ]
       },
       "diary": {
-        "t": "2026-11-13T08:00:53Z",
+        "t": "2026-11-13T16:00:54Z",
         "mood": "Nothing worth the risk today. Patience is a weapon.",
         "mindset": "Only one of us gets real money after the test. Reckless bets would only cost me that chance, so: patience, precision, proof.",
         "looked": 26,
@@ -802,40 +802,40 @@
         "scouts": 0,
         "passed": [
           {
-            "game": "Wimbledon vs Blackpool",
-            "league": "League One (England 3)",
-            "pick": "Draw",
-            "odds": 3.65,
-            "book": "Matchbook",
-            "edge": 0.0266,
-            "reason": "Odds 3.65 are outside my game (1.6–3.0)."
-          },
-          {
             "game": "Chapecoense vs Vasco da Gama",
             "league": "Brasileirão (Brazil)",
             "pick": "Chapecoense",
-            "odds": 7.0,
+            "odds": 7.8,
             "book": "Matchbook",
-            "edge": 0.0129,
-            "reason": "Odds 7.00 are outside my game (1.6–3.0)."
+            "edge": 0.0267,
+            "reason": "Odds 7.80 are outside my game (1.6–3.0)."
           },
           {
-            "game": "Shrewsbury Town vs Oldham Athletic",
-            "league": "League Two (England 4)",
-            "pick": "Draw",
-            "odds": 3.5,
-            "book": "Matchbook",
-            "edge": 0.0089,
-            "reason": "Odds 3.50 are outside my game (1.6–3.0)."
-          },
-          {
-            "game": "Milton Keynes Dons vs Burton Albion",
+            "game": "Sheffield Wednesday vs Plymouth Argyle",
             "league": "League One (England 3)",
-            "pick": "Burton Albion",
-            "odds": 5.1,
+            "pick": "Plymouth Argyle",
+            "odds": 2.96,
             "book": "Matchbook",
-            "edge": 0.0058,
-            "reason": "Odds 5.10 are outside my game (1.6–3.0)."
+            "edge": 0.0168,
+            "reason": "Only +1.68% edge. I need +2.0% before I move."
+          },
+          {
+            "game": "CD Eldense vs Sabadell FC",
+            "league": "La Liga 2 (Spain 2)",
+            "pick": "Draw",
+            "odds": 3.2,
+            "book": "Coolbet",
+            "edge": 0.0118,
+            "reason": "Odds 3.20 are outside my game (1.6–3.0)."
+          },
+          {
+            "game": "Wigan Athletic vs Barnsley",
+            "league": "League One (England 3)",
+            "pick": "Barnsley",
+            "odds": 2.92,
+            "book": "Matchbook",
+            "edge": 0.0088,
+            "reason": "Only +0.88% edge. I need +2.0% before I move."
           }
         ]
       },
@@ -989,17 +989,17 @@
         "facts": [
           {
             "conf": "solid",
-            "n": 289,
-            "z": 0,
-            "text": "Coolbet is the softest bookmaker in La Liga 2 (Spain 2).",
-            "detail": "beats fair by 2%+ on 3% of its prices vs 0% across all bookmakers"
-          },
-          {
-            "conf": "solid",
-            "n": 282,
+            "n": 344,
             "z": 0,
             "text": "Matchbook is the softest bookmaker in League Two (England 4).",
             "detail": "beats fair by 2%+ on 1% of its prices vs 0% across all bookmakers"
+          },
+          {
+            "conf": "solid",
+            "n": 328,
+            "z": 0,
+            "text": "Coolbet is the softest bookmaker in La Liga 2 (Spain 2).",
+            "detail": "beats fair by 2%+ on 3% of its prices vs 0% across all bookmakers"
           },
           {
             "conf": "solid",
@@ -1068,14 +1068,14 @@
       "start_fund": 200,
       "fund": 199.04,
       "lessons": [],
-      "bets": 18,
-      "open": 2,
+      "bets": 20,
+      "open": 4,
       "won": 8,
       "lost": 8,
       "staked": 23.29,
       "profit": -0.96,
       "roi": -0.0412,
-      "avg_edge": 0.0322,
+      "avg_edge": 0.0317,
       "avg_clv": 0.006,
       "beat_close": 0.6,
       "clv_count": 15,
@@ -1152,7 +1152,7 @@
       "by_league": [
         {
           "name": "College basketball (US)",
-          "bets": 8,
+          "bets": 10,
           "profit": 7.52,
           "roi": 0.844,
           "avg_clv": 0.0147,
@@ -1199,7 +1199,7 @@
         },
         {
           "name": "Winner",
-          "bets": 13,
+          "bets": 15,
           "profit": -1.76,
           "roi": -0.0973,
           "avg_clv": 0.0037,
@@ -1210,7 +1210,7 @@
       "by_sport": [
         {
           "name": "Basketball",
-          "bets": 18,
+          "bets": 20,
           "profit": -0.96,
           "roi": -0.0412,
           "avg_clv": 0.006,
@@ -1286,49 +1286,49 @@
         ]
       },
       "diary": {
-        "t": "2026-11-13T08:00:53Z",
+        "t": "2026-11-13T16:00:54Z",
         "mood": "The numbers don't lie. Betting it.",
         "mindset": "One of us gets real money. The selection rewards proven edge, not lucky wins, so I bet what the numbers support.",
-        "looked": 47,
-        "placed": 1,
+        "looked": 67,
+        "placed": 2,
         "wild_choice": "No wild bets today: today's challenge is about discipline.",
-        "scouts": 1,
+        "scouts": 0,
         "passed": [
+          {
+            "game": "Charlotte 49ers vs Appalachian St Mountaineers",
+            "league": "College basketball (US)",
+            "pick": "Appalachian St Mountaineers",
+            "odds": 4.0,
+            "book": "888sport",
+            "edge": 0.0798,
+            "reason": "Odds 4.00 are outside my game (1.6–3.5)."
+          },
           {
             "game": "San Antonio Spurs vs Golden State Warriors",
             "league": "NBA",
             "pick": "Golden State Warriors",
-            "odds": 6.75,
-            "book": "Winamax (DE)",
-            "edge": 0.1331,
-            "reason": "+13.3% looks too good to be true. Probably a price the bookmaker forgot to update."
+            "odds": 6.05,
+            "book": "BetOnline.ag",
+            "edge": 0.0774,
+            "reason": "Odds 6.05 are outside my game (1.6–3.5)."
           },
           {
             "game": "Utah State Aggies vs UC San Diego Tritons",
             "league": "College basketball (US)",
             "pick": "UC San Diego Tritons",
-            "odds": 8.55,
-            "book": "GTbets",
-            "edge": 0.0603,
-            "reason": "Odds 8.55 are outside my game (1.6–3.5)."
+            "odds": 8.54,
+            "book": "BetOnline.ag",
+            "edge": 0.0579,
+            "reason": "Odds 8.54 are outside my game (1.6–3.5)."
           },
           {
-            "game": "Sacramento Kings vs Portland Trail Blazers",
+            "game": "Houston Rockets vs Utah Jazz",
             "league": "NBA",
-            "pick": "Sacramento Kings",
-            "odds": 5.5,
+            "pick": "Utah Jazz",
+            "odds": 10.5,
             "book": "Betfair",
-            "edge": 0.0377,
-            "reason": "Odds 5.50 are outside my game (1.6–3.5)."
-          },
-          {
-            "game": "Omaha Mavericks vs Lindenwood Lions",
-            "league": "College basketball (US)",
-            "pick": "Lindenwood Lions",
-            "odds": 2.7,
-            "book": "Unibet (NL)",
-            "edge": 0.0232,
-            "reason": "Only +2.32% edge. I need +2.5% before I move."
+            "edge": 0.0542,
+            "reason": "Odds 10.50 are outside my game (1.6–3.5)."
           }
         ]
       },
@@ -1482,7 +1482,7 @@
         "facts": [
           {
             "conf": "solid",
-            "n": 594,
+            "n": 726,
             "z": 0,
             "text": "BetOnline.ag is the softest bookmaker in College basketball (US).",
             "detail": "beats fair by 2%+ on 2% of its prices vs 1% across all bookmakers"
@@ -1524,7 +1524,7 @@
           }
         ],
         "rules": 0,
-        "studied": 240,
+        "studied": 260,
         "resolved": 192
       }
     },
@@ -1560,14 +1560,14 @@
       "start_fund": 200,
       "fund": 200.77,
       "lessons": [],
-      "bets": 22,
-      "open": 20,
+      "bets": 28,
+      "open": 26,
       "won": 1,
       "lost": 1,
       "staked": 5.69,
       "profit": 0.77,
       "roi": 0.1353,
-      "avg_edge": 0.0205,
+      "avg_edge": 0.019,
       "avg_clv": 0.0246,
       "beat_close": 0.5,
       "clv_count": 2,
@@ -1588,7 +1588,7 @@
       "by_league": [
         {
           "name": "NFL",
-          "bets": 10,
+          "bets": 12,
           "profit": 0.77,
           "roi": 0.1353,
           "avg_clv": 0.0246,
@@ -1596,8 +1596,17 @@
           "clv_count": 2
         },
         {
+          "name": "CFL",
+          "bets": 1,
+          "profit": 0,
+          "roi": null,
+          "avg_clv": null,
+          "beat_close": null,
+          "clv_count": 0
+        },
+        {
           "name": "College football (US)",
-          "bets": 12,
+          "bets": 15,
           "profit": 0,
           "roi": null,
           "avg_clv": null,
@@ -1608,7 +1617,7 @@
       "by_market": [
         {
           "name": "Spread",
-          "bets": 3,
+          "bets": 4,
           "profit": 0.77,
           "roi": 0.1353,
           "avg_clv": 0.0246,
@@ -1626,7 +1635,7 @@
         },
         {
           "name": "Winner",
-          "bets": 17,
+          "bets": 22,
           "profit": 0,
           "roi": null,
           "avg_clv": null,
@@ -1637,7 +1646,7 @@
       "by_sport": [
         {
           "name": "American football",
-          "bets": 22,
+          "bets": 28,
           "profit": 0.77,
           "roi": 0.1353,
           "avg_clv": 0.0246,
@@ -1657,7 +1666,7 @@
         "profit": 0
       },
       "wild": {
-        "bets": 4,
+        "bets": 6,
         "won": 0,
         "lost": 0,
         "profit": 0,
@@ -1713,31 +1722,22 @@
         ]
       },
       "diary": {
-        "t": "2026-11-13T08:00:53Z",
+        "t": "2026-11-13T16:00:54Z",
         "mood": "Blood in the water. Getting in before the market moves.",
         "mindset": "Only one of us goes live. Sharks don't thrash around: one clean bite at a time beats the market and wins the seat.",
-        "looked": 72,
-        "placed": 3,
-        "wild_choice": "Saw Georgia Tech Yellow Jackets at 5.80. Tempting, but I passed. Not feeling it today.",
-        "scouts": 2,
+        "looked": 73,
+        "placed": 6,
+        "wild_choice": "Took a shot: New York Jets at 4.70, Georgia Tech Yellow Jackets at 5.80.",
+        "scouts": 1,
         "passed": [
-          {
-            "game": "Iowa Hawkeyes vs Purdue Boilermakers",
-            "league": "College football (US)",
-            "pick": "Purdue Boilermakers",
-            "odds": 9.0,
-            "book": "Betfair",
-            "edge": 0.1204,
-            "reason": "+12.0% looks too good to be true. Probably a price the bookmaker forgot to update."
-          },
           {
             "game": "Boise State Broncos vs Oregon State Beavers",
             "league": "College football (US)",
             "pick": "Oregon State Beavers",
-            "odds": 6.1,
-            "book": "Unibet (SE)",
-            "edge": 0.0716,
-            "reason": "Odds 6.10 are outside my game (1.6–4.0)."
+            "odds": 6.4,
+            "book": "Betfair",
+            "edge": 0.0769,
+            "reason": "Odds 6.40 are outside my game (1.6–4.0)."
           },
           {
             "game": "Arizona Cardinals vs Los Angeles Rams",
@@ -1749,13 +1749,22 @@
             "reason": "Odds 4.95 are outside my game (1.6–4.0)."
           },
           {
-            "game": "New York Jets vs Buffalo Bills",
-            "league": "NFL",
-            "pick": "New York Jets",
-            "odds": 4.75,
-            "book": "BetAnything",
-            "edge": 0.048,
-            "reason": "Odds 4.75 are outside my game (1.6–4.0)."
+            "game": "Miami Hurricanes vs Duke Blue Devils",
+            "league": "College football (US)",
+            "pick": "Duke Blue Devils",
+            "odds": 5.6,
+            "book": "Unibet (NL)",
+            "edge": 0.0544,
+            "reason": "Odds 5.60 are outside my game (1.6–4.0)."
+          },
+          {
+            "game": "Vanderbilt Commodores vs Alabama Crimson Tide",
+            "league": "College football (US)",
+            "pick": "Vanderbilt Commodores",
+            "odds": 8.2,
+            "book": "Betfair",
+            "edge": 0.0422,
+            "reason": "Odds 8.20 are outside my game (1.6–4.0)."
           }
         ]
       },
@@ -1803,7 +1812,7 @@
         "adopted": [],
         "tried": [],
         "curiosity": 0.5,
-        "scouts": 7,
+        "scouts": 8,
         "scout_clv": null,
         "scout_measured": 0
       },
@@ -1910,14 +1919,14 @@
         "facts": [
           {
             "conf": "solid",
-            "n": 684,
+            "n": 782,
             "z": 0,
             "text": "Betfair is the softest bookmaker in College football (US).",
-            "detail": "beats fair by 2%+ on 2% of its prices vs 1% across all bookmakers"
+            "detail": "beats fair by 2%+ on 3% of its prices vs 1% across all bookmakers"
           },
           {
             "conf": "solid",
-            "n": 212,
+            "n": 238,
             "z": 0,
             "text": "Betfair is the softest bookmaker in NFL.",
             "detail": "beats fair by 2%+ on 4% of its prices vs 1% across all bookmakers"
@@ -2005,6 +2014,45 @@
         "Full Kelly says 2.0% of my fund. I play 0.5× Kelly, capped at 6%: 2.02 of my 200.77.",
         "I read 11 articles about Cincinnati Bengals lately (nothing that changes much): “Cincinnati vs Iowa State Prediction: Battling For a Bowl Game”",
         "I read 4 articles about Pittsburgh Steelers lately (nothing that changes much): “Steelers WR trade target dealt to Chiefs”",
+        "Blood in the water. Getting in before the market moves."
+      ]
+    },
+    {
+      "id": "fc4c9d3f722f4bb54e8e4496a771a03f-shark-h2h",
+      "strategy": "shark",
+      "placed_at": "2026-11-13T16:00:54Z",
+      "league_key": "americanfootball_cfl",
+      "league": "CFL",
+      "sport": "American football",
+      "event_id": "fc4c9d3f722f4bb54e8e4496a771a03f",
+      "game": "Edmonton Elks vs Montreal Alouettes",
+      "home": "Edmonton Elks",
+      "away": "Montreal Alouettes",
+      "start": "2026-11-15T23:00:00Z",
+      "market": "h2h",
+      "market_name": "Winner",
+      "name": "Edmonton Elks",
+      "point": null,
+      "pick": "Edmonton Elks",
+      "book": "BetOnline.ag",
+      "book_key": "betonlineag",
+      "odds": 2.53,
+      "eff_odds": 2.53,
+      "fair_odds": 2.488,
+      "edge": 0.017,
+      "stake": 1.12,
+      "status": "open",
+      "closing_fair_odds": null,
+      "clv": null,
+      "profit": 0.0,
+      "score": null,
+      "settled_at": null,
+      "thoughts": [
+        "Pinnacle, the sharpest bookmaker, rates Edmonton Elks at 40.2%. That makes the fair price 2.49.",
+        "BetOnline.ag pays 2.53. That is +1.7% above fair. My bar is +1.5%.",
+        "Full Kelly says 1.1% of my fund. I play 0.5× Kelly, capped at 6%: 1.12 of my 200.77.",
+        "I read 1 article about Edmonton Elks lately (nothing that changes much): “Grey Cup 2026 odds, picks, predictions: Montreal vs. Edmonton best bets from proven expert”",
+        "I read 1 article about Montreal Alouettes lately (nothing that changes much): “Grey Cup 2026 odds, picks, predictions: Montreal vs. Edmonton best bets from proven expert”",
         "Blood in the water. Getting in before the market moves."
       ]
     },
@@ -2241,6 +2289,45 @@
       ]
     },
     {
+      "id": "1057d50949844ddf483da9c8c20354be-shark-h2h-wild",
+      "strategy": "shark",
+      "placed_at": "2026-11-13T16:00:54Z",
+      "wild": true,
+      "league_key": "americanfootball_nfl",
+      "league": "NFL",
+      "sport": "American football",
+      "event_id": "1057d50949844ddf483da9c8c20354be",
+      "game": "New York Jets vs Buffalo Bills",
+      "home": "New York Jets",
+      "away": "Buffalo Bills",
+      "start": "2026-11-15T18:00:00Z",
+      "market": "h2h",
+      "market_name": "Winner",
+      "name": "New York Jets",
+      "point": null,
+      "pick": "New York Jets",
+      "book": "Matchbook",
+      "book_key": "matchbook",
+      "odds": 4.7,
+      "eff_odds": 4.626,
+      "fair_odds": 4.532,
+      "edge": 0.0207,
+      "stake": 0.5,
+      "status": "open",
+      "closing_fair_odds": null,
+      "clv": null,
+      "profit": 0.0,
+      "score": null,
+      "settled_at": null,
+      "thoughts": [
+        "Wild one: New York Jets at 4.70. The market gives it 22%.",
+        "Big fish, long line. Let's see if it bites.",
+        "I read 12 articles about New York Jets lately (good news for them): “Giants news: Giants lose to Commanders, more”",
+        "I read 5 articles about Buffalo Bills lately (good news for them): “New York Jets News: Familiar Face Returns in Bills Clash”",
+        "My choice, tiny stake: 0.50 (0.25% of my fund). Kept out of my serious record."
+      ]
+    },
+    {
       "id": "b8308c8150f5ad55e242d7671adaffbd-lizard-h2h-scout",
       "strategy": "lizard",
       "placed_at": "2026-11-12T16:00:54Z",
@@ -2275,6 +2362,45 @@
         "🧭 Exploring. I've only made 1 bet like this (La Liga 2 (Spain 2) winner bets at long shots).",
         "Draw at 3.75 is +0.59% above fair: below my usual bar, but the only way to learn if this kind of bet works for me is to try it.",
         "Scout stake: 0.99 (0.5% of my fund). The result feeds my learning."
+      ]
+    },
+    {
+      "id": "b8c10fdf1e0ac4e13deee7f7c0af0b0b-shark-spreads-scout",
+      "strategy": "shark",
+      "placed_at": "2026-11-13T16:00:54Z",
+      "scout": true,
+      "league_key": "americanfootball_nfl",
+      "league": "NFL",
+      "sport": "American football",
+      "event_id": "b8c10fdf1e0ac4e13deee7f7c0af0b0b",
+      "game": "Detroit Lions vs New England Patriots",
+      "home": "Detroit Lions",
+      "away": "New England Patriots",
+      "start": "2026-11-15T14:30:00Z",
+      "market": "spreads",
+      "market_name": "Spread",
+      "name": "New England Patriots",
+      "point": 2.5,
+      "pick": "New England Patriots +2.5",
+      "book": "888sport",
+      "book_key": "sport888",
+      "odds": 2.1,
+      "eff_odds": 2.1,
+      "fair_odds": 2.086,
+      "edge": 0.0069,
+      "stake": 1.0,
+      "status": "open",
+      "closing_fair_odds": null,
+      "clv": null,
+      "profit": 0.0,
+      "score": null,
+      "settled_at": null,
+      "thoughts": [
+        "🧭 Exploring. I've only made 2 bets like this (NFL spread bets at middle odds).",
+        "New England Patriots +2.5 at 2.10 is +0.69% above fair: below my usual bar, but the only way to learn if this kind of bet works for me is to try it.",
+        "I read 9 articles about Detroit Lions lately (bad news for them): “Lions vs. Patriots preview, prediction: On Paper”",
+        "I read 11 articles about New England Patriots lately (bad news for them): “‘Elite pocket passer’ Jared Goff not being underestimated by Patriots”",
+        "Scout stake: 1.00 (0.5% of my fund). The result feeds my learning."
       ]
     },
     {
@@ -2353,6 +2479,44 @@
       ]
     },
     {
+      "id": "ee91eb14cc4d725be5df58f3285bdaa6-shark-h2h",
+      "strategy": "shark",
+      "placed_at": "2026-11-13T16:00:54Z",
+      "league_key": "americanfootball_ncaaf",
+      "league": "College football (US)",
+      "sport": "American football",
+      "event_id": "ee91eb14cc4d725be5df58f3285bdaa6",
+      "game": "UTSA Roadrunners vs North Texas Mean Green",
+      "home": "UTSA Roadrunners",
+      "away": "North Texas Mean Green",
+      "start": "2026-11-15T02:00:00Z",
+      "market": "h2h",
+      "market_name": "Winner",
+      "name": "UTSA Roadrunners",
+      "point": null,
+      "pick": "UTSA Roadrunners",
+      "book": "BetOnline.ag",
+      "book_key": "betonlineag",
+      "odds": 2.19,
+      "eff_odds": 2.19,
+      "fair_odds": 2.155,
+      "edge": 0.0164,
+      "stake": 1.38,
+      "status": "open",
+      "closing_fair_odds": null,
+      "clv": null,
+      "profit": 0.0,
+      "score": null,
+      "settled_at": null,
+      "thoughts": [
+        "Pinnacle, the sharpest bookmaker, rates UTSA Roadrunners at 46.4%. That makes the fair price 2.15.",
+        "BetOnline.ag pays 2.19. That is +1.6% above fair. My bar is +1.5%.",
+        "Full Kelly says 1.4% of my fund. I play 0.5× Kelly, capped at 6%: 1.38 of my 200.77.",
+        "I read 27 articles about North Texas Mean Green lately (bad news for them): “What time is Tennessee vs Texas A&M football game? Start time, TV channel, streaming info”",
+        "Blood in the water. Getting in before the market moves."
+      ]
+    },
+    {
       "id": "7b3c2958dadc616a19ce7b9b1dd2a7e4-shark-h2h-scout",
       "strategy": "shark",
       "placed_at": "2026-11-12T16:00:54Z",
@@ -2389,6 +2553,45 @@
         "I read 8 articles about Arizona Wildcats lately (bad news for them): “Wayshawn Parker Questionable for Utah&#39;s Matchup With Arizona”",
         "I read 6 articles about Utah Utes lately (bad news for them): “The origin story of Utah’s ‘RSNB’ culture”",
         "Scout stake: 1.00 (0.5% of my fund). The result feeds my learning."
+      ]
+    },
+    {
+      "id": "4ff5dc819e70afa47904e5b901e4f8bc-shark-h2h",
+      "strategy": "shark",
+      "placed_at": "2026-11-13T16:00:54Z",
+      "league_key": "americanfootball_ncaaf",
+      "league": "College football (US)",
+      "sport": "American football",
+      "event_id": "4ff5dc819e70afa47904e5b901e4f8bc",
+      "game": "West Virginia Mountaineers vs Kansas Jayhawks",
+      "home": "West Virginia Mountaineers",
+      "away": "Kansas Jayhawks",
+      "start": "2026-11-14T22:30:00Z",
+      "market": "h2h",
+      "market_name": "Winner",
+      "name": "Kansas Jayhawks",
+      "point": null,
+      "pick": "Kansas Jayhawks",
+      "book": "Unibet (NL)",
+      "book_key": "unibet_nl",
+      "odds": 2.38,
+      "eff_odds": 2.38,
+      "fair_odds": 2.329,
+      "edge": 0.0217,
+      "stake": 1.58,
+      "status": "open",
+      "closing_fair_odds": null,
+      "clv": null,
+      "profit": 0.0,
+      "score": null,
+      "settled_at": null,
+      "thoughts": [
+        "Pinnacle, the sharpest bookmaker, rates Kansas Jayhawks at 42.9%. That makes the fair price 2.33.",
+        "Unibet (NL) pays 2.38. That is +2.2% above fair. My bar is +1.5%.",
+        "Full Kelly says 1.6% of my fund. I play 0.5× Kelly, capped at 6%: 1.58 of my 200.77.",
+        "I read 2 articles about West Virginia Mountaineers lately (nothing that changes much): “Virginia Tech football: James Franklin delivers some good news”",
+        "I read 4 articles about Kansas Jayhawks lately (bad news for them): “Kansas City Chiefs roster”",
+        "Blood in the water. Getting in before the market moves."
       ]
     },
     {
@@ -2700,6 +2903,45 @@
       ]
     },
     {
+      "id": "82eed9ad82fa12a1ace084358d3fd32d-shark-h2h-wild",
+      "strategy": "shark",
+      "placed_at": "2026-11-13T16:00:54Z",
+      "wild": true,
+      "league_key": "americanfootball_ncaaf",
+      "league": "College football (US)",
+      "sport": "American football",
+      "event_id": "82eed9ad82fa12a1ace084358d3fd32d",
+      "game": "Clemson Tigers vs Georgia Tech Yellow Jackets",
+      "home": "Clemson Tigers",
+      "away": "Georgia Tech Yellow Jackets",
+      "start": "2026-11-14T17:30:00Z",
+      "market": "h2h",
+      "market_name": "Winner",
+      "name": "Georgia Tech Yellow Jackets",
+      "point": null,
+      "pick": "Georgia Tech Yellow Jackets",
+      "book": "Betfair",
+      "book_key": "betfair_ex_eu",
+      "odds": 5.8,
+      "eff_odds": 5.56,
+      "fair_odds": 5.581,
+      "edge": -0.0038,
+      "stake": 0.5,
+      "status": "open",
+      "closing_fair_odds": null,
+      "clv": null,
+      "profit": 0.0,
+      "score": null,
+      "settled_at": null,
+      "thoughts": [
+        "Wild one: Georgia Tech Yellow Jackets at 5.80. The market gives it 18%.",
+        "Big fish, long line. Let's see if it bites.",
+        "I read 11 articles about Clemson Tigers lately (bad news for them): “Memphis survives thriller in 11-point win over South Florida”",
+        "I read 12 articles about Georgia Tech Yellow Jackets lately (nothing that changes much): “Oklahoma State football coach Eric Morris is &#39;nuts&#39; and that&#39;s why Texas Tech loves him”",
+        "My choice, tiny stake: 0.50 (0.25% of my fund). Kept out of my serious record."
+      ]
+    },
+    {
       "id": "0431ccbcda08ef99781fee8c341c8932-shark-h2h-scout",
       "strategy": "shark",
       "placed_at": "2026-11-11T15:50:37Z",
@@ -2926,6 +3168,43 @@
       ]
     },
     {
+      "id": "85a997dbe516f43742ed9726057606b1-quant-h2h",
+      "strategy": "quant",
+      "placed_at": "2026-11-13T16:00:54Z",
+      "league_key": "basketball_ncaab",
+      "league": "College basketball (US)",
+      "sport": "Basketball",
+      "event_id": "85a997dbe516f43742ed9726057606b1",
+      "game": "Saint Mary's Gaels vs UIC Flames",
+      "home": "Saint Mary's Gaels",
+      "away": "UIC Flames",
+      "start": "2026-11-14T03:00:00Z",
+      "market": "h2h",
+      "market_name": "Winner",
+      "name": "UIC Flames",
+      "point": null,
+      "pick": "UIC Flames",
+      "book": "BetOnline.ag",
+      "book_key": "betonlineag",
+      "odds": 3.3,
+      "eff_odds": 3.3,
+      "fair_odds": 3.214,
+      "edge": 0.0267,
+      "stake": 1.15,
+      "status": "open",
+      "closing_fair_odds": null,
+      "clv": null,
+      "profit": 0.0,
+      "score": null,
+      "settled_at": null,
+      "thoughts": [
+        "Pinnacle, the sharpest bookmaker, rates UIC Flames at 31.1%. That makes the fair price 3.21.",
+        "BetOnline.ag pays 3.30. That is +2.7% above fair. My bar is +2.5%.",
+        "Full Kelly says 1.2% of my fund. I play 0.5× Kelly, capped at 5%: 1.15 of my 199.04.",
+        "The numbers don't lie. Betting it."
+      ]
+    },
+    {
       "id": "43c9888e11386fb7cd8000f3ffe347de-quant-h2h-scout",
       "strategy": "quant",
       "placed_at": "2026-11-13T08:00:53Z",
@@ -2961,6 +3240,43 @@
         "Lindenwood Lions at 2.70 is +2.32% above fair: below my usual bar, but the only way to learn if this kind of bet works for me is to try it.",
         "I read 4 articles about Omaha Mavericks lately (bad news for them): “3 thoughts as the Mavericks get their doors blown off, 133-94, at the Minnesota Timberwolves”",
         "Scout stake: 1.00 (0.5% of my fund). The result feeds my learning."
+      ]
+    },
+    {
+      "id": "a75b53f6f3069aebd0d6889fd109a53d-quant-h2h",
+      "strategy": "quant",
+      "placed_at": "2026-11-13T16:00:54Z",
+      "league_key": "basketball_ncaab",
+      "league": "College basketball (US)",
+      "sport": "Basketball",
+      "event_id": "a75b53f6f3069aebd0d6889fd109a53d",
+      "game": "Middle Tennessee Blue Raiders vs SE Missouri St Redhawks",
+      "home": "Middle Tennessee Blue Raiders",
+      "away": "SE Missouri St Redhawks",
+      "start": "2026-11-14T00:30:00Z",
+      "market": "h2h",
+      "market_name": "Winner",
+      "name": "SE Missouri St Redhawks",
+      "point": null,
+      "pick": "SE Missouri St Redhawks",
+      "book": "LeoVegas (SE)",
+      "book_key": "leovegas_se",
+      "odds": 3.25,
+      "eff_odds": 3.25,
+      "fair_odds": 3.163,
+      "edge": 0.0275,
+      "stake": 1.21,
+      "status": "open",
+      "closing_fair_odds": null,
+      "clv": null,
+      "profit": 0.0,
+      "score": null,
+      "settled_at": null,
+      "thoughts": [
+        "Pinnacle, the sharpest bookmaker, rates SE Missouri St Redhawks at 31.6%. That makes the fair price 3.16.",
+        "LeoVegas (SE) pays 3.25. That is +2.8% above fair. My bar is +2.5%.",
+        "Full Kelly says 1.2% of my fund. I play 0.5× Kelly, capped at 5%: 1.21 of my 199.04.",
+        "The numbers don't lie. Betting it."
       ]
     },
     {
@@ -4382,10 +4698,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-11T16:01:00Z",
-      "text": "Placed 1 practice bet:\n- The Lizard 🧭 scout: **Rochdale** (Winner) in Rochdale vs York City (League Two (England 4)) at 4.25 on Betsson, stake 0.99, edge +0.8%"
-    },
-    {
       "t": "2026-11-11T18:12:32Z",
       "text": "🎯 🦎 The Lizard's challenge today: 🗺️ New ground. Make a bet in the bet type I use least: spread."
     },
@@ -4500,6 +4812,10 @@
     {
       "t": "2026-11-13T08:15:31Z",
       "text": "🏅 🦈 The Shark unlocked 🎯 Challenge Accepted: Completed its first daily challenge."
+    },
+    {
+      "t": "2026-11-13T16:00:54Z",
+      "text": "Placed 8 practice bets:\n- The Quant: **SE Missouri St Redhawks** (Winner) in Middle Tennessee Blue Raiders vs SE Missouri St Redhawks (College basketball (US)) at 3.25 on LeoVegas (SE), stake 1.21, edge +2.8%\n- The Quant: **UIC Flames** (Winner) in Saint Mary's Gaels vs UIC Flames (College basketball (US)) at 3.3 on BetOnline.ag, stake 1.15, edge +2.7%\n- The Shark: **Kansas Jayhawks** (Winner) in West Virginia Mountaineers vs Kansas Jayhawks (College football (US)) at 2.38 on Unibet (NL), stake 1.58, edge +2.2%\n- The Shark: **UTSA Roadrunners** (Winner) in UTSA Roadrunners vs North Texas Mean Green (College football (US)) at 2.19 on BetOnline.ag, stake 1.38, edge +1.6%\n- The Shark: **Edmonton Elks** (Winner) in Edmonton Elks vs Montreal Alouettes (CFL) at 2.53 on BetOnline.ag, stake 1.12, edge +1.7%\n- The Shark 🧭 scout: **New England Patriots +2.5** (Spread) in Detroit Lions vs New England Patriots (NFL) at 2.1 on 888sport, stake 1.00, edge +0.7%\n- The Shark 🎲 wild: **New York Jets** (Winner) in New York Jets vs Buffalo Bills (NFL) at 4.7 on Matchbook, stake 0.50, edge +2.1%\n- The Shark 🎲 wild: **Georgia Tech Yellow Jackets** (Winner) in Clemson Tigers vs Georgia Tech Yellow Jackets (College football (US)) at 5.8 on Betfair, stake 0.50, edge +-0.4%"
     }
   ]
 }
