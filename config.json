@@ -1,15 +1,15 @@
 {
-  "start_fund": 200,
+  "start_fund": 500,
   "min_stake": 0.5,
   "kelly_fraction": 0.4,
-  "max_stake_pct": 5,
+  "max_stake_pct": 7,
   "min_edge": 0.02,
   "max_edge": 0.1,
   "min_odds": 1.5,
   "max_odds": 6.0,
   "max_bets_per_day": 6,
   "max_stake_per_day": 30,
-  "stop_below": 110,
+  "stop_below": 250,
   "days_ahead": 3,
   "markets": [
     "h2h"
@@ -88,13 +88,13 @@
         "spreads",
         "totals"
       ],
-      "kelly_fraction": 0.4,
-      "max_stake_pct": 5,
+      "kelly_fraction": 0.5,
+      "max_stake_pct": 7,
       "min_edge": 0.02,
       "min_odds": 1.6,
       "max_odds": 6.0,
-      "max_bets_per_day": 20,
-      "max_stake_per_day": 80,
+      "max_bets_per_day": 30,
+      "max_stake_per_day": 250,
       "days_ahead": 3,
       "voice": {
         "strike": "Gap spotted. Striking while the bookmakers sleep.",
@@ -107,12 +107,14 @@
         "wild": "Patience is a weapon, but even lizards sunbathe on a crazy rock now and then.",
         "race_lead": "And only one of us goes live in {days} days. Patience wins races.",
         "race_chase": "Only one of us goes live in {days} days. I'll be the one still standing.",
-        "mindset": "Only one of us gets real money after the test. Reckless bets would only cost me that chance, so: patience, precision, proof."
+        "mindset": "Nauris gave me 500 and said he's not worried about losing it. That's permission to act, not to be careless: I strike more often, but only where the gap is real. Only one of us goes live."
       },
       "gut_trust": 0.45,
       "wild_appetite": 0.45,
       "curiosity": 0.5,
-      "explore_group": "Soccer"
+      "explore_group": "Soccer",
+      "start_fund": 500,
+      "stop_below": 250
     },
     "quant": {
       "name": "The Quant",
@@ -133,13 +135,13 @@
         "spreads",
         "h2h"
       ],
-      "kelly_fraction": 0.5,
-      "max_stake_pct": 5,
+      "kelly_fraction": 0.6,
+      "max_stake_pct": 7,
       "min_edge": 0.015,
       "min_odds": 1.6,
       "max_odds": 3.5,
-      "max_bets_per_day": 10,
-      "max_stake_per_day": 40,
+      "max_bets_per_day": 20,
+      "max_stake_per_day": 150,
       "days_ahead": 2,
       "voice": {
         "strike": "The numbers don't lie. Betting it.",
@@ -152,13 +154,15 @@
         "wild": "Statistically silly. Doing it anyway, for science.",
         "race_lead": "The data says I'm the one going live. {days} days to prove it.",
         "race_chase": "{days} days until selection. Regression to the mean is coming for the leader.",
-        "mindset": "One of us gets real money. The selection rewards proven edge, not lucky wins, so I bet what the numbers support."
+        "mindset": "500 to work with, and Nauris isn't worried about losing it. More shots, same standard: every bet still has to beat the market. Only one of us goes live."
       },
       "gut_trust": 0.4,
       "wild_appetite": 0.35,
       "wild_markets": [],
       "curiosity": 0.6,
-      "explore_group": "Basketball"
+      "explore_group": "Basketball",
+      "start_fund": 500,
+      "stop_below": 250
     },
     "shark": {
       "name": "The Shark",
@@ -178,13 +182,13 @@
         "totals",
         "h2h"
       ],
-      "kelly_fraction": 0.5,
-      "max_stake_pct": 6,
+      "kelly_fraction": 0.6,
+      "max_stake_pct": 7,
       "min_edge": 0.015,
       "min_odds": 1.6,
       "max_odds": 4.0,
-      "max_bets_per_day": 10,
-      "max_stake_per_day": 50,
+      "max_bets_per_day": 20,
+      "max_stake_per_day": 150,
       "days_ahead": 6,
       "voice": {
         "strike": "Blood in the water. Getting in before the market moves.",
@@ -197,13 +201,15 @@
         "wild": "Big fish, long line. Let's see if it bites.",
         "race_lead": "Only one of us gets real money. Smell that? It's me.",
         "race_chase": "Only one of us gets real money, in {days} days. And I'm hungry.",
-        "mindset": "Only one of us goes live. Sharks don't thrash around: one clean bite at a time beats the market and wins the seat."
+        "mindset": "500 in the tank and Nauris says he's not worried about losing it. More bites, but only clean ones that beat the market. Only one of us gets the seat."
       },
       "gut_trust": 0.55,
       "wild_appetite": 0.6,
       "wild_markets": [],
       "curiosity": 0.5,
-      "explore_group": "American Football"
+      "explore_group": "American Football",
+      "start_fund": 500,
+      "stop_below": 250
     }
   },
   "commission": {
@@ -220,13 +226,13 @@
     "rule_z": 2.5,
     "min_prices": 150
   },
-  "practice_note": "Practice mode: daily limits are raised to collect data faster. Before real money, set them back to 6/30 (lizard), 4/30 (quant), 4/40 (shark).",
+  "practice_note": "Practice mode with a 500 fund per character and raised limits. Before real money, set limits back (e.g. 6/30, 4/30, 4/40 bets/stake per day) and size the fund to what you will actually deposit.",
   "gut": {
     "stake_pct": 0.5,
     "min_edge": 0.008,
     "steam": 0.025,
-    "daily_cap": 1,
-    "daily_cap_high": 2,
+    "daily_cap": 2,
+    "daily_cap_high": 3,
     "high_trust": 0.6,
     "min_measured": 8,
     "trust_per_clv": 15,
