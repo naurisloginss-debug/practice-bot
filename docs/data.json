@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-14T15:15:31Z",
+  "updated": "2026-11-14T15:30:44Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -29,8 +29,8 @@
     ],
     "chars": {
       "lizard": {
-        "iq": 98,
-        "iq_gain": 1,
+        "iq": 99,
+        "iq_gain": 2,
         "streak": 0,
         "best_streak": 8,
         "achievements": [
@@ -152,7 +152,7 @@
             "pending": false
           }
         ],
-        "score": 123,
+        "score": 124,
         "trophies": [
           {
             "kind": "sharpshooter",
@@ -489,7 +489,7 @@
       "leader": "quant"
     }
   },
-  "credits_left": 19392,
+  "credits_left": 19390,
   "last_scan": "2026-11-14@8",
   "strategies": {
     "lizard": {
@@ -534,15 +534,15 @@
         "Total"
       ],
       "start_fund": 500,
-      "fund": 497.17,
+      "fund": 495.21,
       "lessons": [],
       "bets": 33,
-      "open": 14,
+      "open": 13,
       "won": 4,
-      "lost": 15,
-      "staked": 21.57,
-      "profit": -2.83,
-      "roi": -0.1312,
+      "lost": 16,
+      "staked": 23.53,
+      "profit": -4.79,
+      "roi": -0.2036,
       "avg_edge": 0.0282,
       "avg_clv": -0.0202,
       "beat_close": 0.6296,
@@ -627,6 +627,10 @@
         {
           "t": "2026-11-08T23:15:28Z",
           "fund": 497.17
+        },
+        {
+          "t": "2026-11-14T15:30:44Z",
+          "fund": 495.21
         }
       ],
       "by_league": [
@@ -687,8 +691,8 @@
         {
           "name": "League Two (England 4)",
           "bets": 6,
-          "profit": 0,
-          "roi": null,
+          "profit": -1.96,
+          "roi": -1.0,
           "avg_clv": -0.0388,
           "beat_close": 0.6,
           "clv_count": 5
@@ -725,8 +729,8 @@
         {
           "name": "Winner",
           "bets": 31,
-          "profit": -0.72,
-          "roi": -0.037,
+          "profit": -2.68,
+          "roi": -0.1251,
           "avg_clv": -0.023,
           "beat_close": 0.6,
           "clv_count": 25
@@ -736,8 +740,8 @@
         {
           "name": "Football",
           "bets": 33,
-          "profit": -2.83,
-          "roi": -0.1312,
+          "profit": -4.79,
+          "roi": -0.2036,
           "avg_clv": -0.0202,
           "beat_close": 0.6296,
           "clv_count": 27
@@ -972,8 +976,8 @@
       },
       "traits": [],
       "mind": {
-        "iq": 98,
-        "iq_week": 6,
+        "iq": 99,
+        "iq_week": 7,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -1017,7 +1021,7 @@
           },
           {
             "d": "2026-11-14",
-            "iq": 98
+            "iq": 99
           }
         ],
         "facts": [
@@ -1066,7 +1070,7 @@
         ],
         "rules": 0,
         "studied": 88,
-        "resolved": 58
+        "resolved": 59
       }
     },
     "quant": {
@@ -3683,12 +3687,12 @@
       "fair_odds": 4.221,
       "edge": 0.0262,
       "stake": 1.96,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 4.13,
       "clv": 0.0489,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -1.96,
+      "score": "Exeter City 1 - 0 Cheltenham Town",
+      "settled_at": "2026-11-14T15:30:44Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates Cheltenham Town at 23.7%. That makes the fair price 4.22.",
         "Matchbook pays 4.40 (4.33 after the exchange fee). That is +2.6% above fair. My bar is +2.0%.",
@@ -5227,10 +5231,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-12T02:00:51Z",
-      "text": "🏅 🧮 The Quant unlocked 🧠 IQ 100: Reached Sport IQ 100."
-    },
-    {
       "t": "2026-11-12T03:15:30Z",
       "text": "Results:\n- Lost -1.58: Washington Wizards (Winner) in Indiana Pacers vs Washington Wizards (Indiana Pacers 114 - 101 Washington Wizards)\n- Lost -2.35: Toronto Raptors (Winner) in Toronto Raptors vs Boston Celtics (Toronto Raptors 93 - 98 Boston Celtics)"
     },
@@ -5345,6 +5345,10 @@
     {
       "t": "2026-11-14T14:30:43Z",
       "text": "🦎 The Lizard changed level: Apprentice → 🐣 Rookie. Normal stakes while it proves itself."
+    },
+    {
+      "t": "2026-11-14T15:30:44Z",
+      "text": "Results:\n- Lost -1.96: Cheltenham Town (Winner) in Exeter City vs Cheltenham Town (Exeter City 1 - 0 Cheltenham Town)"
     }
   ]
 }
