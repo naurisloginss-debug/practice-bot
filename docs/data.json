@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-14T01:00:51Z",
+  "updated": "2026-11-14T01:15:30Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -186,7 +186,7 @@
       "quant": {
         "iq": 109,
         "iq_gain": 25,
-        "streak": 3,
+        "streak": 0,
         "best_streak": 3,
         "achievements": [
           {
@@ -297,12 +297,12 @@
           {
             "text": "Bets checked against the market",
             "target": 3,
-            "now": 17
+            "now": 18
           },
           {
             "text": "Beat the market on",
             "target": 55,
-            "now": 65,
+            "now": 61,
             "unit": "%",
             "pending": false
           }
@@ -489,7 +489,7 @@
       "leader": "quant"
     }
   },
-  "credits_left": 19445,
+  "credits_left": 19444,
   "last_scan": "2026-11-13@16",
   "strategies": {
     "lizard": {
@@ -1092,9 +1092,9 @@
       "profit": -0.96,
       "roi": -0.0412,
       "avg_edge": 0.0317,
-      "avg_clv": 0.0127,
-      "beat_close": 0.6471,
-      "clv_count": 17,
+      "avg_clv": 0.0116,
+      "beat_close": 0.6111,
+      "clv_count": 18,
       "history": [
         {
           "t": "2026-11-10T21:01:26Z",
@@ -1180,9 +1180,9 @@
           "bets": 10,
           "profit": 7.52,
           "roi": 0.844,
-          "avg_clv": 0.0235,
-          "beat_close": 0.5714,
-          "clv_count": 7
+          "avg_clv": 0.0198,
+          "beat_close": 0.5,
+          "clv_count": 8
         },
         {
           "name": "NBA",
@@ -1209,9 +1209,9 @@
           "bets": 15,
           "profit": -1.76,
           "roi": -0.0973,
-          "avg_clv": 0.0093,
-          "beat_close": 0.6154,
-          "clv_count": 13
+          "avg_clv": 0.0082,
+          "beat_close": 0.5714,
+          "clv_count": 14
         },
         {
           "name": "Total",
@@ -1229,9 +1229,9 @@
           "bets": 20,
           "profit": -0.96,
           "roi": -0.0412,
-          "avg_clv": 0.0127,
-          "beat_close": 0.6471,
-          "clv_count": 17
+          "avg_clv": 0.0116,
+          "beat_close": 0.6111,
+          "clv_count": 18
         }
       ],
       "gut": {
@@ -1393,8 +1393,8 @@
         "tried": [],
         "curiosity": 0.6,
         "scouts": 5,
-        "scout_clv": 0.016,
-        "scout_measured": 3
+        "scout_clv": 0.0104,
+        "scout_measured": 4
       },
       "challenge": {
         "today": {
@@ -1548,10 +1548,10 @@
           },
           {
             "conf": "watching",
-            "n": 14,
+            "n": 15,
             "z": 0,
-            "text": "When I find value, the market moves my way before kick-off 71% of the time.",
-            "detail": "14 bets measured"
+            "text": "When I find value, the market moves my way before kick-off 67% of the time.",
+            "detail": "15 bets measured"
           }
         ],
         "rules": 0,
@@ -3275,8 +3275,8 @@
       "edge": 0.0232,
       "stake": 1.0,
       "status": "open",
-      "closing_fair_odds": null,
-      "clv": null,
+      "closing_fair_odds": 2.717,
+      "clv": -0.0063,
       "profit": 0.0,
       "score": null,
       "settled_at": null,
