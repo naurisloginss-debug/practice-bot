@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-14T08:45:28Z",
+  "updated": "2026-11-14T09:00:52Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -764,7 +764,7 @@
         "appetite": 0.45
       },
       "reading": {
-        "week": 106,
+        "week": 111,
         "latest": [
           {
             "t": "2026-11-13T17:40:36Z",
@@ -1285,7 +1285,7 @@
         "appetite": 0.35
       },
       "reading": {
-        "week": 112,
+        "week": 117,
         "latest": [
           {
             "t": "2026-11-14T03:08:53Z",
@@ -1293,6 +1293,27 @@
             "link": "https://sports.yahoo.com/articles/spurs-ambush-warriors-first-quarter-030853064.html",
             "source": "sports.yahoo.com",
             "tone": -1
+          },
+          {
+            "t": "2026-11-14T02:22:51Z",
+            "title": "Back in Philadelphia with Celtics, Paul George looks forward to ‘a regular game&#39;",
+            "link": "https://sports.yahoo.com/articles/back-philadelphia-celtics-paul-george-111819903.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-14T02:22:51Z",
+            "title": "Observations after Sixers shake off slow start, Embiid injury scare to win",
+            "link": "https://sports.yahoo.com/articles/observations-sixers-shake-off-slow-171100041.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-14T02:22:51Z",
+            "title": "Paul George flips the script — and the bird — in Philadelphia return",
+            "link": "https://sports.yahoo.com/articles/paul-george-flips-script-bird-023500511.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
           },
           {
             "t": "2026-11-14T00:25:27Z",
@@ -1305,27 +1326,6 @@
             "t": "2026-11-14T00:13:01Z",
             "title": "Lakers&#39; Austin Reaves day-to-day with bruised heel, doesn&#39;t undergo imaging",
             "link": "https://sports.yahoo.com/nba/article/lakers-austin-reaves-day-to-day-with-bruised-heel-doesnt-undergo-imaging-001301047.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-14T00:00:00Z",
-            "title": "Why the Suns should avoid trading Jalen Green for Dejounte Murray",
-            "link": "https://sports.yahoo.com/articles/why-suns-avoid-trading-jalen-000000949.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-14T00:00:00Z",
-            "title": "Hawks at Bulls, NBA Cup: start time, TV, streaming, radio, game thread",
-            "link": "https://sports.yahoo.com/articles/hawks-bulls-nba-cup-start-000000931.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-13T22:31:16Z",
-            "title": "Warriors vs. Spurs injury report: Steph Curry’s absence begins",
-            "link": "https://sports.yahoo.com/articles/warriors-vs-spurs-injury-report-223116850.html",
             "source": "sports.yahoo.com",
             "tone": -1
           }
@@ -1737,8 +1737,15 @@
         "appetite": 0.6
       },
       "reading": {
-        "week": 382,
+        "week": 372,
         "latest": [
+          {
+            "t": "2026-11-14T06:04:01Z",
+            "title": "No. 4 UCLA remains unbeaten with 22-14 victory over Illinois at Rose Bowl",
+            "link": "https://sports.yahoo.com/articles/no-4-ucla-remains-unbeaten-060401023.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
           {
             "t": "2026-11-14T03:55:33Z",
             "title": "Austin Mack’s Moment Has Arrived: Alabama Turns to Backup QB Against Vanderbilt",
@@ -1772,13 +1779,6 @@
             "title": "NFL Week 10 injury report: Chiefs' Kenneth Walker has new groin injury, Patriots' A.J. Brown questionable",
             "link": "https://www.cbssports.com/nfl/news/nfl-week-10-injury-report-chiefs-kenneth-walker-aj-brown/",
             "source": "www.cbssports.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-14T01:16:09Z",
-            "title": "Tennessee football RB Daune Morris, out with broken leg, on injury report vs Texas A&M",
-            "link": "https://sports.yahoo.com/articles/tennessee-football-rb-daune-morris-011609124.html",
-            "source": "sports.yahoo.com",
             "tone": -1
           }
         ]
