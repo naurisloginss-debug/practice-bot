@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-14T05:00:51Z",
+  "updated": "2026-11-14T05:15:29Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -489,7 +489,7 @@
       "leader": "quant"
     }
   },
-  "credits_left": 19437,
+  "credits_left": 19435,
   "last_scan": "2026-11-13@16",
   "strategies": {
     "lizard": {
@@ -1082,15 +1082,15 @@
         "Winner"
       ],
       "start_fund": 500,
-      "fund": 493.98,
+      "fund": 491.77,
       "lessons": [],
       "bets": 20,
-      "open": 3,
+      "open": 1,
       "won": 8,
-      "lost": 9,
-      "staked": 28.35,
-      "profit": -6.02,
-      "roi": -0.2123,
+      "lost": 11,
+      "staked": 30.56,
+      "profit": -8.23,
+      "roi": -0.2693,
       "avg_edge": 0.0317,
       "avg_clv": 0.009,
       "beat_close": 0.5789,
@@ -1167,6 +1167,14 @@
         {
           "t": "2026-11-14T02:45:31Z",
           "fund": 493.98
+        },
+        {
+          "t": "2026-11-14T05:15:29Z",
+          "fund": 492.98
+        },
+        {
+          "t": "2026-11-14T05:15:29Z",
+          "fund": 491.77
         }
       ],
       "by_league": [
@@ -1182,8 +1190,8 @@
         {
           "name": "College basketball (US)",
           "bets": 10,
-          "profit": 7.52,
-          "roi": 0.844,
+          "profit": 5.31,
+          "roi": 0.4775,
           "avg_clv": 0.0132,
           "beat_close": 0.4444,
           "clv_count": 9
@@ -1220,8 +1228,8 @@
         {
           "name": "Winner",
           "bets": 15,
-          "profit": -1.76,
-          "roi": -0.0973,
+          "profit": -3.97,
+          "roi": -0.1956,
           "avg_clv": 0.005,
           "beat_close": 0.5333,
           "clv_count": 15
@@ -1231,8 +1239,8 @@
         {
           "name": "Basketball",
           "bets": 20,
-          "profit": -6.02,
-          "roi": -0.2123,
+          "profit": -8.23,
+          "roi": -0.2693,
           "avg_clv": 0.009,
           "beat_close": 0.5789,
           "clv_count": 19
@@ -1532,24 +1540,24 @@
           },
           {
             "conf": "solid",
-            "n": 127,
-            "z": 0,
-            "text": "The market prices overs in College basketball (US) accurately.",
-            "detail": "46% happened, 50% priced, 127 games"
-          },
-          {
-            "conf": "solid",
-            "n": 86,
+            "n": 115,
             "z": 0,
             "text": "The market prices home wins in College basketball (US) accurately.",
-            "detail": "65% happened, 62% priced, 86 games"
+            "detail": "63% happened, 62% priced, 115 games"
           },
           {
             "conf": "solid",
-            "n": 86,
+            "n": 115,
             "z": 0,
             "text": "The market prices away wins in College basketball (US) accurately.",
-            "detail": "35% happened, 38% priced, 86 games"
+            "detail": "37% happened, 38% priced, 115 games"
+          },
+          {
+            "conf": "watching",
+            "n": 178,
+            "z": 1.7900319729879042,
+            "text": "Overs in College basketball (US) happen less often than priced.",
+            "detail": "43% happened vs 50% priced, 178 games"
           },
           {
             "conf": "watching",
@@ -1561,7 +1569,7 @@
         ],
         "rules": 0,
         "studied": 260,
-        "resolved": 198
+        "resolved": 250
       }
     },
     "shark": {
@@ -3279,12 +3287,12 @@
       "fair_odds": 2.639,
       "edge": 0.0232,
       "stake": 1.0,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 2.717,
       "clv": -0.0063,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -1.0,
+      "score": "Omaha Mavericks 67 - 56 Lindenwood Lions",
+      "settled_at": "2026-11-14T05:15:29Z",
       "thoughts": [
         "🧭 Exploring. I've only made 4 bets like this (College basketball (US) winner bets at middle odds).",
         "Lindenwood Lions at 2.70 is +2.32% above fair: below my usual bar, but the only way to learn if this kind of bet works for me is to try it.",
@@ -3316,12 +3324,12 @@
       "fair_odds": 3.163,
       "edge": 0.0275,
       "stake": 1.21,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 3.021,
       "clv": 0.0759,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -1.21,
+      "score": "Middle Tennessee Blue Raiders 88 - 75 SE Missouri St Redhawks",
+      "settled_at": "2026-11-14T05:15:29Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates SE Missouri St Redhawks at 31.6%. That makes the fair price 3.16.",
         "LeoVegas (SE) pays 3.25. That is +2.8% above fair. My bar is +2.5%.",
@@ -4749,10 +4757,6 @@
   "log": [
     {
       "t": "2026-11-12T00:00:56Z",
-      "text": "❌ 🦎 The Lizard missed 🗺️ New ground: No bet of that type today."
-    },
-    {
-      "t": "2026-11-12T00:00:56Z",
       "text": "🎯 🦎 The Lizard's challenge today: 🧭 Explorer day. Make a bet in Super League - Greece, the competition I'm exploring."
     },
     {
@@ -4866,6 +4870,10 @@
     {
       "t": "2026-11-14T02:45:31Z",
       "text": "Results:\n- Lost -5.06: ASVEL Lyon Villeurbanne -2.5 (Spread) in ASVEL Lyon Villeurbanne vs Beşiktaş J.K. (ASVEL Lyon Villeurbanne 91 - 95 Beşiktaş J.K.)"
+    },
+    {
+      "t": "2026-11-14T05:15:29Z",
+      "text": "Results:\n- Lost -1.00: Lindenwood Lions (Winner) in Omaha Mavericks vs Lindenwood Lions (Omaha Mavericks 67 - 56 Lindenwood Lions)\n- Lost -1.21: SE Missouri St Redhawks (Winner) in Middle Tennessee Blue Raiders vs SE Missouri St Redhawks (Middle Tennessee Blue Raiders 88 - 75 SE Missouri St Redhawks)"
     }
   ]
 }
