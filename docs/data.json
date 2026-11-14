@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-14T17:45:30Z",
+  "updated": "2026-11-14T18:00:54Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -29,8 +29,8 @@
     ],
     "chars": {
       "lizard": {
-        "iq": 99,
-        "iq_gain": 2,
+        "iq": 100,
+        "iq_gain": 3,
         "streak": 1,
         "best_streak": 8,
         "achievements": [
@@ -152,7 +152,7 @@
             "pending": false
           }
         ],
-        "score": 129,
+        "score": 130,
         "trophies": [
           {
             "kind": "sharpshooter",
@@ -184,8 +184,8 @@
         ]
       },
       "quant": {
-        "iq": 112,
-        "iq_gain": 28,
+        "iq": 111,
+        "iq_gain": 27,
         "streak": 0,
         "best_streak": 3,
         "achievements": [
@@ -307,7 +307,7 @@
             "pending": false
           }
         ],
-        "score": 148,
+        "score": 147,
         "trophies": []
       },
       "shark": {
@@ -489,7 +489,7 @@
       "leader": "shark"
     }
   },
-  "credits_left": 19357,
+  "credits_left": 19355,
   "last_scan": "2026-11-14@16",
   "strategies": {
     "lizard": {
@@ -534,7 +534,7 @@
         "Total"
       ],
       "start_fund": 500,
-      "fund": 495.21,
+      "fund": 490.07,
       "lessons": [
         {
           "kind": "avoid",
@@ -543,12 +543,12 @@
         }
       ],
       "bets": 34,
-      "open": 14,
+      "open": 12,
       "won": 4,
-      "lost": 16,
-      "staked": 23.53,
-      "profit": -4.79,
-      "roi": -0.2036,
+      "lost": 18,
+      "staked": 28.67,
+      "profit": -9.93,
+      "roi": -0.3464,
       "avg_edge": 0.0282,
       "avg_clv": -0.0238,
       "beat_close": 0.6,
@@ -637,6 +637,14 @@
         {
           "t": "2026-11-14T15:30:44Z",
           "fund": 495.21
+        },
+        {
+          "t": "2026-11-14T18:00:54Z",
+          "fund": 492.56
+        },
+        {
+          "t": "2026-11-14T18:00:54Z",
+          "fund": 490.07
         }
       ],
       "by_league": [
@@ -706,8 +714,8 @@
         {
           "name": "League One (England 3)",
           "bets": 2,
-          "profit": 0,
-          "roi": null,
+          "profit": -5.14,
+          "roi": -1.0,
           "avg_clv": -0.1505,
           "beat_close": 0.0,
           "clv_count": 2
@@ -735,8 +743,8 @@
         {
           "name": "Winner",
           "bets": 32,
-          "profit": -2.68,
-          "roi": -0.1251,
+          "profit": -7.82,
+          "roi": -0.2944,
           "avg_clv": -0.0265,
           "beat_close": 0.5714,
           "clv_count": 28
@@ -746,8 +754,8 @@
         {
           "name": "Football",
           "bets": 34,
-          "profit": -4.79,
-          "roi": -0.2036,
+          "profit": -9.93,
+          "roi": -0.3464,
           "avg_clv": -0.0238,
           "beat_close": 0.6,
           "clv_count": 30
@@ -774,14 +782,35 @@
         "appetite": 0.45
       },
       "reading": {
-        "week": 82,
+        "week": 106,
         "latest": [
+          {
+            "t": "2026-11-14T16:55:49Z",
+            "title": "Inter boost as Thuram ready for Atalanta, but Zielinski foot problem raises alarm",
+            "link": "https://football-italia.net/inter-boost-as-thuram-ready-zielinski/",
+            "source": "football-italia.net",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-14T15:50:34Z",
+            "title": "Chelsea go top with 1-0 win against Man City",
+            "link": "https://www.bbc.co.uk/sport/football/videos/cm702wwpj9keo?at_medium=RSS&at_campaign=rss",
+            "source": "feeds.bbci.co.uk",
+            "tone": 1
+          },
           {
             "t": "2026-11-14T11:27:35Z",
             "title": "Mancini has three key Italy line-up doubts for Belgium clash as Cambiaghi trains separately",
             "link": "https://football-italia.net/sky-mancini-line-up-doubts-belgium-clash/",
             "source": "football-italia.net",
             "tone": -1
+          },
+          {
+            "t": "2026-11-13T22:11:27Z",
+            "title": "Salah scores twice as Egypt and Nigeria win Afcon 2027 qualifiers",
+            "link": "https://www.bbc.co.uk/sport/football/articles/cw1md9jx2r3po?at_medium=RSS&at_campaign=rss",
+            "source": "feeds.bbci.co.uk",
+            "tone": 1
           },
           {
             "t": "2026-11-13T10:00:46Z",
@@ -794,27 +823,6 @@
             "t": "2026-11-13T09:57:25Z",
             "title": "Cashin back in training while Clarke steps up recovery",
             "link": "https://www.bbc.co.uk/sport/football/articles/c6702z9z1790o?at_medium=RSS&at_campaign=rss",
-            "source": "feeds.bbci.co.uk",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-13T08:13:19Z",
-            "title": "From postcards to texts, the different ways a manager gets the sack - Pulis",
-            "link": "https://www.bbc.co.uk/sport/football/articles/cve8716dg46xo?at_medium=RSS&at_campaign=rss",
-            "source": "feeds.bbci.co.uk",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-12T16:41:49Z",
-            "title": "Owono undecided over future following De Miguel death",
-            "link": "https://www.bbc.co.uk/sport/football/articles/ckedq01zve04o?at_medium=RSS&at_campaign=rss",
-            "source": "feeds.bbci.co.uk",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-12T13:11:49Z",
-            "title": "Police investigation into Vigar's death ongoing",
-            "link": "https://www.bbc.co.uk/sport/football/articles/ckm2mn2lvld9o?at_medium=RSS&at_campaign=rss",
             "source": "feeds.bbci.co.uk",
             "tone": -1
           }
@@ -973,8 +981,8 @@
       },
       "traits": [],
       "mind": {
-        "iq": 99,
-        "iq_week": 7,
+        "iq": 100,
+        "iq_week": 8,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -1018,7 +1026,7 @@
           },
           {
             "d": "2026-11-14",
-            "iq": 99
+            "iq": 100
           }
         ],
         "facts": [
@@ -1067,7 +1075,7 @@
         ],
         "rules": 0,
         "studied": 88,
-        "resolved": 60
+        "resolved": 65
       }
     },
     "quant": {
@@ -1290,8 +1298,15 @@
         "appetite": 0.35
       },
       "reading": {
-        "week": 116,
+        "week": 98,
         "latest": [
+          {
+            "t": "2026-11-14T16:00:33Z",
+            "title": "Yaxel Lendeborg, Warriors get a taste of life without Stephen Curry: 'It felt helpless out there'",
+            "link": "https://www.cbssports.com/nba/news/yaxel-lendeborg-warriors-spurs-life-without-stephen-curry/",
+            "source": "www.cbssports.com",
+            "tone": -1
+          },
           {
             "t": "2026-11-14T03:08:53Z",
             "title": "Spurs ambush Warriors in first quarter of first game since Steph Curry injury",
@@ -1324,13 +1339,6 @@
             "t": "2026-11-14T00:25:27Z",
             "title": "Warriors rookie feeling immense pressure amid Steph Curry injury: ‘Am I going to be able to live up to it?’",
             "link": "https://sports.yahoo.com/articles/warriors-rookie-feeling-immense-pressure-002527500.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-14T00:13:01Z",
-            "title": "Lakers&#39; Austin Reaves day-to-day with bruised heel, doesn&#39;t undergo imaging",
-            "link": "https://sports.yahoo.com/nba/article/lakers-austin-reaves-day-to-day-with-bruised-heel-doesnt-undergo-imaging-001301047.html",
             "source": "sports.yahoo.com",
             "tone": -1
           }
@@ -1498,8 +1506,8 @@
       },
       "traits": [],
       "mind": {
-        "iq": 112,
-        "iq_week": 32,
+        "iq": 111,
+        "iq_week": 31,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -1543,7 +1551,7 @@
           },
           {
             "d": "2026-11-14",
-            "iq": 112
+            "iq": 111
           }
         ],
         "facts": [
@@ -1742,8 +1750,36 @@
         "appetite": 0.6
       },
       "reading": {
-        "week": 402,
+        "week": 396,
         "latest": [
+          {
+            "t": "2026-11-14T17:41:57Z",
+            "title": "Chris Jones will travel on his own to Atlanta for Sunday&#39;s game",
+            "link": "https://sports.yahoo.com/articles/chris-jones-travel-own-atlanta-174157184.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-14T16:35:00Z",
+            "title": "Hurricanes starter Zechariah Poyser out for Duke game",
+            "link": "https://sports.yahoo.com/articles/hurricanes-starter-zechariah-poyser-likely-163500577.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-14T16:06:49Z",
+            "title": "Gamethread/How to watch Northwestern at Ohio State: TV, radio, streaming, betting line, injury report",
+            "link": "https://sports.yahoo.com/articles/gamethread-watch-northwestern-ohio-state-160649462.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-14T15:20:25Z",
+            "title": "Final Saints vs. Panthers Injury Report: Travis Etienne Jr. is questionable",
+            "link": "https://sports.yahoo.com/articles/final-saints-vs-panthers-injury-152025018.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
           {
             "t": "2026-11-14T14:06:38Z",
             "title": "Brian Kelly is serious about Maryland. Here’s how he’s positioning himself for the job",
@@ -1755,34 +1791,6 @@
             "t": "2026-11-14T13:46:53Z",
             "title": "Alabama expected to start Austin Mack at Vanderbilt as Keelon Russell deals with ankle injury",
             "link": "https://sports.yahoo.com/articles/alabama-expected-start-austin-mack-134653321.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-14T13:30:05Z",
-            "title": "3-Point Stance: Defense could be a roadblock in Patriots’ playoff pursuit",
-            "link": "https://sports.yahoo.com/articles/3-point-stance-defense-could-133005766.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-14T13:19:07Z",
-            "title": "TCU vs. Kansas State Preview: Bowl Talk, Odds & How to Watch",
-            "link": "https://sports.yahoo.com/articles/tcu-vs-kansas-state-preview-131907449.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-14T12:15:00Z",
-            "title": "Rams vs. Arizona Cardinals: How to watch, start time, odds and prediction",
-            "link": "https://sports.yahoo.com/articles/rams-vs-arizona-cardinals-watch-121500043.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-14T12:00:00Z",
-            "title": "Amid a bittersweet winning streak, Rams look for revenge against Cardinals",
-            "link": "https://sports.yahoo.com/articles/amid-bittersweet-winning-streak-rams-120000368.html",
             "source": "sports.yahoo.com",
             "tone": -1
           }
@@ -3801,12 +3809,12 @@
       "fair_odds": 4.002,
       "edge": 0.0334,
       "stake": 2.65,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 4.882,
       "clv": -0.1529,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -2.65,
+      "score": "Stockport County FC 3 - 1 Reading",
+      "settled_at": "2026-11-14T18:00:54Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates Reading at 25.0%. That makes the fair price 4.00.",
         "Matchbook pays 4.20 (4.14 after the exchange fee). That is +3.3% above fair. My bar is +2.0%.",
@@ -3839,12 +3847,12 @@
       "fair_odds": 5.266,
       "edge": 0.0088,
       "stake": 2.49,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 6.235,
       "clv": -0.148,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -2.49,
+      "score": "Milton Keynes Dons 6 - 2 Burton Albion",
+      "settled_at": "2026-11-14T18:00:54Z",
       "thoughts": [
         "🧭 Exploring. I've only made 0 bets like this (League One (England 3) winner bets at long shots).",
         "Burton Albion at 5.40 is +0.88% above fair: below my usual bar, but the only way to learn if this kind of bet works for me is to try it.",
@@ -5456,10 +5464,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-12T09:15:31Z",
-      "text": "Results:\n- Lost -0.50: Milwaukee Bucks (Winner) in Milwaukee Bucks vs Los Angeles Lakers (Milwaukee Bucks 112 - 123 Los Angeles Lakers)\n- Lost -0.50: Chicago Bulls (Winner) in Chicago Bulls vs San Antonio Spurs (Chicago Bulls 119 - 124 San Antonio Spurs)\n- Lost -1.20: Utah Jazz (Winner) in Utah Jazz vs Orlando Magic (Utah Jazz 108 - 123 Orlando Magic)\n- Lost -1.01: Golden State Warriors (Winner) in Houston Rockets vs Golden State Warriors (Houston Rockets 115 - 108 Golden State Warriors)"
-    },
-    {
       "t": "2026-11-12T16:00:54Z",
       "text": "Placed 5 practice bets:\n- The Quant: **Southern Illinois Salukis** (Winner) in Southern Illinois Salukis vs Richmond Spiders (College basketball (US)) at 2.5 on Everygame, stake 1.18, edge +1.8%\n- The Quant: **ASVEL Lyon Villeurbanne -2.5** (Spread) in ASVEL Lyon Villeurbanne vs Beşiktaş J.K. (EuroLeague) at 2.15 on William Hill, stake 5.06, edge +5.8%\n- The Lizard 🧭 scout: **Draw** (Winner) in Granada CF vs Las Palmas (La Liga 2 (Spain 2)) at 3.75 on Coolbet, stake 0.99, edge +0.6%\n- The Shark 🧭 scout: **Northern Illinois Huskies** (Winner) in Northern Illinois Huskies vs Nevada Wolf Pack (College football (US)) at 3.4 on LeoVegas (SE), stake 1.00, edge +1.1%\n- The Shark 🧭 scout: **Arizona Wildcats** (Winner) in Arizona Wildcats vs Utah Utes (College football (US)) at 2.25 on BetOnline.ag, stake 1.00, edge +0.8%"
     },
@@ -5574,6 +5578,10 @@
     {
       "t": "2026-11-14T16:55:38Z",
       "text": "🏅 🦎 The Lizard unlocked 🧪 Self-Critic: Cut or backed a kind of bet based on its own record."
+    },
+    {
+      "t": "2026-11-14T18:00:54Z",
+      "text": "Results:\n- Lost -2.65: Reading (Winner) in Stockport County FC vs Reading (Stockport County FC 3 - 1 Reading)\n- Lost -2.49: Burton Albion (Winner) in Milton Keynes Dons vs Burton Albion (Milton Keynes Dons 6 - 2 Burton Albion)"
     }
   ]
 }
