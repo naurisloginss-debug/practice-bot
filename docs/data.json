@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-14T16:45:30Z",
+  "updated": "2026-11-14T16:55:38Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -9,29 +9,29 @@
   "arena": {
     "ranking": [
       "quant",
-      "shark",
-      "lizard"
+      "lizard",
+      "shark"
     ],
     "grower": "quant",
     "talk": [
       {
         "who": "quant",
-        "text": "The data put me first. The Shark, check your model. 20 days until selection. Regression to the mean is coming for the leader."
-      },
-      {
-        "who": "shark",
-        "text": "I smell The Quant's lead from here. Closing in. Only one of us gets real money. Smell that? It's me."
+        "text": "The data put me first. The Lizard, check your model. 20 days until selection. Regression to the mean is coming for the leader."
       },
       {
         "who": "lizard",
         "text": "The Quant can enjoy the view. I'm patient, and I'm coming. Only one of us goes live in 20 days. I'll be the one still standing."
+      },
+      {
+        "who": "shark",
+        "text": "I smell The Quant's lead from here. Closing in. Only one of us gets real money. Smell that? It's me."
       }
     ],
     "chars": {
       "lizard": {
         "iq": 99,
         "iq_gain": 2,
-        "streak": 0,
+        "streak": 1,
         "best_streak": 8,
         "achievements": [
           {
@@ -102,7 +102,7 @@
             "emoji": "🧪",
             "title": "Self-Critic",
             "desc": "Cut or backed a kind of bet based on its own record.",
-            "at": null
+            "at": "2026-11-14T16:55:38Z"
           },
           {
             "key": "iq100",
@@ -142,17 +142,17 @@
           {
             "text": "Bets checked against the market",
             "target": 21,
-            "now": 8
+            "now": 11
           },
           {
             "text": "Beat the market on",
             "target": 76,
-            "now": 38,
+            "now": 36,
             "unit": "%",
             "pending": false
           }
         ],
-        "score": 124,
+        "score": 129,
         "trophies": [
           {
             "kind": "sharpshooter",
@@ -313,7 +313,7 @@
       "shark": {
         "iq": 100,
         "iq_gain": 9,
-        "streak": 2,
+        "streak": 0,
         "best_streak": 2,
         "achievements": [
           {
@@ -424,14 +424,14 @@
           {
             "text": "Bets checked against the market",
             "target": 3,
-            "now": 2
+            "now": 3
           },
           {
             "text": "Beat the market on",
             "target": 55,
-            "now": 100,
+            "now": 67,
             "unit": "%",
-            "pending": true
+            "pending": false
           }
         ],
         "score": 128,
@@ -471,14 +471,14 @@
         {
           "who": "lizard",
           "eligible": false,
-          "measured": 22,
-          "need": 8,
-          "clv": -0.0071,
-          "cautious": -0.0225,
-          "beat": 0.6818,
+          "measured": 24,
+          "need": 6,
+          "clv": -0.0122,
+          "cautious": -0.0275,
+          "beat": 0.6667,
           "challenges": 0.0,
           "traits": 0,
-          "score": -18.81
+          "score": -24.21
         }
       ],
       "ranking": [
@@ -489,7 +489,7 @@
       "leader": "shark"
     }
   },
-  "credits_left": 19360,
+  "credits_left": 19357,
   "last_scan": "2026-11-14@16",
   "strategies": {
     "lizard": {
@@ -535,7 +535,13 @@
       ],
       "start_fund": 500,
       "fund": 495.21,
-      "lessons": [],
+      "lessons": [
+        {
+          "kind": "avoid",
+          "text": "Stopped: all leagues · winner · long shots",
+          "detail": "-4.1% vs the market over 16 bets"
+        }
+      ],
       "bets": 34,
       "open": 14,
       "won": 4,
@@ -544,9 +550,9 @@
       "profit": -4.79,
       "roi": -0.2036,
       "avg_edge": 0.0282,
-      "avg_clv": -0.0202,
-      "beat_close": 0.6296,
-      "clv_count": 27,
+      "avg_clv": -0.0238,
+      "beat_close": 0.6,
+      "clv_count": 30,
       "history": [
         {
           "t": "2026-11-04T12:49:24Z",
@@ -662,15 +668,6 @@
           "clv_count": 1
         },
         {
-          "name": "La Liga 2 (Spain 2)",
-          "bets": 7,
-          "profit": -2.03,
-          "roi": -1.0,
-          "avg_clv": 0.0131,
-          "beat_close": 0.5,
-          "clv_count": 2
-        },
-        {
           "name": "Ligue 1 (France)",
           "bets": 5,
           "profit": -1.37,
@@ -689,13 +686,22 @@
           "clv_count": 9
         },
         {
+          "name": "La Liga 2 (Spain 2)",
+          "bets": 7,
+          "profit": -2.03,
+          "roi": -1.0,
+          "avg_clv": -0.0276,
+          "beat_close": 0.5,
+          "clv_count": 4
+        },
+        {
           "name": "League Two (England 4)",
           "bets": 6,
           "profit": -1.96,
           "roi": -1.0,
-          "avg_clv": -0.0388,
-          "beat_close": 0.6,
-          "clv_count": 5
+          "avg_clv": -0.0377,
+          "beat_close": 0.5,
+          "clv_count": 6
         },
         {
           "name": "League One (England 3)",
@@ -731,9 +737,9 @@
           "bets": 32,
           "profit": -2.68,
           "roi": -0.1251,
-          "avg_clv": -0.023,
-          "beat_close": 0.6,
-          "clv_count": 25
+          "avg_clv": -0.0265,
+          "beat_close": 0.5714,
+          "clv_count": 28
         }
       ],
       "by_sport": [
@@ -742,15 +748,15 @@
           "bets": 34,
           "profit": -4.79,
           "roi": -0.2036,
-          "avg_clv": -0.0202,
-          "beat_close": 0.6296,
-          "clv_count": 27
+          "avg_clv": -0.0238,
+          "beat_close": 0.6,
+          "clv_count": 30
         }
       ],
       "gut": {
         "bets": 3,
-        "measured": 2,
-        "avg_clv": -0.1308,
+        "measured": 3,
+        "avg_clv": -0.0978,
         "beat": 0.0,
         "trust": 0.45,
         "base": 0.45,
@@ -858,9 +864,9 @@
         "badge": "🐣",
         "stake": 1.0,
         "perk": "Normal stakes while it proves itself.",
-        "measured": 22,
-        "clv": -0.0071,
-        "beat": 0.6818,
+        "measured": 24,
+        "clv": -0.0122,
+        "beat": 0.6667,
         "cold": false,
         "next": {
           "title": "Apprentice",
@@ -870,17 +876,17 @@
             {
               "text": "15 measured bets",
               "done": true,
-              "now": "22"
+              "now": "24"
             },
             {
               "text": "beat the market on 50%+",
               "done": true,
-              "now": "68%"
+              "now": "67%"
             },
             {
               "text": "average price +0.0%+ vs market",
               "done": false,
-              "now": "-0.7%"
+              "now": "-1.2%"
             }
           ],
           "progress": 1.0
@@ -1053,10 +1059,10 @@
           },
           {
             "conf": "watching",
-            "n": 25,
+            "n": 27,
             "z": 0,
-            "text": "When I find value, the market moves my way before kick-off 68% of the time.",
-            "detail": "25 bets measured"
+            "text": "When I find value, the market moves my way before kick-off 67% of the time.",
+            "detail": "27 bets measured"
           }
         ],
         "rules": 0,
@@ -1629,9 +1635,9 @@
       "profit": 0.77,
       "roi": 0.1353,
       "avg_edge": 0.0184,
-      "avg_clv": 0.0454,
-      "beat_close": 0.75,
-      "clv_count": 4,
+      "avg_clv": 0.0115,
+      "beat_close": 0.6,
+      "clv_count": 5,
       "history": [
         {
           "t": "2026-11-07T16:00:52Z",
@@ -1648,15 +1654,6 @@
       ],
       "by_league": [
         {
-          "name": "College football (US)",
-          "bets": 17,
-          "profit": 0,
-          "roi": null,
-          "avg_clv": 0.066,
-          "beat_close": 1.0,
-          "clv_count": 2
-        },
-        {
           "name": "NFL",
           "bets": 13,
           "profit": 0.77,
@@ -1664,6 +1661,15 @@
           "avg_clv": 0.0246,
           "beat_close": 0.5,
           "clv_count": 2
+        },
+        {
+          "name": "College football (US)",
+          "bets": 17,
+          "profit": 0,
+          "roi": null,
+          "avg_clv": 0.0027,
+          "beat_close": 0.6667,
+          "clv_count": 3
         },
         {
           "name": "CFL",
@@ -1677,15 +1683,6 @@
       ],
       "by_market": [
         {
-          "name": "Winner",
-          "bets": 23,
-          "profit": 0,
-          "roi": null,
-          "avg_clv": 0.066,
-          "beat_close": 1.0,
-          "clv_count": 2
-        },
-        {
           "name": "Spread",
           "bets": 4,
           "profit": 0.77,
@@ -1693,6 +1690,15 @@
           "avg_clv": 0.0246,
           "beat_close": 0.5,
           "clv_count": 2
+        },
+        {
+          "name": "Winner",
+          "bets": 23,
+          "profit": 0,
+          "roi": null,
+          "avg_clv": 0.0027,
+          "beat_close": 0.6667,
+          "clv_count": 3
         },
         {
           "name": "Total",
@@ -1710,9 +1716,9 @@
           "bets": 31,
           "profit": 0.77,
           "roi": 0.1353,
-          "avg_clv": 0.0454,
-          "beat_close": 0.75,
-          "clv_count": 4
+          "avg_clv": 0.0115,
+          "beat_close": 0.6,
+          "clv_count": 5
         }
       ],
       "gut": {
@@ -1732,7 +1738,7 @@
         "lost": 0,
         "profit": 0,
         "best": null,
-        "avg_clv": null,
+        "avg_clv": -0.1241,
         "appetite": 0.6
       },
       "reading": {
@@ -3419,8 +3425,8 @@
       "edge": 0.07,
       "stake": 1.78,
       "status": "open",
-      "closing_fair_odds": null,
-      "clv": null,
+      "closing_fair_odds": 4.838,
+      "clv": -0.1525,
       "profit": 0.0,
       "score": null,
       "settled_at": null,
@@ -3457,8 +3463,8 @@
       "edge": -0.0038,
       "stake": 0.5,
       "status": "open",
-      "closing_fair_odds": null,
-      "clv": null,
+      "closing_fair_odds": 6.348,
+      "clv": -0.1241,
       "profit": 0.0,
       "score": null,
       "settled_at": null,
@@ -3496,8 +3502,8 @@
       "edge": -0.003,
       "stake": 2.49,
       "status": "open",
-      "closing_fair_odds": null,
-      "clv": null,
+      "closing_fair_odds": 2.025,
+      "clv": -0.0319,
       "profit": 0.0,
       "score": null,
       "settled_at": null,
@@ -3532,8 +3538,8 @@
       "edge": 0.0281,
       "stake": 1.87,
       "status": "open",
-      "closing_fair_odds": null,
-      "clv": null,
+      "closing_fair_odds": 4.651,
+      "clv": 0.0158,
       "profit": 0.0,
       "score": null,
       "settled_at": null,
@@ -5450,10 +5456,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-12T08:15:30Z",
-      "text": "Results:\n- Won +1.97: Milwaukee Panthers (Winner) in Indiana St Sycamores vs Milwaukee Panthers (Indiana St Sycamores 73 - 82 Milwaukee Panthers)\n- Lost -2.17: Over 136 (Total) in Norfolk St Spartans vs Old Dominion Monarchs (Norfolk St Spartans 60 - 71 Old Dominion Monarchs)\n- Won +3.02: Long Beach St 49ers (Winner) in Long Beach St 49ers vs Pacific Tigers (Long Beach St 49ers 62 - 59 Pacific Tigers)\n- Won +0.96: Under 152 (Total) in North Texas Mean Green vs Santa Clara Broncos (North Texas Mean Green 71 - 76 Santa Clara Broncos)\n- Won +0.98: Over 158 (Total) in Temple Owls vs Charleston Cougars (Temple Owls 81 - 91 Charleston Cougars)"
-    },
-    {
       "t": "2026-11-12T09:15:31Z",
       "text": "Results:\n- Lost -0.50: Milwaukee Bucks (Winner) in Milwaukee Bucks vs Los Angeles Lakers (Milwaukee Bucks 112 - 123 Los Angeles Lakers)\n- Lost -0.50: Chicago Bulls (Winner) in Chicago Bulls vs San Antonio Spurs (Chicago Bulls 119 - 124 San Antonio Spurs)\n- Lost -1.20: Utah Jazz (Winner) in Utah Jazz vs Orlando Magic (Utah Jazz 108 - 123 Orlando Magic)\n- Lost -1.01: Golden State Warriors (Winner) in Houston Rockets vs Golden State Warriors (Houston Rockets 115 - 108 Golden State Warriors)"
     },
@@ -5568,6 +5570,10 @@
     {
       "t": "2026-11-14T16:30:46Z",
       "text": "🏁 🦈 The Shark now leads the race to go live (20 days to selection)."
+    },
+    {
+      "t": "2026-11-14T16:55:38Z",
+      "text": "🏅 🦎 The Lizard unlocked 🧪 Self-Critic: Cut or backed a kind of bet based on its own record."
     }
   ]
 }
