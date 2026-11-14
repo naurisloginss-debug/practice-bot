@@ -1,6 +1,6 @@
 {
   "last_scan": "2026-11-13@16",
-  "credits_left": 19446,
+  "credits_left": 19445,
   "league_names": {
     "soccer_italy_serie_b": "Serie B (Italy 2)",
     "soccer_efl_champ": "Championship (England 2)",
@@ -25,8 +25,8 @@
     "americanfootball_ncaaf": "College football (US)",
     "americanfootball_cfl": "CFL"
   },
-  "budget_day": "2026-11-13",
-  "credits_day_start": 19540,
+  "budget_day": "2026-11-14",
+  "credits_day_start": 19446,
   "last_settle_check": {
     "soccer_france_ligue_two": "2026-11-09T17:15:32Z",
     "soccer_efl_champ": "2026-11-07T21:45:28Z",
@@ -42,18 +42,6 @@
     "basketball_nbl": "2026-11-13T15:30:44Z"
   },
   "log": [
-    {
-      "t": "2026-11-11T18:12:32Z",
-      "text": "🎯 🧮 The Quant's challenge today: 🐶 Underdog hunter. Back an underdog (odds 2.5+) that beats the market."
-    },
-    {
-      "t": "2026-11-11T18:12:32Z",
-      "text": "🎯 🦈 The Shark's challenge today: 🎯 Precision day. Only bets with an edge 1% above my usual bar, and at least 2 of them must beat the market."
-    },
-    {
-      "t": "2026-11-11T22:45:29Z",
-      "text": "Results:\n- Won +1.03: KK Partizan NIS -8 (Spread) in KK Partizan NIS vs Saski Baskonia (KK Partizan NIS 80 - 66 Saski Baskonia)"
-    },
     {
       "t": "2026-11-11T23:45:30Z",
       "text": "✅ 🧮 The Quant completed 🐶 Underdog hunter: 1 bet beat the market."
@@ -161,6 +149,18 @@
     {
       "t": "2026-11-13T00:00:00Z",
       "text": "💰 Nauris topped every character up to a 500 practice fund and loosened the limits: more action, same rule — every serious bet still has to beat the market."
+    },
+    {
+      "t": "2026-11-14T00:00:53Z",
+      "text": "🎯 🦎 The Lizard's challenge today: 🧭 Explorer day. Make a bet in Super League - Greece, the competition I'm exploring."
+    },
+    {
+      "t": "2026-11-14T00:00:53Z",
+      "text": "🎯 🧮 The Quant's challenge today: 🧭 Explorer day. Make a bet in NBL, the competition I'm exploring."
+    },
+    {
+      "t": "2026-11-14T00:00:53Z",
+      "text": "🎯 🦈 The Shark's challenge today: 🎯 Precision day. Only bets with an edge 1% above my usual bar, and at least 2 of them must beat the market."
     }
   ],
   "levels": {
@@ -264,6 +264,10 @@
       {
         "d": "2026-11-13",
         "iq": 101
+      },
+      {
+        "d": "2026-11-14",
+        "iq": 101
       }
     ],
     "quant": [
@@ -306,6 +310,10 @@
       {
         "d": "2026-11-13",
         "iq": 109
+      },
+      {
+        "d": "2026-11-14",
+        "iq": 109
       }
     ],
     "shark": [
@@ -347,6 +355,10 @@
       },
       {
         "d": "2026-11-13",
+        "iq": 99
+      },
+      {
+        "d": "2026-11-14",
         "iq": 99
       }
     ]
@@ -1740,9 +1752,21 @@
         "emoji": "🧘",
         "title": "Discipline day",
         "text": "No gut calls, no wild bets, nothing above odds 3.0, and still beat the market.",
-        "status": "active",
+        "status": "none",
         "market": "spreads",
         "target": 38,
+        "league": "soccer_greece_super_league",
+        "detail": "No chance today: nothing fit the challenge, and not betting was the right call."
+      },
+      {
+        "day": "2026-11-14",
+        "id": "explorer",
+        "emoji": "🧭",
+        "title": "Explorer day",
+        "text": "Make a bet in Super League - Greece, the competition I'm exploring.",
+        "status": "active",
+        "market": "spreads",
+        "target": 40,
         "league": "soccer_greece_super_league"
       }
     ],
@@ -1777,9 +1801,20 @@
         "emoji": "🎯",
         "title": "Precision day",
         "text": "Only bets with an edge 1% above my usual bar, and at least 2 of them must beat the market.",
-        "status": "active",
+        "status": "judging",
         "market": "spreads",
         "target": 50,
+        "league": "basketball_nbl"
+      },
+      {
+        "day": "2026-11-14",
+        "id": "explorer",
+        "emoji": "🧭",
+        "title": "Explorer day",
+        "text": "Make a bet in NBL, the competition I'm exploring.",
+        "status": "active",
+        "market": "spreads",
+        "target": 70,
         "league": "basketball_nbl"
       }
     ],
@@ -1818,6 +1853,17 @@
         "target": 122,
         "league": "americanfootball_cfl",
         "detail": "Bet Over 43.5 (total)."
+      },
+      {
+        "day": "2026-11-14",
+        "id": "precision",
+        "emoji": "🎯",
+        "title": "Precision day",
+        "text": "Only bets with an edge 1% above my usual bar, and at least 2 of them must beat the market.",
+        "status": "active",
+        "market": "totals",
+        "target": 119,
+        "league": "americanfootball_cfl"
       }
     ]
   },
