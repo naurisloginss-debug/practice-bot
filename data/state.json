@@ -1,6 +1,6 @@
 {
   "last_scan": "2026-11-13@16",
-  "credits_left": 19443,
+  "credits_left": 19441,
   "league_names": {
     "soccer_italy_serie_b": "Serie B (Italy 2)",
     "soccer_efl_champ": "Championship (England 2)",
@@ -36,20 +36,12 @@
     "americanfootball_nfl": "2026-11-13T10:15:33Z",
     "soccer_italy_serie_b": "2026-11-08T21:30:42Z",
     "basketball_nba": "2026-11-13T09:30:42Z",
-    "basketball_euroleague": "2026-11-13T20:30:43Z",
+    "basketball_euroleague": "2026-11-14T02:45:31Z",
     "americanfootball_ncaaf": "2026-11-13T10:00:50Z",
     "basketball_ncaab": "2026-11-13T23:01:02Z",
     "basketball_nbl": "2026-11-13T15:30:44Z"
   },
   "log": [
-    {
-      "t": "2026-11-11T23:45:30Z",
-      "text": "✅ 🧮 The Quant completed 🐶 Underdog hunter: 1 bet beat the market."
-    },
-    {
-      "t": "2026-11-11T23:45:30Z",
-      "text": "🏅 🧮 The Quant unlocked 🎯 Challenge Accepted: Completed its first daily challenge."
-    },
     {
       "t": "2026-11-12T00:00:56Z",
       "text": "❌ 🦎 The Lizard missed 🗺️ New ground: No bet of that type today."
@@ -161,6 +153,14 @@
     {
       "t": "2026-11-14T00:00:53Z",
       "text": "🎯 🦈 The Shark's challenge today: 🎯 Precision day. Only bets with an edge 1% above my usual bar, and at least 2 of them must beat the market."
+    },
+    {
+      "t": "2026-11-14T02:45:31Z",
+      "text": "❌ 🧮 The Quant missed 🎯 Precision day: 3 bets, but not enough beat the market."
+    },
+    {
+      "t": "2026-11-14T02:45:31Z",
+      "text": "Results:\n- Lost -5.06: ASVEL Lyon Villeurbanne -2.5 (Spread) in ASVEL Lyon Villeurbanne vs Beşiktaş J.K. (ASVEL Lyon Villeurbanne 91 - 95 Beşiktaş J.K.)"
     }
   ],
   "levels": {
@@ -313,7 +313,7 @@
       },
       {
         "d": "2026-11-14",
-        "iq": 109
+        "iq": 110
       }
     ],
     "shark": [
@@ -1675,20 +1675,20 @@
     }
   },
   "skip_note": "2026-11-06@8",
-  "news_at": "2026-11-13T23:30:45Z",
+  "news_at": "2026-11-14T02:45:31Z",
   "feed_status": {
     "https://www.espn.com/espn/rss/nba/news": "error 2026-11-10T08:42:16Z: no element found: line 1, column 0",
-    "https://www.cbssports.com/rss/headlines/nba/": "ok 2026-11-13T23:30:45Z",
-    "https://sports.yahoo.com/nba/rss.xml": "ok 2026-11-13T23:30:45Z",
+    "https://www.cbssports.com/rss/headlines/nba/": "ok 2026-11-14T02:45:31Z",
+    "https://sports.yahoo.com/nba/rss.xml": "ok 2026-11-14T02:45:31Z",
     "https://www.espn.com/espn/rss/nfl/news": "error 2026-11-10T08:42:16Z: no element found: line 1, column 0",
     "https://www.espn.com/espn/rss/ncf/news": "error 2026-11-10T08:42:16Z: no element found: line 1, column 0",
-    "https://www.cbssports.com/rss/headlines/nfl/": "ok 2026-11-13T23:30:45Z",
-    "https://sports.yahoo.com/nfl/rss.xml": "ok 2026-11-13T23:30:45Z",
-    "https://sports.yahoo.com/college-football/rss.xml": "ok 2026-11-13T23:30:45Z",
-    "https://feeds.bbci.co.uk/sport/football/rss.xml": "ok 2026-11-13T23:30:45Z",
-    "https://feeds.bbci.co.uk/sport/football/championship/rss.xml": "ok 2026-11-13T23:30:45Z",
-    "https://feeds.bbci.co.uk/sport/football/european/rss.xml": "ok 2026-11-13T23:30:45Z",
-    "https://football-italia.net/feed/": "ok 2026-11-13T23:30:45Z"
+    "https://www.cbssports.com/rss/headlines/nfl/": "ok 2026-11-14T02:45:31Z",
+    "https://sports.yahoo.com/nfl/rss.xml": "ok 2026-11-14T02:45:31Z",
+    "https://sports.yahoo.com/college-football/rss.xml": "ok 2026-11-14T02:45:31Z",
+    "https://feeds.bbci.co.uk/sport/football/rss.xml": "ok 2026-11-14T02:45:31Z",
+    "https://feeds.bbci.co.uk/sport/football/championship/rss.xml": "ok 2026-11-14T02:45:31Z",
+    "https://feeds.bbci.co.uk/sport/football/european/rss.xml": "ok 2026-11-14T02:45:31Z",
+    "https://football-italia.net/feed/": "ok 2026-11-14T02:45:31Z"
   },
   "exploring": {
     "lizard": {
@@ -1801,10 +1801,11 @@
         "emoji": "🎯",
         "title": "Precision day",
         "text": "Only bets with an edge 1% above my usual bar, and at least 2 of them must beat the market.",
-        "status": "judging",
+        "status": "failed",
         "market": "spreads",
         "target": 50,
-        "league": "basketball_nbl"
+        "league": "basketball_nbl",
+        "detail": "3 bets, but not enough beat the market."
       },
       {
         "day": "2026-11-14",

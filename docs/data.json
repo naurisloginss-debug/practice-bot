@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-14T02:30:42Z",
+  "updated": "2026-11-14T02:45:31Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -184,8 +184,8 @@
         ]
       },
       "quant": {
-        "iq": 109,
-        "iq_gain": 25,
+        "iq": 110,
+        "iq_gain": 26,
         "streak": 0,
         "best_streak": 3,
         "achievements": [
@@ -307,7 +307,7 @@
             "pending": false
           }
         ],
-        "score": 145,
+        "score": 146,
         "trophies": []
       },
       "shark": {
@@ -452,9 +452,9 @@
           "clv": 0.0224,
           "cautious": 0.0072,
           "beat": 0.6667,
-          "challenges": 1.0,
+          "challenges": 0.667,
           "traits": 0,
-          "score": 15.52
+          "score": 13.86
         },
         {
           "who": "shark",
@@ -489,7 +489,7 @@
       "leader": "quant"
     }
   },
-  "credits_left": 19443,
+  "credits_left": 19441,
   "last_scan": "2026-11-13@16",
   "strategies": {
     "lizard": {
@@ -746,7 +746,7 @@
         "appetite": 0.45
       },
       "reading": {
-        "week": 106,
+        "week": 92,
         "latest": [
           {
             "t": "2026-11-13T17:40:36Z",
@@ -763,32 +763,32 @@
             "tone": -1
           },
           {
-            "t": "2026-11-13T10:00:46Z",
-            "title": "The club preparing to play again after the death of a player",
-            "link": "https://www.bbc.co.uk/sport/football/articles/c6vg7gz9w5edo?at_medium=RSS&at_campaign=rss",
-            "source": "feeds.bbci.co.uk",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-13T09:57:25Z",
-            "title": "Cashin back in training while Clarke steps up recovery",
-            "link": "https://www.bbc.co.uk/sport/football/articles/c6702z9z1790o?at_medium=RSS&at_campaign=rss",
-            "source": "feeds.bbci.co.uk",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-13T08:13:19Z",
-            "title": "From postcards to texts, the different ways a manager gets the sack - Pulis",
-            "link": "https://www.bbc.co.uk/sport/football/articles/cve8716dg46xo?at_medium=RSS&at_campaign=rss",
-            "source": "feeds.bbci.co.uk",
-            "tone": -1
-          },
-          {
             "t": "2026-11-12T20:09:07Z",
             "title": "Arsenal dig in for draw at Barcelona to extend unbeaten start",
             "link": "https://www.bbc.co.uk/sport/football/videos/crlye55q790yo?at_medium=RSS&at_campaign=rss",
             "source": "feeds.bbci.co.uk",
             "tone": 1
+          },
+          {
+            "t": "2026-11-12T16:41:49Z",
+            "title": "Owono undecided over future following De Miguel death",
+            "link": "https://www.bbc.co.uk/sport/football/articles/ckedq01zve04o?at_medium=RSS&at_campaign=rss",
+            "source": "feeds.bbci.co.uk",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-12T13:11:49Z",
+            "title": "Police investigation into Vigar's death ongoing",
+            "link": "https://www.bbc.co.uk/sport/football/articles/ckm2mn2lvld9o?at_medium=RSS&at_campaign=rss",
+            "source": "feeds.bbci.co.uk",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-12T10:21:29Z",
+            "title": "The chaos that took Carrick from two-year deal to sacked within 15 games",
+            "link": "https://www.bbc.co.uk/sport/football/articles/cm0rl4kwn8vqo?at_medium=RSS&at_campaign=rss",
+            "source": "feeds.bbci.co.uk",
+            "tone": -1
           }
         ]
       },
@@ -1082,15 +1082,15 @@
         "Winner"
       ],
       "start_fund": 500,
-      "fund": 499.04,
+      "fund": 493.98,
       "lessons": [],
       "bets": 20,
-      "open": 4,
+      "open": 3,
       "won": 8,
-      "lost": 8,
-      "staked": 23.29,
-      "profit": -0.96,
-      "roi": -0.0412,
+      "lost": 9,
+      "staked": 28.35,
+      "profit": -6.02,
+      "roi": -0.2123,
       "avg_edge": 0.0317,
       "avg_clv": 0.009,
       "beat_close": 0.5789,
@@ -1163,14 +1163,18 @@
         {
           "t": "2026-11-13T05:15:31Z",
           "fund": 499.04
+        },
+        {
+          "t": "2026-11-14T02:45:31Z",
+          "fund": 493.98
         }
       ],
       "by_league": [
         {
           "name": "EuroLeague",
           "bets": 3,
-          "profit": -3.18,
-          "roi": -0.6092,
+          "profit": -8.24,
+          "roi": -0.8016,
           "avg_clv": 0.0248,
           "beat_close": 0.6667,
           "clv_count": 3
@@ -1198,8 +1202,8 @@
         {
           "name": "Spread",
           "bets": 2,
-          "profit": 1.03,
-          "roi": 1.0198,
+          "profit": -4.03,
+          "roi": -0.6639,
           "avg_clv": 0.0417,
           "beat_close": 1.0,
           "clv_count": 2
@@ -1227,8 +1231,8 @@
         {
           "name": "Basketball",
           "bets": 20,
-          "profit": -0.96,
-          "roi": -0.0412,
+          "profit": -6.02,
+          "roi": -0.2123,
           "avg_clv": 0.009,
           "beat_close": 0.5789,
           "clv_count": 19
@@ -1255,8 +1259,36 @@
         "appetite": 0.35
       },
       "reading": {
-        "week": 74,
+        "week": 85,
         "latest": [
+          {
+            "t": "2026-11-14T00:13:01Z",
+            "title": "Lakers&#39; Austin Reaves day-to-day with bruised heel, doesn&#39;t undergo imaging",
+            "link": "https://sports.yahoo.com/nba/article/lakers-austin-reaves-day-to-day-with-bruised-heel-doesnt-undergo-imaging-001301047.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-14T00:00:00Z",
+            "title": "Why the Suns should avoid trading Jalen Green for Dejounte Murray",
+            "link": "https://sports.yahoo.com/articles/why-suns-avoid-trading-jalen-000000949.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-14T00:00:00Z",
+            "title": "Hawks at Bulls, NBA Cup: start time, TV, streaming, radio, game thread",
+            "link": "https://sports.yahoo.com/articles/hawks-bulls-nba-cup-start-000000931.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-13T22:31:16Z",
+            "title": "Warriors vs. Spurs injury report: Steph Curry’s absence begins",
+            "link": "https://sports.yahoo.com/articles/warriors-vs-spurs-injury-report-223116850.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
           {
             "t": "2026-11-13T21:56:53Z",
             "title": "Lakers provide Austin Reaves injury update. Will star guard miss games?",
@@ -1268,34 +1300,6 @@
             "t": "2026-11-13T21:39:53Z",
             "title": "Lakers&#39; Austin Reaves considered day-to-day with heel injury",
             "link": "https://sports.yahoo.com/articles/lakers-austin-reaves-considered-day-213953199.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-13T17:21:33Z",
-            "title": "Warriors superstar has wild rehab plan — and says he’ll fistfight GM to make it happen",
-            "link": "https://sports.yahoo.com/articles/warriors-superstar-wild-rehab-plan-172133805.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-13T17:09:34Z",
-            "title": "NBA Rookie of the Year race: Three players at top, but don't count out AJ Dybantsa, Darryn Peterson just yet",
-            "link": "https://www.cbssports.com/nba/news/nba-rookie-of-the-year-race-yaxel-lendeborg-cameron-boozer-darryn-peterson-aj-dybantsa/",
-            "source": "www.cbssports.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-13T15:22:30Z",
-            "title": "Must-See 65: The plan to kill the NBA back-to-back and re-energize the sport&#39;s biggest stars",
-            "link": "https://sports.yahoo.com/nba/article/must-see-65-the-plan-to-kill-the-nba-back-to-back-and-re-energize-the-sports-biggest-stars-162947766.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-13T14:36:53Z",
-            "title": "Joel Embiid’s aggressiveness was a welcome sight for Sixers",
-            "link": "https://sports.yahoo.com/articles/joel-embiid-aggressiveness-welcome-sight-143653528.html",
             "source": "sports.yahoo.com",
             "tone": -1
           }
@@ -1426,10 +1430,11 @@
             "emoji": "🎯",
             "title": "Precision day",
             "text": "Only bets with an edge 1% above my usual bar, and at least 2 of them must beat the market.",
-            "status": "judging",
+            "status": "failed",
             "market": "spreads",
             "target": 50,
-            "league": "basketball_nbl"
+            "league": "basketball_nbl",
+            "detail": "3 bets, but not enough beat the market."
           },
           {
             "day": "2026-11-12",
@@ -1457,13 +1462,13 @@
           }
         ],
         "done": 2,
-        "judged": 2,
-        "streak": 2
+        "judged": 3,
+        "streak": 0
       },
       "traits": [],
       "mind": {
-        "iq": 109,
-        "iq_week": 29,
+        "iq": 110,
+        "iq_week": 30,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -1507,7 +1512,7 @@
           },
           {
             "d": "2026-11-14",
-            "iq": 109
+            "iq": 110
           }
         ],
         "facts": [
@@ -1556,7 +1561,7 @@
         ],
         "rules": 0,
         "studied": 260,
-        "resolved": 194
+        "resolved": 196
       }
     },
     "shark": {
@@ -1706,47 +1711,47 @@
         "appetite": 0.6
       },
       "reading": {
-        "week": 420,
+        "week": 423,
         "latest": [
           {
-            "t": "2026-11-13T23:00:06Z",
-            "title": "Three Keys for Virginia Tech to Bounce Back Against Stanford",
-            "link": "https://sports.yahoo.com/articles/three-keys-virginia-tech-bounce-230006333.html",
+            "t": "2026-11-14T02:23:15Z",
+            "title": "Falcons vs. Chiefs injury report: James Pearce Jr. questionable to play on Sunday",
+            "link": "https://sports.yahoo.com/articles/falcons-vs-chiefs-injury-report-022315998.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-14T02:04:00Z",
+            "title": "How MSU is preparing for pressure-filled contest with Auburn",
+            "link": "https://sports.yahoo.com/articles/msu-preparing-pressure-filled-contest-020400264.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-14T01:35:38Z",
+            "title": "NFL Week 10 injury report: Chiefs' Kenneth Walker has new groin injury, Patriots' A.J. Brown questionable",
+            "link": "https://www.cbssports.com/nfl/news/nfl-week-10-injury-report-chiefs-kenneth-walker-aj-brown/",
+            "source": "www.cbssports.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-14T01:16:09Z",
+            "title": "Tennessee football RB Daune Morris, out with broken leg, on injury report vs Texas A&M",
+            "link": "https://sports.yahoo.com/articles/tennessee-football-rb-daune-morris-011609124.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-14T00:50:00Z",
+            "title": "Elk Point-Jefferson hammers St. Thomas More in Class 11B title rematch",
+            "link": "https://sports.yahoo.com/articles/elk-point-jefferson-hammers-st-005000920.html",
             "source": "sports.yahoo.com",
             "tone": 1
           },
           {
-            "t": "2026-11-13T22:46:19Z",
-            "title": "Vikings-Packers Final Injury Report",
-            "link": "https://sports.yahoo.com/articles/vikings-packers-final-injury-report-224619636.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-13T22:30:04Z",
-            "title": "Cowboys CBs Joey Porter Jr., DaRon Bland are questionable",
-            "link": "https://sports.yahoo.com/articles/cowboys-cbs-joey-porter-jr-223004998.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-13T22:24:23Z",
-            "title": "Seahawks-Raiders injury designations: Uchenna Nwosu returns, as well as Rashid Shaheed",
-            "link": "https://sports.yahoo.com/articles/seahawks-raiders-injury-designations-uchenna-222423809.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-13T22:22:33Z",
-            "title": "Cowboys injuries: 49ers game status for George Pickens, Joey Porter Jr.",
-            "link": "https://sports.yahoo.com/articles/cowboys-injuries-49ers-game-status-222233503.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-13T22:16:26Z",
-            "title": "Deebo Samuel has no injury designation, but four CBs are questionable for 49ers",
-            "link": "https://sports.yahoo.com/articles/deebo-samuel-no-injury-designation-221626880.html",
+            "t": "2026-11-14T00:18:52Z",
+            "title": "Ole Miss Flight Grounded by FAA Shutdown, Casting Doubt on Saturday&#39;s Game at Oklahoma",
+            "link": "https://sports.yahoo.com/articles/ole-miss-flight-grounded-faa-001852973.html",
             "source": "sports.yahoo.com",
             "tone": -1
           }
@@ -3348,12 +3353,12 @@
       "fair_odds": 2.032,
       "edge": 0.058,
       "stake": 5.06,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 2.048,
       "clv": 0.0499,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -5.06,
+      "score": "ASVEL Lyon Villeurbanne 91 - 95 Beşiktaş J.K.",
+      "settled_at": "2026-11-14T02:45:31Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates ASVEL Lyon Villeurbanne -2.5 at 49.2%. That makes the fair price 2.03.",
         "William Hill pays 2.15. That is +5.8% above fair. My bar is +1.5%.",
@@ -4743,14 +4748,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-11T23:45:30Z",
-      "text": "✅ 🧮 The Quant completed 🐶 Underdog hunter: 1 bet beat the market."
-    },
-    {
-      "t": "2026-11-11T23:45:30Z",
-      "text": "🏅 🧮 The Quant unlocked 🎯 Challenge Accepted: Completed its first daily challenge."
-    },
-    {
       "t": "2026-11-12T00:00:56Z",
       "text": "❌ 🦎 The Lizard missed 🗺️ New ground: No bet of that type today."
     },
@@ -4861,6 +4858,14 @@
     {
       "t": "2026-11-14T00:00:53Z",
       "text": "🎯 🦈 The Shark's challenge today: 🎯 Precision day. Only bets with an edge 1% above my usual bar, and at least 2 of them must beat the market."
+    },
+    {
+      "t": "2026-11-14T02:45:31Z",
+      "text": "❌ 🧮 The Quant missed 🎯 Precision day: 3 bets, but not enough beat the market."
+    },
+    {
+      "t": "2026-11-14T02:45:31Z",
+      "text": "Results:\n- Lost -5.06: ASVEL Lyon Villeurbanne -2.5 (Spread) in ASVEL Lyon Villeurbanne vs Beşiktaş J.K. (ASVEL Lyon Villeurbanne 91 - 95 Beşiktaş J.K.)"
     }
   ]
 }
