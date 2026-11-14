@@ -1,6 +1,6 @@
 {
   "last_scan": "2026-11-14@16",
-  "credits_left": 19355,
+  "credits_left": 19353,
   "league_names": {
     "soccer_italy_serie_b": "Serie B (Italy 2)",
     "soccer_efl_champ": "Championship (England 2)",
@@ -44,10 +44,6 @@
     "soccer_england_league1": "2026-11-14T18:00:54Z"
   },
   "log": [
-    {
-      "t": "2026-11-12T16:00:54Z",
-      "text": "Placed 5 practice bets:\n- The Quant: **Southern Illinois Salukis** (Winner) in Southern Illinois Salukis vs Richmond Spiders (College basketball (US)) at 2.5 on Everygame, stake 1.18, edge +1.8%\n- The Quant: **ASVEL Lyon Villeurbanne -2.5** (Spread) in ASVEL Lyon Villeurbanne vs Beşiktaş J.K. (EuroLeague) at 2.15 on William Hill, stake 5.06, edge +5.8%\n- The Lizard 🧭 scout: **Draw** (Winner) in Granada CF vs Las Palmas (La Liga 2 (Spain 2)) at 3.75 on Coolbet, stake 0.99, edge +0.6%\n- The Shark 🧭 scout: **Northern Illinois Huskies** (Winner) in Northern Illinois Huskies vs Nevada Wolf Pack (College football (US)) at 3.4 on LeoVegas (SE), stake 1.00, edge +1.1%\n- The Shark 🧭 scout: **Arizona Wildcats** (Winner) in Arizona Wildcats vs Utah Utes (College football (US)) at 2.25 on BetOnline.ag, stake 1.00, edge +0.8%"
-    },
     {
       "t": "2026-11-13T00:01:00Z",
       "text": "❌ 🦎 The Lizard missed 🧭 Explorer day: No bet there today."
@@ -163,6 +159,10 @@
     {
       "t": "2026-11-14T18:00:54Z",
       "text": "Results:\n- Lost -2.65: Reading (Winner) in Stockport County FC vs Reading (Stockport County FC 3 - 1 Reading)\n- Lost -2.49: Burton Albion (Winner) in Milton Keynes Dons vs Burton Albion (Milton Keynes Dons 6 - 2 Burton Albion)"
+    },
+    {
+      "t": "2026-11-14T18:30:46Z",
+      "text": "🏁 🧮 The Quant now leads the race to go live (20 days to selection)."
     }
   ],
   "levels": {
@@ -317,7 +317,7 @@
       },
       {
         "d": "2026-11-14",
-        "iq": 111
+        "iq": 112
       }
     ],
     "shark": [
@@ -1889,5 +1889,5 @@
     "quant": {},
     "shark": {}
   },
-  "race_leader": "shark"
+  "race_leader": "quant"
 }
