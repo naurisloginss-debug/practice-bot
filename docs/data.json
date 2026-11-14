@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-14T21:15:43Z",
+  "updated": "2026-11-14T21:30:44Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -29,8 +29,8 @@
     ],
     "chars": {
       "lizard": {
-        "iq": 101,
-        "iq_gain": 4,
+        "iq": 102,
+        "iq_gain": 5,
         "streak": 2,
         "best_streak": 8,
         "achievements": [
@@ -152,7 +152,7 @@
             "pending": false
           }
         ],
-        "score": 131,
+        "score": 132,
         "trophies": [
           {
             "kind": "sharpshooter",
@@ -184,9 +184,9 @@
         ]
       },
       "quant": {
-        "iq": 111,
-        "iq_gain": 27,
-        "streak": 2,
+        "iq": 112,
+        "iq_gain": 28,
+        "streak": 0,
         "best_streak": 3,
         "achievements": [
           {
@@ -297,23 +297,23 @@
           {
             "text": "Bets checked against the market",
             "target": 3,
-            "now": 21
+            "now": 22
           },
           {
             "text": "Beat the market on",
             "target": 55,
-            "now": 62,
+            "now": 59,
             "unit": "%",
             "pending": false
           }
         ],
-        "score": 147,
+        "score": 148,
         "trophies": []
       },
       "shark": {
         "iq": 101,
         "iq_gain": 10,
-        "streak": 4,
+        "streak": 0,
         "best_streak": 4,
         "achievements": [
           {
@@ -424,12 +424,12 @@
           {
             "text": "Bets checked against the market",
             "target": 3,
-            "now": 9
+            "now": 10
           },
           {
             "text": "Beat the market on",
             "target": 55,
-            "now": 67,
+            "now": 60,
             "unit": "%",
             "pending": false
           }
@@ -489,7 +489,7 @@
       "leader": "quant"
     }
   },
-  "credits_left": 19342,
+  "credits_left": 19338,
   "last_scan": "2026-11-14@16",
   "strategies": {
     "lizard": {
@@ -534,7 +534,7 @@
         "Total"
       ],
       "start_fund": 500,
-      "fund": 490.07,
+      "fund": 492.8,
       "lessons": [
         {
           "kind": "avoid",
@@ -543,12 +543,12 @@
         }
       ],
       "bets": 34,
-      "open": 12,
-      "won": 4,
-      "lost": 18,
-      "staked": 28.67,
-      "profit": -9.93,
-      "roi": -0.3464,
+      "open": 7,
+      "won": 6,
+      "lost": 21,
+      "staked": 36.62,
+      "profit": -7.2,
+      "roi": -0.1966,
       "avg_edge": 0.0282,
       "avg_clv": -0.0212,
       "beat_close": 0.6129,
@@ -645,6 +645,26 @@
         {
           "t": "2026-11-14T18:00:54Z",
           "fund": 490.07
+        },
+        {
+          "t": "2026-11-14T21:30:44Z",
+          "fund": 489.08
+        },
+        {
+          "t": "2026-11-14T21:30:44Z",
+          "fund": 488.09
+        },
+        {
+          "t": "2026-11-14T21:30:44Z",
+          "fund": 487.1
+        },
+        {
+          "t": "2026-11-14T21:30:44Z",
+          "fund": 490.41
+        },
+        {
+          "t": "2026-11-14T21:30:44Z",
+          "fund": 492.8
         }
       ],
       "by_league": [
@@ -705,8 +725,8 @@
         {
           "name": "League Two (England 4)",
           "bets": 6,
-          "profit": -1.96,
-          "roi": -1.0,
+          "profit": 0.77,
+          "roi": 0.0777,
           "avg_clv": -0.0377,
           "beat_close": 0.5,
           "clv_count": 6
@@ -734,7 +754,7 @@
         {
           "name": "Total",
           "bets": 2,
-          "profit": -2.11,
+          "profit": -3.1,
           "roi": -1.0,
           "avg_clv": 0.0135,
           "beat_close": 1.0,
@@ -743,8 +763,8 @@
         {
           "name": "Winner",
           "bets": 32,
-          "profit": -7.82,
-          "roi": -0.2944,
+          "profit": -4.1,
+          "roi": -0.1223,
           "avg_clv": -0.0236,
           "beat_close": 0.5862,
           "clv_count": 29
@@ -754,8 +774,8 @@
         {
           "name": "Football",
           "bets": 34,
-          "profit": -9.93,
-          "roi": -0.3464,
+          "profit": -7.2,
+          "roi": -0.1966,
           "avg_clv": -0.0212,
           "beat_close": 0.6129,
           "clv_count": 31
@@ -768,9 +788,9 @@
         "beat": 0.0,
         "trust": 0.45,
         "base": 0.45,
-        "won": 0,
-        "lost": 0,
-        "profit": 0
+        "won": 2,
+        "lost": 1,
+        "profit": 4.71
       },
       "wild": {
         "bets": 1,
@@ -981,8 +1001,8 @@
       },
       "traits": [],
       "mind": {
-        "iq": 101,
-        "iq_week": 9,
+        "iq": 102,
+        "iq_week": 10,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -1026,7 +1046,7 @@
           },
           {
             "d": "2026-11-14",
-            "iq": 101
+            "iq": 102
           }
         ],
         "facts": [
@@ -1075,7 +1095,7 @@
         ],
         "rules": 0,
         "studied": 88,
-        "resolved": 65
+        "resolved": 74
       }
     },
     "quant": {
@@ -1119,9 +1139,9 @@
       "profit": -9.38,
       "roi": -0.2958,
       "avg_edge": 0.0269,
-      "avg_clv": 0.0104,
-      "beat_close": 0.619,
-      "clv_count": 21,
+      "avg_clv": 0.0086,
+      "beat_close": 0.5909,
+      "clv_count": 22,
       "history": [
         {
           "t": "2026-11-10T21:01:26Z",
@@ -1223,9 +1243,9 @@
           "bets": 14,
           "profit": 4.16,
           "roi": 0.339,
-          "avg_clv": 0.0152,
-          "beat_close": 0.5455,
-          "clv_count": 11
+          "avg_clv": 0.0116,
+          "beat_close": 0.5,
+          "clv_count": 12
         },
         {
           "name": "NBA",
@@ -1261,9 +1281,9 @@
           "bets": 19,
           "profit": -5.12,
           "roi": -0.2387,
-          "avg_clv": 0.0071,
-          "beat_close": 0.5625,
-          "clv_count": 16
+          "avg_clv": 0.005,
+          "beat_close": 0.5294,
+          "clv_count": 17
         }
       ],
       "by_sport": [
@@ -1272,9 +1292,9 @@
           "bets": 26,
           "profit": -9.38,
           "roi": -0.2958,
-          "avg_clv": 0.0104,
-          "beat_close": 0.619,
-          "clv_count": 21
+          "avg_clv": 0.0086,
+          "beat_close": 0.5909,
+          "clv_count": 22
         }
       ],
       "gut": {
@@ -1436,8 +1456,8 @@
         "tried": [],
         "curiosity": 0.6,
         "scouts": 7,
-        "scout_clv": 0.0104,
-        "scout_measured": 4
+        "scout_clv": 0.0026,
+        "scout_measured": 5
       },
       "challenge": {
         "today": {
@@ -1506,8 +1526,8 @@
       },
       "traits": [],
       "mind": {
-        "iq": 111,
-        "iq_week": 31,
+        "iq": 112,
+        "iq_week": 32,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -1551,7 +1571,7 @@
           },
           {
             "d": "2026-11-14",
-            "iq": 111
+            "iq": 112
           }
         ],
         "facts": [
@@ -1592,10 +1612,10 @@
           },
           {
             "conf": "watching",
-            "n": 17,
+            "n": 18,
             "z": 0,
-            "text": "When I find value, the market moves my way before kick-off 65% of the time.",
-            "detail": "17 bets measured"
+            "text": "When I find value, the market moves my way before kick-off 61% of the time.",
+            "detail": "18 bets measured"
           }
         ],
         "rules": 0,
@@ -1643,9 +1663,9 @@
       "profit": 0.77,
       "roi": 0.1353,
       "avg_edge": 0.0184,
-      "avg_clv": 0.0211,
-      "beat_close": 0.6364,
-      "clv_count": 11,
+      "avg_clv": 0.0173,
+      "beat_close": 0.5833,
+      "clv_count": 12,
       "history": [
         {
           "t": "2026-11-07T16:00:52Z",
@@ -1675,9 +1695,9 @@
           "bets": 17,
           "profit": 0,
           "roi": null,
-          "avg_clv": 0.0203,
-          "beat_close": 0.6667,
-          "clv_count": 9
+          "avg_clv": 0.0158,
+          "beat_close": 0.6,
+          "clv_count": 10
         },
         {
           "name": "CFL",
@@ -1704,9 +1724,9 @@
           "bets": 23,
           "profit": 0,
           "roi": null,
-          "avg_clv": 0.0219,
-          "beat_close": 0.625,
-          "clv_count": 8
+          "avg_clv": 0.0167,
+          "beat_close": 0.5556,
+          "clv_count": 9
         },
         {
           "name": "Total",
@@ -1724,9 +1744,9 @@
           "bets": 31,
           "profit": 0.77,
           "roi": 0.1353,
-          "avg_clv": 0.0211,
-          "beat_close": 0.6364,
-          "clv_count": 11
+          "avg_clv": 0.0173,
+          "beat_close": 0.5833,
+          "clv_count": 12
         }
       ],
       "gut": {
@@ -1746,7 +1766,7 @@
         "lost": 0,
         "profit": 0,
         "best": null,
-        "avg_clv": -0.0302,
+        "avg_clv": -0.0289,
         "appetite": 0.6
       },
       "reading": {
@@ -2977,8 +2997,8 @@
       "edge": 0.0078,
       "stake": 0.5,
       "status": "open",
-      "closing_fair_odds": null,
-      "clv": null,
+      "closing_fair_odds": 7.847,
+      "clv": -0.0251,
       "profit": 0.0,
       "score": null,
       "settled_at": null,
@@ -3016,8 +3036,8 @@
       "edge": 0.013,
       "stake": 2.46,
       "status": "open",
-      "closing_fair_odds": null,
-      "clv": null,
+      "closing_fair_odds": 2.059,
+      "clv": -0.0286,
       "profit": 0.0,
       "score": null,
       "settled_at": null,
@@ -3509,12 +3529,12 @@
       "fair_odds": 1.966,
       "edge": -0.003,
       "stake": 2.49,
-      "status": "open",
+      "status": "won",
       "closing_fair_odds": 2.025,
       "clv": -0.0319,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": 2.39,
+      "score": "Fleetwood Town 1 - 0 Tranmere Rovers",
+      "settled_at": "2026-11-14T21:30:44Z",
       "thoughts": [
         "The sharp money is moving to Fleetwood Town: its chance went from 48% to 51% since I first looked.",
         "My rules say no. But something in the grass is moving. I'm taking a nibble.",
@@ -3699,12 +3719,12 @@
       "fair_odds": 1.891,
       "edge": 0.0156,
       "stake": 0.99,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 1.906,
       "clv": 0.0074,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -0.99,
+      "score": "Crewe Alexandra 2 - 2 Newport County",
+      "settled_at": "2026-11-14T21:30:44Z",
       "thoughts": [
         "🧭 Exploring. I've only made 0 bets like this (League Two (England 4) total bets at favourites).",
         "Under 2.5 at 1.92 is +1.56% above fair: below my usual bar, but the only way to learn if this kind of bet works for me is to try it.",
@@ -3736,12 +3756,12 @@
       "fair_odds": 5.367,
       "edge": 0.0183,
       "stake": 0.99,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 7.344,
       "clv": -0.2559,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -0.99,
+      "score": "Salford City 1 - 1 Northampton Town",
+      "settled_at": "2026-11-14T21:30:44Z",
       "thoughts": [
         "Only +1.83% edge, just under my +2.0% bar. Can't prove it, but I like it.",
         "My rules say no. But something in the grass is moving. I'm taking a nibble.",
@@ -3773,12 +3793,12 @@
       "fair_odds": 4.217,
       "edge": 0.0077,
       "stake": 0.99,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 4.203,
       "clv": 0.0111,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -0.99,
+      "score": "Rochdale 0 - 1 York City",
+      "settled_at": "2026-11-14T21:30:44Z",
       "thoughts": [
         "🧭 Exploring. I've only made 0 bets like this (League Two (England 4) winner bets at long shots).",
         "Rochdale at 4.25 is +0.77% above fair: below my usual bar, but the only way to learn if this kind of bet works for me is to try it.",
@@ -3884,12 +3904,12 @@
       "fair_odds": 2.352,
       "edge": -0.0093,
       "stake": 2.49,
-      "status": "open",
+      "status": "won",
       "closing_fair_odds": 2.343,
       "clv": -0.0056,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": 3.31,
+      "score": "Bristol Rovers 0 - 2 Chesterfield FC",
+      "settled_at": "2026-11-14T21:30:44Z",
       "thoughts": [
         "The sharp money is moving to Chesterfield FC: its chance went from 39% to 43% since I first looked.",
         "My rules say no. But something in the grass is moving. I'm taking a nibble.",
@@ -5465,10 +5485,6 @@
   "log": [
     {
       "t": "2026-11-13T00:01:00Z",
-      "text": "🎯 🦎 The Lizard's challenge today: 🧘 Discipline day. No gut calls, no wild bets, nothing above odds 3.0, and still beat the market."
-    },
-    {
-      "t": "2026-11-13T00:01:00Z",
       "text": "🎯 🧮 The Quant's challenge today: 🎯 Precision day. Only bets with an edge 1% above my usual bar, and at least 2 of them must beat the market."
     },
     {
@@ -5582,6 +5598,10 @@
     {
       "t": "2026-11-14T20:45:29Z",
       "text": "🏅 🦈 The Shark unlocked 📏 Measured Ten: 10 bets checked against the final price."
+    },
+    {
+      "t": "2026-11-14T21:30:44Z",
+      "text": "Results:\n- Lost -0.99: Under 2.5 (Total) in Crewe Alexandra vs Newport County (Crewe Alexandra 2 - 2 Newport County)\n- Lost -0.99: Northampton Town (Winner) in Salford City vs Northampton Town (Salford City 1 - 1 Northampton Town)\n- Lost -0.99: Rochdale (Winner) in Rochdale vs York City (Rochdale 0 - 1 York City)\n- Won +3.31: Chesterfield FC (Winner) in Bristol Rovers vs Chesterfield FC (Bristol Rovers 0 - 2 Chesterfield FC)\n- Won +2.39: Fleetwood Town (Winner) in Fleetwood Town vs Tranmere Rovers (Fleetwood Town 1 - 0 Tranmere Rovers)"
     }
   ]
 }
