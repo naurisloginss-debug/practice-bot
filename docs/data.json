@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-14T05:45:28Z",
+  "updated": "2026-11-14T06:00:48Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -184,8 +184,8 @@
         ]
       },
       "quant": {
-        "iq": 110,
-        "iq_gain": 26,
+        "iq": 111,
+        "iq_gain": 27,
         "streak": 0,
         "best_streak": 3,
         "achievements": [
@@ -307,7 +307,7 @@
             "pending": false
           }
         ],
-        "score": 146,
+        "score": 147,
         "trophies": []
       },
       "shark": {
@@ -746,7 +746,7 @@
         "appetite": 0.45
       },
       "reading": {
-        "week": 92,
+        "week": 106,
         "latest": [
           {
             "t": "2026-11-13T17:40:36Z",
@@ -763,32 +763,32 @@
             "tone": -1
           },
           {
+            "t": "2026-11-13T10:00:46Z",
+            "title": "The club preparing to play again after the death of a player",
+            "link": "https://www.bbc.co.uk/sport/football/articles/c6vg7gz9w5edo?at_medium=RSS&at_campaign=rss",
+            "source": "feeds.bbci.co.uk",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-13T09:57:25Z",
+            "title": "Cashin back in training while Clarke steps up recovery",
+            "link": "https://www.bbc.co.uk/sport/football/articles/c6702z9z1790o?at_medium=RSS&at_campaign=rss",
+            "source": "feeds.bbci.co.uk",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-13T08:13:19Z",
+            "title": "From postcards to texts, the different ways a manager gets the sack - Pulis",
+            "link": "https://www.bbc.co.uk/sport/football/articles/cve8716dg46xo?at_medium=RSS&at_campaign=rss",
+            "source": "feeds.bbci.co.uk",
+            "tone": -1
+          },
+          {
             "t": "2026-11-12T20:09:07Z",
             "title": "Arsenal dig in for draw at Barcelona to extend unbeaten start",
             "link": "https://www.bbc.co.uk/sport/football/videos/crlye55q790yo?at_medium=RSS&at_campaign=rss",
             "source": "feeds.bbci.co.uk",
             "tone": 1
-          },
-          {
-            "t": "2026-11-12T16:41:49Z",
-            "title": "Owono undecided over future following De Miguel death",
-            "link": "https://www.bbc.co.uk/sport/football/articles/ckedq01zve04o?at_medium=RSS&at_campaign=rss",
-            "source": "feeds.bbci.co.uk",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-12T13:11:49Z",
-            "title": "Police investigation into Vigar's death ongoing",
-            "link": "https://www.bbc.co.uk/sport/football/articles/ckm2mn2lvld9o?at_medium=RSS&at_campaign=rss",
-            "source": "feeds.bbci.co.uk",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-12T10:21:29Z",
-            "title": "The chaos that took Carrick from two-year deal to sacked within 15 games",
-            "link": "https://www.bbc.co.uk/sport/football/articles/cm0rl4kwn8vqo?at_medium=RSS&at_campaign=rss",
-            "source": "feeds.bbci.co.uk",
-            "tone": -1
           }
         ]
       },
@@ -1267,8 +1267,22 @@
         "appetite": 0.35
       },
       "reading": {
-        "week": 85,
+        "week": 112,
         "latest": [
+          {
+            "t": "2026-11-14T03:08:53Z",
+            "title": "Spurs ambush Warriors in first quarter of first game since Steph Curry injury",
+            "link": "https://sports.yahoo.com/articles/spurs-ambush-warriors-first-quarter-030853064.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-14T00:25:27Z",
+            "title": "Warriors rookie feeling immense pressure amid Steph Curry injury: ‘Am I going to be able to live up to it?’",
+            "link": "https://sports.yahoo.com/articles/warriors-rookie-feeling-immense-pressure-002527500.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
           {
             "t": "2026-11-14T00:13:01Z",
             "title": "Lakers&#39; Austin Reaves day-to-day with bruised heel, doesn&#39;t undergo imaging",
@@ -1294,20 +1308,6 @@
             "t": "2026-11-13T22:31:16Z",
             "title": "Warriors vs. Spurs injury report: Steph Curry’s absence begins",
             "link": "https://sports.yahoo.com/articles/warriors-vs-spurs-injury-report-223116850.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-13T21:56:53Z",
-            "title": "Lakers provide Austin Reaves injury update. Will star guard miss games?",
-            "link": "https://sports.yahoo.com/articles/lakers-austin-reaves-injury-star-215653201.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-13T21:39:53Z",
-            "title": "Lakers&#39; Austin Reaves considered day-to-day with heel injury",
-            "link": "https://sports.yahoo.com/articles/lakers-austin-reaves-considered-day-213953199.html",
             "source": "sports.yahoo.com",
             "tone": -1
           }
@@ -1475,8 +1475,8 @@
       },
       "traits": [],
       "mind": {
-        "iq": 110,
-        "iq_week": 30,
+        "iq": 111,
+        "iq_week": 31,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -1520,7 +1520,7 @@
           },
           {
             "d": "2026-11-14",
-            "iq": 110
+            "iq": 111
           }
         ],
         "facts": [
@@ -1719,8 +1719,22 @@
         "appetite": 0.6
       },
       "reading": {
-        "week": 423,
+        "week": 382,
         "latest": [
+          {
+            "t": "2026-11-14T03:55:33Z",
+            "title": "Austin Mack’s Moment Has Arrived: Alabama Turns to Backup QB Against Vanderbilt",
+            "link": "https://sports.yahoo.com/articles/austin-mack-moment-arrived-alabama-035533393.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-14T03:48:08Z",
+            "title": "Washington football plans to fly Friday for Michigan State showdown after FAA grounding ends",
+            "link": "https://sports.yahoo.com/articles/washington-football-plans-fly-friday-034808589.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
           {
             "t": "2026-11-14T02:23:15Z",
             "title": "Falcons vs. Chiefs injury report: James Pearce Jr. questionable to play on Sunday",
@@ -1746,20 +1760,6 @@
             "t": "2026-11-14T01:16:09Z",
             "title": "Tennessee football RB Daune Morris, out with broken leg, on injury report vs Texas A&M",
             "link": "https://sports.yahoo.com/articles/tennessee-football-rb-daune-morris-011609124.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-14T00:50:00Z",
-            "title": "Elk Point-Jefferson hammers St. Thomas More in Class 11B title rematch",
-            "link": "https://sports.yahoo.com/articles/elk-point-jefferson-hammers-st-005000920.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-14T00:18:52Z",
-            "title": "Ole Miss Flight Grounded by FAA Shutdown, Casting Doubt on Saturday&#39;s Game at Oklahoma",
-            "link": "https://sports.yahoo.com/articles/ole-miss-flight-grounded-faa-001852973.html",
             "source": "sports.yahoo.com",
             "tone": -1
           }
