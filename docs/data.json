@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-14T14:45:30Z",
+  "updated": "2026-11-14T15:00:54Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -29,8 +29,8 @@
     ],
     "chars": {
       "lizard": {
-        "iq": 99,
-        "iq_gain": 2,
+        "iq": 98,
+        "iq_gain": 1,
         "streak": 0,
         "best_streak": 8,
         "achievements": [
@@ -152,7 +152,7 @@
             "pending": false
           }
         ],
-        "score": 124,
+        "score": 123,
         "trophies": [
           {
             "kind": "sharpshooter",
@@ -764,26 +764,12 @@
         "appetite": 0.45
       },
       "reading": {
-        "week": 93,
+        "week": 82,
         "latest": [
           {
             "t": "2026-11-14T11:27:35Z",
             "title": "Mancini has three key Italy line-up doubts for Belgium clash as Cambiaghi trains separately",
             "link": "https://football-italia.net/sky-mancini-line-up-doubts-belgium-clash/",
-            "source": "football-italia.net",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-13T17:40:36Z",
-            "title": "Good news for Roma with Dybala on target, others ready for return",
-            "link": "https://football-italia.net/good-news-for-roma-with-dybala-on-target-ready/",
-            "source": "football-italia.net",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-13T17:23:18Z",
-            "title": "Tare: ‘Milan biggest disappointment was Pulisic, choosing Allegri, Cardinale problem’",
-            "link": "https://football-italia.net/tare-milan-pulisic-choosing-allegri-cardinale/",
             "source": "football-italia.net",
             "tone": -1
           },
@@ -805,6 +791,20 @@
             "t": "2026-11-13T08:13:19Z",
             "title": "From postcards to texts, the different ways a manager gets the sack - Pulis",
             "link": "https://www.bbc.co.uk/sport/football/articles/cve8716dg46xo?at_medium=RSS&at_campaign=rss",
+            "source": "feeds.bbci.co.uk",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-12T16:41:49Z",
+            "title": "Owono undecided over future following De Miguel death",
+            "link": "https://www.bbc.co.uk/sport/football/articles/ckedq01zve04o?at_medium=RSS&at_campaign=rss",
+            "source": "feeds.bbci.co.uk",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-12T13:11:49Z",
+            "title": "Police investigation into Vigar's death ongoing",
+            "link": "https://www.bbc.co.uk/sport/football/articles/ckm2mn2lvld9o?at_medium=RSS&at_campaign=rss",
             "source": "feeds.bbci.co.uk",
             "tone": -1
           }
@@ -972,8 +972,8 @@
       },
       "traits": [],
       "mind": {
-        "iq": 99,
-        "iq_week": 7,
+        "iq": 98,
+        "iq_week": 6,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -1017,7 +1017,7 @@
           },
           {
             "d": "2026-11-14",
-            "iq": 99
+            "iq": 98
           }
         ],
         "facts": [
@@ -1289,7 +1289,7 @@
         "appetite": 0.35
       },
       "reading": {
-        "week": 107,
+        "week": 116,
         "latest": [
           {
             "t": "2026-11-14T03:08:53Z",
@@ -1741,47 +1741,47 @@
         "appetite": 0.6
       },
       "reading": {
-        "week": 400,
+        "week": 402,
         "latest": [
           {
-            "t": "2026-11-14T11:19:20Z",
-            "title": "Saints sent Jordyn Tyson to renowned hamstring specialist at University of Wisconsin",
-            "link": "https://sports.yahoo.com/articles/saints-sent-jordyn-tyson-renowned-111920899.html",
+            "t": "2026-11-14T14:06:38Z",
+            "title": "Brian Kelly is serious about Maryland. Here’s how he’s positioning himself for the job",
+            "link": "https://sports.yahoo.com/articles/brian-kelly-serious-maryland-positioning-140638913.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-14T13:46:53Z",
+            "title": "Alabama expected to start Austin Mack at Vanderbilt as Keelon Russell deals with ankle injury",
+            "link": "https://sports.yahoo.com/articles/alabama-expected-start-austin-mack-134653321.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-14T11:01:11Z",
-            "title": "Georgia vs. Missouri live updates | Follow SEC showdown from Athens",
-            "link": "https://sports.yahoo.com/articles/georgia-vs-missouri-live-updates-110111318.html",
+            "t": "2026-11-14T13:30:05Z",
+            "title": "3-Point Stance: Defense could be a roadblock in Patriots’ playoff pursuit",
+            "link": "https://sports.yahoo.com/articles/3-point-stance-defense-could-133005766.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-14T10:10:43Z",
-            "title": "Texas A&M junior WR added to injury report, won&#39;t play vs. Tennessee",
-            "link": "https://sports.yahoo.com/articles/texas-m-junior-wr-added-101043704.html",
+            "t": "2026-11-14T13:19:07Z",
+            "title": "TCU vs. Kansas State Preview: Bowl Talk, Odds & How to Watch",
+            "link": "https://sports.yahoo.com/articles/tcu-vs-kansas-state-preview-131907449.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-14T06:04:01Z",
-            "title": "No. 4 UCLA remains unbeaten with 22-14 victory over Illinois at Rose Bowl",
-            "link": "https://sports.yahoo.com/articles/no-4-ucla-remains-unbeaten-060401023.html",
+            "t": "2026-11-14T12:15:00Z",
+            "title": "Rams vs. Arizona Cardinals: How to watch, start time, odds and prediction",
+            "link": "https://sports.yahoo.com/articles/rams-vs-arizona-cardinals-watch-121500043.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-14T03:55:33Z",
-            "title": "Austin Mack’s Moment Has Arrived: Alabama Turns to Backup QB Against Vanderbilt",
-            "link": "https://sports.yahoo.com/articles/austin-mack-moment-arrived-alabama-035533393.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-14T03:48:08Z",
-            "title": "Washington football plans to fly Friday for Michigan State showdown after FAA grounding ends",
-            "link": "https://sports.yahoo.com/articles/washington-football-plans-fly-friday-034808589.html",
+            "t": "2026-11-14T12:00:00Z",
+            "title": "Amid a bittersweet winning streak, Rams look for revenge against Cardinals",
+            "link": "https://sports.yahoo.com/articles/amid-bittersweet-winning-streak-rams-120000368.html",
             "source": "sports.yahoo.com",
             "tone": -1
           }
