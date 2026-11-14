@@ -1,6 +1,6 @@
 {
   "last_scan": "2026-11-14@8",
-  "credits_left": 19399,
+  "credits_left": 19398,
   "league_names": {
     "soccer_italy_serie_b": "Serie B (Italy 2)",
     "soccer_efl_champ": "Championship (England 2)",
@@ -42,10 +42,6 @@
     "basketball_nbl": "2026-11-13T15:30:44Z"
   },
   "log": [
-    {
-      "t": "2026-11-12T01:30:42Z",
-      "text": "🏅 🧮 The Quant unlocked 📏 Measured Ten: 10 bets checked against the final price."
-    },
     {
       "t": "2026-11-12T01:30:42Z",
       "text": "🏟️ 🧮 The Quant takes the lead in the Arena."
@@ -161,10 +157,14 @@
     {
       "t": "2026-11-14T11:15:29Z",
       "text": "Results:\n- Lost -1.15: UIC Flames (Winner) in Saint Mary's Gaels vs UIC Flames (Saint Mary's Gaels 84 - 61 UIC Flames)"
+    },
+    {
+      "t": "2026-11-14T12:00:53Z",
+      "text": "🦎 The Lizard levelled up: Rookie → 🎓 Apprentice. Has a track record. Starts learning which bets work."
     }
   ],
   "levels": {
-    "lizard": "Rookie",
+    "lizard": "Apprentice",
     "quant": "Rookie",
     "shark": "Rookie"
   },
@@ -268,7 +268,7 @@
       },
       {
         "d": "2026-11-14",
-        "iq": 101
+        "iq": 102
       }
     ],
     "quant": [
@@ -1680,20 +1680,20 @@
     }
   },
   "skip_note": "2026-11-06@8",
-  "news_at": "2026-11-14T09:00:52Z",
+  "news_at": "2026-11-14T12:00:53Z",
   "feed_status": {
     "https://www.espn.com/espn/rss/nba/news": "error 2026-11-10T08:42:16Z: no element found: line 1, column 0",
-    "https://www.cbssports.com/rss/headlines/nba/": "ok 2026-11-14T09:00:52Z",
-    "https://sports.yahoo.com/nba/rss.xml": "ok 2026-11-14T09:00:52Z",
+    "https://www.cbssports.com/rss/headlines/nba/": "ok 2026-11-14T12:00:53Z",
+    "https://sports.yahoo.com/nba/rss.xml": "ok 2026-11-14T12:00:53Z",
     "https://www.espn.com/espn/rss/nfl/news": "error 2026-11-10T08:42:16Z: no element found: line 1, column 0",
     "https://www.espn.com/espn/rss/ncf/news": "error 2026-11-10T08:42:16Z: no element found: line 1, column 0",
-    "https://www.cbssports.com/rss/headlines/nfl/": "ok 2026-11-14T09:00:52Z",
-    "https://sports.yahoo.com/nfl/rss.xml": "ok 2026-11-14T09:00:52Z",
-    "https://sports.yahoo.com/college-football/rss.xml": "ok 2026-11-14T09:00:52Z",
-    "https://feeds.bbci.co.uk/sport/football/rss.xml": "ok 2026-11-14T09:00:52Z",
-    "https://feeds.bbci.co.uk/sport/football/championship/rss.xml": "ok 2026-11-14T09:00:52Z",
-    "https://feeds.bbci.co.uk/sport/football/european/rss.xml": "ok 2026-11-14T09:00:52Z",
-    "https://football-italia.net/feed/": "ok 2026-11-14T09:00:52Z"
+    "https://www.cbssports.com/rss/headlines/nfl/": "ok 2026-11-14T12:00:53Z",
+    "https://sports.yahoo.com/nfl/rss.xml": "ok 2026-11-14T12:00:53Z",
+    "https://sports.yahoo.com/college-football/rss.xml": "ok 2026-11-14T12:00:53Z",
+    "https://feeds.bbci.co.uk/sport/football/rss.xml": "ok 2026-11-14T12:00:53Z",
+    "https://feeds.bbci.co.uk/sport/football/championship/rss.xml": "ok 2026-11-14T12:00:53Z",
+    "https://feeds.bbci.co.uk/sport/football/european/rss.xml": "ok 2026-11-14T12:00:53Z",
+    "https://football-italia.net/feed/": "ok 2026-11-14T12:00:53Z"
   },
   "exploring": {
     "lizard": {
