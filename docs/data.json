@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-14T21:45:33Z",
+  "updated": "2026-11-14T22:00:58Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -489,7 +489,7 @@
       "leader": "quant"
     }
   },
-  "credits_left": 19338,
+  "credits_left": 19335,
   "last_scan": "2026-11-14@16",
   "strategies": {
     "lizard": {
@@ -534,7 +534,7 @@
         "Total"
       ],
       "start_fund": 500,
-      "fund": 492.8,
+      "fund": 491.54,
       "lessons": [
         {
           "kind": "avoid",
@@ -543,12 +543,12 @@
         }
       ],
       "bets": 34,
-      "open": 7,
-      "won": 6,
-      "lost": 21,
-      "staked": 36.62,
-      "profit": -7.2,
-      "roi": -0.1966,
+      "open": 4,
+      "won": 7,
+      "lost": 23,
+      "staked": 41.31,
+      "profit": -8.46,
+      "roi": -0.2048,
       "avg_edge": 0.0282,
       "avg_clv": -0.0212,
       "beat_close": 0.6129,
@@ -665,6 +665,18 @@
         {
           "t": "2026-11-14T21:30:44Z",
           "fund": 492.8
+        },
+        {
+          "t": "2026-11-14T22:00:58Z",
+          "fund": 495.19
+        },
+        {
+          "t": "2026-11-14T22:00:58Z",
+          "fund": 493.41
+        },
+        {
+          "t": "2026-11-14T22:00:58Z",
+          "fund": 491.54
         }
       ],
       "by_league": [
@@ -707,8 +719,8 @@
         {
           "name": "La Liga 2 (Spain 2)",
           "bets": 7,
-          "profit": -2.03,
-          "roi": -1.0,
+          "profit": -3.29,
+          "roi": -0.4896,
           "avg_clv": -0.0108,
           "beat_close": 0.6,
           "clv_count": 5
@@ -763,8 +775,8 @@
         {
           "name": "Winner",
           "bets": 32,
-          "profit": -4.1,
-          "roi": -0.1223,
+          "profit": -5.36,
+          "roi": -0.1403,
           "avg_clv": -0.0236,
           "beat_close": 0.5862,
           "clv_count": 29
@@ -774,8 +786,8 @@
         {
           "name": "Football",
           "bets": 34,
-          "profit": -7.2,
-          "roi": -0.1966,
+          "profit": -8.46,
+          "roi": -0.2048,
           "avg_clv": -0.0212,
           "beat_close": 0.6129,
           "clv_count": 31
@@ -1095,7 +1107,7 @@
         ],
         "rules": 0,
         "studied": 88,
-        "resolved": 74
+        "resolved": 78
       }
     },
     "quant": {
@@ -3452,12 +3464,12 @@
       "fair_odds": 3.832,
       "edge": 0.07,
       "stake": 1.78,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 4.838,
       "clv": -0.1525,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -1.78,
+      "score": "Mallorca 3 - 3 Córdoba",
+      "settled_at": "2026-11-14T22:00:58Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates Córdoba at 26.1%. That makes the fair price 3.83.",
         "Unibet (NL) pays 4.10. That is +7.0% above fair. My bar is +2.0%.",
@@ -3565,12 +3577,12 @@
       "fair_odds": 4.595,
       "edge": 0.0281,
       "stake": 1.87,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 4.651,
       "clv": 0.0158,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -1.87,
+      "score": "Almería 2 - 1 Andorra CF",
+      "settled_at": "2026-11-14T22:00:58Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates Andorra CF at 21.8%. That makes the fair price 4.59.",
         "Matchbook pays 4.80 (4.72 after the exchange fee). That is +2.8% above fair. My bar is +2.0%.",
@@ -3681,12 +3693,12 @@
       "fair_odds": 3.203,
       "edge": 0.0302,
       "stake": 1.04,
-      "status": "open",
+      "status": "won",
       "closing_fair_odds": 3.373,
       "clv": -0.0217,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": 2.39,
+      "score": "Real Sociedad B 2 - 2 Sporting Gijón",
+      "settled_at": "2026-11-14T22:00:58Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates Draw at 31.2%. That makes the fair price 3.20.",
         "Coolbet pays 3.30. That is +3.0% above fair. My bar is +2.0%.",
@@ -5485,10 +5497,6 @@
   "log": [
     {
       "t": "2026-11-13T00:01:00Z",
-      "text": "🎯 🧮 The Quant's challenge today: 🎯 Precision day. Only bets with an edge 1% above my usual bar, and at least 2 of them must beat the market."
-    },
-    {
-      "t": "2026-11-13T00:01:00Z",
       "text": "❌ 🦈 The Shark missed 🧭 Explorer day: No bet there today."
     },
     {
@@ -5602,6 +5610,10 @@
     {
       "t": "2026-11-14T21:30:44Z",
       "text": "Results:\n- Lost -0.99: Under 2.5 (Total) in Crewe Alexandra vs Newport County (Crewe Alexandra 2 - 2 Newport County)\n- Lost -0.99: Northampton Town (Winner) in Salford City vs Northampton Town (Salford City 1 - 1 Northampton Town)\n- Lost -0.99: Rochdale (Winner) in Rochdale vs York City (Rochdale 0 - 1 York City)\n- Won +3.31: Chesterfield FC (Winner) in Bristol Rovers vs Chesterfield FC (Bristol Rovers 0 - 2 Chesterfield FC)\n- Won +2.39: Fleetwood Town (Winner) in Fleetwood Town vs Tranmere Rovers (Fleetwood Town 1 - 0 Tranmere Rovers)"
+    },
+    {
+      "t": "2026-11-14T22:00:58Z",
+      "text": "Results:\n- Won +2.39: Draw (Winner) in Real Sociedad B vs Sporting Gijón (Real Sociedad B 2 - 2 Sporting Gijón)\n- Lost -1.78: Córdoba (Winner) in Mallorca vs Córdoba (Mallorca 3 - 3 Córdoba)\n- Lost -1.87: Andorra CF (Winner) in Almería vs Andorra CF (Almería 2 - 1 Andorra CF)"
     }
   ]
 }
