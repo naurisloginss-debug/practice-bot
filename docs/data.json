@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-14T14:15:30Z",
+  "updated": "2026-11-14T14:30:43Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -29,10 +29,10 @@
     ],
     "chars": {
       "lizard": {
-        "iq": 102,
-        "iq_gain": 5,
-        "streak": 7,
-        "best_streak": 7,
+        "iq": 99,
+        "iq_gain": 2,
+        "streak": 0,
+        "best_streak": 8,
         "achievements": [
           {
             "key": "challenge",
@@ -142,17 +142,17 @@
           {
             "text": "Bets checked against the market",
             "target": 21,
-            "now": 1
+            "now": 7
           },
           {
             "text": "Beat the market on",
             "target": 76,
-            "now": 100,
+            "now": 43,
             "unit": "%",
-            "pending": true
+            "pending": false
           }
         ],
-        "score": 127,
+        "score": 124,
         "trophies": [
           {
             "kind": "sharpshooter",
@@ -471,14 +471,14 @@
         {
           "who": "lizard",
           "eligible": false,
-          "measured": 20,
-          "need": 10,
-          "clv": 0.0009,
-          "cautious": -0.0141,
-          "beat": 0.75,
+          "measured": 21,
+          "need": 9,
+          "clv": -0.0064,
+          "cautious": -0.0225,
+          "beat": 0.7143,
           "challenges": 0.0,
           "traits": 0,
-          "score": -9.14
+          "score": -18.2
         }
       ],
       "ranking": [
@@ -489,7 +489,7 @@
       "leader": "quant"
     }
   },
-  "credits_left": 19396,
+  "credits_left": 19393,
   "last_scan": "2026-11-14@8",
   "strategies": {
     "lizard": {
@@ -544,9 +544,9 @@
       "profit": -2.83,
       "roi": -0.1312,
       "avg_edge": 0.0282,
-      "avg_clv": 0.0009,
-      "beat_close": 0.75,
-      "clv_count": 20,
+      "avg_clv": -0.0202,
+      "beat_close": 0.6538,
+      "clv_count": 26,
       "history": [
         {
           "t": "2026-11-04T12:49:24Z",
@@ -631,15 +631,6 @@
       ],
       "by_league": [
         {
-          "name": "League Two (England 4)",
-          "bets": 6,
-          "profit": 0,
-          "roi": null,
-          "avg_clv": 0.0489,
-          "beat_close": 1.0,
-          "clv_count": 1
-        },
-        {
           "name": "La Liga 2 (Spain 2)",
           "bets": 6,
           "profit": -2.03,
@@ -694,17 +685,26 @@
           "clv_count": 9
         },
         {
-          "name": "Brasileirão (Brazil)",
-          "bets": 1,
+          "name": "League Two (England 4)",
+          "bets": 6,
           "profit": 0,
           "roi": null,
-          "avg_clv": null,
-          "beat_close": null,
-          "clv_count": 0
+          "avg_clv": -0.0388,
+          "beat_close": 0.6,
+          "clv_count": 5
         },
         {
           "name": "League One (England 3)",
           "bets": 2,
+          "profit": 0,
+          "roi": null,
+          "avg_clv": -0.1505,
+          "beat_close": 0.0,
+          "clv_count": 2
+        },
+        {
+          "name": "Brasileirão (Brazil)",
+          "bets": 1,
           "profit": 0,
           "roi": null,
           "avg_clv": null,
@@ -718,18 +718,18 @@
           "bets": 2,
           "profit": -2.11,
           "roi": -1.0,
-          "avg_clv": 0.0197,
+          "avg_clv": 0.0135,
           "beat_close": 1.0,
-          "clv_count": 1
+          "clv_count": 2
         },
         {
           "name": "Winner",
           "bets": 31,
           "profit": -0.72,
           "roi": -0.037,
-          "avg_clv": -0.0,
-          "beat_close": 0.7368,
-          "clv_count": 19
+          "avg_clv": -0.023,
+          "beat_close": 0.625,
+          "clv_count": 24
         }
       ],
       "by_sport": [
@@ -738,16 +738,16 @@
           "bets": 33,
           "profit": -2.83,
           "roi": -0.1312,
-          "avg_clv": 0.0009,
-          "beat_close": 0.75,
-          "clv_count": 20
+          "avg_clv": -0.0202,
+          "beat_close": 0.6538,
+          "clv_count": 26
         }
       ],
       "gut": {
         "bets": 3,
-        "measured": 0,
-        "avg_clv": null,
-        "beat": null,
+        "measured": 2,
+        "avg_clv": -0.1308,
+        "beat": 0.0,
         "trust": 0.45,
         "base": 0.45,
         "won": 0,
@@ -858,37 +858,37 @@
         ]
       },
       "level": {
-        "n": 2,
-        "title": "Apprentice",
-        "badge": "🎓",
+        "n": 1,
+        "title": "Rookie",
+        "badge": "🐣",
         "stake": 1.0,
-        "perk": "Has a track record. Starts learning which bets work.",
-        "measured": 20,
-        "clv": 0.0009,
-        "beat": 0.75,
+        "perk": "Normal stakes while it proves itself.",
+        "measured": 21,
+        "clv": -0.0064,
+        "beat": 0.7143,
         "cold": false,
         "next": {
-          "title": "Sharp",
-          "badge": "⚡",
-          "perk": "Stakes +15%. Consistently beats the market.",
+          "title": "Apprentice",
+          "badge": "🎓",
+          "perk": "Has a track record. Starts learning which bets work.",
           "needs": [
             {
-              "text": "40 measured bets",
-              "done": false,
-              "now": "20"
-            },
-            {
-              "text": "beat the market on 55%+",
+              "text": "15 measured bets",
               "done": true,
-              "now": "75%"
+              "now": "21"
             },
             {
-              "text": "average price +1.0%+ vs market",
+              "text": "beat the market on 50%+",
+              "done": true,
+              "now": "71%"
+            },
+            {
+              "text": "average price +0.0%+ vs market",
               "done": false,
-              "now": "+0.1%"
+              "now": "-0.6%"
             }
           ],
-          "progress": 0.5
+          "progress": 1.0
         }
       },
       "explorer": {
@@ -902,8 +902,8 @@
         "tried": [],
         "curiosity": 0.5,
         "scouts": 5,
-        "scout_clv": null,
-        "scout_measured": 0
+        "scout_clv": -0.0432,
+        "scout_measured": 3
       },
       "challenge": {
         "today": {
@@ -972,8 +972,8 @@
       },
       "traits": [],
       "mind": {
-        "iq": 102,
-        "iq_week": 10,
+        "iq": 99,
+        "iq_week": 7,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -1017,7 +1017,7 @@
           },
           {
             "d": "2026-11-14",
-            "iq": 102
+            "iq": 99
           }
         ],
         "facts": [
@@ -1058,10 +1058,10 @@
           },
           {
             "conf": "watching",
-            "n": 20,
+            "n": 24,
             "z": 0,
-            "text": "When I find value, the market moves my way before kick-off 75% of the time.",
-            "detail": "20 bets measured"
+            "text": "When I find value, the market moves my way before kick-off 71% of the time.",
+            "detail": "24 bets measured"
           }
         ],
         "rules": 0,
@@ -3463,8 +3463,8 @@
       "edge": 0.0156,
       "stake": 0.99,
       "status": "open",
-      "closing_fair_odds": null,
-      "clv": null,
+      "closing_fair_odds": 1.906,
+      "clv": 0.0074,
       "profit": 0.0,
       "score": null,
       "settled_at": null,
@@ -3500,8 +3500,8 @@
       "edge": 0.0183,
       "stake": 0.99,
       "status": "open",
-      "closing_fair_odds": null,
-      "clv": null,
+      "closing_fair_odds": 7.344,
+      "clv": -0.2559,
       "profit": 0.0,
       "score": null,
       "settled_at": null,
@@ -3537,8 +3537,8 @@
       "edge": 0.0077,
       "stake": 0.99,
       "status": "open",
-      "closing_fair_odds": null,
-      "clv": null,
+      "closing_fair_odds": 4.203,
+      "clv": 0.0111,
       "profit": 0.0,
       "score": null,
       "settled_at": null,
@@ -3573,8 +3573,8 @@
       "edge": 0.0334,
       "stake": 2.65,
       "status": "open",
-      "closing_fair_odds": null,
-      "clv": null,
+      "closing_fair_odds": 4.882,
+      "clv": -0.1529,
       "profit": 0.0,
       "score": null,
       "settled_at": null,
@@ -3611,8 +3611,8 @@
       "edge": 0.0088,
       "stake": 2.49,
       "status": "open",
-      "closing_fair_odds": null,
-      "clv": null,
+      "closing_fair_odds": 6.235,
+      "clv": -0.148,
       "profit": 0.0,
       "score": null,
       "settled_at": null,
@@ -3648,8 +3648,8 @@
       "edge": -0.0093,
       "stake": 2.49,
       "status": "open",
-      "closing_fair_odds": null,
-      "clv": null,
+      "closing_fair_odds": 2.343,
+      "clv": -0.0056,
       "profit": 0.0,
       "score": null,
       "settled_at": null,
@@ -5227,10 +5227,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-12T01:30:42Z",
-      "text": "🏟️ 🧮 The Quant takes the lead in the Arena."
-    },
-    {
       "t": "2026-11-12T02:00:51Z",
       "text": "🏅 🧮 The Quant unlocked 🧠 IQ 100: Reached Sport IQ 100."
     },
@@ -5345,6 +5341,10 @@
     {
       "t": "2026-11-14T12:00:53Z",
       "text": "🦎 The Lizard levelled up: Rookie → 🎓 Apprentice. Has a track record. Starts learning which bets work."
+    },
+    {
+      "t": "2026-11-14T14:30:43Z",
+      "text": "🦎 The Lizard changed level: Apprentice → 🐣 Rookie. Normal stakes while it proves itself."
     }
   ]
 }

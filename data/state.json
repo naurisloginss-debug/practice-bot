@@ -1,6 +1,6 @@
 {
   "last_scan": "2026-11-14@8",
-  "credits_left": 19396,
+  "credits_left": 19393,
   "league_names": {
     "soccer_italy_serie_b": "Serie B (Italy 2)",
     "soccer_efl_champ": "Championship (England 2)",
@@ -42,10 +42,6 @@
     "basketball_nbl": "2026-11-14T13:45:31Z"
   },
   "log": [
-    {
-      "t": "2026-11-12T01:30:42Z",
-      "text": "🏟️ 🧮 The Quant takes the lead in the Arena."
-    },
     {
       "t": "2026-11-12T02:00:51Z",
       "text": "🏅 🧮 The Quant unlocked 🧠 IQ 100: Reached Sport IQ 100."
@@ -161,10 +157,14 @@
     {
       "t": "2026-11-14T12:00:53Z",
       "text": "🦎 The Lizard levelled up: Rookie → 🎓 Apprentice. Has a track record. Starts learning which bets work."
+    },
+    {
+      "t": "2026-11-14T14:30:43Z",
+      "text": "🦎 The Lizard changed level: Apprentice → 🐣 Rookie. Normal stakes while it proves itself."
     }
   ],
   "levels": {
-    "lizard": "Apprentice",
+    "lizard": "Rookie",
     "quant": "Rookie",
     "shark": "Rookie"
   },
@@ -268,7 +268,7 @@
       },
       {
         "d": "2026-11-14",
-        "iq": 102
+        "iq": 99
       }
     ],
     "quant": [
