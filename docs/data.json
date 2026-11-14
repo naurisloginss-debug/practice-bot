@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-14T11:00:54Z",
+  "updated": "2026-11-14T11:15:29Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -489,7 +489,7 @@
       "leader": "quant"
     }
   },
-  "credits_left": 19401,
+  "credits_left": 19399,
   "last_scan": "2026-11-14@8",
   "strategies": {
     "lizard": {
@@ -1100,15 +1100,15 @@
         "Winner"
       ],
       "start_fund": 500,
-      "fund": 491.77,
+      "fund": 490.62,
       "lessons": [],
       "bets": 22,
-      "open": 3,
+      "open": 2,
       "won": 8,
-      "lost": 11,
-      "staked": 30.56,
-      "profit": -8.23,
-      "roi": -0.2693,
+      "lost": 12,
+      "staked": 31.71,
+      "profit": -9.38,
+      "roi": -0.2958,
       "avg_edge": 0.0299,
       "avg_clv": 0.009,
       "beat_close": 0.5789,
@@ -1193,6 +1193,10 @@
         {
           "t": "2026-11-14T05:15:29Z",
           "fund": 491.77
+        },
+        {
+          "t": "2026-11-14T11:15:29Z",
+          "fund": 490.62
         }
       ],
       "by_league": [
@@ -1208,8 +1212,8 @@
         {
           "name": "College basketball (US)",
           "bets": 12,
-          "profit": 5.31,
-          "roi": 0.4775,
+          "profit": 4.16,
+          "roi": 0.339,
           "avg_clv": 0.0132,
           "beat_close": 0.4444,
           "clv_count": 9
@@ -1246,8 +1250,8 @@
         {
           "name": "Winner",
           "bets": 16,
-          "profit": -3.97,
-          "roi": -0.1956,
+          "profit": -5.12,
+          "roi": -0.2387,
           "avg_clv": 0.005,
           "beat_close": 0.5333,
           "clv_count": 15
@@ -1257,8 +1261,8 @@
         {
           "name": "Basketball",
           "bets": 22,
-          "profit": -8.23,
-          "roi": -0.2693,
+          "profit": -9.38,
+          "roi": -0.2958,
           "avg_clv": 0.009,
           "beat_close": 0.5789,
           "clv_count": 19
@@ -1558,24 +1562,24 @@
           },
           {
             "conf": "solid",
-            "n": 115,
+            "n": 117,
             "z": 0,
             "text": "The market prices home wins in College basketball (US) accurately.",
-            "detail": "63% happened, 62% priced, 115 games"
+            "detail": "62% happened, 63% priced, 117 games"
           },
           {
             "conf": "solid",
-            "n": 115,
+            "n": 117,
             "z": 0,
             "text": "The market prices away wins in College basketball (US) accurately.",
-            "detail": "37% happened, 38% priced, 115 games"
+            "detail": "38% happened, 37% priced, 117 games"
           },
           {
             "conf": "watching",
-            "n": 178,
-            "z": 1.7900319729879042,
+            "n": 180,
+            "z": 1.7853214564964444,
             "text": "Overs in College basketball (US) happen less often than priced.",
-            "detail": "43% happened vs 50% priced, 178 games"
+            "detail": "43% happened vs 50% priced, 180 games"
           },
           {
             "conf": "watching",
@@ -1587,7 +1591,7 @@
         ],
         "rules": 0,
         "studied": 292,
-        "resolved": 257
+        "resolved": 259
       }
     },
     "shark": {
@@ -3716,12 +3720,12 @@
       "fair_odds": 3.214,
       "edge": 0.0267,
       "stake": 1.15,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 3.434,
       "clv": -0.039,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -1.15,
+      "score": "Saint Mary's Gaels 84 - 61 UIC Flames",
+      "settled_at": "2026-11-14T11:15:29Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates UIC Flames at 31.1%. That makes the fair price 3.21.",
         "BetOnline.ag pays 3.30. That is +2.7% above fair. My bar is +2.5%.",
@@ -5223,10 +5227,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-12T00:00:56Z",
-      "text": "🎯 🦈 The Shark's challenge today: 🧭 Explorer day. Make a bet in CFL, the competition I'm exploring."
-    },
-    {
       "t": "2026-11-12T01:30:42Z",
       "text": "🏅 🧮 The Quant unlocked 📏 Measured Ten: 10 bets checked against the final price."
     },
@@ -5341,6 +5341,10 @@
     {
       "t": "2026-11-14T09:15:31Z",
       "text": "🏅 🦈 The Shark unlocked 🧠 IQ 100: Reached Sport IQ 100."
+    },
+    {
+      "t": "2026-11-14T11:15:29Z",
+      "text": "Results:\n- Lost -1.15: UIC Flames (Winner) in Saint Mary's Gaels vs UIC Flames (Saint Mary's Gaels 84 - 61 UIC Flames)"
     }
   ]
 }
