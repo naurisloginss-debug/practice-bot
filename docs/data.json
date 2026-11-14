@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-14T19:45:32Z",
+  "updated": "2026-11-14T20:00:53Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -186,7 +186,7 @@
       "quant": {
         "iq": 112,
         "iq_gain": 28,
-        "streak": 1,
+        "streak": 2,
         "best_streak": 3,
         "achievements": [
           {
@@ -297,12 +297,12 @@
           {
             "text": "Bets checked against the market",
             "target": 3,
-            "now": 20
+            "now": 21
           },
           {
             "text": "Beat the market on",
             "target": 55,
-            "now": 60,
+            "now": 62,
             "unit": "%",
             "pending": false
           }
@@ -311,9 +311,9 @@
         "trophies": []
       },
       "shark": {
-        "iq": 100,
-        "iq_gain": 9,
-        "streak": 0,
+        "iq": 101,
+        "iq_gain": 10,
+        "streak": 2,
         "best_streak": 2,
         "achievements": [
           {
@@ -424,17 +424,17 @@
           {
             "text": "Bets checked against the market",
             "target": 3,
-            "now": 4
+            "now": 7
           },
           {
             "text": "Beat the market on",
             "target": 55,
-            "now": 50,
+            "now": 57,
             "unit": "%",
             "pending": false
           }
         ],
-        "score": 128,
+        "score": 129,
         "trophies": []
       }
     },
@@ -489,7 +489,7 @@
       "leader": "quant"
     }
   },
-  "credits_left": 19350,
+  "credits_left": 19344,
   "last_scan": "2026-11-14@16",
   "strategies": {
     "lizard": {
@@ -1119,9 +1119,9 @@
       "profit": -9.38,
       "roi": -0.2958,
       "avg_edge": 0.0269,
-      "avg_clv": 0.009,
-      "beat_close": 0.6,
-      "clv_count": 20,
+      "avg_clv": 0.0104,
+      "beat_close": 0.619,
+      "clv_count": 21,
       "history": [
         {
           "t": "2026-11-10T21:01:26Z",
@@ -1223,9 +1223,9 @@
           "bets": 14,
           "profit": 4.16,
           "roi": 0.339,
-          "avg_clv": 0.013,
-          "beat_close": 0.5,
-          "clv_count": 10
+          "avg_clv": 0.0152,
+          "beat_close": 0.5455,
+          "clv_count": 11
         },
         {
           "name": "NBA",
@@ -1261,9 +1261,9 @@
           "bets": 19,
           "profit": -5.12,
           "roi": -0.2387,
-          "avg_clv": 0.005,
-          "beat_close": 0.5333,
-          "clv_count": 15
+          "avg_clv": 0.0071,
+          "beat_close": 0.5625,
+          "clv_count": 16
         }
       ],
       "by_sport": [
@@ -1272,16 +1272,16 @@
           "bets": 26,
           "profit": -9.38,
           "roi": -0.2958,
-          "avg_clv": 0.009,
-          "beat_close": 0.6,
-          "clv_count": 20
+          "avg_clv": 0.0104,
+          "beat_close": 0.619,
+          "clv_count": 21
         }
       ],
       "gut": {
         "bets": 3,
-        "measured": 1,
-        "avg_clv": -0.0098,
-        "beat": 0.0,
+        "measured": 2,
+        "avg_clv": 0.0139,
+        "beat": 0.5,
         "trust": 0.4,
         "base": 0.4,
         "won": 1,
@@ -1571,24 +1571,24 @@
           },
           {
             "conf": "solid",
-            "n": 117,
+            "n": 119,
             "z": 0,
             "text": "The market prices home wins in College basketball (US) accurately.",
-            "detail": "62% happened, 63% priced, 117 games"
+            "detail": "62% happened, 63% priced, 119 games"
           },
           {
             "conf": "solid",
-            "n": 117,
+            "n": 119,
             "z": 0,
             "text": "The market prices away wins in College basketball (US) accurately.",
-            "detail": "38% happened, 37% priced, 117 games"
+            "detail": "38% happened, 37% priced, 119 games"
           },
           {
             "conf": "watching",
-            "n": 180,
-            "z": 1.7853214564964444,
+            "n": 181,
+            "z": 1.85588658439962,
             "text": "Overs in College basketball (US) happen less often than priced.",
-            "detail": "43% happened vs 50% priced, 180 games"
+            "detail": "43% happened vs 50% priced, 181 games"
           },
           {
             "conf": "watching",
@@ -1600,7 +1600,7 @@
         ],
         "rules": 0,
         "studied": 326,
-        "resolved": 260
+        "resolved": 262
       }
     },
     "shark": {
@@ -1643,9 +1643,9 @@
       "profit": 0.77,
       "roi": 0.1353,
       "avg_edge": 0.0184,
-      "avg_clv": 0.0015,
-      "beat_close": 0.5,
-      "clv_count": 6,
+      "avg_clv": 0.0115,
+      "beat_close": 0.5556,
+      "clv_count": 9,
       "history": [
         {
           "t": "2026-11-07T16:00:52Z",
@@ -1675,9 +1675,9 @@
           "bets": 17,
           "profit": 0,
           "roi": null,
-          "avg_clv": -0.01,
-          "beat_close": 0.5,
-          "clv_count": 4
+          "avg_clv": 0.0077,
+          "beat_close": 0.5714,
+          "clv_count": 7
         },
         {
           "name": "CFL",
@@ -1704,9 +1704,9 @@
           "bets": 23,
           "profit": 0,
           "roi": null,
-          "avg_clv": -0.01,
-          "beat_close": 0.5,
-          "clv_count": 4
+          "avg_clv": 0.0077,
+          "beat_close": 0.5714,
+          "clv_count": 7
         },
         {
           "name": "Total",
@@ -1724,9 +1724,9 @@
           "bets": 31,
           "profit": 0.77,
           "roi": 0.1353,
-          "avg_clv": 0.0015,
-          "beat_close": 0.5,
-          "clv_count": 6
+          "avg_clv": 0.0115,
+          "beat_close": 0.5556,
+          "clv_count": 9
         }
       ],
       "gut": {
@@ -1746,7 +1746,7 @@
         "lost": 0,
         "profit": 0,
         "best": null,
-        "avg_clv": -0.1241,
+        "avg_clv": -0.0302,
         "appetite": 0.6
       },
       "reading": {
@@ -1888,8 +1888,8 @@
         "tried": [],
         "curiosity": 0.5,
         "scouts": 11,
-        "scout_clv": 0.0931,
-        "scout_measured": 1
+        "scout_clv": 0.0769,
+        "scout_measured": 2
       },
       "challenge": {
         "today": {
@@ -1957,8 +1957,8 @@
       },
       "traits": [],
       "mind": {
-        "iq": 100,
-        "iq_week": 19,
+        "iq": 101,
+        "iq_week": 20,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -2002,7 +2002,7 @@
           },
           {
             "d": "2026-11-14",
-            "iq": 100
+            "iq": 101
           }
         ],
         "facts": [
@@ -3132,8 +3132,8 @@
       "edge": 0.0504,
       "stake": 0.5,
       "status": "open",
-      "closing_fair_odds": null,
-      "clv": null,
+      "closing_fair_odds": 11.299,
+      "clv": -0.0287,
       "profit": 0.0,
       "score": null,
       "settled_at": null,
@@ -3170,8 +3170,8 @@
       "edge": -0.0089,
       "stake": 0.5,
       "status": "open",
-      "closing_fair_odds": null,
-      "clv": null,
+      "closing_fair_odds": 4.236,
+      "clv": 0.0623,
       "profit": 0.0,
       "score": null,
       "settled_at": null,
@@ -3209,8 +3209,8 @@
       "edge": 0.0112,
       "stake": 1.0,
       "status": "open",
-      "closing_fair_odds": null,
-      "clv": null,
+      "closing_fair_odds": 3.206,
+      "clv": 0.0606,
       "profit": 0.0,
       "score": null,
       "settled_at": null,
@@ -3248,8 +3248,8 @@
       "edge": 0.0093,
       "stake": 2.45,
       "status": "open",
-      "closing_fair_odds": null,
-      "clv": null,
+      "closing_fair_odds": 2.891,
+      "clv": 0.0376,
       "profit": 0.0,
       "score": null,
       "settled_at": null,
