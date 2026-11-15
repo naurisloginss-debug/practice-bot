@@ -46,10 +46,6 @@
   },
   "log": [
     {
-      "t": "2026-11-13T00:00:00Z",
-      "text": "💰 Nauris topped every character up to a 500 practice fund and loosened the limits: more action, same rule — every serious bet still has to beat the market."
-    },
-    {
       "t": "2026-11-14T00:00:53Z",
       "text": "🎯 🦎 The Lizard's challenge today: 🧭 Explorer day. Make a bet in Super League - Greece, the competition I'm exploring."
     },
@@ -164,6 +160,10 @@
     {
       "t": "2026-11-15T02:01:01Z",
       "text": "🏅 🦈 The Shark unlocked 🔍 Pattern Hunter: Found its first 'Likely' pattern in its sport."
+    },
+    {
+      "t": "2026-11-15T02:15:30Z",
+      "text": "✅ 🦈 The Shark completed 🎯 Precision day: 2 bets beat the market."
     }
   ],
   "levels": {
@@ -1901,10 +1901,11 @@
         "emoji": "🎯",
         "title": "Precision day",
         "text": "Only bets with an edge 1% above my usual bar, and at least 2 of them must beat the market.",
-        "status": "judging",
+        "status": "done",
         "market": "totals",
         "target": 119,
-        "league": "americanfootball_cfl"
+        "league": "americanfootball_cfl",
+        "detail": "2 bets beat the market."
       },
       {
         "day": "2026-11-15",
