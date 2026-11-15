@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-15T19:15:31Z",
+  "updated": "2026-11-15T19:30:46Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -184,8 +184,8 @@
         ]
       },
       "quant": {
-        "iq": 117,
-        "iq_gain": 33,
+        "iq": 119,
+        "iq_gain": 35,
         "streak": 0,
         "best_streak": 3,
         "achievements": [
@@ -297,17 +297,17 @@
           {
             "text": "Bets checked against the market",
             "target": 3,
-            "now": 24
+            "now": 25
           },
           {
             "text": "Beat the market on",
             "target": 55,
-            "now": 58,
+            "now": 56,
             "unit": "%",
             "pending": false
           }
         ],
-        "score": 163,
+        "score": 165,
         "trophies": []
       },
       "shark": {
@@ -447,14 +447,14 @@
         {
           "who": "quant",
           "eligible": false,
-          "measured": 14,
-          "need": 16,
-          "clv": 0.0127,
-          "cautious": -0.003,
-          "beat": 0.6429,
+          "measured": 15,
+          "need": 15,
+          "clv": 0.0085,
+          "cautious": -0.0067,
+          "beat": 0.6,
           "challenges": 0.5,
           "traits": 0,
-          "score": 2.37
+          "score": -2.18
         },
         {
           "who": "shark",
@@ -489,7 +489,7 @@
       "leader": "quant"
     }
   },
-  "credits_left": 19244,
+  "credits_left": 19243,
   "last_scan": "2026-11-15@16",
   "strategies": {
     "lizard": {
@@ -1161,9 +1161,9 @@
       "profit": -10.82,
       "roi": -0.2161,
       "avg_edge": 0.0333,
-      "avg_clv": 0.02,
-      "beat_close": 0.5833,
-      "clv_count": 24,
+      "avg_clv": 0.0172,
+      "beat_close": 0.56,
+      "clv_count": 25,
       "history": [
         {
           "t": "2026-11-10T21:01:26Z",
@@ -1298,9 +1298,9 @@
           "bets": 24,
           "profit": 8.8,
           "roi": 0.3585,
-          "avg_clv": 0.0116,
-          "beat_close": 0.5,
-          "clv_count": 12
+          "avg_clv": 0.0068,
+          "beat_close": 0.4615,
+          "clv_count": 13
         }
       ],
       "by_market": [
@@ -1327,9 +1327,9 @@
           "bets": 14,
           "profit": 1.97,
           "roi": 0.1704,
-          "avg_clv": 0.0073,
-          "beat_close": 0.6667,
-          "clv_count": 3
+          "avg_clv": -0.007,
+          "beat_close": 0.5,
+          "clv_count": 4
         }
       ],
       "by_sport": [
@@ -1338,9 +1338,9 @@
           "bets": 39,
           "profit": -10.82,
           "roi": -0.2161,
-          "avg_clv": 0.02,
-          "beat_close": 0.5833,
-          "clv_count": 24
+          "avg_clv": 0.0172,
+          "beat_close": 0.56,
+          "clv_count": 25
         }
       ],
       "gut": {
@@ -1421,37 +1421,37 @@
         "passed": []
       },
       "level": {
-        "n": 1,
-        "title": "Rookie",
-        "badge": "🐣",
+        "n": 2,
+        "title": "Apprentice",
+        "badge": "🎓",
         "stake": 1.0,
-        "perk": "Normal stakes while it proves itself.",
-        "measured": 14,
-        "clv": 0.0127,
-        "beat": 0.6429,
+        "perk": "Has a track record. Starts learning which bets work.",
+        "measured": 15,
+        "clv": 0.0085,
+        "beat": 0.6,
         "cold": false,
         "next": {
-          "title": "Apprentice",
-          "badge": "🎓",
-          "perk": "Has a track record. Starts learning which bets work.",
+          "title": "Sharp",
+          "badge": "⚡",
+          "perk": "Stakes +15%. Consistently beats the market.",
           "needs": [
             {
-              "text": "15 measured bets",
+              "text": "40 measured bets",
               "done": false,
-              "now": "14"
+              "now": "15"
             },
             {
-              "text": "beat the market on 50%+",
+              "text": "beat the market on 55%+",
               "done": true,
-              "now": "64%"
+              "now": "60%"
             },
             {
-              "text": "average price +0.0%+ vs market",
-              "done": true,
-              "now": "+1.3%"
+              "text": "average price +1.0%+ vs market",
+              "done": false,
+              "now": "+0.8%"
             }
           ],
-          "progress": 0.933
+          "progress": 0.375
         }
       },
       "explorer": {
@@ -1547,8 +1547,8 @@
       },
       "traits": [],
       "mind": {
-        "iq": 117,
-        "iq_week": 36,
+        "iq": 119,
+        "iq_week": 38,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -1596,7 +1596,7 @@
           },
           {
             "d": "2026-11-15",
-            "iq": 117
+            "iq": 119
           }
         ],
         "facts": [
@@ -1637,10 +1637,10 @@
           },
           {
             "conf": "watching",
-            "n": 19,
+            "n": 20,
             "z": 0,
-            "text": "When I find value, the market moves my way before kick-off 58% of the time.",
-            "detail": "19 bets measured"
+            "text": "When I find value, the market moves my way before kick-off 55% of the time.",
+            "detail": "20 bets measured"
           }
         ],
         "rules": 1,
@@ -2729,8 +2729,8 @@
       "edge": 0.0468,
       "stake": 15.63,
       "status": "open",
-      "closing_fair_odds": null,
-      "clv": null,
+      "closing_fair_odds": 1.99,
+      "clv": -0.0501,
       "profit": 0.0,
       "score": null,
       "settled_at": null,
@@ -6284,10 +6284,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-14T12:00:53Z",
-      "text": "🦎 The Lizard levelled up: Rookie → 🎓 Apprentice. Has a track record. Starts learning which bets work."
-    },
-    {
       "t": "2026-11-14T14:30:43Z",
       "text": "🦎 The Lizard changed level: Apprentice → 🐣 Rookie. Normal stakes while it proves itself."
     },
@@ -6402,6 +6398,10 @@
     {
       "t": "2026-11-15T16:00:54Z",
       "text": "Results:\n- Won +2.07: Tenerife (Winner) in Tenerife vs AD Ceuta FC (Tenerife 2 - 0 AD Ceuta FC)"
+    },
+    {
+      "t": "2026-11-15T19:30:46Z",
+      "text": "🧮 The Quant levelled up: Rookie → 🎓 Apprentice. Has a track record. Starts learning which bets work."
     }
   ]
 }
