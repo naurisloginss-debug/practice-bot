@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-15T06:30:43Z",
+  "updated": "2026-11-15T06:45:28Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -489,7 +489,7 @@
       "leader": "quant"
     }
   },
-  "credits_left": 19315,
+  "credits_left": 19313,
   "last_scan": "2026-11-14@16",
   "strategies": {
     "lizard": {
@@ -534,7 +534,7 @@
         "Total"
       ],
       "start_fund": 500,
-      "fund": 488.94,
+      "fund": 487.7,
       "lessons": [
         {
           "kind": "avoid",
@@ -543,12 +543,12 @@
         }
       ],
       "bets": 34,
-      "open": 3,
+      "open": 2,
       "won": 7,
-      "lost": 24,
-      "staked": 43.91,
-      "profit": -11.06,
-      "roi": -0.2519,
+      "lost": 25,
+      "staked": 45.15,
+      "profit": -12.3,
+      "roi": -0.2724,
       "avg_edge": 0.0282,
       "avg_clv": -0.0192,
       "beat_close": 0.625,
@@ -681,14 +681,18 @@
         {
           "t": "2026-11-15T04:15:29Z",
           "fund": 488.94
+        },
+        {
+          "t": "2026-11-15T06:45:28Z",
+          "fund": 487.7
         }
       ],
       "by_league": [
         {
           "name": "Brasileirão (Brazil)",
           "bets": 1,
-          "profit": 0,
-          "roi": null,
+          "profit": -1.24,
+          "roi": -1.0,
           "avg_clv": 0.0449,
           "beat_close": 1.0,
           "clv_count": 1
@@ -779,8 +783,8 @@
         {
           "name": "Winner",
           "bets": 32,
-          "profit": -7.96,
-          "roi": -0.1951,
+          "profit": -9.2,
+          "roi": -0.2188,
           "avg_clv": -0.0214,
           "beat_close": 0.6,
           "clv_count": 30
@@ -790,8 +794,8 @@
         {
           "name": "Football",
           "bets": 34,
-          "profit": -11.06,
-          "roi": -0.2519,
+          "profit": -12.3,
+          "roi": -0.2724,
           "avg_clv": -0.0192,
           "beat_close": 0.625,
           "clv_count": 32
@@ -811,8 +815,8 @@
       "wild": {
         "bets": 1,
         "won": 0,
-        "lost": 0,
-        "profit": 0,
+        "lost": 1,
+        "profit": -1.24,
         "best": null,
         "avg_clv": 0.0449,
         "appetite": 0.45
@@ -1127,7 +1131,7 @@
         ],
         "rules": 0,
         "studied": 88,
-        "resolved": 79
+        "resolved": 80
       }
     },
     "quant": {
@@ -3053,12 +3057,12 @@
       "fair_odds": 7.52,
       "edge": 0.0191,
       "stake": 1.24,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 7.335,
       "clv": 0.0449,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -1.24,
+      "score": "Chapecoense 0 - 2 Vasco da Gama",
+      "settled_at": "2026-11-15T06:45:28Z",
       "thoughts": [
         "Wild one: Chapecoense at 7.80. The market gives it 13%.",
         "Feeling sharp after beating the market 6 times in a row.",
@@ -5619,10 +5623,6 @@
   "log": [
     {
       "t": "2026-11-14T02:45:31Z",
-      "text": "❌ 🧮 The Quant missed 🎯 Precision day: 3 bets, but not enough beat the market."
-    },
-    {
-      "t": "2026-11-14T02:45:31Z",
       "text": "Results:\n- Lost -5.06: ASVEL Lyon Villeurbanne -2.5 (Spread) in ASVEL Lyon Villeurbanne vs Beşiktaş J.K. (ASVEL Lyon Villeurbanne 91 - 95 Beşiktaş J.K.)"
     },
     {
@@ -5736,6 +5736,10 @@
     {
       "t": "2026-11-15T04:15:29Z",
       "text": "Results:\n- Lost -2.60: Draw (Winner) in Oviedo vs Girona FC (Oviedo 1 - 2 Girona FC)"
+    },
+    {
+      "t": "2026-11-15T06:45:28Z",
+      "text": "Results:\n- Lost -1.24: Chapecoense (Winner) in Chapecoense vs Vasco da Gama (Chapecoense 0 - 2 Vasco da Gama)"
     }
   ]
 }
