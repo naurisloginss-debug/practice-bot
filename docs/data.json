@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-15T21:30:43Z",
+  "updated": "2026-11-15T21:45:38Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -184,8 +184,8 @@
         ]
       },
       "quant": {
-        "iq": 118,
-        "iq_gain": 34,
+        "iq": 119,
+        "iq_gain": 35,
         "streak": 0,
         "best_streak": 3,
         "achievements": [
@@ -307,7 +307,7 @@
             "pending": false
           }
         ],
-        "score": 164,
+        "score": 165,
         "trophies": []
       },
       "shark": {
@@ -826,8 +826,29 @@
         "appetite": 0.45
       },
       "reading": {
-        "week": 96,
+        "week": 106,
         "latest": [
+          {
+            "t": "2026-11-15T21:30:09Z",
+            "title": "Maignan injury concern for Milan after forced off for France",
+            "link": "https://football-italia.net/maignan-injury-concern-for-milan-france/",
+            "source": "football-italia.net",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-15T19:42:37Z",
+            "title": "Juventus worry as Celik suffered injury in France vs. Turkiye warm-up",
+            "link": "https://football-italia.net/juventus-celik-injury-in-france-vs-turkiye/",
+            "source": "football-italia.net",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-15T18:36:55Z",
+            "title": "Ronaldinho’s return: Best moments and key stats from the Brazilian legend’s game in Ravenna",
+            "link": "https://football-italia.net/ronaldinhos-return-best-moments-and-key-stats-from-the-brazilian-legends-game-in-ravenna/",
+            "source": "football-italia.net",
+            "tone": 1
+          },
           {
             "t": "2026-11-15T18:24:54Z",
             "title": "Children's tournament abandoned for parents' behaviour",
@@ -846,27 +867,6 @@
             "t": "2026-11-15T16:54:34Z",
             "title": "Udogie tension with De Zerbi and Tottenham can fuel Juventus report",
             "link": "https://football-italia.net/udogie-tension-de-zerbi-tottenham-juventus/",
-            "source": "football-italia.net",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-15T16:38:51Z",
-            "title": "Tenerife return to action after death of De Miguel",
-            "link": "https://www.bbc.co.uk/sport/football/articles/cqx2xn535yj8o?at_medium=RSS&at_campaign=rss",
-            "source": "feeds.bbci.co.uk",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-15T16:22:36Z",
-            "title": "Dida: ‘Ronaldinho a showman and we are witnessing history here’",
-            "link": "https://football-italia.net/dida-ronaldinho-a-showman-witnessing-history/",
-            "source": "football-italia.net",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-15T15:09:43Z",
-            "title": "Live: Ronaldinho returns to playing with Ravenna",
-            "link": "https://football-italia.net/live-ronaldinho-returns-playing-with-ravenna/",
             "source": "football-italia.net",
             "tone": 1
           }
@@ -1364,12 +1364,19 @@
         "appetite": 0.35
       },
       "reading": {
-        "week": 54,
+        "week": 69,
         "latest": [
           {
             "t": "2026-11-15T17:30:00Z",
             "title": "Week 5 Look-Ahead: Stephen Curry and Caleb Wilson go do, and toss Jeremiah Fears the keys",
             "link": "https://sports.yahoo.com/articles/week-5-look-ahead-stephen-173000431.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-15T15:33:48Z",
+            "title": "Barlow ‘making progress,&#39; Embiid out vs. Pacers, more on Sixers",
+            "link": "https://sports.yahoo.com/articles/barlow-making-progress-embiid-vs-221124067.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
@@ -1393,13 +1400,6 @@
             "link": "https://sports.yahoo.com/articles/michael-porter-jr-sits-personal-072031504.html",
             "source": "sports.yahoo.com",
             "tone": -1
-          },
-          {
-            "t": "2026-11-15T04:16:20Z",
-            "title": "Lakers vs. Suns Preview: Adjusting without Austin Reaves",
-            "link": "https://sports.yahoo.com/articles/lakers-vs-suns-preview-adjusting-041620618.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
           },
           {
             "t": "2026-11-15T03:55:15Z",
@@ -1547,8 +1547,8 @@
       },
       "traits": [],
       "mind": {
-        "iq": 118,
-        "iq_week": 37,
+        "iq": 119,
+        "iq_week": 38,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -1596,7 +1596,7 @@
           },
           {
             "d": "2026-11-15",
-            "iq": 118
+            "iq": 119
           }
         ],
         "facts": [
@@ -1859,49 +1859,49 @@
         "appetite": 0.6
       },
       "reading": {
-        "week": 450,
+        "week": 425,
         "latest": [
           {
-            "t": "2026-11-15T18:24:55Z",
-            "title": "Travis Kelce heads to locker room after tackle on Chiefs&#39; first drive vs. Falcons",
-            "link": "https://sports.yahoo.com/nfl/breaking-news/article/travis-kelce-heads-to-locker-room-after-tackle-on-chiefs-first-drive-vs-falcons-182455490.html",
+            "t": "2026-11-15T21:33:53Z",
+            "title": "Patrick Mahomes makes Chiefs&#39; new pieces fit in needed win vs. Falcons | Opinion",
+            "link": "https://sports.yahoo.com/articles/patrick-mahomes-makes-chiefs-pieces-213353852.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-15T21:31:39Z",
+            "title": "Texas Tech football fans can breathe easy after Thomas Castellanos injury scare",
+            "link": "https://sports.yahoo.com/articles/texas-tech-football-fans-breathe-213139966.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-15T21:25:29Z",
+            "title": "NFL Week 10 Winners and Losers: Packers and Lions may be in trouble in NFC North race, leaving Vikings and Bears",
+            "link": "https://sports.yahoo.com/nfl/article/nfl-week-10-winners-and-losers-packers-and-lions-may-be-in-trouble-in-nfc-north-race-leaving-vikings-and-bears-212529269.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-15T21:12:07Z",
+            "title": "Lions' Aidan Hutchinson feared to have possible season-ending injury after sack celebration, per report",
+            "link": "https://www.cbssports.com/nfl/news/lions-aidan-hutchinson-injury-update-patriots-germany/",
+            "source": "www.cbssports.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-15T21:08:40Z",
+            "title": "Aidan Hutchinson got hurt celebrating a sack. A Lions LB thought he was joking",
+            "link": "https://sports.yahoo.com/articles/aidan-hutchinson-got-hurt-celebrating-210840475.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-15T21:07:57Z",
+            "title": "Vikings pummel Packers 30-10 in Kirk Cousins&#39; return",
+            "link": "https://sports.yahoo.com/articles/vikings-pummel-packers-30-10-210757290.html",
             "source": "sports.yahoo.com",
             "tone": 1
-          },
-          {
-            "t": "2026-11-15T18:19:12Z",
-            "title": "Travis Kelce injury: Chiefs TE hurts ankle vs. Falcons",
-            "link": "https://sports.yahoo.com/articles/travis-kelce-injury-chiefs-te-181912291.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-15T17:35:55Z",
-            "title": "Jahmyr Gibbs leads the way as Lions blow past Patriots in Germany",
-            "link": "https://sports.yahoo.com/articles/jahmyr-gibbs-leads-way-lions-173555033.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-15T17:34:52Z",
-            "title": "Dabo Swinney’s disappointing Clemson season gets even worse with catastrophic Tait Reynolds injury update",
-            "link": "https://sports.yahoo.com/articles/dabo-swinney-disappointing-clemson-season-173452063.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-15T17:16:49Z",
-            "title": "A.J. Brown ruled out of Lions game with hamstring injury",
-            "link": "https://sports.yahoo.com/articles/j-brown-ruled-lions-game-171649783.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-15T17:10:24Z",
-            "title": "A.J. Brown injury update as Patriots WR picks up new injury vs. Lions",
-            "link": "https://sports.yahoo.com/articles/j-brown-injury-patriots-wr-171024693.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
           }
         ]
       },
