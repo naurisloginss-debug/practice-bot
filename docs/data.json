@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-15T15:45:36Z",
+  "updated": "2026-11-15T16:00:54Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -136,7 +136,7 @@
         "goals": [
           {
             "text": "Games studied",
-            "target": 63,
+            "target": 62,
             "now": 29
           },
           {
@@ -292,7 +292,7 @@
           {
             "text": "Games studied",
             "target": 24,
-            "now": 325
+            "now": 340
           },
           {
             "text": "Bets checked against the market",
@@ -489,8 +489,8 @@
       "leader": "quant"
     }
   },
-  "credits_left": 19278,
-  "last_scan": "2026-11-15@8",
+  "credits_left": 19255,
+  "last_scan": "2026-11-15@16",
   "strategies": {
     "lizard": {
       "name": "The Lizard",
@@ -534,7 +534,7 @@
         "Total"
       ],
       "start_fund": 500,
-      "fund": 487.7,
+      "fund": 489.77,
       "lessons": [
         {
           "kind": "avoid",
@@ -543,12 +543,12 @@
         }
       ],
       "bets": 36,
-      "open": 4,
-      "won": 7,
+      "open": 3,
+      "won": 8,
       "lost": 25,
-      "staked": 45.15,
-      "profit": -12.3,
-      "roi": -0.2724,
+      "staked": 47.59,
+      "profit": -10.23,
+      "roi": -0.215,
       "avg_edge": 0.0278,
       "avg_clv": -0.018,
       "beat_close": 0.6176,
@@ -685,6 +685,10 @@
         {
           "t": "2026-11-15T06:45:28Z",
           "fund": 487.7
+        },
+        {
+          "t": "2026-11-15T16:00:54Z",
+          "fund": 489.77
         }
       ],
       "by_league": [
@@ -736,8 +740,8 @@
         {
           "name": "La Liga 2 (Spain 2)",
           "bets": 9,
-          "profit": -5.89,
-          "roi": -0.632,
+          "profit": -3.82,
+          "roi": -0.3248,
           "avg_clv": -0.0073,
           "beat_close": 0.5714,
           "clv_count": 7
@@ -783,8 +787,8 @@
         {
           "name": "Winner",
           "bets": 34,
-          "profit": -9.2,
-          "roi": -0.2188,
+          "profit": -7.13,
+          "roi": -0.1603,
           "avg_clv": -0.0199,
           "beat_close": 0.5938,
           "clv_count": 32
@@ -794,8 +798,8 @@
         {
           "name": "Football",
           "bets": 36,
-          "profit": -12.3,
-          "roi": -0.2724,
+          "profit": -10.23,
+          "roi": -0.215,
           "avg_clv": -0.018,
           "beat_close": 0.6176,
           "clv_count": 34
@@ -869,39 +873,21 @@
         ]
       },
       "diary": {
-        "t": "2026-11-15T08:00:55Z",
-        "mood": "Gap spotted. Striking while the bookmakers sleep.",
+        "t": "2026-11-15T16:00:54Z",
+        "mood": "Nothing worth the risk today. Patience is a weapon.",
         "mindset": "Nauris gave me 500 and said he's not worried about losing it. That's permission to act, not to be careless: I strike more often, but only where the gap is real. Only one of us goes live.",
-        "looked": 5,
-        "placed": 2,
-        "wild_choice": "Saw AD Ceuta FC at 5.10. Tempting, but I passed. Feeling sharp after beating the market 3 times in a row.",
-        "scouts": 1,
+        "looked": 3,
+        "placed": 0,
+        "wild_choice": "Saw Celta Fortuna at 5.40. Tempting, but I passed. Not feeling it today.",
+        "scouts": 0,
         "passed": [
-          {
-            "game": "Tenerife vs AD Ceuta FC",
-            "league": "La Liga 2 (Spain 2)",
-            "pick": "Tenerife",
-            "odds": 1.85,
-            "book": "Unibet (NL)",
-            "edge": 0.0163,
-            "reason": "Only +1.63% edge. I need +2.0% before I move."
-          },
-          {
-            "game": "SD Eibar vs Cádiz CF",
-            "league": "La Liga 2 (Spain 2)",
-            "pick": "Cádiz CF",
-            "odds": 6.4,
-            "book": "Matchbook",
-            "edge": 0.0105,
-            "reason": "Odds 6.40 are outside my game (1.6–6.0)."
-          },
           {
             "game": "Albacete vs Celta Fortuna",
             "league": "La Liga 2 (Spain 2)",
-            "pick": "Draw",
-            "odds": 4.3,
-            "book": "Coolbet",
-            "edge": -0.018,
+            "pick": "Celta Fortuna",
+            "odds": 5.4,
+            "book": "Unibet (SE)",
+            "edge": -0.0285,
             "reason": "I've learned to stay away from La Liga 2 (Spain 2) winner at these odds."
           }
         ]
@@ -1088,7 +1074,7 @@
         "facts": [
           {
             "conf": "solid",
-            "n": 431,
+            "n": 448,
             "z": 0,
             "text": "Coolbet is the softest bookmaker in La Liga 2 (Spain 2).",
             "detail": "beats fair by 2%+ on 3% of its prices vs 0% across all bookmakers"
@@ -1130,8 +1116,8 @@
           }
         ],
         "rules": 0,
-        "studied": 87,
-        "resolved": 80
+        "studied": 86,
+        "resolved": 81
       }
     },
     "quant": {
@@ -1167,14 +1153,14 @@
       "start_fund": 500,
       "fund": 489.18,
       "lessons": [],
-      "bets": 37,
-      "open": 11,
+      "bets": 39,
+      "open": 13,
       "won": 10,
       "lost": 16,
       "staked": 50.07,
       "profit": -10.82,
       "roi": -0.2161,
-      "avg_edge": 0.0338,
+      "avg_edge": 0.0333,
       "avg_clv": 0.02,
       "beat_close": 0.5833,
       "clv_count": 24,
@@ -1291,7 +1277,7 @@
       "by_league": [
         {
           "name": "NBA",
-          "bets": 10,
+          "bets": 12,
           "profit": -11.38,
           "roi": -0.7467,
           "avg_clv": 0.0298,
@@ -1329,7 +1315,7 @@
         },
         {
           "name": "Winner",
-          "bets": 21,
+          "bets": 23,
           "profit": -8.76,
           "roi": -0.27,
           "avg_clv": 0.0198,
@@ -1349,7 +1335,7 @@
       "by_sport": [
         {
           "name": "Basketball",
-          "bets": 37,
+          "bets": 39,
           "profit": -10.82,
           "roi": -0.2161,
           "avg_clv": 0.02,
@@ -1358,7 +1344,7 @@
         }
       ],
       "gut": {
-        "bets": 4,
+        "bets": 5,
         "measured": 3,
         "avg_clv": 0.1401,
         "beat": 0.6667,
@@ -1369,7 +1355,7 @@
         "profit": 3.43
       },
       "wild": {
-        "bets": 3,
+        "bets": 4,
         "won": 0,
         "lost": 2,
         "profit": -1.0,
@@ -1425,51 +1411,14 @@
         ]
       },
       "diary": {
-        "t": "2026-11-15T08:00:55Z",
+        "t": "2026-11-15T16:00:54Z",
         "mood": "The numbers don't lie. Betting it.",
         "mindset": "500 to work with, and Nauris isn't worried about losing it. More shots, same standard: every bet still has to beat the market. Only one of us goes live.",
-        "looked": 25,
-        "placed": 11,
-        "wild_choice": "Took a shot: Sacramento Kings at 5.10.",
+        "looked": 0,
+        "placed": 2,
+        "wild_choice": "Took a shot: Dallas Mavericks at 6.80.",
         "scouts": 0,
-        "passed": [
-          {
-            "game": "Washington Wizards vs Houston Rockets",
-            "league": "NBA",
-            "pick": "Washington Wizards",
-            "odds": 4.4,
-            "book": "BetOnline.ag",
-            "edge": 0.0644,
-            "reason": "Odds 4.40 are outside my game (1.6–3.5)."
-          },
-          {
-            "game": "Sacramento Kings vs Oklahoma City Thunder",
-            "league": "NBA",
-            "pick": "Sacramento Kings",
-            "odds": 5.1,
-            "book": "Betfair",
-            "edge": 0.0332,
-            "reason": "Odds 5.10 are outside my game (1.6–3.5)."
-          },
-          {
-            "game": "Utah Jazz vs San Antonio Spurs",
-            "league": "NBA",
-            "pick": "Utah Jazz",
-            "odds": 11.0,
-            "book": "Betfair",
-            "edge": 0.0298,
-            "reason": "Odds 11.00 are outside my game (1.6–3.5)."
-          },
-          {
-            "game": "Milwaukee Bucks vs Atlanta Hawks",
-            "league": "NBA",
-            "pick": "Milwaukee Bucks",
-            "odds": 3.6,
-            "book": "BetOnline.ag",
-            "edge": 0.0232,
-            "reason": "Odds 3.60 are outside my game (1.6–3.5)."
-          }
-        ]
+        "passed": []
       },
       "level": {
         "n": 1,
@@ -1660,17 +1609,17 @@
           },
           {
             "conf": "solid",
-            "n": 998,
+            "n": 1102,
             "z": 0,
             "text": "BetOnline.ag is the softest bookmaker in College basketball (US).",
             "detail": "beats fair by 2%+ on 2% of its prices vs 1% across all bookmakers"
           },
           {
             "conf": "solid",
-            "n": 184,
+            "n": 202,
             "z": 0,
             "text": "Betfair is the softest bookmaker in NBA.",
-            "detail": "beats fair by 2%+ on 10% of its prices vs 1% across all bookmakers"
+            "detail": "beats fair by 2%+ on 9% of its prices vs 1% across all bookmakers"
           },
           {
             "conf": "solid",
@@ -1695,7 +1644,7 @@
           }
         ],
         "rules": 1,
-        "studied": 351,
+        "studied": 370,
         "resolved": 324
       }
     },
@@ -1731,14 +1680,14 @@
       "start_fund": 500,
       "fund": 496.26,
       "lessons": [],
-      "bets": 31,
-      "open": 13,
+      "bets": 34,
+      "open": 16,
       "won": 5,
       "lost": 13,
       "staked": 24.23,
       "profit": -3.74,
       "roi": -0.1544,
-      "avg_edge": 0.0184,
+      "avg_edge": 0.0186,
       "avg_clv": 0.0217,
       "beat_close": 0.6316,
       "clv_count": 19,
@@ -1832,7 +1781,7 @@
         },
         {
           "name": "NFL",
-          "bets": 13,
+          "bets": 16,
           "profit": 0.77,
           "roi": 0.1353,
           "avg_clv": 0.0205,
@@ -1852,7 +1801,7 @@
       "by_market": [
         {
           "name": "Winner",
-          "bets": 23,
+          "bets": 24,
           "profit": -1.01,
           "roi": -0.0672,
           "avg_clv": 0.0239,
@@ -1861,7 +1810,7 @@
         },
         {
           "name": "Spread",
-          "bets": 4,
+          "bets": 6,
           "profit": 0.77,
           "roi": 0.1353,
           "avg_clv": 0.0205,
@@ -1881,7 +1830,7 @@
       "by_sport": [
         {
           "name": "American football",
-          "bets": 31,
+          "bets": 34,
           "profit": -3.74,
           "roi": -0.1544,
           "avg_clv": 0.0217,
@@ -1957,49 +1906,49 @@
         ]
       },
       "diary": {
-        "t": "2026-11-15T08:00:55Z",
-        "mood": "The market's sharp this week. Circling, not biting.",
+        "t": "2026-11-15T16:00:54Z",
+        "mood": "Blood in the water. Getting in before the market moves.",
         "mindset": "500 in the tank and Nauris says he's not worried about losing it. More bites, but only clean ones that beat the market. Only one of us gets the seat.",
-        "looked": 15,
-        "placed": 0,
+        "looked": 14,
+        "placed": 3,
         "wild_choice": "No wild bets today: today's challenge is about discipline.",
-        "scouts": 0,
+        "scouts": 2,
         "passed": [
           {
             "game": "Arizona Cardinals vs Los Angeles Rams",
             "league": "NFL",
             "pick": "Arizona Cardinals",
-            "odds": 5.2,
+            "odds": 5.45,
             "book": "Marathon Bet",
-            "edge": 0.0826,
-            "reason": "Odds 5.20 are outside my game (1.6–4.0)."
-          },
-          {
-            "game": "Las Vegas Raiders vs Seattle Seahawks",
-            "league": "NFL",
-            "pick": "Seattle Seahawks -6.5",
-            "odds": 2.0,
-            "book": "Matchbook",
-            "edge": 0.0206,
-            "reason": "Only +2.06% edge. I need +2.5% before I move."
-          },
-          {
-            "game": "Edmonton Elks vs Montreal Alouettes",
-            "league": "CFL",
-            "pick": "Over 55.5",
-            "odds": 1.93,
-            "book": "Unibet (NL)",
-            "edge": 0.01,
-            "reason": "Only +1.00% edge. I need +2.5% before I move."
+            "edge": 0.1175,
+            "reason": "+11.7% looks too good to be true. Probably a price the bookmaker forgot to update."
           },
           {
             "game": "Atlanta Falcons vs Kansas City Chiefs",
             "league": "NFL",
             "pick": "Atlanta Falcons +3.5",
-            "odds": 1.87,
+            "odds": 1.91,
+            "book": "888sport",
+            "edge": 0.0206,
+            "reason": "Only +2.06% edge. I need +2.5% before I move."
+          },
+          {
+            "game": "Las Vegas Raiders vs Seattle Seahawks",
+            "league": "NFL",
+            "pick": "Las Vegas Raiders +6.5",
+            "odds": 2.0,
+            "book": "MyBookie.ag",
+            "edge": 0.0205,
+            "reason": "Only +2.05% edge. I need +2.5% before I move."
+          },
+          {
+            "game": "Cleveland Browns vs Houston Texans",
+            "league": "NFL",
+            "pick": "Cleveland Browns",
+            "odds": 2.8,
             "book": "Tipico",
-            "edge": 0.0091,
-            "reason": "Only +0.91% edge. I need +2.5% before I move."
+            "edge": 0.0152,
+            "reason": "Only +1.52% edge. I need +2.5% before I move."
           }
         ]
       },
@@ -2047,7 +1996,7 @@
         "adopted": [],
         "tried": [],
         "curiosity": 0.5,
-        "scouts": 11,
+        "scouts": 13,
         "scout_clv": 0.0502,
         "scout_measured": 7
       },
@@ -2191,14 +2140,14 @@
           },
           {
             "conf": "solid",
-            "n": 964,
+            "n": 966,
             "z": 0,
             "text": "Betfair is the softest bookmaker in College football (US).",
             "detail": "beats fair by 2%+ on 3% of its prices vs 1% across all bookmakers"
           },
           {
             "conf": "solid",
-            "n": 316,
+            "n": 340,
             "z": 0,
             "text": "Betfair is the softest bookmaker in NFL.",
             "detail": "beats fair by 2%+ on 4% of its prices vs 1% across all bookmakers"
@@ -2409,6 +2358,45 @@
       ]
     },
     {
+      "id": "956532b58659658093d93e24e83f5213-quant-h2h-wild",
+      "strategy": "quant",
+      "placed_at": "2026-11-15T16:00:54Z",
+      "wild": true,
+      "league_key": "basketball_nba",
+      "league": "NBA",
+      "sport": "Basketball",
+      "event_id": "956532b58659658093d93e24e83f5213",
+      "game": "Boston Celtics vs Dallas Mavericks",
+      "home": "Boston Celtics",
+      "away": "Dallas Mavericks",
+      "start": "2026-11-15T23:10:00Z",
+      "market": "h2h",
+      "market_name": "Winner",
+      "name": "Dallas Mavericks",
+      "point": null,
+      "pick": "Dallas Mavericks",
+      "book": "Coolbet",
+      "book_key": "coolbet",
+      "odds": 6.8,
+      "eff_odds": 6.8,
+      "fair_odds": 6.474,
+      "edge": 0.0504,
+      "stake": 1.22,
+      "status": "open",
+      "closing_fair_odds": null,
+      "clv": null,
+      "profit": 0.0,
+      "score": null,
+      "settled_at": null,
+      "thoughts": [
+        "Wild one: Dallas Mavericks at 6.80. The market gives it 15%.",
+        "Statistically silly. Doing it anyway, for science.",
+        "I read 5 articles about Boston Celtics lately (bad news for them): “Observations after Sixers lose 1st Brown vs. Tatum matchup, George scores 36”",
+        "I read 8 articles about Dallas Mavericks lately (bad news for them): “YouTube Gold: Tyrese Proctor Goes Off For Cleveland”",
+        "My choice, tiny stake: 1.22 (0.25% of my fund). Kept out of my serious record."
+      ]
+    },
+    {
       "id": "fc4c9d3f722f4bb54e8e4496a771a03f-shark-h2h",
       "strategy": "shark",
       "placed_at": "2026-11-13T16:00:54Z",
@@ -2600,6 +2588,45 @@
       ]
     },
     {
+      "id": "29b8bbf05645162d89780189eed390c2-quant-h2h-gut",
+      "strategy": "quant",
+      "placed_at": "2026-11-15T16:00:54Z",
+      "gut": true,
+      "league_key": "basketball_nba",
+      "league": "NBA",
+      "sport": "Basketball",
+      "event_id": "29b8bbf05645162d89780189eed390c2",
+      "game": "Phoenix Suns vs Los Angeles Lakers",
+      "home": "Phoenix Suns",
+      "away": "Los Angeles Lakers",
+      "start": "2026-11-15T21:10:00Z",
+      "market": "h2h",
+      "market_name": "Winner",
+      "name": "Phoenix Suns",
+      "point": null,
+      "pick": "Phoenix Suns",
+      "book": "Matchbook",
+      "book_key": "matchbook",
+      "odds": 2.42,
+      "eff_odds": 2.3916,
+      "fair_odds": 2.395,
+      "edge": -0.0015,
+      "stake": 2.45,
+      "status": "open",
+      "closing_fair_odds": null,
+      "clv": null,
+      "profit": 0.0,
+      "score": null,
+      "settled_at": null,
+      "thoughts": [
+        "I read that Los Angeles Lakers have trouble: “Is Austin Reaves playing Sunday? Injury status for Lakers-Suns”. The price on Phoenix Suns may not have caught up yet.",
+        "My rules say no. The model says no. The 2% of me that isn't a model says try it.",
+        "I read 2 articles about Phoenix Suns lately (good news for them): “Lakers vs. Suns Preview: Adjusting without Austin Reaves”",
+        "I read 4 articles about Los Angeles Lakers lately (nothing that changes much): “Clippers rookie Keaton Wagler draws praise from Shai Gilgeous-Alexander”",
+        "A hunch gets a small stake: 2.45 (0.5% of my fund). My gut is trusted 40% right now, and every hunch is graded against the market."
+      ]
+    },
+    {
       "id": "6079a5cbabf99b265a17edfc92a1da60-shark-h2h",
       "strategy": "shark",
       "placed_at": "2026-11-11T15:50:37Z",
@@ -2636,6 +2663,45 @@
         "I read 9 articles about Las Vegas Raiders lately (nothing that changes much): “Texas Tech vs. Oklahoma State prediction, odds, pick for Big 12 clash in Week 11”",
         "I read 3 articles about Seattle Seahawks lately (nothing that changes much): “Pre-Snap Reads: Seahawks hold steady as trade deadline passes”",
         "Blood in the water. Getting in before the market moves."
+      ]
+    },
+    {
+      "id": "6c932a965110f3f89ec4a5f1a6ac256e-shark-spreads-scout",
+      "strategy": "shark",
+      "placed_at": "2026-11-15T16:00:54Z",
+      "scout": true,
+      "league_key": "americanfootball_nfl",
+      "league": "NFL",
+      "sport": "American football",
+      "event_id": "6c932a965110f3f89ec4a5f1a6ac256e",
+      "game": "Arizona Cardinals vs Los Angeles Rams",
+      "home": "Arizona Cardinals",
+      "away": "Los Angeles Rams",
+      "start": "2026-11-15T21:05:00Z",
+      "market": "spreads",
+      "market_name": "Spread",
+      "name": "Arizona Cardinals",
+      "point": 10.5,
+      "pick": "Arizona Cardinals +10.5",
+      "book": "LeoVegas (SE)",
+      "book_key": "leovegas_se",
+      "odds": 1.91,
+      "eff_odds": 1.91,
+      "fair_odds": 1.894,
+      "edge": 0.0086,
+      "stake": 2.48,
+      "status": "open",
+      "closing_fair_odds": null,
+      "clv": null,
+      "profit": 0.0,
+      "score": null,
+      "settled_at": null,
+      "thoughts": [
+        "🧭 Exploring. I've only made 1 bet like this (NFL spread bets at favourites).",
+        "Arizona Cardinals +10.5 at 1.91 is +0.86% above fair: below my usual bar, but the only way to learn if this kind of bet works for me is to try it.",
+        "I read 17 articles about Arizona Cardinals lately (good news for them): “‘I’ve got a ton of respect for those guys’: What Arizona coach Brent Brennan said after losing a shootout to No. 2 Utah”",
+        "I read 2 articles about Los Angeles Rams lately (bad news for them): “Rams’ Sean McVay crushes fantasy football owners”",
+        "Scout stake: 2.48 (0.5% of my fund). The result feeds my learning."
       ]
     },
     {
@@ -3057,6 +3123,84 @@
       ]
     },
     {
+      "id": "be0e03cc42fbc9b6962467b22c7bf9dd-shark-h2h",
+      "strategy": "shark",
+      "placed_at": "2026-11-15T16:00:54Z",
+      "league_key": "americanfootball_nfl",
+      "league": "NFL",
+      "sport": "American football",
+      "event_id": "be0e03cc42fbc9b6962467b22c7bf9dd",
+      "game": "Cleveland Browns vs Houston Texans",
+      "home": "Cleveland Browns",
+      "away": "Houston Texans",
+      "start": "2026-11-15T18:00:00Z",
+      "market": "h2h",
+      "market_name": "Winner",
+      "name": "Cleveland Browns",
+      "point": null,
+      "pick": "Cleveland Browns",
+      "book": "Everygame",
+      "book_key": "everygame",
+      "odds": 2.85,
+      "eff_odds": 2.85,
+      "fair_odds": 2.758,
+      "edge": 0.0333,
+      "stake": 5.36,
+      "status": "open",
+      "closing_fair_odds": null,
+      "clv": null,
+      "profit": 0.0,
+      "score": null,
+      "settled_at": null,
+      "thoughts": [
+        "Pinnacle, the sharpest bookmaker, rates Cleveland Browns at 36.3%. That makes the fair price 2.76.",
+        "Everygame pays 2.85. That is +3.3% above fair. My bar is +2.5%.",
+        "Full Kelly says 1.8% of my fund. I play 0.6× Kelly, capped at 7%: 5.36 of my 496.26.",
+        "I read 2 articles about Cleveland Browns lately (good news for them): “NFL predictions: In Browns-Texans, Cleveland needs to turn the corner to become a serious threat”",
+        "I read 4 articles about Houston Texans lately (good news for them): “Week 10 NFL odds, picks, predictions: Computer model backs Bills and Texans”",
+        "Blood in the water. Getting in before the market moves."
+      ]
+    },
+    {
+      "id": "3c71d515b726f1096aabb435badb83fd-shark-spreads-scout",
+      "strategy": "shark",
+      "placed_at": "2026-11-15T16:00:54Z",
+      "scout": true,
+      "league_key": "americanfootball_nfl",
+      "league": "NFL",
+      "sport": "American football",
+      "event_id": "3c71d515b726f1096aabb435badb83fd",
+      "game": "Atlanta Falcons vs Kansas City Chiefs",
+      "home": "Atlanta Falcons",
+      "away": "Kansas City Chiefs",
+      "start": "2026-11-15T18:00:00Z",
+      "market": "spreads",
+      "market_name": "Spread",
+      "name": "Atlanta Falcons",
+      "point": 3.5,
+      "pick": "Atlanta Falcons +3.5",
+      "book": "888sport",
+      "book_key": "sport888",
+      "odds": 1.91,
+      "eff_odds": 1.91,
+      "fair_odds": 1.871,
+      "edge": 0.0206,
+      "stake": 2.48,
+      "status": "open",
+      "closing_fair_odds": null,
+      "clv": null,
+      "profit": 0.0,
+      "score": null,
+      "settled_at": null,
+      "thoughts": [
+        "🧭 Exploring. I've only made 1 bet like this (NFL spread bets at favourites).",
+        "Atlanta Falcons +3.5 at 1.91 is +2.06% above fair: below my usual bar, but the only way to learn if this kind of bet works for me is to try it.",
+        "I read 4 articles about Atlanta Falcons lately (good news for them): “Week 10 NFL Open Thread”",
+        "I read 5 articles about Kansas City Chiefs lately (bad news for them): “Week 10 NFL Open Thread”",
+        "Scout stake: 2.48 (0.5% of my fund). The result feeds my learning."
+      ]
+    },
+    {
       "id": "976d20d0bdfd5ebae5800d5ec4f8dedf-lizard-h2h-scout",
       "strategy": "lizard",
       "placed_at": "2026-11-14T08:00:51Z",
@@ -3231,12 +3375,12 @@
       "fair_odds": 1.82,
       "edge": 0.0163,
       "stake": 2.44,
-      "status": "open",
+      "status": "won",
       "closing_fair_odds": 1.899,
       "clv": -0.0259,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": 2.07,
+      "score": "Tenerife 2 - 0 AD Ceuta FC",
+      "settled_at": "2026-11-15T16:00:54Z",
       "thoughts": [
         "🧭 Exploring. I've only made 0 bets like this (La Liga 2 (Spain 2) winner bets at favourites).",
         "Tenerife at 1.85 is +1.63% above fair: below my usual bar, but the only way to learn if this kind of bet works for me is to try it.",
@@ -6140,14 +6284,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-14T09:15:31Z",
-      "text": "🏅 🦈 The Shark unlocked 🧠 IQ 100: Reached Sport IQ 100."
-    },
-    {
-      "t": "2026-11-14T11:15:29Z",
-      "text": "Results:\n- Lost -1.15: UIC Flames (Winner) in Saint Mary's Gaels vs UIC Flames (Saint Mary's Gaels 84 - 61 UIC Flames)"
-    },
-    {
       "t": "2026-11-14T12:00:53Z",
       "text": "🦎 The Lizard levelled up: Rookie → 🎓 Apprentice. Has a track record. Starts learning which bets work."
     },
@@ -6258,6 +6394,14 @@
     {
       "t": "2026-11-15T09:15:30Z",
       "text": "Results:\n- Lost -3.63: Brooklyn Nets (Winner) in Memphis Grizzlies vs Brooklyn Nets (Memphis Grizzlies 129 - 110 Brooklyn Nets)\n- Lost -2.45: Dallas Mavericks (Winner) in Cleveland Cavaliers vs Dallas Mavericks (Cleveland Cavaliers 127 - 117 Dallas Mavericks)"
+    },
+    {
+      "t": "2026-11-15T16:00:54Z",
+      "text": "Placed 5 practice bets:\n- The Shark: **Cleveland Browns** (Winner) in Cleveland Browns vs Houston Texans (NFL) at 2.85 on Everygame, stake 5.36, edge +3.3%\n- The Shark 🧭 scout: **Atlanta Falcons +3.5** (Spread) in Atlanta Falcons vs Kansas City Chiefs (NFL) at 1.91 on 888sport, stake 2.48, edge +2.1%\n- The Shark 🧭 scout: **Arizona Cardinals +10.5** (Spread) in Arizona Cardinals vs Los Angeles Rams (NFL) at 1.91 on LeoVegas (SE), stake 2.48, edge +0.9%\n- The Quant 💭 gut: **Phoenix Suns** (Winner) in Phoenix Suns vs Los Angeles Lakers (NBA) at 2.42 on Matchbook, stake 2.45, edge +-0.1%\n- The Quant 🎲 wild: **Dallas Mavericks** (Winner) in Boston Celtics vs Dallas Mavericks (NBA) at 6.8 on Coolbet, stake 1.22, edge +5.0%"
+    },
+    {
+      "t": "2026-11-15T16:00:54Z",
+      "text": "Results:\n- Won +2.07: Tenerife (Winner) in Tenerife vs AD Ceuta FC (Tenerife 2 - 0 AD Ceuta FC)"
     }
   ]
 }
