@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-15T20:15:33Z",
+  "updated": "2026-11-15T20:16:28Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -489,7 +489,7 @@
       "leader": "quant"
     }
   },
-  "credits_left": 19243,
+  "credits_left": 19239,
   "last_scan": "2026-11-15@16",
   "strategies": {
     "lizard": {
@@ -1602,10 +1602,10 @@
         "facts": [
           {
             "conf": "using",
-            "n": 235,
-            "z": 2.904627094542587,
+            "n": 243,
+            "z": 2.727433732794361,
             "text": "Overs in College basketball (US) happen less often than priced.",
-            "detail": "40% happened vs 50% priced, 235 games"
+            "detail": "41% happened vs 50% priced, 243 games"
           },
           {
             "conf": "solid",
@@ -1623,17 +1623,17 @@
           },
           {
             "conf": "solid",
-            "n": 166,
+            "n": 173,
             "z": 0,
             "text": "The market prices home wins in College basketball (US) accurately.",
-            "detail": "61% happened, 63% priced, 166 games"
+            "detail": "62% happened, 63% priced, 173 games"
           },
           {
             "conf": "solid",
-            "n": 166,
+            "n": 173,
             "z": 0,
             "text": "The market prices away wins in College basketball (US) accurately.",
-            "detail": "39% happened, 37% priced, 166 games"
+            "detail": "38% happened, 37% priced, 173 games"
           },
           {
             "conf": "watching",
@@ -1645,7 +1645,7 @@
         ],
         "rules": 1,
         "studied": 370,
-        "resolved": 324
+        "resolved": 332
       }
     },
     "shark": {
