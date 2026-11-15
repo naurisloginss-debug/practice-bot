@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-15T15:15:29Z",
+  "updated": "2026-11-15T15:30:46Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -184,8 +184,8 @@
         ]
       },
       "quant": {
-        "iq": 118,
-        "iq_gain": 34,
+        "iq": 117,
+        "iq_gain": 33,
         "streak": 0,
         "best_streak": 3,
         "achievements": [
@@ -307,7 +307,7 @@
             "pending": false
           }
         ],
-        "score": 164,
+        "score": 163,
         "trophies": []
       },
       "shark": {
@@ -822,8 +822,29 @@
         "appetite": 0.45
       },
       "reading": {
-        "week": 72,
+        "week": 74,
         "latest": [
+          {
+            "t": "2026-11-15T15:09:43Z",
+            "title": "Live: Ronaldinho returns to playing with Ravenna",
+            "link": "https://football-italia.net/live-ronaldinho-returns-playing-with-ravenna/",
+            "source": "football-italia.net",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-15T14:06:19Z",
+            "title": "Club's first match since player's death abandoned because of serious injury",
+            "link": "https://www.bbc.co.uk/sport/football/articles/cm98xd2dpjd7o?at_medium=RSS&at_campaign=rss",
+            "source": "feeds.bbci.co.uk",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-15T13:01:36Z",
+            "title": "Akanji drops out of Switzerland squad and returns to Inter",
+            "link": "https://football-italia.net/akanji-drops-out-of-switzerland-squad/",
+            "source": "football-italia.net",
+            "tone": 1
+          },
           {
             "t": "2026-11-15T11:52:08Z",
             "title": "Warning Yildiz’s long-awaited Juventus return could be delayed until 2027",
@@ -842,27 +863,6 @@
             "t": "2026-11-15T09:55:27Z",
             "title": "How to watch Ronaldinho’s return to professional football at age 46",
             "link": "https://football-italia.net/how-to-watch-ronaldinho-return-aged-46/",
-            "source": "football-italia.net",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-15T08:38:47Z",
-            "title": "Today’s Papers: Italy dream, in Belgium to finish the job",
-            "link": "https://football-italia.net/todays-papers-italy-dream-in-belgium/",
-            "source": "football-italia.net",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-14T19:15:00Z",
-            "title": "Mancini confirms Frattesi and Cambiaghi out for Italy, Calafiori a doubt",
-            "link": "https://football-italia.net/mancini-italy-frattesi-and-cambiaghi-calafiori/",
-            "source": "football-italia.net",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-14T18:10:00Z",
-            "title": "Juventus forecast another operating loss as Champions League return becomes crucial",
-            "link": "https://football-italia.net/juventus-forecast-another-operating-loss/",
             "source": "football-italia.net",
             "tone": 1
           }
@@ -1378,12 +1378,19 @@
         "appetite": 0.35
       },
       "reading": {
-        "week": 89,
+        "week": 77,
         "latest": [
           {
             "t": "2026-11-15T12:00:00Z",
             "title": "Kyrie Irving reflects on 2016 championship in return to Cleveland: ‘I’m so grateful for all the Cavs fans’",
             "link": "https://sports.yahoo.com/articles/kyrie-irving-reflects-2016-championship-120000917.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-15T12:00:00Z",
+            "title": "Open Thread: Steve Kerr loves returning to San Antonio",
+            "link": "https://sports.yahoo.com/articles/open-thread-steve-kerr-loves-120000778.html",
             "source": "sports.yahoo.com",
             "tone": 1
           },
@@ -1412,13 +1419,6 @@
             "t": "2026-11-15T01:58:42Z",
             "title": "Is Austin Reaves playing Sunday? Injury status for Lakers-Suns",
             "link": "https://sports.yahoo.com/articles/austin-reaves-playing-sunday-injury-015842030.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-15T00:09:39Z",
-            "title": "Celtics get good injury news ahead of game against Mavericks",
-            "link": "https://sports.yahoo.com/articles/celtics-good-injury-news-ahead-000939575.html",
             "source": "sports.yahoo.com",
             "tone": -1
           }
@@ -1598,8 +1598,8 @@
       },
       "traits": [],
       "mind": {
-        "iq": 118,
-        "iq_week": 37,
+        "iq": 117,
+        "iq_week": 36,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -1647,7 +1647,7 @@
           },
           {
             "d": "2026-11-15",
-            "iq": 118
+            "iq": 117
           }
         ],
         "facts": [
@@ -1910,47 +1910,47 @@
         "appetite": 0.6
       },
       "reading": {
-        "week": 439,
+        "week": 449,
         "latest": [
           {
-            "t": "2026-11-15T12:03:19Z",
-            "title": "Day after: Final thoughts on Notre Dame domination of Boston College",
-            "link": "https://sports.yahoo.com/articles/day-final-thoughts-notre-dame-120319754.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-15T10:46:00Z",
-            "title": "Rock bottom? Clemson, Dabo Swinney in a free fall after QB injuries and loss to Georgia Tech",
-            "link": "https://sports.yahoo.com/articles/rock-bottom-clemson-dabo-swinney-104600771.html",
+            "t": "2026-11-15T15:14:11Z",
+            "title": "Drake Maye injury: Patriots QB hurts ankle vs. Lions",
+            "link": "https://sports.yahoo.com/articles/drake-maye-injury-patriots-qb-151411451.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-15T10:45:18Z",
-            "title": "How is Jack Campbell doing? Latest injury update for Lions LB",
-            "link": "https://sports.yahoo.com/articles/jack-campbell-doing-latest-injury-104518712.html",
+            "t": "2026-11-15T15:10:35Z",
+            "title": "Drake Maye, Aidan Hutchinson injured on same play: Patriots, Lions stars questionable to return",
+            "link": "https://www.cbssports.com/nfl/news/drake-maye-aidan-hutchinson-injured-patriots-lions-stars-questionable/",
+            "source": "www.cbssports.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-15T15:09:21Z",
+            "title": "Chargers Injury Report: Kayode Awosika, David Njoku questionable vs. Ravens",
+            "link": "https://sports.yahoo.com/articles/chargers-injury-report-kayode-awosika-150921537.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-15T09:02:22Z",
-            "title": "Rutgers football quarterback situation up in the air for final 2 games",
-            "link": "https://sports.yahoo.com/articles/rutgers-football-quarterback-situation-air-090222746.html",
+            "t": "2026-11-15T15:00:28Z",
+            "title": "Drake Maye limps to locker room, Tommy DeVito in at QB for Patriots in Germany",
+            "link": "https://sports.yahoo.com/articles/drake-maye-limps-locker-room-150028757.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-15T07:45:10Z",
-            "title": "No. 2 Utah Survives Late Night Duel Against No. 23 Arizona 40-39",
-            "link": "https://sports.yahoo.com/articles/no-2-utah-survives-night-074510850.html",
+            "t": "2026-11-15T15:00:25Z",
+            "title": "Drake Maye heads to locker room early in Week 10 after injuring ankle on Aidan Hutchinson sack",
+            "link": "https://sports.yahoo.com/nfl/breaking-news/article/drake-maye-heads-to-locker-room-early-in-week-10-after-injuring-ankle-on-aidan-hutchinson-sack-150337295.html",
             "source": "sports.yahoo.com",
-            "tone": 1
+            "tone": -1
           },
           {
-            "t": "2026-11-15T06:56:11Z",
-            "title": "BYU Opens as Single-Digit Favorite Over Kansas",
-            "link": "https://sports.yahoo.com/articles/byu-opens-single-digit-favorite-065611868.html",
+            "t": "2026-11-15T14:59:22Z",
+            "title": "Drake Maye departs Lions game with ankle injury",
+            "link": "https://sports.yahoo.com/articles/drake-maye-departs-lions-game-145922818.html",
             "source": "sports.yahoo.com",
             "tone": -1
           }
