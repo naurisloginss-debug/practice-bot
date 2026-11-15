@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-15T00:00:56Z",
+  "updated": "2026-11-15T00:15:38Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -184,8 +184,8 @@
         ]
       },
       "quant": {
-        "iq": 112,
-        "iq_gain": 28,
+        "iq": 111,
+        "iq_gain": 27,
         "streak": 1,
         "best_streak": 3,
         "achievements": [
@@ -307,13 +307,13 @@
             "pending": false
           }
         ],
-        "score": 148,
+        "score": 147,
         "trophies": []
       },
       "shark": {
-        "iq": 101,
-        "iq_gain": 10,
-        "streak": 1,
+        "iq": 102,
+        "iq_gain": 11,
+        "streak": 2,
         "best_streak": 4,
         "achievements": [
           {
@@ -424,17 +424,17 @@
           {
             "text": "Bets checked against the market",
             "target": 3,
-            "now": 11
+            "now": 12
           },
           {
             "text": "Beat the market on",
             "target": 55,
-            "now": 64,
+            "now": 67,
             "unit": "%",
             "pending": false
           }
         ],
-        "score": 134,
+        "score": 135,
         "trophies": []
       }
     },
@@ -489,7 +489,7 @@
       "leader": "quant"
     }
   },
-  "credits_left": 19331,
+  "credits_left": 19330,
   "last_scan": "2026-11-14@16",
   "strategies": {
     "lizard": {
@@ -814,7 +814,7 @@
         "appetite": 0.45
       },
       "reading": {
-        "week": 100,
+        "week": 98,
         "latest": [
           {
             "t": "2026-11-14T19:15:00Z",
@@ -1346,8 +1346,15 @@
         "appetite": 0.35
       },
       "reading": {
-        "week": 87,
+        "week": 76,
         "latest": [
+          {
+            "t": "2026-11-14T20:24:36Z",
+            "title": "Preview: Wizards host Rockets, Carrington added to injury report",
+            "link": "https://sports.yahoo.com/articles/preview-wizards-host-rockets-carrington-202436891.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
           {
             "t": "2026-11-14T18:10:21Z",
             "title": "Cavs vs. Mavericks: How to watch, odds, and injury report",
@@ -1356,17 +1363,17 @@
             "tone": -1
           },
           {
+            "t": "2026-11-14T16:05:03Z",
+            "title": "Draymond Green defends Rockets from ‘dirty&#39; label after Steph Curry injury",
+            "link": "https://sports.yahoo.com/articles/draymond-green-defends-rockets-dirty-160503314.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
             "t": "2026-11-14T16:00:33Z",
             "title": "Yaxel Lendeborg, Warriors get a taste of life without Stephen Curry: 'It felt helpless out there'",
             "link": "https://www.cbssports.com/nba/news/yaxel-lendeborg-warriors-spurs-life-without-stephen-curry/",
             "source": "www.cbssports.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-14T03:08:53Z",
-            "title": "Spurs ambush Warriors in first quarter of first game since Steph Curry injury",
-            "link": "https://sports.yahoo.com/articles/spurs-ambush-warriors-first-quarter-030853064.html",
-            "source": "sports.yahoo.com",
             "tone": -1
           },
           {
@@ -1382,13 +1389,6 @@
             "link": "https://sports.yahoo.com/articles/observations-sixers-shake-off-slow-171100041.html",
             "source": "sports.yahoo.com",
             "tone": -1
-          },
-          {
-            "t": "2026-11-14T02:22:51Z",
-            "title": "Paul George flips the script — and the bird — in Philadelphia return",
-            "link": "https://sports.yahoo.com/articles/paul-george-flips-script-bird-023500511.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
           }
         ]
       },
@@ -1566,8 +1566,8 @@
       },
       "traits": [],
       "mind": {
-        "iq": 112,
-        "iq_week": 31,
+        "iq": 111,
+        "iq_week": 30,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -1615,7 +1615,7 @@
           },
           {
             "d": "2026-11-15",
-            "iq": 112
+            "iq": 111
           }
         ],
         "facts": [
@@ -1707,9 +1707,9 @@
       "profit": 0.77,
       "roi": 0.1353,
       "avg_edge": 0.0184,
-      "avg_clv": 0.0247,
-      "beat_close": 0.6154,
-      "clv_count": 13,
+      "avg_clv": 0.0235,
+      "beat_close": 0.6429,
+      "clv_count": 14,
       "history": [
         {
           "t": "2026-11-07T16:00:52Z",
@@ -1726,15 +1726,6 @@
       ],
       "by_league": [
         {
-          "name": "College football (US)",
-          "bets": 17,
-          "profit": 0,
-          "roi": null,
-          "avg_clv": 0.0247,
-          "beat_close": 0.6364,
-          "clv_count": 11
-        },
-        {
           "name": "NFL",
           "bets": 13,
           "profit": 0.77,
@@ -1742,6 +1733,15 @@
           "avg_clv": 0.0246,
           "beat_close": 0.5,
           "clv_count": 2
+        },
+        {
+          "name": "College football (US)",
+          "bets": 17,
+          "profit": 0,
+          "roi": null,
+          "avg_clv": 0.0233,
+          "beat_close": 0.6667,
+          "clv_count": 12
         },
         {
           "name": "CFL",
@@ -1777,9 +1777,9 @@
           "bets": 4,
           "profit": 0,
           "roi": null,
-          "avg_clv": 0.0079,
+          "avg_clv": 0.0078,
           "beat_close": 1.0,
-          "clv_count": 1
+          "clv_count": 2
         }
       ],
       "by_sport": [
@@ -1788,9 +1788,9 @@
           "bets": 31,
           "profit": 0.77,
           "roi": 0.1353,
-          "avg_clv": 0.0247,
-          "beat_close": 0.6154,
-          "clv_count": 13
+          "avg_clv": 0.0235,
+          "beat_close": 0.6429,
+          "clv_count": 14
         }
       ],
       "gut": {
@@ -1814,47 +1814,47 @@
         "appetite": 0.6
       },
       "reading": {
-        "week": 413,
+        "week": 426,
         "latest": [
           {
-            "t": "2026-11-14T21:02:20Z",
-            "title": "Tennessee football Mike Matthews suffers leg injury vs Texas A&M",
-            "link": "https://sports.yahoo.com/articles/tennessee-football-mike-matthews-suffers-210220829.html",
+            "t": "2026-11-14T23:57:27Z",
+            "title": "Arnav’s Analysis: Takeaways From Rutgers’ 31-0 Loss To Nebraska",
+            "link": "https://sports.yahoo.com/articles/arnav-analysis-takeaways-rutgers-31-235727133.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-14T21:00:27Z",
-            "title": "Clemson falls at home to Georgia Tech team that had just fired 4 coaches, loses QB Tait Reynolds to injury",
-            "link": "https://sports.yahoo.com/college-football/breaking-news/article/clemson-falls-at-home-to-georgia-tech-team-that-had-just-fired-4-coaches-loses-qb-tait-reynolds-to-injury-210027293.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-14T20:49:17Z",
-            "title": "Texas A&M WR Ashton Bethel-Roman Ruled Out For Tennessee Clash",
-            "link": "https://sports.yahoo.com/articles/texas-m-wr-ashton-bethel-204917543.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-14T20:44:08Z",
-            "title": "Tennessee Wants Revenge for Its Wild Double-Overtime Loss at A&M",
-            "link": "https://sports.yahoo.com/articles/tennessee-wants-revenge-wild-double-204408827.html",
+            "t": "2026-11-14T23:41:37Z",
+            "title": "Oklahoma is furious at SEC. Cody Campbell has a suggestion for Sooners",
+            "link": "https://sports.yahoo.com/articles/oklahoma-furious-sec-cody-campbell-234137374.html",
             "source": "sports.yahoo.com",
             "tone": 1
           },
           {
-            "t": "2026-11-14T20:41:10Z",
-            "title": "Florida has player upgraded, another downgraded on latest injury report",
-            "link": "https://sports.yahoo.com/articles/florida-player-upgraded-another-downgraded-204110329.html",
+            "t": "2026-11-14T23:38:30Z",
+            "title": "Ohio State’s Ryan Day drops brutally honest confession after big win over Northwestern",
+            "link": "https://sports.yahoo.com/articles/ohio-state-ryan-day-drops-233830334.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-14T20:31:04Z",
-            "title": "Steelers activate DT Derrick Harmon off injured reserve",
-            "link": "https://sports.yahoo.com/articles/steelers-activate-dt-derrick-harmon-203104589.html",
+            "t": "2026-11-14T23:31:58Z",
+            "title": "The players of the game from Ohio State’s 28-19 win over Northwestern",
+            "link": "https://sports.yahoo.com/articles/players-game-ohio-state-28-233158566.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-14T23:20:45Z",
+            "title": "Iowa Hawkeyes football vs Purdue live updates, score, highlights",
+            "link": "https://sports.yahoo.com/articles/iowa-hawkeyes-football-vs-purdue-232045696.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-14T23:19:51Z",
+            "title": "OL Cole Hutson, DT Hero Kanu removed from pregame Texas injury report",
+            "link": "https://sports.yahoo.com/articles/ol-cole-hutson-dt-hero-231951125.html",
             "source": "sports.yahoo.com",
             "tone": -1
           }
@@ -1952,8 +1952,8 @@
         "tried": [],
         "curiosity": 0.5,
         "scouts": 11,
-        "scout_clv": 0.0688,
-        "scout_measured": 4
+        "scout_clv": 0.0566,
+        "scout_measured": 5
       },
       "challenge": {
         "today": {
@@ -2032,8 +2032,8 @@
       },
       "traits": [],
       "mind": {
-        "iq": 101,
-        "iq_week": 18,
+        "iq": 102,
+        "iq_week": 19,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -2081,7 +2081,7 @@
           },
           {
             "d": "2026-11-15",
-            "iq": 101
+            "iq": 102
           }
         ],
         "facts": [
@@ -2863,8 +2863,8 @@
       "edge": 0.0102,
       "stake": 2.5,
       "status": "open",
-      "closing_fair_odds": null,
-      "clv": null,
+      "closing_fair_odds": 1.925,
+      "clv": 0.0078,
       "profit": 0.0,
       "score": null,
       "settled_at": null,
