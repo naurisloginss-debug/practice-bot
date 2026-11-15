@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-15T12:15:30Z",
+  "updated": "2026-11-15T12:30:46Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -29,9 +29,9 @@
     ],
     "chars": {
       "lizard": {
-        "iq": 102,
-        "iq_gain": 5,
-        "streak": 3,
+        "iq": 101,
+        "iq_gain": 4,
+        "streak": 0,
         "best_streak": 8,
         "achievements": [
           {
@@ -142,17 +142,17 @@
           {
             "text": "Bets checked against the market",
             "target": 21,
-            "now": 13
+            "now": 14
           },
           {
             "text": "Beat the market on",
             "target": 76,
-            "now": 46,
+            "now": 43,
             "unit": "%",
             "pending": false
           }
         ],
-        "score": 132,
+        "score": 131,
         "trophies": [
           {
             "kind": "sharpshooter",
@@ -489,7 +489,7 @@
       "leader": "quant"
     }
   },
-  "credits_left": 19287,
+  "credits_left": 19286,
   "last_scan": "2026-11-15@8",
   "strategies": {
     "lizard": {
@@ -550,9 +550,9 @@
       "profit": -12.3,
       "roi": -0.2724,
       "avg_edge": 0.0278,
-      "avg_clv": -0.0192,
-      "beat_close": 0.625,
-      "clv_count": 32,
+      "avg_clv": -0.0194,
+      "beat_close": 0.6061,
+      "clv_count": 33,
       "history": [
         {
           "t": "2026-11-04T12:49:24Z",
@@ -738,9 +738,9 @@
           "bets": 9,
           "profit": -5.89,
           "roi": -0.632,
-          "avg_clv": -0.0108,
-          "beat_close": 0.6,
-          "clv_count": 5
+          "avg_clv": -0.0133,
+          "beat_close": 0.5,
+          "clv_count": 6
         },
         {
           "name": "Championship (England 2)",
@@ -785,9 +785,9 @@
           "bets": 34,
           "profit": -9.2,
           "roi": -0.2188,
-          "avg_clv": -0.0214,
-          "beat_close": 0.6,
-          "clv_count": 30
+          "avg_clv": -0.0215,
+          "beat_close": 0.5806,
+          "clv_count": 31
         }
       ],
       "by_sport": [
@@ -796,9 +796,9 @@
           "bets": 36,
           "profit": -12.3,
           "roi": -0.2724,
-          "avg_clv": -0.0192,
-          "beat_close": 0.625,
-          "clv_count": 32
+          "avg_clv": -0.0194,
+          "beat_close": 0.6061,
+          "clv_count": 33
         }
       ],
       "gut": {
@@ -822,8 +822,29 @@
         "appetite": 0.45
       },
       "reading": {
-        "week": 86,
+        "week": 72,
         "latest": [
+          {
+            "t": "2026-11-15T11:52:08Z",
+            "title": "Warning Yildiz’s long-awaited Juventus return could be delayed until 2027",
+            "link": "https://football-italia.net/warning-yildizs-juventus-return-delayed-2027/",
+            "source": "football-italia.net",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-15T11:28:25Z",
+            "title": "Wenger decides not to challenge Fifa chief Infantino",
+            "link": "https://www.bbc.co.uk/sport/football/articles/c539gn33z1l3o?at_medium=RSS&at_campaign=rss",
+            "source": "feeds.bbci.co.uk",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-15T09:55:27Z",
+            "title": "How to watch Ronaldinho’s return to professional football at age 46",
+            "link": "https://football-italia.net/how-to-watch-ronaldinho-return-aged-46/",
+            "source": "football-italia.net",
+            "tone": 1
+          },
           {
             "t": "2026-11-15T08:38:47Z",
             "title": "Today’s Papers: Italy dream, in Belgium to finish the job",
@@ -839,31 +860,10 @@
             "tone": -1
           },
           {
-            "t": "2026-11-14T18:27:23Z",
-            "title": "Le Tissier stars as Man Utd beat Crystal Palace to extend unbeaten run",
-            "link": "https://www.bbc.co.uk/sport/football/videos/cqglrkk7gr1xo?at_medium=RSS&at_campaign=rss",
-            "source": "feeds.bbci.co.uk",
-            "tone": 1
-          },
-          {
             "t": "2026-11-14T18:10:00Z",
             "title": "Juventus forecast another operating loss as Champions League return becomes crucial",
             "link": "https://football-italia.net/juventus-forecast-another-operating-loss/",
             "source": "football-italia.net",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-14T16:55:49Z",
-            "title": "Inter boost as Thuram ready for Atalanta, but Zielinski foot problem raises alarm",
-            "link": "https://football-italia.net/inter-boost-as-thuram-ready-zielinski/",
-            "source": "football-italia.net",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-14T15:50:34Z",
-            "title": "Chelsea go top with 1-0 win against Man City",
-            "link": "https://www.bbc.co.uk/sport/football/videos/cm702wwpj9keo?at_medium=RSS&at_campaign=rss",
-            "source": "feeds.bbci.co.uk",
             "tone": 1
           }
         ]
@@ -951,8 +951,8 @@
         "tried": [],
         "curiosity": 0.5,
         "scouts": 6,
-        "scout_clv": -0.0432,
-        "scout_measured": 3
+        "scout_clv": -0.0388,
+        "scout_measured": 4
       },
       "challenge": {
         "today": {
@@ -1033,8 +1033,8 @@
       },
       "traits": [],
       "mind": {
-        "iq": 102,
-        "iq_week": 6,
+        "iq": 101,
+        "iq_week": 5,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -1082,7 +1082,7 @@
           },
           {
             "d": "2026-11-15",
-            "iq": 102
+            "iq": 101
           }
         ],
         "facts": [
@@ -1123,10 +1123,10 @@
           },
           {
             "conf": "watching",
-            "n": 28,
+            "n": 29,
             "z": 0,
-            "text": "When I find value, the market moves my way before kick-off 68% of the time.",
-            "detail": "28 bets measured"
+            "text": "When I find value, the market moves my way before kick-off 66% of the time.",
+            "detail": "29 bets measured"
           }
         ],
         "rules": 0,
@@ -1378,8 +1378,22 @@
         "appetite": 0.35
       },
       "reading": {
-        "week": 87,
+        "week": 89,
         "latest": [
+          {
+            "t": "2026-11-15T12:00:00Z",
+            "title": "Kyrie Irving reflects on 2016 championship in return to Cleveland: ‘I’m so grateful for all the Cavs fans’",
+            "link": "https://sports.yahoo.com/articles/kyrie-irving-reflects-2016-championship-120000917.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-15T07:20:31Z",
+            "title": "Michael Porter Jr. sits for personal reasons — but he should be back soon",
+            "link": "https://sports.yahoo.com/articles/michael-porter-jr-sits-personal-072031504.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
           {
             "t": "2026-11-15T04:16:20Z",
             "title": "Lakers vs. Suns Preview: Adjusting without Austin Reaves",
@@ -1405,20 +1419,6 @@
             "t": "2026-11-15T00:09:39Z",
             "title": "Celtics get good injury news ahead of game against Mavericks",
             "link": "https://sports.yahoo.com/articles/celtics-good-injury-news-ahead-000939575.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-15T00:00:55Z",
-            "title": "Mavericks vs Cavaliers Preview and Injury Update: Start of a tough two days",
-            "link": "https://sports.yahoo.com/articles/mavericks-vs-cavaliers-preview-injury-000055895.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-14T23:04:54Z",
-            "title": "Observations after Sixers shake off slow start, Embiid injury scare to win",
-            "link": "https://sports.yahoo.com/articles/observations-sixers-shake-off-slow-171100041.html",
             "source": "sports.yahoo.com",
             "tone": -1
           }
@@ -1910,8 +1910,29 @@
         "appetite": 0.6
       },
       "reading": {
-        "week": 427,
+        "week": 439,
         "latest": [
+          {
+            "t": "2026-11-15T12:03:19Z",
+            "title": "Day after: Final thoughts on Notre Dame domination of Boston College",
+            "link": "https://sports.yahoo.com/articles/day-final-thoughts-notre-dame-120319754.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-15T10:46:00Z",
+            "title": "Rock bottom? Clemson, Dabo Swinney in a free fall after QB injuries and loss to Georgia Tech",
+            "link": "https://sports.yahoo.com/articles/rock-bottom-clemson-dabo-swinney-104600771.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-15T10:45:18Z",
+            "title": "How is Jack Campbell doing? Latest injury update for Lions LB",
+            "link": "https://sports.yahoo.com/articles/jack-campbell-doing-latest-injury-104518712.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
           {
             "t": "2026-11-15T09:02:22Z",
             "title": "Rutgers football quarterback situation up in the air for final 2 games",
@@ -1930,27 +1951,6 @@
             "t": "2026-11-15T06:56:11Z",
             "title": "BYU Opens as Single-Digit Favorite Over Kansas",
             "link": "https://sports.yahoo.com/articles/byu-opens-single-digit-favorite-065611868.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-15T06:44:15Z",
-            "title": "Five Oklahoma State football takeaways as Texas Tech carves up Cowboys&#39; defense",
-            "link": "https://sports.yahoo.com/articles/five-oklahoma-state-football-takeaways-064415843.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-15T06:20:18Z",
-            "title": "Utah’s Orion Phillips somehow launches 84 yard punt vs. Arizona",
-            "link": "https://sports.yahoo.com/articles/utah-orion-phillips-somehow-launches-062018386.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-15T04:34:28Z",
-            "title": "Curt Cignetti breaks down Indiana decision to start Grant Wilson over Josh Hoover vs. USC",
-            "link": "https://sports.yahoo.com/articles/curt-cignetti-breaks-down-indiana-043428998.html",
             "source": "sports.yahoo.com",
             "tone": -1
           }
@@ -3232,8 +3232,8 @@
       "edge": 0.0163,
       "stake": 2.44,
       "status": "open",
-      "closing_fair_odds": null,
-      "clv": null,
+      "closing_fair_odds": 1.899,
+      "clv": -0.0259,
       "profit": 0.0,
       "score": null,
       "settled_at": null,
