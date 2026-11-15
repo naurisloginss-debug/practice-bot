@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-15T02:15:30Z",
+  "updated": "2026-11-15T02:30:43Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -16,11 +16,11 @@
     "talk": [
       {
         "who": "quant",
-        "text": "The data put me first. The Shark, check your model. The data says I'm the one going live. 19 days to prove it."
+        "text": "The data put me first. The Shark, check your model. 19 days until selection. Regression to the mean is coming for the leader."
       },
       {
         "who": "shark",
-        "text": "I smell The Quant's lead from here. Closing in. Only one of us gets real money, in 19 days. And I'm hungry."
+        "text": "I smell The Quant's lead from here. Closing in. Only one of us gets real money. Smell that? It's me."
       },
       {
         "who": "lizard",
@@ -313,7 +313,7 @@
       "shark": {
         "iq": 105,
         "iq_gain": 14,
-        "streak": 1,
+        "streak": 2,
         "best_streak": 4,
         "achievements": [
           {
@@ -424,12 +424,12 @@
           {
             "text": "Bets checked against the market",
             "target": 3,
-            "now": 14
+            "now": 15
           },
           {
             "text": "Beat the market on",
             "target": 55,
-            "now": 64,
+            "now": 67,
             "unit": "%",
             "pending": false
           }
@@ -445,6 +445,18 @@
       "min_bets": 30,
       "rows": [
         {
+          "who": "shark",
+          "eligible": false,
+          "measured": 6,
+          "need": 24,
+          "clv": 0.0254,
+          "cautious": -0.0003,
+          "beat": 0.5,
+          "challenges": 0.667,
+          "traits": 0,
+          "score": 2.99
+        },
+        {
           "who": "quant",
           "eligible": false,
           "measured": 14,
@@ -455,18 +467,6 @@
           "challenges": 0.5,
           "traits": 0,
           "score": 2.37
-        },
-        {
-          "who": "shark",
-          "eligible": false,
-          "measured": 5,
-          "need": 25,
-          "clv": 0.0043,
-          "cautious": -0.0138,
-          "beat": 0.4,
-          "challenges": 0.667,
-          "traits": 0,
-          "score": -12.43
         },
         {
           "who": "lizard",
@@ -482,14 +482,14 @@
         }
       ],
       "ranking": [
-        "quant",
         "shark",
+        "quant",
         "lizard"
       ],
-      "leader": "quant"
+      "leader": "shark"
     }
   },
-  "credits_left": 19321,
+  "credits_left": 19320,
   "last_scan": "2026-11-14@16",
   "strategies": {
     "lizard": {
@@ -1723,9 +1723,9 @@
       "profit": 3.16,
       "roi": 0.2208,
       "avg_edge": 0.0184,
-      "avg_clv": 0.0229,
-      "beat_close": 0.625,
-      "clv_count": 16,
+      "avg_clv": 0.0292,
+      "beat_close": 0.6471,
+      "clv_count": 17,
       "history": [
         {
           "t": "2026-11-07T16:00:52Z",
@@ -1782,6 +1782,15 @@
       ],
       "by_league": [
         {
+          "name": "College football (US)",
+          "bets": 17,
+          "profit": 2.39,
+          "roi": 0.2773,
+          "avg_clv": 0.0299,
+          "beat_close": 0.6667,
+          "clv_count": 15
+        },
+        {
           "name": "NFL",
           "bets": 13,
           "profit": 0.77,
@@ -1789,15 +1798,6 @@
           "avg_clv": 0.0246,
           "beat_close": 0.5,
           "clv_count": 2
-        },
-        {
-          "name": "College football (US)",
-          "bets": 17,
-          "profit": 2.39,
-          "roi": 0.2773,
-          "avg_clv": 0.0226,
-          "beat_close": 0.6429,
-          "clv_count": 14
         },
         {
           "name": "CFL",
@@ -1815,9 +1815,9 @@
           "bets": 23,
           "profit": 3.39,
           "roi": 0.4449,
-          "avg_clv": 0.0251,
-          "beat_close": 0.5833,
-          "clv_count": 12
+          "avg_clv": 0.0332,
+          "beat_close": 0.6154,
+          "clv_count": 13
         },
         {
           "name": "Spread",
@@ -1844,9 +1844,9 @@
           "bets": 31,
           "profit": 3.16,
           "roi": 0.2208,
-          "avg_clv": 0.0229,
-          "beat_close": 0.625,
-          "clv_count": 16
+          "avg_clv": 0.0292,
+          "beat_close": 0.6471,
+          "clv_count": 17
         }
       ],
       "gut": {
@@ -1969,9 +1969,9 @@
         "badge": "🐣",
         "stake": 1.0,
         "perk": "Normal stakes while it proves itself.",
-        "measured": 5,
-        "clv": 0.0043,
-        "beat": 0.4,
+        "measured": 6,
+        "clv": 0.0254,
+        "beat": 0.5,
         "cold": false,
         "next": {
           "title": "Apprentice",
@@ -1981,20 +1981,20 @@
             {
               "text": "15 measured bets",
               "done": false,
-              "now": "5"
+              "now": "6"
             },
             {
               "text": "beat the market on 50%+",
-              "done": false,
-              "now": "40%"
+              "done": true,
+              "now": "50%"
             },
             {
               "text": "average price +0.0%+ vs market",
               "done": true,
-              "now": "+0.4%"
+              "now": "+2.5%"
             }
           ],
-          "progress": 0.333
+          "progress": 0.4
         }
       },
       "explorer": {
@@ -2165,10 +2165,10 @@
           },
           {
             "conf": "watching",
-            "n": 11,
+            "n": 12,
             "z": 0,
-            "text": "When I find value, the market moves my way before kick-off 73% of the time.",
-            "detail": "11 bets measured"
+            "text": "When I find value, the market moves my way before kick-off 75% of the time.",
+            "detail": "12 bets measured"
           }
         ],
         "rules": 0,
@@ -2780,8 +2780,8 @@
       "edge": 0.0368,
       "stake": 1.28,
       "status": "open",
-      "closing_fair_odds": null,
-      "clv": null,
+      "closing_fair_odds": 3.431,
+      "clv": 0.131,
       "profit": 0.0,
       "score": null,
       "settled_at": null,
@@ -5615,10 +5615,6 @@
   "log": [
     {
       "t": "2026-11-14T00:00:53Z",
-      "text": "🎯 🦎 The Lizard's challenge today: 🧭 Explorer day. Make a bet in Super League - Greece, the competition I'm exploring."
-    },
-    {
-      "t": "2026-11-14T00:00:53Z",
       "text": "🎯 🧮 The Quant's challenge today: 🧭 Explorer day. Make a bet in NBL, the competition I'm exploring."
     },
     {
@@ -5732,6 +5728,10 @@
     {
       "t": "2026-11-15T02:15:30Z",
       "text": "✅ 🦈 The Shark completed 🎯 Precision day: 2 bets beat the market."
+    },
+    {
+      "t": "2026-11-15T02:30:43Z",
+      "text": "🏁 🦈 The Shark now leads the race to go live (19 days to selection)."
     }
   ]
 }
