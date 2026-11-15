@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-15T21:45:38Z",
+  "updated": "2026-11-15T22:00:55Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -297,12 +297,12 @@
           {
             "text": "Bets checked against the market",
             "target": 3,
-            "now": 27
+            "now": 28
           },
           {
             "text": "Beat the market on",
             "target": 55,
-            "now": 52,
+            "now": 50,
             "unit": "%",
             "pending": false
           }
@@ -459,14 +459,14 @@
         {
           "who": "quant",
           "eligible": false,
-          "measured": 16,
-          "need": 14,
-          "clv": 0.0037,
-          "cautious": -0.0112,
-          "beat": 0.5625,
+          "measured": 17,
+          "need": 13,
+          "clv": 0.0016,
+          "cautious": -0.0126,
+          "beat": 0.5294,
           "challenges": 0.5,
           "traits": 0,
-          "score": -7.49
+          "score": -9.56
         },
         {
           "who": "lizard",
@@ -489,7 +489,7 @@
       "leader": "shark"
     }
   },
-  "credits_left": 19232,
+  "credits_left": 19229,
   "last_scan": "2026-11-15@16",
   "strategies": {
     "lizard": {
@@ -534,7 +534,7 @@
         "Total"
       ],
       "start_fund": 500,
-      "fund": 489.77,
+      "fund": 477.17,
       "lessons": [
         {
           "kind": "avoid",
@@ -543,12 +543,12 @@
         }
       ],
       "bets": 36,
-      "open": 3,
+      "open": 0,
       "won": 8,
-      "lost": 25,
-      "staked": 47.59,
-      "profit": -10.23,
-      "roi": -0.215,
+      "lost": 28,
+      "staked": 60.19,
+      "profit": -22.83,
+      "roi": -0.3793,
       "avg_edge": 0.0278,
       "avg_clv": -0.015,
       "beat_close": 0.6389,
@@ -689,6 +689,18 @@
         {
           "t": "2026-11-15T16:00:54Z",
           "fund": 489.77
+        },
+        {
+          "t": "2026-11-15T22:00:55Z",
+          "fund": 488.78
+        },
+        {
+          "t": "2026-11-15T22:00:55Z",
+          "fund": 486.29
+        },
+        {
+          "t": "2026-11-15T22:00:55Z",
+          "fund": 477.17
         }
       ],
       "by_league": [
@@ -731,8 +743,8 @@
         {
           "name": "La Liga 2 (Spain 2)",
           "bets": 9,
-          "profit": -3.82,
-          "roi": -0.3248,
+          "profit": -16.42,
+          "roi": -0.6741,
           "avg_clv": 0.0021,
           "beat_close": 0.6667,
           "clv_count": 9
@@ -787,8 +799,8 @@
         {
           "name": "Winner",
           "bets": 34,
-          "profit": -7.13,
-          "roi": -0.1603,
+          "profit": -19.73,
+          "roi": -0.3456,
           "avg_clv": -0.0167,
           "beat_close": 0.6176,
           "clv_count": 34
@@ -798,8 +810,8 @@
         {
           "name": "Football",
           "bets": 36,
-          "profit": -10.23,
-          "roi": -0.215,
+          "profit": -22.83,
+          "roi": -0.3793,
           "avg_clv": -0.015,
           "beat_close": 0.6389,
           "clv_count": 36
@@ -1117,7 +1129,7 @@
         ],
         "rules": 0,
         "studied": 86,
-        "resolved": 81
+        "resolved": 84
       }
     },
     "quant": {
@@ -1161,9 +1173,9 @@
       "profit": -10.82,
       "roi": -0.2161,
       "avg_edge": 0.0333,
-      "avg_clv": 0.0124,
-      "beat_close": 0.5185,
-      "clv_count": 27,
+      "avg_clv": 0.0108,
+      "beat_close": 0.5,
+      "clv_count": 28,
       "history": [
         {
           "t": "2026-11-10T21:01:26Z",
@@ -1298,9 +1310,9 @@
           "bets": 24,
           "profit": 8.8,
           "roi": 0.3585,
-          "avg_clv": 0.0015,
-          "beat_close": 0.4286,
-          "clv_count": 14
+          "avg_clv": -0.0008,
+          "beat_close": 0.4,
+          "clv_count": 15
         }
       ],
       "by_market": [
@@ -1327,9 +1339,9 @@
           "bets": 14,
           "profit": 1.97,
           "roi": 0.1704,
-          "avg_clv": -0.0192,
-          "beat_close": 0.4,
-          "clv_count": 5
+          "avg_clv": -0.0214,
+          "beat_close": 0.3333,
+          "clv_count": 6
         }
       ],
       "by_sport": [
@@ -1338,9 +1350,9 @@
           "bets": 39,
           "profit": -10.82,
           "roi": -0.2161,
-          "avg_clv": 0.0124,
-          "beat_close": 0.5185,
-          "clv_count": 27
+          "avg_clv": 0.0108,
+          "beat_close": 0.5,
+          "clv_count": 28
         }
       ],
       "gut": {
@@ -1426,9 +1438,9 @@
         "badge": "🎓",
         "stake": 1.0,
         "perk": "Has a track record. Starts learning which bets work.",
-        "measured": 16,
-        "clv": 0.0037,
-        "beat": 0.5625,
+        "measured": 17,
+        "clv": 0.0016,
+        "beat": 0.5294,
         "cold": false,
         "next": {
           "title": "Sharp",
@@ -1438,20 +1450,20 @@
             {
               "text": "40 measured bets",
               "done": false,
-              "now": "16"
+              "now": "17"
             },
             {
               "text": "beat the market on 55%+",
-              "done": true,
-              "now": "56%"
+              "done": false,
+              "now": "53%"
             },
             {
               "text": "average price +1.0%+ vs market",
               "done": false,
-              "now": "+0.4%"
+              "now": "+0.2%"
             }
           ],
-          "progress": 0.4
+          "progress": 0.425
         }
       },
       "explorer": {
@@ -1637,10 +1649,10 @@
           },
           {
             "conf": "watching",
-            "n": 21,
+            "n": 22,
             "z": 0,
-            "text": "When I find value, the market moves my way before kick-off 52% of the time.",
-            "detail": "21 bets measured"
+            "text": "When I find value, the market moves my way before kick-off 50% of the time.",
+            "detail": "22 bets measured"
           }
         ],
         "rules": 1,
@@ -2498,8 +2510,8 @@
       "edge": 0.0338,
       "stake": 11.43,
       "status": "open",
-      "closing_fair_odds": null,
-      "clv": null,
+      "closing_fair_odds": 1.944,
+      "clv": -0.0329,
       "profit": 0.0,
       "score": null,
       "settled_at": null,
@@ -3226,12 +3238,12 @@
       "fair_odds": 3.163,
       "edge": 0.0118,
       "stake": 2.49,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 3.092,
       "clv": 0.0348,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -2.49,
+      "score": "CD Eldense 2 - 0 Sabadell FC",
+      "settled_at": "2026-11-15T22:00:55Z",
       "thoughts": [
         "🧭 Exploring. I've only made 3 bets like this (La Liga 2 (Spain 2) winner bets at middle odds).",
         "Draw at 3.20 is +1.18% above fair: below my usual bar, but the only way to learn if this kind of bet works for me is to try it.",
@@ -3262,12 +3274,12 @@
       "fair_odds": 1.611,
       "edge": 0.0243,
       "stake": 9.12,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 1.594,
       "clv": 0.0351,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -9.12,
+      "score": "SD Eibar 1 - 1 Cádiz CF",
+      "settled_at": "2026-11-15T22:00:55Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates SD Eibar at 62.1%. That makes the fair price 1.61.",
         "Unibet (SE) pays 1.65. That is +2.4% above fair. My bar is +2.0%.",
@@ -3300,12 +3312,12 @@
       "fair_odds": 3.728,
       "edge": 0.0059,
       "stake": 0.99,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 3.645,
       "clv": 0.0289,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -0.99,
+      "score": "Granada CF 1 - 0 Las Palmas",
+      "settled_at": "2026-11-15T22:00:55Z",
       "thoughts": [
         "🧭 Exploring. I've only made 1 bet like this (La Liga 2 (Spain 2) winner bets at long shots).",
         "Draw at 3.75 is +0.59% above fair: below my usual bar, but the only way to learn if this kind of bet works for me is to try it.",
@@ -6285,10 +6297,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-14T16:00:55Z",
-      "text": "Placed 6 practice bets:\n- The Lizard: **Andorra CF** (Winner) in Almería vs Andorra CF (La Liga 2 (Spain 2)) at 4.8 on Matchbook, stake 1.87, edge +2.8%\n- The Quant: **Brooklyn Nets** (Winner) in Memphis Grizzlies vs Brooklyn Nets (NBA) at 2.5 on Everygame, stake 3.63, edge +1.8%\n- The Quant: **Under 149.5** (Total) in Bellarmine Knights vs Northern Illinois Huskies (College basketball (US)) at 1.95 on BetOnline.ag, stake 4.91, edge +1.6%\n- The Shark 🧭 scout: **Oklahoma State Cowboys** (Winner) in Oklahoma State Cowboys vs Texas Tech Red Raiders (College football (US)) at 1.67 on Marathon Bet, stake 2.50, edge +1.3%\n- The Quant 💭 gut: **Dallas Mavericks** (Winner) in Cleveland Cavaliers vs Dallas Mavericks (NBA) at 1.88 on Marathon Bet, stake 2.45, edge +-0.2%\n- The Quant 💭 gut: **LSU Tigers** (Winner) in Gonzaga Bulldogs vs LSU Tigers (College basketball (US)) at 3.0 on Unibet (NL), stake 2.45, edge +0.9%"
-    },
-    {
       "t": "2026-11-14T16:30:46Z",
       "text": "🏁 🦈 The Shark now leads the race to go live (20 days to selection)."
     },
@@ -6403,6 +6411,10 @@
     {
       "t": "2026-11-15T20:45:29Z",
       "text": "✅ 🦈 The Shark completed 🎯 Precision day: 2 bets beat the market."
+    },
+    {
+      "t": "2026-11-15T22:00:55Z",
+      "text": "Results:\n- Lost -0.99: Draw (Winner) in Granada CF vs Las Palmas (Granada CF 1 - 0 Las Palmas)\n- Lost -2.49: Draw (Winner) in CD Eldense vs Sabadell FC (CD Eldense 2 - 0 Sabadell FC)\n- Lost -9.12: SD Eibar (Winner) in SD Eibar vs Cádiz CF (SD Eibar 1 - 1 Cádiz CF)"
     }
   ]
 }
