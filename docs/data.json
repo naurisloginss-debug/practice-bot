@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-15T04:00:57Z",
+  "updated": "2026-11-15T04:15:29Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -489,7 +489,7 @@
       "leader": "quant"
     }
   },
-  "credits_left": 19317,
+  "credits_left": 19315,
   "last_scan": "2026-11-14@16",
   "strategies": {
     "lizard": {
@@ -534,7 +534,7 @@
         "Total"
       ],
       "start_fund": 500,
-      "fund": 491.54,
+      "fund": 488.94,
       "lessons": [
         {
           "kind": "avoid",
@@ -543,12 +543,12 @@
         }
       ],
       "bets": 34,
-      "open": 4,
+      "open": 3,
       "won": 7,
-      "lost": 23,
-      "staked": 41.31,
-      "profit": -8.46,
-      "roi": -0.2048,
+      "lost": 24,
+      "staked": 43.91,
+      "profit": -11.06,
+      "roi": -0.2519,
       "avg_edge": 0.0282,
       "avg_clv": -0.0192,
       "beat_close": 0.625,
@@ -677,6 +677,10 @@
         {
           "t": "2026-11-14T22:00:58Z",
           "fund": 491.54
+        },
+        {
+          "t": "2026-11-15T04:15:29Z",
+          "fund": 488.94
         }
       ],
       "by_league": [
@@ -728,8 +732,8 @@
         {
           "name": "La Liga 2 (Spain 2)",
           "bets": 7,
-          "profit": -3.29,
-          "roi": -0.4896,
+          "profit": -5.89,
+          "roi": -0.632,
           "avg_clv": -0.0108,
           "beat_close": 0.6,
           "clv_count": 5
@@ -775,8 +779,8 @@
         {
           "name": "Winner",
           "bets": 32,
-          "profit": -5.36,
-          "roi": -0.1403,
+          "profit": -7.96,
+          "roi": -0.1951,
           "avg_clv": -0.0214,
           "beat_close": 0.6,
           "clv_count": 30
@@ -786,8 +790,8 @@
         {
           "name": "Football",
           "bets": 34,
-          "profit": -8.46,
-          "roi": -0.2048,
+          "profit": -11.06,
+          "roi": -0.2519,
           "avg_clv": -0.0192,
           "beat_close": 0.625,
           "clv_count": 32
@@ -3433,12 +3437,12 @@
       "fair_odds": 3.364,
       "edge": 0.0256,
       "stake": 2.6,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 3.265,
       "clv": 0.0567,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -2.6,
+      "score": "Oviedo 1 - 2 Girona FC",
+      "settled_at": "2026-11-15T04:15:29Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates Draw at 29.7%. That makes the fair price 3.36.",
         "Winamax (DE) pays 3.45. That is +2.6% above fair. My bar is +2.0%.",
@@ -5614,10 +5618,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-14T00:00:53Z",
-      "text": "🎯 🦈 The Shark's challenge today: 🎯 Precision day. Only bets with an edge 1% above my usual bar, and at least 2 of them must beat the market."
-    },
-    {
       "t": "2026-11-14T02:45:31Z",
       "text": "❌ 🧮 The Quant missed 🎯 Precision day: 3 bets, but not enough beat the market."
     },
@@ -5732,6 +5732,10 @@
     {
       "t": "2026-11-15T03:30:42Z",
       "text": "🏁 🧮 The Quant now leads the race to go live (19 days to selection)."
+    },
+    {
+      "t": "2026-11-15T04:15:29Z",
+      "text": "Results:\n- Lost -2.60: Draw (Winner) in Oviedo vs Girona FC (Oviedo 1 - 2 Girona FC)"
     }
   ]
 }
