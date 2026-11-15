@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-15T06:15:31Z",
+  "updated": "2026-11-15T06:30:43Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -184,8 +184,8 @@
         ]
       },
       "quant": {
-        "iq": 116,
-        "iq_gain": 32,
+        "iq": 117,
+        "iq_gain": 33,
         "streak": 0,
         "best_streak": 3,
         "achievements": [
@@ -307,7 +307,7 @@
             "pending": false
           }
         ],
-        "score": 162,
+        "score": 163,
         "trophies": []
       },
       "shark": {
@@ -818,7 +818,7 @@
         "appetite": 0.45
       },
       "reading": {
-        "week": 92,
+        "week": 100,
         "latest": [
           {
             "t": "2026-11-14T19:15:00Z",
@@ -1366,8 +1366,15 @@
         "appetite": 0.35
       },
       "reading": {
-        "week": 74,
+        "week": 90,
         "latest": [
+          {
+            "t": "2026-11-15T04:16:20Z",
+            "title": "Lakers vs. Suns Preview: Adjusting without Austin Reaves",
+            "link": "https://sports.yahoo.com/articles/lakers-vs-suns-preview-adjusting-041620618.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
           {
             "t": "2026-11-15T01:58:42Z",
             "title": "Is Austin Reaves playing Sunday? Injury status for Lakers-Suns",
@@ -1390,25 +1397,18 @@
             "tone": -1
           },
           {
-            "t": "2026-11-14T22:12:48Z",
-            "title": "Embiid OUT, LeBron James not listed on injury report for Sixers-Pacers",
-            "link": "https://sports.yahoo.com/articles/embiid-lebron-james-not-listed-221248790.html",
+            "t": "2026-11-14T23:04:54Z",
+            "title": "Observations after Sixers shake off slow start, Embiid injury scare to win",
+            "link": "https://sports.yahoo.com/articles/observations-sixers-shake-off-slow-171100041.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-14T22:11:24Z",
-            "title": "Barlow ‘making progress,&#39; Embiid out vs. Pacers, more on Sixers",
-            "link": "https://sports.yahoo.com/articles/barlow-making-progress-embiid-vs-221124067.html",
+            "t": "2026-11-14T23:04:54Z",
+            "title": "Paul George flips the script — and the bird — in Philadelphia return",
+            "link": "https://sports.yahoo.com/articles/paul-george-flips-script-bird-023500511.html",
             "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-14T21:56:06Z",
-            "title": "Warriors without Steph Curry leads to embarrassing NBA downgrade",
-            "link": "https://sports.yahoo.com/articles/warriors-without-steph-curry-leads-215606923.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
+            "tone": 1
           }
         ]
       },
@@ -1586,8 +1586,8 @@
       },
       "traits": [],
       "mind": {
-        "iq": 116,
-        "iq_week": 35,
+        "iq": 117,
+        "iq_week": 36,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -1635,7 +1635,7 @@
           },
           {
             "d": "2026-11-15",
-            "iq": 116
+            "iq": 117
           }
         ],
         "facts": [
@@ -1874,14 +1874,28 @@
         "appetite": 0.6
       },
       "reading": {
-        "week": 434,
+        "week": 410,
         "latest": [
+          {
+            "t": "2026-11-15T04:34:28Z",
+            "title": "Curt Cignetti breaks down Indiana decision to start Grant Wilson over Josh Hoover vs. USC",
+            "link": "https://sports.yahoo.com/articles/curt-cignetti-breaks-down-indiana-043428998.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
           {
             "t": "2026-11-15T03:27:56Z",
             "title": "NFL odds, picks: Brinson's Week 10 best bets, player props, anytime touchdown scorers for Sunday's matchups",
             "link": "https://www.cbssports.com/betting/news/nfl-odds-picks-brinsons-week-10-best-bets-player-props-anytime-touchdown-scorers-for-sundays-matchups/",
             "source": "www.cbssports.com",
             "tone": 1
+          },
+          {
+            "t": "2026-11-15T03:23:59Z",
+            "title": "Titans place guard Peter Skoronski on injured reserve",
+            "link": "https://sports.yahoo.com/articles/titans-place-guard-peter-skoronski-032359132.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
           },
           {
             "t": "2026-11-15T02:30:00Z",
@@ -1901,20 +1915,6 @@
             "t": "2026-11-15T02:19:48Z",
             "title": "Cutter Woods gets start at quarterback for South Carolina over injured LaNorris Sellers vs. Arkansas",
             "link": "https://sports.yahoo.com/articles/cutter-woods-gets-start-quarterback-021948852.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-15T02:04:24Z",
-            "title": "Mount Carmel football (IL) heard the doubts. Its upset of the No. 1 seed answered them",
-            "link": "https://sports.yahoo.com/articles/mount-carmel-football-il-heard-020424634.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-15T02:00:43Z",
-            "title": "Josh Whyle lands on IR",
-            "link": "https://sports.yahoo.com/articles/josh-whyle-lands-ir-020043693.html",
             "source": "sports.yahoo.com",
             "tone": -1
           }
