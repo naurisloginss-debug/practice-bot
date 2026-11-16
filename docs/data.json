@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16T05:30:43Z",
+  "updated": "2026-11-16T05:45:30Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -518,7 +518,7 @@
       "leader": "shark"
     }
   },
-  "credits_left": 19212,
+  "credits_left": 19210,
   "last_scan": "2026-11-15@16",
   "strategies": {
     "lizard": {
@@ -1793,15 +1793,15 @@
         "Winner"
       ],
       "start_fund": 500,
-      "fund": 497.14,
+      "fund": 493.54,
       "lessons": [],
       "bets": 34,
-      "open": 6,
-      "won": 7,
-      "lost": 21,
-      "staked": 40.57,
-      "profit": -2.86,
-      "roi": -0.0705,
+      "open": 2,
+      "won": 8,
+      "lost": 24,
+      "staked": 48.33,
+      "profit": -6.46,
+      "roi": -0.1337,
       "avg_edge": 0.0186,
       "avg_clv": 0.0192,
       "beat_close": 0.6,
@@ -1922,6 +1922,22 @@
         {
           "t": "2026-11-16T02:30:45Z",
           "fund": 497.14
+        },
+        {
+          "t": "2026-11-16T05:45:30Z",
+          "fund": 499.28
+        },
+        {
+          "t": "2026-11-16T05:45:30Z",
+          "fund": 497.02
+        },
+        {
+          "t": "2026-11-16T05:45:30Z",
+          "fund": 496.02
+        },
+        {
+          "t": "2026-11-16T05:45:30Z",
+          "fund": 493.54
         }
       ],
       "by_league": [
@@ -1946,8 +1962,8 @@
         {
           "name": "NFL",
           "bets": 16,
-          "profit": 0.71,
-          "roi": 0.0338,
+          "profit": -2.89,
+          "roi": -0.1004,
           "avg_clv": 0.0139,
           "beat_close": 0.5385,
           "clv_count": 13
@@ -1957,8 +1973,8 @@
         {
           "name": "Spread",
           "bets": 6,
-          "profit": -2.71,
-          "roi": -0.2955,
+          "profit": -3.05,
+          "roi": -0.2231,
           "avg_clv": 0.0205,
           "beat_close": 0.5,
           "clv_count": 6
@@ -1966,8 +1982,8 @@
         {
           "name": "Winner",
           "bets": 24,
-          "profit": 6.85,
-          "roi": 0.2807,
+          "profit": 3.59,
+          "roi": 0.1298,
           "avg_clv": 0.0198,
           "beat_close": 0.5909,
           "clv_count": 22
@@ -1986,8 +2002,8 @@
         {
           "name": "American football",
           "bets": 34,
-          "profit": -2.86,
-          "roi": -0.0705,
+          "profit": -6.46,
+          "roi": -0.1337,
           "avg_clv": 0.0192,
           "beat_close": 0.6,
           "clv_count": 30
@@ -2331,7 +2347,7 @@
         ],
         "rules": 0,
         "studied": 151,
-        "resolved": 146
+        "resolved": 150
       }
     }
   },
@@ -2437,12 +2453,12 @@
       "fair_odds": 2.016,
       "edge": 0.0213,
       "stake": 2.02,
-      "status": "open",
+      "status": "won",
       "closing_fair_odds": 1.926,
       "clv": 0.0687,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": 2.14,
+      "score": "Cincinnati Bengals 38 - 18 Pittsburgh Steelers",
+      "settled_at": "2026-11-16T05:45:30Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates Cincinnati Bengals -3.5 at 49.6%. That makes the fair price 2.02.",
         "Matchbook pays 2.08 (2.06 after the exchange fee). That is +2.1% above fair. My bar is +2.0%.",
@@ -2742,12 +2758,12 @@
       "fair_odds": 2.852,
       "edge": 0.0103,
       "stake": 1.0,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 2.86,
       "clv": 0.0076,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -1.0,
+      "score": "Dallas Cowboys 40 - 46 San Francisco 49ers",
+      "settled_at": "2026-11-16T05:45:30Z",
       "thoughts": [
         "🧭 Exploring. I've only made 1 bet like this (NFL winner bets at middle odds).",
         "Dallas Cowboys at 2.92 is +1.03% above fair: below my usual bar, but the only way to learn if this kind of bet works for me is to try it.",
@@ -2819,12 +2835,12 @@
       "fair_odds": 3.471,
       "edge": 0.0603,
       "stake": 2.26,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 3.445,
       "clv": 0.0681,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -2.26,
+      "score": "Las Vegas Raiders 13 - 21 Seattle Seahawks",
+      "settled_at": "2026-11-16T05:45:30Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates Las Vegas Raiders at 28.8%. That makes the fair price 3.47.",
         "Marathon Bet pays 3.68. That is +6.0% above fair. My bar is +1.5%.",
@@ -2859,12 +2875,12 @@
       "fair_odds": 1.894,
       "edge": 0.0086,
       "stake": 2.48,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 1.917,
       "clv": -0.0035,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -2.48,
+      "score": "Arizona Cardinals 6 - 34 Los Angeles Rams",
+      "settled_at": "2026-11-16T05:45:30Z",
       "thoughts": [
         "🧭 Exploring. I've only made 1 bet like this (NFL spread bets at favourites).",
         "Arizona Cardinals +10.5 at 1.91 is +0.86% above fair: below my usual bar, but the only way to learn if this kind of bet works for me is to try it.",
@@ -6453,10 +6469,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-15T02:15:30Z",
-      "text": "✅ 🦈 The Shark completed 🎯 Precision day: 2 bets beat the market."
-    },
-    {
       "t": "2026-11-15T02:30:43Z",
       "text": "🏁 🦈 The Shark now leads the race to go live (19 days to selection)."
     },
@@ -6571,6 +6583,10 @@
     {
       "t": "2026-11-16T03:15:31Z",
       "text": "Results:\n- Lost -2.45: Phoenix Suns (Winner) in Phoenix Suns vs Los Angeles Lakers (Phoenix Suns 123 - 131 Los Angeles Lakers)\n- Lost -1.22: Dallas Mavericks (Winner) in Boston Celtics vs Dallas Mavericks (Boston Celtics 131 - 94 Dallas Mavericks)"
+    },
+    {
+      "t": "2026-11-16T05:45:30Z",
+      "text": "Results:\n- Won +2.14: Cincinnati Bengals -3.5 (Spread) in Cincinnati Bengals vs Pittsburgh Steelers (Cincinnati Bengals 38 - 18 Pittsburgh Steelers)\n- Lost -2.26: Las Vegas Raiders (Winner) in Las Vegas Raiders vs Seattle Seahawks (Las Vegas Raiders 13 - 21 Seattle Seahawks)\n- Lost -1.00: Dallas Cowboys (Winner) in Dallas Cowboys vs San Francisco 49ers (Dallas Cowboys 40 - 46 San Francisco 49ers)\n- Lost -2.48: Arizona Cardinals +10.5 (Spread) in Arizona Cardinals vs Los Angeles Rams (Arizona Cardinals 6 - 34 Los Angeles Rams)"
     }
   ]
 }
