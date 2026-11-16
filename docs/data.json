@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16T16:15:32Z",
+  "updated": "2026-11-16T16:30:49Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -184,8 +184,8 @@
         ]
       },
       "quant": {
-        "iq": 120,
-        "iq_gain": 0,
+        "iq": 119,
+        "iq_gain": -1,
         "streak": 0,
         "best_streak": 3,
         "achievements": [
@@ -307,7 +307,7 @@
             "pending": true
           }
         ],
-        "score": 171,
+        "score": 170,
         "trophies": [
           {
             "kind": "grower",
@@ -867,8 +867,22 @@
         "appetite": 0.45
       },
       "reading": {
-        "week": 101,
+        "week": 106,
         "latest": [
+          {
+            "t": "2026-11-16T16:02:13Z",
+            "title": "Report Maignan tests reassuring for Milan after France injury",
+            "link": "https://football-italia.net/maignan-tests-reassuring-milan-france-injury/",
+            "source": "football-italia.net",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-16T15:55:16Z",
+            "title": "Wales without injured Williams for Portugal game",
+            "link": "https://www.bbc.co.uk/sport/football/articles/cmkgk3nv6pqyo?at_medium=RSS&at_campaign=rss",
+            "source": "feeds.bbci.co.uk",
+            "tone": -1
+          },
           {
             "t": "2026-11-16T13:06:39Z",
             "title": "Another injury concern for Juventus as Zhegrova withdraws from Kosovo squad",
@@ -896,20 +910,6 @@
             "link": "https://www.bbc.co.uk/sport/football/articles/cmp867d026nno?at_medium=RSS&at_campaign=rss",
             "source": "feeds.bbci.co.uk",
             "tone": -1
-          },
-          {
-            "t": "2026-11-15T17:40:41Z",
-            "title": "Ronaldinho after Ravenna debut at 46: ‘It went by too fast, football most wonderful thing in my life’",
-            "link": "https://football-italia.net/ronaldinho-after-ravenna-debut-at-46-too-fast/",
-            "source": "football-italia.net",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-15T16:54:34Z",
-            "title": "Udogie tension with De Zerbi and Tottenham can fuel Juventus report",
-            "link": "https://football-italia.net/udogie-tension-de-zerbi-tottenham-juventus/",
-            "source": "football-italia.net",
-            "tone": 1
           }
         ]
       },
@@ -1502,8 +1502,29 @@
         "appetite": 0.35
       },
       "reading": {
-        "week": 105,
+        "week": 75,
         "latest": [
+          {
+            "t": "2026-11-16T15:30:00Z",
+            "title": "Cavs vs. Bulls: How to watch, odds, and injury report",
+            "link": "https://sports.yahoo.com/articles/cavs-vs-bulls-watch-odds-153000002.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-16T14:14:16Z",
+            "title": "Rockets vs. Heat NBA picks: One 4-game winning streak will end as Giannis Antetokounmpo, Kevin Durant duel",
+            "link": "https://www.cbssports.com/betting/news/rockets-vs-heat-nba-picks-one-4-game-winning-streak-will-end-as-giannis-antetokounmpo-kevin-durant-duel/",
+            "source": "www.cbssports.com",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-16T12:10:13Z",
+            "title": "Preview: Wizards host Grizzlies",
+            "link": "https://sports.yahoo.com/articles/preview-wizards-host-grizzlies-121013453.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
           {
             "t": "2026-11-16T10:47:09Z",
             "title": "Ousmane Dieng to undergo surgery",
@@ -1524,27 +1545,6 @@
             "link": "https://sports.yahoo.com/articles/raptors-fall-defending-champs-overtime-023913277.html",
             "source": "sports.yahoo.com",
             "tone": 1
-          },
-          {
-            "t": "2026-11-16T00:25:34Z",
-            "title": "NBA News: Jaylen Clark out 2 weeks",
-            "link": "https://sports.yahoo.com/articles/nba-news-jaylen-clark-2-002534979.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-15T22:48:16Z",
-            "title": "Mavericks vs Celtics Preview and Injury Report: Sunday early evening basketball",
-            "link": "https://sports.yahoo.com/articles/mavericks-vs-celtics-preview-injury-224816612.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-15T21:50:09Z",
-            "title": "Lakers share update on Austin Reaves’ injury: a ‘pain tolerance’ issue",
-            "link": "https://sports.yahoo.com/articles/lakers-share-austin-reaves-injury-215009338.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
           }
         ]
       },
@@ -1698,8 +1698,8 @@
       },
       "traits": [],
       "mind": {
-        "iq": 120,
-        "iq_week": 36,
+        "iq": 119,
+        "iq_week": 35,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -1751,7 +1751,7 @@
           },
           {
             "d": "2026-11-16",
-            "iq": 120
+            "iq": 119
           }
         ],
         "facts": [
@@ -2073,47 +2073,47 @@
         "appetite": 0.6
       },
       "reading": {
-        "week": 394,
+        "week": 419,
         "latest": [
           {
-            "t": "2026-11-16T12:09:20Z",
-            "title": "What the reported Drake Maye injury means for the Patriots",
-            "link": "https://sports.yahoo.com/articles/reported-drake-maye-injury-means-120920022.html",
+            "t": "2026-11-16T16:14:47Z",
+            "title": "It&#39;s a down week in college football. Where is &#39;College GameDay&#39; heading in Week 12?",
+            "link": "https://sports.yahoo.com/articles/down-week-college-football-where-161447083.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-16T16:09:15Z",
+            "title": "Super Bowl betting, odds: How Drake Maye, Aidan Hutchinson injuries impact the Super Bowl odds",
+            "link": "https://sports.yahoo.com/nfl/betting/article/super-bowl-betting-odds-how-drake-maye-aidan-hutchinson-injuries-impact-the-super-bowl-odds-160915333.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-16T12:03:49Z",
-            "title": "Aidan Hutchinson injury: Lions star joins bizarre list of NFL players hurt while celebrating",
-            "link": "https://www.cbssports.com/nfl/news/aidan-hutchinson-injury-lions-nfl-celebrations/",
-            "source": "www.cbssports.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-16T12:02:55Z",
-            "title": "Ravens vs. Chargers: Can LA get its first win on 'MNF' against the injury-plagued Ravens?",
-            "link": "https://www.cbssports.com/nfl/news/ravens-vs-chargers-how-to-watch-spread-odds-preview-prediction/",
-            "source": "www.cbssports.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-16T12:01:17Z",
-            "title": "Sounds unlikely Bills face Drake Maye vs. Patriots in early December",
-            "link": "https://sports.yahoo.com/articles/sounds-unlikely-bills-face-drake-120117201.html",
+            "t": "2026-11-16T15:30:23Z",
+            "title": "Detroit Lions Week 10 snap counts: Derrick Moore steps up after Hutchinson injury",
+            "link": "https://sports.yahoo.com/articles/detroit-lions-week-10-snap-153023121.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-16T12:00:00Z",
-            "title": "Are you confident in the Lions defense without Aidan Hutchinson?",
-            "link": "https://sports.yahoo.com/articles/confident-lions-defense-without-aidan-120000751.html",
+            "t": "2026-11-16T15:29:21Z",
+            "title": "Did Drake Maye get injured on an illegal play?",
+            "link": "https://sports.yahoo.com/articles/did-drake-maye-injured-illegal-152921995.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-16T11:57:45Z",
-            "title": "Drake Maye injury: Patriots QB hurts ankle vs. Lions",
-            "link": "https://sports.yahoo.com/articles/drake-maye-injury-patriots-qb-151411451.html",
+            "t": "2026-11-16T15:19:03Z",
+            "title": "Miami HC Mario Cristobal teases Malachi Toney’s injury return alongside Mark Fletcher Jr. update",
+            "link": "https://sports.yahoo.com/articles/miami-hc-mario-cristobal-teases-151903124.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-16T15:16:54Z",
+            "title": "Geno Smith getting tests on ankle, will start in Week 11 if healthy",
+            "link": "https://sports.yahoo.com/articles/geno-smith-getting-tests-ankle-151654779.html",
             "source": "sports.yahoo.com",
             "tone": -1
           }
