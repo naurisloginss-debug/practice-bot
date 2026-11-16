@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16T06:45:38Z",
+  "updated": "2026-11-16T07:00:54Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -12,7 +12,7 @@
       "shark",
       "lizard"
     ],
-    "grower": null,
+    "grower": "quant",
     "talk": [
       {
         "who": "quant",
@@ -184,8 +184,8 @@
         ]
       },
       "quant": {
-        "iq": 119,
-        "iq_gain": 0,
+        "iq": 120,
+        "iq_gain": 1,
         "streak": 0,
         "best_streak": 3,
         "achievements": [
@@ -271,7 +271,7 @@
             "emoji": "💡",
             "title": "IQ 120",
             "desc": "Reached Sport IQ 120.",
-            "at": null
+            "at": "2026-11-16T07:00:54Z"
           },
           {
             "key": "sharp",
@@ -307,7 +307,7 @@
             "pending": true
           }
         ],
-        "score": 165,
+        "score": 171,
         "trophies": [
           {
             "kind": "grower",
@@ -867,7 +867,7 @@
         "appetite": 0.45
       },
       "reading": {
-        "week": 78,
+        "week": 63,
         "latest": [
           {
             "t": "2026-11-15T21:30:09Z",
@@ -891,24 +891,24 @@
             "tone": 1
           },
           {
-            "t": "2026-11-15T18:24:54Z",
-            "title": "Children's tournament abandoned for parents' behaviour",
-            "link": "https://www.bbc.co.uk/sport/football/articles/cmp867d026nno?at_medium=RSS&at_campaign=rss",
+            "t": "2026-11-15T14:06:19Z",
+            "title": "Club's first match since player's death abandoned because of serious injury",
+            "link": "https://www.bbc.co.uk/sport/football/articles/cm98xd2dpjd7o?at_medium=RSS&at_campaign=rss",
             "source": "feeds.bbci.co.uk",
             "tone": -1
           },
           {
-            "t": "2026-11-15T17:40:41Z",
-            "title": "Ronaldinho after Ravenna debut at 46: ‘It went by too fast, football most wonderful thing in my life’",
-            "link": "https://football-italia.net/ronaldinho-after-ravenna-debut-at-46-too-fast/",
-            "source": "football-italia.net",
+            "t": "2026-11-15T11:28:25Z",
+            "title": "Wenger decides not to challenge Fifa chief Infantino",
+            "link": "https://www.bbc.co.uk/sport/football/articles/c539gn33z1l3o?at_medium=RSS&at_campaign=rss",
+            "source": "feeds.bbci.co.uk",
             "tone": 1
           },
           {
-            "t": "2026-11-15T16:54:34Z",
-            "title": "Udogie tension with De Zerbi and Tottenham can fuel Juventus report",
-            "link": "https://football-italia.net/udogie-tension-de-zerbi-tottenham-juventus/",
-            "source": "football-italia.net",
+            "t": "2026-11-14T18:27:23Z",
+            "title": "Le Tissier stars as Man Utd beat Crystal Palace to extend unbeaten run",
+            "link": "https://www.bbc.co.uk/sport/football/videos/cqglrkk7gr1xo?at_medium=RSS&at_campaign=rss",
+            "source": "feeds.bbci.co.uk",
             "tone": 1
           }
         ]
@@ -1463,8 +1463,15 @@
         "appetite": 0.35
       },
       "reading": {
-        "week": 93,
+        "week": 112,
         "latest": [
+          {
+            "t": "2026-11-16T02:39:13Z",
+            "title": "Raptors fall to defending champs in overtime",
+            "link": "https://sports.yahoo.com/articles/raptors-fall-defending-champs-overtime-023913277.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
           {
             "t": "2026-11-16T00:25:34Z",
             "title": "NBA News: Jaylen Clark out 2 weeks",
@@ -1487,25 +1494,18 @@
             "tone": -1
           },
           {
+            "t": "2026-11-15T21:43:12Z",
+            "title": "One week after trade, Nique Clifford takes blame for falling out of Kings&#39; favor",
+            "link": "https://sports.yahoo.com/articles/one-week-trade-nique-clifford-214312140.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
+          {
             "t": "2026-11-15T21:30:00Z",
             "title": "It’s time for Basketball: San Antonio Spurs vs Utah Jazz",
             "link": "https://sports.yahoo.com/articles/time-basketball-san-antonio-spurs-213000944.html",
             "source": "sports.yahoo.com",
             "tone": 1
-          },
-          {
-            "t": "2026-11-15T20:00:00Z",
-            "title": "Game Thread: Booker, Luka, and a Sunday showdown with plenty of bad blood",
-            "link": "https://sports.yahoo.com/articles/game-thread-booker-luka-sunday-200000717.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-15T17:30:00Z",
-            "title": "Week 5 Look-Ahead: Stephen Curry and Caleb Wilson go do, and toss Jeremiah Fears the keys",
-            "link": "https://sports.yahoo.com/articles/week-5-look-ahead-stephen-173000431.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
           }
         ]
       },
@@ -1659,8 +1659,8 @@
       },
       "traits": [],
       "mind": {
-        "iq": 119,
-        "iq_week": 35,
+        "iq": 120,
+        "iq_week": 36,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -1712,7 +1712,7 @@
           },
           {
             "d": "2026-11-16",
-            "iq": 119
+            "iq": 120
           }
         ],
         "facts": [
@@ -2030,8 +2030,15 @@
         "appetite": 0.6
       },
       "reading": {
-        "week": 429,
+        "week": 425,
         "latest": [
+          {
+            "t": "2026-11-16T05:00:04Z",
+            "title": "What Tennessee HC Josh Heupel said about using 2 QBs in win over Texas A&M",
+            "link": "https://sports.yahoo.com/articles/tennessee-hc-josh-heupel-said-050004952.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
           {
             "t": "2026-11-16T02:51:33Z",
             "title": "Steelers OL Mason McCormick carted off field vs. Bengals",
@@ -2065,13 +2072,6 @@
             "title": "No word on severity of Brock Bowers&#39;s ankle injury, will be re-evaluated Monday",
             "link": "https://sports.yahoo.com/articles/no-word-severity-brock-bowerss-011607370.html",
             "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-16T00:36:03Z",
-            "title": "Raiders' Brock Bowers suffers ankle injury, misses majority of Fernando Mendoza's first career start",
-            "link": "https://www.cbssports.com/nfl/news/brock-bowers-injury-raiders-fernando-mendoza-debut/",
-            "source": "www.cbssports.com",
             "tone": -1
           }
         ]
@@ -6469,10 +6469,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-15T02:30:43Z",
-      "text": "🏁 🦈 The Shark now leads the race to go live (19 days to selection)."
-    },
-    {
       "t": "2026-11-15T03:30:42Z",
       "text": "🏁 🧮 The Quant now leads the race to go live (19 days to selection)."
     },
@@ -6587,6 +6583,10 @@
     {
       "t": "2026-11-16T05:45:30Z",
       "text": "Results:\n- Won +2.14: Cincinnati Bengals -3.5 (Spread) in Cincinnati Bengals vs Pittsburgh Steelers (Cincinnati Bengals 38 - 18 Pittsburgh Steelers)\n- Lost -2.26: Las Vegas Raiders (Winner) in Las Vegas Raiders vs Seattle Seahawks (Las Vegas Raiders 13 - 21 Seattle Seahawks)\n- Lost -1.00: Dallas Cowboys (Winner) in Dallas Cowboys vs San Francisco 49ers (Dallas Cowboys 40 - 46 San Francisco 49ers)\n- Lost -2.48: Arizona Cardinals +10.5 (Spread) in Arizona Cardinals vs Los Angeles Rams (Arizona Cardinals 6 - 34 Los Angeles Rams)"
+    },
+    {
+      "t": "2026-11-16T07:00:54Z",
+      "text": "🏅 🧮 The Quant unlocked 💡 IQ 120: Reached Sport IQ 120."
     }
   ]
 }
