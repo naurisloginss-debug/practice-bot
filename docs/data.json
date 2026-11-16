@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16T19:15:32Z",
+  "updated": "2026-11-16T19:30:49Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -12,7 +12,7 @@
       "shark",
       "lizard"
     ],
-    "grower": null,
+    "grower": "quant",
     "talk": [
       {
         "who": "quant",
@@ -184,8 +184,8 @@
         ]
       },
       "quant": {
-        "iq": 119,
-        "iq_gain": 0,
+        "iq": 120,
+        "iq_gain": 1,
         "streak": 0,
         "best_streak": 3,
         "achievements": [
@@ -307,7 +307,7 @@
             "pending": true
           }
         ],
-        "score": 170,
+        "score": 171,
         "trophies": [
           {
             "kind": "grower",
@@ -867,8 +867,22 @@
         "appetite": 0.45
       },
       "reading": {
-        "week": 106,
+        "week": 111,
         "latest": [
+          {
+            "t": "2026-11-16T19:30:37Z",
+            "title": "Football Italia Show: I witnessed Ronaldinho’s return, here’s what happened",
+            "link": "https://football-italia.net/football-italia-show-witness-ronaldinho-return/",
+            "source": "football-italia.net",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-16T17:02:39Z",
+            "title": "Ronaldinho day earns Ravenna €199,000 in ticket sales",
+            "link": "https://football-italia.net/ronaldinho-day-earns-ravenna-199k-ticket-sales/",
+            "source": "football-italia.net",
+            "tone": 1
+          },
           {
             "t": "2026-11-16T16:02:13Z",
             "title": "Report Maignan tests reassuring for Milan after France injury",
@@ -894,20 +908,6 @@
             "t": "2026-11-16T12:02:07Z",
             "title": "Republic of Ireland captain Collins to miss Kosovo game",
             "link": "https://www.bbc.co.uk/sport/football/articles/cmlyd25gy904o?at_medium=RSS&at_campaign=rss",
-            "source": "feeds.bbci.co.uk",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-16T08:48:53Z",
-            "title": "Today’s Papers: Italy focus on the positives, Ronaldinho returns, Milan push for Endrick",
-            "link": "https://football-italia.net/todays-papers-italy-focus-on-the-positives/",
-            "source": "football-italia.net",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-15T18:24:54Z",
-            "title": "Children's tournament abandoned for parents' behaviour",
-            "link": "https://www.bbc.co.uk/sport/football/articles/cmp867d026nno?at_medium=RSS&at_campaign=rss",
             "source": "feeds.bbci.co.uk",
             "tone": -1
           }
@@ -1502,12 +1502,33 @@
         "appetite": 0.35
       },
       "reading": {
-        "week": 75,
+        "week": 92,
         "latest": [
+          {
+            "t": "2026-11-16T18:34:33Z",
+            "title": "LeBron James out for 76ers on Monday vs. Nets due to low-back management; Joel Embiid questionable",
+            "link": "https://sports.yahoo.com/nba/article/lebron-james-out-for-76ers-on-monday-vs-nets-due-to-low-back-management-joel-embiid-questionable-183449525.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-16T18:15:52Z",
+            "title": "2026-27 NBA News, Injury Updates Nov. 16: Stephen Curry injured, Dejounte Murray makes trade request",
+            "link": "https://sports.yahoo.com/articles/2026-27-nba-news-injury-181552486.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
           {
             "t": "2026-11-16T15:30:00Z",
             "title": "Cavs vs. Bulls: How to watch, odds, and injury report",
             "link": "https://sports.yahoo.com/articles/cavs-vs-bulls-watch-odds-153000002.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-16T15:00:00Z",
+            "title": "Winners & Sinners: Week 4",
+            "link": "https://sports.yahoo.com/articles/winners-sinners-week-4-150000560.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
@@ -1519,32 +1540,11 @@
             "tone": 1
           },
           {
-            "t": "2026-11-16T12:10:13Z",
-            "title": "Preview: Wizards host Grizzlies",
-            "link": "https://sports.yahoo.com/articles/preview-wizards-host-grizzlies-121013453.html",
+            "t": "2026-11-16T13:44:35Z",
+            "title": "Observations after Sixers shake off slow start, Embiid injury scare to win",
+            "link": "https://sports.yahoo.com/articles/observations-sixers-shake-off-slow-171100041.html",
             "source": "sports.yahoo.com",
             "tone": -1
-          },
-          {
-            "t": "2026-11-16T10:47:09Z",
-            "title": "Ousmane Dieng to undergo surgery",
-            "link": "https://sports.yahoo.com/articles/ousmane-dieng-undergo-surgery-104709451.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-16T04:28:04Z",
-            "title": "Nets’ jumbo lineup proving to be intriguing wrinkle — even with mixed results",
-            "link": "https://sports.yahoo.com/articles/nets-jumbo-lineup-proving-intriguing-042804803.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-16T02:39:13Z",
-            "title": "Raptors fall to defending champs in overtime",
-            "link": "https://sports.yahoo.com/articles/raptors-fall-defending-champs-overtime-023913277.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
           }
         ]
       },
@@ -1698,8 +1698,8 @@
       },
       "traits": [],
       "mind": {
-        "iq": 119,
-        "iq_week": 35,
+        "iq": 120,
+        "iq_week": 36,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -1751,7 +1751,7 @@
           },
           {
             "d": "2026-11-16",
-            "iq": 119
+            "iq": 120
           }
         ],
         "facts": [
@@ -2073,47 +2073,47 @@
         "appetite": 0.6
       },
       "reading": {
-        "week": 419,
+        "week": 397,
         "latest": [
           {
-            "t": "2026-11-16T16:14:47Z",
-            "title": "It&#39;s a down week in college football. Where is &#39;College GameDay&#39; heading in Week 12?",
-            "link": "https://sports.yahoo.com/articles/down-week-college-football-where-161447083.html",
+            "t": "2026-11-16T19:13:30Z",
+            "title": "George Holani expected to miss time with injury",
+            "link": "https://sports.yahoo.com/articles/george-holani-expected-miss-time-191330664.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-16T19:06:36Z",
+            "title": "Curt Cignetti goes nuclear on Indiana haters in fiery rant: ‘I really don’t give a (bleep)’",
+            "link": "https://sports.yahoo.com/articles/curt-cignetti-goes-nuclear-indiana-190636817.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-16T19:05:35Z",
+            "title": "Week 12 Heisman Trophy Power Rankings: Devon Dampier has his Heisman moment",
+            "link": "https://sports.yahoo.com/articles/week-12-heisman-trophy-power-190535045.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-16T19:01:48Z",
+            "title": "Report: George Holani week-to-week with MCL sprain",
+            "link": "https://sports.yahoo.com/articles/report-george-holani-week-week-190148507.html",
             "source": "sports.yahoo.com",
             "tone": 1
           },
           {
-            "t": "2026-11-16T16:09:15Z",
-            "title": "Super Bowl betting, odds: How Drake Maye, Aidan Hutchinson injuries impact the Super Bowl odds",
-            "link": "https://sports.yahoo.com/nfl/betting/article/super-bowl-betting-odds-how-drake-maye-aidan-hutchinson-injuries-impact-the-super-bowl-odds-160915333.html",
+            "t": "2026-11-16T19:00:22Z",
+            "title": "Indiana loses starter to season-ending torn ACL",
+            "link": "https://sports.yahoo.com/articles/indiana-loses-starter-season-ending-190022854.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-16T15:30:23Z",
-            "title": "Detroit Lions Week 10 snap counts: Derrick Moore steps up after Hutchinson injury",
-            "link": "https://sports.yahoo.com/articles/detroit-lions-week-10-snap-153023121.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-16T15:29:21Z",
-            "title": "Did Drake Maye get injured on an illegal play?",
-            "link": "https://sports.yahoo.com/articles/did-drake-maye-injured-illegal-152921995.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-16T15:19:03Z",
-            "title": "Miami HC Mario Cristobal teases Malachi Toney’s injury return alongside Mark Fletcher Jr. update",
-            "link": "https://sports.yahoo.com/articles/miami-hc-mario-cristobal-teases-151903124.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-16T15:16:54Z",
-            "title": "Geno Smith getting tests on ankle, will start in Week 11 if healthy",
-            "link": "https://sports.yahoo.com/articles/geno-smith-getting-tests-ankle-151654779.html",
+            "t": "2026-11-16T19:00:00Z",
+            "title": "Rams injuries from Week 10, Coleman Shelton exits early",
+            "link": "https://sports.yahoo.com/articles/rams-injuries-week-10-coleman-190000784.html",
             "source": "sports.yahoo.com",
             "tone": -1
           }
