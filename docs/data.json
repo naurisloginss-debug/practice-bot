@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16T22:30:46Z",
+  "updated": "2026-11-16T22:45:30Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -871,8 +871,22 @@
         "appetite": 0.45
       },
       "reading": {
-        "week": 111,
+        "week": 112,
         "latest": [
+          {
+            "t": "2026-11-16T19:56:55Z",
+            "title": "Parma lose Romero for rest of 2026 after serious shoulder injury",
+            "link": "https://football-italia.net/parma-lose-romero-for-rest-of-2026-injury/",
+            "source": "football-italia.net",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-16T19:36:03Z",
+            "title": "Lazio give injury updates for Frattesi, Zaccagni and Nuno Tavares",
+            "link": "https://football-italia.net/lazio-updates-frattesi-zaccagni-nuno-tavares/",
+            "source": "football-italia.net",
+            "tone": -1
+          },
           {
             "t": "2026-11-16T19:30:37Z",
             "title": "Football Italia Show: I witnessed Ronaldinho’s return, here’s what happened",
@@ -898,20 +912,6 @@
             "t": "2026-11-16T15:55:16Z",
             "title": "Wales without injured Williams for Portugal game",
             "link": "https://www.bbc.co.uk/sport/football/articles/cmkgk3nv6pqyo?at_medium=RSS&at_campaign=rss",
-            "source": "feeds.bbci.co.uk",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-16T13:06:39Z",
-            "title": "Another injury concern for Juventus as Zhegrova withdraws from Kosovo squad",
-            "link": "https://football-italia.net/another-injury-concern-for-juventus-zhegrova/",
-            "source": "football-italia.net",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-16T12:02:07Z",
-            "title": "Republic of Ireland captain Collins to miss Kosovo game",
-            "link": "https://www.bbc.co.uk/sport/football/articles/cmlyd25gy904o?at_medium=RSS&at_campaign=rss",
             "source": "feeds.bbci.co.uk",
             "tone": -1
           }
@@ -1506,8 +1506,36 @@
         "appetite": 0.35
       },
       "reading": {
-        "week": 92,
+        "week": 91,
         "latest": [
+          {
+            "t": "2026-11-16T22:07:56Z",
+            "title": "Cavaliers&#39; Evan Mobley out at least another week with toe injury suffered in win over Knicks",
+            "link": "https://sports.yahoo.com/nba/breaking-news/article/cavaliers-evan-mobley-out-at-least-another-week-with-toe-injury-suffered-in-win-over-knicks-220756502.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-16T19:45:28Z",
+            "title": "Austin Reaves ‘improving,’ no structural damage with injury",
+            "link": "https://sports.yahoo.com/articles/austin-reaves-improving-no-structural-194528740.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-16T19:35:14Z",
+            "title": "Celtics starter on injury report ahead of game vs. Magic",
+            "link": "https://sports.yahoo.com/articles/celtics-starter-injury-report-ahead-193514066.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-16T18:55:49Z",
+            "title": "Preview: Nets look to get on track against a Sixers team without LeBron",
+            "link": "https://sports.yahoo.com/articles/preview-nets-look-track-against-185549473.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
           {
             "t": "2026-11-16T18:34:33Z",
             "title": "LeBron James out for 76ers on Monday vs. Nets due to low-back management; Joel Embiid questionable",
@@ -1519,34 +1547,6 @@
             "t": "2026-11-16T18:15:52Z",
             "title": "2026-27 NBA News, Injury Updates Nov. 16: Stephen Curry injured, Dejounte Murray makes trade request",
             "link": "https://sports.yahoo.com/articles/2026-27-nba-news-injury-181552486.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-16T15:30:00Z",
-            "title": "Cavs vs. Bulls: How to watch, odds, and injury report",
-            "link": "https://sports.yahoo.com/articles/cavs-vs-bulls-watch-odds-153000002.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-16T15:00:00Z",
-            "title": "Winners & Sinners: Week 4",
-            "link": "https://sports.yahoo.com/articles/winners-sinners-week-4-150000560.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-16T14:14:16Z",
-            "title": "Rockets vs. Heat NBA picks: One 4-game winning streak will end as Giannis Antetokounmpo, Kevin Durant duel",
-            "link": "https://www.cbssports.com/betting/news/rockets-vs-heat-nba-picks-one-4-game-winning-streak-will-end-as-giannis-antetokounmpo-kevin-durant-duel/",
-            "source": "www.cbssports.com",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-16T13:44:35Z",
-            "title": "Observations after Sixers shake off slow start, Embiid injury scare to win",
-            "link": "https://sports.yahoo.com/articles/observations-sixers-shake-off-slow-171100041.html",
             "source": "sports.yahoo.com",
             "tone": -1
           }
@@ -2080,44 +2080,44 @@
         "week": 397,
         "latest": [
           {
-            "t": "2026-11-16T19:13:30Z",
-            "title": "George Holani expected to miss time with injury",
-            "link": "https://sports.yahoo.com/articles/george-holani-expected-miss-time-191330664.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-16T19:06:36Z",
-            "title": "Curt Cignetti goes nuclear on Indiana haters in fiery rant: ‘I really don’t give a (bleep)’",
-            "link": "https://sports.yahoo.com/articles/curt-cignetti-goes-nuclear-indiana-190636817.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-16T19:05:35Z",
-            "title": "Week 12 Heisman Trophy Power Rankings: Devon Dampier has his Heisman moment",
-            "link": "https://sports.yahoo.com/articles/week-12-heisman-trophy-power-190535045.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-16T19:01:48Z",
-            "title": "Report: George Holani week-to-week with MCL sprain",
-            "link": "https://sports.yahoo.com/articles/report-george-holani-week-week-190148507.html",
+            "t": "2026-11-16T22:37:29Z",
+            "title": "Packers WR clears waivers, set up for practice squad return",
+            "link": "https://sports.yahoo.com/articles/packers-wr-clears-waivers-set-223729244.html",
             "source": "sports.yahoo.com",
             "tone": 1
           },
           {
-            "t": "2026-11-16T19:00:22Z",
-            "title": "Indiana loses starter to season-ending torn ACL",
-            "link": "https://sports.yahoo.com/articles/indiana-loses-starter-season-ending-190022854.html",
+            "t": "2026-11-16T22:36:57Z",
+            "title": "Detroit Lions re-claim EDGE rusher following Aidan Hutchinson injury",
+            "link": "https://sports.yahoo.com/articles/detroit-lions-claim-edge-rusher-223657379.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-16T19:00:00Z",
-            "title": "Rams injuries from Week 10, Coleman Shelton exits early",
-            "link": "https://sports.yahoo.com/articles/rams-injuries-week-10-coleman-190000784.html",
+            "t": "2026-11-16T22:13:05Z",
+            "title": "Texas coach Steve Sarkisian has 1 wish for Arch Manning coming out of ugly LSU game",
+            "link": "https://sports.yahoo.com/articles/texas-coach-steve-sarkisian-1-221305510.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-16T21:52:07Z",
+            "title": "Raiders TE Brock Bowers day-to-day with ankle injury that was &#39;not as bad&#39; as feared, HC Klint Kubiak says",
+            "link": "https://sports.yahoo.com/nfl/article/raiders-te-brock-bowers-day-to-day-with-ankle-injury-that-was-not-as-bad-as-feared-hc-klint-kubiak-says-215207373.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-16T21:25:13Z",
+            "title": "Florida HC Jon Sumrall Hints at $50 Million Budget Ask",
+            "link": "https://sports.yahoo.com/articles/florida-hc-jon-sumrall-hints-212513776.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-16T21:07:46Z",
+            "title": "Texas loses key starter on defense to season-ending injury",
+            "link": "https://sports.yahoo.com/articles/texas-loses-key-starter-defense-210746444.html",
             "source": "sports.yahoo.com",
             "tone": -1
           }
