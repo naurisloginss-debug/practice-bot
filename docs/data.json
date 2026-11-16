@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16T12:45:42Z",
+  "updated": "2026-11-16T13:15:33Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -867,33 +867,26 @@
         "appetite": 0.45
       },
       "reading": {
-        "week": 100,
+        "week": 101,
         "latest": [
+          {
+            "t": "2026-11-16T13:06:39Z",
+            "title": "Another injury concern for Juventus as Zhegrova withdraws from Kosovo squad",
+            "link": "https://football-italia.net/another-injury-concern-for-juventus-zhegrova/",
+            "source": "football-italia.net",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-16T12:02:07Z",
+            "title": "Republic of Ireland captain Collins to miss Kosovo game",
+            "link": "https://www.bbc.co.uk/sport/football/articles/cmlyd25gy904o?at_medium=RSS&at_campaign=rss",
+            "source": "feeds.bbci.co.uk",
+            "tone": -1
+          },
           {
             "t": "2026-11-16T08:48:53Z",
             "title": "Today’s Papers: Italy focus on the positives, Ronaldinho returns, Milan push for Endrick",
             "link": "https://football-italia.net/todays-papers-italy-focus-on-the-positives/",
-            "source": "football-italia.net",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-15T21:30:09Z",
-            "title": "Maignan injury concern for Milan after forced off for France",
-            "link": "https://football-italia.net/maignan-injury-concern-for-milan-france/",
-            "source": "football-italia.net",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-15T19:42:37Z",
-            "title": "Juventus worry as Celik suffered injury in France vs. Turkiye warm-up",
-            "link": "https://football-italia.net/juventus-celik-injury-in-france-vs-turkiye/",
-            "source": "football-italia.net",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-15T18:36:55Z",
-            "title": "Ronaldinho’s return: Best moments and key stats from the Brazilian legend’s game in Ravenna",
-            "link": "https://football-italia.net/ronaldinhos-return-best-moments-and-key-stats-from-the-brazilian-legends-game-in-ravenna/",
             "source": "football-italia.net",
             "tone": 1
           },
@@ -908,6 +901,13 @@
             "t": "2026-11-15T17:40:41Z",
             "title": "Ronaldinho after Ravenna debut at 46: ‘It went by too fast, football most wonderful thing in my life’",
             "link": "https://football-italia.net/ronaldinho-after-ravenna-debut-at-46-too-fast/",
+            "source": "football-italia.net",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-15T16:54:34Z",
+            "title": "Udogie tension with De Zerbi and Tottenham can fuel Juventus report",
+            "link": "https://football-italia.net/udogie-tension-de-zerbi-tottenham-juventus/",
             "source": "football-italia.net",
             "tone": 1
           }
@@ -1502,8 +1502,15 @@
         "appetite": 0.35
       },
       "reading": {
-        "week": 117,
+        "week": 105,
         "latest": [
+          {
+            "t": "2026-11-16T10:47:09Z",
+            "title": "Ousmane Dieng to undergo surgery",
+            "link": "https://sports.yahoo.com/articles/ousmane-dieng-undergo-surgery-104709451.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
           {
             "t": "2026-11-16T04:28:04Z",
             "title": "Nets’ jumbo lineup proving to be intriguing wrinkle — even with mixed results",
@@ -1538,13 +1545,6 @@
             "link": "https://sports.yahoo.com/articles/lakers-share-austin-reaves-injury-215009338.html",
             "source": "sports.yahoo.com",
             "tone": -1
-          },
-          {
-            "t": "2026-11-15T21:43:12Z",
-            "title": "One week after trade, Nique Clifford takes blame for falling out of Kings&#39; favor",
-            "link": "https://sports.yahoo.com/articles/one-week-trade-nique-clifford-214312140.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
           }
         ]
       },
@@ -2110,47 +2110,47 @@
         "appetite": 0.6
       },
       "reading": {
-        "week": 383,
+        "week": 394,
         "latest": [
           {
-            "t": "2026-11-16T05:00:04Z",
-            "title": "What Tennessee HC Josh Heupel said about using 2 QBs in win over Texas A&M",
-            "link": "https://sports.yahoo.com/articles/tennessee-hc-josh-heupel-said-050004952.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-16T04:16:12Z",
-            "title": "Where Miami Ranks Before the Third Week of the CFP Rankings After Duke Win",
-            "link": "https://sports.yahoo.com/articles/where-miami-ranks-third-week-041612725.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-16T03:15:22Z",
-            "title": "Kirk Cousins gets emotional after win at Lambeau Field in Vikings return: ‘Tough three years’",
-            "link": "https://sports.yahoo.com/articles/kirk-cousins-gets-emotional-win-031522523.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-16T02:51:33Z",
-            "title": "Steelers OL Mason McCormick carted off field vs. Bengals",
-            "link": "https://sports.yahoo.com/articles/steelers-ol-mason-mccormick-carted-025133850.html",
+            "t": "2026-11-16T12:09:20Z",
+            "title": "What the reported Drake Maye injury means for the Patriots",
+            "link": "https://sports.yahoo.com/articles/reported-drake-maye-injury-means-120920022.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-16T02:47:39Z",
-            "title": "Steelers LG Mason McCormick carted off with leg in air cast late in second quarter",
-            "link": "https://sports.yahoo.com/articles/steelers-lg-mason-mccormick-carted-024739597.html",
+            "t": "2026-11-16T12:03:49Z",
+            "title": "Aidan Hutchinson injury: Lions star joins bizarre list of NFL players hurt while celebrating",
+            "link": "https://www.cbssports.com/nfl/news/aidan-hutchinson-injury-lions-nfl-celebrations/",
+            "source": "www.cbssports.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-16T12:02:55Z",
+            "title": "Ravens vs. Chargers: Can LA get its first win on 'MNF' against the injury-plagued Ravens?",
+            "link": "https://www.cbssports.com/nfl/news/ravens-vs-chargers-how-to-watch-spread-odds-preview-prediction/",
+            "source": "www.cbssports.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-16T12:01:17Z",
+            "title": "Sounds unlikely Bills face Drake Maye vs. Patriots in early December",
+            "link": "https://sports.yahoo.com/articles/sounds-unlikely-bills-face-drake-120117201.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-16T02:46:23Z",
-            "title": "Patriots currently expect QB Drake Maye to be out &quot;a while&quot;",
-            "link": "https://sports.yahoo.com/articles/patriots-currently-expect-qb-drake-024623392.html",
+            "t": "2026-11-16T12:00:00Z",
+            "title": "Are you confident in the Lions defense without Aidan Hutchinson?",
+            "link": "https://sports.yahoo.com/articles/confident-lions-defense-without-aidan-120000751.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-16T11:57:45Z",
+            "title": "Drake Maye injury: Patriots QB hurts ankle vs. Lions",
+            "link": "https://sports.yahoo.com/articles/drake-maye-injury-patriots-qb-151411451.html",
             "source": "sports.yahoo.com",
             "tone": -1
           }
