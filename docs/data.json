@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16T00:45:30Z",
+  "updated": "2026-11-16T01:00:53Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -12,7 +12,7 @@
       "shark",
       "lizard"
     ],
-    "grower": null,
+    "grower": "quant",
     "talk": [
       {
         "who": "quant",
@@ -184,8 +184,8 @@
         ]
       },
       "quant": {
-        "iq": 118,
-        "iq_gain": 0,
+        "iq": 119,
+        "iq_gain": 1,
         "streak": 0,
         "best_streak": 3,
         "achievements": [
@@ -307,7 +307,7 @@
             "pending": true
           }
         ],
-        "score": 164,
+        "score": 165,
         "trophies": [
           {
             "kind": "grower",
@@ -867,7 +867,7 @@
         "appetite": 0.45
       },
       "reading": {
-        "week": 106,
+        "week": 93,
         "latest": [
           {
             "t": "2026-11-15T21:30:09Z",
@@ -1423,8 +1423,22 @@
         "appetite": 0.35
       },
       "reading": {
-        "week": 69,
+        "week": 80,
         "latest": [
+          {
+            "t": "2026-11-15T21:30:00Z",
+            "title": "It’s time for Basketball: San Antonio Spurs vs Utah Jazz",
+            "link": "https://sports.yahoo.com/articles/time-basketball-san-antonio-spurs-213000944.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-15T20:00:00Z",
+            "title": "Game Thread: Booker, Luka, and a Sunday showdown with plenty of bad blood",
+            "link": "https://sports.yahoo.com/articles/game-thread-booker-luka-sunday-200000717.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
           {
             "t": "2026-11-15T17:30:00Z",
             "title": "Week 5 Look-Ahead: Stephen Curry and Caleb Wilson go do, and toss Jeremiah Fears the keys",
@@ -1433,37 +1447,23 @@
             "tone": -1
           },
           {
+            "t": "2026-11-15T16:40:32Z",
+            "title": "Observations after Sixers shake off slow start, Embiid injury scare to win",
+            "link": "https://sports.yahoo.com/articles/observations-sixers-shake-off-slow-171100041.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-15T16:40:32Z",
+            "title": "Paul George flips the script — and the bird — in Philadelphia return",
+            "link": "https://sports.yahoo.com/articles/paul-george-flips-script-bird-023500511.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
+          {
             "t": "2026-11-15T15:33:48Z",
             "title": "Barlow ‘making progress,&#39; Embiid out vs. Pacers, more on Sixers",
             "link": "https://sports.yahoo.com/articles/barlow-making-progress-embiid-vs-221124067.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-15T12:00:00Z",
-            "title": "Kyrie Irving reflects on 2016 championship in return to Cleveland: ‘I’m so grateful for all the Cavs fans’",
-            "link": "https://sports.yahoo.com/articles/kyrie-irving-reflects-2016-championship-120000917.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-15T12:00:00Z",
-            "title": "Open Thread: Steve Kerr loves returning to San Antonio",
-            "link": "https://sports.yahoo.com/articles/open-thread-steve-kerr-loves-120000778.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-15T07:20:31Z",
-            "title": "Michael Porter Jr. sits for personal reasons — but he should be back soon",
-            "link": "https://sports.yahoo.com/articles/michael-porter-jr-sits-personal-072031504.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-15T03:55:15Z",
-            "title": "Nets sorely miss Michael Porter Jr. in beatdown by Grizzlies",
-            "link": "https://sports.yahoo.com/articles/nets-sorely-miss-michael-porter-035515611.html",
             "source": "sports.yahoo.com",
             "tone": -1
           }
@@ -1619,8 +1619,8 @@
       },
       "traits": [],
       "mind": {
-        "iq": 118,
-        "iq_week": 34,
+        "iq": 119,
+        "iq_week": 35,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -1672,7 +1672,7 @@
           },
           {
             "d": "2026-11-16",
-            "iq": 118
+            "iq": 119
           }
         ],
         "facts": [
@@ -1970,47 +1970,47 @@
         "appetite": 0.6
       },
       "reading": {
-        "week": 425,
+        "week": 427,
         "latest": [
           {
-            "t": "2026-11-15T21:33:53Z",
-            "title": "Patrick Mahomes makes Chiefs&#39; new pieces fit in needed win vs. Falcons | Opinion",
-            "link": "https://sports.yahoo.com/articles/patrick-mahomes-makes-chiefs-pieces-213353852.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-15T21:31:39Z",
-            "title": "Texas Tech football fans can breathe easy after Thomas Castellanos injury scare",
-            "link": "https://sports.yahoo.com/articles/texas-tech-football-fans-breathe-213139966.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-15T21:25:29Z",
-            "title": "NFL Week 10 Winners and Losers: Packers and Lions may be in trouble in NFC North race, leaving Vikings and Bears",
-            "link": "https://sports.yahoo.com/nfl/article/nfl-week-10-winners-and-losers-packers-and-lions-may-be-in-trouble-in-nfc-north-race-leaving-vikings-and-bears-212529269.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-15T21:12:07Z",
-            "title": "Lions' Aidan Hutchinson feared to have possible season-ending injury after sack celebration, per report",
-            "link": "https://www.cbssports.com/nfl/news/lions-aidan-hutchinson-injury-update-patriots-germany/",
+            "t": "2026-11-16T00:36:03Z",
+            "title": "Raiders' Brock Bowers suffers ankle injury, misses majority of Fernando Mendoza's first career start",
+            "link": "https://www.cbssports.com/nfl/news/brock-bowers-injury-raiders-fernando-mendoza-debut/",
             "source": "www.cbssports.com",
             "tone": -1
           },
           {
-            "t": "2026-11-15T21:08:40Z",
-            "title": "Aidan Hutchinson got hurt celebrating a sack. A Lions LB thought he was joking",
-            "link": "https://sports.yahoo.com/articles/aidan-hutchinson-got-hurt-celebrating-210840475.html",
+            "t": "2026-11-16T00:24:23Z",
+            "title": "Aidan Hutchinson&#39;s knee injury joins ranks of infamous NFL celebration injuries, including Bill Gramatica, Gus Frerotte running head-first into a wall",
+            "link": "https://sports.yahoo.com/nfl/article/aidan-hutchinsons-knee-injury-joins-ranks-of-infamous-nfl-celebration-injuries-including-bill-gramatica-gus-frerotte-running-head-first-into-a-wall-003138397.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-15T21:07:57Z",
-            "title": "Vikings pummel Packers 30-10 in Kirk Cousins&#39; return",
-            "link": "https://sports.yahoo.com/articles/vikings-pummel-packers-30-10-210757290.html",
+            "t": "2026-11-16T00:02:58Z",
+            "title": "Sunday Night Football: DeShon Elliott inactive after suffering pregame knee injury",
+            "link": "https://sports.yahoo.com/articles/sunday-night-football-deshon-elliott-000258669.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-15T23:51:40Z",
+            "title": "Steelers safety DeShon Elliott suffers pre-game injury, out vs. Bengals",
+            "link": "https://sports.yahoo.com/articles/steelers-safety-deshon-elliott-suffers-235140729.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-15T23:12:57Z",
+            "title": "Tennessee WR Mike Matthews likely out for rest of 2026 season after knee injury vs. Texas A&M",
+            "link": "https://sports.yahoo.com/college-football/breaking-news/article/tennessee-wr-mike-matthews-likely-out-for-rest-of-2026-season-after-knee-injury-vs-texas-am-231257355.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-15T23:09:03Z",
+            "title": "George Holani, Abraham Lucas will not return in Week 10",
+            "link": "https://sports.yahoo.com/articles/george-holani-abraham-lucas-not-230903700.html",
             "source": "sports.yahoo.com",
             "tone": 1
           }
