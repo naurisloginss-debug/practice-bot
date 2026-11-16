@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16T03:45:53Z",
+  "updated": "2026-11-16T04:00:53Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -29,8 +29,8 @@
     ],
     "chars": {
       "lizard": {
-        "iq": 105,
-        "iq_gain": 0,
+        "iq": 104,
+        "iq_gain": -1,
         "streak": 3,
         "best_streak": 8,
         "achievements": [
@@ -152,7 +152,7 @@
             "pending": true
           }
         ],
-        "score": 135,
+        "score": 134,
         "trophies": [
           {
             "kind": "sharpshooter",
@@ -867,7 +867,7 @@
         "appetite": 0.45
       },
       "reading": {
-        "week": 93,
+        "week": 78,
         "latest": [
           {
             "t": "2026-11-15T21:30:09Z",
@@ -1074,8 +1074,8 @@
       },
       "traits": [],
       "mind": {
-        "iq": 105,
-        "iq_week": 8,
+        "iq": 104,
+        "iq_week": 7,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -1127,7 +1127,7 @@
           },
           {
             "d": "2026-11-16",
-            "iq": 105
+            "iq": 104
           }
         ],
         "facts": [
@@ -1463,8 +1463,29 @@
         "appetite": 0.35
       },
       "reading": {
-        "week": 80,
+        "week": 93,
         "latest": [
+          {
+            "t": "2026-11-16T00:25:34Z",
+            "title": "NBA News: Jaylen Clark out 2 weeks",
+            "link": "https://sports.yahoo.com/articles/nba-news-jaylen-clark-2-002534979.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-15T22:48:16Z",
+            "title": "Mavericks vs Celtics Preview and Injury Report: Sunday early evening basketball",
+            "link": "https://sports.yahoo.com/articles/mavericks-vs-celtics-preview-injury-224816612.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-15T21:50:09Z",
+            "title": "Lakers share update on Austin Reaves’ injury: a ‘pain tolerance’ issue",
+            "link": "https://sports.yahoo.com/articles/lakers-share-austin-reaves-injury-215009338.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
           {
             "t": "2026-11-15T21:30:00Z",
             "title": "It’s time for Basketball: San Antonio Spurs vs Utah Jazz",
@@ -1483,27 +1504,6 @@
             "t": "2026-11-15T17:30:00Z",
             "title": "Week 5 Look-Ahead: Stephen Curry and Caleb Wilson go do, and toss Jeremiah Fears the keys",
             "link": "https://sports.yahoo.com/articles/week-5-look-ahead-stephen-173000431.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-15T16:40:32Z",
-            "title": "Observations after Sixers shake off slow start, Embiid injury scare to win",
-            "link": "https://sports.yahoo.com/articles/observations-sixers-shake-off-slow-171100041.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-15T16:40:32Z",
-            "title": "Paul George flips the script — and the bird — in Philadelphia return",
-            "link": "https://sports.yahoo.com/articles/paul-george-flips-script-bird-023500511.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-15T15:33:48Z",
-            "title": "Barlow ‘making progress,&#39; Embiid out vs. Pacers, more on Sixers",
-            "link": "https://sports.yahoo.com/articles/barlow-making-progress-embiid-vs-221124067.html",
             "source": "sports.yahoo.com",
             "tone": -1
           }
@@ -2014,49 +2014,49 @@
         "appetite": 0.6
       },
       "reading": {
-        "week": 427,
+        "week": 429,
         "latest": [
+          {
+            "t": "2026-11-16T02:51:33Z",
+            "title": "Steelers OL Mason McCormick carted off field vs. Bengals",
+            "link": "https://sports.yahoo.com/articles/steelers-ol-mason-mccormick-carted-025133850.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-16T02:47:39Z",
+            "title": "Steelers LG Mason McCormick carted off with leg in air cast late in second quarter",
+            "link": "https://sports.yahoo.com/articles/steelers-lg-mason-mccormick-carted-024739597.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-16T02:46:23Z",
+            "title": "Patriots currently expect QB Drake Maye to be out &quot;a while&quot;",
+            "link": "https://sports.yahoo.com/articles/patriots-currently-expect-qb-drake-024623392.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-16T02:43:17Z",
+            "title": "&#39;Genius&#39; batted ball on kick return helps Seahawks burn clock, sparks officiating confusion in win over Raiders",
+            "link": "https://sports.yahoo.com/nfl/article/genius-batted-ball-on-kick-return-helps-seahawks-burn-clock-sparks-officiating-confusion-in-win-over-raiders-024317399.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-16T01:16:07Z",
+            "title": "No word on severity of Brock Bowers&#39;s ankle injury, will be re-evaluated Monday",
+            "link": "https://sports.yahoo.com/articles/no-word-severity-brock-bowerss-011607370.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
           {
             "t": "2026-11-16T00:36:03Z",
             "title": "Raiders' Brock Bowers suffers ankle injury, misses majority of Fernando Mendoza's first career start",
             "link": "https://www.cbssports.com/nfl/news/brock-bowers-injury-raiders-fernando-mendoza-debut/",
             "source": "www.cbssports.com",
             "tone": -1
-          },
-          {
-            "t": "2026-11-16T00:24:23Z",
-            "title": "Aidan Hutchinson&#39;s knee injury joins ranks of infamous NFL celebration injuries, including Bill Gramatica, Gus Frerotte running head-first into a wall",
-            "link": "https://sports.yahoo.com/nfl/article/aidan-hutchinsons-knee-injury-joins-ranks-of-infamous-nfl-celebration-injuries-including-bill-gramatica-gus-frerotte-running-head-first-into-a-wall-003138397.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-16T00:02:58Z",
-            "title": "Sunday Night Football: DeShon Elliott inactive after suffering pregame knee injury",
-            "link": "https://sports.yahoo.com/articles/sunday-night-football-deshon-elliott-000258669.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-15T23:51:40Z",
-            "title": "Steelers safety DeShon Elliott suffers pre-game injury, out vs. Bengals",
-            "link": "https://sports.yahoo.com/articles/steelers-safety-deshon-elliott-suffers-235140729.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-15T23:12:57Z",
-            "title": "Tennessee WR Mike Matthews likely out for rest of 2026 season after knee injury vs. Texas A&M",
-            "link": "https://sports.yahoo.com/college-football/breaking-news/article/tennessee-wr-mike-matthews-likely-out-for-rest-of-2026-season-after-knee-injury-vs-texas-am-231257355.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-15T23:09:03Z",
-            "title": "George Holani, Abraham Lucas will not return in Week 10",
-            "link": "https://sports.yahoo.com/articles/george-holani-abraham-lucas-not-230903700.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
           }
         ]
       },
