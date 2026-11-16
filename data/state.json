@@ -1,6 +1,6 @@
 {
   "last_scan": "2026-11-16@16",
-  "credits_left": 19152,
+  "credits_left": 19151,
   "league_names": {
     "soccer_italy_serie_b": "Serie B (Italy 2)",
     "soccer_efl_champ": "Championship (England 2)",
@@ -45,10 +45,6 @@
     "americanfootball_cfl": "2026-11-16T08:01:11Z"
   },
   "log": [
-    {
-      "t": "2026-11-15T16:00:54Z",
-      "text": "Placed 5 practice bets:\n- The Shark: **Cleveland Browns** (Winner) in Cleveland Browns vs Houston Texans (NFL) at 2.85 on Everygame, stake 5.36, edge +3.3%\n- The Shark 🧭 scout: **Atlanta Falcons +3.5** (Spread) in Atlanta Falcons vs Kansas City Chiefs (NFL) at 1.91 on 888sport, stake 2.48, edge +2.1%\n- The Shark 🧭 scout: **Arizona Cardinals +10.5** (Spread) in Arizona Cardinals vs Los Angeles Rams (NFL) at 1.91 on LeoVegas (SE), stake 2.48, edge +0.9%\n- The Quant 💭 gut: **Phoenix Suns** (Winner) in Phoenix Suns vs Los Angeles Lakers (NBA) at 2.42 on Matchbook, stake 2.45, edge +-0.1%\n- The Quant 🎲 wild: **Dallas Mavericks** (Winner) in Boston Celtics vs Dallas Mavericks (NBA) at 6.8 on Coolbet, stake 1.22, edge +5.0%"
-    },
     {
       "t": "2026-11-15T16:00:54Z",
       "text": "Results:\n- Won +2.07: Tenerife (Winner) in Tenerife vs AD Ceuta FC (Tenerife 2 - 0 AD Ceuta FC)"
@@ -164,11 +160,15 @@
     {
       "t": "2026-11-16T22:30:46Z",
       "text": "Results:\n- Won +5.30: Albacete (Winner) in Albacete vs Celta Fortuna (Albacete 1 - 0 Celta Fortuna)"
+    },
+    {
+      "t": "2026-11-16T23:30:43Z",
+      "text": "🧮 The Quant changed level: Apprentice → 🐣 Rookie. Normal stakes while it proves itself."
     }
   ],
   "levels": {
     "lizard": "Rookie",
-    "quant": "Apprentice",
+    "quant": "Rookie",
     "shark": "Rookie"
   },
   "achievements": {
@@ -366,7 +366,7 @@
       },
       {
         "d": "2026-11-16",
-        "iq": 120
+        "iq": 119
       }
     ],
     "shark": [
