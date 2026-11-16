@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16T01:15:31Z",
+  "updated": "2026-11-16T01:30:44Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -297,7 +297,7 @@
           {
             "text": "Bets checked against the market",
             "target": 33,
-            "now": 0
+            "now": 1
           },
           {
             "text": "Beat the market on",
@@ -518,7 +518,7 @@
       "leader": "shark"
     }
   },
-  "credits_left": 19221,
+  "credits_left": 19220,
   "last_scan": "2026-11-15@16",
   "strategies": {
     "lizard": {
@@ -1220,9 +1220,9 @@
       "profit": -10.82,
       "roi": -0.2161,
       "avg_edge": 0.0333,
-      "avg_clv": 0.0062,
-      "beat_close": 0.5,
-      "clv_count": 30,
+      "avg_clv": 0.0011,
+      "beat_close": 0.4839,
+      "clv_count": 31,
       "history": [
         {
           "t": "2026-11-10T21:01:26Z",
@@ -1344,15 +1344,6 @@
           "clv_count": 3
         },
         {
-          "name": "NBA",
-          "bets": 12,
-          "profit": -11.38,
-          "roi": -0.7467,
-          "avg_clv": 0.0111,
-          "beat_close": 0.5455,
-          "clv_count": 11
-        },
-        {
           "name": "College basketball (US)",
           "bets": 24,
           "profit": 8.8,
@@ -1360,6 +1351,15 @@
           "avg_clv": -0.0007,
           "beat_close": 0.4375,
           "clv_count": 16
+        },
+        {
+          "name": "NBA",
+          "bets": 12,
+          "profit": -11.38,
+          "roi": -0.7467,
+          "avg_clv": -0.0024,
+          "beat_close": 0.5,
+          "clv_count": 12
         }
       ],
       "by_market": [
@@ -1377,9 +1377,9 @@
           "bets": 23,
           "profit": -8.76,
           "roi": -0.27,
-          "avg_clv": 0.0105,
-          "beat_close": 0.5,
-          "clv_count": 22
+          "avg_clv": 0.0035,
+          "beat_close": 0.4783,
+          "clv_count": 23
         },
         {
           "name": "Total",
@@ -1397,9 +1397,9 @@
           "bets": 39,
           "profit": -10.82,
           "roi": -0.2161,
-          "avg_clv": 0.0062,
-          "beat_close": 0.5,
-          "clv_count": 30
+          "avg_clv": 0.0011,
+          "beat_close": 0.4839,
+          "clv_count": 31
         }
       ],
       "gut": {
@@ -1419,7 +1419,7 @@
         "lost": 2,
         "profit": -1.0,
         "best": null,
-        "avg_clv": -0.0824,
+        "avg_clv": -0.0997,
         "appetite": 0.35
       },
       "reading": {
@@ -2357,8 +2357,8 @@
       "edge": 0.0332,
       "stake": 1.24,
       "status": "open",
-      "closing_fair_odds": null,
-      "clv": null,
+      "closing_fair_odds": 5.769,
+      "clv": -0.1515,
       "profit": 0.0,
       "score": null,
       "settled_at": null,
