@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16T09:45:30Z",
+  "updated": "2026-11-16T10:00:56Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -12,7 +12,7 @@
       "shark",
       "lizard"
     ],
-    "grower": null,
+    "grower": "lizard",
     "talk": [
       {
         "who": "quant",
@@ -29,8 +29,8 @@
     ],
     "chars": {
       "lizard": {
-        "iq": 104,
-        "iq_gain": 0,
+        "iq": 105,
+        "iq_gain": 1,
         "streak": 3,
         "best_streak": 8,
         "achievements": [
@@ -152,7 +152,7 @@
             "pending": true
           }
         ],
-        "score": 134,
+        "score": 135,
         "trophies": [
           {
             "kind": "sharpshooter",
@@ -867,8 +867,15 @@
         "appetite": 0.45
       },
       "reading": {
-        "week": 63,
+        "week": 100,
         "latest": [
+          {
+            "t": "2026-11-16T08:48:53Z",
+            "title": "Today’s Papers: Italy focus on the positives, Ronaldinho returns, Milan push for Endrick",
+            "link": "https://football-italia.net/todays-papers-italy-focus-on-the-positives/",
+            "source": "football-italia.net",
+            "tone": 1
+          },
           {
             "t": "2026-11-15T21:30:09Z",
             "title": "Maignan injury concern for Milan after forced off for France",
@@ -891,24 +898,17 @@
             "tone": 1
           },
           {
-            "t": "2026-11-15T14:06:19Z",
-            "title": "Club's first match since player's death abandoned because of serious injury",
-            "link": "https://www.bbc.co.uk/sport/football/articles/cm98xd2dpjd7o?at_medium=RSS&at_campaign=rss",
+            "t": "2026-11-15T18:24:54Z",
+            "title": "Children's tournament abandoned for parents' behaviour",
+            "link": "https://www.bbc.co.uk/sport/football/articles/cmp867d026nno?at_medium=RSS&at_campaign=rss",
             "source": "feeds.bbci.co.uk",
             "tone": -1
           },
           {
-            "t": "2026-11-15T11:28:25Z",
-            "title": "Wenger decides not to challenge Fifa chief Infantino",
-            "link": "https://www.bbc.co.uk/sport/football/articles/c539gn33z1l3o?at_medium=RSS&at_campaign=rss",
-            "source": "feeds.bbci.co.uk",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-14T18:27:23Z",
-            "title": "Le Tissier stars as Man Utd beat Crystal Palace to extend unbeaten run",
-            "link": "https://www.bbc.co.uk/sport/football/videos/cqglrkk7gr1xo?at_medium=RSS&at_campaign=rss",
-            "source": "feeds.bbci.co.uk",
+            "t": "2026-11-15T17:40:41Z",
+            "title": "Ronaldinho after Ravenna debut at 46: ‘It went by too fast, football most wonderful thing in my life’",
+            "link": "https://football-italia.net/ronaldinho-after-ravenna-debut-at-46-too-fast/",
+            "source": "football-italia.net",
             "tone": 1
           }
         ]
@@ -1101,8 +1101,8 @@
       },
       "traits": [],
       "mind": {
-        "iq": 104,
-        "iq_week": 7,
+        "iq": 105,
+        "iq_week": 8,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -1154,7 +1154,7 @@
           },
           {
             "d": "2026-11-16",
-            "iq": 104
+            "iq": 105
           }
         ],
         "facts": [
@@ -1502,8 +1502,15 @@
         "appetite": 0.35
       },
       "reading": {
-        "week": 112,
+        "week": 117,
         "latest": [
+          {
+            "t": "2026-11-16T04:28:04Z",
+            "title": "Nets’ jumbo lineup proving to be intriguing wrinkle — even with mixed results",
+            "link": "https://sports.yahoo.com/articles/nets-jumbo-lineup-proving-intriguing-042804803.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
           {
             "t": "2026-11-16T02:39:13Z",
             "title": "Raptors fall to defending champs in overtime",
@@ -1536,13 +1543,6 @@
             "t": "2026-11-15T21:43:12Z",
             "title": "One week after trade, Nique Clifford takes blame for falling out of Kings&#39; favor",
             "link": "https://sports.yahoo.com/articles/one-week-trade-nique-clifford-214312140.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-15T21:30:00Z",
-            "title": "It’s time for Basketball: San Antonio Spurs vs Utah Jazz",
-            "link": "https://sports.yahoo.com/articles/time-basketball-san-antonio-spurs-213000944.html",
             "source": "sports.yahoo.com",
             "tone": 1
           }
@@ -2110,12 +2110,26 @@
         "appetite": 0.6
       },
       "reading": {
-        "week": 425,
+        "week": 383,
         "latest": [
           {
             "t": "2026-11-16T05:00:04Z",
             "title": "What Tennessee HC Josh Heupel said about using 2 QBs in win over Texas A&M",
             "link": "https://sports.yahoo.com/articles/tennessee-hc-josh-heupel-said-050004952.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-16T04:16:12Z",
+            "title": "Where Miami Ranks Before the Third Week of the CFP Rankings After Duke Win",
+            "link": "https://sports.yahoo.com/articles/where-miami-ranks-third-week-041612725.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-16T03:15:22Z",
+            "title": "Kirk Cousins gets emotional after win at Lambeau Field in Vikings return: ‘Tough three years’",
+            "link": "https://sports.yahoo.com/articles/kirk-cousins-gets-emotional-win-031522523.html",
             "source": "sports.yahoo.com",
             "tone": 1
           },
@@ -2137,20 +2151,6 @@
             "t": "2026-11-16T02:46:23Z",
             "title": "Patriots currently expect QB Drake Maye to be out &quot;a while&quot;",
             "link": "https://sports.yahoo.com/articles/patriots-currently-expect-qb-drake-024623392.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-16T02:43:17Z",
-            "title": "&#39;Genius&#39; batted ball on kick return helps Seahawks burn clock, sparks officiating confusion in win over Raiders",
-            "link": "https://sports.yahoo.com/nfl/article/genius-batted-ball-on-kick-return-helps-seahawks-burn-clock-sparks-officiating-confusion-in-win-over-raiders-024317399.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-16T01:16:07Z",
-            "title": "No word on severity of Brock Bowers&#39;s ankle injury, will be re-evaluated Monday",
-            "link": "https://sports.yahoo.com/articles/no-word-severity-brock-bowerss-011607370.html",
             "source": "sports.yahoo.com",
             "tone": -1
           }
