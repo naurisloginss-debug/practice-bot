@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16T02:30:45Z",
+  "updated": "2026-11-16T02:45:30Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -12,7 +12,7 @@
       "shark",
       "lizard"
     ],
-    "grower": "shark",
+    "grower": null,
     "talk": [
       {
         "who": "quant",
@@ -331,7 +331,7 @@
       },
       "shark": {
         "iq": 117,
-        "iq_gain": 1,
+        "iq_gain": 0,
         "streak": 3,
         "best_streak": 4,
         "achievements": [
