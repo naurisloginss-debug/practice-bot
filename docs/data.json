@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T16:01:02Z",
+  "updated": "2026-11-17T16:15:31Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -453,7 +453,7 @@
             "pending": true
           }
         ],
-        "score": 161,
+        "score": 164,
         "trophies": [
           {
             "kind": "sharpshooter",
@@ -481,9 +481,9 @@
           "clv": 0.0257,
           "cautious": 0.0068,
           "beat": 0.6364,
-          "challenges": 0.6,
+          "challenges": 0.667,
           "traits": 0,
-          "score": 12.51
+          "score": 12.84
         },
         {
           "who": "quant",
@@ -2332,10 +2332,11 @@
           "emoji": "📚",
           "title": "Study day",
           "text": "Study at least 95 games today.",
-          "status": "active",
+          "status": "done",
           "market": "totals",
           "target": 95,
-          "league": null
+          "league": null,
+          "detail": "Studied 154 games."
         },
         "recent": [
           {
@@ -2344,10 +2345,11 @@
             "emoji": "📚",
             "title": "Study day",
             "text": "Study at least 95 games today.",
-            "status": "active",
+            "status": "done",
             "market": "totals",
             "target": 95,
-            "league": null
+            "league": null,
+            "detail": "Studied 154 games."
           },
           {
             "day": "2026-11-16",
@@ -2421,9 +2423,9 @@
             "detail": "2 bets beat the market."
           }
         ],
-        "done": 3,
-        "judged": 5,
-        "streak": 0
+        "done": 4,
+        "judged": 6,
+        "streak": 1
       },
       "traits": [],
       "mind": {
@@ -8475,10 +8477,6 @@
   "log": [
     {
       "t": "2026-11-16T00:00:56Z",
-      "text": "🎯 🧮 The Quant's challenge today: 🧭 Explorer day. Make a bet in WNCAAB, the competition I'm exploring."
-    },
-    {
-      "t": "2026-11-16T00:00:56Z",
       "text": "❌ 🦈 The Shark missed 🎯 Precision day: 3 bets, but not enough beat the market."
     },
     {
@@ -8592,6 +8590,10 @@
     {
       "t": "2026-11-17T16:01:02Z",
       "text": "🏅 🦎 The Lizard unlocked 📚 Scholar: Studied 100 games."
+    },
+    {
+      "t": "2026-11-17T16:15:31Z",
+      "text": "✅ 🦈 The Shark completed 📚 Study day: Studied 154 games."
     }
   ]
 }
