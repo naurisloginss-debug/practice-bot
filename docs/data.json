@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T02:45:30Z",
+  "updated": "2026-11-17T03:00:58Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -518,7 +518,7 @@
       "leader": "shark"
     }
   },
-  "credits_left": 19141,
+  "credits_left": 19139,
   "last_scan": "2026-11-16@16",
   "strategies": {
     "lizard": {
@@ -1257,15 +1257,15 @@
         "Winner"
       ],
       "start_fund": 500,
-      "fund": 457.34,
+      "fund": 494.96,
       "lessons": [],
       "bets": 50,
-      "open": 11,
-      "won": 15,
+      "open": 9,
+      "won": 17,
       "lost": 24,
-      "staked": 207.46,
-      "profit": -42.66,
-      "roi": -0.2056,
+      "staked": 248.1,
+      "profit": -5.04,
+      "roi": -0.0203,
       "avg_edge": 0.0357,
       "avg_clv": 0.0005,
       "beat_close": 0.4865,
@@ -1430,6 +1430,14 @@
         {
           "t": "2026-11-16T09:15:33Z",
           "fund": 457.34
+        },
+        {
+          "t": "2026-11-17T03:00:58Z",
+          "fund": 474.19
+        },
+        {
+          "t": "2026-11-17T03:00:58Z",
+          "fund": 494.96
         }
       ],
       "by_league": [
@@ -1454,8 +1462,8 @@
         {
           "name": "College basketball (US)",
           "bets": 32,
-          "profit": -18.13,
-          "roi": -0.1024,
+          "profit": 19.49,
+          "roi": 0.0895,
           "avg_clv": -0.0067,
           "beat_close": 0.3684,
           "clv_count": 19
@@ -1483,8 +1491,8 @@
         {
           "name": "Total",
           "bets": 22,
-          "profit": -22.48,
-          "roi": -0.1391,
+          "profit": 15.14,
+          "roi": 0.0749,
           "avg_clv": -0.0273,
           "beat_close": 0.2222,
           "clv_count": 9
@@ -1494,8 +1502,8 @@
         {
           "name": "Basketball",
           "bets": 50,
-          "profit": -42.66,
-          "roi": -0.2056,
+          "profit": -5.04,
+          "roi": -0.0203,
           "avg_clv": 0.0005,
           "beat_close": 0.4865,
           "clv_count": 37
@@ -1793,10 +1801,10 @@
         "facts": [
           {
             "conf": "using",
-            "n": 268,
-            "z": 3.014442213781828,
+            "n": 283,
+            "z": 3.2291169909420474,
             "text": "Overs in College basketball (US) happen less often than priced.",
-            "detail": "41% happened vs 50% priced, 268 games"
+            "detail": "40% happened vs 50% priced, 283 games"
           },
           {
             "conf": "solid",
@@ -1814,17 +1822,17 @@
           },
           {
             "conf": "solid",
-            "n": 191,
+            "n": 199,
             "z": 0,
             "text": "The market prices home wins in College basketball (US) accurately.",
-            "detail": "60% happened, 63% priced, 191 games"
+            "detail": "60% happened, 63% priced, 199 games"
           },
           {
             "conf": "solid",
-            "n": 191,
+            "n": 199,
             "z": 0,
             "text": "The market prices away wins in College basketball (US) accurately.",
-            "detail": "40% happened, 37% priced, 191 games"
+            "detail": "40% happened, 37% priced, 199 games"
           },
           {
             "conf": "watching",
@@ -1836,7 +1844,7 @@
         ],
         "rules": 1,
         "studied": 393,
-        "resolved": 359
+        "resolved": 374
       }
     },
     "shark": {
@@ -3623,12 +3631,12 @@
       "fair_odds": 1.817,
       "edge": 0.0564,
       "stake": 18.31,
-      "status": "open",
+      "status": "won",
       "closing_fair_odds": null,
       "clv": null,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": 16.85,
+      "score": "Virginia Tech Hokies 85 - 68 Richmond Spiders",
+      "settled_at": "2026-11-17T03:00:58Z",
       "thoughts": [
         "Pinnacle's price, adjusted with what I know about College basketball (US) (overs -4.8%), gives Under 155 55.0%: fair price 1.82.",
         "GTbets pays 1.92. That is +5.6% above fair. My bar is +1.5%.",
@@ -3660,12 +3668,12 @@
       "fair_odds": 1.805,
       "edge": 0.0695,
       "stake": 22.33,
-      "status": "open",
+      "status": "won",
       "closing_fair_odds": 2.0,
       "clv": -0.035,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": 20.77,
+      "score": "Tulsa Golden Hurricane 67 - 64 Western Kentucky Hilltoppers",
+      "settled_at": "2026-11-17T03:00:58Z",
       "thoughts": [
         "Pinnacle's price, adjusted with what I know about College basketball (US) (overs -4.8%), gives Under 159 55.4%: fair price 1.80.",
         "BetOnline.ag pays 1.93. That is +7.0% above fair. My bar is +1.5%.",
@@ -7790,10 +7798,6 @@
   "log": [
     {
       "t": "2026-11-16T00:00:56Z",
-      "text": "🧭 🦎 The Lizard moved on from Super League - Greece (not enough bets to judge)."
-    },
-    {
-      "t": "2026-11-16T00:00:56Z",
       "text": "🧭 🦎 The Lizard is exploring Liga MX this week."
     },
     {
@@ -7907,6 +7911,10 @@
     {
       "t": "2026-11-17T00:01:09Z",
       "text": "🧮 The Quant levelled up: Rookie → 🎓 Apprentice. Has a track record. Starts learning which bets work."
+    },
+    {
+      "t": "2026-11-17T03:00:58Z",
+      "text": "Results:\n- Won +16.85: Under 155 (Total) in Virginia Tech Hokies vs Richmond Spiders (Virginia Tech Hokies 85 - 68 Richmond Spiders)\n- Won +20.77: Under 159 (Total) in Tulsa Golden Hurricane vs Western Kentucky Hilltoppers (Tulsa Golden Hurricane 67 - 64 Western Kentucky Hilltoppers)"
     }
   ]
 }
