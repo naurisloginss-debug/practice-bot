@@ -1,6 +1,6 @@
 {
   "last_scan": "2026-11-17@16",
-  "credits_left": 19071,
+  "credits_left": 19068,
   "league_names": {
     "soccer_italy_serie_b": "Serie B (Italy 2)",
     "soccer_efl_champ": "Championship (England 2)",
@@ -45,10 +45,6 @@
     "americanfootball_cfl": "2026-11-16T08:01:11Z"
   },
   "log": [
-    {
-      "t": "2026-11-16T00:00:56Z",
-      "text": "❌ 🦈 The Shark missed 🎯 Precision day: 3 bets, but not enough beat the market."
-    },
     {
       "t": "2026-11-16T00:00:56Z",
       "text": "🎯 🦈 The Shark's challenge today: 🐶 Underdog hunter. Back an underdog (odds 2.5+) that beats the market."
@@ -164,11 +160,15 @@
     {
       "t": "2026-11-17T16:15:31Z",
       "text": "✅ 🦈 The Shark completed 📚 Study day: Studied 154 games."
+    },
+    {
+      "t": "2026-11-17T23:30:46Z",
+      "text": "🧮 The Quant changed level: Apprentice → 🐣 Rookie. Normal stakes while it proves itself."
     }
   ],
   "levels": {
     "lizard": "Rookie",
-    "quant": "Apprentice",
+    "quant": "Rookie",
     "shark": "Rookie"
   },
   "achievements": {
@@ -433,7 +433,7 @@
       },
       {
         "d": "2026-11-17",
-        "iq": 117
+        "iq": 116
       }
     ]
   },
