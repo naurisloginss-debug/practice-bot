@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T22:45:30Z",
+  "updated": "2026-11-17T23:01:02Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -29,8 +29,8 @@
     ],
     "chars": {
       "lizard": {
-        "iq": 107,
-        "iq_gain": 1,
+        "iq": 106,
+        "iq_gain": 0,
         "streak": 4,
         "best_streak": 8,
         "achievements": [
@@ -152,7 +152,7 @@
             "pending": true
           }
         ],
-        "score": 142,
+        "score": 141,
         "trophies": [
           {
             "kind": "sharpshooter",
@@ -880,8 +880,15 @@
         "appetite": 0.45
       },
       "reading": {
-        "week": 119,
+        "week": 77,
         "latest": [
+          {
+            "t": "2026-11-17T20:15:21Z",
+            "title": "Como consider new striker after Kean injury problem",
+            "link": "https://football-italia.net/como-consider-new-striker-after-kean-injury/",
+            "source": "football-italia.net",
+            "tone": -1
+          },
           {
             "t": "2026-11-17T19:42:32Z",
             "title": "Report Chelsea want Bastoni after Barcelona express doubts",
@@ -914,13 +921,6 @@
             "t": "2026-11-17T16:40:53Z",
             "title": "West Brom midfielder Diakite injured on Mali duty",
             "link": "https://www.bbc.co.uk/sport/football/articles/cqzjrdj1d7yno?at_medium=RSS&at_campaign=rss",
-            "source": "feeds.bbci.co.uk",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-17T16:18:05Z",
-            "title": "Senegal become first side to book Afcon 2027 spot",
-            "link": "https://www.bbc.co.uk/sport/football/articles/c5evrgrvw1ezo?at_medium=RSS&at_campaign=rss",
             "source": "feeds.bbci.co.uk",
             "tone": -1
           }
@@ -1126,8 +1126,8 @@
       },
       "traits": [],
       "mind": {
-        "iq": 107,
-        "iq_week": 8,
+        "iq": 106,
+        "iq_week": 7,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -1183,7 +1183,7 @@
           },
           {
             "d": "2026-11-17",
-            "iq": 107
+            "iq": 106
           }
         ],
         "facts": [
@@ -1582,8 +1582,22 @@
         "appetite": 0.35
       },
       "reading": {
-        "week": 97,
+        "week": 102,
         "latest": [
+          {
+            "t": "2026-11-17T22:35:17Z",
+            "title": "Jaylen Brown to miss 76ers game Wednesday vs. Magic due to &#39;hamstring strain&#39;",
+            "link": "https://sports.yahoo.com/nba/breaking-news/article/jaylen-brown-to-miss-76ers-game-wednesday-vs-magic-due-to-hamstring-strain-223517168.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-17T16:58:45Z",
+            "title": "Sixers rule Brown out with hamstring injury for Magic game",
+            "link": "https://sports.yahoo.com/articles/sixers-rule-brown-hamstring-injury-165845297.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
           {
             "t": "2026-11-17T16:56:00Z",
             "title": "Pistons vs Spurs preview: No Duncan or Duren, others must step up",
@@ -1611,20 +1625,6 @@
             "link": "https://www.cbssports.com/betting/news/jazz-vs-clippers-tuesday-nba-picks-injury-ravaged-utah-set-to-tie-third-longest-losing-skid-in-team-history/",
             "source": "www.cbssports.com",
             "tone": -1
-          },
-          {
-            "t": "2026-11-17T14:36:39Z",
-            "title": "Spurs&#39; 12-game winning streak: What to know about Victor Wembanyama and the NBA&#39;s hottest team",
-            "link": "https://sports.yahoo.com/nba/article/spurs-12-game-winning-streak-what-to-know-about-victor-wembanyama-and-the-nbas-hottest-team-144640740.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-17T14:15:58Z",
-            "title": "Paul George flips the script — and the bird — in Philadelphia return",
-            "link": "https://sports.yahoo.com/articles/paul-george-flips-script-bird-023500511.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
           }
         ]
       },
@@ -2187,49 +2187,49 @@
         "appetite": 0.6
       },
       "reading": {
-        "week": 384,
+        "week": 421,
         "latest": [
           {
-            "t": "2026-11-17T19:15:00Z",
-            "title": "UCF Q&A: How does Lewis Carter’s return help the Knights?",
-            "link": "https://sports.yahoo.com/articles/ucf-q-does-lewis-carter-191500357.html",
+            "t": "2026-11-17T22:48:05Z",
+            "title": "Texans CB Kamari Lassiter downgraded to a non-participant Tuesday",
+            "link": "https://sports.yahoo.com/articles/texans-cb-kamari-lassiter-downgraded-224805625.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-17T18:58:58Z",
-            "title": "NFL flexes injury-riddled Patriots out of SNF in Week 12, swaps in Raiders and Fernando Mendoza",
-            "link": "https://sports.yahoo.com/nfl/breaking-news/article/nfl-flexes-injury-riddled-patriots-out-of-snf-in-week-12-swaps-in-raiders-and-fernando-mendoza-185858544.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-17T18:52:23Z",
-            "title": "Dabo Swinney Promises “More Championships” Immediately After Career-Worst Defeat",
-            "link": "https://sports.yahoo.com/articles/dabo-swinney-promises-more-championships-185223162.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-17T18:50:21Z",
-            "title": "NFL bumps struggling Patriots, Chargers out of Week 12 &#39;SNF&#39; slot",
-            "link": "https://sports.yahoo.com/articles/nfl-bumps-struggling-patriots-chargers-185021151.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-17T18:01:27Z",
-            "title": "LSU vs. Tennessee: 5 storylines as Lane Kiffin returns to Knoxville",
-            "link": "https://sports.yahoo.com/articles/lsu-vs-tennessee-5-storylines-180127134.html",
+            "t": "2026-11-17T22:30:57Z",
+            "title": "Brent Venables discusses impact of moving Ole Miss ahead of A&M",
+            "link": "https://sports.yahoo.com/articles/brent-venables-discusses-impact-moving-223057757.html",
             "source": "sports.yahoo.com",
             "tone": 1
           },
           {
-            "t": "2026-11-17T17:56:24Z",
-            "title": "10 disturbing signs of Lane Kiffin turmoil at LSU before Tennessee game",
-            "link": "https://sports.yahoo.com/articles/10-disturbing-signs-lane-kiffin-175624403.html",
+            "t": "2026-11-17T22:22:09Z",
+            "title": "Arizona Cardinals place Andrew Wingard and Jordan Burch on injured reserve",
+            "link": "https://sports.yahoo.com/articles/arizona-cardinals-place-andrew-wingard-222209318.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-17T22:04:49Z",
+            "title": "Former Michigan WR Semaj Morgan takes shot at Big House crowd",
+            "link": "https://sports.yahoo.com/articles/former-michigan-wr-semaj-morgan-220449701.html",
             "source": "sports.yahoo.com",
             "tone": 1
+          },
+          {
+            "t": "2026-11-17T22:00:02Z",
+            "title": "Miami Hurricanes Missing Secondary Factors Likely For Rest of Regular Season",
+            "link": "https://sports.yahoo.com/articles/miami-hurricanes-missing-secondary-factors-220002629.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-17T21:48:51Z",
+            "title": "Wan&#39;Dale Robinson lands on injured reserve",
+            "link": "https://sports.yahoo.com/articles/wandale-robinson-lands-injured-214851225.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
           }
         ]
       },
