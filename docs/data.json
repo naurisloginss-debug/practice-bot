@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T01:30:43Z",
+  "updated": "2026-11-17T01:45:30Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -29,8 +29,8 @@
     ],
     "chars": {
       "lizard": {
-        "iq": 106,
-        "iq_gain": 0,
+        "iq": 105,
+        "iq_gain": -1,
         "streak": 4,
         "best_streak": 8,
         "achievements": [
@@ -152,7 +152,7 @@
             "pending": true
           }
         ],
-        "score": 136,
+        "score": 135,
         "trophies": [
           {
             "kind": "sharpshooter",
@@ -184,8 +184,8 @@
         ]
       },
       "quant": {
-        "iq": 120,
-        "iq_gain": 1,
+        "iq": 121,
+        "iq_gain": 2,
         "streak": 1,
         "best_streak": 3,
         "achievements": [
@@ -307,7 +307,7 @@
             "pending": false
           }
         ],
-        "score": 171,
+        "score": 172,
         "trophies": [
           {
             "kind": "grower",
@@ -871,7 +871,7 @@
         "appetite": 0.45
       },
       "reading": {
-        "week": 112,
+        "week": 67,
         "latest": [
           {
             "t": "2026-11-16T19:56:55Z",
@@ -1117,8 +1117,8 @@
       },
       "traits": [],
       "mind": {
-        "iq": 106,
-        "iq_week": 7,
+        "iq": 105,
+        "iq_week": 6,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -1174,7 +1174,7 @@
           },
           {
             "d": "2026-11-17",
-            "iq": 106
+            "iq": 105
           }
         ],
         "facts": [
@@ -1522,8 +1522,29 @@
         "appetite": 0.35
       },
       "reading": {
-        "week": 91,
+        "week": 107,
         "latest": [
+          {
+            "t": "2026-11-17T00:19:45Z",
+            "title": "Cavs announce injury update for Evan Mobley",
+            "link": "https://sports.yahoo.com/articles/cavs-announce-injury-evan-mobley-001945601.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-16T23:01:02Z",
+            "title": "Rockets vs. Heat NBA picks: A four-game win streak will end in Giannis Antetokounmpo vs. Kevin Durant showdown",
+            "link": "https://www.cbssports.com/betting/news/rockets-vs-heat-nba-picks-a-four-game-win-streak-will-end-in-giannis-antetokounmpo-vs-kevin-durant-showdown/",
+            "source": "www.cbssports.com",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-16T22:37:00Z",
+            "title": "Wizards vs. Grizzlies Discussion",
+            "link": "https://sports.yahoo.com/articles/wizards-vs-grizzlies-discussion-223700156.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
           {
             "t": "2026-11-16T22:07:56Z",
             "title": "Cavaliers&#39; Evan Mobley out at least another week with toe injury suffered in win over Knicks",
@@ -1542,27 +1563,6 @@
             "t": "2026-11-16T19:35:14Z",
             "title": "Celtics starter on injury report ahead of game vs. Magic",
             "link": "https://sports.yahoo.com/articles/celtics-starter-injury-report-ahead-193514066.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-16T18:55:49Z",
-            "title": "Preview: Nets look to get on track against a Sixers team without LeBron",
-            "link": "https://sports.yahoo.com/articles/preview-nets-look-track-against-185549473.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-16T18:34:33Z",
-            "title": "LeBron James out for 76ers on Monday vs. Nets due to low-back management; Joel Embiid questionable",
-            "link": "https://sports.yahoo.com/nba/article/lebron-james-out-for-76ers-on-monday-vs-nets-due-to-low-back-management-joel-embiid-questionable-183449525.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-16T18:15:52Z",
-            "title": "2026-27 NBA News, Injury Updates Nov. 16: Stephen Curry injured, Dejounte Murray makes trade request",
-            "link": "https://sports.yahoo.com/articles/2026-27-nba-news-injury-181552486.html",
             "source": "sports.yahoo.com",
             "tone": -1
           }
@@ -1730,8 +1730,8 @@
       },
       "traits": [],
       "mind": {
-        "iq": 120,
-        "iq_week": 29,
+        "iq": 121,
+        "iq_week": 30,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -1787,7 +1787,7 @@
           },
           {
             "d": "2026-11-17",
-            "iq": 120
+            "iq": 121
           }
         ],
         "facts": [
@@ -2109,47 +2109,47 @@
         "appetite": 0.6
       },
       "reading": {
-        "week": 397,
+        "week": 426,
         "latest": [
           {
-            "t": "2026-11-16T22:37:29Z",
-            "title": "Packers WR clears waivers, set up for practice squad return",
-            "link": "https://sports.yahoo.com/articles/packers-wr-clears-waivers-set-223729244.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-16T22:36:57Z",
-            "title": "Detroit Lions re-claim EDGE rusher following Aidan Hutchinson injury",
-            "link": "https://sports.yahoo.com/articles/detroit-lions-claim-edge-rusher-223657379.html",
+            "t": "2026-11-17T01:25:43Z",
+            "title": "Rams lose offensive starter for extended amount of time",
+            "link": "https://sports.yahoo.com/articles/rams-lose-offensive-starter-extended-012543461.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-16T22:13:05Z",
-            "title": "Texas coach Steve Sarkisian has 1 wish for Arch Manning coming out of ugly LSU game",
-            "link": "https://sports.yahoo.com/articles/texas-coach-steve-sarkisian-1-221305510.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-16T21:52:07Z",
-            "title": "Raiders TE Brock Bowers day-to-day with ankle injury that was &#39;not as bad&#39; as feared, HC Klint Kubiak says",
-            "link": "https://sports.yahoo.com/nfl/article/raiders-te-brock-bowers-day-to-day-with-ankle-injury-that-was-not-as-bad-as-feared-hc-klint-kubiak-says-215207373.html",
+            "t": "2026-11-17T00:37:12Z",
+            "title": "Jets QB Geno Smith avoids major injuries after leaving loss to Bills multiple times with concussion, ankle issue",
+            "link": "https://sports.yahoo.com/nfl/article/jets-qb-geno-smith-avoids-major-injuries-after-leaving-loss-to-bills-multiple-times-with-concussion-ankle-issue-003712686.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-16T21:25:13Z",
-            "title": "Florida HC Jon Sumrall Hints at $50 Million Budget Ask",
-            "link": "https://sports.yahoo.com/articles/florida-hc-jon-sumrall-hints-212513776.html",
+            "t": "2026-11-17T00:10:00Z",
+            "title": "3 notes from Curt Cignetti’s press conference ahead of Washington",
+            "link": "https://sports.yahoo.com/articles/3-notes-curt-cignetti-press-001000934.html",
             "source": "sports.yahoo.com",
-            "tone": 1
+            "tone": -1
           },
           {
-            "t": "2026-11-16T21:07:46Z",
-            "title": "Texas loses key starter on defense to season-ending injury",
-            "link": "https://sports.yahoo.com/articles/texas-loses-key-starter-defense-210746444.html",
+            "t": "2026-11-17T00:00:21Z",
+            "title": "Mike Macdonald says &#39;Sam&#39;s our quarterback&#39; amid chatter that Drew Lock should start for Seahawks over Darnold",
+            "link": "https://sports.yahoo.com/nfl/breaking-news/article/mike-macdonald-says-sams-our-quarterback-amid-chatter-that-drew-lock-should-start-for-seahawks-over-darnold-000021021.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-16T23:45:00Z",
+            "title": "Chicago Bears Injury Update for Kyle Monangai, Luther Burden III, and others",
+            "link": "https://sports.yahoo.com/articles/chicago-bears-injury-kyle-monangai-234500800.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-16T23:23:40Z",
+            "title": "Report: Aidan Hutchinson has torn ACL but no additional damage",
+            "link": "https://sports.yahoo.com/articles/report-aidan-hutchinson-torn-acl-232340545.html",
             "source": "sports.yahoo.com",
             "tone": -1
           }
