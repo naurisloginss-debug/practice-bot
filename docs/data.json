@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T07:45:30Z",
+  "updated": "2026-11-17T08:00:55Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -29,8 +29,8 @@
     ],
     "chars": {
       "lizard": {
-        "iq": 105,
-        "iq_gain": -1,
+        "iq": 107,
+        "iq_gain": 1,
         "streak": 4,
         "best_streak": 8,
         "achievements": [
@@ -136,8 +136,8 @@
         "goals": [
           {
             "text": "Games studied",
-            "target": 32,
-            "now": 7
+            "target": 31,
+            "now": 12
           },
           {
             "text": "Bets checked against the market",
@@ -152,7 +152,7 @@
             "pending": true
           }
         ],
-        "score": 135,
+        "score": 137,
         "trophies": [
           {
             "kind": "sharpshooter",
@@ -184,8 +184,8 @@
         ]
       },
       "quant": {
-        "iq": 121,
-        "iq_gain": 2,
+        "iq": 122,
+        "iq_gain": 3,
         "streak": 1,
         "best_streak": 3,
         "achievements": [
@@ -292,7 +292,7 @@
           {
             "text": "Games studied",
             "target": 367,
-            "now": 39
+            "now": 73
           },
           {
             "text": "Bets checked against the market",
@@ -307,7 +307,7 @@
             "pending": false
           }
         ],
-        "score": 172,
+        "score": 173,
         "trophies": [
           {
             "kind": "grower",
@@ -438,7 +438,7 @@
           {
             "text": "Games studied",
             "target": 90,
-            "now": 69
+            "now": 77
           },
           {
             "text": "Bets checked against the market",
@@ -518,8 +518,8 @@
       "leader": "shark"
     }
   },
-  "credits_left": 19135,
-  "last_scan": "2026-11-16@16",
+  "credits_left": 19114,
+  "last_scan": "2026-11-17@8",
   "strategies": {
     "lizard": {
       "name": "The Lizard",
@@ -571,14 +571,14 @@
           "detail": "-3.7% vs the market over 17 bets"
         }
       ],
-      "bets": 38,
-      "open": 1,
+      "bets": 39,
+      "open": 2,
       "won": 9,
       "lost": 28,
       "staked": 67.98,
       "profit": -17.53,
       "roi": -0.2579,
-      "avg_edge": 0.0274,
+      "avg_edge": 0.0276,
       "avg_clv": -0.0137,
       "beat_close": 0.6486,
       "clv_count": 37,
@@ -817,6 +817,15 @@
           "avg_clv": -0.1505,
           "beat_close": 0.0,
           "clv_count": 2
+        },
+        {
+          "name": "MLS (USA)",
+          "bets": 1,
+          "profit": 0,
+          "roi": null,
+          "avg_clv": null,
+          "beat_close": null,
+          "clv_count": 0
         }
       ],
       "by_market": [
@@ -831,7 +840,7 @@
         },
         {
           "name": "Winner",
-          "bets": 36,
+          "bets": 37,
           "profit": -14.43,
           "roi": -0.2224,
           "avg_clv": -0.0152,
@@ -842,7 +851,7 @@
       "by_sport": [
         {
           "name": "Football",
-          "bets": 38,
+          "bets": 39,
           "profit": -17.53,
           "roi": -0.2579,
           "avg_clv": -0.0137,
@@ -871,7 +880,7 @@
         "appetite": 0.45
       },
       "reading": {
-        "week": 75,
+        "week": 98,
         "latest": [
           {
             "t": "2026-11-16T19:56:55Z",
@@ -902,64 +911,64 @@
             "tone": 1
           },
           {
-            "t": "2026-11-16T12:02:07Z",
-            "title": "Republic of Ireland captain Collins to miss Kosovo game",
-            "link": "https://www.bbc.co.uk/sport/football/articles/cmlyd25gy904o?at_medium=RSS&at_campaign=rss",
-            "source": "feeds.bbci.co.uk",
+            "t": "2026-11-16T16:02:13Z",
+            "title": "Report Maignan tests reassuring for Milan after France injury",
+            "link": "https://football-italia.net/maignan-tests-reassuring-milan-france-injury/",
+            "source": "football-italia.net",
             "tone": -1
           },
           {
-            "t": "2026-11-15T16:38:51Z",
-            "title": "Tenerife return to action after death of De Miguel",
-            "link": "https://www.bbc.co.uk/sport/football/articles/cqx2xn535yj8o?at_medium=RSS&at_campaign=rss",
+            "t": "2026-11-16T15:55:16Z",
+            "title": "Wales without Williams for Portugal as Bellamy makes Vitinha point",
+            "link": "https://www.bbc.co.uk/sport/football/articles/cmkgk3nv6pqyo?at_medium=RSS&at_campaign=rss",
             "source": "feeds.bbci.co.uk",
-            "tone": 1
+            "tone": -1
           }
         ]
       },
       "diary": {
-        "t": "2026-11-16T16:01:05Z",
-        "mood": "Nothing worth the risk today. Patience is a weapon.",
+        "t": "2026-11-17T08:00:55Z",
+        "mood": "Gap spotted. Striking while the bookmakers sleep.",
         "mindset": "Nauris gave me 500 and said he's not worried about losing it. That's permission to act, not to be careless: I strike more often, but only where the gap is real. Only one of us goes live.",
-        "looked": 7,
-        "placed": 0,
-        "wild_choice": "Saw Atletico Paranaense at 13.50. Tempting, but I passed. Feeling sharp after beating the market 3 times in a row.",
+        "looked": 11,
+        "placed": 1,
+        "wild_choice": "Saw Atletico Paranaense at 13.00. Tempting, but I passed. Feeling sharp after beating the market 4 times in a row.",
         "scouts": 0,
         "passed": [
           {
             "game": "Flamengo vs Atletico Paranaense",
             "league": "Brasileirão (Brazil)",
             "pick": "Atletico Paranaense",
-            "odds": 13.5,
+            "odds": 13.0,
             "book": "Matchbook",
-            "edge": 0.0885,
-            "reason": "Odds 13.50 are outside my game (1.6–6.0)."
+            "edge": 0.1467,
+            "reason": "+14.7% looks too good to be true. Probably a price the bookmaker forgot to update."
           },
           {
-            "game": "Cruzeiro vs Palmeiras",
-            "league": "Brasileirão (Brazil)",
-            "pick": "Cruzeiro",
-            "odds": 2.91,
-            "book": "BetOnline.ag",
-            "edge": 0.0016,
-            "reason": "Only +0.16% edge. I need +2.0% before I move."
-          },
-          {
-            "game": "Corinthians vs Botafogo",
-            "league": "Brasileirão (Brazil)",
-            "pick": "Botafogo",
-            "odds": 4.4,
-            "book": "Coolbet",
-            "edge": -0.0219,
-            "reason": "I've learned to stay away from Brasileirão (Brazil) winner at these odds."
-          },
-          {
-            "game": "Coritiba vs Santos",
-            "league": "Brasileirão (Brazil)",
+            "game": "Orlando City SC vs FC Cincinnati",
+            "league": "MLS (USA)",
             "pick": "Draw",
-            "odds": 3.8,
-            "book": "Matchbook",
-            "edge": -0.0261,
+            "odds": 4.2,
+            "book": "LeoVegas (SE)",
+            "edge": 0.0103,
+            "reason": "I've learned to stay away from MLS (USA) winner at these odds."
+          },
+          {
+            "game": "Seattle Sounders FC vs Real Salt Lake",
+            "league": "MLS (USA)",
+            "pick": "Draw",
+            "odds": 4.1,
+            "book": "LeoVegas (SE)",
+            "edge": 0.0065,
+            "reason": "I've learned to stay away from MLS (USA) winner at these odds."
+          },
+          {
+            "game": "Vasco da Gama vs Internacional",
+            "league": "Brasileirão (Brazil)",
+            "pick": "Internacional",
+            "odds": 5.25,
+            "book": "Coolbet",
+            "edge": -0.018,
             "reason": "I've learned to stay away from Brasileirão (Brazil) winner at these odds."
           }
         ]
@@ -1117,8 +1126,8 @@
       },
       "traits": [],
       "mind": {
-        "iq": 105,
-        "iq_week": 6,
+        "iq": 107,
+        "iq_week": 8,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -1174,7 +1183,7 @@
           },
           {
             "d": "2026-11-17",
-            "iq": 105
+            "iq": 107
           }
         ],
         "facts": [
@@ -1215,6 +1224,13 @@
           },
           {
             "conf": "solid",
+            "n": 179,
+            "z": 0,
+            "text": "Matchbook is the softest bookmaker in Brasileirão (Brazil).",
+            "detail": "beats fair by 2%+ on 3% of its prices vs 1% across all bookmakers"
+          },
+          {
+            "conf": "solid",
             "n": 33,
             "z": 0,
             "text": "When I find value, the market moves my way before kick-off 70% of the time.",
@@ -1222,7 +1238,7 @@
           }
         ],
         "rules": 0,
-        "studied": 92,
+        "studied": 96,
         "resolved": 85
       }
     },
@@ -1259,14 +1275,14 @@
       "start_fund": 500,
       "fund": 494.96,
       "lessons": [],
-      "bets": 50,
-      "open": 9,
+      "bets": 58,
+      "open": 17,
       "won": 17,
       "lost": 24,
       "staked": 248.1,
       "profit": -5.04,
       "roi": -0.0203,
-      "avg_edge": 0.0357,
+      "avg_edge": 0.0395,
       "avg_clv": 0.0005,
       "beat_close": 0.4865,
       "clv_count": 37,
@@ -1461,7 +1477,7 @@
         },
         {
           "name": "College basketball (US)",
-          "bets": 32,
+          "bets": 40,
           "profit": 19.49,
           "roi": 0.0895,
           "avg_clv": -0.0067,
@@ -1481,7 +1497,7 @@
         },
         {
           "name": "Winner",
-          "bets": 26,
+          "bets": 27,
           "profit": -16.15,
           "roi": -0.4055,
           "avg_clv": 0.0069,
@@ -1490,7 +1506,7 @@
         },
         {
           "name": "Total",
-          "bets": 22,
+          "bets": 29,
           "profit": 15.14,
           "roi": 0.0749,
           "avg_clv": -0.0273,
@@ -1501,7 +1517,7 @@
       "by_sport": [
         {
           "name": "Basketball",
-          "bets": 50,
+          "bets": 58,
           "profit": -5.04,
           "roi": -0.0203,
           "avg_clv": 0.0005,
@@ -1530,8 +1546,15 @@
         "appetite": 0.35
       },
       "reading": {
-        "week": 119,
+        "week": 124,
         "latest": [
+          {
+            "t": "2026-11-17T05:41:19Z",
+            "title": "New details on Keyonte George’s injury",
+            "link": "https://sports.yahoo.com/articles/details-keyonte-george-injury-054119073.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
           {
             "t": "2026-11-17T03:30:00Z",
             "title": "Diving deeper into Cavs 126-115 win over Bulls: Cavaliers are discovering hidden depth",
@@ -1547,6 +1570,13 @@
             "tone": 1
           },
           {
+            "t": "2026-11-17T03:02:16Z",
+            "title": "76ers&#39; Jaylen Brown injures head, hamstring in victory over Nets",
+            "link": "https://sports.yahoo.com/nba/breaking-news/article/76ers-jaylen-brown-injures-head-hamstring-in-victory-over-nets-055559797.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
             "t": "2026-11-17T02:55:41Z",
             "title": "Heat star Bam Adebayo leaves win over Rockets early with hip injury",
             "link": "https://sports.yahoo.com/nba/breaking-news/article/heat-star-bam-adebayo-leaves-win-over-rockets-early-with-hip-injury-025541347.html",
@@ -1554,37 +1584,60 @@
             "tone": -1
           },
           {
-            "t": "2026-11-17T00:19:45Z",
-            "title": "Cavs announce injury update for Evan Mobley",
-            "link": "https://sports.yahoo.com/articles/cavs-announce-injury-evan-mobley-001945601.html",
+            "t": "2026-11-17T02:55:41Z",
+            "title": "Bam Adebayo leaves win over Rockets early with hip injury, Heat don&#39;t expect long-term issue",
+            "link": "https://sports.yahoo.com/nba/breaking-news/article/bam-adebayo-leaves-win-over-rockets-early-with-hip-injury-heat-dont-expect-long-term-issue-055335775.html",
             "source": "sports.yahoo.com",
             "tone": -1
-          },
-          {
-            "t": "2026-11-16T23:54:39Z",
-            "title": "Warriors vs. Pelicans injury report: Steph Curry and Trey Murphy III are both out",
-            "link": "https://sports.yahoo.com/articles/warriors-vs-pelicans-injury-report-235439735.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-16T23:01:02Z",
-            "title": "Rockets vs. Heat NBA picks: A four-game win streak will end in Giannis Antetokounmpo vs. Kevin Durant showdown",
-            "link": "https://www.cbssports.com/betting/news/rockets-vs-heat-nba-picks-a-four-game-win-streak-will-end-in-giannis-antetokounmpo-vs-kevin-durant-showdown/",
-            "source": "www.cbssports.com",
-            "tone": 1
           }
         ]
       },
       "diary": {
-        "t": "2026-11-16T16:01:05Z",
-        "mood": "Daily limit reached. The data will still be here tomorrow.",
+        "t": "2026-11-17T08:00:55Z",
+        "mood": "The numbers don't lie. Betting it.",
         "mindset": "500 to work with, and Nauris isn't worried about losing it. More shots, same standard: every bet still has to beat the market. Only one of us goes live.",
-        "looked": 0,
-        "placed": 0,
-        "wild_choice": "Saw East Texas A&M Lions at 11.25. Tempting. Passed: I'm down (457.34 of 500), and I don't chase losses.",
+        "looked": 18,
+        "placed": 8,
+        "wild_choice": "No wild bets today: today's challenge is about discipline.",
         "scouts": 0,
-        "passed": []
+        "passed": [
+          {
+            "game": "Wake Forest Demon Deacons vs Monmouth Hawks",
+            "league": "College basketball (US)",
+            "pick": "Monmouth Hawks",
+            "odds": 10.14,
+            "book": "BetOnline.ag",
+            "edge": 0.0433,
+            "reason": "Odds 10.14 are outside my game (1.6–3.5)."
+          },
+          {
+            "game": "Florida St Seminoles vs Ball State Cardinals",
+            "league": "College basketball (US)",
+            "pick": "Under 150.5",
+            "odds": 1.91,
+            "book": "888sport",
+            "edge": 0.0167,
+            "reason": "Only +1.67% edge. I need +2.5% before I move."
+          },
+          {
+            "game": "UCF Knights vs Mississippi St Bulldogs",
+            "league": "College basketball (US)",
+            "pick": "Mississippi St Bulldogs",
+            "odds": 2.0,
+            "book": "888sport",
+            "edge": 0.013,
+            "reason": "Only +1.30% edge. I need +2.5% before I move."
+          },
+          {
+            "game": "Dayton Flyers vs Central Michigan Chippewas",
+            "league": "College basketball (US)",
+            "pick": "Under 147.5",
+            "odds": 1.85,
+            "book": "888sport",
+            "edge": 0.0017,
+            "reason": "Only +0.17% edge. I need +2.5% before I move."
+          }
+        ]
       },
       "level": {
         "n": 2,
@@ -1738,8 +1791,8 @@
       },
       "traits": [],
       "mind": {
-        "iq": 121,
-        "iq_week": 30,
+        "iq": 122,
+        "iq_week": 31,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -1795,7 +1848,7 @@
           },
           {
             "d": "2026-11-17",
-            "iq": 121
+            "iq": 122
           }
         ],
         "facts": [
@@ -1808,7 +1861,7 @@
           },
           {
             "conf": "solid",
-            "n": 1190,
+            "n": 1280,
             "z": 0,
             "text": "BetOnline.ag is the softest bookmaker in College basketball (US).",
             "detail": "beats fair by 2%+ on 2% of its prices vs 1% across all bookmakers"
@@ -1843,7 +1896,7 @@
           }
         ],
         "rules": 1,
-        "studied": 393,
+        "studied": 427,
         "resolved": 379
       }
     },
@@ -1878,14 +1931,14 @@
       "start_fund": 500,
       "fund": 495.25,
       "lessons": [],
-      "bets": 53,
-      "open": 20,
+      "bets": 56,
+      "open": 23,
       "won": 9,
       "lost": 24,
       "staked": 49.45,
       "profit": -4.75,
       "roi": -0.0961,
-      "avg_edge": 0.0254,
+      "avg_edge": 0.0259,
       "avg_clv": 0.0178,
       "beat_close": 0.5806,
       "clv_count": 31,
@@ -2039,7 +2092,7 @@
         },
         {
           "name": "College football (US)",
-          "bets": 36,
+          "bets": 39,
           "profit": -3.57,
           "roi": -0.1827,
           "avg_clv": 0.0219,
@@ -2068,7 +2121,7 @@
         },
         {
           "name": "Winner",
-          "bets": 41,
+          "bets": 43,
           "profit": 5.3,
           "roi": 0.1842,
           "avg_clv": 0.0179,
@@ -2077,7 +2130,7 @@
         },
         {
           "name": "Total",
-          "bets": 5,
+          "bets": 6,
           "profit": -7.0,
           "roi": -1.0,
           "avg_clv": 0.0078,
@@ -2088,7 +2141,7 @@
       "by_sport": [
         {
           "name": "American football",
-          "bets": 53,
+          "bets": 56,
           "profit": -4.75,
           "roi": -0.0961,
           "avg_clv": 0.0178,
@@ -2108,7 +2161,7 @@
         "profit": -1.06
       },
       "wild": {
-        "bets": 8,
+        "bets": 9,
         "won": 1,
         "lost": 5,
         "profit": -0.22,
@@ -2117,8 +2170,22 @@
         "appetite": 0.6
       },
       "reading": {
-        "week": 406,
+        "week": 378,
         "latest": [
+          {
+            "t": "2026-11-17T06:31:56Z",
+            "title": "Jason Witten Sends Message at Oklahoma",
+            "link": "https://sports.yahoo.com/articles/jason-witten-sends-message-oklahoma-063156649.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-17T05:05:59Z",
+            "title": "Why Oregon’s Dan Lanning believes Ducks still deserve CFP consideration",
+            "link": "https://sports.yahoo.com/articles/why-oregon-dan-lanning-believes-050559164.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
           {
             "t": "2026-11-17T03:26:55Z",
             "title": "Dolphins&#39; Zeek Biggers set for season-ending knee surgery",
@@ -2134,79 +2201,65 @@
             "tone": -1
           },
           {
+            "t": "2026-11-17T02:26:57Z",
+            "title": "Rams offensive line woes get even worse with latest injured reserve shakeup",
+            "link": "https://sports.yahoo.com/articles/rams-offensive-line-woes-even-022657741.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
             "t": "2026-11-17T01:40:29Z",
             "title": "Rams starting center Coleman Shelton to be sidelined for weeks",
             "link": "https://sports.yahoo.com/articles/rams-starting-center-coleman-shelton-014029728.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-17T01:37:14Z",
-            "title": "Texans estimate David Montgomery as a full participant, but Woody Marks doesn&#39;t practice",
-            "link": "https://sports.yahoo.com/articles/texans-estimate-david-montgomery-full-013714205.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-17T01:25:43Z",
-            "title": "Rams lose offensive starter for extended amount of time",
-            "link": "https://sports.yahoo.com/articles/rams-lose-offensive-starter-extended-012543461.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-17T00:37:12Z",
-            "title": "Jets QB Geno Smith avoids major injuries after leaving loss to Bills multiple times with concussion, ankle issue",
-            "link": "https://sports.yahoo.com/nfl/article/jets-qb-geno-smith-avoids-major-injuries-after-leaving-loss-to-bills-multiple-times-with-concussion-ankle-issue-003712686.html",
             "source": "sports.yahoo.com",
             "tone": -1
           }
         ]
       },
       "diary": {
-        "t": "2026-11-16T16:01:05Z",
+        "t": "2026-11-17T08:00:55Z",
         "mood": "Blood in the water. Getting in before the market moves.",
         "mindset": "500 in the tank and Nauris says he's not worried about losing it. More bites, but only clean ones that beat the market. Only one of us gets the seat.",
-        "looked": 68,
-        "placed": 8,
-        "wild_choice": "Feeling sharp after beating the market 3 times in a row. Took a shot: Georgia Tech Yellow Jackets at 10.75, Colorado State Rams at 11.00.",
-        "scouts": 0,
+        "looked": 76,
+        "placed": 3,
+        "wild_choice": "Took a shot: Eastern Michigan Eagles at 6.40.",
+        "scouts": 1,
         "passed": [
+          {
+            "game": "Air Force Falcons vs UTEP Miners",
+            "league": "College football (US)",
+            "pick": "UTEP Miners",
+            "odds": 14.75,
+            "book": "Marathon Bet",
+            "edge": 0.245,
+            "reason": "+24.5% looks too good to be true. Probably a price the bookmaker forgot to update."
+          },
+          {
+            "game": "Texas Longhorns vs Arkansas Razorbacks",
+            "league": "College football (US)",
+            "pick": "Arkansas Razorbacks",
+            "odds": 11.75,
+            "book": "Marathon Bet",
+            "edge": 0.175,
+            "reason": "+17.5% looks too good to be true. Probably a price the bookmaker forgot to update."
+          },
           {
             "game": "Liberty Flames vs Western Kentucky Hilltoppers",
             "league": "College football (US)",
             "pick": "Western Kentucky Hilltoppers",
             "odds": 8.0,
             "book": "Unibet (SE)",
-            "edge": 0.1532,
-            "reason": "+15.3% looks too good to be true. Probably a price the bookmaker forgot to update."
+            "edge": 0.117,
+            "reason": "+11.7% looks too good to be true. Probably a price the bookmaker forgot to update."
           },
           {
-            "game": "Texas Longhorns vs Arkansas Razorbacks",
-            "league": "College football (US)",
-            "pick": "Arkansas Razorbacks",
-            "odds": 11.5,
-            "book": "Marathon Bet",
-            "edge": 0.1489,
-            "reason": "+14.9% looks too good to be true. Probably a price the bookmaker forgot to update."
-          },
-          {
-            "game": "Fresno State Bulldogs vs Colorado State Rams",
-            "league": "College football (US)",
-            "pick": "Colorado State Rams",
-            "odds": 11.0,
+            "game": "Chicago Bears vs New Orleans Saints",
+            "league": "NFL",
+            "pick": "New Orleans Saints",
+            "odds": 6.25,
             "book": "Unibet (SE)",
-            "edge": 0.1483,
-            "reason": "+14.8% looks too good to be true. Probably a price the bookmaker forgot to update."
-          },
-          {
-            "game": "Michigan State Spartans vs Oregon Ducks",
-            "league": "College football (US)",
-            "pick": "Michigan State Spartans",
-            "odds": 7.1,
-            "book": "MyBookie.ag",
-            "edge": 0.1336,
-            "reason": "+13.4% looks too good to be true. Probably a price the bookmaker forgot to update."
+            "edge": 0.1147,
+            "reason": "+11.5% looks too good to be true. Probably a price the bookmaker forgot to update."
           }
         ]
       },
@@ -2251,7 +2304,7 @@
           "americanfootball_cfl"
         ],
         "curiosity": 0.5,
-        "scouts": 15,
+        "scouts": 16,
         "scout_clv": 0.0228,
         "scout_measured": 12
       },
@@ -2448,7 +2501,7 @@
           }
         ],
         "rules": 0,
-        "studied": 218,
+        "studied": 227,
         "resolved": 150
       }
     }
@@ -2842,6 +2895,45 @@
       ]
     },
     {
+      "id": "ae9b81f4814e1d9dae835a13f4245ce3-shark-h2h",
+      "strategy": "shark",
+      "placed_at": "2026-11-17T08:00:55Z",
+      "league_key": "americanfootball_ncaaf",
+      "league": "College football (US)",
+      "sport": "American football",
+      "event_id": "ae9b81f4814e1d9dae835a13f4245ce3",
+      "game": "Michigan Wolverines vs UCLA Bruins",
+      "home": "Michigan Wolverines",
+      "away": "UCLA Bruins",
+      "start": "2026-11-21T20:30:00Z",
+      "market": "h2h",
+      "market_name": "Winner",
+      "name": "Michigan Wolverines",
+      "point": null,
+      "pick": "Michigan Wolverines",
+      "book": "MyBookie.ag",
+      "book_key": "mybookieag",
+      "odds": 2.67,
+      "eff_odds": 2.67,
+      "fair_odds": 2.57,
+      "edge": 0.0391,
+      "stake": 6.95,
+      "status": "open",
+      "closing_fair_odds": null,
+      "clv": null,
+      "profit": 0.0,
+      "score": null,
+      "settled_at": null,
+      "thoughts": [
+        "Pinnacle, the sharpest bookmaker, rates Michigan Wolverines at 38.9%. That makes the fair price 2.57.",
+        "MyBookie.ag pays 2.67. That is +3.9% above fair. My bar is +1.5%.",
+        "Full Kelly says 2.3% of my fund. I play 0.6× Kelly, capped at 7%: 6.95 of my 495.25.",
+        "I read 25 articles about Michigan Wolverines lately (bad news for them): “Michigan State football head coach Pat Fitzgerald previews Oregon”",
+        "I read 6 articles about UCLA Bruins lately (nothing that changes much): “Michigan Makes Major QB Decision Before UCLA Game”",
+        "Blood in the water. Getting in before the market moves."
+      ]
+    },
+    {
       "id": "347054d00e6c0020484eb64f1ad1b58d-shark-h2h",
       "strategy": "shark",
       "placed_at": "2026-11-16T08:01:11Z",
@@ -3077,6 +3169,45 @@
       ]
     },
     {
+      "id": "f247efd606eabe7d3d87504bc3af43b4-shark-totals-scout",
+      "strategy": "shark",
+      "placed_at": "2026-11-17T08:00:55Z",
+      "scout": true,
+      "league_key": "americanfootball_ncaaf",
+      "league": "College football (US)",
+      "sport": "American football",
+      "event_id": "f247efd606eabe7d3d87504bc3af43b4",
+      "game": "Duke Blue Devils vs Clemson Tigers",
+      "home": "Duke Blue Devils",
+      "away": "Clemson Tigers",
+      "start": "2026-11-21T00:30:00Z",
+      "market": "totals",
+      "market_name": "Total",
+      "name": "Over",
+      "point": 40.5,
+      "pick": "Over 40.5",
+      "book": "BetOnline.ag",
+      "book_key": "betonlineag",
+      "odds": 1.95,
+      "eff_odds": 1.95,
+      "fair_odds": 1.934,
+      "edge": 0.0081,
+      "stake": 2.48,
+      "status": "open",
+      "closing_fair_odds": null,
+      "clv": null,
+      "profit": 0.0,
+      "score": null,
+      "settled_at": null,
+      "thoughts": [
+        "🧭 Exploring. I've only made 3 bets like this (College football (US) total bets at favourites).",
+        "Over 40.5 at 1.95 is +0.81% above fair: below my usual bar, but the only way to learn if this kind of bet works for me is to try it.",
+        "I read 2 articles about Duke Blue Devils lately (nothing that changes much): “Clemson Tigers&#39; quarterback room is down to its last options”",
+        "I read 8 articles about Clemson Tigers lately (bad news for them): “Clemson Tigers&#39; quarterback room is down to its last options”",
+        "Scout stake: 2.48 (0.5% of my fund). The result feeds my learning."
+      ]
+    },
+    {
       "id": "c62889a44c822eaf71b9cd24f4eee875-shark-spreads",
       "strategy": "shark",
       "placed_at": "2026-11-16T08:01:11Z",
@@ -3153,6 +3284,43 @@
       ]
     },
     {
+      "id": "ec0a3056ce896bd73059bffab79fc261-lizard-h2h",
+      "strategy": "lizard",
+      "placed_at": "2026-11-17T08:00:55Z",
+      "league_key": "soccer_usa_mls",
+      "league": "MLS (USA)",
+      "sport": "Football",
+      "event_id": "ec0a3056ce896bd73059bffab79fc261",
+      "game": "Orlando City SC vs FC Cincinnati",
+      "home": "Orlando City SC",
+      "away": "FC Cincinnati",
+      "start": "2026-11-20T00:30:00Z",
+      "market": "h2h",
+      "market_name": "Winner",
+      "name": "FC Cincinnati",
+      "point": null,
+      "pick": "FC Cincinnati",
+      "book": "LeoVegas (SE)",
+      "book_key": "leovegas_se",
+      "odds": 2.75,
+      "eff_odds": 2.75,
+      "fair_odds": 2.66,
+      "edge": 0.0339,
+      "stake": 4.67,
+      "status": "open",
+      "closing_fair_odds": null,
+      "clv": null,
+      "profit": 0.0,
+      "score": null,
+      "settled_at": null,
+      "thoughts": [
+        "Pinnacle, the sharpest bookmaker, rates FC Cincinnati at 37.6%. That makes the fair price 2.66.",
+        "LeoVegas (SE) pays 2.75. That is +3.4% above fair. My bar is +2.0%.",
+        "Full Kelly says 1.9% of my fund. I play 0.5× Kelly, capped at 7%: 4.67 of my 482.47.",
+        "Gap spotted. Striking while the bookmakers sleep."
+      ]
+    },
+    {
       "id": "4a0ed971930ed1355d19497b2aa72744-lizard-h2h-scout",
       "strategy": "lizard",
       "placed_at": "2026-11-16T08:01:11Z",
@@ -3226,6 +3394,344 @@
         "I read 1 article about Kent State Golden Flashes lately (nothing that changes much): “Minnesota’s P.J. Fleck brings down hammer on his OC after getting punked by Penn State”",
         "I read 8 articles about Miami (OH) RedHawks lately (nothing that changes much): “Dolphins vs. Bills odds: Opening lines for Week 11 matchup”",
         "Scout stake: 2.47 (0.5% of my fund). The result feeds my learning."
+      ]
+    },
+    {
+      "id": "ce6dd46cd4c337c1959bb8995b009209-quant-totals",
+      "strategy": "quant",
+      "placed_at": "2026-11-17T08:00:55Z",
+      "league_key": "basketball_ncaab",
+      "league": "College basketball (US)",
+      "sport": "Basketball",
+      "event_id": "ce6dd46cd4c337c1959bb8995b009209",
+      "game": "William & Mary Tribe vs Bowling Green Falcons",
+      "home": "William & Mary Tribe",
+      "away": "Bowling Green Falcons",
+      "start": "2026-11-18T00:00:00Z",
+      "market": "totals",
+      "market_name": "Total",
+      "name": "Under",
+      "point": 170.0,
+      "pick": "Under 170",
+      "book": "BetOnline.ag",
+      "book_key": "betonlineag",
+      "odds": 1.91,
+      "eff_odds": 1.91,
+      "fair_odds": 1.803,
+      "edge": 0.0592,
+      "stake": 19.32,
+      "status": "open",
+      "closing_fair_odds": null,
+      "clv": null,
+      "profit": 0.0,
+      "score": null,
+      "settled_at": null,
+      "thoughts": [
+        "Pinnacle's price, adjusted with what I know about College basketball (US) (overs -4.8%), gives Under 170 55.5%: fair price 1.80.",
+        "BetOnline.ag pays 1.91. That is +5.9% above fair. My bar is +2.5%.",
+        "Full Kelly says 6.5% of my fund. I play 0.6× Kelly, capped at 7%: 19.32 of my 494.96.",
+        "The numbers don't lie. Betting it."
+      ]
+    },
+    {
+      "id": "ce6dd46cd4c337c1959bb8995b009209-quant-h2h",
+      "strategy": "quant",
+      "placed_at": "2026-11-17T08:00:55Z",
+      "league_key": "basketball_ncaab",
+      "league": "College basketball (US)",
+      "sport": "Basketball",
+      "event_id": "ce6dd46cd4c337c1959bb8995b009209",
+      "game": "William & Mary Tribe vs Bowling Green Falcons",
+      "home": "William & Mary Tribe",
+      "away": "Bowling Green Falcons",
+      "start": "2026-11-18T00:00:00Z",
+      "market": "h2h",
+      "market_name": "Winner",
+      "name": "Bowling Green Falcons",
+      "point": null,
+      "pick": "Bowling Green Falcons",
+      "book": "GTbets",
+      "book_key": "gtbets",
+      "odds": 2.3,
+      "eff_odds": 2.3,
+      "fair_odds": 2.223,
+      "edge": 0.0347,
+      "stake": 7.93,
+      "status": "open",
+      "closing_fair_odds": null,
+      "clv": null,
+      "profit": 0.0,
+      "score": null,
+      "settled_at": null,
+      "thoughts": [
+        "Pinnacle's price, adjusted with what I know about College basketball (US) (overs -4.8%), gives Bowling Green Falcons 45.0%: fair price 2.22.",
+        "GTbets pays 2.30. That is +3.5% above fair. My bar is +2.5%.",
+        "Full Kelly says 2.7% of my fund. I play 0.6× Kelly, capped at 7%: 7.93 of my 494.96.",
+        "The numbers don't lie. Betting it."
+      ]
+    },
+    {
+      "id": "f2f76ded2b49c859cfcdb18510fc4461-quant-totals",
+      "strategy": "quant",
+      "placed_at": "2026-11-17T08:00:55Z",
+      "league_key": "basketball_ncaab",
+      "league": "College basketball (US)",
+      "sport": "Basketball",
+      "event_id": "f2f76ded2b49c859cfcdb18510fc4461",
+      "game": "Butler Bulldogs vs Western Carolina Catamounts",
+      "home": "Butler Bulldogs",
+      "away": "Western Carolina Catamounts",
+      "start": "2026-11-18T00:00:00Z",
+      "market": "totals",
+      "market_name": "Total",
+      "name": "Under",
+      "point": 160.5,
+      "pick": "Under 160.5",
+      "book": "GTbets",
+      "book_key": "gtbets",
+      "odds": 1.92,
+      "eff_odds": 1.92,
+      "fair_odds": 1.77,
+      "edge": 0.0847,
+      "stake": 27.36,
+      "status": "open",
+      "closing_fair_odds": null,
+      "clv": null,
+      "profit": 0.0,
+      "score": null,
+      "settled_at": null,
+      "thoughts": [
+        "Pinnacle's price, adjusted with what I know about College basketball (US) (overs -4.8%), gives Under 160.5 56.5%: fair price 1.77.",
+        "GTbets pays 1.92. That is +8.5% above fair. My bar is +2.5%.",
+        "Full Kelly says 9.2% of my fund. I play 0.6× Kelly, capped at 7%: 27.36 of my 494.96.",
+        "I read 1 article about Western Carolina Catamounts lately (nothing that changes much): “Victor Wembanyama named Western Conference Player of the Week”",
+        "The numbers don't lie. Betting it."
+      ]
+    },
+    {
+      "id": "51812abb23ba8ac9eeb6568fe25132a9-quant-totals",
+      "strategy": "quant",
+      "placed_at": "2026-11-17T08:00:55Z",
+      "league_key": "basketball_ncaab",
+      "league": "College basketball (US)",
+      "sport": "Basketball",
+      "event_id": "51812abb23ba8ac9eeb6568fe25132a9",
+      "game": "Dayton Flyers vs Central Michigan Chippewas",
+      "home": "Dayton Flyers",
+      "away": "Central Michigan Chippewas",
+      "start": "2026-11-18T00:00:00Z",
+      "market": "totals",
+      "market_name": "Total",
+      "name": "Under",
+      "point": 147.5,
+      "pick": "Under 147.5",
+      "book": "GTbets",
+      "book_key": "gtbets",
+      "odds": 1.92,
+      "eff_odds": 1.92,
+      "fair_odds": 1.847,
+      "edge": 0.0396,
+      "stake": 12.77,
+      "status": "open",
+      "closing_fair_odds": null,
+      "clv": null,
+      "profit": 0.0,
+      "score": null,
+      "settled_at": null,
+      "thoughts": [
+        "Pinnacle's price, adjusted with what I know about College basketball (US) (overs -4.8%), gives Under 147.5 54.1%: fair price 1.85.",
+        "GTbets pays 1.92. That is +4.0% above fair. My bar is +2.5%.",
+        "Full Kelly says 4.3% of my fund. I play 0.6× Kelly, capped at 7%: 12.77 of my 494.96.",
+        "The numbers don't lie. Betting it."
+      ]
+    },
+    {
+      "id": "5819a23622486bd00ba1853a161f898a-quant-totals",
+      "strategy": "quant",
+      "placed_at": "2026-11-17T08:00:55Z",
+      "league_key": "basketball_ncaab",
+      "league": "College basketball (US)",
+      "sport": "Basketball",
+      "event_id": "5819a23622486bd00ba1853a161f898a",
+      "game": "Davidson Wildcats vs Charlotte 49ers",
+      "home": "Davidson Wildcats",
+      "away": "Charlotte 49ers",
+      "start": "2026-11-18T00:00:00Z",
+      "market": "totals",
+      "market_name": "Total",
+      "name": "Under",
+      "point": 134.0,
+      "pick": "Under 134",
+      "book": "GTbets",
+      "book_key": "gtbets",
+      "odds": 1.92,
+      "eff_odds": 1.92,
+      "fair_odds": 1.816,
+      "edge": 0.0572,
+      "stake": 18.46,
+      "status": "open",
+      "closing_fair_odds": null,
+      "clv": null,
+      "profit": 0.0,
+      "score": null,
+      "settled_at": null,
+      "thoughts": [
+        "Pinnacle's price, adjusted with what I know about College basketball (US) (overs -4.8%), gives Under 134 55.1%: fair price 1.82.",
+        "GTbets pays 1.92. That is +5.7% above fair. My bar is +2.5%.",
+        "Full Kelly says 6.2% of my fund. I play 0.6× Kelly, capped at 7%: 18.46 of my 494.96.",
+        "I read 1 article about Charlotte 49ers lately (nothing that changes much): “Hornets vs. Lakers predictions: Odds, recent stats, trends and best bets for November 17”",
+        "The numbers don't lie. Betting it."
+      ]
+    },
+    {
+      "id": "b84cb1c5cde0ceb1ba7bba70f8db0a81-quant-totals",
+      "strategy": "quant",
+      "placed_at": "2026-11-17T08:00:55Z",
+      "league_key": "basketball_ncaab",
+      "league": "College basketball (US)",
+      "sport": "Basketball",
+      "event_id": "b84cb1c5cde0ceb1ba7bba70f8db0a81",
+      "game": "Marshall Thundering Herd vs East Tennessee St Buccaneers",
+      "home": "Marshall Thundering Herd",
+      "away": "East Tennessee St Buccaneers",
+      "start": "2026-11-18T00:00:00Z",
+      "market": "totals",
+      "market_name": "Total",
+      "name": "Under",
+      "point": 147.0,
+      "pick": "Under 147",
+      "book": "BetOnline.ag",
+      "book_key": "betonlineag",
+      "odds": 1.91,
+      "eff_odds": 1.91,
+      "fair_odds": 1.825,
+      "edge": 0.0467,
+      "stake": 15.23,
+      "status": "open",
+      "closing_fair_odds": null,
+      "clv": null,
+      "profit": 0.0,
+      "score": null,
+      "settled_at": null,
+      "thoughts": [
+        "Pinnacle's price, adjusted with what I know about College basketball (US) (overs -4.8%), gives Under 147 54.8%: fair price 1.82.",
+        "BetOnline.ag pays 1.91. That is +4.7% above fair. My bar is +2.5%.",
+        "Full Kelly says 5.1% of my fund. I play 0.6× Kelly, capped at 7%: 15.23 of my 494.96.",
+        "The numbers don't lie. Betting it."
+      ]
+    },
+    {
+      "id": "33f00f4f6cbb6af0870e39e68ad3c430-quant-totals",
+      "strategy": "quant",
+      "placed_at": "2026-11-17T08:00:55Z",
+      "league_key": "basketball_ncaab",
+      "league": "College basketball (US)",
+      "sport": "Basketball",
+      "event_id": "33f00f4f6cbb6af0870e39e68ad3c430",
+      "game": "Wake Forest Demon Deacons vs Monmouth Hawks",
+      "home": "Wake Forest Demon Deacons",
+      "away": "Monmouth Hawks",
+      "start": "2026-11-18T00:00:00Z",
+      "market": "totals",
+      "market_name": "Total",
+      "name": "Under",
+      "point": 144.0,
+      "pick": "Under 144",
+      "book": "BetOnline.ag",
+      "book_key": "betonlineag",
+      "odds": 1.95,
+      "eff_odds": 1.95,
+      "fair_odds": 1.778,
+      "edge": 0.0967,
+      "stake": 30.24,
+      "status": "open",
+      "closing_fair_odds": null,
+      "clv": null,
+      "profit": 0.0,
+      "score": null,
+      "settled_at": null,
+      "thoughts": [
+        "Pinnacle's price, adjusted with what I know about College basketball (US) (overs -4.8%), gives Under 144 56.2%: fair price 1.78.",
+        "BetOnline.ag pays 1.95. That is +9.7% above fair. My bar is +2.5%.",
+        "Full Kelly says 10.2% of my fund. I play 0.6× Kelly, capped at 7%: 30.24 of my 494.96.",
+        "I read 1 article about Monmouth Hawks lately (nothing that changes much): “Bucks vs. Hawks Player Grades: Jakucionis notches career high, Trent proves he’s worth every penny”",
+        "The numbers don't lie. Betting it."
+      ]
+    },
+    {
+      "id": "39bce9119f7631dfd8656e4e8d388192-quant-totals",
+      "strategy": "quant",
+      "placed_at": "2026-11-17T08:00:55Z",
+      "league_key": "basketball_ncaab",
+      "league": "College basketball (US)",
+      "sport": "Basketball",
+      "event_id": "39bce9119f7631dfd8656e4e8d388192",
+      "game": "Pittsburgh Panthers vs Villanova Wildcats",
+      "home": "Pittsburgh Panthers",
+      "away": "Villanova Wildcats",
+      "start": "2026-11-18T00:00:00Z",
+      "market": "totals",
+      "market_name": "Total",
+      "name": "Under",
+      "point": 148.5,
+      "pick": "Under 148.5",
+      "book": "GTbets",
+      "book_key": "gtbets",
+      "odds": 1.92,
+      "eff_odds": 1.92,
+      "fair_odds": 1.766,
+      "edge": 0.0873,
+      "stake": 18.69,
+      "status": "open",
+      "closing_fair_odds": null,
+      "clv": null,
+      "profit": 0.0,
+      "score": null,
+      "settled_at": null,
+      "thoughts": [
+        "Pinnacle's price, adjusted with what I know about College basketball (US) (overs -4.8%), gives Under 148.5 56.6%: fair price 1.77.",
+        "GTbets pays 1.92. That is +8.7% above fair. My bar is +2.5%.",
+        "Full Kelly says 9.5% of my fund. I play 0.6× Kelly, capped at 7%: 18.69 of my 494.96.",
+        "The numbers don't lie. Betting it."
+      ]
+    },
+    {
+      "id": "0d8cfafd3da8fead51df5ec2e33e9382-shark-h2h-wild",
+      "strategy": "shark",
+      "placed_at": "2026-11-17T08:00:55Z",
+      "wild": true,
+      "league_key": "americanfootball_ncaaf",
+      "league": "College football (US)",
+      "sport": "American football",
+      "event_id": "0d8cfafd3da8fead51df5ec2e33e9382",
+      "game": "Western Michigan Broncos vs Eastern Michigan Eagles",
+      "home": "Western Michigan Broncos",
+      "away": "Eastern Michigan Eagles",
+      "start": "2026-11-17T23:00:00Z",
+      "market": "h2h",
+      "market_name": "Winner",
+      "name": "Eastern Michigan Eagles",
+      "point": null,
+      "pick": "Eastern Michigan Eagles",
+      "book": "MyBookie.ag",
+      "book_key": "mybookieag",
+      "odds": 6.4,
+      "eff_odds": 6.4,
+      "fair_odds": 6.061,
+      "edge": 0.056,
+      "stake": 1.24,
+      "status": "open",
+      "closing_fair_odds": null,
+      "clv": null,
+      "profit": 0.0,
+      "score": null,
+      "settled_at": null,
+      "thoughts": [
+        "Wild one: Eastern Michigan Eagles at 6.40. The market gives it 16%.",
+        "Big fish, long line. Let's see if it bites.",
+        "I read 26 articles about Western Michigan Broncos lately (bad news for them): “Michigan State football head coach Pat Fitzgerald previews Oregon”",
+        "I read 31 articles about Eastern Michigan Eagles lately (bad news for them): “Michigan State football head coach Pat Fitzgerald previews Oregon”",
+        "My choice, tiny stake: 1.24 (0.25% of my fund). Kept out of my serious record."
       ]
     },
     {
@@ -7798,10 +8304,6 @@
   "log": [
     {
       "t": "2026-11-16T00:00:56Z",
-      "text": "🧭 🦎 The Lizard is exploring Liga MX this week."
-    },
-    {
-      "t": "2026-11-16T00:00:56Z",
       "text": "🧭 🧮 The Quant moved on from NBL (not enough bets to judge)."
     },
     {
@@ -7915,6 +8417,10 @@
     {
       "t": "2026-11-17T03:00:58Z",
       "text": "Results:\n- Won +16.85: Under 155 (Total) in Virginia Tech Hokies vs Richmond Spiders (Virginia Tech Hokies 85 - 68 Richmond Spiders)\n- Won +20.77: Under 159 (Total) in Tulsa Golden Hurricane vs Western Kentucky Hilltoppers (Tulsa Golden Hurricane 67 - 64 Western Kentucky Hilltoppers)"
+    },
+    {
+      "t": "2026-11-17T08:00:55Z",
+      "text": "Placed 12 practice bets:\n- The Lizard: **FC Cincinnati** (Winner) in Orlando City SC vs FC Cincinnati (MLS (USA)) at 2.75 on LeoVegas (SE), stake 4.67, edge +3.4%\n- The Quant: **Under 170** (Total) in William & Mary Tribe vs Bowling Green Falcons (College basketball (US)) at 1.91 on BetOnline.ag, stake 19.32, edge +5.9%\n- The Quant: **Bowling Green Falcons** (Winner) in William & Mary Tribe vs Bowling Green Falcons (College basketball (US)) at 2.3 on GTbets, stake 7.93, edge +3.5%\n- The Quant: **Under 160.5** (Total) in Butler Bulldogs vs Western Carolina Catamounts (College basketball (US)) at 1.92 on GTbets, stake 27.36, edge +8.5%\n- The Quant: **Under 147.5** (Total) in Dayton Flyers vs Central Michigan Chippewas (College basketball (US)) at 1.92 on GTbets, stake 12.77, edge +4.0%\n- The Quant: **Under 134** (Total) in Davidson Wildcats vs Charlotte 49ers (College basketball (US)) at 1.92 on GTbets, stake 18.46, edge +5.7%\n- The Quant: **Under 147** (Total) in Marshall Thundering Herd vs East Tennessee St Buccaneers (College basketball (US)) at 1.91 on BetOnline.ag, stake 15.23, edge +4.7%\n- The Quant: **Under 144** (Total) in Wake Forest Demon Deacons vs Monmouth Hawks (College basketball (US)) at 1.95 on BetOnline.ag, stake 30.24, edge +9.7%\n- The Quant: **Under 148.5** (Total) in Pittsburgh Panthers vs Villanova Wildcats (College basketball (US)) at 1.92 on GTbets, stake 18.69, edge +8.7%\n- The Shark: **Michigan Wolverines** (Winner) in Michigan Wolverines vs UCLA Bruins (College football (US)) at 2.67 on MyBookie.ag, stake 6.95, edge +3.9%\n- The Shark 🧭 scout: **Over 40.5** (Total) in Duke Blue Devils vs Clemson Tigers (College football (US)) at 1.95 on BetOnline.ag, stake 2.48, edge +0.8%\n- The Shark 🎲 wild: **Eastern Michigan Eagles** (Winner) in Western Michigan Broncos vs Eastern Michigan Eagles (College football (US)) at 6.4 on MyBookie.ag, stake 1.24, edge +5.6%"
     }
   ]
 }

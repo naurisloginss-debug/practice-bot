@@ -1,6 +1,6 @@
 {
-  "last_scan": "2026-11-16@16",
-  "credits_left": 19135,
+  "last_scan": "2026-11-17@8",
+  "credits_left": 19114,
   "league_names": {
     "soccer_italy_serie_b": "Serie B (Italy 2)",
     "soccer_efl_champ": "Championship (England 2)",
@@ -45,10 +45,6 @@
     "americanfootball_cfl": "2026-11-16T08:01:11Z"
   },
   "log": [
-    {
-      "t": "2026-11-16T00:00:56Z",
-      "text": "🧭 🦎 The Lizard is exploring Liga MX this week."
-    },
     {
       "t": "2026-11-16T00:00:56Z",
       "text": "🧭 🧮 The Quant moved on from NBL (not enough bets to judge)."
@@ -164,6 +160,10 @@
     {
       "t": "2026-11-17T03:00:58Z",
       "text": "Results:\n- Won +16.85: Under 155 (Total) in Virginia Tech Hokies vs Richmond Spiders (Virginia Tech Hokies 85 - 68 Richmond Spiders)\n- Won +20.77: Under 159 (Total) in Tulsa Golden Hurricane vs Western Kentucky Hilltoppers (Tulsa Golden Hurricane 67 - 64 Western Kentucky Hilltoppers)"
+    },
+    {
+      "t": "2026-11-17T08:00:55Z",
+      "text": "Placed 12 practice bets:\n- The Lizard: **FC Cincinnati** (Winner) in Orlando City SC vs FC Cincinnati (MLS (USA)) at 2.75 on LeoVegas (SE), stake 4.67, edge +3.4%\n- The Quant: **Under 170** (Total) in William & Mary Tribe vs Bowling Green Falcons (College basketball (US)) at 1.91 on BetOnline.ag, stake 19.32, edge +5.9%\n- The Quant: **Bowling Green Falcons** (Winner) in William & Mary Tribe vs Bowling Green Falcons (College basketball (US)) at 2.3 on GTbets, stake 7.93, edge +3.5%\n- The Quant: **Under 160.5** (Total) in Butler Bulldogs vs Western Carolina Catamounts (College basketball (US)) at 1.92 on GTbets, stake 27.36, edge +8.5%\n- The Quant: **Under 147.5** (Total) in Dayton Flyers vs Central Michigan Chippewas (College basketball (US)) at 1.92 on GTbets, stake 12.77, edge +4.0%\n- The Quant: **Under 134** (Total) in Davidson Wildcats vs Charlotte 49ers (College basketball (US)) at 1.92 on GTbets, stake 18.46, edge +5.7%\n- The Quant: **Under 147** (Total) in Marshall Thundering Herd vs East Tennessee St Buccaneers (College basketball (US)) at 1.91 on BetOnline.ag, stake 15.23, edge +4.7%\n- The Quant: **Under 144** (Total) in Wake Forest Demon Deacons vs Monmouth Hawks (College basketball (US)) at 1.95 on BetOnline.ag, stake 30.24, edge +9.7%\n- The Quant: **Under 148.5** (Total) in Pittsburgh Panthers vs Villanova Wildcats (College basketball (US)) at 1.92 on GTbets, stake 18.69, edge +8.7%\n- The Shark: **Michigan Wolverines** (Winner) in Michigan Wolverines vs UCLA Bruins (College football (US)) at 2.67 on MyBookie.ag, stake 6.95, edge +3.9%\n- The Shark 🧭 scout: **Over 40.5** (Total) in Duke Blue Devils vs Clemson Tigers (College football (US)) at 1.95 on BetOnline.ag, stake 2.48, edge +0.8%\n- The Shark 🎲 wild: **Eastern Michigan Eagles** (Winner) in Western Michigan Broncos vs Eastern Michigan Eagles (College football (US)) at 6.4 on MyBookie.ag, stake 1.24, edge +5.6%"
     }
   ],
   "levels": {
@@ -316,7 +316,7 @@
       },
       {
         "d": "2026-11-17",
-        "iq": 105
+        "iq": 107
       }
     ],
     "quant": [
@@ -374,7 +374,7 @@
       },
       {
         "d": "2026-11-17",
-        "iq": 121
+        "iq": 122
       }
     ],
     "shark": [
@@ -776,95 +776,95 @@
       },
       "basketball_nba": {
         "888sport": [
-          596,
+          606,
           4
         ],
         "William Hill": [
-          596,
+          606,
           4
         ],
         "MyBookie.ag": [
-          612,
+          626,
           2
         ],
         "Nordic Bet": [
-          472,
+          482,
           0
         ],
         "1xBet": [
-          610,
+          620,
           7
         ],
         "Betsson": [
-          472,
+          482,
           0
         ],
         "GTbets": [
-          666,
+          678,
           3
         ],
         "Codere (IT)": [
-          412,
+          422,
           0
         ],
         "Everygame": [
-          588,
+          596,
           6
         ],
         "Unibet (NL)": [
-          504,
+          514,
           5
         ],
         "PMU (FR)": [
-          340,
+          350,
           0
         ],
         "Marathon Bet": [
-          564,
+          574,
           4
         ],
         "BetAnything": [
-          520,
+          530,
           5
         ],
         "BetOnline.ag": [
-          600,
+          610,
           5
         ],
         "Tipico": [
-          478,
+          488,
           0
         ],
         "LeoVegas (SE)": [
-          396,
+          404,
           4
         ],
         "Unibet (SE)": [
-          396,
+          404,
           5
         ],
         "Coolbet": [
-          458,
+          472,
           4
         ],
         "Matchbook": [
-          470,
+          484,
           18
         ],
         "Unibet (FR)": [
-          234,
+          242,
           0
         ],
         "Betclic (FR)": [
-          234,
+          242,
           0
         ],
         "Winamax (DE)": [
-          234,
+          242,
           1
         ],
         "Winamax (FR)": [
-          234,
+          242,
           0
         ],
         "Betfair": [
@@ -874,84 +874,84 @@
       },
       "americanfootball_nfl": {
         "BetOnline.ag": [
-          978,
+          1022,
           1
         ],
         "MyBookie.ag": [
-          1088,
-          4
+          1126,
+          5
         ],
         "GTbets": [
-          1088,
+          1130,
           3
         ],
         "LeoVegas (SE)": [
-          756,
-          8
+          784,
+          10
         ],
         "Unibet (SE)": [
-          756,
-          9
+          784,
+          11
         ],
         "PMU (FR)": [
-          1044,
+          1076,
           0
         ],
         "Unibet (NL)": [
-          1044,
-          9
+          1080,
+          11
         ],
         "Matchbook": [
-          770,
+          802,
           29
         ],
         "Coolbet": [
-          1026,
+          1068,
           3
         ],
         "BetAnything": [
-          1086,
-          11
+          1126,
+          12
         ],
         "Everygame": [
-          1090,
-          3
+          1132,
+          4
         ],
         "Nordic Bet": [
-          900,
+          928,
           1
         ],
         "Betsson": [
-          904,
+          938,
           1
         ],
         "1xBet": [
-          578,
+          592,
           0
         ],
         "888sport": [
-          892,
-          16
+          926,
+          17
         ],
         "Marathon Bet": [
-          924,
+          962,
           20
         ],
         "Tipico": [
-          908,
-          18
+          942,
+          20
         ],
         "Betclic (FR)": [
-          372,
+          392,
           0
         ],
         "William Hill": [
-          372,
-          11
+          392,
+          12
         ],
         "Codere (IT)": [
-          372,
-          1
+          392,
+          2
         ],
         "Betfair": [
           346,
@@ -1206,64 +1206,64 @@
       },
       "americanfootball_ncaaf": {
         "Betsson": [
-          1156,
+          1240,
           0
         ],
         "Nordic Bet": [
-          1136,
+          1220,
           0
         ],
         "Matchbook": [
-          1928,
+          1930,
           24
         ],
         "Coolbet": [
-          4202,
+          4484,
           1
         ],
         "Unibet (NL)": [
-          3422,
-          67
+          3644,
+          77
         ],
         "BetOnline.ag": [
-          3892,
+          4152,
           4
         ],
         "GTbets": [
-          3852,
-          5
+          4116,
+          8
         ],
         "1xBet": [
-          960,
+          1064,
           1
         ],
         "MyBookie.ag": [
-          3910,
-          40
+          4178,
+          46
         ],
         "BetAnything": [
-          4068,
+          4212,
           5
         ],
         "Marathon Bet": [
-          3492,
-          21
+          3740,
+          28
         ],
         "Everygame": [
-          2234,
+          2318,
           2
         ],
         "LeoVegas (SE)": [
-          2780,
-          65
+          2954,
+          75
         ],
         "Unibet (SE)": [
-          2780,
-          67
+          2954,
+          77
         ],
         "William Hill": [
-          332,
-          4
+          370,
+          7
         ],
         "Betfair": [
           966,
@@ -1272,39 +1272,39 @@
       },
       "basketball_ncaab": {
         "BetOnline.ag": [
-          1190,
-          22
+          1280,
+          24
         ],
         "LeoVegas (SE)": [
-          928,
+          994,
           10
         ],
         "Unibet (NL)": [
-          1134,
+          1208,
           11
         ],
         "Unibet (SE)": [
-          928,
+          994,
           10
         ],
         "888sport": [
-          1334,
-          3
+          1422,
+          4
         ],
         "GTbets": [
-          1336,
-          13
+          1410,
+          14
         ],
         "1xBet": [
-          1212,
+          1288,
           3
         ],
         "Betsson": [
-          306,
+          324,
           0
         ],
         "Nordic Bet": [
-          604,
+          644,
           0
         ],
         "Betfair": [
@@ -1312,7 +1312,7 @@
           2
         ],
         "William Hill": [
-          494,
+          526,
           1
         ],
         "Everygame": [
@@ -1514,95 +1514,173 @@
       },
       "soccer_brazil_campeonato": {
         "1xBet": [
-          92,
-          0
+          125,
+          1
         ],
         "William Hill": [
-          88,
+          117,
           0
         ],
         "Winamax (DE)": [
-          72,
+          99,
           0
         ],
         "888sport": [
-          72,
+          99,
           0
         ],
         "Winamax (FR)": [
-          72,
+          99,
           0
         ],
         "Unibet (FR)": [
-          72,
+          99,
           0
         ],
         "MyBookie.ag": [
-          86,
+          111,
           0
         ],
         "Betclic (FR)": [
-          72,
+          99,
           0
         ],
         "Marathon Bet": [
-          98,
+          133,
           0
         ],
         "PMU (FR)": [
-          82,
+          108,
           0
         ],
         "Unibet (NL)": [
-          88,
+          117,
           0
         ],
         "Unibet (SE)": [
-          88,
+          117,
           0
         ],
         "LeoVegas (SE)": [
-          88,
+          117,
           0
         ],
         "Coolbet": [
-          106,
+          139,
           0
         ],
         "Matchbook": [
-          132,
-          4
+          179,
+          5
         ],
         "GTbets": [
-          98,
-          0
+          129,
+          1
         ],
         "Tipico": [
-          88,
+          117,
           0
         ],
         "BetOnline.ag": [
-          116,
+          155,
           0
         ],
         "Codere (IT)": [
-          88,
+          117,
           0
         ],
         "Betsson": [
-          88,
-          0
+          117,
+          1
         ],
         "Nordic Bet": [
-          88,
-          0
+          117,
+          1
         ],
         "Betfair": [
           72,
           1
         ],
         "BetAnything": [
-          50,
+          86,
+          0
+        ]
+      },
+      "soccer_usa_mls": {
+        "Unibet (FR)": [
+          6,
+          0
+        ],
+        "Nordic Bet": [
+          6,
+          0
+        ],
+        "1xBet": [
+          6,
+          0
+        ],
+        "Winamax (DE)": [
+          6,
+          0
+        ],
+        "Winamax (FR)": [
+          6,
+          0
+        ],
+        "Marathon Bet": [
+          8,
+          0
+        ],
+        "Betsson": [
+          6,
+          0
+        ],
+        "Betclic (FR)": [
+          6,
+          0
+        ],
+        "888sport": [
+          6,
+          0
+        ],
+        "William Hill": [
+          6,
+          0
+        ],
+        "BetOnline.ag": [
+          12,
+          0
+        ],
+        "MyBookie.ag": [
+          8,
+          0
+        ],
+        "Codere (IT)": [
+          6,
+          0
+        ],
+        "PMU (FR)": [
+          6,
+          0
+        ],
+        "Unibet (NL)": [
+          6,
+          0
+        ],
+        "Unibet (SE)": [
+          6,
+          0
+        ],
+        "LeoVegas (SE)": [
+          6,
+          1
+        ],
+        "Coolbet": [
+          8,
+          0
+        ],
+        "GTbets": [
+          8,
           0
         ]
       }
@@ -1610,125 +1688,162 @@
   },
   "diary": {
     "lizard": {
-      "t": "2026-11-16T16:01:05Z",
-      "mood": "Nothing worth the risk today. Patience is a weapon.",
+      "t": "2026-11-17T08:00:55Z",
+      "mood": "Gap spotted. Striking while the bookmakers sleep.",
       "mindset": "Nauris gave me 500 and said he's not worried about losing it. That's permission to act, not to be careless: I strike more often, but only where the gap is real. Only one of us goes live.",
-      "looked": 7,
-      "placed": 0,
-      "wild_choice": "Saw Atletico Paranaense at 13.50. Tempting, but I passed. Feeling sharp after beating the market 3 times in a row.",
+      "looked": 11,
+      "placed": 1,
+      "wild_choice": "Saw Atletico Paranaense at 13.00. Tempting, but I passed. Feeling sharp after beating the market 4 times in a row.",
       "scouts": 0,
       "passed": [
         {
           "game": "Flamengo vs Atletico Paranaense",
           "league": "Brasileirão (Brazil)",
           "pick": "Atletico Paranaense",
-          "odds": 13.5,
+          "odds": 13.0,
           "book": "Matchbook",
-          "edge": 0.0885,
-          "reason": "Odds 13.50 are outside my game (1.6–6.0)."
+          "edge": 0.1467,
+          "reason": "+14.7% looks too good to be true. Probably a price the bookmaker forgot to update."
         },
         {
-          "game": "Cruzeiro vs Palmeiras",
-          "league": "Brasileirão (Brazil)",
-          "pick": "Cruzeiro",
-          "odds": 2.91,
-          "book": "BetOnline.ag",
-          "edge": 0.0016,
-          "reason": "Only +0.16% edge. I need +2.0% before I move."
-        },
-        {
-          "game": "Corinthians vs Botafogo",
-          "league": "Brasileirão (Brazil)",
-          "pick": "Botafogo",
-          "odds": 4.4,
-          "book": "Coolbet",
-          "edge": -0.0219,
-          "reason": "I've learned to stay away from Brasileirão (Brazil) winner at these odds."
-        },
-        {
-          "game": "Coritiba vs Santos",
-          "league": "Brasileirão (Brazil)",
+          "game": "Orlando City SC vs FC Cincinnati",
+          "league": "MLS (USA)",
           "pick": "Draw",
-          "odds": 3.8,
-          "book": "Matchbook",
-          "edge": -0.0261,
+          "odds": 4.2,
+          "book": "LeoVegas (SE)",
+          "edge": 0.0103,
+          "reason": "I've learned to stay away from MLS (USA) winner at these odds."
+        },
+        {
+          "game": "Seattle Sounders FC vs Real Salt Lake",
+          "league": "MLS (USA)",
+          "pick": "Draw",
+          "odds": 4.1,
+          "book": "LeoVegas (SE)",
+          "edge": 0.0065,
+          "reason": "I've learned to stay away from MLS (USA) winner at these odds."
+        },
+        {
+          "game": "Vasco da Gama vs Internacional",
+          "league": "Brasileirão (Brazil)",
+          "pick": "Internacional",
+          "odds": 5.25,
+          "book": "Coolbet",
+          "edge": -0.018,
           "reason": "I've learned to stay away from Brasileirão (Brazil) winner at these odds."
         }
       ]
     },
     "quant": {
-      "t": "2026-11-16T16:01:05Z",
-      "mood": "Daily limit reached. The data will still be here tomorrow.",
+      "t": "2026-11-17T08:00:55Z",
+      "mood": "The numbers don't lie. Betting it.",
       "mindset": "500 to work with, and Nauris isn't worried about losing it. More shots, same standard: every bet still has to beat the market. Only one of us goes live.",
-      "looked": 0,
-      "placed": 0,
-      "wild_choice": "Saw East Texas A&M Lions at 11.25. Tempting. Passed: I'm down (457.34 of 500), and I don't chase losses.",
-      "scouts": 0,
-      "passed": []
-    },
-    "shark": {
-      "t": "2026-11-16T16:01:05Z",
-      "mood": "Blood in the water. Getting in before the market moves.",
-      "mindset": "500 in the tank and Nauris says he's not worried about losing it. More bites, but only clean ones that beat the market. Only one of us gets the seat.",
-      "looked": 68,
+      "looked": 18,
       "placed": 8,
-      "wild_choice": "Feeling sharp after beating the market 3 times in a row. Took a shot: Georgia Tech Yellow Jackets at 10.75, Colorado State Rams at 11.00.",
+      "wild_choice": "No wild bets today: today's challenge is about discipline.",
       "scouts": 0,
       "passed": [
+        {
+          "game": "Wake Forest Demon Deacons vs Monmouth Hawks",
+          "league": "College basketball (US)",
+          "pick": "Monmouth Hawks",
+          "odds": 10.14,
+          "book": "BetOnline.ag",
+          "edge": 0.0433,
+          "reason": "Odds 10.14 are outside my game (1.6–3.5)."
+        },
+        {
+          "game": "Florida St Seminoles vs Ball State Cardinals",
+          "league": "College basketball (US)",
+          "pick": "Under 150.5",
+          "odds": 1.91,
+          "book": "888sport",
+          "edge": 0.0167,
+          "reason": "Only +1.67% edge. I need +2.5% before I move."
+        },
+        {
+          "game": "UCF Knights vs Mississippi St Bulldogs",
+          "league": "College basketball (US)",
+          "pick": "Mississippi St Bulldogs",
+          "odds": 2.0,
+          "book": "888sport",
+          "edge": 0.013,
+          "reason": "Only +1.30% edge. I need +2.5% before I move."
+        },
+        {
+          "game": "Dayton Flyers vs Central Michigan Chippewas",
+          "league": "College basketball (US)",
+          "pick": "Under 147.5",
+          "odds": 1.85,
+          "book": "888sport",
+          "edge": 0.0017,
+          "reason": "Only +0.17% edge. I need +2.5% before I move."
+        }
+      ]
+    },
+    "shark": {
+      "t": "2026-11-17T08:00:55Z",
+      "mood": "Blood in the water. Getting in before the market moves.",
+      "mindset": "500 in the tank and Nauris says he's not worried about losing it. More bites, but only clean ones that beat the market. Only one of us gets the seat.",
+      "looked": 76,
+      "placed": 3,
+      "wild_choice": "Took a shot: Eastern Michigan Eagles at 6.40.",
+      "scouts": 1,
+      "passed": [
+        {
+          "game": "Air Force Falcons vs UTEP Miners",
+          "league": "College football (US)",
+          "pick": "UTEP Miners",
+          "odds": 14.75,
+          "book": "Marathon Bet",
+          "edge": 0.245,
+          "reason": "+24.5% looks too good to be true. Probably a price the bookmaker forgot to update."
+        },
+        {
+          "game": "Texas Longhorns vs Arkansas Razorbacks",
+          "league": "College football (US)",
+          "pick": "Arkansas Razorbacks",
+          "odds": 11.75,
+          "book": "Marathon Bet",
+          "edge": 0.175,
+          "reason": "+17.5% looks too good to be true. Probably a price the bookmaker forgot to update."
+        },
         {
           "game": "Liberty Flames vs Western Kentucky Hilltoppers",
           "league": "College football (US)",
           "pick": "Western Kentucky Hilltoppers",
           "odds": 8.0,
           "book": "Unibet (SE)",
-          "edge": 0.1532,
-          "reason": "+15.3% looks too good to be true. Probably a price the bookmaker forgot to update."
+          "edge": 0.117,
+          "reason": "+11.7% looks too good to be true. Probably a price the bookmaker forgot to update."
         },
         {
-          "game": "Texas Longhorns vs Arkansas Razorbacks",
-          "league": "College football (US)",
-          "pick": "Arkansas Razorbacks",
-          "odds": 11.5,
-          "book": "Marathon Bet",
-          "edge": 0.1489,
-          "reason": "+14.9% looks too good to be true. Probably a price the bookmaker forgot to update."
-        },
-        {
-          "game": "Fresno State Bulldogs vs Colorado State Rams",
-          "league": "College football (US)",
-          "pick": "Colorado State Rams",
-          "odds": 11.0,
+          "game": "Chicago Bears vs New Orleans Saints",
+          "league": "NFL",
+          "pick": "New Orleans Saints",
+          "odds": 6.25,
           "book": "Unibet (SE)",
-          "edge": 0.1483,
-          "reason": "+14.8% looks too good to be true. Probably a price the bookmaker forgot to update."
-        },
-        {
-          "game": "Michigan State Spartans vs Oregon Ducks",
-          "league": "College football (US)",
-          "pick": "Michigan State Spartans",
-          "odds": 7.1,
-          "book": "MyBookie.ag",
-          "edge": 0.1336,
-          "reason": "+13.4% looks too good to be true. Probably a price the bookmaker forgot to update."
+          "edge": 0.1147,
+          "reason": "+11.5% looks too good to be true. Probably a price the bookmaker forgot to update."
         }
       ]
     }
   },
   "skip_note": "2026-11-06@8",
-  "news_at": "2026-11-17T04:45:38Z",
+  "news_at": "2026-11-17T08:00:55Z",
   "feed_status": {
     "https://www.espn.com/espn/rss/nba/news": "error 2026-11-10T08:42:16Z: no element found: line 1, column 0",
-    "https://www.cbssports.com/rss/headlines/nba/": "ok 2026-11-17T04:45:38Z",
-    "https://sports.yahoo.com/nba/rss.xml": "ok 2026-11-17T04:45:38Z",
+    "https://www.cbssports.com/rss/headlines/nba/": "ok 2026-11-17T08:00:55Z",
+    "https://sports.yahoo.com/nba/rss.xml": "ok 2026-11-17T08:00:55Z",
     "https://www.espn.com/espn/rss/nfl/news": "error 2026-11-10T08:42:16Z: no element found: line 1, column 0",
     "https://www.espn.com/espn/rss/ncf/news": "error 2026-11-10T08:42:16Z: no element found: line 1, column 0",
-    "https://www.cbssports.com/rss/headlines/nfl/": "ok 2026-11-17T04:45:38Z",
-    "https://sports.yahoo.com/nfl/rss.xml": "ok 2026-11-17T04:45:38Z",
-    "https://sports.yahoo.com/college-football/rss.xml": "ok 2026-11-17T04:45:38Z",
-    "https://feeds.bbci.co.uk/sport/football/rss.xml": "ok 2026-11-17T04:45:38Z",
-    "https://feeds.bbci.co.uk/sport/football/championship/rss.xml": "ok 2026-11-17T04:45:38Z",
-    "https://feeds.bbci.co.uk/sport/football/european/rss.xml": "ok 2026-11-17T04:45:38Z",
-    "https://football-italia.net/feed/": "ok 2026-11-17T04:45:38Z"
+    "https://www.cbssports.com/rss/headlines/nfl/": "ok 2026-11-17T08:00:55Z",
+    "https://sports.yahoo.com/nfl/rss.xml": "ok 2026-11-17T08:00:55Z",
+    "https://sports.yahoo.com/college-football/rss.xml": "ok 2026-11-17T08:00:55Z",
+    "https://feeds.bbci.co.uk/sport/football/rss.xml": "ok 2026-11-17T08:00:55Z",
+    "https://feeds.bbci.co.uk/sport/football/championship/rss.xml": "ok 2026-11-17T08:00:55Z",
+    "https://feeds.bbci.co.uk/sport/football/european/rss.xml": "ok 2026-11-17T08:00:55Z",
+    "https://football-italia.net/feed/": "ok 2026-11-17T08:00:55Z"
   },
   "exploring": {
     "lizard": {
@@ -2022,21 +2137,24 @@
       "2026-11-13": 52,
       "2026-11-14": 38,
       "2026-11-15": 8,
-      "2026-11-16": 14
+      "2026-11-16": 14,
+      "2026-11-17": 11
     },
     "quant": {
       "2026-11-12": 62,
       "2026-11-13": 114,
       "2026-11-14": 96,
       "2026-11-15": 25,
-      "2026-11-16": 19
+      "2026-11-16": 19,
+      "2026-11-17": 18
     },
     "shark": {
       "2026-11-12": 152,
       "2026-11-13": 145,
       "2026-11-14": 132,
       "2026-11-15": 29,
-      "2026-11-16": 135
+      "2026-11-16": 135,
+      "2026-11-17": 76
     }
   },
   "traits": {
