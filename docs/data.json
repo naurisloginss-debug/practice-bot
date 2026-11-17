@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T13:45:36Z",
+  "updated": "2026-11-17T14:01:00Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -184,8 +184,8 @@
         ]
       },
       "quant": {
-        "iq": 123,
-        "iq_gain": 4,
+        "iq": 122,
+        "iq_gain": 3,
         "streak": 1,
         "best_streak": 3,
         "achievements": [
@@ -307,7 +307,7 @@
             "pending": false
           }
         ],
-        "score": 174,
+        "score": 173,
         "trophies": [
           {
             "kind": "grower",
@@ -880,8 +880,22 @@
         "appetite": 0.45
       },
       "reading": {
-        "week": 111,
+        "week": 103,
         "latest": [
+          {
+            "t": "2026-11-17T13:42:21Z",
+            "title": "Kean: Como and Italy striker’s return from injury delayed",
+            "link": "https://football-italia.net/kean-como-italy-striker-return-delayed-more-5/",
+            "source": "football-italia.net",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-17T12:23:39Z",
+            "title": "Juventus share encouraging Yildiz video with five-word message for injured star",
+            "link": "https://football-italia.net/juventus-share-encouraging-yildiz-video-5-word/",
+            "source": "football-italia.net",
+            "tone": -1
+          },
           {
             "t": "2026-11-17T10:50:46Z",
             "title": "McTominay’s Napoli demands fuel Premier League return speculation despite Juventus talks",
@@ -909,20 +923,6 @@
             "link": "https://football-italia.net/parma-lose-romero-for-rest-of-2026-injury/",
             "source": "football-italia.net",
             "tone": -1
-          },
-          {
-            "t": "2026-11-16T19:36:03Z",
-            "title": "Lazio give injury updates for Frattesi, Zaccagni and Nuno Tavares",
-            "link": "https://football-italia.net/lazio-updates-frattesi-zaccagni-nuno-tavares/",
-            "source": "football-italia.net",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-16T19:30:37Z",
-            "title": "Football Italia Show: I witnessed Ronaldinho’s return, here’s what happened",
-            "link": "https://football-italia.net/football-italia-show-witness-ronaldinho-return/",
-            "source": "football-italia.net",
-            "tone": 1
           }
         ]
       },
@@ -1582,8 +1582,15 @@
         "appetite": 0.35
       },
       "reading": {
-        "week": 118,
+        "week": 98,
         "latest": [
+          {
+            "t": "2026-11-17T11:07:39Z",
+            "title": "Spurs winning streak driven by Victor Wembanyama, but he is far from alone",
+            "link": "https://sports.yahoo.com/articles/spurs-winning-streak-driven-victor-110739957.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
           {
             "t": "2026-11-17T06:03:12Z",
             "title": "LeBron James misses Nets clash with back injury",
@@ -1616,13 +1623,6 @@
             "t": "2026-11-17T03:02:16Z",
             "title": "76ers&#39; Jaylen Brown injures head, hamstring in victory over Nets",
             "link": "https://sports.yahoo.com/nba/breaking-news/article/76ers-jaylen-brown-injures-head-hamstring-in-victory-over-nets-055559797.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-17T02:55:41Z",
-            "title": "Heat star Bam Adebayo leaves win over Rockets early with hip injury",
-            "link": "https://sports.yahoo.com/nba/breaking-news/article/heat-star-bam-adebayo-leaves-win-over-rockets-early-with-hip-injury-025541347.html",
             "source": "sports.yahoo.com",
             "tone": -1
           }
@@ -1827,8 +1827,8 @@
       },
       "traits": [],
       "mind": {
-        "iq": 123,
-        "iq_week": 32,
+        "iq": 122,
+        "iq_week": 31,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -1884,7 +1884,7 @@
           },
           {
             "d": "2026-11-17",
-            "iq": 123
+            "iq": 122
           }
         ],
         "facts": [
@@ -2217,47 +2217,47 @@
         "appetite": 0.6
       },
       "reading": {
-        "week": 371,
+        "week": 399,
         "latest": [
           {
-            "t": "2026-11-17T10:01:00Z",
-            "title": "Prisco's NFL Week 11 Power Rankings: Patrick Mahomes returns to MVP form, which makes Chiefs scary",
-            "link": "https://www.cbssports.com/nfl/news/priscos-nfl-week-11-power-rankings-patrick-mahomes-chiefs/",
-            "source": "www.cbssports.com",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-17T10:01:00Z",
-            "title": "Ohio State makes top schools for 2028 4-star CB",
-            "link": "https://sports.yahoo.com/articles/ohio-state-makes-top-schools-100100962.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-17T09:51:03Z",
-            "title": "5 CFP questions: How long can committee keep unbeaten UCLA behind two-loss Alabama?",
-            "link": "https://sports.yahoo.com/articles/5-cfp-questions-long-committee-095103445.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-17T06:31:56Z",
-            "title": "Jason Witten Sends Message at Oklahoma",
-            "link": "https://sports.yahoo.com/articles/jason-witten-sends-message-oklahoma-063156649.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-17T05:05:59Z",
-            "title": "Why Oregon’s Dan Lanning believes Ducks still deserve CFP consideration",
-            "link": "https://sports.yahoo.com/articles/why-oregon-dan-lanning-believes-050559164.html",
+            "t": "2026-11-17T13:41:59Z",
+            "title": "Dan Campbell: I&#39;m not telling players to stop celebrating because of Aidan Hutchinson&#39;s injury",
+            "link": "https://sports.yahoo.com/articles/dan-campbell-im-not-telling-134159649.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-17T04:37:31Z",
-            "title": "Xavier Gipson back for third stint as Giants returner",
-            "link": "https://sports.yahoo.com/articles/xavier-gipson-back-third-stint-043731499.html",
+            "t": "2026-11-17T13:29:33Z",
+            "title": "Detroit Lions plan to activate, play Kerby Joseph this week vs. Buccaneers",
+            "link": "https://sports.yahoo.com/articles/detroit-lions-plan-activate-play-132933304.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-17T13:29:24Z",
+            "title": "Kayvon Thibodeaux could return to NY Giants, says NFL insider",
+            "link": "https://sports.yahoo.com/articles/kayvon-thibodeaux-could-return-ny-132924987.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-17T13:20:00Z",
+            "title": "Miami Dolphins’ Most Valuable Player | Week Ten | Youth",
+            "link": "https://sports.yahoo.com/articles/miami-dolphins-most-valuable-player-132000886.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-17T13:01:00Z",
+            "title": "Is there concern about Nick Bosa upon his return from injury?",
+            "link": "https://sports.yahoo.com/articles/concern-nick-bosa-upon-return-130100667.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-17T13:00:00Z",
+            "title": "Michigan Football Film Room: Oregon loss reveals a program in crisis",
+            "link": "https://sports.yahoo.com/articles/michigan-football-film-room-oregon-130000758.html",
             "source": "sports.yahoo.com",
             "tone": -1
           }
