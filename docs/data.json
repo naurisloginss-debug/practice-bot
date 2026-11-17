@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T19:45:33Z",
+  "updated": "2026-11-17T20:01:02Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -184,8 +184,8 @@
         ]
       },
       "quant": {
-        "iq": 124,
-        "iq_gain": 5,
+        "iq": 123,
+        "iq_gain": 4,
         "streak": 1,
         "best_streak": 3,
         "achievements": [
@@ -307,7 +307,7 @@
             "pending": false
           }
         ],
-        "score": 175,
+        "score": 174,
         "trophies": [
           {
             "kind": "grower",
@@ -880,8 +880,36 @@
         "appetite": 0.45
       },
       "reading": {
-        "week": 111,
+        "week": 119,
         "latest": [
+          {
+            "t": "2026-11-17T19:42:32Z",
+            "title": "Report Chelsea want Bastoni after Barcelona express doubts",
+            "link": "https://football-italia.net/report-chelsea-want-bastoni-barcelona-doubts/",
+            "source": "football-italia.net",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-17T18:22:30Z",
+            "title": "Official: Kean undergoing new medical assessment after Como setback",
+            "link": "https://football-italia.net/official-kean-new-medical-assessment-como/",
+            "source": "football-italia.net",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-17T18:12:10Z",
+            "title": "Openda doubt as Juventus ready to reconsider Lyon loan",
+            "link": "https://football-italia.net/openda-juventus-ready-to-reconsider-lyon-loan/",
+            "source": "football-italia.net",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-17T17:54:33Z",
+            "title": "Football Italia Show: What’s really going on with Italy? Mancini, Donnarumma & More",
+            "link": "https://football-italia.net/whats-really-going-on-italy-mancini-donnarumma/",
+            "source": "football-italia.net",
+            "tone": 1
+          },
           {
             "t": "2026-11-17T16:40:53Z",
             "title": "West Brom midfielder Diakite injured on Mali duty",
@@ -894,34 +922,6 @@
             "title": "Senegal become first side to book Afcon 2027 spot",
             "link": "https://www.bbc.co.uk/sport/football/articles/c5evrgrvw1ezo?at_medium=RSS&at_campaign=rss",
             "source": "feeds.bbci.co.uk",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-17T16:00:27Z",
-            "title": "Inter joy at good injury news for Lautaro Martinez, Thuram and more",
-            "link": "https://football-italia.net/inter-joy-good-injury-news-lautaro-martinez/",
-            "source": "football-italia.net",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-17T14:15:08Z",
-            "title": "Maignan and Milan receive positive verdict after France injury scare",
-            "link": "https://football-italia.net/maignan-milan-positive-verdict-france-injury/",
-            "source": "football-italia.net",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-17T13:42:21Z",
-            "title": "Kean: Como and Italy striker’s return from injury delayed",
-            "link": "https://football-italia.net/kean-como-italy-striker-return-delayed-more-5/",
-            "source": "football-italia.net",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-17T12:23:39Z",
-            "title": "Juventus share encouraging Yildiz video with five-word message for injured star",
-            "link": "https://football-italia.net/juventus-share-encouraging-yildiz-video-5-word/",
-            "source": "football-italia.net",
             "tone": -1
           }
         ]
@@ -1582,8 +1582,15 @@
         "appetite": 0.35
       },
       "reading": {
-        "week": 110,
+        "week": 97,
         "latest": [
+          {
+            "t": "2026-11-17T16:56:00Z",
+            "title": "Pistons vs Spurs preview: No Duncan or Duren, others must step up",
+            "link": "https://sports.yahoo.com/articles/pistons-vs-spurs-preview-no-165600772.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
           {
             "t": "2026-11-17T16:48:07Z",
             "title": "Giannis Antetokounmpo on return to Milwaukee: &#39;It’s going to be just another game&#39;",
@@ -1613,18 +1620,11 @@
             "tone": 1
           },
           {
-            "t": "2026-11-17T12:42:20Z",
-            "title": "Jaylen Brown experiencing hamstring tightness",
-            "link": "https://sports.yahoo.com/articles/jaylen-brown-experiencing-hamstring-tightness-124220616.html",
+            "t": "2026-11-17T14:15:58Z",
+            "title": "Paul George flips the script — and the bird — in Philadelphia return",
+            "link": "https://sports.yahoo.com/articles/paul-george-flips-script-bird-023500511.html",
             "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-17T11:40:47Z",
-            "title": "Observations after Sixers shake off slow start, Embiid injury scare to win",
-            "link": "https://sports.yahoo.com/articles/observations-sixers-shake-off-slow-171100041.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
+            "tone": 1
           }
         ]
       },
@@ -1790,8 +1790,8 @@
       },
       "traits": [],
       "mind": {
-        "iq": 124,
-        "iq_week": 33,
+        "iq": 123,
+        "iq_week": 32,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -1847,7 +1847,7 @@
           },
           {
             "d": "2026-11-17",
-            "iq": 124
+            "iq": 123
           }
         ],
         "facts": [
@@ -2187,49 +2187,49 @@
         "appetite": 0.6
       },
       "reading": {
-        "week": 379,
+        "week": 384,
         "latest": [
           {
-            "t": "2026-11-17T16:47:41Z",
-            "title": "Texans place Azeez Al-Shaair on injured reserve",
-            "link": "https://sports.yahoo.com/articles/texans-place-azeez-al-shaair-164741652.html",
+            "t": "2026-11-17T19:15:00Z",
+            "title": "UCF Q&A: How does Lewis Carter’s return help the Knights?",
+            "link": "https://sports.yahoo.com/articles/ucf-q-does-lewis-carter-191500357.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-17T16:32:30Z",
-            "title": "Dan Campbell delivers epic answer on Lions’ injury frustration",
-            "link": "https://sports.yahoo.com/articles/dan-campbell-delivers-epic-answer-163230665.html",
+            "t": "2026-11-17T18:58:58Z",
+            "title": "NFL flexes injury-riddled Patriots out of SNF in Week 12, swaps in Raiders and Fernando Mendoza",
+            "link": "https://sports.yahoo.com/nfl/breaking-news/article/nfl-flexes-injury-riddled-patriots-out-of-snf-in-week-12-swaps-in-raiders-and-fernando-mendoza-185858544.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-17T16:00:00Z",
-            "title": "5 quarterbacks the Patriots could sign after the Drake Maye injury",
-            "link": "https://sports.yahoo.com/articles/5-quarterbacks-patriots-could-sign-160000904.html",
+            "t": "2026-11-17T18:52:23Z",
+            "title": "Dabo Swinney Promises “More Championships” Immediately After Career-Worst Defeat",
+            "link": "https://sports.yahoo.com/articles/dabo-swinney-promises-more-championships-185223162.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-17T15:24:02Z",
-            "title": "Irish HC Marcus Freeman provides update on lineman Charles Jagusah",
-            "link": "https://sports.yahoo.com/articles/irish-hc-marcus-freeman-provides-152402859.html",
+            "t": "2026-11-17T18:50:21Z",
+            "title": "NFL bumps struggling Patriots, Chargers out of Week 12 &#39;SNF&#39; slot",
+            "link": "https://sports.yahoo.com/articles/nfl-bumps-struggling-patriots-chargers-185021151.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-17T15:08:52Z",
-            "title": "Hutchinson ruled out for season after celebration injury",
-            "link": "https://sports.yahoo.com/articles/hutchinson-ruled-season-celebration-injury-150852994.html",
+            "t": "2026-11-17T18:01:27Z",
+            "title": "LSU vs. Tennessee: 5 storylines as Lane Kiffin returns to Knoxville",
+            "link": "https://sports.yahoo.com/articles/lsu-vs-tennessee-5-storylines-180127134.html",
             "source": "sports.yahoo.com",
-            "tone": -1
+            "tone": 1
           },
           {
-            "t": "2026-11-17T15:04:43Z",
-            "title": "Lions set to get key defensive player back in Week 11 in wake of Aidan Hutchinson injury",
-            "link": "https://www.cbssports.com/nfl/news/lions-kerby-joseph-set-to-return-week-11-buccaneers/",
-            "source": "www.cbssports.com",
-            "tone": -1
+            "t": "2026-11-17T17:56:24Z",
+            "title": "10 disturbing signs of Lane Kiffin turmoil at LSU before Tennessee game",
+            "link": "https://sports.yahoo.com/articles/10-disturbing-signs-lane-kiffin-175624403.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
           }
         ]
       },
