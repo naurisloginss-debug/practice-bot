@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T10:00:57Z",
+  "updated": "2026-11-17T10:15:31Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -518,7 +518,7 @@
       "leader": "shark"
     }
   },
-  "credits_left": 19110,
+  "credits_left": 19108,
   "last_scan": "2026-11-17@8",
   "strategies": {
     "lizard": {
@@ -1972,15 +1972,15 @@
         "Winner"
       ],
       "start_fund": 500,
-      "fund": 495.25,
+      "fund": 497.15,
       "lessons": [],
       "bets": 56,
-      "open": 23,
-      "won": 9,
+      "open": 22,
+      "won": 10,
       "lost": 24,
-      "staked": 49.45,
-      "profit": -4.75,
-      "roi": -0.0961,
+      "staked": 50.45,
+      "profit": -2.85,
+      "roi": -0.0565,
       "avg_edge": 0.0259,
       "avg_clv": 0.0178,
       "beat_close": 0.5806,
@@ -2121,6 +2121,10 @@
         {
           "t": "2026-11-16T08:01:11Z",
           "fund": 495.25
+        },
+        {
+          "t": "2026-11-17T10:15:31Z",
+          "fund": 497.15
         }
       ],
       "by_league": [
@@ -2145,8 +2149,8 @@
         {
           "name": "NFL",
           "bets": 16,
-          "profit": -2.89,
-          "roi": -0.1004,
+          "profit": -0.99,
+          "roi": -0.0332,
           "avg_clv": 0.0112,
           "beat_close": 0.5,
           "clv_count": 14
@@ -2165,8 +2169,8 @@
         {
           "name": "Winner",
           "bets": 43,
-          "profit": 5.3,
-          "roi": 0.1842,
+          "profit": 7.2,
+          "roi": 0.2418,
           "avg_clv": 0.0179,
           "beat_close": 0.5652,
           "clv_count": 23
@@ -2185,8 +2189,8 @@
         {
           "name": "American football",
           "bets": 56,
-          "profit": -4.75,
-          "roi": -0.0961,
+          "profit": -2.85,
+          "roi": -0.0565,
           "avg_clv": 0.0178,
           "beat_close": 0.5806,
           "clv_count": 31
@@ -2545,7 +2549,7 @@
         ],
         "rules": 0,
         "studied": 227,
-        "resolved": 150
+        "resolved": 151
       }
     }
   },
@@ -3877,12 +3881,12 @@
       "fair_odds": 2.872,
       "edge": 0.0096,
       "stake": 1.0,
-      "status": "open",
+      "status": "won",
       "closing_fair_odds": 2.973,
       "clv": -0.0245,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": 1.9,
+      "score": "Baltimore Ravens 20 - 23 Los Angeles Chargers",
+      "settled_at": "2026-11-17T10:15:31Z",
       "thoughts": [
         "🧭 Exploring. I've only made 0 bets like this (NFL winner bets at middle odds).",
         "Los Angeles Chargers at 2.90 is +0.96% above fair: below my usual bar, but the only way to learn if this kind of bet works for me is to try it.",
@@ -8347,10 +8351,6 @@
   "log": [
     {
       "t": "2026-11-16T00:00:56Z",
-      "text": "🧭 🦈 The Shark moved on from CFL (not enough bets to judge)."
-    },
-    {
-      "t": "2026-11-16T00:00:56Z",
       "text": "❌ 🦎 The Lizard missed 🗺️ New ground: No bet of that type today."
     },
     {
@@ -8464,6 +8464,10 @@
     {
       "t": "2026-11-17T09:30:45Z",
       "text": "Results:\n- Lost -2.60: Brooklyn Nets (Winner) in Brooklyn Nets vs Philadelphia 76ers (Brooklyn Nets 123 - 135 Philadelphia 76ers)\n- Won +6.24: Miami Heat (Winner) in Miami Heat vs Houston Rockets (Miami Heat 128 - 110 Houston Rockets)\n- Won +4.50: Phoenix Suns (Winner) in Denver Nuggets vs Phoenix Suns (Denver Nuggets 105 - 117 Phoenix Suns)"
+    },
+    {
+      "t": "2026-11-17T10:15:31Z",
+      "text": "Results:\n- Won +1.90: Los Angeles Chargers (Winner) in Baltimore Ravens vs Los Angeles Chargers (Baltimore Ravens 20 - 23 Los Angeles Chargers)"
     }
   ]
 }
