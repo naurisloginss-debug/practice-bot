@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T08:30:46Z",
+  "updated": "2026-11-18T08:45:30Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -12,7 +12,7 @@
       "shark",
       "lizard"
     ],
-    "grower": "quant",
+    "grower": "lizard",
     "talk": [
       {
         "who": "quant",
@@ -29,8 +29,8 @@
     ],
     "chars": {
       "lizard": {
-        "iq": 108,
-        "iq_gain": 2,
+        "iq": 109,
+        "iq_gain": 3,
         "streak": 4,
         "best_streak": 8,
         "achievements": [
@@ -152,7 +152,7 @@
             "pending": true
           }
         ],
-        "score": 143,
+        "score": 144,
         "trophies": [
           {
             "kind": "sharpshooter",
@@ -880,8 +880,15 @@
         "appetite": 0.45
       },
       "reading": {
-        "week": 66,
+        "week": 100,
         "latest": [
+          {
+            "t": "2026-11-18T08:15:37Z",
+            "title": "Rangers explore return for Cerny - gossip",
+            "link": "https://www.bbc.co.uk/sport/football/articles/cq702kr3xd38o?at_medium=RSS&at_campaign=rss",
+            "source": "feeds.bbci.co.uk",
+            "tone": -1
+          },
           {
             "t": "2026-11-17T20:15:21Z",
             "title": "Como consider new striker after Kean injury problem",
@@ -916,13 +923,6 @@
             "link": "https://football-italia.net/whats-really-going-on-italy-mancini-donnarumma/",
             "source": "football-italia.net",
             "tone": 1
-          },
-          {
-            "t": "2026-11-13T09:57:25Z",
-            "title": "Cashin back in training while Clarke steps up recovery",
-            "link": "https://www.bbc.co.uk/sport/football/articles/c6702z9z1790o?at_medium=RSS&at_campaign=rss",
-            "source": "feeds.bbci.co.uk",
-            "tone": -1
           }
         ]
       },
@@ -1138,8 +1138,8 @@
       },
       "traits": [],
       "mind": {
-        "iq": 108,
-        "iq_week": 8,
+        "iq": 109,
+        "iq_week": 9,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -1199,7 +1199,7 @@
           },
           {
             "d": "2026-11-18",
-            "iq": 108
+            "iq": 109
           }
         ],
         "facts": [
@@ -1644,7 +1644,7 @@
         "appetite": 0.35
       },
       "reading": {
-        "week": 85,
+        "week": 103,
         "latest": [
           {
             "t": "2026-11-18T03:54:12Z",
@@ -2310,7 +2310,7 @@
         "appetite": 0.6
       },
       "reading": {
-        "week": 449,
+        "week": 397,
         "latest": [
           {
             "t": "2026-11-18T04:30:39Z",
