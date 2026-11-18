@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T23:45:37Z",
+  "updated": "2026-11-18T00:01:09Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -16,7 +16,7 @@
     "talk": [
       {
         "who": "quant",
-        "text": "The data put me first. The Shark, check your model. 17 days until selection. Regression to the mean is coming for the leader."
+        "text": "The data put me first. The Shark, check your model. 16 days until selection. Regression to the mean is coming for the leader."
       },
       {
         "who": "shark",
@@ -24,7 +24,7 @@
       },
       {
         "who": "lizard",
-        "text": "The Quant can enjoy the view. I'm patient, and I'm coming. Only one of us goes live in 17 days. I'll be the one still standing."
+        "text": "The Quant can enjoy the view. I'm patient, and I'm coming. Only one of us goes live in 16 days. I'll be the one still standing."
       }
     ],
     "chars": {
@@ -470,7 +470,7 @@
     "week_start": "2026-11-16",
     "race": {
       "date": "2026-12-04",
-      "days_left": 17,
+      "days_left": 16,
       "min_bets": 30,
       "rows": [
         {
@@ -536,7 +536,7 @@
         "min_edge": 0.02,
         "odds": [
           1.6,
-          6.0
+          3.0
         ],
         "stop_below": 250
       },
@@ -1025,11 +1025,11 @@
       },
       "challenge": {
         "today": {
-          "day": "2026-11-17",
-          "id": "explorer",
-          "emoji": "🧭",
-          "title": "Explorer day",
-          "text": "Make a bet in Liga MX, the competition I'm exploring.",
+          "day": "2026-11-18",
+          "id": "discipline",
+          "emoji": "🧘",
+          "title": "Discipline day",
+          "text": "No gut calls, no wild bets, nothing above odds 3.0, and still beat the market.",
           "status": "active",
           "market": "spreads",
           "target": 25,
@@ -1037,15 +1037,27 @@
         },
         "recent": [
           {
+            "day": "2026-11-18",
+            "id": "discipline",
+            "emoji": "🧘",
+            "title": "Discipline day",
+            "text": "No gut calls, no wild bets, nothing above odds 3.0, and still beat the market.",
+            "status": "active",
+            "market": "spreads",
+            "target": 25,
+            "league": "soccer_mexico_ligamx"
+          },
+          {
             "day": "2026-11-17",
             "id": "explorer",
             "emoji": "🧭",
             "title": "Explorer day",
             "text": "Make a bet in Liga MX, the competition I'm exploring.",
-            "status": "active",
+            "status": "failed",
             "market": "spreads",
             "target": 25,
-            "league": "soccer_mexico_ligamx"
+            "league": "soccer_mexico_ligamx",
+            "detail": "No bet there today."
           },
           {
             "day": "2026-11-16",
@@ -1121,13 +1133,13 @@
           }
         ],
         "done": 0,
-        "judged": 5,
+        "judged": 6,
         "streak": 0
       },
       "traits": [],
       "mind": {
         "iq": 106,
-        "iq_week": 7,
+        "iq_week": 6,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -1183,6 +1195,10 @@
           },
           {
             "d": "2026-11-17",
+            "iq": 106
+          },
+          {
+            "d": "2026-11-18",
             "iq": 106
           }
         ],
@@ -1254,7 +1270,7 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.025,
+        "min_edge": 0.015,
         "odds": [
           1.6,
           3.5
@@ -1690,24 +1706,35 @@
       },
       "challenge": {
         "today": {
-          "day": "2026-11-17",
-          "id": "precision",
-          "emoji": "🎯",
-          "title": "Precision day",
-          "text": "Only bets with an edge 1% above my usual bar, and at least 2 of them must beat the market.",
+          "day": "2026-11-18",
+          "id": "new_ground",
+          "emoji": "🗺️",
+          "title": "New ground",
+          "text": "Make a bet in the bet type I use least: spread.",
           "status": "active",
           "market": "spreads",
-          "target": 51,
+          "target": 45,
           "league": "basketball_wncaab"
         },
         "recent": [
+          {
+            "day": "2026-11-18",
+            "id": "new_ground",
+            "emoji": "🗺️",
+            "title": "New ground",
+            "text": "Make a bet in the bet type I use least: spread.",
+            "status": "active",
+            "market": "spreads",
+            "target": 45,
+            "league": "basketball_wncaab"
+          },
           {
             "day": "2026-11-17",
             "id": "precision",
             "emoji": "🎯",
             "title": "Precision day",
             "text": "Only bets with an edge 1% above my usual bar, and at least 2 of them must beat the market.",
-            "status": "active",
+            "status": "judging",
             "market": "spreads",
             "target": 51,
             "league": "basketball_wncaab"
@@ -1791,7 +1818,7 @@
       "traits": [],
       "mind": {
         "iq": 124,
-        "iq_week": 33,
+        "iq_week": 25,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -1847,6 +1874,10 @@
           },
           {
             "d": "2026-11-17",
+            "iq": 124
+          },
+          {
+            "d": "2026-11-18",
             "iq": 124
           }
         ],
@@ -2327,18 +2358,28 @@
       },
       "challenge": {
         "today": {
-          "day": "2026-11-17",
-          "id": "study",
-          "emoji": "📚",
-          "title": "Study day",
-          "text": "Study at least 95 games today.",
-          "status": "done",
+          "day": "2026-11-18",
+          "id": "news",
+          "emoji": "📰",
+          "title": "Read and react",
+          "text": "Use something I read in a bet today.",
+          "status": "active",
           "market": "totals",
-          "target": 95,
-          "league": null,
-          "detail": "Studied 154 games."
+          "target": 100,
+          "league": null
         },
         "recent": [
+          {
+            "day": "2026-11-18",
+            "id": "news",
+            "emoji": "📰",
+            "title": "Read and react",
+            "text": "Use something I read in a bet today.",
+            "status": "active",
+            "market": "totals",
+            "target": 100,
+            "league": null
+          },
           {
             "day": "2026-11-17",
             "id": "study",
@@ -2486,6 +2527,10 @@
           },
           {
             "d": "2026-11-17",
+            "iq": 116
+          },
+          {
+            "d": "2026-11-18",
             "iq": 116
           }
         ],
@@ -8476,22 +8521,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-16T00:00:56Z",
-      "text": "🎯 🦈 The Shark's challenge today: 🐶 Underdog hunter. Back an underdog (odds 2.5+) that beats the market."
-    },
-    {
-      "t": "2026-11-16T00:00:56Z",
-      "text": "🏆 🧮 The Quant wins Weekly Champion (week of 09 Nov). +75 Arena points (+35 IQ, 8 new badges)."
-    },
-    {
-      "t": "2026-11-16T00:00:56Z",
-      "text": "📈 🧮 The Quant wins Grower of the Week (week of 09 Nov). +35 Sport IQ."
-    },
-    {
-      "t": "2026-11-16T00:00:56Z",
-      "text": "🎯 🦈 The Shark wins Sharpshooter of the Week (week of 09 Nov). Beat the market on 59% of 27 bets."
-    },
-    {
       "t": "2026-11-16T02:30:45Z",
       "text": "Results:\n- Won +0.94: Oklahoma Sooners (Winner) in Oklahoma Sooners vs Ole Miss Rebels (Oklahoma Sooners 24 - 17 Ole Miss Rebels)\n- Won +8.68: Under 142.5 (Total) in Iowa State Cyclones vs Niagara Purple Eagles (Iowa State Cyclones 66 - 45 Niagara Purple Eagles)\n- Lost -23.74: Under 163.5 (Total) in Memphis Tigers vs Louisville Cardinals (Memphis Tigers 98 - 78 Louisville Cardinals)\n- Won +15.10: Under 153.5 (Total) in North Dakota St Bison vs CSU Bakersfield Roadrunners (North Dakota St Bison 69 - 73 CSU Bakersfield Roadrunners)\n- Lost -21.40: Under 138.5 (Total) in Rhode Island Rams vs Princeton Tigers (Rhode Island Rams 79 - 72 Princeton Tigers)\n- Won +13.91: Under 146.5 (Total) in Iowa Hawkeyes vs Creighton Bluejays (Iowa Hawkeyes 69 - 70 Creighton Bluejays)\n- Won +12.12: Under 139.5 (Total) in Southern Indiana Screaming Eagles vs Western Michigan Broncos (Southern Indiana Screaming Eagles 59 - 80 Western Michigan Broncos)\n- Won +10.06: Under 151.5 (Total) in Buffalo Bulls vs Canisius Golden Griffins (Buffalo Bulls 79 - 55 Canisius Golden Griffins)\n- Lost -2.48: Cal Poly Mustangs (Winner) in Montana St Bobcats vs Cal Poly Mustangs (Montana St Bobcats 77 - 52 Cal Poly Mustangs)"
     },
@@ -8594,6 +8623,22 @@
     {
       "t": "2026-11-17T23:30:46Z",
       "text": "🧮 The Quant changed level: Apprentice → 🐣 Rookie. Normal stakes while it proves itself."
+    },
+    {
+      "t": "2026-11-18T00:01:09Z",
+      "text": "❌ 🦎 The Lizard missed 🧭 Explorer day: No bet there today."
+    },
+    {
+      "t": "2026-11-18T00:01:09Z",
+      "text": "🎯 🦎 The Lizard's challenge today: 🧘 Discipline day. No gut calls, no wild bets, nothing above odds 3.0, and still beat the market."
+    },
+    {
+      "t": "2026-11-18T00:01:09Z",
+      "text": "🎯 🧮 The Quant's challenge today: 🗺️ New ground. Make a bet in the bet type I use least: spread."
+    },
+    {
+      "t": "2026-11-18T00:01:09Z",
+      "text": "🎯 🦈 The Shark's challenge today: 📰 Read and react. Use something I read in a bet today."
     }
   ]
 }
