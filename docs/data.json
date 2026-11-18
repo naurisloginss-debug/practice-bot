@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T23:15:40Z",
+  "updated": "2026-11-18T23:30:47Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -184,9 +184,9 @@
         ]
       },
       "quant": {
-        "iq": 124,
-        "iq_gain": 5,
-        "streak": 1,
+        "iq": 123,
+        "iq_gain": 4,
+        "streak": 2,
         "best_streak": 3,
         "achievements": [
           {
@@ -297,17 +297,17 @@
           {
             "text": "Bets checked against the market",
             "target": 33,
-            "now": 11
+            "now": 14
           },
           {
             "text": "Beat the market on",
             "target": 55,
-            "now": 36,
+            "now": 43,
             "unit": "%",
             "pending": false
           }
         ],
-        "score": 175,
+        "score": 174,
         "trophies": [
           {
             "kind": "grower",
@@ -488,14 +488,14 @@
         {
           "who": "quant",
           "eligible": false,
-          "measured": 26,
-          "need": 4,
-          "clv": -0.0019,
-          "cautious": -0.0128,
-          "beat": 0.4615,
+          "measured": 27,
+          "need": 3,
+          "clv": -0.0051,
+          "cautious": -0.0161,
+          "beat": 0.4444,
           "challenges": 0.4,
           "traits": 0,
-          "score": -11.56
+          "score": -15.16
         },
         {
           "who": "lizard",
@@ -518,7 +518,7 @@
       "leader": "shark"
     }
   },
-  "credits_left": 18928,
+  "credits_left": 18926,
   "last_scan": "2026-11-18@16",
   "strategies": {
     "lizard": {
@@ -1320,9 +1320,9 @@
       "profit": -26.52,
       "roi": -0.0517,
       "avg_edge": 0.0375,
-      "avg_clv": -0.001,
-      "beat_close": 0.4634,
-      "clv_count": 41,
+      "avg_clv": 0.0015,
+      "beat_close": 0.4773,
+      "clv_count": 44,
       "history": [
         {
           "t": "2026-11-10T21:01:26Z",
@@ -1580,18 +1580,18 @@
           "bets": 17,
           "profit": -8.15,
           "roi": -0.2805,
-          "avg_clv": 0.0047,
-          "beat_close": 0.6,
-          "clv_count": 15
+          "avg_clv": 0.0143,
+          "beat_close": 0.625,
+          "clv_count": 16
         },
         {
           "name": "College basketball (US)",
           "bets": 44,
           "profit": -10.13,
           "roi": -0.0214,
-          "avg_clv": -0.0081,
-          "beat_close": 0.3478,
-          "clv_count": 23
+          "avg_clv": -0.0094,
+          "beat_close": 0.36,
+          "clv_count": 25
         }
       ],
       "by_market": [
@@ -1609,9 +1609,9 @@
           "bets": 33,
           "profit": -20.18,
           "roi": -0.3313,
-          "avg_clv": 0.0063,
-          "beat_close": 0.5357,
-          "clv_count": 28
+          "avg_clv": 0.0092,
+          "beat_close": 0.5484,
+          "clv_count": 31
         },
         {
           "name": "Total",
@@ -1629,16 +1629,16 @@
           "bets": 64,
           "profit": -26.52,
           "roi": -0.0517,
-          "avg_clv": -0.001,
-          "beat_close": 0.4634,
-          "clv_count": 41
+          "avg_clv": 0.0015,
+          "beat_close": 0.4773,
+          "clv_count": 44
         }
       ],
       "gut": {
         "bets": 6,
-        "measured": 5,
-        "avg_clv": 0.0787,
-        "beat": 0.6,
+        "measured": 6,
+        "avg_clv": 0.092,
+        "beat": 0.6667,
         "trust": 0.4,
         "base": 0.4,
         "won": 2,
@@ -1754,9 +1754,9 @@
         "badge": "🐣",
         "stake": 1.0,
         "perk": "Normal stakes while it proves itself.",
-        "measured": 26,
-        "clv": -0.0019,
-        "beat": 0.4615,
+        "measured": 27,
+        "clv": -0.0051,
+        "beat": 0.4444,
         "cold": false,
         "next": {
           "title": "Apprentice",
@@ -1766,17 +1766,17 @@
             {
               "text": "15 measured bets",
               "done": true,
-              "now": "26"
+              "now": "27"
             },
             {
               "text": "beat the market on 50%+",
               "done": false,
-              "now": "46%"
+              "now": "44%"
             },
             {
               "text": "average price +0.0%+ vs market",
               "done": false,
-              "now": "-0.2%"
+              "now": "-0.5%"
             }
           ],
           "progress": 1.0
@@ -1795,8 +1795,8 @@
         ],
         "curiosity": 0.6,
         "scouts": 9,
-        "scout_clv": 0.0026,
-        "scout_measured": 5
+        "scout_clv": 0.0087,
+        "scout_measured": 6
       },
       "challenge": {
         "today": {
@@ -1911,8 +1911,8 @@
       },
       "traits": [],
       "mind": {
-        "iq": 124,
-        "iq_week": 25,
+        "iq": 123,
+        "iq_week": 24,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -1972,7 +1972,7 @@
           },
           {
             "d": "2026-11-18",
-            "iq": 124
+            "iq": 123
           }
         ],
         "facts": [
@@ -2027,10 +2027,10 @@
           },
           {
             "conf": "solid",
-            "n": 31,
+            "n": 33,
             "z": 0,
             "text": "When I find value, the market moves my way before kick-off 45% of the time.",
-            "detail": "31 bets measured"
+            "detail": "33 bets measured"
           }
         ],
         "rules": 0,
@@ -4058,8 +4058,8 @@
       "edge": -0.0018,
       "stake": 2.39,
       "status": "open",
-      "closing_fair_odds": null,
-      "clv": null,
+      "closing_fair_odds": 1.861,
+      "clv": 0.1586,
       "profit": 0.0,
       "score": null,
       "settled_at": null,
@@ -4096,8 +4096,8 @@
       "edge": 0.0569,
       "stake": 6.52,
       "status": "open",
-      "closing_fair_odds": null,
-      "clv": null,
+      "closing_fair_odds": 3.838,
+      "clv": -0.0882,
       "profit": 0.0,
       "score": null,
       "settled_at": null,
@@ -4134,8 +4134,8 @@
       "edge": 0.0055,
       "stake": 2.39,
       "status": "open",
-      "closing_fair_odds": null,
-      "clv": null,
+      "closing_fair_odds": 1.617,
+      "clv": 0.0392,
       "profit": 0.0,
       "score": null,
       "settled_at": null,
