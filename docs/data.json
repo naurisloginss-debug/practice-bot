@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T21:00:58Z",
+  "updated": "2026-11-18T21:15:32Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -880,8 +880,29 @@
         "appetite": 0.45
       },
       "reading": {
-        "week": 106,
+        "week": 117,
         "latest": [
+          {
+            "t": "2026-11-18T20:10:31Z",
+            "title": "Immediate Cambiaghi recovery after Italy national team withdrawal",
+            "link": "https://football-italia.net/cambiaghi-available-after-italy-withdrawal/",
+            "source": "football-italia.net",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-18T19:27:15Z",
+            "title": "Leoni finally returns to Liverpool training after 14-month injury nightmare",
+            "link": "https://football-italia.net/leoni-finally-returns-to-liverpool-training/",
+            "source": "football-italia.net",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-18T18:06:04Z",
+            "title": "Ward close to new Republic of Ireland deal as Noonan returns",
+            "link": "https://www.bbc.co.uk/sport/football/articles/c6782xedd985o?at_medium=RSS&at_campaign=rss",
+            "source": "feeds.bbci.co.uk",
+            "tone": 1
+          },
           {
             "t": "2026-11-18T16:50:02Z",
             "title": "Conte believes he will return to Juventus and names two times he could have gone back",
@@ -901,27 +922,6 @@
             "title": "Rangers explore return for Cerny - gossip",
             "link": "https://www.bbc.co.uk/sport/football/articles/cq702kr3xd38o?at_medium=RSS&at_campaign=rss",
             "source": "feeds.bbci.co.uk",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-17T20:15:21Z",
-            "title": "Como consider new striker after Kean injury problem",
-            "link": "https://football-italia.net/como-consider-new-striker-after-kean-injury/",
-            "source": "football-italia.net",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-17T16:40:53Z",
-            "title": "West Brom midfielder Diakite injured on Mali duty",
-            "link": "https://www.bbc.co.uk/sport/football/articles/cqzjrdj1d7yno?at_medium=RSS&at_campaign=rss",
-            "source": "feeds.bbci.co.uk",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-17T16:00:27Z",
-            "title": "Inter joy at good injury news for Lautaro Martinez, Thuram and more",
-            "link": "https://football-italia.net/inter-joy-good-injury-news-lautaro-martinez/",
-            "source": "football-italia.net",
             "tone": -1
           }
         ]
@@ -1651,8 +1651,29 @@
         "appetite": 0.35
       },
       "reading": {
-        "week": 129,
+        "week": 117,
         "latest": [
+          {
+            "t": "2026-11-18T20:13:01Z",
+            "title": "Injured Warriors guard making good progress, to be re-evaluated this week",
+            "link": "https://sports.yahoo.com/articles/injured-warriors-guard-making-good-201301368.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-18T18:39:21Z",
+            "title": "Devin Carter speaks for first time since preseason illness",
+            "link": "https://sports.yahoo.com/articles/devin-carter-speaks-first-time-183921273.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-18T18:00:00Z",
+            "title": "The Sixers need to be smart with Jaylen Brown’s hamstring injury",
+            "link": "https://sports.yahoo.com/articles/sixers-smart-jaylen-brown-hamstring-180000373.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
           {
             "t": "2026-11-18T17:04:49Z",
             "title": "NBA Injury Report: CJ McCollum to miss a month with calf injury",
@@ -1673,27 +1694,6 @@
             "link": "https://sports.yahoo.com/articles/cavs-vs-grizzlies-watch-odds-162455812.html",
             "source": "sports.yahoo.com",
             "tone": -1
-          },
-          {
-            "t": "2026-11-18T14:31:48Z",
-            "title": "Are the Heat suddenly a threat in the East? How Giannis Antetokounmpo is making an impact in Miami",
-            "link": "https://sports.yahoo.com/nba/article/are-the-heat-suddenly-a-threat-in-the-east-how-giannis-antetokounmpo-is-making-an-impact-in-miami-143939001.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-18T14:07:47Z",
-            "title": "Hawks need Flemings, Ejiofor to step up amid injuries",
-            "link": "https://sports.yahoo.com/articles/hawks-flemings-ejiofor-step-amid-140747095.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-18T12:00:00Z",
-            "title": "Sixers head to Orlando for showdown with Franz Wagner and the Magic",
-            "link": "https://sports.yahoo.com/articles/sixers-head-orlando-showdown-franz-120000890.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
           }
         ]
       },
@@ -2317,49 +2317,49 @@
         "appetite": 0.6
       },
       "reading": {
-        "week": 365,
+        "week": 366,
         "latest": [
           {
-            "t": "2026-11-18T17:31:34Z",
-            "title": "Carnell Tate injury update: Titans rookie WR will practice today",
-            "link": "https://sports.yahoo.com/articles/carnell-tate-injury-titans-rookie-173134147.html",
+            "t": "2026-11-18T21:00:00Z",
+            "title": "The Rams have 4 IR activations left, who will they use them on?",
+            "link": "https://sports.yahoo.com/articles/rams-4-ir-activations-left-210000277.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-18T17:19:05Z",
-            "title": "Titans designate Fernando Carmona to return from IR",
-            "link": "https://sports.yahoo.com/articles/titans-designate-fernando-carmona-return-171905316.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-18T17:14:55Z",
-            "title": "No. 14 Oregon at Michigan State: Final Score Prediction",
-            "link": "https://sports.yahoo.com/articles/no-14-oregon-michigan-state-171455812.html",
+            "t": "2026-11-18T20:55:53Z",
+            "title": "Indianapolis Colts Injury Report: Who’s In and Who’s Out TNF",
+            "link": "https://sports.yahoo.com/articles/indianapolis-colts-injury-report-tnf-205553287.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-18T17:02:54Z",
-            "title": "Geno Smith will be limited in Wednesday&#39;s practice",
-            "link": "https://sports.yahoo.com/articles/geno-smith-limited-wednesdays-practice-170254070.html",
+            "t": "2026-11-18T20:55:12Z",
+            "title": "Steelers WRs Michael Pittman Jr., Roman Wilson take key step toward returning",
+            "link": "https://sports.yahoo.com/articles/steelers-wrs-michael-pittman-jr-205512116.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-18T17:01:04Z",
-            "title": "Michigan State Quarterback Alessio Milivojevic Out for Friday Battle Against Oregon",
-            "link": "https://sports.yahoo.com/articles/michigan-state-quarterback-alessio-milivojevic-170104626.html",
+            "t": "2026-11-18T20:54:59Z",
+            "title": "Judge rips LSU attorneys amid SEC eligibility lawsuit: ‘You put the pig out there’",
+            "link": "https://sports.yahoo.com/mens-college-basketball/article/judge-rips-lsu-attorneys-amid-sec-eligibility-lawsuit-you-put-the-pig-out-there-205459557.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-18T16:55:38Z",
-            "title": "No. 6 Texas vs. Arkansas preview: Razorbacks head to Austin with upset-minded momentum",
-            "link": "https://sports.yahoo.com/articles/no-6-texas-vs-arkansas-165538556.html",
+            "t": "2026-11-18T20:12:25Z",
+            "title": "Steelers place Mason McCormick on injured reserve",
+            "link": "https://sports.yahoo.com/articles/steelers-place-mason-mccormick-injured-201225634.html",
             "source": "sports.yahoo.com",
-            "tone": 1
+            "tone": -1
+          },
+          {
+            "t": "2026-11-18T19:57:00Z",
+            "title": "Gators’ Senior Day isn’t what it used to be amid college football’s changing era",
+            "link": "https://sports.yahoo.com/articles/gators-senior-day-isn-t-195700167.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
           }
         ]
       },
