@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T02:00:53Z",
+  "updated": "2026-11-18T02:15:34Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -29,8 +29,8 @@
     ],
     "chars": {
       "lizard": {
-        "iq": 106,
-        "iq_gain": 0,
+        "iq": 107,
+        "iq_gain": 1,
         "streak": 4,
         "best_streak": 8,
         "achievements": [
@@ -152,7 +152,7 @@
             "pending": true
           }
         ],
-        "score": 141,
+        "score": 142,
         "trophies": [
           {
             "kind": "sharpshooter",
@@ -880,7 +880,7 @@
         "appetite": 0.45
       },
       "reading": {
-        "week": 77,
+        "week": 93,
         "latest": [
           {
             "t": "2026-11-17T20:15:21Z",
@@ -1138,8 +1138,8 @@
       },
       "traits": [],
       "mind": {
-        "iq": 106,
-        "iq_week": 6,
+        "iq": 107,
+        "iq_week": 7,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -1199,7 +1199,7 @@
           },
           {
             "d": "2026-11-18",
-            "iq": 106
+            "iq": 107
           }
         ],
         "facts": [
@@ -1598,12 +1598,33 @@
         "appetite": 0.35
       },
       "reading": {
-        "week": 102,
+        "week": 92,
         "latest": [
+          {
+            "t": "2026-11-17T23:45:24Z",
+            "title": "Rough Hawks injury news: CJ McCollum out 4 weeks (calf strain), Asa Newell likely out for season (toe)",
+            "link": "https://sports.yahoo.com/articles/rough-hawks-injury-news-cj-234524651.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-17T23:37:51Z",
+            "title": "Celtics get good injury news ahead of game vs. Nuggets",
+            "link": "https://sports.yahoo.com/articles/celtics-good-injury-news-ahead-233751849.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
           {
             "t": "2026-11-17T22:35:17Z",
             "title": "Jaylen Brown to miss 76ers game Wednesday vs. Magic due to &#39;hamstring strain&#39;",
             "link": "https://sports.yahoo.com/nba/breaking-news/article/jaylen-brown-to-miss-76ers-game-wednesday-vs-magic-due-to-hamstring-strain-223517168.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-17T22:25:57Z",
+            "title": "Jaylen Brown ruled OUT vs. Magic with hamstring strain",
+            "link": "https://sports.yahoo.com/articles/jaylen-brown-ruled-vs-magic-222557635.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
@@ -1619,27 +1640,6 @@
             "title": "Pistons vs Spurs preview: No Duncan or Duren, others must step up",
             "link": "https://sports.yahoo.com/articles/pistons-vs-spurs-preview-no-165600772.html",
             "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-17T16:48:07Z",
-            "title": "Giannis Antetokounmpo on return to Milwaukee: &#39;It’s going to be just another game&#39;",
-            "link": "https://sports.yahoo.com/articles/giannis-antetokounmpo-return-milwaukee-going-164807325.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-17T15:54:44Z",
-            "title": "From the injury bug to youth movements, here are notes on all 30 teams to help you in fantasy basketball in Week 5",
-            "link": "https://sports.yahoo.com/fantasy/article/from-the-injury-bug-to-youth-movements-here-are-notes-on-all-30-teams-to-help-you-in-fantasy-basketball-in-week-5-155444039.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-17T15:42:12Z",
-            "title": "Jazz vs. Clippers Tuesday NBA picks: Injury-ravaged Utah set to tie third-longest losing skid in team history",
-            "link": "https://www.cbssports.com/betting/news/jazz-vs-clippers-tuesday-nba-picks-injury-ravaged-utah-set-to-tie-third-longest-losing-skid-in-team-history/",
-            "source": "www.cbssports.com",
             "tone": -1
           }
         ]
@@ -2218,47 +2218,47 @@
         "appetite": 0.6
       },
       "reading": {
-        "week": 421,
+        "week": 415,
         "latest": [
           {
-            "t": "2026-11-17T22:48:05Z",
-            "title": "Texans CB Kamari Lassiter downgraded to a non-participant Tuesday",
-            "link": "https://sports.yahoo.com/articles/texans-cb-kamari-lassiter-downgraded-224805625.html",
+            "t": "2026-11-18T01:44:52Z",
+            "title": "Could Oregon’s Dante Moore return for CFP? Dan Lanning weighs in",
+            "link": "https://sports.yahoo.com/articles/could-oregon-dante-moore-return-014452148.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-17T22:30:57Z",
-            "title": "Brent Venables discusses impact of moving Ole Miss ahead of A&M",
-            "link": "https://sports.yahoo.com/articles/brent-venables-discusses-impact-moving-223057757.html",
+            "t": "2026-11-18T01:19:15Z",
+            "title": "UCLA’s Michigan transfer calls out Wolverines fans before returning to Big House",
+            "link": "https://sports.yahoo.com/articles/ucla-michigan-transfer-calls-wolverines-011915460.html",
             "source": "sports.yahoo.com",
             "tone": 1
           },
           {
-            "t": "2026-11-17T22:22:09Z",
-            "title": "Arizona Cardinals place Andrew Wingard and Jordan Burch on injured reserve",
-            "link": "https://sports.yahoo.com/articles/arizona-cardinals-place-andrew-wingard-222209318.html",
+            "t": "2026-11-18T01:13:21Z",
+            "title": "Alessio Milivojevic out for Michigan State football vs Oregon",
+            "link": "https://sports.yahoo.com/articles/alessio-milivojevic-michigan-state-football-011321712.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-17T22:04:49Z",
-            "title": "Former Michigan WR Semaj Morgan takes shot at Big House crowd",
-            "link": "https://sports.yahoo.com/articles/former-michigan-wr-semaj-morgan-220449701.html",
+            "t": "2026-11-18T00:38:28Z",
+            "title": "Cincinnati Bearcats add Missouri from SEC to future football schedules",
+            "link": "https://sports.yahoo.com/articles/cincinnati-bearcats-add-missouri-sec-003828390.html",
             "source": "sports.yahoo.com",
             "tone": 1
           },
           {
-            "t": "2026-11-17T22:00:02Z",
-            "title": "Miami Hurricanes Missing Secondary Factors Likely For Rest of Regular Season",
-            "link": "https://sports.yahoo.com/articles/miami-hurricanes-missing-secondary-factors-220002629.html",
+            "t": "2026-11-18T00:36:11Z",
+            "title": "UCF LB Lewis Carter Reflects on Recovering From Injury",
+            "link": "https://sports.yahoo.com/articles/ucf-lb-lewis-carter-reflects-003611341.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-17T21:48:51Z",
-            "title": "Wan&#39;Dale Robinson lands on injured reserve",
-            "link": "https://sports.yahoo.com/articles/wandale-robinson-lands-injured-214851225.html",
+            "t": "2026-11-17T23:57:11Z",
+            "title": "Ole Miss&#39; Pete Golding Blames $8M Crisis for Oklahoma Loss as Brent Venables Puts SEC Under Fire",
+            "link": "https://sports.yahoo.com/articles/ole-miss-pete-golding-blames-235711552.html",
             "source": "sports.yahoo.com",
             "tone": -1
           }
