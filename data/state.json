@@ -48,10 +48,6 @@
   "log": [
     {
       "t": "2026-11-16T08:01:11Z",
-      "text": "Placed 24 practice bets:\n- The Lizard: **Albacete** (Winner) in Albacete vs Celta Fortuna (La Liga 2 (Spain 2)) at 1.68 on Unibet (SE), stake 7.79, edge +2.2%\n- The Quant: **Brooklyn Nets** (Winner) in Brooklyn Nets vs Philadelphia 76ers (NBA) at 3.2 on Matchbook, stake 2.60, edge +1.9%\n- The Quant: **Miami Heat** (Winner) in Miami Heat vs Houston Rockets (NBA) at 2.23 on Unibet (NL), stake 5.07, edge +2.1%\n- The Quant: **Under 155** (Total) in Virginia Tech Hokies vs Richmond Spiders (College basketball (US)) at 1.92 on GTbets, stake 18.31, edge +5.6%\n- The Quant: **Under 159** (Total) in Tulsa Golden Hurricane vs Western Kentucky Hilltoppers (College basketball (US)) at 1.93 on BetOnline.ag, stake 22.33, edge +7.0%\n- The Quant: **Under 146** (Total) in Drake Bulldogs vs Tarleton State Texans (College basketball (US)) at 1.87 on BetOnline.ag, stake 11.60, edge +3.4%\n- The Quant: **Under 160.5** (Total) in Oklahoma St Cowboys vs Central Arkansas Bears (College basketball (US)) at 1.92 on GTbets, stake 18.31, edge +5.6%\n- The Quant: **Under 140.5** (Total) in Northwestern Wildcats vs Columbia Lions (College basketball (US)) at 1.92 on GTbets, stake 16.68, edge +5.1%\n- The Quant: **Under 156.5** (Total) in Kansas St Wildcats vs Montana Grizzlies (College basketball (US)) at 1.92 on GTbets, stake 20.77, edge +6.4%\n- The Quant: **Under 139** (Total) in Minnesota Golden Gophers vs Western Illinois Leathernecks (College basketball (US)) at 1.91 on BetOnline.ag, stake 11.79, edge +3.6%\n- The Quant: **Under 148** (Total) in UCLA Bruins vs Long Beach St 49ers (College basketball (US)) at 1.95 on BetOnline.ag, stake 22.54, edge +8.1%\n- The Shark: **Rice Owls** (Winner) in Temple Owls vs Rice Owls (College football (US)) at 2.5 on William Hill, stake 3.70, edge +1.9%\n- The Shark: **Iowa State Cyclones +2.5** (Spread) in UCF Knights vs Iowa State Cyclones (College football (US)) at 2.05 on BetOnline.ag, stake 4.80, edge +1.7%\n- The Shark: **Wyoming Cowboys** (Winner) in Wyoming Cowboys vs New Mexico Lobos (College football (US)) at 3.8 on Unibet (NL), stake 7.61, edge +7.2%\n- The Shark: **East Carolina Pirates** (Winner) in Army Black Knights vs East Carolina Pirates (College football (US)) at 2.9 on LeoVegas (SE), stake 5.18, edge +3.3%\n- The Shark: **Boston College Eagles** (Winner) in Boston College Eagles vs Syracuse Orange (College football (US)) at 2.43 on Unibet (NL), stake 3.33, edge +1.6%\n- The Shark: **Sam Houston State Bearkats** (Winner) in Sam Houston State Bearkats vs Middle Tennessee Blue Raiders (College football (US)) at 3.05 on Unibet (SE), stake 5.49, edge +3.8%\n- The Shark: **Troy Trojans** (Winner) in Troy Trojans vs Georgia Southern Eagles (College football (US)) at 4.0 on Unibet (SE), stake 7.28, edge +7.4%\n- The Shark: **UAB Blazers** (Winner) in UAB Blazers vs UTSA Roadrunners (College football (US)) at 3.0 on LeoVegas (SE), stake 4.85, edge +3.3%\n- The Shark: **Utah State Aggies** (Winner) in Oregon State Beavers vs Utah State Aggies (College football (US)) at 4.0 on Unibet (NL), stake 1.55, edge +1.6%\n- The Lizard 🧭 scout: **Grêmio** (Winner) in Grêmio vs Bahia (Brasileirão (Brazil)) at 2.38 on Unibet (SE), stake 2.39, edge +2.0%\n- The Shark 🧭 scout: **Under 46.5** (Total) in San Jose State Spartans vs UNLV Rebels (College football (US)) at 1.95 on Unibet (NL), stake 2.47, edge +0.6%\n- The Shark 🧭 scout: **Kent State Golden Flashes** (Winner) in Kent State Golden Flashes vs Miami (OH) RedHawks (College football (US)) at 3.85 on MyBookie.ag, stake 2.47, edge +0.7%\n- The Quant 🎲 wild: **Phoenix Suns** (Winner) in Denver Nuggets vs Phoenix Suns (NBA) at 4.7 on Matchbook, stake 1.24, edge +-0.2%"
-    },
-    {
-      "t": "2026-11-16T08:01:11Z",
       "text": "Results:\n- Won +1.71: Edmonton Elks (Winner) in Edmonton Elks vs Montreal Alouettes (Edmonton Elks 37 - 30 Montreal Alouettes)"
     },
     {
@@ -165,6 +161,10 @@
     {
       "t": "2026-11-18T08:00:56Z",
       "text": "Results:\n- Lost -2.47: Kent State Golden Flashes (Winner) in Kent State Golden Flashes vs Miami (OH) RedHawks (Kent State Golden Flashes 3 - 20 Miami (OH) RedHawks)\n- Lost -1.24: Eastern Michigan Eagles (Winner) in Western Michigan Broncos vs Eastern Michigan Eagles (Western Michigan Broncos 34 - 27 Eastern Michigan Eagles)"
+    },
+    {
+      "t": "2026-11-18T08:15:32Z",
+      "text": "✅ 🦈 The Shark completed 📰 Read and react: Used the news in Under 56.5."
     }
   ],
   "levels": {
@@ -2466,10 +2466,11 @@
         "emoji": "📰",
         "title": "Read and react",
         "text": "Use something I read in a bet today.",
-        "status": "active",
+        "status": "done",
         "market": "totals",
         "target": 100,
-        "league": null
+        "league": null,
+        "detail": "Used the news in Under 56.5."
       }
     ]
   },
