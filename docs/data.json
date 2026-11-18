@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T03:30:44Z",
+  "updated": "2026-11-18T03:45:35Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -184,8 +184,8 @@
         ]
       },
       "quant": {
-        "iq": 124,
-        "iq_gain": 5,
+        "iq": 122,
+        "iq_gain": 3,
         "streak": 0,
         "best_streak": 3,
         "achievements": [
@@ -307,7 +307,7 @@
             "pending": false
           }
         ],
-        "score": 175,
+        "score": 173,
         "trophies": [
           {
             "kind": "grower",
@@ -518,7 +518,7 @@
       "leader": "shark"
     }
   },
-  "credits_left": 19063,
+  "credits_left": 19059,
   "last_scan": "2026-11-17@16",
   "strategies": {
     "lizard": {
@@ -1289,15 +1289,15 @@
         "Winner"
       ],
       "start_fund": 500,
-      "fund": 473.32,
+      "fund": 477.72,
       "lessons": [],
       "bets": 58,
-      "open": 8,
-      "won": 21,
-      "lost": 29,
-      "staked": 358.7,
-      "profit": -26.68,
-      "roi": -0.0744,
+      "open": 0,
+      "won": 25,
+      "lost": 33,
+      "staked": 508.7,
+      "profit": -22.28,
+      "roi": -0.0438,
       "avg_edge": 0.0395,
       "avg_clv": -0.0025,
       "beat_close": 0.45,
@@ -1506,6 +1506,38 @@
         {
           "t": "2026-11-17T09:30:45Z",
           "fund": 473.32
+        },
+        {
+          "t": "2026-11-18T03:45:35Z",
+          "fund": 490.9
+        },
+        {
+          "t": "2026-11-18T03:45:35Z",
+          "fund": 482.97
+        },
+        {
+          "t": "2026-11-18T03:45:35Z",
+          "fund": 508.14
+        },
+        {
+          "t": "2026-11-18T03:45:35Z",
+          "fund": 495.37
+        },
+        {
+          "t": "2026-11-18T03:45:35Z",
+          "fund": 476.91
+        },
+        {
+          "t": "2026-11-18T03:45:35Z",
+          "fund": 490.77
+        },
+        {
+          "t": "2026-11-18T03:45:35Z",
+          "fund": 460.53
+        },
+        {
+          "t": "2026-11-18T03:45:35Z",
+          "fund": 477.72
         }
       ],
       "by_league": [
@@ -1530,8 +1562,8 @@
         {
           "name": "College basketball (US)",
           "bets": 40,
-          "profit": -10.29,
-          "roi": -0.0322,
+          "profit": -5.89,
+          "roi": -0.0125,
           "avg_clv": -0.0112,
           "beat_close": 0.3182,
           "clv_count": 22
@@ -1550,8 +1582,8 @@
         {
           "name": "Winner",
           "bets": 27,
-          "profit": -8.01,
-          "roi": -0.1643,
+          "profit": -15.94,
+          "roi": -0.2813,
           "avg_clv": 0.0043,
           "beat_close": 0.5185,
           "clv_count": 27
@@ -1559,8 +1591,8 @@
         {
           "name": "Total",
           "bets": 29,
-          "profit": -14.64,
-          "roi": -0.0482,
+          "profit": -2.31,
+          "roi": -0.0052,
           "avg_clv": -0.0274,
           "beat_close": 0.1818,
           "clv_count": 11
@@ -1570,8 +1602,8 @@
         {
           "name": "Basketball",
           "bets": 58,
-          "profit": -26.68,
-          "roi": -0.0744,
+          "profit": -22.28,
+          "roi": -0.0438,
           "avg_clv": -0.0025,
           "beat_close": 0.45,
           "clv_count": 40
@@ -1817,8 +1849,8 @@
       },
       "traits": [],
       "mind": {
-        "iq": 124,
-        "iq_week": 25,
+        "iq": 122,
+        "iq_week": 23,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -1878,16 +1910,16 @@
           },
           {
             "d": "2026-11-18",
-            "iq": 124
+            "iq": 122
           }
         ],
         "facts": [
           {
-            "conf": "using",
-            "n": 292,
-            "z": 2.886207417517056,
+            "conf": "likely",
+            "n": 335,
+            "z": 2.1878900382710023,
             "text": "Overs in College basketball (US) happen less often than priced.",
-            "detail": "41% happened vs 50% priced, 292 games"
+            "detail": "44% happened vs 50% priced, 335 games"
           },
           {
             "conf": "solid",
@@ -1905,17 +1937,17 @@
           },
           {
             "conf": "solid",
-            "n": 202,
+            "n": 233,
             "z": 0,
             "text": "The market prices home wins in College basketball (US) accurately.",
-            "detail": "60% happened, 63% priced, 202 games"
+            "detail": "60% happened, 63% priced, 233 games"
           },
           {
             "conf": "solid",
-            "n": 202,
+            "n": 233,
             "z": 0,
             "text": "The market prices away wins in College basketball (US) accurately.",
-            "detail": "40% happened, 37% priced, 202 games"
+            "detail": "40% happened, 37% priced, 233 games"
           },
           {
             "conf": "solid",
@@ -1926,10 +1958,10 @@
           },
           {
             "conf": "solid",
-            "n": 82,
+            "n": 85,
             "z": 0,
             "text": "The market prices overs in NBA accurately.",
-            "detail": "54% happened, 50% priced, 82 games"
+            "detail": "52% happened, 50% priced, 85 games"
           },
           {
             "conf": "solid",
@@ -1939,9 +1971,9 @@
             "detail": "30 bets measured"
           }
         ],
-        "rules": 1,
+        "rules": 0,
         "studied": 461,
-        "resolved": 398
+        "resolved": 445
       }
     },
     "shark": {
@@ -3644,12 +3676,12 @@
       "fair_odds": 1.803,
       "edge": 0.0592,
       "stake": 19.32,
-      "status": "open",
+      "status": "won",
       "closing_fair_odds": null,
       "clv": null,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": 17.58,
+      "score": "William & Mary Tribe 77 - 73 Bowling Green Falcons",
+      "settled_at": "2026-11-18T03:45:35Z",
       "thoughts": [
         "Pinnacle's price, adjusted with what I know about College basketball (US) (overs -4.8%), gives Under 170 55.5%: fair price 1.80.",
         "BetOnline.ag pays 1.91. That is +5.9% above fair. My bar is +2.5%.",
@@ -3681,12 +3713,12 @@
       "fair_odds": 2.223,
       "edge": 0.0347,
       "stake": 7.93,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 2.457,
       "clv": -0.0638,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -7.93,
+      "score": "William & Mary Tribe 77 - 73 Bowling Green Falcons",
+      "settled_at": "2026-11-18T03:45:35Z",
       "thoughts": [
         "Pinnacle's price, adjusted with what I know about College basketball (US) (overs -4.8%), gives Bowling Green Falcons 45.0%: fair price 2.22.",
         "GTbets pays 2.30. That is +3.5% above fair. My bar is +2.5%.",
@@ -3718,12 +3750,12 @@
       "fair_odds": 1.77,
       "edge": 0.0847,
       "stake": 27.36,
-      "status": "open",
+      "status": "won",
       "closing_fair_odds": null,
       "clv": null,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": 25.17,
+      "score": "Butler Bulldogs 89 - 64 Western Carolina Catamounts",
+      "settled_at": "2026-11-18T03:45:35Z",
       "thoughts": [
         "Pinnacle's price, adjusted with what I know about College basketball (US) (overs -4.8%), gives Under 160.5 56.5%: fair price 1.77.",
         "GTbets pays 1.92. That is +8.5% above fair. My bar is +2.5%.",
@@ -3756,12 +3788,12 @@
       "fair_odds": 1.847,
       "edge": 0.0396,
       "stake": 12.77,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": null,
       "clv": null,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -12.77,
+      "score": "Dayton Flyers 88 - 63 Central Michigan Chippewas",
+      "settled_at": "2026-11-18T03:45:35Z",
       "thoughts": [
         "Pinnacle's price, adjusted with what I know about College basketball (US) (overs -4.8%), gives Under 147.5 54.1%: fair price 1.85.",
         "GTbets pays 1.92. That is +4.0% above fair. My bar is +2.5%.",
@@ -3793,12 +3825,12 @@
       "fair_odds": 1.816,
       "edge": 0.0572,
       "stake": 18.46,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": null,
       "clv": null,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -18.46,
+      "score": "Davidson Wildcats 66 - 73 Charlotte 49ers",
+      "settled_at": "2026-11-18T03:45:35Z",
       "thoughts": [
         "Pinnacle's price, adjusted with what I know about College basketball (US) (overs -4.8%), gives Under 134 55.1%: fair price 1.82.",
         "GTbets pays 1.92. That is +5.7% above fair. My bar is +2.5%.",
@@ -3831,12 +3863,12 @@
       "fair_odds": 1.825,
       "edge": 0.0467,
       "stake": 15.23,
-      "status": "open",
+      "status": "won",
       "closing_fair_odds": 1.944,
       "clv": -0.0174,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": 13.86,
+      "score": "Marshall Thundering Herd 67 - 55 East Tennessee St Buccaneers",
+      "settled_at": "2026-11-18T03:45:35Z",
       "thoughts": [
         "Pinnacle's price, adjusted with what I know about College basketball (US) (overs -4.8%), gives Under 147 54.8%: fair price 1.82.",
         "BetOnline.ag pays 1.91. That is +4.7% above fair. My bar is +2.5%.",
@@ -3868,12 +3900,12 @@
       "fair_odds": 1.778,
       "edge": 0.0967,
       "stake": 30.24,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 2.027,
       "clv": -0.0378,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -30.24,
+      "score": "Wake Forest Demon Deacons 81 - 76 Monmouth Hawks",
+      "settled_at": "2026-11-18T03:45:35Z",
       "thoughts": [
         "Pinnacle's price, adjusted with what I know about College basketball (US) (overs -4.8%), gives Under 144 56.2%: fair price 1.78.",
         "BetOnline.ag pays 1.95. That is +9.7% above fair. My bar is +2.5%.",
@@ -3906,12 +3938,12 @@
       "fair_odds": 1.766,
       "edge": 0.0873,
       "stake": 18.69,
-      "status": "open",
+      "status": "won",
       "closing_fair_odds": null,
       "clv": null,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": 17.19,
+      "score": "Pittsburgh Panthers 81 - 61 Villanova Wildcats",
+      "settled_at": "2026-11-18T03:45:35Z",
       "thoughts": [
         "Pinnacle's price, adjusted with what I know about College basketball (US) (overs -4.8%), gives Under 148.5 56.6%: fair price 1.77.",
         "GTbets pays 1.92. That is +8.7% above fair. My bar is +2.5%.",
@@ -8527,10 +8559,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-16T03:15:31Z",
-      "text": "Results:\n- Lost -2.45: Phoenix Suns (Winner) in Phoenix Suns vs Los Angeles Lakers (Phoenix Suns 123 - 131 Los Angeles Lakers)\n- Lost -1.22: Dallas Mavericks (Winner) in Boston Celtics vs Dallas Mavericks (Boston Celtics 131 - 94 Dallas Mavericks)"
-    },
-    {
       "t": "2026-11-16T05:45:30Z",
       "text": "Results:\n- Won +2.14: Cincinnati Bengals -3.5 (Spread) in Cincinnati Bengals vs Pittsburgh Steelers (Cincinnati Bengals 38 - 18 Pittsburgh Steelers)\n- Lost -2.26: Las Vegas Raiders (Winner) in Las Vegas Raiders vs Seattle Seahawks (Las Vegas Raiders 13 - 21 Seattle Seahawks)\n- Lost -1.00: Dallas Cowboys (Winner) in Dallas Cowboys vs San Francisco 49ers (Dallas Cowboys 40 - 46 San Francisco 49ers)\n- Lost -2.48: Arizona Cardinals +10.5 (Spread) in Arizona Cardinals vs Los Angeles Rams (Arizona Cardinals 6 - 34 Los Angeles Rams)"
     },
@@ -8645,6 +8673,10 @@
     {
       "t": "2026-11-18T02:30:46Z",
       "text": "🧭 🦈 The Shark is exploring NCAAF FCS this week."
+    },
+    {
+      "t": "2026-11-18T03:45:35Z",
+      "text": "Results:\n- Won +17.58: Under 170 (Total) in William & Mary Tribe vs Bowling Green Falcons (William & Mary Tribe 77 - 73 Bowling Green Falcons)\n- Lost -7.93: Bowling Green Falcons (Winner) in William & Mary Tribe vs Bowling Green Falcons (William & Mary Tribe 77 - 73 Bowling Green Falcons)\n- Won +25.17: Under 160.5 (Total) in Butler Bulldogs vs Western Carolina Catamounts (Butler Bulldogs 89 - 64 Western Carolina Catamounts)\n- Lost -12.77: Under 147.5 (Total) in Dayton Flyers vs Central Michigan Chippewas (Dayton Flyers 88 - 63 Central Michigan Chippewas)\n- Lost -18.46: Under 134 (Total) in Davidson Wildcats vs Charlotte 49ers (Davidson Wildcats 66 - 73 Charlotte 49ers)\n- Won +13.86: Under 147 (Total) in Marshall Thundering Herd vs East Tennessee St Buccaneers (Marshall Thundering Herd 67 - 55 East Tennessee St Buccaneers)\n- Lost -30.24: Under 144 (Total) in Wake Forest Demon Deacons vs Monmouth Hawks (Wake Forest Demon Deacons 81 - 76 Monmouth Hawks)\n- Won +17.19: Under 148.5 (Total) in Pittsburgh Panthers vs Villanova Wildcats (Pittsburgh Panthers 81 - 61 Villanova Wildcats)"
     }
   ]
 }
