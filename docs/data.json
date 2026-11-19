@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19T19:00:56Z",
+  "updated": "2026-11-19T19:15:35Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -893,8 +893,15 @@
         "appetite": 0.45
       },
       "reading": {
-        "week": 101,
+        "week": 102,
         "latest": [
+          {
+            "t": "2026-11-19T18:20:03Z",
+            "title": "Napoli lose Meret to back fracture ahead of Torino clash",
+            "link": "https://football-italia.net/napoli-lose-meret-to-back-fracture/",
+            "source": "football-italia.net",
+            "tone": -1
+          },
           {
             "t": "2026-11-19T15:50:05Z",
             "title": "Lankshear back in training with Middlesbrough",
@@ -927,13 +934,6 @@
             "t": "2026-11-19T10:20:58Z",
             "title": "Eight-year ban for player who threw rock that hit assistant referee",
             "link": "https://www.bbc.co.uk/sport/football/articles/cqlyk9yzkz2no?at_medium=RSS&at_campaign=rss",
-            "source": "feeds.bbci.co.uk",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-19T10:00:07Z",
-            "title": "Five return for Wales' World Cup play-off final",
-            "link": "https://www.bbc.co.uk/sport/football/articles/c620535y8zpjo?at_medium=RSS&at_campaign=rss",
             "source": "feeds.bbci.co.uk",
             "tone": -1
           }
@@ -1700,8 +1700,22 @@
         "appetite": 0.35
       },
       "reading": {
-        "week": 116,
+        "week": 115,
         "latest": [
+          {
+            "t": "2026-11-19T17:22:11Z",
+            "title": "NBA's eight biggest disappointments through one month: Injury bug, same old East and an underwhelming champ",
+            "link": "https://www.cbssports.com/nba/news/nbas-biggest-disappointments-one-month-injury-bug-east-underwhelming-champ/",
+            "source": "www.cbssports.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-19T16:19:55Z",
+            "title": "2026-27 NBA Minutes Report: How injuries to Austin Reaves, Alperen Sengun shake up two contenders",
+            "link": "https://sports.yahoo.com/articles/2026-27-nba-minutes-report-161955518.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
           {
             "t": "2026-11-19T15:10:49Z",
             "title": "Swanson: One frigid night against the Jazz doesn&#39;t change the fact the Lakers are legit",
@@ -1717,30 +1731,16 @@
             "tone": -1
           },
           {
+            "t": "2026-11-19T13:53:20Z",
+            "title": "Paul George flips the script — and the bird — in Philadelphia return",
+            "link": "https://sports.yahoo.com/articles/paul-george-flips-script-bird-023500511.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
+          {
             "t": "2026-11-19T12:00:00Z",
             "title": "Takeaways coming off a Mile High loss",
             "link": "https://sports.yahoo.com/articles/takeaways-coming-off-mile-high-120000983.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-19T10:36:34Z",
-            "title": "Rockets get back to winning with 119-104 victory over Pacers",
-            "link": "https://sports.yahoo.com/articles/rockets-back-winning-119-104-103634845.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-19T06:03:23Z",
-            "title": "Lakers’ nine-game winning streak ends with loss to Jazz",
-            "link": "https://sports.yahoo.com/articles/lakers-nine-game-winning-streak-060323188.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-19T05:56:23Z",
-            "title": "Tired-looking Lakers can&#39;t make their shots in loss to Jazz",
-            "link": "https://sports.yahoo.com/articles/tired-looking-lakers-cant-shots-055623578.html",
             "source": "sports.yahoo.com",
             "tone": 1
           }
@@ -2352,44 +2352,44 @@
         "week": 383,
         "latest": [
           {
-            "t": "2026-11-19T15:24:36Z",
-            "title": "Clemson’s Dabo Swinney Faces Rising Heat as Old Traits Backfire",
-            "link": "https://sports.yahoo.com/articles/clemson-dabo-swinney-faces-rising-152436254.html",
+            "t": "2026-11-19T18:46:49Z",
+            "title": "Baker Mayfield says he&#39;s ready to go after return to practice",
+            "link": "https://sports.yahoo.com/articles/baker-mayfield-says-hes-ready-184649696.html",
             "source": "sports.yahoo.com",
             "tone": 1
           },
           {
-            "t": "2026-11-19T15:24:34Z",
-            "title": "Are Woody Marks and David Montgomery playing tonight? Texans' rushing attack short-handed vs. Colts",
-            "link": "https://www.cbssports.com/nfl/news/are-woody-marks-and-david-montgomery-playing-tonight-texans-rushing-attack-short-handed-vs-colts/",
-            "source": "www.cbssports.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-19T15:10:48Z",
-            "title": "Hello Kitty returns to SoFi Stadium for Rams’ season finale",
-            "link": "https://sports.yahoo.com/articles/hello-kitty-returns-sofi-stadium-151048813.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-19T14:38:14Z",
-            "title": "College football Week 12 what to watch: In a week light on ranked matchups, will there be a massive upset?",
-            "link": "https://sports.yahoo.com/college-football/article/college-football-week-12-what-to-watch-in-a-week-light-on-ranked-matchups-will-there-be-a-massive-upset-143814477.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-19T14:35:05Z",
-            "title": "LSU linebacker doubtful at Tennessee",
-            "link": "https://sports.yahoo.com/articles/lsu-linebacker-doubtful-tennessee-143505833.html",
+            "t": "2026-11-19T18:45:04Z",
+            "title": "Bret Bielema Provides Update on Illinois Katin Houser, Other QB Options",
+            "link": "https://sports.yahoo.com/articles/bret-bielema-provides-illinois-katin-184504744.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-19T14:30:00Z",
-            "title": "Nick Bosa concedes he’s been struggling to execute his calling card",
-            "link": "https://sports.yahoo.com/articles/nick-bosa-concedes-struggling-execute-143000603.html",
+            "t": "2026-11-19T18:07:40Z",
+            "title": "Predicting Big 12 football scores in Week 12: TCU could be tricky for unbeaten Utah",
+            "link": "https://sports.yahoo.com/articles/predicting-big-12-football-scores-180740999.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-19T18:00:06Z",
+            "title": "Texas A&M Injury Report: Six Aggies Ruled Out Against Oklahoma",
+            "link": "https://sports.yahoo.com/articles/texas-m-injury-report-six-180006706.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-19T17:58:01Z",
+            "title": "Week 11 Fantasy Football Toolkit: Start/sit advice, rankings, sleepers, more",
+            "link": "https://sports.yahoo.com/fantasy/article/week-11-fantasy-football-toolkit-startsit-advice-rankings-sleepers-more-175801032.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-19T17:18:53Z",
+            "title": "LSU football LB Whit Weeks may not return in 2026",
+            "link": "https://sports.yahoo.com/articles/lsu-football-lb-whit-weeks-171853052.html",
             "source": "sports.yahoo.com",
             "tone": -1
           }
