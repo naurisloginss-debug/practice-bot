@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19T09:30:48Z",
+  "updated": "2026-11-19T09:45:33Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -12,7 +12,7 @@
       "shark",
       "lizard"
     ],
-    "grower": "quant",
+    "grower": "lizard",
     "talk": [
       {
         "who": "quant",
@@ -29,8 +29,8 @@
     ],
     "chars": {
       "lizard": {
-        "iq": 110,
-        "iq_gain": 4,
+        "iq": 111,
+        "iq_gain": 5,
         "streak": 0,
         "best_streak": 8,
         "achievements": [
@@ -152,7 +152,7 @@
             "pending": true
           }
         ],
-        "score": 153,
+        "score": 154,
         "trophies": [
           {
             "kind": "sharpshooter",
@@ -884,7 +884,7 @@
         "appetite": 0.45
       },
       "reading": {
-        "week": 61,
+        "week": 103,
         "latest": [
           {
             "t": "2026-11-18T20:10:31Z",
@@ -908,9 +908,23 @@
             "tone": 1
           },
           {
-            "t": "2026-11-13T09:57:25Z",
-            "title": "Cashin back in training while Clarke steps up recovery",
-            "link": "https://www.bbc.co.uk/sport/football/articles/c6702z9z1790o?at_medium=RSS&at_campaign=rss",
+            "t": "2026-11-18T16:50:02Z",
+            "title": "Conte admits he thinks will return to Juventus and names two times he could have",
+            "link": "https://football-italia.net/conte-believes-he-will-return-to-juventus/",
+            "source": "football-italia.net",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-18T15:35:23Z",
+            "title": "Boro midfielder Pukstas has hamstring surgery",
+            "link": "https://www.bbc.co.uk/sport/football/articles/c3x29jpvnld1o?at_medium=RSS&at_campaign=rss",
+            "source": "feeds.bbci.co.uk",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-17T16:40:53Z",
+            "title": "West Brom midfielder Diakite injured on Mali duty",
+            "link": "https://www.bbc.co.uk/sport/football/articles/cqzjrdj1d7yno?at_medium=RSS&at_campaign=rss",
             "source": "feeds.bbci.co.uk",
             "tone": -1
           }
@@ -1129,8 +1143,8 @@
       },
       "traits": [],
       "mind": {
-        "iq": 110,
-        "iq_week": 9,
+        "iq": 111,
+        "iq_week": 10,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -1194,7 +1208,7 @@
           },
           {
             "d": "2026-11-19",
-            "iq": 110
+            "iq": 111
           }
         ],
         "facts": [
@@ -1666,7 +1680,7 @@
         "appetite": 0.35
       },
       "reading": {
-        "week": 148,
+        "week": 167,
         "latest": [
           {
             "t": "2026-11-19T06:03:23Z",
@@ -1681,6 +1695,13 @@
             "link": "https://sports.yahoo.com/articles/tired-looking-lakers-cant-shots-055623578.html",
             "source": "sports.yahoo.com",
             "tone": 1
+          },
+          {
+            "t": "2026-11-19T04:15:41Z",
+            "title": "Barlow ‘making progress,&#39; Embiid out vs. Pacers, more on Sixers",
+            "link": "https://sports.yahoo.com/articles/barlow-making-progress-embiid-vs-221124067.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
           },
           {
             "t": "2026-11-19T03:54:09Z",
@@ -1700,13 +1721,6 @@
             "t": "2026-11-19T00:44:32Z",
             "title": "Warriors vs. Mavericks injury report: Steph Curry, Al Horford out",
             "link": "https://sports.yahoo.com/articles/warriors-vs-mavericks-injury-report-004432177.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-19T00:00:00Z",
-            "title": "Mavericks vs Warriors Preview and Injury Report: Can home cooking help Dallas figure things out?",
-            "link": "https://sports.yahoo.com/articles/mavericks-vs-warriors-preview-injury-000000745.html",
             "source": "sports.yahoo.com",
             "tone": -1
           }
@@ -2315,12 +2329,26 @@
         "appetite": 0.6
       },
       "reading": {
-        "week": 391,
+        "week": 330,
         "latest": [
+          {
+            "t": "2026-11-19T09:02:05Z",
+            "title": "Georgia vs South Carolina scouting report, bold predictions, injury updates",
+            "link": "https://sports.yahoo.com/articles/georgia-vs-south-carolina-scouting-090205351.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
           {
             "t": "2026-11-19T05:21:16Z",
             "title": "Oklahoma State QB Drew Mestemaker questionable with stinger vs. Arizona State",
             "link": "https://sports.yahoo.com/articles/oklahoma-state-qb-drew-mestemaker-052116307.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-19T04:36:41Z",
+            "title": "Cal-Stanford Injury Report: Several Key Bears Players Questionable",
+            "link": "https://sports.yahoo.com/articles/cal-stanford-injury-report-several-043641660.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
@@ -2332,30 +2360,16 @@
             "tone": -1
           },
           {
-            "t": "2026-11-19T04:13:39Z",
-            "title": "Injured 49ers receiver reveals surprising update in birthday post",
-            "link": "https://sports.yahoo.com/articles/injured-49ers-receiver-reveals-surprising-041339868.html",
+            "t": "2026-11-19T04:15:41Z",
+            "title": "Questions by position as Eagles return from 2026 bye week",
+            "link": "https://sports.yahoo.com/articles/questions-position-eagles-return-2026-102036178.html",
             "source": "sports.yahoo.com",
-            "tone": -1
+            "tone": 1
           },
           {
-            "t": "2026-11-19T04:06:58Z",
-            "title": "Eagles Injury Report: DeVonta Smith and Dontayvion Wicks return to practice",
-            "link": "https://sports.yahoo.com/articles/eagles-injury-report-devonta-smith-040658703.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-19T04:00:00Z",
-            "title": "Ravens DT Nnamdi Madubuike misses first practice of Week 11",
-            "link": "https://sports.yahoo.com/articles/ravens-dt-nnamdi-madubuike-misses-040000529.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-19T03:50:43Z",
-            "title": "Drew Mestemaker injury status revealed for Oklahoma State football game vs Arizona State",
-            "link": "https://sports.yahoo.com/articles/drew-mestemaker-injury-status-revealed-035043730.html",
+            "t": "2026-11-19T04:15:41Z",
+            "title": "Eagles injury update: Offensive reinforcements return after bye week",
+            "link": "https://sports.yahoo.com/articles/eagles-injury-offensive-reinforcements-return-154934840.html",
             "source": "sports.yahoo.com",
             "tone": -1
           }
