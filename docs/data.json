@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19T03:01:05Z",
+  "updated": "2026-11-19T03:15:31Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -518,7 +518,7 @@
       "leader": "shark"
     }
   },
-  "credits_left": 18919,
+  "credits_left": 18917,
   "last_scan": "2026-11-18@16",
   "strategies": {
     "lizard": {
@@ -1313,15 +1313,15 @@
         "Winner"
       ],
       "start_fund": 500,
-      "fund": 473.48,
+      "fund": 471.09,
       "lessons": [],
       "bets": 64,
-      "open": 5,
+      "open": 4,
       "won": 25,
-      "lost": 34,
-      "staked": 512.94,
-      "profit": -26.52,
-      "roi": -0.0517,
+      "lost": 35,
+      "staked": 515.33,
+      "profit": -28.91,
+      "roi": -0.0561,
       "avg_edge": 0.0375,
       "avg_clv": 0.0054,
       "beat_close": 0.5,
@@ -1566,6 +1566,10 @@
         {
           "t": "2026-11-18T22:15:38Z",
           "fund": 473.48
+        },
+        {
+          "t": "2026-11-19T03:15:31Z",
+          "fund": 471.09
         }
       ],
       "by_league": [
@@ -1581,8 +1585,8 @@
         {
           "name": "NBA",
           "bets": 17,
-          "profit": -8.15,
-          "roi": -0.2805,
+          "profit": -10.54,
+          "roi": -0.3351,
           "avg_clv": 0.0216,
           "beat_close": 0.6471,
           "clv_count": 17
@@ -1610,8 +1614,8 @@
         {
           "name": "Winner",
           "bets": 33,
-          "profit": -20.18,
-          "roi": -0.3313,
+          "profit": -22.57,
+          "roi": -0.3566,
           "avg_clv": 0.0141,
           "beat_close": 0.5758,
           "clv_count": 33
@@ -1630,8 +1634,8 @@
         {
           "name": "Basketball",
           "bets": 64,
-          "profit": -26.52,
-          "roi": -0.0517,
+          "profit": -28.91,
+          "roi": -0.0561,
           "avg_clv": 0.0054,
           "beat_close": 0.5,
           "clv_count": 46
@@ -1645,8 +1649,8 @@
         "trust": 0.4,
         "base": 0.4,
         "won": 2,
-        "lost": 3,
-        "profit": -1.5
+        "lost": 4,
+        "profit": -3.89
       },
       "wild": {
         "bets": 5,
@@ -2027,10 +2031,10 @@
           },
           {
             "conf": "solid",
-            "n": 87,
+            "n": 93,
             "z": 0,
             "text": "The market prices overs in NBA accurately.",
-            "detail": "53% happened, 50% priced, 87 games"
+            "detail": "54% happened, 50% priced, 93 games"
           },
           {
             "conf": "solid",
@@ -2042,7 +2046,7 @@
         ],
         "rules": 0,
         "studied": 532,
-        "resolved": 458
+        "resolved": 464
       }
     },
     "shark": {
@@ -4066,12 +4070,12 @@
       "fair_odds": 2.16,
       "edge": -0.0018,
       "stake": 2.39,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 1.861,
       "clv": 0.1586,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -2.39,
+      "score": "Orlando Magic 116 - 121 Philadelphia 76ers",
+      "settled_at": "2026-11-19T03:15:31Z",
       "thoughts": [
         "I read that Philadelphia 76ers have trouble: “Jaylen Brown to miss 76ers game Wednesday vs. Magic due to &#39;hamstring strain&#39;”. The price on Orlando Magic may not have caught up yet.",
         "My rules say no. The model says no. The 2% of me that isn't a model says try it.",
@@ -9138,10 +9142,6 @@
   "log": [
     {
       "t": "2026-11-17T00:01:09Z",
-      "text": "❌ 🦎 The Lizard missed 📚 Study day: Studied 14 of 29 games."
-    },
-    {
-      "t": "2026-11-17T00:01:09Z",
       "text": "🎯 🦎 The Lizard's challenge today: 🧭 Explorer day. Make a bet in Liga MX, the competition I'm exploring."
     },
     {
@@ -9255,6 +9255,10 @@
     {
       "t": "2026-11-19T00:00:58Z",
       "text": "🎯 🦈 The Shark's challenge today: 🐶 Underdog hunter. Back an underdog (odds 2.5+) that beats the market."
+    },
+    {
+      "t": "2026-11-19T03:15:31Z",
+      "text": "Results:\n- Lost -2.39: Orlando Magic (Winner) in Orlando Magic vs Philadelphia 76ers (Orlando Magic 116 - 121 Philadelphia 76ers)"
     }
   ]
 }
