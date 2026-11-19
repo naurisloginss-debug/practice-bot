@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19T03:30:44Z",
+  "updated": "2026-11-19T03:45:30Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -29,8 +29,8 @@
     ],
     "chars": {
       "lizard": {
-        "iq": 110,
-        "iq_gain": 4,
+        "iq": 111,
+        "iq_gain": 5,
         "streak": 0,
         "best_streak": 8,
         "achievements": [
@@ -152,7 +152,7 @@
             "pending": true
           }
         ],
-        "score": 145,
+        "score": 146,
         "trophies": [
           {
             "kind": "sharpshooter",
@@ -184,8 +184,8 @@
         ]
       },
       "quant": {
-        "iq": 125,
-        "iq_gain": 6,
+        "iq": 126,
+        "iq_gain": 7,
         "streak": 4,
         "best_streak": 4,
         "achievements": [
@@ -307,7 +307,7 @@
             "pending": false
           }
         ],
-        "score": 176,
+        "score": 177,
         "trophies": [
           {
             "kind": "grower",
@@ -880,7 +880,7 @@
         "appetite": 0.45
       },
       "reading": {
-        "week": 93,
+        "week": 101,
         "latest": [
           {
             "t": "2026-11-18T20:10:31Z",
@@ -1137,8 +1137,8 @@
       },
       "traits": [],
       "mind": {
-        "iq": 110,
-        "iq_week": 9,
+        "iq": 111,
+        "iq_week": 10,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -1202,7 +1202,7 @@
           },
           {
             "d": "2026-11-19",
-            "iq": 110
+            "iq": 111
           }
         ],
         "facts": [
@@ -1662,49 +1662,49 @@
         "appetite": 0.35
       },
       "reading": {
-        "week": 123,
+        "week": 139,
         "latest": [
+          {
+            "t": "2026-11-19T01:25:36Z",
+            "title": "Karl-Anthony Towns’ ‘bittersweet’ Minnesota return comes as a Knicks champion",
+            "link": "https://sports.yahoo.com/articles/karl-anthony-towns-bittersweet-minnesota-012536887.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-19T00:44:32Z",
+            "title": "Warriors vs. Mavericks injury report: Steph Curry, Al Horford out",
+            "link": "https://sports.yahoo.com/articles/warriors-vs-mavericks-injury-report-004432177.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-19T00:00:00Z",
+            "title": "Mavericks vs Warriors Preview and Injury Report: Can home cooking help Dallas figure things out?",
+            "link": "https://sports.yahoo.com/articles/mavericks-vs-warriors-preview-injury-000000745.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-18T23:33:52Z",
+            "title": "Tyrese Maxey a late scratch vs. Magic",
+            "link": "https://sports.yahoo.com/articles/tyrese-maxey-scratch-vs-magic-233352020.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-18T23:27:19Z",
+            "title": "Dylan Harper ruled out against Clippers with “soreness”, more to come tomorrow",
+            "link": "https://sports.yahoo.com/articles/dylan-harper-ruled-against-clippers-232719827.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
           {
             "t": "2026-11-18T21:22:32Z",
             "title": "Austin Reaves remains out vs. Jazz, Walker Kessler returns",
             "link": "https://sports.yahoo.com/articles/austin-reaves-remains-vs-jazz-212232223.html",
             "source": "sports.yahoo.com",
             "tone": 1
-          },
-          {
-            "t": "2026-11-18T21:13:16Z",
-            "title": "The longest single-opponent winning streaks in Knicks history",
-            "link": "https://sports.yahoo.com/articles/longest-single-opponent-winning-streaks-211316938.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-18T20:13:01Z",
-            "title": "Injured Warriors guard making good progress, to be re-evaluated this week",
-            "link": "https://sports.yahoo.com/articles/injured-warriors-guard-making-good-201301368.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-18T19:29:56Z",
-            "title": "Brandon Williams’ hamstring strain lingers, will miss at least two more games",
-            "link": "https://sports.yahoo.com/articles/brandon-williams-hamstring-strain-lingers-192956474.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-18T18:39:21Z",
-            "title": "Devin Carter speaks for first time since preseason illness",
-            "link": "https://sports.yahoo.com/articles/devin-carter-speaks-first-time-183921273.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-18T18:00:00Z",
-            "title": "The Sixers need to be smart with Jaylen Brown’s hamstring injury",
-            "link": "https://sports.yahoo.com/articles/sixers-smart-jaylen-brown-hamstring-180000373.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
           }
         ]
       },
@@ -1918,8 +1918,8 @@
       },
       "traits": [],
       "mind": {
-        "iq": 125,
-        "iq_week": 20,
+        "iq": 126,
+        "iq_week": 21,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -1983,7 +1983,7 @@
           },
           {
             "d": "2026-11-19",
-            "iq": 125
+            "iq": 126
           }
         ],
         "facts": [
@@ -2332,47 +2332,47 @@
         "appetite": 0.6
       },
       "reading": {
-        "week": 384,
+        "week": 360,
         "latest": [
           {
-            "t": "2026-11-18T23:54:31Z",
-            "title": "Kyren Williams Drops Honesty on Brian Kelly’s Possible Coaching Return",
-            "link": "https://sports.yahoo.com/articles/kyren-williams-drops-honesty-brian-235431596.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-18T23:43:27Z",
-            "title": "Giants' Cam Skattebo to halt backflip celebrations after Aidan Hutchinson jumping celebration injury",
-            "link": "https://www.cbssports.com/nfl/news/giants-cam-skattebo-backflip-celebrations-aidan-hutchinson-injury/",
-            "source": "www.cbssports.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-18T23:07:42Z",
-            "title": "Broncos vs. Raiders practice participation report: Wednesday",
-            "link": "https://sports.yahoo.com/articles/broncos-vs-raiders-practice-participation-230742065.html",
+            "t": "2026-11-19T03:13:41Z",
+            "title": "Northwestern football’s Aidan Chiles to miss 3rd-straight week with upper body injury",
+            "link": "https://sports.yahoo.com/articles/northwestern-football-aidan-chiles-miss-031341553.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-18T23:00:34Z",
-            "title": "Texas Tech&#39;s Playoff Dreams Face Road Test as Baylor Eyes Major Upset",
-            "link": "https://sports.yahoo.com/articles/texas-techs-playoff-dreams-face-230034773.html",
+            "t": "2026-11-19T03:04:15Z",
+            "title": "Wednesday’s LSU vs. Tennessee injury report: Weeks return seems unlikely",
+            "link": "https://sports.yahoo.com/articles/wednesday-lsu-vs-tennessee-injury-030415439.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-18T23:00:34Z",
-            "title": "Texas A&M Faces Must-Win at Oklahoma as Offensive Crisis Deepens",
-            "link": "https://sports.yahoo.com/articles/texas-m-faces-must-win-230034051.html",
+            "t": "2026-11-19T02:57:02Z",
+            "title": "Brock Bowers did not practice Wednesday with ankle, quad injuries",
+            "link": "https://sports.yahoo.com/articles/brock-bowers-did-not-practice-025702046.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-18T22:45:00Z",
-            "title": "Chiefs-Cardinals Week 11 Wednesday injury report: 3 Chiefs starters miss practice",
-            "link": "https://sports.yahoo.com/articles/chiefs-cardinals-week-11-wednesday-224500238.html",
+            "t": "2026-11-19T02:45:05Z",
+            "title": "South Carolina QB LaNorris Sellers gets good injury update for Georgia game",
+            "link": "https://sports.yahoo.com/articles/south-carolina-qb-lanorris-sellers-024505568.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-19T02:36:33Z",
+            "title": "LSU Tigers’ Whit Weeks’ injury woes continue for Tennessee clash",
+            "link": "https://sports.yahoo.com/articles/lsu-tigers-whit-weeks-injury-023633692.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-19T01:45:25Z",
+            "title": "Initial Florida State-NC State injury report",
+            "link": "https://sports.yahoo.com/articles/initial-florida-state-nc-state-014525506.html",
             "source": "sports.yahoo.com",
             "tone": -1
           }
