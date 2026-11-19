@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19T10:15:37Z",
+  "updated": "2026-11-19T10:30:47Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -518,7 +518,7 @@
       "leader": "shark"
     }
   },
-  "credits_left": 18849,
+  "credits_left": 18847,
   "last_scan": "2026-11-19@8",
   "strategies": {
     "lizard": {
@@ -1319,15 +1319,15 @@
         "Winner"
       ],
       "start_fund": 500,
-      "fund": 463.81,
+      "fund": 461.58,
       "lessons": [],
       "bets": 66,
-      "open": 3,
+      "open": 2,
       "won": 26,
-      "lost": 37,
-      "staked": 526.63,
-      "profit": -36.19,
-      "roi": -0.0687,
+      "lost": 38,
+      "staked": 528.86,
+      "profit": -38.42,
+      "roi": -0.0726,
       "avg_edge": 0.0365,
       "avg_clv": 0.0054,
       "beat_close": 0.5,
@@ -1588,6 +1588,10 @@
         {
           "t": "2026-11-19T09:15:34Z",
           "fund": 463.81
+        },
+        {
+          "t": "2026-11-19T10:30:47Z",
+          "fund": 461.58
         }
       ],
       "by_league": [
@@ -1612,8 +1616,8 @@
         {
           "name": "College basketball (US)",
           "bets": 45,
-          "profit": -15.02,
-          "roi": -0.0311,
+          "profit": -17.25,
+          "roi": -0.0356,
           "avg_clv": -0.0074,
           "beat_close": 0.3846,
           "clv_count": 26
@@ -1632,8 +1636,8 @@
         {
           "name": "Winner",
           "bets": 35,
-          "profit": -29.85,
-          "roi": -0.4001,
+          "profit": -32.08,
+          "roi": -0.4175,
           "avg_clv": 0.0141,
           "beat_close": 0.5758,
           "clv_count": 33
@@ -1652,8 +1656,8 @@
         {
           "name": "Basketball",
           "bets": 66,
-          "profit": -36.19,
-          "roi": -0.0687,
+          "profit": -38.42,
+          "roi": -0.0726,
           "avg_clv": 0.0054,
           "beat_close": 0.5,
           "clv_count": 46
@@ -2043,7 +2047,7 @@
         ],
         "rules": 0,
         "studied": 555,
-        "resolved": 518
+        "resolved": 528
       }
     },
     "shark": {
@@ -4445,12 +4449,12 @@
       "fair_odds": 3.29,
       "edge": 0.0183,
       "stake": 2.23,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 3.214,
       "clv": 0.0422,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -2.23,
+      "score": "San José St Spartans 92 - 86 Fresno St Bulldogs",
+      "settled_at": "2026-11-19T10:30:47Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates Fresno St Bulldogs at 30.4%. That makes the fair price 3.29.",
         "Unibet (NL) pays 3.35. That is +1.8% above fair. My bar is +1.5%.",
@@ -9630,10 +9634,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-17T08:00:55Z",
-      "text": "Placed 12 practice bets:\n- The Lizard: **FC Cincinnati** (Winner) in Orlando City SC vs FC Cincinnati (MLS (USA)) at 2.75 on LeoVegas (SE), stake 4.67, edge +3.4%\n- The Quant: **Under 170** (Total) in William & Mary Tribe vs Bowling Green Falcons (College basketball (US)) at 1.91 on BetOnline.ag, stake 19.32, edge +5.9%\n- The Quant: **Bowling Green Falcons** (Winner) in William & Mary Tribe vs Bowling Green Falcons (College basketball (US)) at 2.3 on GTbets, stake 7.93, edge +3.5%\n- The Quant: **Under 160.5** (Total) in Butler Bulldogs vs Western Carolina Catamounts (College basketball (US)) at 1.92 on GTbets, stake 27.36, edge +8.5%\n- The Quant: **Under 147.5** (Total) in Dayton Flyers vs Central Michigan Chippewas (College basketball (US)) at 1.92 on GTbets, stake 12.77, edge +4.0%\n- The Quant: **Under 134** (Total) in Davidson Wildcats vs Charlotte 49ers (College basketball (US)) at 1.92 on GTbets, stake 18.46, edge +5.7%\n- The Quant: **Under 147** (Total) in Marshall Thundering Herd vs East Tennessee St Buccaneers (College basketball (US)) at 1.91 on BetOnline.ag, stake 15.23, edge +4.7%\n- The Quant: **Under 144** (Total) in Wake Forest Demon Deacons vs Monmouth Hawks (College basketball (US)) at 1.95 on BetOnline.ag, stake 30.24, edge +9.7%\n- The Quant: **Under 148.5** (Total) in Pittsburgh Panthers vs Villanova Wildcats (College basketball (US)) at 1.92 on GTbets, stake 18.69, edge +8.7%\n- The Shark: **Michigan Wolverines** (Winner) in Michigan Wolverines vs UCLA Bruins (College football (US)) at 2.67 on MyBookie.ag, stake 6.95, edge +3.9%\n- The Shark 🧭 scout: **Over 40.5** (Total) in Duke Blue Devils vs Clemson Tigers (College football (US)) at 1.95 on BetOnline.ag, stake 2.48, edge +0.8%\n- The Shark 🎲 wild: **Eastern Michigan Eagles** (Winner) in Western Michigan Broncos vs Eastern Michigan Eagles (College football (US)) at 6.4 on MyBookie.ag, stake 1.24, edge +5.6%"
-    },
-    {
       "t": "2026-11-17T09:15:31Z",
       "text": "Results:\n- Lost -11.60: Under 146 (Total) in Drake Bulldogs vs Tarleton State Texans (Drake Bulldogs 79 - 83 Tarleton State Texans)\n- Lost -18.31: Under 160.5 (Total) in Oklahoma St Cowboys vs Central Arkansas Bears (Oklahoma St Cowboys 99 - 66 Central Arkansas Bears)\n- Won +15.35: Under 140.5 (Total) in Northwestern Wildcats vs Columbia Lions (Northwestern Wildcats 53 - 75 Columbia Lions)\n- Won +19.11: Under 156.5 (Total) in Kansas St Wildcats vs Montana Grizzlies (Kansas St Wildcats 86 - 45 Montana Grizzlies)\n- Lost -11.79: Under 139 (Total) in Minnesota Golden Gophers vs Western Illinois Leathernecks (Minnesota Golden Gophers 99 - 63 Western Illinois Leathernecks)\n- Lost -22.54: Under 148 (Total) in UCLA Bruins vs Long Beach St 49ers (UCLA Bruins 105 - 66 Long Beach St 49ers)"
     },
@@ -9748,6 +9748,10 @@
     {
       "t": "2026-11-19T09:15:34Z",
       "text": "Results:\n- Lost -2.39: New Orleans Pelicans (Winner) in New Orleans Pelicans vs Detroit Pistons (New Orleans Pelicans 109 - 122 Detroit Pistons)"
+    },
+    {
+      "t": "2026-11-19T10:30:47Z",
+      "text": "Results:\n- Lost -2.23: Fresno St Bulldogs (Winner) in San José St Spartans vs Fresno St Bulldogs (San José St Spartans 92 - 86 Fresno St Bulldogs)"
     }
   ]
 }
