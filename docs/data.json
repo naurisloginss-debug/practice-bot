@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19T08:00:56Z",
+  "updated": "2026-11-19T08:15:32Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -39,7 +39,7 @@
             "emoji": "🎯",
             "title": "Challenge Accepted",
             "desc": "Completed its first daily challenge.",
-            "at": null
+            "at": "2026-11-19T08:15:32Z"
           },
           {
             "key": "iron_will",
@@ -152,7 +152,7 @@
             "pending": true
           }
         ],
-        "score": 145,
+        "score": 153,
         "trophies": [
           {
             "kind": "sharpshooter",
@@ -505,9 +505,9 @@
           "clv": -0.0061,
           "cautious": -0.0202,
           "beat": 0.7037,
-          "challenges": 0.0,
+          "challenges": 0.143,
           "traits": 0,
-          "score": -16.09
+          "score": -15.38
         }
       ],
       "ranking": [
@@ -1020,10 +1020,11 @@
           "emoji": "📚",
           "title": "Study day",
           "text": "Study at least 35 games today.",
-          "status": "active",
+          "status": "done",
           "market": "spreads",
           "target": 35,
-          "league": "soccer_mexico_ligamx"
+          "league": "soccer_mexico_ligamx",
+          "detail": "Studied 103 games."
         },
         "recent": [
           {
@@ -1032,10 +1033,11 @@
             "emoji": "📚",
             "title": "Study day",
             "text": "Study at least 35 games today.",
-            "status": "active",
+            "status": "done",
             "market": "spreads",
             "target": 35,
-            "league": "soccer_mexico_ligamx"
+            "league": "soccer_mexico_ligamx",
+            "detail": "Studied 103 games."
           },
           {
             "day": "2026-11-18",
@@ -1121,9 +1123,9 @@
             "detail": "No bet there today."
           }
         ],
-        "done": 0,
-        "judged": 6,
-        "streak": 0
+        "done": 1,
+        "judged": 7,
+        "streak": 1
       },
       "traits": [],
       "mind": {
@@ -9610,14 +9612,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-17T00:01:09Z",
-      "text": "🎯 🦈 The Shark's challenge today: 📚 Study day. Study at least 95 games today."
-    },
-    {
-      "t": "2026-11-17T00:01:09Z",
-      "text": "🧮 The Quant levelled up: Rookie → 🎓 Apprentice. Has a track record. Starts learning which bets work."
-    },
-    {
       "t": "2026-11-17T03:00:58Z",
       "text": "Results:\n- Won +16.85: Under 155 (Total) in Virginia Tech Hokies vs Richmond Spiders (Virginia Tech Hokies 85 - 68 Richmond Spiders)\n- Won +20.77: Under 159 (Total) in Tulsa Golden Hurricane vs Western Kentucky Hilltoppers (Tulsa Golden Hurricane 67 - 64 Western Kentucky Hilltoppers)"
     },
@@ -9728,6 +9722,14 @@
     {
       "t": "2026-11-19T08:00:56Z",
       "text": "Placed 13 practice bets:\n- The Lizard: **Draw** (Winner) in Lincoln City vs Wrexham AFC (Championship (England 2)) at 3.45 on LeoVegas (SE), stake 2.62, edge +2.7%\n- The Lizard: **Draw** (Winner) in Palmeiras vs Flamengo (Brasileirão (Brazil)) at 3.35 on Unibet (SE), stake 5.20, edge +5.1%\n- The Lizard 🧭 scout: **Oldham Athletic** (Winner) in Oldham Athletic vs Exeter City (League Two (England 4)) at 2.1 on Matchbook, stake 2.40, edge +0.5%\n- The Lizard 🧭 scout: **Strasbourg** (Winner) in Strasbourg vs Brest (Ligue 1 (France)) at 2.35 on LeoVegas (SE), stake 2.40, edge +1.0%\n- The Quant 🧭 scout: **Maccabi Tel Aviv** (Winner) in Maccabi Tel Aviv vs Dubai Basketball (EuroLeague) at 2.41 on Marathon Bet, stake 2.33, edge +0.7%\n- The Quant 🧭 scout: **Texas A&M Aggies** (Winner) in TCU Horned Frogs vs Texas A&M Aggies (College basketball (US)) at 1.95 on GTbets, stake 2.33, edge +0.5%\n- The Shark 🧭 scout: **Under 38.5** (Total) in Philadelphia Eagles vs Pittsburgh Steelers (NFL) at 1.92 on Unibet (NL), stake 2.47, edge +1.4%\n- The Shark 🧭 scout: **California Golden Bears +2.5** (Spread) in California Golden Bears vs Stanford Cardinal (College football (US)) at 2.0 on BetAnything, stake 2.47, edge +0.8%\n- The Shark 🧭 scout: **Cincinnati Bearcats** (Winner) in Cincinnati Bearcats vs Colorado Buffaloes (College football (US)) at 1.67 on BetAnything, stake 2.47, edge +0.6%\n- The Shark 💭 gut: **New York Giants** (Winner) in New York Giants vs Jacksonville Jaguars (NFL) at 3.35 on Unibet (SE), stake 2.47, edge +-0.1%\n- The Lizard 🎲 wild: **Preston North End** (Winner) in West Ham United vs Preston North End (Championship (England 2)) at 14.0 on LeoVegas (SE), stake 1.20, edge +12.8%\n- The Lizard 🎲 wild: **Charlton Athletic** (Winner) in Wolverhampton Wanderers vs Charlton Athletic (Championship (England 2)) at 10.5 on Matchbook, stake 1.20, edge +11.3%\n- The Shark 🎲 wild: **Charlotte 49ers** (Winner) in Tulsa Golden Hurricane vs Charlotte 49ers (College football (US)) at 14.5 on Betfair, stake 1.23, edge +12.9%"
+    },
+    {
+      "t": "2026-11-19T08:15:32Z",
+      "text": "✅ 🦎 The Lizard completed 📚 Study day: Studied 103 games."
+    },
+    {
+      "t": "2026-11-19T08:15:32Z",
+      "text": "🏅 🦎 The Lizard unlocked 🎯 Challenge Accepted: Completed its first daily challenge."
     }
   ]
 }
