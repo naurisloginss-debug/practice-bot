@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20T16:45:34Z",
+  "updated": "2026-11-20T17:01:09Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -29,8 +29,8 @@
     ],
     "chars": {
       "lizard": {
-        "iq": 113,
-        "iq_gain": 7,
+        "iq": 112,
+        "iq_gain": 6,
         "streak": 0,
         "best_streak": 8,
         "achievements": [
@@ -152,7 +152,7 @@
             "pending": false
           }
         ],
-        "score": 156,
+        "score": 155,
         "trophies": [
           {
             "kind": "sharpshooter",
@@ -297,12 +297,12 @@
           {
             "text": "Bets checked against the market",
             "target": 33,
-            "now": 18
+            "now": 19
           },
           {
             "text": "Beat the market on",
             "target": 55,
-            "now": 44,
+            "now": 42,
             "unit": "%",
             "pending": false
           }
@@ -488,14 +488,14 @@
         {
           "who": "quant",
           "eligible": false,
-          "measured": 28,
-          "need": 2,
+          "measured": 29,
+          "need": 1,
           "clv": -0.0034,
-          "cautious": -0.0141,
-          "beat": 0.4643,
+          "cautious": -0.0137,
+          "beat": 0.4483,
           "challenges": 0.429,
           "traits": 0,
-          "score": -12.67
+          "score": -12.56
         },
         {
           "who": "lizard",
@@ -518,7 +518,7 @@
       "leader": "shark"
     }
   },
-  "credits_left": 18627,
+  "credits_left": 18626,
   "last_scan": "2026-11-20@16",
   "strategies": {
     "lizard": {
@@ -932,49 +932,49 @@
         "appetite": 0.45
       },
       "reading": {
-        "week": 132,
+        "week": 129,
         "latest": [
           {
-            "t": "2026-11-20T13:53:22Z",
-            "title": "Key questions as Scottish Premiership returns",
-            "link": "https://www.bbc.co.uk/sport/football/articles/c50mdwnn90jyo?at_medium=RSS&at_campaign=rss",
+            "t": "2026-11-20T16:31:58Z",
+            "title": "'Excellent' Larin set for Southampton return",
+            "link": "https://www.bbc.co.uk/sport/football/articles/cmx2re11y9zno?at_medium=RSS&at_campaign=rss",
             "source": "feeds.bbci.co.uk",
             "tone": 1
           },
           {
-            "t": "2026-11-20T12:21:26Z",
-            "title": "Seriki injury 'a hammer blow' for Sheff Utd",
-            "link": "https://www.bbc.co.uk/sport/football/articles/c3rrgdxedjz5o?at_medium=RSS&at_campaign=rss",
-            "source": "feeds.bbci.co.uk",
-            "tone": -1
+            "t": "2026-11-20T16:19:51Z",
+            "title": "Football Italia Show: Conte desperate for Juventus return, Tresoldi or Endrick for Milan?",
+            "link": "https://football-italia.net/football-italia-show-conte-desperate-juventus/",
+            "source": "football-italia.net",
+            "tone": 1
           },
           {
-            "t": "2026-11-20T11:21:22Z",
-            "title": "Official: Italy talent Inacio out for ‘several months’ with serious knee injury",
-            "link": "https://football-italia.net/inacio-out-several-months-serious-knee-injury/",
+            "t": "2026-11-20T15:28:10Z",
+            "title": "Kean ‘out for several months’ after injury scare with ambulance, confirms Fabregas",
+            "link": "https://football-italia.net/kean-out-for-several-months-after-injury-scare/",
             "source": "football-italia.net",
             "tone": -1
           },
           {
-            "t": "2026-11-20T10:56:02Z",
-            "title": "Return of key players will help Millwall - Neil",
-            "link": "https://www.bbc.co.uk/sport/football/articles/c9zr5nkpjk54o?at_medium=RSS&at_campaign=rss",
-            "source": "feeds.bbci.co.uk",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-20T08:00:00Z",
-            "title": "Listen: Premiership preview - can Falkirk really finish third?",
-            "link": "https://www.bbc.co.uk/sounds/play/p0pnz8rn?at_medium=RSS&at_campaign=rss",
-            "source": "feeds.bbci.co.uk",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-20T06:13:23Z",
-            "title": "Loneliness & mood swings - what's it like to miss a season through injury?",
-            "link": "https://www.bbc.co.uk/sport/football/articles/cqvg27m9xp1xo?at_medium=RSS&at_campaign=rss",
+            "t": "2026-11-20T15:18:42Z",
+            "title": "Why injured Joao Pedro may be Chelsea's most important player",
+            "link": "https://www.bbc.co.uk/sport/football/articles/cr62p7x23vg3o?at_medium=RSS&at_campaign=rss",
             "source": "feeds.bbci.co.uk",
             "tone": -1
+          },
+          {
+            "t": "2026-11-20T14:47:54Z",
+            "title": "Celtic's Baur out for 10 weeks, says O'Neill",
+            "link": "https://www.bbc.co.uk/sport/football/articles/cvrlgx1l4lnlo?at_medium=RSS&at_campaign=rss",
+            "source": "feeds.bbci.co.uk",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-20T14:46:40Z",
+            "title": "Juventus receive double defensive boost ahead of Venezia",
+            "link": "https://football-italia.net/juventus-double-defensive-boost-vs-venezia/",
+            "source": "football-italia.net",
+            "tone": 1
           }
         ]
       },
@@ -1189,8 +1189,8 @@
       },
       "traits": [],
       "mind": {
-        "iq": 113,
-        "iq_week": 12,
+        "iq": 112,
+        "iq_week": 11,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -1258,7 +1258,7 @@
           },
           {
             "d": "2026-11-20",
-            "iq": 113
+            "iq": 112
           }
         ],
         "facts": [
@@ -1393,9 +1393,9 @@
       "profit": -38.54,
       "roi": -0.0722,
       "avg_edge": 0.0343,
-      "avg_clv": 0.0039,
-      "beat_close": 0.4792,
-      "clv_count": 48,
+      "avg_clv": 0.0038,
+      "beat_close": 0.4694,
+      "clv_count": 49,
       "history": [
         {
           "t": "2026-11-10T21:01:26Z",
@@ -1690,9 +1690,9 @@
           "bets": 51,
           "profit": -15.04,
           "roi": -0.0309,
-          "avg_clv": -0.0074,
-          "beat_close": 0.3704,
-          "clv_count": 27
+          "avg_clv": -0.0072,
+          "beat_close": 0.3571,
+          "clv_count": 28
         }
       ],
       "by_market": [
@@ -1710,9 +1710,9 @@
           "bets": 45,
           "profit": -32.2,
           "roi": -0.3951,
-          "avg_clv": 0.0116,
-          "beat_close": 0.5429,
-          "clv_count": 35
+          "avg_clv": 0.0112,
+          "beat_close": 0.5278,
+          "clv_count": 36
         },
         {
           "name": "Total",
@@ -1730,9 +1730,9 @@
           "bets": 76,
           "profit": -38.54,
           "roi": -0.0722,
-          "avg_clv": 0.0039,
-          "beat_close": 0.4792,
-          "clv_count": 48
+          "avg_clv": 0.0038,
+          "beat_close": 0.4694,
+          "clv_count": 49
         }
       ],
       "gut": {
@@ -1759,6 +1759,27 @@
         "week": 82,
         "latest": [
           {
+            "t": "2026-11-20T15:37:52Z",
+            "title": "Fantasy Basketball Weekend Streamers: Kevin Huerter to step up with Duncan Robinson sidelined",
+            "link": "https://sports.yahoo.com/articles/fantasy-basketball-weekend-streamers-kevin-153752517.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-20T15:30:27Z",
+            "title": "Damian Lillard stars in his Milwaukee return in another stark reminder of how bleak things are for the Bucks",
+            "link": "https://www.cbssports.com/nba/news/damian-lillard-milwaukee-return-trail-blazers-bucks-bleak-future/",
+            "source": "www.cbssports.com",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-20T14:30:00Z",
+            "title": "Cavs vs. Pacers: How to watch, odds, and injury report",
+            "link": "https://sports.yahoo.com/articles/cavs-vs-pacers-watch-odds-143000508.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
             "t": "2026-11-20T13:11:02Z",
             "title": "Victor Wembanyama has turned his NBA finals humiliation into a revenge tour for the ages",
             "link": "https://sports.yahoo.com/articles/victor-wembanyama-turned-nba-finals-131102200.html",
@@ -1766,37 +1787,16 @@
             "tone": 1
           },
           {
-            "t": "2026-11-20T04:05:23Z",
-            "title": "Damian Lillard notches first 30-piece in 624 days amid first game vs. Bucks post-injury, leads Trail Blazers to win",
-            "link": "https://sports.yahoo.com/nba/breaking-news/article/damian-lillard-notches-first-30-piece-in-624-days-amid-first-game-vs-bucks-post-injury-leads-trail-blazers-to-win-041431232.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-20T04:05:23Z",
-            "title": "Damian Lillard scores season-high 33 points in first game vs. Bucks post-injury, leads Trail Blazers to win",
-            "link": "https://sports.yahoo.com/nba/breaking-news/article/damian-lillard-scores-season-high-33-points-in-first-game-vs-bucks-post-injury-leads-trail-blazers-to-win-051011483.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-20T03:15:08Z",
-            "title": "Lakers vs. Kings Preview: Time to start another winning streak",
-            "link": "https://sports.yahoo.com/articles/lakers-vs-kings-preview-time-031508253.html",
+            "t": "2026-11-20T13:00:00Z",
+            "title": "Bucks vs. Trail Blazers Player Grades: Ament drops career high, Rollins returns with a vengeance",
+            "link": "https://sports.yahoo.com/articles/bucks-vs-trail-blazers-player-130000371.html",
             "source": "sports.yahoo.com",
             "tone": 1
           },
           {
-            "t": "2026-11-20T01:17:22Z",
-            "title": "Preview: Wizards play Bulls on Friday",
-            "link": "https://sports.yahoo.com/articles/preview-wizards-play-bulls-friday-011722317.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-19T23:47:54Z",
-            "title": "Warriors vs. Grizzlies injury report: Draymond Green out, Al Horford returns",
-            "link": "https://sports.yahoo.com/articles/warriors-vs-grizzlies-injury-report-234754065.html",
+            "t": "2026-11-20T04:05:23Z",
+            "title": "Damian Lillard notches first 30-piece in 624 days amid first game vs. Bucks post-injury, leads Trail Blazers to win",
+            "link": "https://sports.yahoo.com/nba/breaking-news/article/damian-lillard-notches-first-30-piece-in-624-days-amid-first-game-vs-bucks-post-injury-leads-trail-blazers-to-win-041431232.html",
             "source": "sports.yahoo.com",
             "tone": -1
           }
@@ -1855,9 +1855,9 @@
         "badge": "🐣",
         "stake": 1.0,
         "perk": "Normal stakes while it proves itself.",
-        "measured": 28,
+        "measured": 29,
         "clv": -0.0034,
-        "beat": 0.4643,
+        "beat": 0.4483,
         "cold": false,
         "next": {
           "title": "Apprentice",
@@ -1867,12 +1867,12 @@
             {
               "text": "15 measured bets",
               "done": true,
-              "now": "28"
+              "now": "29"
             },
             {
               "text": "beat the market on 50%+",
               "done": false,
-              "now": "46%"
+              "now": "45%"
             },
             {
               "text": "average price +0.0%+ vs market",
@@ -2116,10 +2116,10 @@
           },
           {
             "conf": "solid",
-            "n": 37,
+            "n": 38,
             "z": 0,
-            "text": "When I find value, the market moves my way before kick-off 46% of the time.",
-            "detail": "37 bets measured"
+            "text": "When I find value, the market moves my way before kick-off 45% of the time.",
+            "detail": "38 bets measured"
           }
         ],
         "rules": 0,
@@ -2414,47 +2414,47 @@
         "appetite": 0.6
       },
       "reading": {
-        "week": 386,
+        "week": 389,
         "latest": [
           {
-            "t": "2026-11-20T13:45:17Z",
-            "title": "Two class of 2027 Wisconsin football commits receive star-rating boost",
-            "link": "https://sports.yahoo.com/articles/two-class-2027-wisconsin-football-134517124.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-20T13:20:00Z",
-            "title": "Parsons’ return imminent but doesn’t solve Packers’ biggest problem",
-            "link": "https://sports.yahoo.com/articles/parsons-return-imminent-doesn-t-132000478.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-20T13:12:42Z",
-            "title": "Urban Meyer Shoots Down Desmond Howard’s Heisman Thoughts",
-            "link": "https://sports.yahoo.com/articles/urban-meyer-shoots-down-desmond-131242264.html",
+            "t": "2026-11-20T16:37:57Z",
+            "title": "The Pants Predicts: Iowa at Illinois",
+            "link": "https://sports.yahoo.com/articles/pants-predicts-iowa-illinois-163757158.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-20T13:00:26Z",
-            "title": "Can TCU Shock Unbeaten Utah? Injuries, Odds And How To Watch",
-            "link": "https://sports.yahoo.com/articles/tcu-shock-unbeaten-utah-injuries-130026335.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-20T13:00:00Z",
-            "title": "Colts loss on Thursday Night Football is good news for the Jets in 2027 NFL Draft order",
-            "link": "https://sports.yahoo.com/articles/colts-loss-thursday-night-football-130000947.html",
+            "t": "2026-11-20T16:15:09Z",
+            "title": "Lane Kiffin discusses returning to Tennessee for second time",
+            "link": "https://sports.yahoo.com/articles/lane-kiffin-discusses-returning-tennessee-161509342.html",
             "source": "sports.yahoo.com",
             "tone": 1
           },
           {
-            "t": "2026-11-20T13:00:00Z",
-            "title": "New Orleans Saints News: Injuries continue to hurt the offensive line",
-            "link": "https://sports.yahoo.com/articles/orleans-saints-news-injuries-continue-130000566.html",
+            "t": "2026-11-20T15:56:00Z",
+            "title": "Will quarterback Drake Lindsey return to Gophers next season?",
+            "link": "https://sports.yahoo.com/articles/quarterback-drake-lindsey-return-gophers-155600657.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-20T15:54:58Z",
+            "title": "New Sheriff in Town: Michigan’s Whittingham on the Hot Seat?",
+            "link": "https://sports.yahoo.com/articles/sheriff-town-michigan-whittingham-hot-155458756.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-20T15:51:05Z",
+            "title": "Aidan Hutchinson speaks out on freak injury celebration: 'That's the last time I go airborne'",
+            "link": "https://www.cbssports.com/nfl/news/lions-aidan-hutchinson-speaks-out-freak-injury-celebration/",
+            "source": "www.cbssports.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-20T15:00:00Z",
+            "title": "Carolina Panthers 2026 fan mailbag: Wide receiver concerns, injury review, Thanksgiving, 007, and more!",
+            "link": "https://sports.yahoo.com/articles/carolina-panthers-2026-fan-mailbag-150000105.html",
             "source": "sports.yahoo.com",
             "tone": -1
           }
@@ -5372,8 +5372,8 @@
       "edge": 0.0158,
       "stake": 2.86,
       "status": "open",
-      "closing_fair_odds": null,
-      "clv": null,
+      "closing_fair_odds": 2.535,
+      "clv": -0.0018,
       "profit": 0.0,
       "score": null,
       "settled_at": null,
