@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20T19:15:34Z",
+  "updated": "2026-11-20T19:30:52Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -152,7 +152,7 @@
             "pending": false
           }
         ],
-        "score": 156,
+        "score": 159,
         "trophies": [
           {
             "kind": "sharpshooter",
@@ -505,9 +505,9 @@
           "clv": -0.0059,
           "cautious": -0.0195,
           "beat": 0.6786,
-          "challenges": 0.143,
+          "challenges": 0.25,
           "traits": 0,
-          "score": -15.2
+          "score": -14.66
         }
       ],
       "ranking": [
@@ -1117,10 +1117,11 @@
             "emoji": "🧘",
             "title": "Discipline day",
             "text": "No gut calls, no wild bets, nothing above odds 3.0, and still beat the market.",
-            "status": "judging",
+            "status": "done",
             "market": "spreads",
             "target": 25,
-            "league": "soccer_mexico_ligamx"
+            "league": "soccer_mexico_ligamx",
+            "detail": "1 bet beat the market."
           },
           {
             "day": "2026-11-17",
@@ -1183,9 +1184,9 @@
             "detail": "No chance today: nothing fit the challenge, and not betting was the right call."
           }
         ],
-        "done": 1,
-        "judged": 7,
-        "streak": 1
+        "done": 2,
+        "judged": 8,
+        "streak": 2
       },
       "traits": [],
       "mind": {
@@ -10380,10 +10381,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-18T08:15:32Z",
-      "text": "✅ 🦈 The Shark completed 📰 Read and react: Used the news in Under 56.5."
-    },
-    {
       "t": "2026-11-18T16:00:59Z",
       "text": "Placed 7 practice bets:\n- The Quant: **Rutgers Scarlet Knights** (Winner) in Notre Dame Fighting Irish vs Rutgers Scarlet Knights (College basketball (US)) at 2.48 on Unibet (NL), stake 4.24, edge +2.2%\n- The Quant: **Vermont Catamounts** (Winner) in Yale Bulldogs vs Vermont Catamounts (College basketball (US)) at 3.5 on Everygame, stake 6.52, edge +5.7%\n- The Quant: **Fresno St Bulldogs** (Winner) in San José St Spartans vs Fresno St Bulldogs (College basketball (US)) at 3.35 on Unibet (NL), stake 2.23, edge +1.8%\n- The Shark: **West Virginia Mountaineers** (Winner) in West Virginia Mountaineers vs Houston Cougars (College football (US)) at 3.8 on BetAnything, stake 1.63, edge +1.5%\n- The Lizard 🧭 scout: **Queens Park Rangers** (Winner) in Millwall vs Queens Park Rangers (Championship (England 2)) at 2.8 on LeoVegas (SE), stake 2.41, edge +1.8%\n- The Quant 🧭 scout: **Lafayette Leopards** (Winner) in Lafayette Leopards vs Binghamton Bearcats (College basketball (US)) at 1.68 on BetOnline.ag, stake 2.39, edge +0.5%\n- The Quant 🧭 scout: **New Orleans Pelicans** (Winner) in New Orleans Pelicans vs Detroit Pistons (NBA) at 3.35 on Matchbook, stake 2.39, edge +0.8%"
     },
@@ -10498,6 +10495,10 @@
     {
       "t": "2026-11-20T19:15:34Z",
       "text": "✅ 🧮 The Quant completed 🧘 Discipline day: 1 bet beat the market."
+    },
+    {
+      "t": "2026-11-20T19:30:52Z",
+      "text": "✅ 🦎 The Lizard completed 🧘 Discipline day: 1 bet beat the market."
     }
   ]
 }
