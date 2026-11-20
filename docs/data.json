@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20T13:45:34Z",
+  "updated": "2026-11-20T14:01:02Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -29,8 +29,8 @@
     ],
     "chars": {
       "lizard": {
-        "iq": 112,
-        "iq_gain": 6,
+        "iq": 113,
+        "iq_gain": 7,
         "streak": 0,
         "best_streak": 8,
         "achievements": [
@@ -152,7 +152,7 @@
             "pending": false
           }
         ],
-        "score": 155,
+        "score": 156,
         "trophies": [
           {
             "kind": "sharpshooter",
@@ -184,8 +184,8 @@
         ]
       },
       "quant": {
-        "iq": 124,
-        "iq_gain": 5,
+        "iq": 123,
+        "iq_gain": 4,
         "streak": 0,
         "best_streak": 4,
         "achievements": [
@@ -307,7 +307,7 @@
             "pending": false
           }
         ],
-        "score": 175,
+        "score": 174,
         "trophies": [
           {
             "kind": "grower",
@@ -932,8 +932,29 @@
         "appetite": 0.45
       },
       "reading": {
-        "week": 95,
+        "week": 132,
         "latest": [
+          {
+            "t": "2026-11-20T13:53:22Z",
+            "title": "Key questions as Scottish Premiership returns",
+            "link": "https://www.bbc.co.uk/sport/football/articles/c50mdwnn90jyo?at_medium=RSS&at_campaign=rss",
+            "source": "feeds.bbci.co.uk",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-20T12:21:26Z",
+            "title": "Seriki injury 'a hammer blow' for Sheff Utd",
+            "link": "https://www.bbc.co.uk/sport/football/articles/c3rrgdxedjz5o?at_medium=RSS&at_campaign=rss",
+            "source": "feeds.bbci.co.uk",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-20T11:21:22Z",
+            "title": "Official: Italy talent Inacio out for ‘several months’ with serious knee injury",
+            "link": "https://football-italia.net/inacio-out-several-months-serious-knee-injury/",
+            "source": "football-italia.net",
+            "tone": -1
+          },
           {
             "t": "2026-11-20T10:56:02Z",
             "title": "Return of key players will help Millwall - Neil",
@@ -954,27 +975,6 @@
             "link": "https://www.bbc.co.uk/sport/football/articles/cqvg27m9xp1xo?at_medium=RSS&at_campaign=rss",
             "source": "feeds.bbci.co.uk",
             "tone": -1
-          },
-          {
-            "t": "2026-11-19T19:16:46Z",
-            "title": "Atalanta team news: Hien and Kossounou not yet back in full training ahead of Inter clash",
-            "link": "https://football-italia.net/atalanta-welcome-back-internationals-team/",
-            "source": "football-italia.net",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-19T15:50:05Z",
-            "title": "Lankshear back in training with Middlesbrough",
-            "link": "https://www.bbc.co.uk/sport/football/articles/cvkg587wy7j0o?at_medium=RSS&at_campaign=rss",
-            "source": "feeds.bbci.co.uk",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-19T14:52:58Z",
-            "title": "Have your say: Should Juventus bring back Conte?",
-            "link": "https://football-italia.net/have-your-say-should-juve-bring-back-conte/",
-            "source": "football-italia.net",
-            "tone": 1
           }
         ]
       },
@@ -1189,8 +1189,8 @@
       },
       "traits": [],
       "mind": {
-        "iq": 112,
-        "iq_week": 11,
+        "iq": 113,
+        "iq_week": 12,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -1258,7 +1258,7 @@
           },
           {
             "d": "2026-11-20",
-            "iq": 112
+            "iq": 113
           }
         ],
         "facts": [
@@ -1749,8 +1749,15 @@
         "appetite": 0.35
       },
       "reading": {
-        "week": 102,
+        "week": 82,
         "latest": [
+          {
+            "t": "2026-11-20T13:11:02Z",
+            "title": "Victor Wembanyama has turned his NBA finals humiliation into a revenge tour for the ages",
+            "link": "https://sports.yahoo.com/articles/victor-wembanyama-turned-nba-finals-131102200.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
           {
             "t": "2026-11-20T04:05:23Z",
             "title": "Damian Lillard notches first 30-piece in 624 days amid first game vs. Bucks post-injury, leads Trail Blazers to win",
@@ -1785,13 +1792,6 @@
             "link": "https://sports.yahoo.com/articles/warriors-vs-grizzlies-injury-report-234754065.html",
             "source": "sports.yahoo.com",
             "tone": -1
-          },
-          {
-            "t": "2026-11-19T23:37:28Z",
-            "title": "How the Lakers&#39; Quentin Grimes wants to maintain his hot shooting, even off the bench",
-            "link": "https://sports.yahoo.com/articles/lakers-quentin-grimes-wants-maintain-233728372.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
           }
         ]
       },
@@ -2004,8 +2004,8 @@
       },
       "traits": [],
       "mind": {
-        "iq": 124,
-        "iq_week": 15,
+        "iq": 123,
+        "iq_week": 14,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -2073,7 +2073,7 @@
           },
           {
             "d": "2026-11-20",
-            "iq": 124
+            "iq": 123
           }
         ],
         "facts": [
@@ -2405,49 +2405,49 @@
         "appetite": 0.6
       },
       "reading": {
-        "week": 403,
+        "week": 386,
         "latest": [
           {
-            "t": "2026-11-20T09:38:18Z",
-            "title": "Rams star Nacua suspended for personal conduct violation",
-            "link": "https://sports.yahoo.com/articles/rams-star-nacua-suspended-personal-093818291.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-20T09:02:36Z",
-            "title": "Nebraska linebacker reported out for Ohio State game",
-            "link": "https://sports.yahoo.com/articles/nebraska-linebacker-reported-ohio-state-090236644.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-20T06:39:49Z",
-            "title": "Notre Dame vs SMU Prediction: Can the Fighting Irish Leave No Doubt?",
-            "link": "https://sports.yahoo.com/articles/notre-dame-vs-smu-prediction-063949417.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-20T05:49:34Z",
-            "title": "Indiana’s Curt Cignetti Uses Clown Emoji to Blast SEC Media Writers: “Fake News”",
-            "link": "https://sports.yahoo.com/articles/indiana-curt-cignetti-uses-clown-054934495.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-20T04:31:33Z",
-            "title": "Kayshon Boutte injures hip against Colts",
-            "link": "https://sports.yahoo.com/articles/kayshon-boutte-injures-hip-against-043133193.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-20T04:21:27Z",
-            "title": "Missouri gets key defender back in 2027 with Austin Simmons likely returning",
-            "link": "https://sports.yahoo.com/articles/missouri-gets-key-defender-back-042127183.html",
+            "t": "2026-11-20T13:45:17Z",
+            "title": "Two class of 2027 Wisconsin football commits receive star-rating boost",
+            "link": "https://sports.yahoo.com/articles/two-class-2027-wisconsin-football-134517124.html",
             "source": "sports.yahoo.com",
             "tone": 1
+          },
+          {
+            "t": "2026-11-20T13:20:00Z",
+            "title": "Parsons’ return imminent but doesn’t solve Packers’ biggest problem",
+            "link": "https://sports.yahoo.com/articles/parsons-return-imminent-doesn-t-132000478.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-20T13:12:42Z",
+            "title": "Urban Meyer Shoots Down Desmond Howard’s Heisman Thoughts",
+            "link": "https://sports.yahoo.com/articles/urban-meyer-shoots-down-desmond-131242264.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-20T13:00:26Z",
+            "title": "Can TCU Shock Unbeaten Utah? Injuries, Odds And How To Watch",
+            "link": "https://sports.yahoo.com/articles/tcu-shock-unbeaten-utah-injuries-130026335.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-20T13:00:00Z",
+            "title": "Colts loss on Thursday Night Football is good news for the Jets in 2027 NFL Draft order",
+            "link": "https://sports.yahoo.com/articles/colts-loss-thursday-night-football-130000947.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-20T13:00:00Z",
+            "title": "New Orleans Saints News: Injuries continue to hurt the offensive line",
+            "link": "https://sports.yahoo.com/articles/orleans-saints-news-injuries-continue-130000566.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
           }
         ]
       },
