@@ -1,6 +1,6 @@
 {
   "last_scan": "2026-11-20@16",
-  "credits_left": 18604,
+  "credits_left": 18602,
   "league_names": {
     "soccer_italy_serie_b": "Serie B (Italy 2)",
     "soccer_efl_champ": "Championship (England 2)",
@@ -49,14 +49,6 @@
     "soccer_japan_j_league": "2026-11-20T13:00:59Z"
   },
   "log": [
-    {
-      "t": "2026-11-18T22:15:38Z",
-      "text": "Results:\n- Lost -4.24: Rutgers Scarlet Knights (Winner) in Notre Dame Fighting Irish vs Rutgers Scarlet Knights (Notre Dame Fighting Irish 110 - 100 Rutgers Scarlet Knights)"
-    },
-    {
-      "t": "2026-11-19T00:00:58Z",
-      "text": "🎯 🦎 The Lizard's challenge today: 📚 Study day. Study at least 35 games today."
-    },
     {
       "t": "2026-11-19T00:00:58Z",
       "text": "❌ 🧮 The Quant missed 🗺️ New ground: No bet of that type today."
@@ -168,11 +160,19 @@
     {
       "t": "2026-11-20T22:45:37Z",
       "text": "Results:\n- Lost -2.41: Under 2.5 (Total) in Troyes vs Le Havre (Troyes 3 - 1 Le Havre)"
+    },
+    {
+      "t": "2026-11-20T23:30:52Z",
+      "text": "🧮 The Quant changed level: Rookie → 🥶 Cold streak. Stakes cut to 60% until its prices beat the market again."
+    },
+    {
+      "t": "2026-11-20T23:30:52Z",
+      "text": "🏁 🧮 The Quant now leads the race to go live (14 days to selection)."
     }
   ],
   "levels": {
     "lizard": "Rookie",
-    "quant": "Rookie",
+    "quant": "Cold streak",
     "shark": "Rookie"
   },
   "achievements": {
@@ -334,7 +334,7 @@
       },
       {
         "d": "2026-11-20",
-        "iq": 114
+        "iq": 113
       }
     ],
     "quant": [
@@ -404,7 +404,7 @@
       },
       {
         "d": "2026-11-20",
-        "iq": 124
+        "iq": 125
       }
     ],
     "shark": [
@@ -2172,20 +2172,20 @@
     }
   },
   "skip_note": "2026-11-06@8",
-  "news_at": "2026-11-20T20:15:38Z",
+  "news_at": "2026-11-20T23:30:52Z",
   "feed_status": {
     "https://www.espn.com/espn/rss/nba/news": "error 2026-11-10T08:42:16Z: no element found: line 1, column 0",
-    "https://www.cbssports.com/rss/headlines/nba/": "ok 2026-11-20T20:15:38Z",
-    "https://sports.yahoo.com/nba/rss.xml": "ok 2026-11-20T20:15:38Z",
+    "https://www.cbssports.com/rss/headlines/nba/": "ok 2026-11-20T23:30:52Z",
+    "https://sports.yahoo.com/nba/rss.xml": "ok 2026-11-20T23:30:52Z",
     "https://www.espn.com/espn/rss/nfl/news": "error 2026-11-10T08:42:16Z: no element found: line 1, column 0",
     "https://www.espn.com/espn/rss/ncf/news": "error 2026-11-10T08:42:16Z: no element found: line 1, column 0",
-    "https://www.cbssports.com/rss/headlines/nfl/": "ok 2026-11-20T20:15:38Z",
-    "https://sports.yahoo.com/nfl/rss.xml": "ok 2026-11-20T20:15:38Z",
-    "https://sports.yahoo.com/college-football/rss.xml": "ok 2026-11-20T20:15:38Z",
-    "https://feeds.bbci.co.uk/sport/football/rss.xml": "ok 2026-11-20T20:15:38Z",
-    "https://feeds.bbci.co.uk/sport/football/championship/rss.xml": "ok 2026-11-20T20:15:38Z",
-    "https://feeds.bbci.co.uk/sport/football/european/rss.xml": "ok 2026-11-20T20:15:38Z",
-    "https://football-italia.net/feed/": "ok 2026-11-20T20:15:38Z"
+    "https://www.cbssports.com/rss/headlines/nfl/": "ok 2026-11-20T23:30:52Z",
+    "https://sports.yahoo.com/nfl/rss.xml": "ok 2026-11-20T23:30:52Z",
+    "https://sports.yahoo.com/college-football/rss.xml": "ok 2026-11-20T23:30:52Z",
+    "https://feeds.bbci.co.uk/sport/football/rss.xml": "ok 2026-11-20T23:30:52Z",
+    "https://feeds.bbci.co.uk/sport/football/championship/rss.xml": "ok 2026-11-20T23:30:52Z",
+    "https://feeds.bbci.co.uk/sport/football/european/rss.xml": "ok 2026-11-20T23:30:52Z",
+    "https://football-italia.net/feed/": "ok 2026-11-20T23:30:52Z"
   },
   "exploring": {
     "lizard": {
@@ -2626,5 +2626,5 @@
     "quant": {},
     "shark": {}
   },
-  "race_leader": "shark"
+  "race_leader": "quant"
 }

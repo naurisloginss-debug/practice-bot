@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20T23:15:32Z",
+  "updated": "2026-11-20T23:30:52Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -16,11 +16,11 @@
     "talk": [
       {
         "who": "quant",
-        "text": "The data put me first. The Shark, check your model. 14 days until selection. Regression to the mean is coming for the leader."
+        "text": "The data put me first. The Shark, check your model. The data says I'm the one going live. 14 days to prove it."
       },
       {
         "who": "shark",
-        "text": "I smell The Quant's lead from here. Closing in. Only one of us gets real money. Smell that? It's me."
+        "text": "I smell The Quant's lead from here. Closing in. Only one of us gets real money, in 14 days. And I'm hungry."
       },
       {
         "who": "lizard",
@@ -29,8 +29,8 @@
     ],
     "chars": {
       "lizard": {
-        "iq": 114,
-        "iq_gain": 8,
+        "iq": 113,
+        "iq_gain": 7,
         "streak": 1,
         "best_streak": 8,
         "achievements": [
@@ -152,7 +152,7 @@
             "pending": false
           }
         ],
-        "score": 160,
+        "score": 159,
         "trophies": [
           {
             "kind": "sharpshooter",
@@ -184,9 +184,9 @@
         ]
       },
       "quant": {
-        "iq": 124,
-        "iq_gain": 5,
-        "streak": 2,
+        "iq": 125,
+        "iq_gain": 6,
+        "streak": 0,
         "best_streak": 4,
         "achievements": [
           {
@@ -297,17 +297,17 @@
           {
             "text": "Bets checked against the market",
             "target": 33,
-            "now": 22
+            "now": 25
           },
           {
             "text": "Beat the market on",
             "target": 55,
-            "now": 45,
+            "now": 44,
             "unit": "%",
             "pending": false
           }
         ],
-        "score": 181,
+        "score": 182,
         "trophies": [
           {
             "kind": "grower",
@@ -474,6 +474,18 @@
       "min_bets": 30,
       "rows": [
         {
+          "who": "quant",
+          "eligible": true,
+          "measured": 31,
+          "need": 0,
+          "clv": -0.0024,
+          "cautious": -0.0124,
+          "beat": 0.4516,
+          "challenges": 0.5,
+          "traits": 0,
+          "score": -10.84
+        },
+        {
           "who": "shark",
           "eligible": false,
           "measured": 12,
@@ -484,18 +496,6 @@
           "challenges": 0.75,
           "traits": 0,
           "score": 19.08
-        },
-        {
-          "who": "quant",
-          "eligible": false,
-          "measured": 29,
-          "need": 1,
-          "clv": -0.0034,
-          "cautious": -0.0137,
-          "beat": 0.4483,
-          "challenges": 0.5,
-          "traits": 0,
-          "score": -12.2
         },
         {
           "who": "lizard",
@@ -511,14 +511,14 @@
         }
       ],
       "ranking": [
-        "shark",
         "quant",
+        "shark",
         "lizard"
       ],
-      "leader": "shark"
+      "leader": "quant"
     }
   },
-  "credits_left": 18604,
+  "credits_left": 18602,
   "last_scan": "2026-11-20@16",
   "strategies": {
     "lizard": {
@@ -936,8 +936,15 @@
         "appetite": 0.45
       },
       "reading": {
-        "week": 142,
+        "week": 106,
         "latest": [
+          {
+            "t": "2026-11-20T23:25:41Z",
+            "title": "Kane out for 'few months' with ankle ligament tear",
+            "link": "https://www.bbc.co.uk/sport/football/articles/cvze7d4w5g49o?at_medium=RSS&at_campaign=rss",
+            "source": "feeds.bbci.co.uk",
+            "tone": -1
+          },
           {
             "t": "2026-11-20T18:41:33Z",
             "title": "Sarr focused on Palace return after Liverpool interest",
@@ -971,13 +978,6 @@
             "title": "Kean ‘out for several months’ after injury scare with ambulance, confirms Fabregas",
             "link": "https://football-italia.net/kean-out-for-several-months-after-injury-scare/",
             "source": "football-italia.net",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-20T15:18:42Z",
-            "title": "Why injured Joao Pedro may be Chelsea's most important player",
-            "link": "https://www.bbc.co.uk/sport/football/articles/cr62p7x23vg3o?at_medium=RSS&at_campaign=rss",
-            "source": "feeds.bbci.co.uk",
             "tone": -1
           }
         ]
@@ -1194,8 +1194,8 @@
       },
       "traits": [],
       "mind": {
-        "iq": 114,
-        "iq_week": 13,
+        "iq": 113,
+        "iq_week": 12,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -1263,7 +1263,7 @@
           },
           {
             "d": "2026-11-20",
-            "iq": 114
+            "iq": 113
           }
         ],
         "facts": [
@@ -1398,9 +1398,9 @@
       "profit": -38.54,
       "roi": -0.0722,
       "avg_edge": 0.0343,
-      "avg_clv": 0.0046,
-      "beat_close": 0.4808,
-      "clv_count": 52,
+      "avg_clv": 0.0047,
+      "beat_close": 0.4727,
+      "clv_count": 55,
       "history": [
         {
           "t": "2026-11-10T21:01:26Z",
@@ -1677,9 +1677,9 @@
           "bets": 18,
           "profit": -12.93,
           "roi": -0.3821,
-          "avg_clv": 0.0216,
-          "beat_close": 0.6471,
-          "clv_count": 17
+          "avg_clv": 0.018,
+          "beat_close": 0.6111,
+          "clv_count": 18
         },
         {
           "name": "EuroLeague",
@@ -1695,9 +1695,9 @@
           "bets": 51,
           "profit": -15.04,
           "roi": -0.0309,
-          "avg_clv": -0.0072,
-          "beat_close": 0.3571,
-          "clv_count": 28
+          "avg_clv": -0.0047,
+          "beat_close": 0.3667,
+          "clv_count": 30
         }
       ],
       "by_market": [
@@ -1715,9 +1715,9 @@
           "bets": 45,
           "profit": -32.2,
           "roi": -0.3951,
-          "avg_clv": 0.0117,
-          "beat_close": 0.5385,
-          "clv_count": 39
+          "avg_clv": 0.0113,
+          "beat_close": 0.5238,
+          "clv_count": 42
         },
         {
           "name": "Total",
@@ -1735,16 +1735,16 @@
           "bets": 76,
           "profit": -38.54,
           "roi": -0.0722,
-          "avg_clv": 0.0046,
-          "beat_close": 0.4808,
-          "clv_count": 52
+          "avg_clv": 0.0047,
+          "beat_close": 0.4727,
+          "clv_count": 55
         }
       ],
       "gut": {
         "bets": 8,
-        "measured": 6,
-        "avg_clv": 0.092,
-        "beat": 0.6667,
+        "measured": 7,
+        "avg_clv": 0.0785,
+        "beat": 0.5714,
         "trust": 0.4,
         "base": 0.4,
         "won": 2,
@@ -1761,8 +1761,36 @@
         "appetite": 0.35
       },
       "reading": {
-        "week": 81,
+        "week": 83,
         "latest": [
+          {
+            "t": "2026-11-20T22:35:36Z",
+            "title": "NBA injury updates: The latest on Tyrese Haliburton, Kawhi Leonard, Dylan Harper, more",
+            "link": "https://www.cbssports.com/nba/news/nba-injury-updates-tyrese-haliburton-kawhi-leonard-dylan-harper-brandon-ingram/",
+            "source": "www.cbssports.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-20T22:02:53Z",
+            "title": "Brandon Ingram expected to make season debut for Clippers on Monday vs. Rockets",
+            "link": "https://sports.yahoo.com/nba/article/brandon-ingram-expected-to-make-season-debut-for-clippers-on-monday-vs-rockets-220424174.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-20T21:12:01Z",
+            "title": "Brandon Ingram set to make Clippers season debut Monday against Rockets",
+            "link": "https://sports.yahoo.com/articles/brandon-ingram-set-clippers-season-211201043.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-20T21:00:00Z",
+            "title": "Game Preview: Suns chasing their longest winning streak of the season",
+            "link": "https://sports.yahoo.com/articles/game-preview-suns-chasing-longest-210000550.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
           {
             "t": "2026-11-20T17:51:45Z",
             "title": "NBA Cup scores, standings, and scenarios: Who can clinch and who&#39;s nearly toast?",
@@ -1776,34 +1804,6 @@
             "link": "https://sports.yahoo.com/articles/fantasy-basketball-weekend-streamers-kevin-153752517.html",
             "source": "sports.yahoo.com",
             "tone": -1
-          },
-          {
-            "t": "2026-11-20T15:35:00Z",
-            "title": "Knicks Bulletin: ‘I was raised by Wolves’",
-            "link": "https://sports.yahoo.com/articles/knicks-bulletin-raised-wolves-153500087.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-20T15:30:27Z",
-            "title": "Damian Lillard stars in his Milwaukee return in another stark reminder of how bleak things are for the Bucks",
-            "link": "https://www.cbssports.com/nba/news/damian-lillard-milwaukee-return-trail-blazers-bucks-bleak-future/",
-            "source": "www.cbssports.com",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-20T15:04:56Z",
-            "title": "The 76ers are fun again, so it&#39;s the return of Roob&#39;s 76ers Stats!",
-            "link": "https://sports.yahoo.com/articles/76ers-fun-again-return-roobs-121311032.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-20T15:04:56Z",
-            "title": "‘It worked every time&#39;: How Sixers found a clutch answer at shootaround",
-            "link": "https://sports.yahoo.com/articles/worked-every-time-sixers-found-135320234.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
           }
         ]
       },
@@ -1856,14 +1856,14 @@
       },
       "level": {
         "n": 1,
-        "title": "Rookie",
-        "badge": "🐣",
-        "stake": 1.0,
-        "perk": "Normal stakes while it proves itself.",
-        "measured": 29,
-        "clv": -0.0034,
-        "beat": 0.4483,
-        "cold": false,
+        "title": "Cold streak",
+        "badge": "🥶",
+        "stake": 0.6,
+        "perk": "Stakes cut to 60% until its prices beat the market again.",
+        "measured": 31,
+        "clv": -0.0024,
+        "beat": 0.4516,
+        "cold": true,
         "next": {
           "title": "Apprentice",
           "badge": "🎓",
@@ -1872,7 +1872,7 @@
             {
               "text": "15 measured bets",
               "done": true,
-              "now": "29"
+              "now": "31"
             },
             {
               "text": "beat the market on 50%+",
@@ -1882,7 +1882,7 @@
             {
               "text": "average price +0.0%+ vs market",
               "done": false,
-              "now": "-0.3%"
+              "now": "-0.2%"
             }
           ],
           "progress": 1.0
@@ -2019,8 +2019,8 @@
       },
       "traits": [],
       "mind": {
-        "iq": 124,
-        "iq_week": 15,
+        "iq": 125,
+        "iq_week": 16,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -2088,7 +2088,7 @@
           },
           {
             "d": "2026-11-20",
-            "iq": 124
+            "iq": 125
           }
         ],
         "facts": [
@@ -2122,10 +2122,10 @@
           },
           {
             "conf": "solid",
-            "n": 41,
+            "n": 43,
             "z": 0,
-            "text": "When I find value, the market moves my way before kick-off 46% of the time.",
-            "detail": "41 bets measured"
+            "text": "When I find value, the market moves my way before kick-off 47% of the time.",
+            "detail": "43 bets measured"
           }
         ],
         "rules": 0,
@@ -2420,48 +2420,48 @@
         "appetite": 0.6
       },
       "reading": {
-        "week": 377,
+        "week": 411,
         "latest": [
           {
-            "t": "2026-11-20T19:51:06Z",
-            "title": "A.J. Brown to miss multiple weeks with hamstring injury, per report",
-            "link": "https://sports.yahoo.com/articles/j-brown-miss-multiple-weeks-195106654.html",
+            "t": "2026-11-20T23:01:50Z",
+            "title": "Oregon Ducks vs. Michigan State Spartans live updates, analysis",
+            "link": "https://sports.yahoo.com/articles/oregon-ducks-vs-michigan-state-230150155.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-20T19:40:00Z",
-            "title": "Bears vs. Saints Injury Report: Kyler Gordon out, but 2 players return",
-            "link": "https://sports.yahoo.com/articles/bears-vs-saints-injury-report-194000987.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-20T19:38:23Z",
-            "title": "Patriots WR A.J. Brown expected to miss multiple weeks due to hamstring injury, per report",
-            "link": "https://www.cbssports.com/nfl/news/patriots-wr-aj-brown-hamstring-injury-update/",
+            "t": "2026-11-20T22:42:12Z",
+            "title": "NFL Week 11 injury report: Latest updates on Kenneth Walker III, Mike Evans, Baker Mayfield and more",
+            "link": "https://www.cbssports.com/nfl/news/nfl-week-11-injury-report-kenneth-walker-iii-mike-evans-baker-mayfield/",
             "source": "www.cbssports.com",
             "tone": -1
           },
           {
-            "t": "2026-11-20T19:36:22Z",
-            "title": "Report: Bills may miss out on playing A.J. Brown again",
-            "link": "https://sports.yahoo.com/articles/report-bills-may-miss-playing-193622953.html",
+            "t": "2026-11-20T22:08:36Z",
+            "title": "Miami’s Mario Cristobal Announces Major Injury Update on WR Malachi Toney",
+            "link": "https://sports.yahoo.com/articles/miami-mario-cristobal-announces-major-220836120.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-20T19:33:48Z",
-            "title": "A.J. Brown is expected to miss multiple weeks with hamstring injury",
-            "link": "https://sports.yahoo.com/articles/j-brown-expected-miss-multiple-193348037.html",
+            "t": "2026-11-20T22:05:00Z",
+            "title": "Clemson Tigers vs. Duke Blue Devils: How to Watch, TV Schedule, Live Gamethread",
+            "link": "https://sports.yahoo.com/articles/clemson-tigers-vs-duke-blue-220500559.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-20T22:03:13Z",
+            "title": "S Talanoa Hufanga, WR Jaylen Waddle, CB Riley Moss set to return Sunday",
+            "link": "https://sports.yahoo.com/articles/talanoa-hufanga-wr-jaylen-waddle-220313612.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-20T19:28:43Z",
-            "title": "Drake Maye has fractured right fibula, will not require surgery, per report",
-            "link": "https://www.cbssports.com/nfl/news/drake-maye-has-fractured-right-fibula-will-not-require-surgery-per-report/",
-            "source": "www.cbssports.com",
+            "t": "2026-11-20T21:50:02Z",
+            "title": "Tennessee’s George MacIntyre gets crucial update for LSU matchup",
+            "link": "https://sports.yahoo.com/articles/tennessee-george-macintyre-gets-crucial-215002086.html",
+            "source": "sports.yahoo.com",
             "tone": -1
           }
         ]
@@ -5079,8 +5079,8 @@
       "edge": 0.0461,
       "stake": 5.7,
       "status": "open",
-      "closing_fair_odds": null,
-      "clv": null,
+      "closing_fair_odds": 3.381,
+      "clv": -0.0418,
       "profit": 0.0,
       "score": null,
       "settled_at": null,
@@ -5117,8 +5117,8 @@
       "edge": 0.0348,
       "stake": 6.03,
       "status": "open",
-      "closing_fair_odds": null,
-      "clv": null,
+      "closing_fair_odds": 2.442,
+      "clv": 0.0648,
       "profit": 0.0,
       "score": null,
       "settled_at": null,
@@ -5155,8 +5155,8 @@
       "edge": 0.0117,
       "stake": 2.31,
       "status": "open",
-      "closing_fair_odds": null,
-      "clv": null,
+      "closing_fair_odds": 2.706,
+      "clv": -0.0022,
       "profit": 0.0,
       "score": null,
       "settled_at": null,
@@ -10385,14 +10385,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-18T22:15:38Z",
-      "text": "Results:\n- Lost -4.24: Rutgers Scarlet Knights (Winner) in Notre Dame Fighting Irish vs Rutgers Scarlet Knights (Notre Dame Fighting Irish 110 - 100 Rutgers Scarlet Knights)"
-    },
-    {
-      "t": "2026-11-19T00:00:58Z",
-      "text": "🎯 🦎 The Lizard's challenge today: 📚 Study day. Study at least 35 games today."
-    },
-    {
       "t": "2026-11-19T00:00:58Z",
       "text": "❌ 🧮 The Quant missed 🗺️ New ground: No bet of that type today."
     },
@@ -10503,6 +10495,14 @@
     {
       "t": "2026-11-20T22:45:37Z",
       "text": "Results:\n- Lost -2.41: Under 2.5 (Total) in Troyes vs Le Havre (Troyes 3 - 1 Le Havre)"
+    },
+    {
+      "t": "2026-11-20T23:30:52Z",
+      "text": "🧮 The Quant changed level: Rookie → 🥶 Cold streak. Stakes cut to 60% until its prices beat the market again."
+    },
+    {
+      "t": "2026-11-20T23:30:52Z",
+      "text": "🏁 🧮 The Quant now leads the race to go live (14 days to selection)."
     }
   ]
 }
