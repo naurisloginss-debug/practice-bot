@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20T22:30:47Z",
+  "updated": "2026-11-20T22:45:37Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -518,7 +518,7 @@
       "leader": "shark"
     }
   },
-  "credits_left": 18609,
+  "credits_left": 18606,
   "last_scan": "2026-11-20@16",
   "strategies": {
     "lizard": {
@@ -563,7 +563,7 @@
         "Total"
       ],
       "start_fund": 500,
-      "fund": 490.01,
+      "fund": 487.6,
       "lessons": [
         {
           "kind": "avoid",
@@ -572,12 +572,12 @@
         }
       ],
       "bets": 56,
-      "open": 15,
+      "open": 14,
       "won": 11,
-      "lost": 30,
-      "staked": 79.91,
-      "profit": -9.99,
-      "roi": -0.125,
+      "lost": 31,
+      "staked": 82.32,
+      "profit": -12.4,
+      "roi": -0.1506,
       "avg_edge": 0.0284,
       "avg_clv": -0.0133,
       "beat_close": 0.6098,
@@ -750,6 +750,10 @@
         {
           "t": "2026-11-20T13:00:59Z",
           "fund": 490.01
+        },
+        {
+          "t": "2026-11-20T22:45:37Z",
+          "fund": 487.6
         }
       ],
       "by_league": [
@@ -783,8 +787,8 @@
         {
           "name": "Ligue 1 (France)",
           "bets": 8,
-          "profit": -1.37,
-          "roi": -0.3024,
+          "profit": -3.78,
+          "roi": -0.5447,
           "avg_clv": 0.007,
           "beat_close": 0.8333,
           "clv_count": 6
@@ -875,7 +879,7 @@
         {
           "name": "Total",
           "bets": 5,
-          "profit": -3.1,
+          "profit": -5.51,
           "roi": -1.0,
           "avg_clv": 0.0239,
           "beat_close": 1.0,
@@ -904,8 +908,8 @@
         {
           "name": "Football",
           "bets": 56,
-          "profit": -9.99,
-          "roi": -0.125,
+          "profit": -12.4,
+          "roi": -0.1506,
           "avg_clv": -0.0133,
           "beat_close": 0.6098,
           "clv_count": 41
@@ -1350,7 +1354,7 @@
         ],
         "rules": 0,
         "studied": 219,
-        "resolved": 109
+        "resolved": 110
       }
     },
     "quant": {
@@ -5226,12 +5230,12 @@
       "fair_odds": 2.064,
       "edge": 0.0175,
       "stake": 2.41,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 2.01,
       "clv": 0.0446,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -2.41,
+      "score": "Troyes 3 - 1 Le Havre",
+      "settled_at": "2026-11-20T22:45:37Z",
       "thoughts": [
         "🧭 Exploring. I've only made 0 bets like this (Ligue 1 (France) total bets at middle odds).",
         "Under 2.5 at 2.10 is +1.75% above fair: below my usual bar, but the only way to learn if this kind of bet works for me is to try it.",
@@ -10381,10 +10385,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-18T16:00:59Z",
-      "text": "Placed 7 practice bets:\n- The Quant: **Rutgers Scarlet Knights** (Winner) in Notre Dame Fighting Irish vs Rutgers Scarlet Knights (College basketball (US)) at 2.48 on Unibet (NL), stake 4.24, edge +2.2%\n- The Quant: **Vermont Catamounts** (Winner) in Yale Bulldogs vs Vermont Catamounts (College basketball (US)) at 3.5 on Everygame, stake 6.52, edge +5.7%\n- The Quant: **Fresno St Bulldogs** (Winner) in San José St Spartans vs Fresno St Bulldogs (College basketball (US)) at 3.35 on Unibet (NL), stake 2.23, edge +1.8%\n- The Shark: **West Virginia Mountaineers** (Winner) in West Virginia Mountaineers vs Houston Cougars (College football (US)) at 3.8 on BetAnything, stake 1.63, edge +1.5%\n- The Lizard 🧭 scout: **Queens Park Rangers** (Winner) in Millwall vs Queens Park Rangers (Championship (England 2)) at 2.8 on LeoVegas (SE), stake 2.41, edge +1.8%\n- The Quant 🧭 scout: **Lafayette Leopards** (Winner) in Lafayette Leopards vs Binghamton Bearcats (College basketball (US)) at 1.68 on BetOnline.ag, stake 2.39, edge +0.5%\n- The Quant 🧭 scout: **New Orleans Pelicans** (Winner) in New Orleans Pelicans vs Detroit Pistons (NBA) at 3.35 on Matchbook, stake 2.39, edge +0.8%"
-    },
-    {
       "t": "2026-11-18T22:15:38Z",
       "text": "Results:\n- Lost -4.24: Rutgers Scarlet Knights (Winner) in Notre Dame Fighting Irish vs Rutgers Scarlet Knights (Notre Dame Fighting Irish 110 - 100 Rutgers Scarlet Knights)"
     },
@@ -10499,6 +10499,10 @@
     {
       "t": "2026-11-20T19:30:52Z",
       "text": "✅ 🦎 The Lizard completed 🧘 Discipline day: 1 bet beat the market."
+    },
+    {
+      "t": "2026-11-20T22:45:37Z",
+      "text": "Results:\n- Lost -2.41: Under 2.5 (Total) in Troyes vs Le Havre (Troyes 3 - 1 Le Havre)"
     }
   ]
 }
