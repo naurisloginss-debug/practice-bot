@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20T19:01:03Z",
+  "updated": "2026-11-20T19:15:34Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -29,9 +29,9 @@
     ],
     "chars": {
       "lizard": {
-        "iq": 112,
-        "iq_gain": 6,
-        "streak": 0,
+        "iq": 113,
+        "iq_gain": 7,
+        "streak": 1,
         "best_streak": 8,
         "achievements": [
           {
@@ -142,17 +142,17 @@
           {
             "text": "Bets checked against the market",
             "target": 19,
-            "now": 4
+            "now": 5
           },
           {
             "text": "Beat the market on",
             "target": 55,
-            "now": 25,
+            "now": 40,
             "unit": "%",
             "pending": false
           }
         ],
-        "score": 155,
+        "score": 156,
         "trophies": [
           {
             "kind": "sharpshooter",
@@ -186,7 +186,7 @@
       "quant": {
         "iq": 124,
         "iq_gain": 5,
-        "streak": 1,
+        "streak": 2,
         "best_streak": 4,
         "achievements": [
           {
@@ -297,17 +297,17 @@
           {
             "text": "Bets checked against the market",
             "target": 33,
-            "now": 21
+            "now": 22
           },
           {
             "text": "Beat the market on",
             "target": 55,
-            "now": 43,
+            "now": 45,
             "unit": "%",
             "pending": false
           }
         ],
-        "score": 178,
+        "score": 181,
         "trophies": [
           {
             "kind": "grower",
@@ -493,9 +493,9 @@
           "clv": -0.0034,
           "cautious": -0.0137,
           "beat": 0.4483,
-          "challenges": 0.429,
+          "challenges": 0.5,
           "traits": 0,
-          "score": -12.56
+          "score": -12.2
         },
         {
           "who": "lizard",
@@ -518,7 +518,7 @@
       "leader": "shark"
     }
   },
-  "credits_left": 18624,
+  "credits_left": 18622,
   "last_scan": "2026-11-20@16",
   "strategies": {
     "lizard": {
@@ -579,9 +579,9 @@
       "profit": -9.99,
       "roi": -0.125,
       "avg_edge": 0.0284,
-      "avg_clv": -0.0147,
-      "beat_close": 0.6,
-      "clv_count": 40,
+      "avg_clv": -0.0133,
+      "beat_close": 0.6098,
+      "clv_count": 41,
       "history": [
         {
           "t": "2026-11-04T12:49:24Z",
@@ -781,6 +781,15 @@
           "clv_count": 1
         },
         {
+          "name": "Ligue 1 (France)",
+          "bets": 8,
+          "profit": -1.37,
+          "roi": -0.3024,
+          "avg_clv": 0.007,
+          "beat_close": 0.8333,
+          "clv_count": 6
+        },
+        {
           "name": "La Liga 2 (Spain 2)",
           "bets": 10,
           "profit": -11.12,
@@ -788,15 +797,6 @@
           "avg_clv": 0.0054,
           "beat_close": 0.7,
           "clv_count": 10
-        },
-        {
-          "name": "Ligue 1 (France)",
-          "bets": 8,
-          "profit": -1.37,
-          "roi": -0.3024,
-          "avg_clv": -0.0005,
-          "beat_close": 0.8,
-          "clv_count": 5
         },
         {
           "name": "MLS (USA)",
@@ -877,9 +877,9 @@
           "bets": 5,
           "profit": -3.1,
           "roi": -1.0,
-          "avg_clv": 0.0135,
+          "avg_clv": 0.0239,
           "beat_close": 1.0,
-          "clv_count": 2
+          "clv_count": 3
         },
         {
           "name": "Winner",
@@ -906,9 +906,9 @@
           "bets": 56,
           "profit": -9.99,
           "roi": -0.125,
-          "avg_clv": -0.0147,
-          "beat_close": 0.6,
-          "clv_count": 40
+          "avg_clv": -0.0133,
+          "beat_close": 0.6098,
+          "clv_count": 41
         }
       ],
       "gut": {
@@ -1072,8 +1072,8 @@
         ],
         "curiosity": 0.5,
         "scouts": 16,
-        "scout_clv": -0.0217,
-        "scout_measured": 8
+        "scout_clv": -0.0144,
+        "scout_measured": 9
       },
       "challenge": {
         "today": {
@@ -1189,8 +1189,8 @@
       },
       "traits": [],
       "mind": {
-        "iq": 112,
-        "iq_week": 11,
+        "iq": 113,
+        "iq_week": 12,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -1258,7 +1258,7 @@
           },
           {
             "d": "2026-11-20",
-            "iq": 112
+            "iq": 113
           }
         ],
         "facts": [
@@ -1341,10 +1341,10 @@
           },
           {
             "conf": "solid",
-            "n": 36,
+            "n": 37,
             "z": 0,
-            "text": "When I find value, the market moves my way before kick-off 64% of the time.",
-            "detail": "36 bets measured"
+            "text": "When I find value, the market moves my way before kick-off 65% of the time.",
+            "detail": "37 bets measured"
           }
         ],
         "rules": 0,
@@ -1393,9 +1393,9 @@
       "profit": -38.54,
       "roi": -0.0722,
       "avg_edge": 0.0343,
-      "avg_clv": 0.0036,
-      "beat_close": 0.4706,
-      "clv_count": 51,
+      "avg_clv": 0.0046,
+      "beat_close": 0.4808,
+      "clv_count": 52,
       "history": [
         {
           "t": "2026-11-10T21:01:26Z",
@@ -1681,9 +1681,9 @@
           "bets": 7,
           "profit": -10.57,
           "roi": -0.8382,
-          "avg_clv": 0.0029,
-          "beat_close": 0.5,
-          "clv_count": 6
+          "avg_clv": 0.0106,
+          "beat_close": 0.5714,
+          "clv_count": 7
         },
         {
           "name": "College basketball (US)",
@@ -1710,9 +1710,9 @@
           "bets": 45,
           "profit": -32.2,
           "roi": -0.3951,
-          "avg_clv": 0.0105,
-          "beat_close": 0.5263,
-          "clv_count": 38
+          "avg_clv": 0.0117,
+          "beat_close": 0.5385,
+          "clv_count": 39
         },
         {
           "name": "Total",
@@ -1730,9 +1730,9 @@
           "bets": 76,
           "profit": -38.54,
           "roi": -0.0722,
-          "avg_clv": 0.0036,
-          "beat_close": 0.4706,
-          "clv_count": 51
+          "avg_clv": 0.0046,
+          "beat_close": 0.4808,
+          "clv_count": 52
         }
       ],
       "gut": {
@@ -1896,8 +1896,8 @@
         ],
         "curiosity": 0.6,
         "scouts": 14,
-        "scout_clv": 0.0114,
-        "scout_measured": 11
+        "scout_clv": 0.0151,
+        "scout_measured": 12
       },
       "challenge": {
         "today": {
@@ -1931,10 +1931,11 @@
             "emoji": "🧘",
             "title": "Discipline day",
             "text": "No gut calls, no wild bets, nothing above odds 3.0, and still beat the market.",
-            "status": "judging",
+            "status": "done",
             "market": "spreads",
             "target": 51,
-            "league": "basketball_wncaab"
+            "league": "basketball_wncaab",
+            "detail": "1 bet beat the market."
           },
           {
             "day": "2026-11-18",
@@ -2007,9 +2008,9 @@
             "detail": "3 bets, but not enough beat the market."
           }
         ],
-        "done": 3,
-        "judged": 7,
-        "streak": 1
+        "done": 4,
+        "judged": 8,
+        "streak": 2
       },
       "traits": [],
       "mind": {
@@ -2116,10 +2117,10 @@
           },
           {
             "conf": "solid",
-            "n": 40,
+            "n": 41,
             "z": 0,
-            "text": "When I find value, the market moves my way before kick-off 45% of the time.",
-            "detail": "40 bets measured"
+            "text": "When I find value, the market moves my way before kick-off 46% of the time.",
+            "detail": "41 bets measured"
           }
         ],
         "rules": 0,
@@ -5225,8 +5226,8 @@
       "edge": 0.0175,
       "stake": 2.41,
       "status": "open",
-      "closing_fair_odds": null,
-      "clv": null,
+      "closing_fair_odds": 2.01,
+      "clv": 0.0446,
       "profit": 0.0,
       "score": null,
       "settled_at": null,
@@ -5262,8 +5263,8 @@
       "edge": 0.0069,
       "stake": 2.31,
       "status": "open",
-      "closing_fair_odds": null,
-      "clv": null,
+      "closing_fair_odds": 2.839,
+      "clv": 0.0567,
       "profit": 0.0,
       "score": null,
       "settled_at": null,
@@ -10379,10 +10380,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-18T08:00:56Z",
-      "text": "Results:\n- Lost -2.47: Kent State Golden Flashes (Winner) in Kent State Golden Flashes vs Miami (OH) RedHawks (Kent State Golden Flashes 3 - 20 Miami (OH) RedHawks)\n- Lost -1.24: Eastern Michigan Eagles (Winner) in Western Michigan Broncos vs Eastern Michigan Eagles (Western Michigan Broncos 34 - 27 Eastern Michigan Eagles)"
-    },
-    {
       "t": "2026-11-18T08:15:32Z",
       "text": "✅ 🦈 The Shark completed 📰 Read and react: Used the news in Under 56.5."
     },
@@ -10497,6 +10494,10 @@
     {
       "t": "2026-11-20T16:15:33Z",
       "text": "✅ 🧮 The Quant completed 📚 Study day: Studied 99 games."
+    },
+    {
+      "t": "2026-11-20T19:15:34Z",
+      "text": "✅ 🧮 The Quant completed 🧘 Discipline day: 1 bet beat the market."
     }
   ]
 }
