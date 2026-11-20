@@ -47,10 +47,6 @@
   },
   "log": [
     {
-      "t": "2026-11-17T16:15:31Z",
-      "text": "✅ 🦈 The Shark completed 📚 Study day: Studied 154 games."
-    },
-    {
       "t": "2026-11-17T23:30:46Z",
       "text": "🧮 The Quant changed level: Apprentice → 🐣 Rookie. Normal stakes while it proves itself."
     },
@@ -165,6 +161,10 @@
     {
       "t": "2026-11-20T00:00:56Z",
       "text": "🎯 🦈 The Shark's challenge today: 🐶 Underdog hunter. Back an underdog (odds 2.5+) that beats the market."
+    },
+    {
+      "t": "2026-11-20T00:15:31Z",
+      "text": "✅ 🦈 The Shark completed 🐶 Underdog hunter: 1 bet beat the market."
     }
   ],
   "levels": {
@@ -2522,10 +2522,11 @@
         "emoji": "🐶",
         "title": "Underdog hunter",
         "text": "Back an underdog (odds 2.5+) that beats the market.",
-        "status": "judging",
+        "status": "done",
         "market": "totals",
         "target": 92,
-        "league": null
+        "league": null,
+        "detail": "1 bet beat the market."
       },
       {
         "day": "2026-11-17",
