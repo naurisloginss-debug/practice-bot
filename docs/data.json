@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T23:00:58Z",
+  "updated": "2026-11-21T23:15:37Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -2371,10 +2371,10 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.015,
+        "min_edge": 0.02,
         "odds": [
           1.6,
-          5.0
+          4.0
         ],
         "stop_below": 250
       },
@@ -2961,15 +2961,15 @@
           "bets": 2
         },
         {
-          "id": "underdog",
-          "emoji": "🐶",
-          "title": "Underdog lover",
-          "effect": "Allows underdogs at odds up to 1.0 higher.",
-          "from": "Underdog hunter",
-          "since": "2026-11-21T23:00:58Z",
-          "on": 0.0105,
-          "off": 0.0303,
-          "bets": 11
+          "id": "precision",
+          "emoji": "🎯",
+          "title": "Precise",
+          "effect": "Always demands +0.5% more edge.",
+          "from": "Precision day",
+          "since": "2026-11-21T23:15:37Z",
+          "on": 0.032,
+          "off": 0.0241,
+          "bets": 2
         }
       ],
       "mind": {
@@ -10706,14 +10706,6 @@
   "log": [
     {
       "t": "2026-11-21T20:15:33Z",
-      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
-    },
-    {
-      "t": "2026-11-21T20:15:33Z",
-      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (-0.2% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-21T20:15:33Z",
       "text": "🏟️ 🦈 The Shark takes the lead in the Arena."
     },
     {
@@ -10823,6 +10815,14 @@
     {
       "t": "2026-11-21T23:00:58Z",
       "text": "Results:\n- Lost -2.40: Palermo (Winner) in US Catanzaro 1929 vs Palermo (US Catanzaro 1929 3 - 1 Palermo)"
+    },
+    {
+      "t": "2026-11-21T23:15:37Z",
+      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
+    },
+    {
+      "t": "2026-11-21T23:15:37Z",
+      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+0.2% vs the market on those days)."
     }
   ]
 }

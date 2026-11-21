@@ -54,14 +54,6 @@
   "log": [
     {
       "t": "2026-11-21T20:15:33Z",
-      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
-    },
-    {
-      "t": "2026-11-21T20:15:33Z",
-      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (-0.2% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-21T20:15:33Z",
       "text": "🏟️ 🦈 The Shark takes the lead in the Arena."
     },
     {
@@ -171,6 +163,14 @@
     {
       "t": "2026-11-21T23:00:58Z",
       "text": "Results:\n- Lost -2.40: Palermo (Winner) in US Catanzaro 1929 vs Palermo (US Catanzaro 1929 3 - 1 Palermo)"
+    },
+    {
+      "t": "2026-11-21T23:15:37Z",
+      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
+    },
+    {
+      "t": "2026-11-21T23:15:37Z",
+      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+0.2% vs the market on those days)."
     }
   ],
   "levels": {
@@ -2736,11 +2736,11 @@
         "off": 0.017,
         "bets": 2
       },
-      "underdog": {
-        "since": "2026-11-21T23:00:58Z",
-        "on": 0.0105,
-        "off": 0.0303,
-        "bets": 11
+      "precision": {
+        "since": "2026-11-21T23:15:37Z",
+        "on": 0.032,
+        "off": 0.0241,
+        "bets": 2
       }
     }
   },
