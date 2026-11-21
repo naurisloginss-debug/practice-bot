@@ -52,14 +52,6 @@
   },
   "log": [
     {
-      "t": "2026-11-21T13:15:34Z",
-      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-21T13:30:48Z",
-      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
-    },
-    {
       "t": "2026-11-21T13:45:33Z",
       "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
     },
@@ -170,6 +162,14 @@
     {
       "t": "2026-11-21T17:30:47Z",
       "text": "🏟️ 🦈 The Shark takes the lead in the Arena."
+    },
+    {
+      "t": "2026-11-21T17:45:33Z",
+      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-21T17:45:33Z",
+      "text": "🧬 🦈 The Shark made Read and react part of its character: 📰 Well-read. It completed the challenge on 2026-11-18 and its bets beat the market by +8.9%. Trusts its hunches more (+10% gut trust)."
     }
   ],
   "levels": {
@@ -2686,27 +2686,27 @@
       "discipline": {
         "since": "2026-11-21T12:15:32Z",
         "on": -0.0049,
-        "off": -0.0054,
+        "off": -0.0022,
         "bets": 3
       },
       "study": {
         "since": "2026-11-21T14:45:34Z",
-        "on": 0.0189,
+        "on": 0.0352,
         "off": -0.009,
-        "bets": 6
+        "bets": 7
       }
     },
     "quant": {
       "discipline": {
         "since": "2026-11-21T07:21:41Z",
         "on": 0.0129,
-        "off": -0.0006,
+        "off": 0.0005,
         "bets": 6
       },
       "underdog": {
         "since": "2026-11-21T07:21:41Z",
         "on": 0.016,
-        "off": -0.0025,
+        "off": -0.0013,
         "bets": 9
       }
     },
@@ -2714,13 +2714,13 @@
       "new_ground": {
         "since": "2026-11-21T07:21:41Z",
         "on": 0.0105,
-        "off": 0.0165,
+        "off": 0.0229,
         "bets": 5
       },
-      "precision": {
-        "since": "2026-11-21T17:30:47Z",
-        "on": 0.032,
-        "off": 0.0182,
+      "news": {
+        "since": "2026-11-21T17:45:33Z",
+        "on": 0.0888,
+        "off": 0.017,
         "bets": 2
       }
     }
