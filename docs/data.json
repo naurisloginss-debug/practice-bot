@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T22:30:50Z",
+  "updated": "2026-11-21T22:45:32Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -518,7 +518,7 @@
       "leader": "lizard"
     }
   },
-  "credits_left": 18259,
+  "credits_left": 18258,
   "last_scan": "2026-11-21@21",
   "strategies": {
     "lizard": {
@@ -2367,10 +2367,10 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.015,
+        "min_edge": 0.02,
         "odds": [
           1.6,
-          5.0
+          4.0
         ],
         "stop_below": 250
       },
@@ -2957,15 +2957,15 @@
           "bets": 2
         },
         {
-          "id": "underdog",
-          "emoji": "🐶",
-          "title": "Underdog lover",
-          "effect": "Allows underdogs at odds up to 1.0 higher.",
-          "from": "Underdog hunter",
-          "since": "2026-11-21T22:30:50Z",
-          "on": 0.0105,
-          "off": 0.0303,
-          "bets": 11
+          "id": "precision",
+          "emoji": "🎯",
+          "title": "Precise",
+          "effect": "Always demands +0.5% more edge.",
+          "from": "Precision day",
+          "since": "2026-11-21T22:45:32Z",
+          "on": 0.032,
+          "off": 0.0241,
+          "bets": 2
         }
       ],
       "mind": {
@@ -10701,14 +10701,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-21T19:45:30Z",
-      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
-    },
-    {
-      "t": "2026-11-21T19:45:30Z",
-      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+0.0% vs the market on those days)."
-    },
-    {
       "t": "2026-11-21T20:00:55Z",
       "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
     },
@@ -10819,6 +10811,14 @@
     {
       "t": "2026-11-21T22:30:50Z",
       "text": "Results:\n- Won +12.22: Draw (Winner) in Palmeiras vs Flamengo (Palmeiras 1 - 1 Flamengo)"
+    },
+    {
+      "t": "2026-11-21T22:45:32Z",
+      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
+    },
+    {
+      "t": "2026-11-21T22:45:32Z",
+      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+0.2% vs the market on those days)."
     }
   ]
 }
