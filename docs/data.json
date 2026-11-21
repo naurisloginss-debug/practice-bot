@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T20:45:33Z",
+  "updated": "2026-11-21T21:00:57Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -291,8 +291,8 @@
         "goals": [
           {
             "text": "Games studied",
-            "target": 366,
-            "now": 333
+            "target": 365,
+            "now": 334
           },
           {
             "text": "Bets checked against the market",
@@ -518,8 +518,8 @@
       "leader": "lizard"
     }
   },
-  "credits_left": 18342,
-  "last_scan": "2026-11-21@17",
+  "credits_left": 18280,
+  "last_scan": "2026-11-21@21",
   "strategies": {
     "lizard": {
       "name": "The Lizard",
@@ -563,7 +563,7 @@
         "Total"
       ],
       "start_fund": 500,
-      "fund": 514.11,
+      "fund": 510.09,
       "lessons": [
         {
           "kind": "avoid",
@@ -577,12 +577,12 @@
         }
       ],
       "bets": 79,
-      "open": 30,
+      "open": 29,
       "won": 16,
-      "lost": 33,
-      "staked": 105.82,
-      "profit": 14.11,
-      "roi": 0.1333,
+      "lost": 34,
+      "staked": 109.84,
+      "profit": 10.09,
+      "roi": 0.0919,
       "avg_edge": 0.0317,
       "avg_clv": 0.0027,
       "beat_close": 0.6406,
@@ -787,14 +787,18 @@
         {
           "t": "2026-11-21T19:15:38Z",
           "fund": 514.11
+        },
+        {
+          "t": "2026-11-21T21:00:57Z",
+          "fund": 510.09
         }
       ],
       "by_league": [
         {
           "name": "Primera División (Argentina)",
           "bets": 3,
-          "profit": 0,
-          "roi": null,
+          "profit": -4.02,
+          "roi": -1.0,
           "avg_clv": 0.0755,
           "beat_close": 1.0,
           "clv_count": 2
@@ -921,8 +925,8 @@
         {
           "name": "Winner",
           "bets": 72,
-          "profit": 11.89,
-          "roi": 0.1341,
+          "profit": 7.87,
+          "roi": 0.0849,
           "avg_clv": 0.0016,
           "beat_close": 0.623,
           "clv_count": 61
@@ -941,8 +945,8 @@
         {
           "name": "Football",
           "bets": 79,
-          "profit": 14.11,
-          "roi": 0.1333,
+          "profit": 10.09,
+          "roi": 0.0919,
           "avg_clv": 0.0027,
           "beat_close": 0.6406,
           "clv_count": 64
@@ -1024,11 +1028,11 @@
         ]
       },
       "diary": {
-        "t": "2026-11-21T20:00:55Z",
-        "mood": "Gap spotted. Striking while the bookmakers sleep.",
+        "t": "2026-11-21T21:00:57Z",
+        "mood": "Nothing worth the risk today. Patience is a weapon.",
         "mindset": "Nauris gave me 500 and said he's not worried about losing it. That's permission to act, not to be careless: I strike more often, but only where the gap is real. Only one of us goes live.",
         "looked": 70,
-        "placed": 2,
+        "placed": 0,
         "wild_choice": "Saw Grêmio at 5.40. Tempting, but I passed. Feeling sharp after beating the market 4 times in a row.",
         "scouts": 0,
         "passed": [
@@ -1051,13 +1055,13 @@
             "reason": "Odds 3.85 are outside my game (1.6–3.5)."
           },
           {
-            "game": "Atletico Paranaense vs Remo",
-            "league": "Brasileirão (Brazil)",
-            "pick": "Draw",
-            "odds": 4.2,
-            "book": "Winamax (DE)",
-            "edge": 0.0455,
-            "reason": "Odds 4.20 are outside my game (1.6–3.5)."
+            "game": "Wolverhampton Wanderers vs Derby County",
+            "league": "Championship (England 2)",
+            "pick": "Derby County",
+            "odds": 10.0,
+            "book": "Matchbook",
+            "edge": 0.0555,
+            "reason": "Odds 10.00 are outside my game (1.6–3.5)."
           },
           {
             "game": "Cardiff City vs Preston North End",
@@ -1336,84 +1340,84 @@
         "facts": [
           {
             "conf": "solid",
-            "n": 629,
+            "n": 649,
             "z": 0,
             "text": "1xBet is the softest bookmaker in La Liga 2 (Spain 2).",
-            "detail": "beats fair by 2%+ on 2% of its prices vs 0% across all bookmakers"
+            "detail": "beats fair by 2%+ on 2% of its prices vs 1% across all bookmakers"
           },
           {
             "conf": "solid",
-            "n": 531,
+            "n": 572,
             "z": 0,
             "text": "LeoVegas (SE) is the softest bookmaker in Championship (England 2).",
-            "detail": "beats fair by 2%+ on 9% of its prices vs 1% across all bookmakers"
+            "detail": "beats fair by 2%+ on 10% of its prices vs 1% across all bookmakers"
           },
           {
             "conf": "solid",
-            "n": 501,
+            "n": 513,
             "z": 0,
             "text": "Matchbook is the softest bookmaker in League One (England 3).",
             "detail": "beats fair by 2%+ on 4% of its prices vs 1% across all bookmakers"
           },
           {
             "conf": "solid",
-            "n": 450,
+            "n": 485,
             "z": 0,
             "text": "Unibet (NL) is the softest bookmaker in Serie B (Italy 2).",
-            "detail": "beats fair by 2%+ on 3% of its prices vs 0% across all bookmakers"
+            "detail": "beats fair by 2%+ on 3% of its prices vs 1% across all bookmakers"
           },
           {
             "conf": "solid",
-            "n": 426,
+            "n": 429,
             "z": 0,
             "text": "Betfair is the softest bookmaker in League Two (England 4).",
             "detail": "beats fair by 2%+ on 3% of its prices vs 1% across all bookmakers"
           },
           {
             "conf": "solid",
-            "n": 388,
+            "n": 399,
             "z": 0,
             "text": "1xBet is the softest bookmaker in Ligue 1 (France).",
-            "detail": "beats fair by 2%+ on 12% of its prices vs 3% across all bookmakers"
+            "detail": "beats fair by 2%+ on 11% of its prices vs 3% across all bookmakers"
           },
           {
             "conf": "solid",
-            "n": 371,
+            "n": 396,
             "z": 0,
             "text": "Unibet (NL) is the softest bookmaker in Brasileirão (Brazil).",
             "detail": "beats fair by 2%+ on 4% of its prices vs 1% across all bookmakers"
           },
           {
             "conf": "solid",
-            "n": 284,
-            "z": 0,
-            "text": "Unibet (NL) is the softest bookmaker in 2. Bundesliga.",
-            "detail": "beats fair by 2%+ on 1% of its prices vs 0% across all bookmakers"
-          },
-          {
-            "conf": "solid",
-            "n": 282,
+            "n": 314,
             "z": 0,
             "text": "BetOnline.ag is the softest bookmaker in Liga MX.",
-            "detail": "beats fair by 2%+ on 1% of its prices vs 0% across all bookmakers"
+            "detail": "beats fair by 2%+ on 2% of its prices vs 0% across all bookmakers"
           },
           {
             "conf": "solid",
-            "n": 278,
+            "n": 301,
             "z": 0,
             "text": "LeoVegas (SE) is the softest bookmaker in J-League (Japan).",
             "detail": "beats fair by 2%+ on 3% of its prices vs 0% across all bookmakers"
           },
           {
             "conf": "solid",
-            "n": 270,
+            "n": 295,
+            "z": 0,
+            "text": "Unibet (NL) is the softest bookmaker in 2. Bundesliga.",
+            "detail": "beats fair by 2%+ on 1% of its prices vs 0% across all bookmakers"
+          },
+          {
+            "conf": "solid",
+            "n": 275,
             "z": 0,
             "text": "Unibet (NL) is the softest bookmaker in Ligue 2 (France 2).",
             "detail": "beats fair by 2%+ on 2% of its prices vs 0% across all bookmakers"
           },
           {
             "conf": "solid",
-            "n": 170,
+            "n": 190,
             "z": 0,
             "text": "LeoVegas (SE) is the softest bookmaker in MLS (USA).",
             "detail": "beats fair by 2%+ on 7% of its prices vs 1% across all bookmakers"
@@ -1421,7 +1425,7 @@
         ],
         "rules": 0,
         "studied": 257,
-        "resolved": 143
+        "resolved": 144
       }
     },
     "quant": {
@@ -1923,13 +1927,13 @@
         ]
       },
       "diary": {
-        "t": "2026-11-21T20:00:55Z",
-        "mood": "The numbers don't lie. Betting it.",
+        "t": "2026-11-21T21:00:57Z",
+        "mood": "The lines are tight tonight. No edge, no bet.",
         "mindset": "500 to work with, and Nauris isn't worried about losing it. More shots, same standard: every bet still has to beat the market. Only one of us goes live.",
-        "looked": 27,
-        "placed": 3,
-        "wild_choice": "Saw Sacramento Kings at 7.20. Tempting, but I passed. I'm on a cold streak. Staying careful.",
-        "scouts": 1,
+        "looked": 23,
+        "placed": 0,
+        "wild_choice": "Saw Cal Baptist Lancers at 9.17. Tempting, but I passed. I'm on a cold streak. Staying careful.",
+        "scouts": 0,
         "passed": [
           {
             "game": "Loyola Marymount Lions vs Cal Baptist Lancers",
@@ -1952,20 +1956,20 @@
           {
             "game": "Sacramento Kings vs Boston Celtics",
             "league": "NBA",
-            "pick": "Sacramento Kings",
-            "odds": 7.2,
-            "book": "Matchbook",
-            "edge": 0.0252,
-            "reason": "Odds 7.20 are outside my game (1.6–4.5)."
+            "pick": "Boston Celtics",
+            "odds": 1.21,
+            "book": "Betfair",
+            "edge": 0.0257,
+            "reason": "Odds 1.21 are outside my game (1.6–4.5)."
           },
           {
-            "game": "New York Knicks vs Portland Trail Blazers",
-            "league": "NBA",
-            "pick": "New York Knicks",
-            "odds": 1.71,
-            "book": "Matchbook",
-            "edge": 0.0099,
-            "reason": "Only +0.99% edge. I need +1.5% before I move."
+            "game": "Texas Southern Tigers vs New Orleans Privateers",
+            "league": "College basketball (US)",
+            "pick": "New Orleans Privateers",
+            "odds": 2.05,
+            "book": "Unibet (NL)",
+            "edge": 0.001,
+            "reason": "Only +0.10% edge. I need +1.5% before I move."
           }
         ]
       },
@@ -2247,7 +2251,7 @@
         "facts": [
           {
             "conf": "solid",
-            "n": 2320,
+            "n": 2392,
             "z": 0,
             "text": "BetOnline.ag is the softest bookmaker in College basketball (US).",
             "detail": "beats fair by 2%+ on 2% of its prices vs 1% across all bookmakers"
@@ -2261,7 +2265,7 @@
           },
           {
             "conf": "solid",
-            "n": 368,
+            "n": 378,
             "z": 0,
             "text": "Betfair is the softest bookmaker in NBA.",
             "detail": "beats fair by 2%+ on 6% of its prices vs 1% across all bookmakers"
@@ -2305,10 +2309,10 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.02,
+        "min_edge": 0.015,
         "odds": [
           1.6,
-          4.0
+          5.0
         ],
         "stop_below": 250
       },
@@ -2662,13 +2666,13 @@
         ]
       },
       "diary": {
-        "t": "2026-11-21T20:00:55Z",
-        "mood": "Blood in the water. Getting in before the market moves.",
+        "t": "2026-11-21T21:00:57Z",
+        "mood": "The market's sharp this week. Circling, not biting.",
         "mindset": "500 in the tank and Nauris says he's not worried about losing it. More bites, but only clean ones that beat the market. Only one of us gets the seat.",
-        "looked": 41,
-        "placed": 4,
-        "wild_choice": "Took a shot: South Carolina Gamecocks at 7.20.",
-        "scouts": 1,
+        "looked": 35,
+        "placed": 0,
+        "wild_choice": null,
+        "scouts": 0,
         "passed": [
           {
             "game": "Boise State Broncos vs San Diego State Aztecs",
@@ -2680,13 +2684,13 @@
             "reason": "+12.4% looks too good to be true. Worth a careful pounce to find out."
           },
           {
-            "game": "Chicago Bears vs New Orleans Saints",
-            "league": "NFL",
-            "pick": "New Orleans Saints",
-            "odds": 6.2,
-            "book": "Tipico",
-            "edge": 0.1024,
-            "reason": "+10.2% looks too good to be true. Worth a careful pounce to find out."
+            "game": "USC Trojans vs Maryland Terrapins",
+            "league": "College football (US)",
+            "pick": "Maryland Terrapins",
+            "odds": 8.8,
+            "book": "Matchbook",
+            "edge": 0.0928,
+            "reason": "Odds 8.80 are outside my game (1.6–5.0)."
           },
           {
             "game": "Louisiana Tech Bulldogs vs Arkansas State Red Wolves",
@@ -2698,13 +2702,13 @@
             "reason": "Odds 6.10 are outside my game (1.6–5.0)."
           },
           {
-            "game": "USC Trojans vs Maryland Terrapins",
+            "game": "Texas State Bobcats vs Washington State Cougars",
             "league": "College football (US)",
-            "pick": "Maryland Terrapins",
-            "odds": 8.6,
-            "book": "Matchbook",
-            "edge": 0.068,
-            "reason": "Odds 8.60 are outside my game (1.6–5.0)."
+            "pick": "Washington State Cougars",
+            "odds": 5.75,
+            "book": "Unibet (SE)",
+            "edge": 0.0422,
+            "reason": "Odds 5.75 are outside my game (1.6–5.0)."
           }
         ]
       },
@@ -2895,15 +2899,15 @@
           "bets": 2
         },
         {
-          "id": "precision",
-          "emoji": "🎯",
-          "title": "Precise",
-          "effect": "Always demands +0.5% more edge.",
-          "from": "Precision day",
-          "since": "2026-11-21T20:45:33Z",
-          "on": 0.032,
-          "off": 0.0241,
-          "bets": 2
+          "id": "underdog",
+          "emoji": "🐶",
+          "title": "Underdog lover",
+          "effect": "Allows underdogs at odds up to 1.0 higher.",
+          "from": "Underdog hunter",
+          "since": "2026-11-21T21:00:57Z",
+          "on": 0.0105,
+          "off": 0.0303,
+          "bets": 11
         }
       ],
       "mind": {
@@ -2986,17 +2990,17 @@
         "facts": [
           {
             "conf": "solid",
-            "n": 1784,
+            "n": 1820,
             "z": 0,
             "text": "Betfair is the softest bookmaker in College football (US).",
             "detail": "beats fair by 2%+ on 6% of its prices vs 1% across all bookmakers"
           },
           {
             "conf": "solid",
-            "n": 594,
+            "n": 618,
             "z": 0,
             "text": "Betfair is the softest bookmaker in NFL.",
-            "detail": "beats fair by 2%+ on 8% of its prices vs 1% across all bookmakers"
+            "detail": "beats fair by 2%+ on 8% of its prices vs 2% across all bookmakers"
           },
           {
             "conf": "solid",
@@ -5578,12 +5582,12 @@
       "fair_odds": 2.157,
       "edge": 0.0201,
       "stake": 4.02,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 1.941,
       "clv": 0.1333,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -4.02,
+      "score": "Defensa y Justicia 0 - 1 Barracas Central",
+      "settled_at": "2026-11-21T21:00:57Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates Defensa y Justicia at 46.4%. That makes the fair price 2.16.",
         "Unibet (SE) pays 2.20. That is +2.0% above fair. My bar is +2.0%.",
@@ -10639,18 +10643,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-21T18:15:44Z",
-      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-21T18:30:46Z",
-      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
-    },
-    {
-      "t": "2026-11-21T18:30:46Z",
-      "text": "🧮 The Quant levelled up: Cold streak → 🐣 Rookie. Normal stakes while it proves itself."
-    },
-    {
       "t": "2026-11-21T18:30:46Z",
       "text": "🏟️ 🧮 The Quant takes the lead in the Arena."
     },
@@ -10757,6 +10749,18 @@
     {
       "t": "2026-11-21T20:45:33Z",
       "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+0.2% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-21T21:00:57Z",
+      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-21T21:00:57Z",
+      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +1.0%. Allows underdogs at odds up to 1.0 higher."
+    },
+    {
+      "t": "2026-11-21T21:00:57Z",
+      "text": "Results:\n- Lost -4.02: Defensa y Justicia (Winner) in Defensa y Justicia vs Barracas Central (Defensa y Justicia 0 - 1 Barracas Central)"
     }
   ]
 }

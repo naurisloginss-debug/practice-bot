@@ -8394,18 +8394,6 @@
       85.0
     ]
   },
-  "def107e678c0f7ad48ff6a130c7ad026": {
-    "league": "basketball_ncaab",
-    "start": "2026-11-14T21:00:00Z",
-    "home": "Seattle Redhawks",
-    "away": "Idaho State Bengals",
-    "h2h": null,
-    "tot": {
-      "point": 144.5,
-      "over": 0.5052
-    },
-    "result": null
-  },
   "0c36ec4e319c96e1812150132adea725": {
     "league": "basketball_ncaab",
     "start": "2026-11-14T21:00:00Z",
@@ -15938,7 +15926,10 @@
       "point": 2.0,
       "over": 0.5182
     },
-    "result": null
+    "result": [
+      0.0,
+      1.0
+    ]
   },
   "6b2698cd0223a200eb12269b69c00a51": {
     "league": "soccer_argentina_primera_division",
@@ -20395,6 +20386,21 @@
     "tot": {
       "point": 2.5,
       "over": 0.4896
+    },
+    "result": null
+  },
+  "d2225a902743456bc09613327cb26bb5": {
+    "league": "basketball_ncaab",
+    "start": "2026-11-22T00:00:00Z",
+    "home": "Mercer Bears",
+    "away": "Charleston Southern Buccaneers",
+    "h2h": {
+      "away": 0.223,
+      "home": 0.777
+    },
+    "tot": {
+      "point": 162.5,
+      "over": 0.4895
     },
     "result": null
   }
