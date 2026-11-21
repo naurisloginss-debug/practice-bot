@@ -53,10 +53,6 @@
   "log": [
     {
       "t": "2026-11-21T00:00:58Z",
-      "text": "🎯 🦎 The Lizard's challenge today: 🗺️ New ground. Make a bet in the bet type I use least: spread."
-    },
-    {
-      "t": "2026-11-21T00:00:58Z",
       "text": "🎯 🧮 The Quant's challenge today: 📰 Read and react. Use something I read in a bet today."
     },
     {
@@ -170,6 +166,10 @@
     {
       "t": "2026-11-21T11:00:57Z",
       "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-21T11:15:41Z",
+      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
     }
   ],
   "levels": {
@@ -2695,6 +2695,12 @@
         "on": 0.0105,
         "off": 0.0188,
         "bets": 5
+      },
+      "precision": {
+        "since": "2026-11-21T11:15:41Z",
+        "on": 0.032,
+        "off": 0.022,
+        "bets": 2
       }
     }
   },
