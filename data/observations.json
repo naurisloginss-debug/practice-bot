@@ -8322,21 +8322,6 @@
       73.0
     ]
   },
-  "4c8ff36306cdb83dce7459d1013c32ad": {
-    "league": "basketball_ncaab",
-    "start": "2026-11-14T19:00:00Z",
-    "home": "Utah Utes",
-    "away": "Washington Huskies",
-    "h2h": {
-      "home": 0.593,
-      "away": 0.407
-    },
-    "tot": {
-      "point": 144.0,
-      "over": 0.4974
-    },
-    "result": null
-  },
   "eac5014e07a9672daa591aa30d48a936": {
     "league": "basketball_ncaab",
     "start": "2026-11-14T20:00:00Z",
@@ -18481,7 +18466,10 @@
       "point": 150.0,
       "over": 0.5066
     },
-    "result": null
+    "result": [
+      91.0,
+      70.0
+    ]
   },
   "32314571b0ef6ac30a06778a1d5c1cc1": {
     "league": "basketball_ncaab",
@@ -19238,7 +19226,10 @@
       "point": 130.5,
       "over": 0.5
     },
-    "result": null
+    "result": [
+      50.0,
+      47.0
+    ]
   },
   "fd01d6bd019da1ef030bd2214291558c": {
     "league": "basketball_ncaab",
@@ -20284,6 +20275,102 @@
     "tot": {
       "point": 65.5,
       "over": 0.5
+    },
+    "result": null
+  },
+  "9bd0adf3b04503ead04425bca117973f": {
+    "league": "soccer_italy_serie_b",
+    "start": "2026-11-24T18:00:00Z",
+    "home": "Juve Stabia",
+    "away": "US Catanzaro 1929",
+    "h2h": {
+      "home": 0.5066,
+      "away": 0.2236,
+      "draw": 0.2698
+    },
+    "tot": {
+      "point": 2.75,
+      "over": 0.5026
+    },
+    "result": null
+  },
+  "8a83b64c5a2da01e0be02f81c52c24c1": {
+    "league": "soccer_italy_serie_b",
+    "start": "2026-11-24T19:00:00Z",
+    "home": "Benevento",
+    "away": "Empoli",
+    "h2h": {
+      "home": 0.6041,
+      "away": 0.1685,
+      "draw": 0.2274
+    },
+    "tot": {
+      "point": 2.75,
+      "over": 0.4844
+    },
+    "result": null
+  },
+  "83a913029df6521a5822f1a77e619b78": {
+    "league": "soccer_italy_serie_b",
+    "start": "2026-11-24T19:00:00Z",
+    "home": "Palermo",
+    "away": "Südtirol",
+    "h2h": {
+      "home": 0.6552,
+      "away": 0.1431,
+      "draw": 0.2017
+    },
+    "tot": {
+      "point": 3.0,
+      "over": 0.4727
+    },
+    "result": null
+  },
+  "8cf80807dee1ee73aefb295b560dc78e": {
+    "league": "soccer_italy_serie_b",
+    "start": "2026-11-25T19:00:00Z",
+    "home": "Pisa",
+    "away": "Modena",
+    "h2h": {
+      "away": 0.3016,
+      "home": 0.3839,
+      "draw": 0.3145
+    },
+    "tot": {
+      "point": 2.5,
+      "over": 0.5039
+    },
+    "result": null
+  },
+  "9dfe9df3ad88c453e3572872bf500488": {
+    "league": "soccer_efl_champ",
+    "start": "2026-11-25T19:45:00Z",
+    "home": "Bolton Wanderers",
+    "away": "West Bromwich Albion",
+    "h2h": {
+      "home": 0.2639,
+      "away": 0.4787,
+      "draw": 0.2575
+    },
+    "tot": {
+      "point": 2.75,
+      "over": 0.5091
+    },
+    "result": null
+  },
+  "77dfddf6dea97d5ecb5e2463b29fe67e": {
+    "league": "soccer_efl_champ",
+    "start": "2026-11-25T20:00:00Z",
+    "home": "Stoke City",
+    "away": "Millwall",
+    "h2h": {
+      "away": 0.3143,
+      "home": 0.3997,
+      "draw": 0.286
+    },
+    "tot": {
+      "point": 2.5,
+      "over": 0.4896
     },
     "result": null
   }
