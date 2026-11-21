@@ -52,10 +52,6 @@
   },
   "log": [
     {
-      "t": "2026-11-21T08:00:54Z",
-      "text": "Results:\n- Lost -4.80: Iowa State Cyclones +2.5 (Spread) in UCF Knights vs Iowa State Cyclones (UCF Knights 48 - 17 Iowa State Cyclones)\n- Lost -7.61: Wyoming Cowboys (Winner) in Wyoming Cowboys vs New Mexico Lobos (Wyoming Cowboys 17 - 24 New Mexico Lobos)\n- Lost -2.48: Over 40.5 (Total) in Duke Blue Devils vs Clemson Tigers (Duke Blue Devils 10 - 20 Clemson Tigers)\n- Lost -1.24: Michigan State Spartans (Winner) in Michigan State Spartans vs Oregon Ducks (Michigan State Spartans 7 - 45 Oregon Ducks)\n- Lost -2.46: Nagoya Grampus (Winner) in Tokyo Verdy vs Nagoya Grampus (Tokyo Verdy 0 - 0 Nagoya Grampus)"
-    },
-    {
       "t": "2026-11-21T08:15:34Z",
       "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
     },
@@ -170,6 +166,10 @@
     {
       "t": "2026-11-21T14:00:56Z",
       "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
+    },
+    {
+      "t": "2026-11-21T14:15:34Z",
+      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
     }
   ],
   "levels": {
@@ -2702,12 +2702,6 @@
         "on": 0.0105,
         "off": 0.0188,
         "bets": 5
-      },
-      "precision": {
-        "since": "2026-11-21T14:00:56Z",
-        "on": 0.032,
-        "off": 0.022,
-        "bets": 2
       }
     }
   },
