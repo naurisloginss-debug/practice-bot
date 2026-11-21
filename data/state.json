@@ -1,6 +1,6 @@
 {
   "last_scan": "2026-11-21@8",
-  "credits_left": 18497,
+  "credits_left": 18495,
   "league_names": {
     "soccer_italy_serie_b": "Serie B (Italy 2)",
     "soccer_efl_champ": "Championship (England 2)",
@@ -51,10 +51,6 @@
     "soccer_mexico_ligamx": "2026-11-21T10:00:55Z"
   },
   "log": [
-    {
-      "t": "2026-11-21T10:00:55Z",
-      "text": "Results:\n- Won +10.19: Under 2.5 (Total) in Tijuana vs Atlante FC (Tijuana 1 - 0 Atlante FC)"
-    },
     {
       "t": "2026-11-21T10:15:34Z",
       "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
@@ -170,6 +166,10 @@
     {
       "t": "2026-11-21T15:30:47Z",
       "text": "Results:\n- Won +4.34: Queens Park Rangers (Winner) in Millwall vs Queens Park Rangers (Millwall 0 - 1 Queens Park Rangers)\n- Won +12.62: Bromley FC (Winner) in Reading vs Bromley FC (Reading 0 - 1 Bromley FC)"
+    },
+    {
+      "t": "2026-11-21T15:45:32Z",
+      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
     }
   ],
   "levels": {
@@ -2708,12 +2708,6 @@
         "on": 0.0105,
         "off": 0.0188,
         "bets": 5
-      },
-      "precision": {
-        "since": "2026-11-21T15:30:47Z",
-        "on": 0.032,
-        "off": 0.022,
-        "bets": 2
       }
     }
   },
