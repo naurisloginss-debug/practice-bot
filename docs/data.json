@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T22:45:32Z",
+  "updated": "2026-11-21T23:00:58Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -518,7 +518,7 @@
       "leader": "lizard"
     }
   },
-  "credits_left": 18258,
+  "credits_left": 18256,
   "last_scan": "2026-11-21@21",
   "strategies": {
     "lizard": {
@@ -563,7 +563,7 @@
         "Total"
       ],
       "start_fund": 500,
-      "fund": 499.57,
+      "fund": 497.17,
       "lessons": [
         {
           "kind": "avoid",
@@ -577,12 +577,12 @@
         }
       ],
       "bets": 79,
-      "open": 18,
+      "open": 17,
       "won": 18,
-      "lost": 43,
-      "staked": 141.76,
-      "profit": -0.43,
-      "roi": -0.003,
+      "lost": 44,
+      "staked": 144.16,
+      "profit": -2.83,
+      "roi": -0.0196,
       "avg_edge": 0.0317,
       "avg_clv": 0.003,
       "beat_close": 0.6462,
@@ -835,6 +835,10 @@
         {
           "t": "2026-11-21T22:30:50Z",
           "fund": 499.57
+        },
+        {
+          "t": "2026-11-21T23:00:58Z",
+          "fund": 497.17
         }
       ],
       "by_league": [
@@ -922,8 +926,8 @@
         {
           "name": "Serie B (Italy 2)",
           "bets": 7,
-          "profit": 1.97,
-          "roi": 0.5487,
+          "profit": -0.43,
+          "roi": -0.0718,
           "avg_clv": -0.0198,
           "beat_close": 0.6667,
           "clv_count": 3
@@ -969,8 +973,8 @@
         {
           "name": "Winner",
           "bets": 72,
-          "profit": -2.65,
-          "roi": -0.0213,
+          "profit": -5.05,
+          "roi": -0.0398,
           "avg_clv": 0.0019,
           "beat_close": 0.629,
           "clv_count": 62
@@ -989,8 +993,8 @@
         {
           "name": "Football",
           "bets": 79,
-          "profit": -0.43,
-          "roi": -0.003,
+          "profit": -2.83,
+          "roi": -0.0196,
           "avg_clv": 0.003,
           "beat_close": 0.6462,
           "clv_count": 65
@@ -1004,8 +1008,8 @@
         "trust": 0.45,
         "base": 0.45,
         "won": 4,
-        "lost": 1,
-        "profit": 9.49
+        "lost": 2,
+        "profit": 7.09
       },
       "wild": {
         "bets": 4,
@@ -1469,7 +1473,7 @@
         ],
         "rules": 0,
         "studied": 257,
-        "resolved": 178
+        "resolved": 180
       }
     },
     "quant": {
@@ -2367,10 +2371,10 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.02,
+        "min_edge": 0.015,
         "odds": [
           1.6,
-          4.0
+          5.0
         ],
         "stop_below": 250
       },
@@ -2957,15 +2961,15 @@
           "bets": 2
         },
         {
-          "id": "precision",
-          "emoji": "🎯",
-          "title": "Precise",
-          "effect": "Always demands +0.5% more edge.",
-          "from": "Precision day",
-          "since": "2026-11-21T22:45:32Z",
-          "on": 0.032,
-          "off": 0.0241,
-          "bets": 2
+          "id": "underdog",
+          "emoji": "🐶",
+          "title": "Underdog lover",
+          "effect": "Allows underdogs at odds up to 1.0 higher.",
+          "from": "Underdog hunter",
+          "since": "2026-11-21T23:00:58Z",
+          "on": 0.0105,
+          "off": 0.0303,
+          "bets": 11
         }
       ],
       "mind": {
@@ -6108,12 +6112,12 @@
       "fair_odds": 1.809,
       "edge": 0.0131,
       "stake": 2.4,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 1.989,
       "clv": -0.0786,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -2.4,
+      "score": "US Catanzaro 1929 3 - 1 Palermo",
+      "settled_at": "2026-11-21T23:00:58Z",
       "thoughts": [
         "Only +1.31% edge, just under my +2.0% bar. Can't prove it, but I like it.",
         "My rules say no. But something in the grass is moving. I'm taking a nibble.",
@@ -10701,18 +10705,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-21T20:00:55Z",
-      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-21T20:00:55Z",
-      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +0.5%. Allows underdogs at odds up to 1.0 higher."
-    },
-    {
-      "t": "2026-11-21T20:00:55Z",
-      "text": "Placed 9 practice bets:\n- The Lizard: **Hellas Verona** (Winner) in Virtus Entella vs Hellas Verona (Serie B (Italy 2)) at 2.43 on Unibet (NL), stake 5.25, edge +2.2%\n- The Lizard: **Draw** (Winner) in Pisa vs Modena (Serie B (Italy 2)) at 3.3 on Unibet (SE), stake 5.49, edge +3.8%\n- The Quant: **Los Angeles Clippers** (Winner) in Dallas Mavericks vs Los Angeles Clippers (NBA) at 2.8 on Unibet (SE), stake 2.40, edge +2.7%\n- The Quant: **Bradley Braves** (Winner) in Pacific Tigers vs Bradley Braves (College basketball (US)) at 4.5 on Unibet (SE), stake 1.93, edge +4.2%\n- The Shark: **Tennessee Titans** (Winner) in Dallas Cowboys vs Tennessee Titans (NFL) at 4.3 on Matchbook, stake 2.35, edge +2.6%\n- The Shark ⚡ pounce: **New Orleans Saints** (Winner) in Chicago Bears vs New Orleans Saints (NFL) at 6.2 on Tipico, stake 2.85, edge +10.2%\n- The Quant 🧭 scout: **New York Knicks** (Winner) in New York Knicks vs Portland Trail Blazers (NBA) at 1.71 on Matchbook, stake 2.25, edge +1.0%\n- The Shark 🧭 scout: **Washington Commanders** (Winner) in Washington Commanders vs Cincinnati Bengals (NFL) at 3.6 on Matchbook, stake 2.41, edge +0.8%\n- The Shark 🎲 wild: **South Carolina Gamecocks** (Winner) in South Carolina Gamecocks vs Georgia Bulldogs (College football (US)) at 7.2 on Betfair, stake 1.21, edge +1.9%"
-    },
-    {
       "t": "2026-11-21T20:15:33Z",
       "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
     },
@@ -10819,6 +10811,18 @@
     {
       "t": "2026-11-21T22:45:32Z",
       "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+0.2% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-21T23:00:58Z",
+      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-21T23:00:58Z",
+      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +1.0%. Allows underdogs at odds up to 1.0 higher."
+    },
+    {
+      "t": "2026-11-21T23:00:58Z",
+      "text": "Results:\n- Lost -2.40: Palermo (Winner) in US Catanzaro 1929 vs Palermo (US Catanzaro 1929 3 - 1 Palermo)"
     }
   ]
 }

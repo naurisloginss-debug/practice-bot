@@ -1,6 +1,6 @@
 {
   "last_scan": "2026-11-21@21",
-  "credits_left": 18258,
+  "credits_left": 18256,
   "league_names": {
     "soccer_italy_serie_b": "Serie B (Italy 2)",
     "soccer_efl_champ": "Championship (England 2)",
@@ -34,7 +34,7 @@
     "soccer_france_ligue_one": "2026-11-21T19:15:38Z",
     "soccer_spain_segunda_division": "2026-11-21T22:15:32Z",
     "americanfootball_nfl": "2026-11-20T04:15:38Z",
-    "soccer_italy_serie_b": "2026-11-21T17:00:58Z",
+    "soccer_italy_serie_b": "2026-11-21T23:00:58Z",
     "basketball_nba": "2026-11-21T21:15:34Z",
     "basketball_euroleague": "2026-11-21T02:45:32Z",
     "americanfootball_ncaaf": "2026-11-21T20:00:55Z",
@@ -52,18 +52,6 @@
     "americanfootball_ncaaf_fcs": "2026-11-21T20:15:33Z"
   },
   "log": [
-    {
-      "t": "2026-11-21T20:00:55Z",
-      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-21T20:00:55Z",
-      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +0.5%. Allows underdogs at odds up to 1.0 higher."
-    },
-    {
-      "t": "2026-11-21T20:00:55Z",
-      "text": "Placed 9 practice bets:\n- The Lizard: **Hellas Verona** (Winner) in Virtus Entella vs Hellas Verona (Serie B (Italy 2)) at 2.43 on Unibet (NL), stake 5.25, edge +2.2%\n- The Lizard: **Draw** (Winner) in Pisa vs Modena (Serie B (Italy 2)) at 3.3 on Unibet (SE), stake 5.49, edge +3.8%\n- The Quant: **Los Angeles Clippers** (Winner) in Dallas Mavericks vs Los Angeles Clippers (NBA) at 2.8 on Unibet (SE), stake 2.40, edge +2.7%\n- The Quant: **Bradley Braves** (Winner) in Pacific Tigers vs Bradley Braves (College basketball (US)) at 4.5 on Unibet (SE), stake 1.93, edge +4.2%\n- The Shark: **Tennessee Titans** (Winner) in Dallas Cowboys vs Tennessee Titans (NFL) at 4.3 on Matchbook, stake 2.35, edge +2.6%\n- The Shark ⚡ pounce: **New Orleans Saints** (Winner) in Chicago Bears vs New Orleans Saints (NFL) at 6.2 on Tipico, stake 2.85, edge +10.2%\n- The Quant 🧭 scout: **New York Knicks** (Winner) in New York Knicks vs Portland Trail Blazers (NBA) at 1.71 on Matchbook, stake 2.25, edge +1.0%\n- The Shark 🧭 scout: **Washington Commanders** (Winner) in Washington Commanders vs Cincinnati Bengals (NFL) at 3.6 on Matchbook, stake 2.41, edge +0.8%\n- The Shark 🎲 wild: **South Carolina Gamecocks** (Winner) in South Carolina Gamecocks vs Georgia Bulldogs (College football (US)) at 7.2 on Betfair, stake 1.21, edge +1.9%"
-    },
     {
       "t": "2026-11-21T20:15:33Z",
       "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
@@ -171,6 +159,18 @@
     {
       "t": "2026-11-21T22:45:32Z",
       "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+0.2% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-21T23:00:58Z",
+      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-21T23:00:58Z",
+      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +1.0%. Allows underdogs at odds up to 1.0 higher."
+    },
+    {
+      "t": "2026-11-21T23:00:58Z",
+      "text": "Results:\n- Lost -2.40: Palermo (Winner) in US Catanzaro 1929 vs Palermo (US Catanzaro 1929 3 - 1 Palermo)"
     }
   ],
   "levels": {
@@ -2736,11 +2736,11 @@
         "off": 0.017,
         "bets": 2
       },
-      "precision": {
-        "since": "2026-11-21T22:45:32Z",
-        "on": 0.032,
-        "off": 0.0241,
-        "bets": 2
+      "underdog": {
+        "since": "2026-11-21T23:00:58Z",
+        "on": 0.0105,
+        "off": 0.0303,
+        "bets": 11
       }
     }
   },
