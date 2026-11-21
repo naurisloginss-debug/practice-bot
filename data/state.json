@@ -1,6 +1,6 @@
 {
   "last_scan": "2026-11-21@16",
-  "credits_left": 18426,
+  "credits_left": 18424,
   "league_names": {
     "soccer_italy_serie_b": "Serie B (Italy 2)",
     "soccer_efl_champ": "Championship (England 2)",
@@ -51,18 +51,6 @@
     "soccer_mexico_ligamx": "2026-11-21T10:00:55Z"
   },
   "log": [
-    {
-      "t": "2026-11-21T14:15:34Z",
-      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-21T14:30:48Z",
-      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
-    },
-    {
-      "t": "2026-11-21T14:30:48Z",
-      "text": "🦎 The Lizard levelled up: Rookie → 🎓 Apprentice. Has a track record. Starts learning which bets work."
-    },
     {
       "t": "2026-11-21T14:30:48Z",
       "text": "🏁 🦎 The Lizard now leads the race to go live (13 days to selection)."
@@ -170,11 +158,23 @@
     {
       "t": "2026-11-21T18:15:44Z",
       "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-21T18:30:46Z",
+      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
+    },
+    {
+      "t": "2026-11-21T18:30:46Z",
+      "text": "🧮 The Quant levelled up: Cold streak → 🐣 Rookie. Normal stakes while it proves itself."
+    },
+    {
+      "t": "2026-11-21T18:30:46Z",
+      "text": "🏟️ 🧮 The Quant takes the lead in the Arena."
     }
   ],
   "levels": {
     "lizard": "Apprentice",
-    "quant": "Cold streak",
+    "quant": "Rookie",
     "shark": "Apprentice"
   },
   "achievements": {
@@ -269,7 +269,7 @@
   ],
   "trophy_week": "2026-11-16",
   "trophy_month": "2026-11",
-  "leader": "shark",
+  "leader": "quant",
   "iq_history": {
     "lizard": [
       {
@@ -416,7 +416,7 @@
       },
       {
         "d": "2026-11-21",
-        "iq": 127
+        "iq": 128
       }
     ],
     "shark": [
@@ -2721,6 +2721,12 @@
         "since": "2026-11-21T17:45:33Z",
         "on": 0.0888,
         "off": 0.017,
+        "bets": 2
+      },
+      "precision": {
+        "since": "2026-11-21T18:30:46Z",
+        "on": 0.032,
+        "off": 0.0258,
         "bets": 2
       }
     }
