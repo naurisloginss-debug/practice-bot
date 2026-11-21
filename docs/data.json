@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T12:45:31Z",
+  "updated": "2026-11-21T13:00:56Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -494,8 +494,8 @@
           "cautious": 0.0009,
           "beat": 0.6154,
           "challenges": 0.75,
-          "traits": 1,
-          "score": 8.93
+          "traits": 2,
+          "score": 10.93
         },
         {
           "who": "lizard",
@@ -518,7 +518,7 @@
       "leader": "quant"
     }
   },
-  "credits_left": 18512,
+  "credits_left": 18510,
   "last_scan": "2026-11-21@8",
   "strategies": {
     "lizard": {
@@ -1385,7 +1385,7 @@
         ],
         "rules": 0,
         "studied": 226,
-        "resolved": 122
+        "resolved": 124
       }
     },
     "quant": {
@@ -2258,7 +2258,7 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.015,
+        "min_edge": 0.02,
         "odds": [
           1.6,
           4.0
@@ -2823,6 +2823,17 @@
           "on": 0.0105,
           "off": 0.0188,
           "bets": 5
+        },
+        {
+          "id": "precision",
+          "emoji": "🎯",
+          "title": "Precise",
+          "effect": "Always demands +0.5% more edge.",
+          "from": "Precision day",
+          "since": "2026-11-21T13:00:56Z",
+          "on": 0.032,
+          "off": 0.022,
+          "bets": 2
         }
       ],
       "mind": {
@@ -10540,10 +10551,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-21T07:21:41Z",
-      "text": "🧬 🦈 The Shark made New ground part of its character: 🗺️ Versatile. It completed the challenge on 2026-11-13 and its bets beat the market by +2.9%. Keeps trying every bet type (+1 scout bet a day)."
-    },
-    {
       "t": "2026-11-21T07:30:47Z",
       "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
     },
@@ -10658,6 +10665,10 @@
     {
       "t": "2026-11-21T12:45:31Z",
       "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-21T13:00:56Z",
+      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
     }
   ]
 }
