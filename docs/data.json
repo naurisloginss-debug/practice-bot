@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T16:45:33Z",
+  "updated": "2026-11-21T17:00:58Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -29,8 +29,8 @@
     ],
     "chars": {
       "lizard": {
-        "iq": 116,
-        "iq_gain": 10,
+        "iq": 117,
+        "iq_gain": 11,
         "streak": 1,
         "best_streak": 8,
         "achievements": [
@@ -152,7 +152,7 @@
             "pending": false
           }
         ],
-        "score": 162,
+        "score": 163,
         "trophies": [
           {
             "kind": "sharpshooter",
@@ -332,7 +332,7 @@
       "shark": {
         "iq": 120,
         "iq_gain": 3,
-        "streak": 1,
+        "streak": 0,
         "best_streak": 4,
         "achievements": [
           {
@@ -443,12 +443,12 @@
           {
             "text": "Bets checked against the market",
             "target": 30,
-            "now": 16
+            "now": 17
           },
           {
             "text": "Beat the market on",
             "target": 61,
-            "now": 44,
+            "now": 41,
             "unit": "%",
             "pending": false
           }
@@ -506,8 +506,8 @@
           "cautious": 0.0085,
           "beat": 0.7222,
           "challenges": 0.778,
-          "traits": 1,
-          "score": 18.88
+          "traits": 2,
+          "score": 20.88
         }
       ],
       "ranking": [
@@ -518,7 +518,7 @@
       "leader": "lizard"
     }
   },
-  "credits_left": 18432,
+  "credits_left": 18429,
   "last_scan": "2026-11-21@16",
   "strategies": {
     "lizard": {
@@ -563,7 +563,7 @@
         "Total"
       ],
       "start_fund": 500,
-      "fund": 513.95,
+      "fund": 517.07,
       "lessons": [
         {
           "kind": "avoid",
@@ -572,12 +572,12 @@
         }
       ],
       "bets": 77,
-      "open": 30,
-      "won": 15,
+      "open": 29,
+      "won": 16,
       "lost": 32,
-      "staked": 100.42,
-      "profit": 13.95,
-      "roi": 0.1389,
+      "staked": 102.86,
+      "profit": 17.07,
+      "roi": 0.166,
       "avg_edge": 0.0318,
       "avg_clv": -0.0001,
       "beat_close": 0.6207,
@@ -774,6 +774,10 @@
         {
           "t": "2026-11-21T15:30:47Z",
           "fund": 513.95
+        },
+        {
+          "t": "2026-11-21T17:00:58Z",
+          "fund": 517.07
         }
       ],
       "by_league": [
@@ -852,8 +856,8 @@
         {
           "name": "Serie B (Italy 2)",
           "bets": 5,
-          "profit": -1.15,
-          "roi": -1.0,
+          "profit": 1.97,
+          "roi": 0.5487,
           "avg_clv": -0.0198,
           "beat_close": 0.6667,
           "clv_count": 3
@@ -908,8 +912,8 @@
         {
           "name": "Winner",
           "bets": 70,
-          "profit": 11.73,
-          "roi": 0.1409,
+          "profit": 14.85,
+          "roi": 0.1733,
           "avg_clv": -0.0015,
           "beat_close": 0.6,
           "clv_count": 55
@@ -928,8 +932,8 @@
         {
           "name": "Football",
           "bets": 77,
-          "profit": 13.95,
-          "roi": 0.1389,
+          "profit": 17.07,
+          "roi": 0.166,
           "avg_clv": -0.0001,
           "beat_close": 0.6207,
           "clv_count": 58
@@ -942,9 +946,9 @@
         "beat": 0.3333,
         "trust": 0.45,
         "base": 0.45,
-        "won": 3,
+        "won": 4,
         "lost": 1,
-        "profit": 6.37
+        "profit": 9.49
       },
       "wild": {
         "bets": 4,
@@ -1244,8 +1248,8 @@
         }
       ],
       "mind": {
-        "iq": 116,
-        "iq_week": 14,
+        "iq": 117,
+        "iq_week": 15,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -1317,7 +1321,7 @@
           },
           {
             "d": "2026-11-21",
-            "iq": 116
+            "iq": 117
           }
         ],
         "facts": [
@@ -1408,7 +1412,7 @@
         ],
         "rules": 0,
         "studied": 251,
-        "resolved": 137
+        "resolved": 142
       }
     },
     "quant": {
@@ -2281,7 +2285,7 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.015,
+        "min_edge": 0.02,
         "odds": [
           1.6,
           4.0
@@ -2320,9 +2324,9 @@
       "profit": -17.14,
       "roi": -0.2317,
       "avg_edge": 0.0277,
-      "avg_clv": 0.0037,
-      "beat_close": 0.5333,
-      "clv_count": 45,
+      "avg_clv": 0.0029,
+      "beat_close": 0.5217,
+      "clv_count": 46,
       "history": [
         {
           "t": "2026-11-07T16:00:52Z",
@@ -2517,9 +2521,9 @@
           "bets": 58,
           "profit": -17.86,
           "roi": -0.4146,
-          "avg_clv": -0.0012,
-          "beat_close": 0.5333,
-          "clv_count": 30
+          "avg_clv": -0.0022,
+          "beat_close": 0.5161,
+          "clv_count": 31
         }
       ],
       "by_market": [
@@ -2537,9 +2541,9 @@
           "bets": 64,
           "profit": 0.19,
           "roi": 0.0041,
-          "avg_clv": 0.0016,
-          "beat_close": 0.5278,
-          "clv_count": 36
+          "avg_clv": 0.0006,
+          "beat_close": 0.5135,
+          "clv_count": 37
         },
         {
           "name": "Total",
@@ -2557,16 +2561,16 @@
           "bets": 84,
           "profit": -17.14,
           "roi": -0.2317,
-          "avg_clv": 0.0037,
-          "beat_close": 0.5333,
-          "clv_count": 45
+          "avg_clv": 0.0029,
+          "beat_close": 0.5217,
+          "clv_count": 46
         }
       ],
       "gut": {
         "bets": 13,
-        "measured": 2,
-        "avg_clv": 0.0402,
-        "beat": 0.5,
+        "measured": 3,
+        "avg_clv": 0.0156,
+        "beat": 0.3333,
         "trust": 0.55,
         "base": 0.55,
         "won": 1,
@@ -2858,6 +2862,17 @@
           "on": 0.0105,
           "off": 0.0165,
           "bets": 5
+        },
+        {
+          "id": "precision",
+          "emoji": "🎯",
+          "title": "Precise",
+          "effect": "Always demands +0.5% more edge.",
+          "from": "Precision day",
+          "since": "2026-11-21T17:00:58Z",
+          "on": 0.032,
+          "off": 0.0182,
+          "bets": 2
         }
       ],
       "mind": {
@@ -5261,8 +5276,8 @@
       "edge": 0.0153,
       "stake": 2.41,
       "status": "open",
-      "closing_fair_odds": null,
-      "clv": null,
+      "closing_fair_odds": 2.08,
+      "clv": -0.0336,
       "profit": 0.0,
       "score": null,
       "settled_at": null,
@@ -6100,12 +6115,12 @@
       "fair_odds": 2.278,
       "edge": 0.0008,
       "stake": 2.44,
-      "status": "open",
+      "status": "won",
       "closing_fair_odds": 2.278,
       "clv": 0.0009,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": 3.12,
+      "score": "Carrarese 1 - 0 Virtus Entella",
+      "settled_at": "2026-11-21T17:00:58Z",
       "thoughts": [
         "The sharp money is moving to Carrarese: its chance went from 40% to 44% since I first looked.",
         "My rules say no. But something in the grass is moving. I'm taking a nibble.",
@@ -10584,14 +10599,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-21T12:15:32Z",
-      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
-    },
-    {
-      "t": "2026-11-21T12:22:28Z",
-      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
-    },
-    {
       "t": "2026-11-21T12:30:46Z",
       "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
     },
@@ -10702,6 +10709,14 @@
     {
       "t": "2026-11-21T16:45:33Z",
       "text": "✅ 🦈 The Shark completed 🐶 Underdog hunter: 1 bet beat the market."
+    },
+    {
+      "t": "2026-11-21T17:00:58Z",
+      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
+    },
+    {
+      "t": "2026-11-21T17:00:58Z",
+      "text": "Results:\n- Won +3.12: Carrarese (Winner) in Carrarese vs Virtus Entella (Carrarese 1 - 0 Virtus Entella)"
     }
   ]
 }
