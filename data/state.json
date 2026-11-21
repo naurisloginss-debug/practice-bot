@@ -52,10 +52,6 @@
   },
   "log": [
     {
-      "t": "2026-11-20T23:30:52Z",
-      "text": "🏁 🧮 The Quant now leads the race to go live (14 days to selection)."
-    },
-    {
       "t": "2026-11-21T00:00:58Z",
       "text": "🎯 🦎 The Lizard's challenge today: 🗺️ New ground. Make a bet in the bet type I use least: spread."
     },
@@ -170,6 +166,10 @@
     {
       "t": "2026-11-21T10:45:39Z",
       "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
+    },
+    {
+      "t": "2026-11-21T11:00:57Z",
+      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
     }
   ],
   "levels": {
@@ -2695,12 +2695,6 @@
         "on": 0.0105,
         "off": 0.0188,
         "bets": 5
-      },
-      "precision": {
-        "since": "2026-11-21T10:45:39Z",
-        "on": 0.032,
-        "off": 0.022,
-        "bets": 2
       }
     }
   },
