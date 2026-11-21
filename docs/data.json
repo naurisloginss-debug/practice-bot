@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T01:15:41Z",
+  "updated": "2026-11-21T01:30:46Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -330,8 +330,8 @@
         ]
       },
       "shark": {
-        "iq": 116,
-        "iq_gain": -1,
+        "iq": 115,
+        "iq_gain": -2,
         "streak": 0,
         "best_streak": 4,
         "achievements": [
@@ -443,17 +443,17 @@
           {
             "text": "Bets checked against the market",
             "target": 30,
-            "now": 6
+            "now": 7
           },
           {
             "text": "Beat the market on",
             "target": 61,
-            "now": 33,
+            "now": 29,
             "unit": "%",
             "pending": false
           }
         ],
-        "score": 169,
+        "score": 168,
         "trophies": [
           {
             "kind": "sharpshooter",
@@ -488,14 +488,14 @@
         {
           "who": "shark",
           "eligible": false,
-          "measured": 12,
-          "need": 18,
-          "clv": 0.0298,
-          "cautious": 0.012,
-          "beat": 0.6667,
+          "measured": 13,
+          "need": 17,
+          "clv": 0.0199,
+          "cautious": 0.0009,
+          "beat": 0.6154,
           "challenges": 0.75,
           "traits": 0,
-          "score": 19.08
+          "score": 6.93
         },
         {
           "who": "lizard",
@@ -518,7 +518,7 @@
       "leader": "quant"
     }
   },
-  "credits_left": 18598,
+  "credits_left": 18597,
   "last_scan": "2026-11-20@16",
   "strategies": {
     "lizard": {
@@ -2178,9 +2178,9 @@
       "profit": -1.01,
       "roi": -0.0175,
       "avg_edge": 0.0264,
-      "avg_clv": 0.0072,
-      "beat_close": 0.5429,
-      "clv_count": 35,
+      "avg_clv": 0.0043,
+      "beat_close": 0.5278,
+      "clv_count": 36,
       "history": [
         {
           "t": "2026-11-07T16:00:52Z",
@@ -2359,9 +2359,9 @@
           "bets": 56,
           "profit": -1.73,
           "roi": -0.0642,
-          "avg_clv": 0.0026,
-          "beat_close": 0.55,
-          "clv_count": 20
+          "avg_clv": -0.0022,
+          "beat_close": 0.5238,
+          "clv_count": 21
         }
       ],
       "by_market": [
@@ -2388,9 +2388,9 @@
           "bets": 61,
           "profit": 9.04,
           "roi": 0.2431,
-          "avg_clv": 0.0042,
-          "beat_close": 0.5185,
-          "clv_count": 27
+          "avg_clv": 0.0005,
+          "beat_close": 0.5,
+          "clv_count": 28
         }
       ],
       "by_sport": [
@@ -2399,9 +2399,9 @@
           "bets": 80,
           "profit": -1.01,
           "roi": -0.0175,
-          "avg_clv": 0.0072,
-          "beat_close": 0.5429,
-          "clv_count": 35
+          "avg_clv": 0.0043,
+          "beat_close": 0.5278,
+          "clv_count": 36
         }
       ],
       "gut": {
@@ -2524,9 +2524,9 @@
         "badge": "🐣",
         "stake": 1.0,
         "perk": "Normal stakes while it proves itself.",
-        "measured": 12,
-        "clv": 0.0298,
-        "beat": 0.6667,
+        "measured": 13,
+        "clv": 0.0199,
+        "beat": 0.6154,
         "cold": false,
         "next": {
           "title": "Apprentice",
@@ -2536,20 +2536,20 @@
             {
               "text": "15 measured bets",
               "done": false,
-              "now": "12"
+              "now": "13"
             },
             {
               "text": "beat the market on 50%+",
               "done": true,
-              "now": "67%"
+              "now": "62%"
             },
             {
               "text": "average price +0.0%+ vs market",
               "done": true,
-              "now": "+3.0%"
+              "now": "+2.0%"
             }
           ],
-          "progress": 0.8
+          "progress": 0.867
         }
       },
       "explorer": {
@@ -2682,8 +2682,8 @@
       },
       "traits": [],
       "mind": {
-        "iq": 116,
-        "iq_week": 15,
+        "iq": 115,
+        "iq_week": 14,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -2755,7 +2755,7 @@
           },
           {
             "d": "2026-11-21",
-            "iq": 116
+            "iq": 115
           }
         ],
         "facts": [
@@ -2782,10 +2782,10 @@
           },
           {
             "conf": "watching",
-            "n": 25,
+            "n": 26,
             "z": 0,
-            "text": "When I find value, the market moves my way before kick-off 64% of the time.",
-            "detail": "25 bets measured"
+            "text": "When I find value, the market moves my way before kick-off 62% of the time.",
+            "detail": "26 bets measured"
           }
         ],
         "rules": 0,
@@ -4859,8 +4859,8 @@
       "edge": 0.072,
       "stake": 7.61,
       "status": "open",
-      "closing_fair_odds": null,
-      "clv": null,
+      "closing_fair_odds": 4.213,
+      "clv": -0.0979,
       "profit": 0.0,
       "score": null,
       "settled_at": null,
