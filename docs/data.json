@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T08:15:34Z",
+  "updated": "2026-11-21T08:30:46Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -494,8 +494,8 @@
           "cautious": 0.0009,
           "beat": 0.6154,
           "challenges": 0.75,
-          "traits": 2,
-          "score": 10.93
+          "traits": 1,
+          "score": 8.93
         },
         {
           "who": "lizard",
@@ -2242,7 +2242,7 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.02,
+        "min_edge": 0.015,
         "odds": [
           1.6,
           4.0
@@ -2807,17 +2807,6 @@
           "on": 0.0105,
           "off": 0.0188,
           "bets": 5
-        },
-        {
-          "id": "precision",
-          "emoji": "🎯",
-          "title": "Precise",
-          "effect": "Always demands +0.5% more edge.",
-          "from": "Precision day",
-          "since": "2026-11-21T08:15:34Z",
-          "on": 0.032,
-          "off": 0.022,
-          "bets": 2
         }
       ],
       "mind": {
@@ -10535,10 +10524,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-20T03:30:45Z",
-      "text": "Results:\n- Won +8.17: FC Cincinnati (Winner) in Orlando City SC vs FC Cincinnati (Orlando City SC 1 - 3 FC Cincinnati)"
-    },
-    {
       "t": "2026-11-20T04:45:32Z",
       "text": "Results:\n- Won +2.21: Texas A&M Aggies (Winner) in TCU Horned Frogs vs Texas A&M Aggies (TCU Horned Frogs 92 - 97 Texas A&M Aggies)"
     },
@@ -10653,6 +10638,10 @@
     {
       "t": "2026-11-21T08:15:34Z",
       "text": "Results:\n- Lost -5.17: East Carolina Pirates (Winner) in Utah Valley Wolverines vs East Carolina Pirates (Utah Valley Wolverines 90 - 79 East Carolina Pirates)\n- Lost -2.31: Kentucky Wildcats (Winner) in Indiana Hoosiers vs Kentucky Wildcats (Indiana Hoosiers 90 - 76 Kentucky Wildcats)\n- Won +9.65: Murray St Racers (Winner) in Wisconsin Badgers vs Murray St Racers (Wisconsin Badgers 53 - 70 Murray St Racers)\n- Won +4.66: Alabama A&M Bulldogs (Winner) in Alabama A&M Bulldogs vs Lipscomb Bisons (Alabama A&M Bulldogs 85 - 69 Lipscomb Bisons)\n- Lost -2.31: UMKC Kangaroos (Winner) in Iona Gaels vs UMKC Kangaroos (Iona Gaels 62 - 61 UMKC Kangaroos)"
+    },
+    {
+      "t": "2026-11-21T08:30:46Z",
+      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
     }
   ]
 }
