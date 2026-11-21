@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T03:00:57Z",
+  "updated": "2026-11-21T03:15:32Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -518,7 +518,7 @@
       "leader": "quant"
     }
   },
-  "credits_left": 18586,
+  "credits_left": 18584,
   "last_scan": "2026-11-20@16",
   "strategies": {
     "lizard": {
@@ -1391,15 +1391,15 @@
         "Winner"
       ],
       "start_fund": 500,
-      "fund": 451.67,
+      "fund": 445.97,
       "lessons": [],
       "bets": 76,
-      "open": 6,
+      "open": 5,
       "won": 27,
-      "lost": 43,
-      "staked": 543.31,
-      "profit": -48.33,
-      "roi": -0.089,
+      "lost": 44,
+      "staked": 549.01,
+      "profit": -54.03,
+      "roi": -0.0984,
       "avg_edge": 0.0343,
       "avg_clv": 0.0029,
       "beat_close": 0.4655,
@@ -1688,14 +1688,18 @@
         {
           "t": "2026-11-21T02:45:32Z",
           "fund": 451.67
+        },
+        {
+          "t": "2026-11-21T03:15:32Z",
+          "fund": 445.97
         }
       ],
       "by_league": [
         {
           "name": "NBA",
           "bets": 18,
-          "profit": -12.93,
-          "roi": -0.3821,
+          "profit": -18.63,
+          "roi": -0.4712,
           "avg_clv": 0.018,
           "beat_close": 0.6111,
           "clv_count": 18
@@ -1732,8 +1736,8 @@
         {
           "name": "Winner",
           "bets": 45,
-          "profit": -41.99,
-          "roi": -0.46,
+          "profit": -47.69,
+          "roi": -0.4918,
           "avg_clv": 0.0086,
           "beat_close": 0.5111,
           "clv_count": 45
@@ -1752,8 +1756,8 @@
         {
           "name": "Basketball",
           "bets": 76,
-          "profit": -48.33,
-          "roi": -0.089,
+          "profit": -54.03,
+          "roi": -0.0984,
           "avg_clv": 0.0029,
           "beat_close": 0.4655,
           "clv_count": 58
@@ -2136,10 +2140,10 @@
           },
           {
             "conf": "solid",
-            "n": 103,
+            "n": 106,
             "z": 0,
             "text": "The market prices overs in NBA accurately.",
-            "detail": "53% happened, 50% priced, 103 games"
+            "detail": "53% happened, 50% priced, 106 games"
           },
           {
             "conf": "solid",
@@ -2151,7 +2155,7 @@
         ],
         "rules": 0,
         "studied": 635,
-        "resolved": 602
+        "resolved": 606
       }
     },
     "shark": {
@@ -5103,12 +5107,12 @@
       "fair_odds": 3.097,
       "edge": 0.0461,
       "stake": 5.7,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 3.381,
       "clv": -0.0418,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -5.7,
+      "score": "Atlanta Hawks 111 - 97 Charlotte Hornets",
+      "settled_at": "2026-11-21T03:15:32Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates Charlotte Hornets at 32.3%. That makes the fair price 3.10.",
         "Marathon Bet pays 3.24. That is +4.6% above fair. My bar is +1.5%.",
@@ -10410,10 +10414,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-19T07:30:46Z",
-      "text": "Results:\n- Lost -2.39: Grêmio (Winner) in Grêmio vs Bahia (Grêmio 0 - 0 Bahia)"
-    },
-    {
       "t": "2026-11-19T08:00:56Z",
       "text": "Placed 13 practice bets:\n- The Lizard: **Draw** (Winner) in Lincoln City vs Wrexham AFC (Championship (England 2)) at 3.45 on LeoVegas (SE), stake 2.62, edge +2.7%\n- The Lizard: **Draw** (Winner) in Palmeiras vs Flamengo (Brasileirão (Brazil)) at 3.35 on Unibet (SE), stake 5.20, edge +5.1%\n- The Lizard 🧭 scout: **Oldham Athletic** (Winner) in Oldham Athletic vs Exeter City (League Two (England 4)) at 2.1 on Matchbook, stake 2.40, edge +0.5%\n- The Lizard 🧭 scout: **Strasbourg** (Winner) in Strasbourg vs Brest (Ligue 1 (France)) at 2.35 on LeoVegas (SE), stake 2.40, edge +1.0%\n- The Quant 🧭 scout: **Maccabi Tel Aviv** (Winner) in Maccabi Tel Aviv vs Dubai Basketball (EuroLeague) at 2.41 on Marathon Bet, stake 2.33, edge +0.7%\n- The Quant 🧭 scout: **Texas A&M Aggies** (Winner) in TCU Horned Frogs vs Texas A&M Aggies (College basketball (US)) at 1.95 on GTbets, stake 2.33, edge +0.5%\n- The Shark 🧭 scout: **Under 38.5** (Total) in Philadelphia Eagles vs Pittsburgh Steelers (NFL) at 1.92 on Unibet (NL), stake 2.47, edge +1.4%\n- The Shark 🧭 scout: **California Golden Bears +2.5** (Spread) in California Golden Bears vs Stanford Cardinal (College football (US)) at 2.0 on BetAnything, stake 2.47, edge +0.8%\n- The Shark 🧭 scout: **Cincinnati Bearcats** (Winner) in Cincinnati Bearcats vs Colorado Buffaloes (College football (US)) at 1.67 on BetAnything, stake 2.47, edge +0.6%\n- The Shark 💭 gut: **New York Giants** (Winner) in New York Giants vs Jacksonville Jaguars (NFL) at 3.35 on Unibet (SE), stake 2.47, edge +-0.1%\n- The Lizard 🎲 wild: **Preston North End** (Winner) in West Ham United vs Preston North End (Championship (England 2)) at 14.0 on LeoVegas (SE), stake 1.20, edge +12.8%\n- The Lizard 🎲 wild: **Charlton Athletic** (Winner) in Wolverhampton Wanderers vs Charlton Athletic (Championship (England 2)) at 10.5 on Matchbook, stake 1.20, edge +11.3%\n- The Shark 🎲 wild: **Charlotte 49ers** (Winner) in Tulsa Golden Hurricane vs Charlotte 49ers (College football (US)) at 14.5 on Betfair, stake 1.23, edge +12.9%"
     },
@@ -10528,6 +10528,10 @@
     {
       "t": "2026-11-21T02:45:32Z",
       "text": "Results:\n- Lost -2.31: FC Barcelona Bàsquet (Winner) in FC Barcelona Bàsquet vs KK Crvena zvezda (FC Barcelona Bàsquet 100 - 103 KK Crvena zvezda)\n- Lost -2.31: Beşiktaş J.K. (Winner) in KK Partizan NIS vs Beşiktaş J.K. (KK Partizan NIS 91 - 87 Beşiktaş J.K.)\n- Lost -2.31: Real Madrid (Winner) in Olympiacos vs Real Madrid (Olympiacos 92 - 76 Real Madrid)"
+    },
+    {
+      "t": "2026-11-21T03:15:32Z",
+      "text": "Results:\n- Lost -5.70: Charlotte Hornets (Winner) in Atlanta Hawks vs Charlotte Hornets (Atlanta Hawks 111 - 97 Charlotte Hornets)"
     }
   ]
 }
