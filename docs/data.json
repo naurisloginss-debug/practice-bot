@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T17:00:58Z",
+  "updated": "2026-11-21T17:15:34Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -506,8 +506,8 @@
           "cautious": 0.0085,
           "beat": 0.7222,
           "challenges": 0.778,
-          "traits": 2,
-          "score": 20.88
+          "traits": 1,
+          "score": 18.88
         }
       ],
       "ranking": [
@@ -2285,7 +2285,7 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.02,
+        "min_edge": 0.015,
         "odds": [
           1.6,
           4.0
@@ -2862,17 +2862,6 @@
           "on": 0.0105,
           "off": 0.0165,
           "bets": 5
-        },
-        {
-          "id": "precision",
-          "emoji": "🎯",
-          "title": "Precise",
-          "effect": "Always demands +0.5% more edge.",
-          "from": "Precision day",
-          "since": "2026-11-21T17:00:58Z",
-          "on": 0.032,
-          "off": 0.0182,
-          "bets": 2
         }
       ],
       "mind": {
@@ -10599,10 +10588,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-21T12:30:46Z",
-      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
-    },
-    {
       "t": "2026-11-21T12:45:31Z",
       "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
     },
@@ -10717,6 +10702,10 @@
     {
       "t": "2026-11-21T17:00:58Z",
       "text": "Results:\n- Won +3.12: Carrarese (Winner) in Carrarese vs Virtus Entella (Carrarese 1 - 0 Virtus Entella)"
+    },
+    {
+      "t": "2026-11-21T17:15:34Z",
+      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
     }
   ]
 }

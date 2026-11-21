@@ -52,10 +52,6 @@
   },
   "log": [
     {
-      "t": "2026-11-21T12:30:46Z",
-      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
-    },
-    {
       "t": "2026-11-21T12:45:31Z",
       "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
     },
@@ -170,6 +166,10 @@
     {
       "t": "2026-11-21T17:00:58Z",
       "text": "Results:\n- Won +3.12: Carrarese (Winner) in Carrarese vs Virtus Entella (Carrarese 1 - 0 Virtus Entella)"
+    },
+    {
+      "t": "2026-11-21T17:15:34Z",
+      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
     }
   ],
   "levels": {
@@ -2716,12 +2716,6 @@
         "on": 0.0105,
         "off": 0.0165,
         "bets": 5
-      },
-      "precision": {
-        "since": "2026-11-21T17:00:58Z",
-        "on": 0.032,
-        "off": 0.0182,
-        "bets": 2
       }
     }
   },
