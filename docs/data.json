@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T08:00:54Z",
+  "updated": "2026-11-21T08:15:34Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -184,8 +184,8 @@
         ]
       },
       "quant": {
-        "iq": 126,
-        "iq_gain": 7,
+        "iq": 127,
+        "iq_gain": 8,
         "streak": 0,
         "best_streak": 4,
         "achievements": [
@@ -307,7 +307,7 @@
             "pending": false
           }
         ],
-        "score": 183,
+        "score": 187,
         "trophies": [
           {
             "kind": "grower",
@@ -481,9 +481,9 @@
           "clv": -0.0038,
           "cautious": -0.0133,
           "beat": 0.4545,
-          "challenges": 0.5,
+          "challenges": 0.556,
           "traits": 2,
-          "score": -7.73
+          "score": -7.46
         },
         {
           "who": "shark",
@@ -494,8 +494,8 @@
           "cautious": 0.0009,
           "beat": 0.6154,
           "challenges": 0.75,
-          "traits": 1,
-          "score": 8.93
+          "traits": 2,
+          "score": 10.93
         },
         {
           "who": "lizard",
@@ -518,7 +518,7 @@
       "leader": "quant"
     }
   },
-  "credits_left": 18521,
+  "credits_left": 18519,
   "last_scan": "2026-11-21@8",
   "strategies": {
     "lizard": {
@@ -1403,15 +1403,15 @@
         "Winner"
       ],
       "start_fund": 500,
-      "fund": 445.97,
+      "fund": 450.49,
       "lessons": [],
       "bets": 80,
-      "open": 9,
-      "won": 27,
-      "lost": 44,
-      "staked": 549.01,
-      "profit": -54.03,
-      "roi": -0.0984,
+      "open": 4,
+      "won": 29,
+      "lost": 47,
+      "staked": 567.31,
+      "profit": -49.51,
+      "roi": -0.0873,
       "avg_edge": 0.0338,
       "avg_clv": 0.0029,
       "beat_close": 0.4655,
@@ -1704,6 +1704,26 @@
         {
           "t": "2026-11-21T03:15:32Z",
           "fund": 445.97
+        },
+        {
+          "t": "2026-11-21T08:15:34Z",
+          "fund": 440.8
+        },
+        {
+          "t": "2026-11-21T08:15:34Z",
+          "fund": 438.49
+        },
+        {
+          "t": "2026-11-21T08:15:34Z",
+          "fund": 448.14
+        },
+        {
+          "t": "2026-11-21T08:15:34Z",
+          "fund": 452.8
+        },
+        {
+          "t": "2026-11-21T08:15:34Z",
+          "fund": 450.49
         }
       ],
       "by_league": [
@@ -1728,8 +1748,8 @@
         {
           "name": "College basketball (US)",
           "bets": 55,
-          "profit": -17.9,
-          "roi": -0.0365,
+          "profit": -13.38,
+          "roi": -0.0263,
           "avg_clv": -0.007,
           "beat_close": 0.3636,
           "clv_count": 33
@@ -1748,8 +1768,8 @@
         {
           "name": "Winner",
           "bets": 49,
-          "profit": -47.69,
-          "roi": -0.4918,
+          "profit": -43.17,
+          "roi": -0.3745,
           "avg_clv": 0.0086,
           "beat_close": 0.5111,
           "clv_count": 45
@@ -1768,8 +1788,8 @@
         {
           "name": "Basketball",
           "bets": 80,
-          "profit": -54.03,
-          "roi": -0.0984,
+          "profit": -49.51,
+          "roi": -0.0873,
           "avg_clv": 0.0029,
           "beat_close": 0.4655,
           "clv_count": 58
@@ -1783,8 +1803,8 @@
         "trust": 0.75,
         "base": 0.4,
         "won": 2,
-        "lost": 4,
-        "profit": -3.89
+        "lost": 6,
+        "profit": -8.51
       },
       "wild": {
         "bets": 5,
@@ -1954,10 +1974,11 @@
           "emoji": "📰",
           "title": "Read and react",
           "text": "Use something I read in a bet today.",
-          "status": "active",
+          "status": "done",
           "market": "spreads",
           "target": 54,
-          "league": "basketball_wncaab"
+          "league": "basketball_wncaab",
+          "detail": "Used the news in Denver Pioneers."
         },
         "recent": [
           {
@@ -1966,10 +1987,11 @@
             "emoji": "📰",
             "title": "Read and react",
             "text": "Use something I read in a bet today.",
-            "status": "active",
+            "status": "done",
             "market": "spreads",
             "target": 54,
-            "league": "basketball_wncaab"
+            "league": "basketball_wncaab",
+            "detail": "Used the news in Denver Pioneers."
           },
           {
             "day": "2026-11-20",
@@ -2054,9 +2076,9 @@
             "detail": "No bet there today."
           }
         ],
-        "done": 4,
-        "judged": 8,
-        "streak": 2
+        "done": 5,
+        "judged": 9,
+        "streak": 3
       },
       "traits": [
         {
@@ -2083,8 +2105,8 @@
         }
       ],
       "mind": {
-        "iq": 126,
-        "iq_week": 14,
+        "iq": 127,
+        "iq_week": 15,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -2156,7 +2178,7 @@
           },
           {
             "d": "2026-11-21",
-            "iq": 126
+            "iq": 127
           }
         ],
         "facts": [
@@ -2166,6 +2188,13 @@
             "z": 0,
             "text": "BetOnline.ag is the softest bookmaker in College basketball (US).",
             "detail": "beats fair by 2%+ on 2% of its prices vs 1% across all bookmakers"
+          },
+          {
+            "conf": "solid",
+            "n": 481,
+            "z": 0,
+            "text": "The market prices overs in College basketball (US) accurately.",
+            "detail": "48% happened, 50% priced, 481 games"
           },
           {
             "conf": "solid",
@@ -2198,7 +2227,7 @@
         ],
         "rules": 0,
         "studied": 661,
-        "resolved": 606
+        "resolved": 626
       }
     },
     "shark": {
@@ -2213,7 +2242,7 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.015,
+        "min_edge": 0.02,
         "odds": [
           1.6,
           4.0
@@ -2778,6 +2807,17 @@
           "on": 0.0105,
           "off": 0.0188,
           "bets": 5
+        },
+        {
+          "id": "precision",
+          "emoji": "🎯",
+          "title": "Precise",
+          "effect": "Always demands +0.5% more edge.",
+          "from": "Precision day",
+          "since": "2026-11-21T08:15:34Z",
+          "on": 0.032,
+          "off": 0.022,
+          "bets": 2
         }
       ],
       "mind": {
@@ -5713,12 +5753,12 @@
       "fair_odds": 2.478,
       "edge": 0.0289,
       "stake": 5.17,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 2.535,
       "clv": 0.0061,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -5.17,
+      "score": "Utah Valley Wolverines 90 - 79 East Carolina Pirates",
+      "settled_at": "2026-11-21T08:15:34Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates East Carolina Pirates at 40.4%. That makes the fair price 2.48.",
         "Unibet (SE) pays 2.55. That is +2.9% above fair. My bar is +1.5%.",
@@ -5752,12 +5792,12 @@
       "fair_odds": 2.345,
       "edge": 0.0148,
       "stake": 2.31,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 2.476,
       "clv": -0.0386,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -2.31,
+      "score": "Indiana Hoosiers 90 - 76 Kentucky Wildcats",
+      "settled_at": "2026-11-21T08:15:34Z",
       "thoughts": [
         "Only +1.48% edge, just under my +1.5% bar. Can't prove it, but I like it.",
         "My rules say no. The model says no. The 2% of me that isn't a model says try it.",
@@ -5788,12 +5828,12 @@
       "fair_odds": 2.832,
       "edge": 0.0169,
       "stake": 2.48,
-      "status": "open",
+      "status": "won",
       "closing_fair_odds": 3.056,
       "clv": -0.0576,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": 4.66,
+      "score": "Alabama A&M Bulldogs 85 - 69 Lipscomb Bisons",
+      "settled_at": "2026-11-21T08:15:34Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates Alabama A&M Bulldogs at 35.3%. That makes the fair price 2.83.",
         "Unibet (NL) pays 2.88. That is +1.7% above fair. My bar is +1.5%.",
@@ -5902,12 +5942,12 @@
       "fair_odds": 2.512,
       "edge": 0.0348,
       "stake": 6.03,
-      "status": "open",
+      "status": "won",
       "closing_fair_odds": 2.442,
       "clv": 0.0648,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": 9.65,
+      "score": "Wisconsin Badgers 53 - 70 Murray St Racers",
+      "settled_at": "2026-11-21T08:15:34Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates Murray St Racers at 39.8%. That makes the fair price 2.51.",
         "Everygame pays 2.60. That is +3.5% above fair. My bar is +1.5%.",
@@ -5940,12 +5980,12 @@
       "fair_odds": 2.669,
       "edge": 0.0117,
       "stake": 2.31,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 2.706,
       "clv": -0.0022,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -2.31,
+      "score": "Iona Gaels 62 - 61 UMKC Kangaroos",
+      "settled_at": "2026-11-21T08:15:34Z",
       "thoughts": [
         "Only +1.17% edge, just under my +1.5% bar. Can't prove it, but I like it.",
         "My rules say no. The model says no. The 2% of me that isn't a model says try it.",
@@ -10495,18 +10535,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-20T00:00:56Z",
-      "text": "🎯 🦈 The Shark's challenge today: 🐶 Underdog hunter. Back an underdog (odds 2.5+) that beats the market."
-    },
-    {
-      "t": "2026-11-20T00:15:31Z",
-      "text": "✅ 🦈 The Shark completed 🐶 Underdog hunter: 1 bet beat the market."
-    },
-    {
-      "t": "2026-11-20T01:30:46Z",
-      "text": "Results:\n- Won +4.22: Vitoria (Winner) in Vitoria vs Bragantino-SP (Vitoria 2 - 1 Bragantino-SP)"
-    },
-    {
       "t": "2026-11-20T03:30:45Z",
       "text": "Results:\n- Won +8.17: FC Cincinnati (Winner) in Orlando City SC vs FC Cincinnati (Orlando City SC 1 - 3 FC Cincinnati)"
     },
@@ -10613,6 +10641,18 @@
     {
       "t": "2026-11-21T08:00:54Z",
       "text": "Results:\n- Lost -4.80: Iowa State Cyclones +2.5 (Spread) in UCF Knights vs Iowa State Cyclones (UCF Knights 48 - 17 Iowa State Cyclones)\n- Lost -7.61: Wyoming Cowboys (Winner) in Wyoming Cowboys vs New Mexico Lobos (Wyoming Cowboys 17 - 24 New Mexico Lobos)\n- Lost -2.48: Over 40.5 (Total) in Duke Blue Devils vs Clemson Tigers (Duke Blue Devils 10 - 20 Clemson Tigers)\n- Lost -1.24: Michigan State Spartans (Winner) in Michigan State Spartans vs Oregon Ducks (Michigan State Spartans 7 - 45 Oregon Ducks)\n- Lost -2.46: Nagoya Grampus (Winner) in Tokyo Verdy vs Nagoya Grampus (Tokyo Verdy 0 - 0 Nagoya Grampus)"
+    },
+    {
+      "t": "2026-11-21T08:15:34Z",
+      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
+    },
+    {
+      "t": "2026-11-21T08:15:34Z",
+      "text": "✅ 🧮 The Quant completed 📰 Read and react: Used the news in Denver Pioneers."
+    },
+    {
+      "t": "2026-11-21T08:15:34Z",
+      "text": "Results:\n- Lost -5.17: East Carolina Pirates (Winner) in Utah Valley Wolverines vs East Carolina Pirates (Utah Valley Wolverines 90 - 79 East Carolina Pirates)\n- Lost -2.31: Kentucky Wildcats (Winner) in Indiana Hoosiers vs Kentucky Wildcats (Indiana Hoosiers 90 - 76 Kentucky Wildcats)\n- Won +9.65: Murray St Racers (Winner) in Wisconsin Badgers vs Murray St Racers (Wisconsin Badgers 53 - 70 Murray St Racers)\n- Won +4.66: Alabama A&M Bulldogs (Winner) in Alabama A&M Bulldogs vs Lipscomb Bisons (Alabama A&M Bulldogs 85 - 69 Lipscomb Bisons)\n- Lost -2.31: UMKC Kangaroos (Winner) in Iona Gaels vs UMKC Kangaroos (Iona Gaels 62 - 61 UMKC Kangaroos)"
     }
   ]
 }
