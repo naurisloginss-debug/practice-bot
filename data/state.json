@@ -1,6 +1,6 @@
 {
   "last_scan": "2026-11-21@16",
-  "credits_left": 18424,
+  "credits_left": 18422,
   "league_names": {
     "soccer_italy_serie_b": "Serie B (Italy 2)",
     "soccer_efl_champ": "Championship (England 2)",
@@ -51,14 +51,6 @@
     "soccer_mexico_ligamx": "2026-11-21T10:00:55Z"
   },
   "log": [
-    {
-      "t": "2026-11-21T15:00:59Z",
-      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
-    },
-    {
-      "t": "2026-11-21T15:00:59Z",
-      "text": "Results:\n- Won +1.66: VfL Wolfsburg (Winner) in VfL Wolfsburg vs Holstein Kiel (VfL Wolfsburg 3 - 0 Holstein Kiel)"
-    },
     {
       "t": "2026-11-21T15:15:32Z",
       "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
@@ -170,6 +162,14 @@
     {
       "t": "2026-11-21T18:45:31Z",
       "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +0.5%. Allows underdogs at odds up to 1.0 higher."
+    },
+    {
+      "t": "2026-11-21T19:00:55Z",
+      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
+    },
+    {
+      "t": "2026-11-21T19:00:55Z",
+      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+0.0% vs the market on those days)."
     }
   ],
   "levels": {
@@ -342,7 +342,7 @@
       },
       {
         "d": "2026-11-21",
-        "iq": 119
+        "iq": 118
       }
     ],
     "quant": [
@@ -2711,9 +2711,9 @@
       },
       "news": {
         "since": "2026-11-21T18:45:31Z",
-        "on": 0.0868,
+        "on": 0.0883,
         "off": 0.0012,
-        "bets": 3
+        "bets": 2
       }
     },
     "shark": {
@@ -2729,11 +2729,11 @@
         "off": 0.0179,
         "bets": 2
       },
-      "underdog": {
-        "since": "2026-11-21T18:45:31Z",
-        "on": 0.0045,
-        "off": 0.0302,
-        "bets": 7
+      "precision": {
+        "since": "2026-11-21T19:00:55Z",
+        "on": 0.032,
+        "off": 0.0266,
+        "bets": 2
       }
     }
   },
