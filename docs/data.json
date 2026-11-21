@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T09:45:30Z",
+  "updated": "2026-11-21T10:00:55Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -494,8 +494,8 @@
           "cautious": 0.0009,
           "beat": 0.6154,
           "challenges": 0.75,
-          "traits": 2,
-          "score": 10.93
+          "traits": 1,
+          "score": 8.93
         },
         {
           "who": "lizard",
@@ -518,7 +518,7 @@
       "leader": "quant"
     }
   },
-  "credits_left": 18517,
+  "credits_left": 18515,
   "last_scan": "2026-11-21@8",
   "strategies": {
     "lizard": {
@@ -563,7 +563,7 @@
         "Total"
       ],
       "start_fund": 500,
-      "fund": 485.14,
+      "fund": 495.33,
       "lessons": [
         {
           "kind": "avoid",
@@ -572,12 +572,12 @@
         }
       ],
       "bets": 69,
-      "open": 26,
-      "won": 11,
+      "open": 25,
+      "won": 12,
       "lost": 32,
-      "staked": 84.78,
-      "profit": -14.86,
-      "roi": -0.1753,
+      "staked": 93.96,
+      "profit": -4.67,
+      "roi": -0.0497,
       "avg_edge": 0.0306,
       "avg_clv": -0.0144,
       "beat_close": 0.5952,
@@ -758,6 +758,10 @@
         {
           "t": "2026-11-21T08:00:54Z",
           "fund": 485.14
+        },
+        {
+          "t": "2026-11-21T10:00:55Z",
+          "fund": 495.33
         }
       ],
       "by_league": [
@@ -863,8 +867,8 @@
         {
           "name": "Liga MX",
           "bets": 2,
-          "profit": 0,
-          "roi": null,
+          "profit": 10.19,
+          "roi": 1.11,
           "avg_clv": null,
           "beat_close": null,
           "clv_count": 0
@@ -883,8 +887,8 @@
         {
           "name": "Total",
           "bets": 6,
-          "profit": -5.51,
-          "roi": -1.0,
+          "profit": 4.68,
+          "roi": 0.3186,
           "avg_clv": 0.0239,
           "beat_close": 1.0,
           "clv_count": 3
@@ -912,8 +916,8 @@
         {
           "name": "Football",
           "bets": 69,
-          "profit": -14.86,
-          "roi": -0.1753,
+          "profit": -4.67,
+          "roi": -0.0497,
           "avg_clv": -0.0144,
           "beat_close": 0.5952,
           "clv_count": 42
@@ -1369,7 +1373,7 @@
         ],
         "rules": 0,
         "studied": 226,
-        "resolved": 120
+        "resolved": 122
       }
     },
     "quant": {
@@ -2242,7 +2246,7 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.02,
+        "min_edge": 0.015,
         "odds": [
           1.6,
           4.0
@@ -2807,17 +2811,6 @@
           "on": 0.0105,
           "off": 0.0188,
           "bets": 5
-        },
-        {
-          "id": "precision",
-          "emoji": "🎯",
-          "title": "Precise",
-          "effect": "Always demands +0.5% more edge.",
-          "from": "Precision day",
-          "since": "2026-11-21T09:45:30Z",
-          "on": 0.032,
-          "off": 0.022,
-          "bets": 2
         }
       ],
       "mind": {
@@ -5638,12 +5631,12 @@
       "fair_odds": 2.026,
       "edge": 0.0414,
       "stake": 9.18,
-      "status": "open",
+      "status": "won",
       "closing_fair_odds": null,
       "clv": null,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": 10.19,
+      "score": "Tijuana 1 - 0 Atlante FC",
+      "settled_at": "2026-11-21T10:00:55Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates Under 2.5 at 49.4%. That makes the fair price 2.03.",
         "GTbets pays 2.11. That is +4.1% above fair. My bar is +2.0%.",
@@ -10535,14 +10528,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-20T16:15:33Z",
-      "text": "✅ 🧮 The Quant completed 📚 Study day: Studied 99 games."
-    },
-    {
-      "t": "2026-11-20T19:15:34Z",
-      "text": "✅ 🧮 The Quant completed 🧘 Discipline day: 1 bet beat the market."
-    },
-    {
       "t": "2026-11-20T19:30:52Z",
       "text": "✅ 🦎 The Lizard completed 🧘 Discipline day: 1 bet beat the market."
     },
@@ -10653,6 +10638,14 @@
     {
       "t": "2026-11-21T09:45:30Z",
       "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
+    },
+    {
+      "t": "2026-11-21T10:00:55Z",
+      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-21T10:00:55Z",
+      "text": "Results:\n- Won +10.19: Under 2.5 (Total) in Tijuana vs Atlante FC (Tijuana 1 - 0 Atlante FC)"
     }
   ]
 }
