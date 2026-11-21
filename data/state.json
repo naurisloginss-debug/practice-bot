@@ -52,10 +52,6 @@
   },
   "log": [
     {
-      "t": "2026-11-21T09:30:46Z",
-      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
-    },
-    {
       "t": "2026-11-21T09:45:30Z",
       "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
     },
@@ -170,6 +166,10 @@
     {
       "t": "2026-11-21T15:00:59Z",
       "text": "Results:\n- Won +1.66: VfL Wolfsburg (Winner) in VfL Wolfsburg vs Holstein Kiel (VfL Wolfsburg 3 - 0 Holstein Kiel)"
+    },
+    {
+      "t": "2026-11-21T15:15:32Z",
+      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
     }
   ],
   "levels": {
@@ -2708,12 +2708,6 @@
         "on": 0.0105,
         "off": 0.0188,
         "bets": 5
-      },
-      "precision": {
-        "since": "2026-11-21T15:00:59Z",
-        "on": 0.032,
-        "off": 0.022,
-        "bets": 2
       }
     }
   },
