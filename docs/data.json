@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T09:15:38Z",
+  "updated": "2026-11-21T09:30:46Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -494,8 +494,8 @@
           "cautious": 0.0009,
           "beat": 0.6154,
           "challenges": 0.75,
-          "traits": 2,
-          "score": 10.93
+          "traits": 1,
+          "score": 8.93
         },
         {
           "who": "lizard",
@@ -2242,7 +2242,7 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.02,
+        "min_edge": 0.015,
         "odds": [
           1.6,
           4.0
@@ -2807,17 +2807,6 @@
           "on": 0.0105,
           "off": 0.0188,
           "bets": 5
-        },
-        {
-          "id": "precision",
-          "emoji": "🎯",
-          "title": "Precise",
-          "effect": "Always demands +0.5% more edge.",
-          "from": "Precision day",
-          "since": "2026-11-21T09:15:38Z",
-          "on": 0.032,
-          "off": 0.022,
-          "bets": 2
         }
       ],
       "mind": {
@@ -10535,10 +10524,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-20T13:00:59Z",
-      "text": "Results:\n- Lost -2.46: Kashima Antlers -1.25 (Spread) in Kashima Antlers vs Shimizu S Pulse (Kashima Antlers 1 - 1 Shimizu S Pulse)"
-    },
-    {
       "t": "2026-11-20T16:01:00Z",
       "text": "Placed 8 practice bets:\n- The Quant: **Charlotte Hornets** (Winner) in Atlanta Hawks vs Charlotte Hornets (NBA) at 3.24 on Marathon Bet, stake 5.70, edge +4.6%\n- The Quant: **Middle Tennessee Blue Raiders** (Winner) in Middle Tennessee Blue Raiders vs Temple Owls (College basketball (US)) at 2.53 on BetOnline.ag, stake 2.86, edge +1.6%\n- The Quant: **Murray St Racers** (Winner) in Wisconsin Badgers vs Murray St Racers (College basketball (US)) at 2.6 on Everygame, stake 6.03, edge +3.5%\n- The Quant: **Alabama A&M Bulldogs** (Winner) in Alabama A&M Bulldogs vs Lipscomb Bisons (College basketball (US)) at 2.88 on Unibet (NL), stake 2.48, edge +1.7%\n- The Quant 🧭 scout: **Real Madrid** (Winner) in Olympiacos vs Real Madrid (EuroLeague) at 2.15 on William Hill, stake 2.31, edge +0.8%\n- The Shark 🧭 scout: **Memphis Tigers** (Winner) in Navy Midshipmen vs Memphis Tigers (College football (US)) at 1.74 on Marathon Bet, stake 2.49, edge +0.5%\n- The Quant 💭 gut: **UMKC Kangaroos** (Winner) in Iona Gaels vs UMKC Kangaroos (College basketball (US)) at 2.7 on Unibet (NL), stake 2.31, edge +1.2%\n- The Shark 🎲 wild: **Virginia Tech Hokies** (Winner) in Miami Hurricanes vs Virginia Tech Hokies (College football (US)) at 11.0 on BetAnything, stake 1.25, edge +11.0%"
     },
@@ -10653,6 +10638,10 @@
     {
       "t": "2026-11-21T09:15:38Z",
       "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
+    },
+    {
+      "t": "2026-11-21T09:30:46Z",
+      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
     }
   ]
 }
