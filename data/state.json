@@ -52,10 +52,6 @@
   },
   "log": [
     {
-      "t": "2026-11-19T16:01:00Z",
-      "text": "Placed 7 practice bets:\n- The Lizard: **Cheltenham Town** (Winner) in Cheltenham Town vs Bristol Rovers (League Two (England 4)) at 3.1 on Unibet (NL), stake 3.52, edge +3.1%\n- The Lizard: **Defensa y Justicia** (Winner) in Defensa y Justicia vs Barracas Central (Primera División (Argentina)) at 2.2 on Unibet (SE), stake 4.02, edge +2.0%\n- The Shark: **Nebraska Cornhuskers** (Winner) in Nebraska Cornhuskers vs Ohio State Buckeyes (College football (US)) at 2.64 on Marathon Bet, stake 3.14, edge +1.7%\n- The Lizard 🧭 scout: **Sheffield United** (Winner) in Sheffield United vs Watford (Championship (England 2)) at 1.66 on LeoVegas (SE), stake 2.40, edge +0.9%\n- The Quant 🧭 scout: **FC Barcelona Bàsquet** (Winner) in FC Barcelona Bàsquet vs KK Crvena zvezda (EuroLeague) at 1.78 on Unibet (SE), stake 2.31, edge +0.9%\n- The Lizard 💭 gut: **Palermo** (Winner) in US Catanzaro 1929 vs Palermo (Serie B (Italy 2)) at 1.85 on Matchbook, stake 2.40, edge +1.3%\n- The Shark 💭 gut: **Baylor Bears** (Winner) in Baylor Bears vs Texas Tech Red Raiders (College football (US)) at 2.56 on Matchbook, stake 2.47, edge +-0.3%"
-    },
-    {
       "t": "2026-11-19T20:15:43Z",
       "text": "Results:\n- Lost -2.33: Maccabi Tel Aviv (Winner) in Maccabi Tel Aviv vs Dubai Basketball (Maccabi Tel Aviv 74 - 80 Dubai Basketball)"
     },
@@ -170,6 +166,10 @@
     {
       "t": "2026-11-21T07:30:47Z",
       "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-21T07:45:32Z",
+      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
     }
   ],
   "levels": {
@@ -2691,6 +2691,12 @@
         "on": 0.0105,
         "off": 0.0188,
         "bets": 5
+      },
+      "precision": {
+        "since": "2026-11-21T07:45:32Z",
+        "on": 0.032,
+        "off": 0.022,
+        "bets": 2
       }
     }
   },
