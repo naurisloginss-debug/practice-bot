@@ -1,6 +1,6 @@
 {
   "last_scan": "2026-11-21@21",
-  "credits_left": 18252,
+  "credits_left": 18250,
   "league_names": {
     "soccer_italy_serie_b": "Serie B (Italy 2)",
     "soccer_efl_champ": "Championship (England 2)",
@@ -52,14 +52,6 @@
     "americanfootball_ncaaf_fcs": "2026-11-21T20:15:33Z"
   },
   "log": [
-    {
-      "t": "2026-11-21T20:30:50Z",
-      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +0.7%. Allows underdogs at odds up to 1.0 higher."
-    },
-    {
-      "t": "2026-11-21T20:45:33Z",
-      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
-    },
     {
       "t": "2026-11-21T20:45:33Z",
       "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+0.2% vs the market on those days)."
@@ -171,6 +163,14 @@
     {
       "t": "2026-11-21T23:30:50Z",
       "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +1.0%. Allows underdogs at odds up to 1.0 higher."
+    },
+    {
+      "t": "2026-11-21T23:45:30Z",
+      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
+    },
+    {
+      "t": "2026-11-21T23:45:30Z",
+      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+0.9% vs the market on those days)."
     }
   ],
   "levels": {
@@ -2707,40 +2707,40 @@
       "discipline": {
         "since": "2026-11-21T07:21:41Z",
         "on": 0.0129,
-        "off": -0.002,
+        "off": 0.0,
         "bets": 6
       },
       "underdog": {
         "since": "2026-11-21T07:21:41Z",
         "on": 0.016,
-        "off": -0.0038,
+        "off": -0.0015,
         "bets": 9
       },
       "news": {
         "since": "2026-11-21T18:45:31Z",
-        "on": -0.0133,
+        "on": 0.0029,
         "off": 0.0012,
-        "bets": 5
+        "bets": 8
       }
     },
     "shark": {
       "new_ground": {
         "since": "2026-11-21T07:21:41Z",
         "on": 0.0105,
-        "off": 0.0219,
+        "off": 0.0244,
         "bets": 5
       },
       "news": {
         "since": "2026-11-21T17:45:33Z",
         "on": 0.0888,
-        "off": 0.017,
+        "off": 0.0194,
         "bets": 2
       },
-      "underdog": {
-        "since": "2026-11-21T23:30:50Z",
-        "on": 0.0105,
-        "off": 0.0303,
-        "bets": 11
+      "precision": {
+        "since": "2026-11-21T23:45:30Z",
+        "on": 0.032,
+        "off": 0.0269,
+        "bets": 2
       }
     }
   },
