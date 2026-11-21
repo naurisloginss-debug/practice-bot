@@ -15,13 +15,17 @@
     "h2h"
   ],
   "scan_hours_utc": [
-    8,
-    16
+    1,
+    5,
+    9,
+    13,
+    17,
+    21
   ],
   "closing_window_minutes": 40,
   "settle_after_hours": 3,
   "settle_every_hours": 6,
-  "daily_credit_budget": 550,
+  "daily_credit_budget": 700,
   "keep_credits": 1500,
   "learning": {
     "min_bets": 15,
