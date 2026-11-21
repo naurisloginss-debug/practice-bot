@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T16:00:57Z",
+  "updated": "2026-11-21T16:15:33Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -506,8 +506,8 @@
           "cautious": 0.0009,
           "beat": 0.6154,
           "challenges": 0.75,
-          "traits": 2,
-          "score": 10.93
+          "traits": 1,
+          "score": 8.93
         }
       ],
       "ranking": [
@@ -2281,7 +2281,7 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.02,
+        "min_edge": 0.015,
         "odds": [
           1.6,
           4.0
@@ -2846,17 +2846,6 @@
           "on": 0.0105,
           "off": 0.0188,
           "bets": 5
-        },
-        {
-          "id": "precision",
-          "emoji": "🎯",
-          "title": "Precise",
-          "effect": "Always demands +0.5% more edge.",
-          "from": "Precision day",
-          "since": "2026-11-21T16:00:57Z",
-          "on": 0.032,
-          "off": 0.022,
-          "bets": 2
         }
       ],
       "mind": {
@@ -10583,10 +10572,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-21T10:45:39Z",
-      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
-    },
-    {
       "t": "2026-11-21T11:00:57Z",
       "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
     },
@@ -10701,6 +10686,10 @@
     {
       "t": "2026-11-21T16:00:57Z",
       "text": "Placed 16 practice bets:\n- The Lizard: **Ascoli** (Winner) in Cesena FC vs Ascoli (Serie B (Italy 2)) at 2.8 on Unibet (SE), stake 5.37, edge +3.8%\n- The Lizard: **Draw** (Winner) in Vicenza vs Carrarese (Serie B (Italy 2)) at 3.3 on Unibet (SE), stake 4.62, edge +4.1%\n- The Lizard: **Wrexham AFC** (Winner) in Bristol City vs Wrexham AFC (Championship (England 2)) at 3.15 on LeoVegas (SE), stake 5.87, edge +4.9%\n- The Lizard: **Lincoln City** (Winner) in Charlton Athletic vs Lincoln City (Championship (England 2)) at 2.9 on LeoVegas (SE), stake 3.75, edge +2.8%\n- The Lizard: **Sheffield United** (Winner) in Sheffield United vs Southampton (Championship (England 2)) at 2.75 on LeoVegas (SE), stake 13.53, edge +9.2%\n- The Lizard: **Draw** (Winner) in Lille vs Lyon (Ligue 1 (France)) at 3.45 on Unibet (SE), stake 3.69, edge +3.5%\n- The Lizard: **Tokyo Verdy** (Winner) in Mito HollyHock vs Tokyo Verdy (J-League (Japan)) at 2.75 on LeoVegas (SE), stake 5.64, edge +3.8%\n- The Quant: **UT Rio Grande Valley Vaqueros** (Winner) in Austin Peay Governors vs UT Rio Grande Valley Vaqueros (College basketball (US)) at 2.75 on LeoVegas (SE), stake 2.82, edge +3.0%\n- The Quant: **Stonehill Skyhawks** (Winner) in Stonehill Skyhawks vs Northeastern Huskies (College basketball (US)) at 4.1 on Unibet (SE), stake 0.79, edge +1.5%\n- The Quant: **Radford Highlanders** (Winner) in Chattanooga Mocs vs Radford Highlanders (College basketball (US)) at 4.34 on BetOnline.ag, stake 0.98, edge +2.0%\n- The Quant: **Gardner-Webb Bulldogs** (Winner) in VMI Keydets vs Gardner-Webb Bulldogs (College basketball (US)) at 4.1 on LeoVegas (SE), stake 1.10, edge +2.1%\n- The Quant: **Villanova Wildcats** (Winner) in Villanova Wildcats vs Michigan Wolverines (College basketball (US)) at 2.7 on Unibet (NL), stake 2.22, edge +2.3%\n- The Shark 🧭 scout: **Dallas Cowboys -8** (Spread) in Dallas Cowboys vs Tennessee Titans (NFL) at 2.02 on Matchbook, stake 2.41, edge +0.8%\n- The Lizard 💭 gut: **Cruz Azul** (Winner) in Guadalajara vs Cruz Azul (Liga MX) at 2.9 on Coolbet, stake 2.57, edge +0.9%\n- The Shark 💭 gut: **Virginia Cavaliers** (Winner) in Virginia Cavaliers vs North Carolina Tar Heels (College football (US)) at 2.01 on BetOnline.ag, stake 2.41, edge +1.5%\n- The Shark 🎲 wild: **Miami Dolphins** (Winner) in Buffalo Bills vs Miami Dolphins (NFL) at 12.0 on Matchbook, stake 1.21, edge +16.1%"
+    },
+    {
+      "t": "2026-11-21T16:15:33Z",
+      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
     }
   ]
 }
