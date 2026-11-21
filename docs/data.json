@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T15:15:32Z",
+  "updated": "2026-11-21T15:30:47Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -506,8 +506,8 @@
           "cautious": 0.0009,
           "beat": 0.6154,
           "challenges": 0.75,
-          "traits": 1,
-          "score": 8.93
+          "traits": 2,
+          "score": 10.93
         }
       ],
       "ranking": [
@@ -518,7 +518,7 @@
       "leader": "lizard"
     }
   },
-  "credits_left": 18503,
+  "credits_left": 18497,
   "last_scan": "2026-11-21@8",
   "strategies": {
     "lizard": {
@@ -563,7 +563,7 @@
         "Total"
       ],
       "start_fund": 500,
-      "fund": 496.99,
+      "fund": 513.95,
       "lessons": [
         {
           "kind": "avoid",
@@ -572,12 +572,12 @@
         }
       ],
       "bets": 69,
-      "open": 24,
-      "won": 13,
+      "open": 22,
+      "won": 15,
       "lost": 32,
-      "staked": 96.4,
-      "profit": -3.01,
-      "roi": -0.0312,
+      "staked": 100.42,
+      "profit": 13.95,
+      "roi": 0.1389,
       "avg_edge": 0.0306,
       "avg_clv": -0.0016,
       "beat_close": 0.625,
@@ -766,6 +766,14 @@
         {
           "t": "2026-11-21T15:00:59Z",
           "fund": 496.99
+        },
+        {
+          "t": "2026-11-21T15:30:47Z",
+          "fund": 501.33
+        },
+        {
+          "t": "2026-11-21T15:30:47Z",
+          "fund": 513.95
         }
       ],
       "by_league": [
@@ -817,8 +825,8 @@
         {
           "name": "Championship (England 2)",
           "bets": 17,
-          "profit": 5.89,
-          "roi": 0.6078,
+          "profit": 10.23,
+          "roi": 0.8455,
           "avg_clv": 0.0002,
           "beat_close": 0.5882,
           "clv_count": 17
@@ -853,8 +861,8 @@
         {
           "name": "League One (England 3)",
           "bets": 3,
-          "profit": -5.14,
-          "roi": -1.0,
+          "profit": 7.48,
+          "roi": 1.1081,
           "avg_clv": -0.0319,
           "beat_close": 0.3333,
           "clv_count": 3
@@ -900,8 +908,8 @@
         {
           "name": "Winner",
           "bets": 62,
-          "profit": -5.23,
-          "roi": -0.066,
+          "profit": 11.73,
+          "roi": 0.1409,
           "avg_clv": -0.003,
           "beat_close": 0.6038,
           "clv_count": 53
@@ -920,8 +928,8 @@
         {
           "name": "Football",
           "bets": 69,
-          "profit": -3.01,
-          "roi": -0.0312,
+          "profit": 13.95,
+          "roi": 0.1389,
           "avg_clv": -0.0016,
           "beat_close": 0.625,
           "clv_count": 56
@@ -949,15 +957,29 @@
       },
       "pounce": {
         "bets": 2,
-        "won": 0,
+        "won": 1,
         "lost": 0,
-        "profit": 0,
+        "profit": 12.62,
         "avg_clv": 0.2053,
         "measured": 1
       },
       "reading": {
-        "week": 100,
+        "week": 90,
         "latest": [
+          {
+            "t": "2026-11-21T14:25:54Z",
+            "title": "Italy star Tonali out for Tottenham Hotspur, but Udogie back to start",
+            "link": "https://football-italia.net/italy-tonali-tottenham-hotspur-udogie-start/",
+            "source": "football-italia.net",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-21T13:29:40Z",
+            "title": "Bayern draw with Cologne as Kane picks up ankle injury",
+            "link": "https://www.bbc.co.uk/sport/football/videos/ck7v2nz0lp32o?at_medium=RSS&at_campaign=rss",
+            "source": "feeds.bbci.co.uk",
+            "tone": -1
+          },
           {
             "t": "2026-11-21T11:52:51Z",
             "title": "Report: Bayern Munich could rival Milan for Tresoldi after Kane surgery",
@@ -985,20 +1007,6 @@
             "link": "https://football-italia.net/todays-papers-serie-a-action-returns-gattuuso/",
             "source": "football-italia.net",
             "tone": 1
-          },
-          {
-            "t": "2026-11-21T06:17:32Z",
-            "title": "Jeers, injuries and doubters - White's journey back to the top",
-            "link": "https://www.bbc.co.uk/sport/football/articles/cv7028xeler2o?at_medium=RSS&at_campaign=rss",
-            "source": "feeds.bbci.co.uk",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-20T23:25:41Z",
-            "title": "Kane out for 'few months' with ankle ligament tear",
-            "link": "https://www.bbc.co.uk/sport/football/articles/cvze7d4w5g49o?at_medium=RSS&at_campaign=rss",
-            "source": "feeds.bbci.co.uk",
-            "tone": -1
           }
         ]
       },
@@ -1400,7 +1408,7 @@
         ],
         "rules": 0,
         "studied": 226,
-        "resolved": 128
+        "resolved": 135
       }
     },
     "quant": {
@@ -1855,20 +1863,27 @@
         "measured": 0
       },
       "reading": {
-        "week": 77,
+        "week": 74,
         "latest": [
+          {
+            "t": "2026-11-21T07:00:00Z",
+            "title": "The 76ers are fun again, so it&#39;s the return of Roob&#39;s 76ers Stats!",
+            "link": "https://sports.yahoo.com/articles/76ers-fun-again-return-roobs-121311032.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-21T07:00:00Z",
+            "title": "‘It worked every time&#39;: How Sixers found a clutch answer at shootaround",
+            "link": "https://sports.yahoo.com/articles/worked-every-time-sixers-found-135320234.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
           {
             "t": "2026-11-21T00:36:05Z",
             "title": "Jusuf Nurkic injury update released",
             "link": "https://sports.yahoo.com/articles/jusuf-nurkic-injury-released-003605409.html",
             "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-20T22:35:36Z",
-            "title": "NBA injury updates: The latest on Tyrese Haliburton, Kawhi Leonard, Dylan Harper, more",
-            "link": "https://www.cbssports.com/nba/news/nba-injury-updates-tyrese-haliburton-kawhi-leonard-dylan-harper-brandon-ingram/",
-            "source": "www.cbssports.com",
             "tone": -1
           },
           {
@@ -1879,24 +1894,17 @@
             "tone": -1
           },
           {
-            "t": "2026-11-20T22:02:53Z",
-            "title": "Brandon Ingram expected to make season debut for Clippers on Monday vs. Rockets",
-            "link": "https://sports.yahoo.com/nba/article/brandon-ingram-expected-to-make-season-debut-for-clippers-on-monday-vs-rockets-220424174.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
+            "t": "2026-11-20T15:30:27Z",
+            "title": "Damian Lillard stars in his Milwaukee return in another stark reminder of how bleak things are for the Bucks",
+            "link": "https://www.cbssports.com/nba/news/damian-lillard-milwaukee-return-trail-blazers-bucks-bleak-future/",
+            "source": "www.cbssports.com",
+            "tone": 1
           },
           {
-            "t": "2026-11-20T21:12:01Z",
-            "title": "Brandon Ingram set to make Clippers season debut Monday against Rockets",
-            "link": "https://sports.yahoo.com/articles/brandon-ingram-set-clippers-season-211201043.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-20T21:00:00Z",
-            "title": "Game Preview: Suns chasing their longest winning streak of the season",
-            "link": "https://sports.yahoo.com/articles/game-preview-suns-chasing-longest-210000550.html",
-            "source": "sports.yahoo.com",
+            "t": "2026-11-19T17:22:11Z",
+            "title": "NBA's eight biggest disappointments through one month: Injury bug, same old East and an underwhelming champ",
+            "link": "https://www.cbssports.com/nba/news/nbas-biggest-disappointments-one-month-injury-bug-east-underwhelming-champ/",
+            "source": "www.cbssports.com",
             "tone": -1
           }
         ]
@@ -2273,7 +2281,7 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.015,
+        "min_edge": 0.02,
         "odds": [
           1.6,
           4.0
@@ -2572,47 +2580,47 @@
         "measured": 0
       },
       "reading": {
-        "week": 423,
+        "week": 436,
         "latest": [
           {
-            "t": "2026-11-21T12:03:54Z",
-            "title": "Drew Mestemaker injury update: Is Oklahoma State football QB playing vs Arizona State?",
-            "link": "https://sports.yahoo.com/articles/drew-mestemaker-injury-oklahoma-state-120354777.html",
+            "t": "2026-11-21T15:01:54Z",
+            "title": "Live updates, score from Florida football vs Vanderbilt",
+            "link": "https://sports.yahoo.com/articles/live-updates-score-florida-football-150154252.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-21T12:02:08Z",
-            "title": "Notre Dame vs. SMU live updates: Score, highlights and analysis",
-            "link": "https://sports.yahoo.com/articles/notre-dame-vs-smu-live-120208354.html",
+            "t": "2026-11-21T14:57:54Z",
+            "title": "Florida has 3 changes on SEC Availability Report update vs Vanderbilt",
+            "link": "https://sports.yahoo.com/articles/florida-3-changes-sec-availability-145754512.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-21T12:02:01Z",
-            "title": "Texas A&M vs. Oklahoma live updates: Score, highlights, analysis",
-            "link": "https://sports.yahoo.com/articles/texas-m-vs-oklahoma-live-120201853.html",
+            "t": "2026-11-21T14:02:39Z",
+            "title": "Two Washington Huskies Ruled Out For Home Finale Vs Indiana",
+            "link": "https://sports.yahoo.com/articles/two-washington-huskies-ruled-home-140239670.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-21T11:30:50Z",
-            "title": "Ohio State at Nebraska: Complete preview, keys, score prediction",
-            "link": "https://sports.yahoo.com/articles/ohio-state-nebraska-complete-preview-113050176.html",
+            "t": "2026-11-21T13:58:19Z",
+            "title": "Daiyan Henley being out with a knee injury changes nothing about the failed trade to Broncos",
+            "link": "https://sports.yahoo.com/articles/daiyan-henley-being-knee-injury-135819365.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-21T11:01:23Z",
-            "title": "Georgia vs. South Carolina live updates: Follow SEC showdown from Columbia",
-            "link": "https://sports.yahoo.com/articles/georgia-vs-south-carolina-live-110123826.html",
+            "t": "2026-11-21T13:23:25Z",
+            "title": "Is South Carolina star QB LaNorris Sellers playing vs. Georgia?",
+            "link": "https://sports.yahoo.com/articles/south-carolina-star-qb-lanorris-132325461.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-21T11:00:00Z",
-            "title": "Giants news: Clean injury report, ‘baby DJ Reader,’ more",
-            "link": "https://sports.yahoo.com/articles/giants-news-clean-injury-report-110000271.html",
+            "t": "2026-11-21T13:19:13Z",
+            "title": "Miami Dolphins news roundup: Week 11 injury report includes Aaron Brewer update",
+            "link": "https://sports.yahoo.com/articles/miami-dolphins-news-roundup-week-131913308.html",
             "source": "sports.yahoo.com",
             "tone": -1
           }
@@ -2838,6 +2846,17 @@
           "on": 0.0105,
           "off": 0.0188,
           "bets": 5
+        },
+        {
+          "id": "precision",
+          "emoji": "🎯",
+          "title": "Precise",
+          "effect": "Always demands +0.5% more edge.",
+          "from": "Precision day",
+          "since": "2026-11-21T15:30:47Z",
+          "on": 0.032,
+          "off": 0.022,
+          "bets": 2
         }
       ],
       "mind": {
@@ -5509,12 +5528,12 @@
       "fair_odds": 2.751,
       "edge": 0.0178,
       "stake": 2.41,
-      "status": "open",
+      "status": "won",
       "closing_fair_odds": 2.801,
       "clv": -0.0003,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": 4.34,
+      "score": "Millwall 0 - 1 Queens Park Rangers",
+      "settled_at": "2026-11-21T15:30:47Z",
       "thoughts": [
         "🧭 Exploring. I've only made 3 bets like this (Championship (England 2) winner bets at middle odds).",
         "Queens Park Rangers at 2.80 is +1.78% above fair: below my usual bar, but the only way to learn if this kind of bet works for me is to try it.",
@@ -5548,12 +5567,12 @@
       "fair_odds": 8.008,
       "edge": 0.1038,
       "stake": 1.61,
-      "status": "open",
+      "status": "won",
       "closing_fair_odds": 7.335,
       "clv": 0.2053,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": 12.62,
+      "score": "Reading 0 - 1 Bromley FC",
+      "settled_at": "2026-11-21T15:30:47Z",
       "thoughts": [
         "⚡ Matchbook pays 9.00 for Bromley FC. Fair is 8.01: +10.4%. That's huge.",
         "Either they're slow to update, or I'm missing something. I'll pounce carefully and let the final price tell me.",
@@ -10555,14 +10574,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-21T09:45:30Z",
-      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
-    },
-    {
-      "t": "2026-11-21T10:00:55Z",
-      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
-    },
-    {
       "t": "2026-11-21T10:00:55Z",
       "text": "Results:\n- Won +10.19: Under 2.5 (Total) in Tijuana vs Atlante FC (Tijuana 1 - 0 Atlante FC)"
     },
@@ -10673,6 +10684,14 @@
     {
       "t": "2026-11-21T15:15:32Z",
       "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-21T15:30:47Z",
+      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
+    },
+    {
+      "t": "2026-11-21T15:30:47Z",
+      "text": "Results:\n- Won +4.34: Queens Park Rangers (Winner) in Millwall vs Queens Park Rangers (Millwall 0 - 1 Queens Park Rangers)\n- Won +12.62: Bromley FC (Winner) in Reading vs Bromley FC (Reading 0 - 1 Bromley FC)"
     }
   ]
 }
