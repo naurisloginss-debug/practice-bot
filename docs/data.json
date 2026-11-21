@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T17:45:33Z",
+  "updated": "2026-11-21T18:00:54Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -506,8 +506,8 @@
           "cautious": 0.0158,
           "beat": 0.7368,
           "challenges": 0.778,
-          "traits": 2,
-          "score": 28.47
+          "traits": 3,
+          "score": 30.47
         }
       ],
       "ranking": [
@@ -2290,7 +2290,7 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.015,
+        "min_edge": 0.02,
         "odds": [
           1.6,
           4.0
@@ -2877,6 +2877,17 @@
           "since": "2026-11-21T17:45:33Z",
           "on": 0.0888,
           "off": 0.017,
+          "bets": 2
+        },
+        {
+          "id": "precision",
+          "emoji": "🎯",
+          "title": "Precise",
+          "effect": "Always demands +0.5% more edge.",
+          "from": "Precision day",
+          "since": "2026-11-21T18:00:54Z",
+          "on": 0.032,
+          "off": 0.0258,
           "bets": 2
         }
       ],
@@ -10604,10 +10615,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-21T13:45:33Z",
-      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
-    },
-    {
       "t": "2026-11-21T14:00:56Z",
       "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
     },
@@ -10722,6 +10729,10 @@
     {
       "t": "2026-11-21T17:45:33Z",
       "text": "🧬 🦈 The Shark made Read and react part of its character: 📰 Well-read. It completed the challenge on 2026-11-18 and its bets beat the market by +8.9%. Trusts its hunches more (+10% gut trust)."
+    },
+    {
+      "t": "2026-11-21T18:00:54Z",
+      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
     }
   ]
 }
