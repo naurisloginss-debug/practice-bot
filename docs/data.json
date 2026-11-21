@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T16:30:49Z",
+  "updated": "2026-11-21T16:45:33Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -453,7 +453,7 @@
             "pending": false
           }
         ],
-        "score": 183,
+        "score": 186,
         "trophies": [
           {
             "kind": "sharpshooter",
@@ -505,9 +505,9 @@
           "clv": 0.0226,
           "cautious": 0.0085,
           "beat": 0.7222,
-          "challenges": 0.75,
-          "traits": 2,
-          "score": 20.74
+          "challenges": 0.778,
+          "traits": 1,
+          "score": 18.88
         }
       ],
       "ranking": [
@@ -2281,7 +2281,7 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.02,
+        "min_edge": 0.015,
         "odds": [
           1.6,
           4.0
@@ -2776,10 +2776,11 @@
             "emoji": "🐶",
             "title": "Underdog hunter",
             "text": "Back an underdog (odds 2.5+) that beats the market.",
-            "status": "judging",
+            "status": "done",
             "market": "spreads",
             "target": 103,
-            "league": "americanfootball_ncaaf_fcs"
+            "league": "americanfootball_ncaaf_fcs",
+            "detail": "1 bet beat the market."
           },
           {
             "day": "2026-11-18",
@@ -2842,9 +2843,9 @@
             "detail": "2 bets beat the market."
           }
         ],
-        "done": 6,
-        "judged": 8,
-        "streak": 3
+        "done": 7,
+        "judged": 9,
+        "streak": 4
       },
       "traits": [
         {
@@ -2855,19 +2856,8 @@
           "from": "New ground",
           "since": "2026-11-21T07:21:41Z",
           "on": 0.0105,
-          "off": 0.0188,
+          "off": 0.0165,
           "bets": 5
-        },
-        {
-          "id": "precision",
-          "emoji": "🎯",
-          "title": "Precise",
-          "effect": "Always demands +0.5% more edge.",
-          "from": "Precision day",
-          "since": "2026-11-21T16:30:49Z",
-          "on": 0.032,
-          "off": 0.022,
-          "bets": 2
         }
       ],
       "mind": {
@@ -10594,14 +10584,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-21T12:01:04Z",
-      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-21T12:15:32Z",
-      "text": "🧬 🦎 The Lizard made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-18 and its bets beat the market by +2.2%. Avoids odds above 3.5."
-    },
-    {
       "t": "2026-11-21T12:15:32Z",
       "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
     },
@@ -10712,6 +10694,14 @@
     {
       "t": "2026-11-21T16:30:49Z",
       "text": "🏅 🦈 The Shark unlocked 💡 IQ 120: Reached Sport IQ 120."
+    },
+    {
+      "t": "2026-11-21T16:45:33Z",
+      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-21T16:45:33Z",
+      "text": "✅ 🦈 The Shark completed 🐶 Underdog hunter: 1 bet beat the market."
     }
   ]
 }

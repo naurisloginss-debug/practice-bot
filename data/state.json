@@ -52,14 +52,6 @@
   },
   "log": [
     {
-      "t": "2026-11-21T12:01:04Z",
-      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-21T12:15:32Z",
-      "text": "🧬 🦎 The Lizard made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-18 and its bets beat the market by +2.2%. Avoids odds above 3.5."
-    },
-    {
       "t": "2026-11-21T12:15:32Z",
       "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
     },
@@ -170,6 +162,14 @@
     {
       "t": "2026-11-21T16:30:49Z",
       "text": "🏅 🦈 The Shark unlocked 💡 IQ 120: Reached Sport IQ 120."
+    },
+    {
+      "t": "2026-11-21T16:45:33Z",
+      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-21T16:45:33Z",
+      "text": "✅ 🦈 The Shark completed 🐶 Underdog hunter: 1 bet beat the market."
     }
   ],
   "levels": {
@@ -2612,10 +2612,11 @@
         "emoji": "🐶",
         "title": "Underdog hunter",
         "text": "Back an underdog (odds 2.5+) that beats the market.",
-        "status": "judging",
+        "status": "done",
         "market": "spreads",
         "target": 103,
-        "league": "americanfootball_ncaaf_fcs"
+        "league": "americanfootball_ncaaf_fcs",
+        "detail": "1 bet beat the market."
       },
       {
         "day": "2026-11-20",
@@ -2713,14 +2714,8 @@
       "new_ground": {
         "since": "2026-11-21T07:21:41Z",
         "on": 0.0105,
-        "off": 0.0188,
+        "off": 0.0165,
         "bets": 5
-      },
-      "precision": {
-        "since": "2026-11-21T16:30:49Z",
-        "on": 0.032,
-        "off": 0.022,
-        "bets": 2
       }
     }
   },
