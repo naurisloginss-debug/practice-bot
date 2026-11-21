@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20T23:45:32Z",
+  "updated": "2026-11-21T00:00:58Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -16,15 +16,15 @@
     "talk": [
       {
         "who": "quant",
-        "text": "The data put me first. The Shark, check your model. The data says I'm the one going live. 14 days to prove it."
+        "text": "The data put me first. The Shark, check your model. The data says I'm the one going live. 13 days to prove it."
       },
       {
         "who": "shark",
-        "text": "I smell The Quant's lead from here. Closing in. Only one of us gets real money, in 14 days. And I'm hungry."
+        "text": "I smell The Quant's lead from here. Closing in. Only one of us gets real money, in 13 days. And I'm hungry."
       },
       {
         "who": "lizard",
-        "text": "The Quant can enjoy the view. I'm patient, and I'm coming. Only one of us goes live in 14 days. I'll be the one still standing."
+        "text": "The Quant can enjoy the view. I'm patient, and I'm coming. Only one of us goes live in 13 days. I'll be the one still standing."
       }
     ],
     "chars": {
@@ -470,7 +470,7 @@
     "week_start": "2026-11-16",
     "race": {
       "date": "2026-12-04",
-      "days_left": 14,
+      "days_left": 13,
       "min_bets": 30,
       "rows": [
         {
@@ -518,7 +518,7 @@
       "leader": "quant"
     }
   },
-  "credits_left": 18602,
+  "credits_left": 18601,
   "last_scan": "2026-11-20@16",
   "strategies": {
     "lizard": {
@@ -536,7 +536,7 @@
         "min_edge": 0.02,
         "odds": [
           1.6,
-          3.0
+          6.0
         ],
         "stop_below": 250
       },
@@ -1081,24 +1081,35 @@
       },
       "challenge": {
         "today": {
-          "day": "2026-11-20",
-          "id": "discipline",
-          "emoji": "🧘",
-          "title": "Discipline day",
-          "text": "No gut calls, no wild bets, nothing above odds 3.0, and still beat the market.",
+          "day": "2026-11-21",
+          "id": "new_ground",
+          "emoji": "🗺️",
+          "title": "New ground",
+          "text": "Make a bet in the bet type I use least: spread.",
           "status": "active",
           "market": "spreads",
-          "target": 52,
+          "target": 68,
           "league": "soccer_mexico_ligamx"
         },
         "recent": [
+          {
+            "day": "2026-11-21",
+            "id": "new_ground",
+            "emoji": "🗺️",
+            "title": "New ground",
+            "text": "Make a bet in the bet type I use least: spread.",
+            "status": "active",
+            "market": "spreads",
+            "target": 68,
+            "league": "soccer_mexico_ligamx"
+          },
           {
             "day": "2026-11-20",
             "id": "discipline",
             "emoji": "🧘",
             "title": "Discipline day",
             "text": "No gut calls, no wild bets, nothing above odds 3.0, and still beat the market.",
-            "status": "active",
+            "status": "judging",
             "market": "spreads",
             "target": 52,
             "league": "soccer_mexico_ligamx"
@@ -1174,18 +1185,6 @@
             "target": 40,
             "league": "soccer_greece_super_league",
             "detail": "No bet there today."
-          },
-          {
-            "day": "2026-11-13",
-            "id": "discipline",
-            "emoji": "🧘",
-            "title": "Discipline day",
-            "text": "No gut calls, no wild bets, nothing above odds 3.0, and still beat the market.",
-            "status": "none",
-            "market": "spreads",
-            "target": 38,
-            "league": "soccer_greece_super_league",
-            "detail": "No chance today: nothing fit the challenge, and not betting was the right call."
           }
         ],
         "done": 2,
@@ -1195,7 +1194,7 @@
       "traits": [],
       "mind": {
         "iq": 113,
-        "iq_week": 12,
+        "iq_week": 11,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -1263,6 +1262,10 @@
           },
           {
             "d": "2026-11-20",
+            "iq": 113
+          },
+          {
+            "d": "2026-11-21",
             "iq": 113
           }
         ],
@@ -1906,18 +1909,28 @@
       },
       "challenge": {
         "today": {
-          "day": "2026-11-20",
-          "id": "study",
-          "emoji": "📚",
-          "title": "Study day",
-          "text": "Study at least 51 games today.",
-          "status": "done",
+          "day": "2026-11-21",
+          "id": "news",
+          "emoji": "📰",
+          "title": "Read and react",
+          "text": "Use something I read in a bet today.",
+          "status": "active",
           "market": "spreads",
-          "target": 51,
-          "league": "basketball_wncaab",
-          "detail": "Studied 99 games."
+          "target": 54,
+          "league": "basketball_wncaab"
         },
         "recent": [
+          {
+            "day": "2026-11-21",
+            "id": "news",
+            "emoji": "📰",
+            "title": "Read and react",
+            "text": "Use something I read in a bet today.",
+            "status": "active",
+            "market": "spreads",
+            "target": 54,
+            "league": "basketball_wncaab"
+          },
           {
             "day": "2026-11-20",
             "id": "study",
@@ -1999,18 +2012,6 @@
             "target": 70,
             "league": "basketball_nbl",
             "detail": "No bet there today."
-          },
-          {
-            "day": "2026-11-13",
-            "id": "precision",
-            "emoji": "🎯",
-            "title": "Precision day",
-            "text": "Only bets with an edge 1% above my usual bar, and at least 2 of them must beat the market.",
-            "status": "failed",
-            "market": "spreads",
-            "target": 50,
-            "league": "basketball_nbl",
-            "detail": "3 bets, but not enough beat the market."
           }
         ],
         "done": 4,
@@ -2020,7 +2021,7 @@
       "traits": [],
       "mind": {
         "iq": 125,
-        "iq_week": 16,
+        "iq_week": 13,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -2088,6 +2089,10 @@
           },
           {
             "d": "2026-11-20",
+            "iq": 125
+          },
+          {
+            "d": "2026-11-21",
             "iq": 125
           }
         ],
@@ -2565,27 +2570,39 @@
       },
       "challenge": {
         "today": {
-          "day": "2026-11-20",
-          "id": "underdog",
-          "emoji": "🐶",
-          "title": "Underdog hunter",
-          "text": "Back an underdog (odds 2.5+) that beats the market.",
+          "day": "2026-11-21",
+          "id": "explorer",
+          "emoji": "🧭",
+          "title": "Explorer day",
+          "text": "Make a bet in NCAAF FCS, the competition I'm exploring.",
           "status": "active",
-          "market": "spreads",
-          "target": 105,
+          "market": "totals",
+          "target": 106,
           "league": "americanfootball_ncaaf_fcs"
         },
         "recent": [
+          {
+            "day": "2026-11-21",
+            "id": "explorer",
+            "emoji": "🧭",
+            "title": "Explorer day",
+            "text": "Make a bet in NCAAF FCS, the competition I'm exploring.",
+            "status": "active",
+            "market": "totals",
+            "target": 106,
+            "league": "americanfootball_ncaaf_fcs"
+          },
           {
             "day": "2026-11-20",
             "id": "underdog",
             "emoji": "🐶",
             "title": "Underdog hunter",
             "text": "Back an underdog (odds 2.5+) that beats the market.",
-            "status": "active",
+            "status": "none",
             "market": "spreads",
             "target": 105,
-            "league": "americanfootball_ncaaf_fcs"
+            "league": "americanfootball_ncaaf_fcs",
+            "detail": "No chance today: nothing fit the challenge, and not betting was the right call."
           },
           {
             "day": "2026-11-19",
@@ -2657,18 +2674,6 @@
             "target": 119,
             "league": "americanfootball_cfl",
             "detail": "2 bets beat the market."
-          },
-          {
-            "day": "2026-11-13",
-            "id": "new_ground",
-            "emoji": "🗺️",
-            "title": "New ground",
-            "text": "Make a bet in the bet type I use least: total.",
-            "status": "done",
-            "market": "totals",
-            "target": 122,
-            "league": "americanfootball_cfl",
-            "detail": "Bet Over 43.5 (total)."
           }
         ],
         "done": 6,
@@ -2678,7 +2683,7 @@
       "traits": [],
       "mind": {
         "iq": 116,
-        "iq_week": 17,
+        "iq_week": 15,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -2746,6 +2751,10 @@
           },
           {
             "d": "2026-11-20",
+            "iq": 116
+          },
+          {
+            "d": "2026-11-21",
             "iq": 116
           }
         ],
@@ -10385,18 +10394,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-19T00:00:58Z",
-      "text": "❌ 🧮 The Quant missed 🗺️ New ground: No bet of that type today."
-    },
-    {
-      "t": "2026-11-19T00:00:58Z",
-      "text": "🎯 🧮 The Quant's challenge today: 🧘 Discipline day. No gut calls, no wild bets, nothing above odds 3.0, and still beat the market."
-    },
-    {
-      "t": "2026-11-19T00:00:58Z",
-      "text": "🎯 🦈 The Shark's challenge today: 🐶 Underdog hunter. Back an underdog (odds 2.5+) that beats the market."
-    },
-    {
       "t": "2026-11-19T03:15:31Z",
       "text": "Results:\n- Lost -2.39: Orlando Magic (Winner) in Orlando Magic vs Philadelphia 76ers (Orlando Magic 116 - 121 Philadelphia 76ers)"
     },
@@ -10503,6 +10500,18 @@
     {
       "t": "2026-11-20T23:30:52Z",
       "text": "🏁 🧮 The Quant now leads the race to go live (14 days to selection)."
+    },
+    {
+      "t": "2026-11-21T00:00:58Z",
+      "text": "🎯 🦎 The Lizard's challenge today: 🗺️ New ground. Make a bet in the bet type I use least: spread."
+    },
+    {
+      "t": "2026-11-21T00:00:58Z",
+      "text": "🎯 🧮 The Quant's challenge today: 📰 Read and react. Use something I read in a bet today."
+    },
+    {
+      "t": "2026-11-21T00:00:58Z",
+      "text": "🎯 🦈 The Shark's challenge today: 🧭 Explorer day. Make a bet in NCAAF FCS, the competition I'm exploring."
     }
   ]
 }
