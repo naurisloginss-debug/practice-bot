@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T22:15:32Z",
+  "updated": "2026-11-21T22:30:50Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -518,7 +518,7 @@
       "leader": "lizard"
     }
   },
-  "credits_left": 18264,
+  "credits_left": 18259,
   "last_scan": "2026-11-21@21",
   "strategies": {
     "lizard": {
@@ -563,7 +563,7 @@
         "Total"
       ],
       "start_fund": 500,
-      "fund": 487.35,
+      "fund": 499.57,
       "lessons": [
         {
           "kind": "avoid",
@@ -577,12 +577,12 @@
         }
       ],
       "bets": 79,
-      "open": 19,
-      "won": 17,
+      "open": 18,
+      "won": 18,
       "lost": 43,
-      "staked": 136.56,
-      "profit": -12.65,
-      "roi": -0.0926,
+      "staked": 141.76,
+      "profit": -0.43,
+      "roi": -0.003,
       "avg_edge": 0.0317,
       "avg_clv": 0.003,
       "beat_close": 0.6462,
@@ -831,6 +831,10 @@
         {
           "t": "2026-11-21T21:45:32Z",
           "fund": 487.35
+        },
+        {
+          "t": "2026-11-21T22:30:50Z",
+          "fund": 499.57
         }
       ],
       "by_league": [
@@ -927,8 +931,8 @@
         {
           "name": "Brasileirão (Brazil)",
           "bets": 5,
-          "profit": 0.59,
-          "roi": 0.0977,
+          "profit": 12.81,
+          "roi": 1.1397,
           "avg_clv": -0.0231,
           "beat_close": 0.25,
           "clv_count": 4
@@ -965,8 +969,8 @@
         {
           "name": "Winner",
           "bets": 72,
-          "profit": -14.87,
-          "roi": -0.1245,
+          "profit": -2.65,
+          "roi": -0.0213,
           "avg_clv": 0.0019,
           "beat_close": 0.629,
           "clv_count": 62
@@ -985,8 +989,8 @@
         {
           "name": "Football",
           "bets": 79,
-          "profit": -12.65,
-          "roi": -0.0926,
+          "profit": -0.43,
+          "roi": -0.003,
           "avg_clv": 0.003,
           "beat_close": 0.6462,
           "clv_count": 65
@@ -1285,7 +1289,7 @@
           "from": "Discipline day",
           "since": "2026-11-21T12:15:32Z",
           "on": -0.0049,
-          "off": -0.001,
+          "off": -0.0006,
           "bets": 3
         },
         {
@@ -1296,7 +1300,7 @@
           "from": "Study day",
           "since": "2026-11-21T14:45:34Z",
           "on": 0.0228,
-          "off": -0.0063,
+          "off": -0.0057,
           "bets": 9
         }
       ],
@@ -1465,7 +1469,7 @@
         ],
         "rules": 0,
         "studied": 257,
-        "resolved": 176
+        "resolved": 178
       }
     },
     "quant": {
@@ -2363,10 +2367,10 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.02,
+        "min_edge": 0.015,
         "odds": [
           1.6,
-          4.0
+          5.0
         ],
         "stop_below": 250
       },
@@ -2953,15 +2957,15 @@
           "bets": 2
         },
         {
-          "id": "precision",
-          "emoji": "🎯",
-          "title": "Precise",
-          "effect": "Always demands +0.5% more edge.",
-          "from": "Precision day",
-          "since": "2026-11-21T22:15:32Z",
-          "on": 0.032,
-          "off": 0.0241,
-          "bets": 2
+          "id": "underdog",
+          "emoji": "🐶",
+          "title": "Underdog lover",
+          "effect": "Allows underdogs at odds up to 1.0 higher.",
+          "from": "Underdog hunter",
+          "since": "2026-11-21T22:30:50Z",
+          "on": 0.0105,
+          "off": 0.0303,
+          "bets": 11
         }
       ],
       "mind": {
@@ -5407,12 +5411,12 @@
       "fair_odds": 3.188,
       "edge": 0.051,
       "stake": 5.2,
-      "status": "open",
+      "status": "won",
       "closing_fair_odds": 3.545,
       "clv": -0.0551,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": 12.22,
+      "score": "Palmeiras 1 - 1 Flamengo",
+      "settled_at": "2026-11-21T22:30:50Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates Draw at 31.4%. That makes the fair price 3.19.",
         "Unibet (SE) pays 3.35. That is +5.1% above fair. My bar is +2.0%.",
@@ -10697,18 +10701,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-21T19:30:49Z",
-      "text": "🏅 🦎 The Lizard unlocked 💡 IQ 120: Reached Sport IQ 120."
-    },
-    {
-      "t": "2026-11-21T19:41:11Z",
-      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-21T19:41:11Z",
-      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +0.5%. Allows underdogs at odds up to 1.0 higher."
-    },
-    {
       "t": "2026-11-21T19:45:30Z",
       "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
     },
@@ -10815,6 +10807,18 @@
     {
       "t": "2026-11-21T22:15:32Z",
       "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+0.2% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-21T22:30:50Z",
+      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-21T22:30:50Z",
+      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +1.0%. Allows underdogs at odds up to 1.0 higher."
+    },
+    {
+      "t": "2026-11-21T22:30:50Z",
+      "text": "Results:\n- Won +12.22: Draw (Winner) in Palmeiras vs Flamengo (Palmeiras 1 - 1 Flamengo)"
     }
   ]
 }

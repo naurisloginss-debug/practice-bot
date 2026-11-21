@@ -1,6 +1,6 @@
 {
   "last_scan": "2026-11-21@21",
-  "credits_left": 18264,
+  "credits_left": 18259,
   "league_names": {
     "soccer_italy_serie_b": "Serie B (Italy 2)",
     "soccer_efl_champ": "Championship (England 2)",
@@ -30,7 +30,7 @@
   "last_settle_check": {
     "soccer_france_ligue_two": "2026-11-21T22:15:32Z",
     "soccer_efl_champ": "2026-11-21T21:45:32Z",
-    "soccer_germany_bundesliga2": "2026-11-21T15:00:59Z",
+    "soccer_germany_bundesliga2": "2026-11-21T22:30:50Z",
     "soccer_france_ligue_one": "2026-11-21T19:15:38Z",
     "soccer_spain_segunda_division": "2026-11-21T22:15:32Z",
     "americanfootball_nfl": "2026-11-20T04:15:38Z",
@@ -42,7 +42,7 @@
     "basketball_nbl": "2026-11-15T13:15:30Z",
     "soccer_england_league2": "2026-11-21T21:45:32Z",
     "soccer_england_league1": "2026-11-21T21:45:32Z",
-    "soccer_brazil_campeonato": "2026-11-20T07:30:46Z",
+    "soccer_brazil_campeonato": "2026-11-21T22:30:50Z",
     "americanfootball_cfl": "2026-11-16T08:01:11Z",
     "soccer_usa_mls": "2026-11-21T22:00:55Z",
     "soccer_australia_aleague": "2026-11-21T13:00:56Z",
@@ -52,18 +52,6 @@
     "americanfootball_ncaaf_fcs": "2026-11-21T20:15:33Z"
   },
   "log": [
-    {
-      "t": "2026-11-21T19:30:49Z",
-      "text": "🏅 🦎 The Lizard unlocked 💡 IQ 120: Reached Sport IQ 120."
-    },
-    {
-      "t": "2026-11-21T19:41:11Z",
-      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-21T19:41:11Z",
-      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +0.5%. Allows underdogs at odds up to 1.0 higher."
-    },
     {
       "t": "2026-11-21T19:45:30Z",
       "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
@@ -171,6 +159,18 @@
     {
       "t": "2026-11-21T22:15:32Z",
       "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+0.2% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-21T22:30:50Z",
+      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-21T22:30:50Z",
+      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +1.0%. Allows underdogs at odds up to 1.0 higher."
+    },
+    {
+      "t": "2026-11-21T22:30:50Z",
+      "text": "Results:\n- Won +12.22: Draw (Winner) in Palmeiras vs Flamengo (Palmeiras 1 - 1 Flamengo)"
     }
   ],
   "levels": {
@@ -2693,13 +2693,13 @@
       "discipline": {
         "since": "2026-11-21T12:15:32Z",
         "on": -0.0049,
-        "off": -0.001,
+        "off": -0.0006,
         "bets": 3
       },
       "study": {
         "since": "2026-11-21T14:45:34Z",
         "on": 0.0228,
-        "off": -0.0063,
+        "off": -0.0057,
         "bets": 9
       }
     },
@@ -2736,11 +2736,11 @@
         "off": 0.017,
         "bets": 2
       },
-      "precision": {
-        "since": "2026-11-21T22:15:32Z",
-        "on": 0.032,
-        "off": 0.0241,
-        "bets": 2
+      "underdog": {
+        "since": "2026-11-21T22:30:50Z",
+        "on": 0.0105,
+        "off": 0.0303,
+        "bets": 11
       }
     }
   },
