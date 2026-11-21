@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T20:00:55Z",
+  "updated": "2026-11-21T20:15:33Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -8,23 +8,23 @@
   ],
   "arena": {
     "ranking": [
-      "quant",
       "shark",
+      "quant",
       "lizard"
     ],
     "grower": "lizard",
     "talk": [
       {
-        "who": "quant",
-        "text": "The data put me first. The Shark, check your model. 13 days until selection. Regression to the mean is coming for the leader."
+        "who": "shark",
+        "text": "Apex predator. The Quant, keep swimming. Only one of us gets real money, in 13 days. And I'm hungry."
       },
       {
-        "who": "shark",
-        "text": "I smell The Quant's lead from here. Closing in. Only one of us gets real money, in 13 days. And I'm hungry."
+        "who": "quant",
+        "text": "The Shark is ahead on paper. My numbers say not for long. 13 days until selection. Regression to the mean is coming for the leader."
       },
       {
         "who": "lizard",
-        "text": "The Quant can enjoy the view. I'm patient, and I'm coming. And only one of us goes live in 13 days. Patience wins races."
+        "text": "The Shark can enjoy the view. I'm patient, and I'm coming. And only one of us goes live in 13 days. Patience wins races."
       }
     ],
     "chars": {
@@ -330,9 +330,9 @@
         ]
       },
       "shark": {
-        "iq": 122,
-        "iq_gain": 5,
-        "streak": 0,
+        "iq": 123,
+        "iq_gain": 6,
+        "streak": 1,
         "best_streak": 4,
         "achievements": [
           {
@@ -443,17 +443,17 @@
           {
             "text": "Bets checked against the market",
             "target": 30,
-            "now": 25
+            "now": 26
           },
           {
             "text": "Beat the market on",
             "target": 61,
-            "now": 48,
+            "now": 50,
             "unit": "%",
             "pending": false
           }
         ],
-        "score": 188,
+        "score": 189,
         "trophies": [
           {
             "kind": "sharpshooter",
@@ -500,14 +500,14 @@
         {
           "who": "shark",
           "eligible": false,
-          "measured": 22,
-          "need": 8,
-          "clv": 0.0304,
-          "cautious": 0.016,
-          "beat": 0.7273,
+          "measured": 23,
+          "need": 7,
+          "clv": 0.0315,
+          "cautious": 0.0177,
+          "beat": 0.7391,
           "challenges": 0.778,
           "traits": 3,
-          "score": 30.46
+          "score": 32.37
         }
       ],
       "ranking": [
@@ -518,7 +518,7 @@
       "leader": "lizard"
     }
   },
-  "credits_left": 18347,
+  "credits_left": 18344,
   "last_scan": "2026-11-21@17",
   "strategies": {
     "lizard": {
@@ -2305,10 +2305,10 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.015,
+        "min_edge": 0.02,
         "odds": [
           1.6,
-          5.0
+          4.0
         ],
         "stop_below": 250
       },
@@ -2333,7 +2333,7 @@
         {
           "kind": "favour",
           "text": "Backing harder: College football (US) · winner",
-          "detail": "+2.6% vs the market, beat it on 65% of 23 bets"
+          "detail": "+2.7% vs the market, beat it on 67% of 24 bets"
         }
       ],
       "bets": 88,
@@ -2344,9 +2344,9 @@
       "profit": -17.14,
       "roi": -0.2317,
       "avg_edge": 0.0282,
-      "avg_clv": 0.0057,
-      "beat_close": 0.537,
-      "clv_count": 54,
+      "avg_clv": 0.0066,
+      "beat_close": 0.5455,
+      "clv_count": 55,
       "history": [
         {
           "t": "2026-11-07T16:00:52Z",
@@ -2541,9 +2541,9 @@
           "bets": 59,
           "profit": -17.86,
           "roi": -0.4146,
-          "avg_clv": 0.0028,
-          "beat_close": 0.5385,
-          "clv_count": 39
+          "avg_clv": 0.0041,
+          "beat_close": 0.55,
+          "clv_count": 40
         }
       ],
       "by_market": [
@@ -2561,9 +2561,9 @@
           "bets": 68,
           "profit": 0.19,
           "roi": 0.0041,
-          "avg_clv": 0.0044,
-          "beat_close": 0.5333,
-          "clv_count": 45
+          "avg_clv": 0.0055,
+          "beat_close": 0.5435,
+          "clv_count": 46
         },
         {
           "name": "Total",
@@ -2581,9 +2581,9 @@
           "bets": 88,
           "profit": -17.14,
           "roi": -0.2317,
-          "avg_clv": 0.0057,
-          "beat_close": 0.537,
-          "clv_count": 54
+          "avg_clv": 0.0066,
+          "beat_close": 0.5455,
+          "clv_count": 55
         }
       ],
       "gut": {
@@ -2714,9 +2714,9 @@
         "badge": "🎓",
         "stake": 1.0,
         "perk": "Has a track record. Starts learning which bets work.",
-        "measured": 22,
-        "clv": 0.0304,
-        "beat": 0.7273,
+        "measured": 23,
+        "clv": 0.0315,
+        "beat": 0.7391,
         "cold": false,
         "next": {
           "title": "Sharp",
@@ -2726,20 +2726,20 @@
             {
               "text": "40 measured bets",
               "done": false,
-              "now": "22"
+              "now": "23"
             },
             {
               "text": "beat the market on 55%+",
               "done": true,
-              "now": "73%"
+              "now": "74%"
             },
             {
               "text": "average price +1.0%+ vs market",
               "done": true,
-              "now": "+3.0%"
+              "now": "+3.2%"
             }
           ],
-          "progress": 0.55
+          "progress": 0.575
         }
       },
       "explorer": {
@@ -2880,7 +2880,7 @@
           "from": "New ground",
           "since": "2026-11-21T07:21:41Z",
           "on": 0.0105,
-          "off": 0.0237,
+          "off": 0.0225,
           "bets": 5
         },
         {
@@ -2891,24 +2891,24 @@
           "from": "Read and react",
           "since": "2026-11-21T17:45:33Z",
           "on": 0.0888,
-          "off": 0.0179,
+          "off": 0.0172,
           "bets": 2
         },
         {
-          "id": "underdog",
-          "emoji": "🐶",
-          "title": "Underdog lover",
-          "effect": "Allows underdogs at odds up to 1.0 higher.",
-          "from": "Underdog hunter",
-          "since": "2026-11-21T20:00:55Z",
-          "on": 0.0045,
-          "off": 0.0302,
-          "bets": 7
+          "id": "precision",
+          "emoji": "🎯",
+          "title": "Precise",
+          "effect": "Always demands +0.5% more edge.",
+          "from": "Precision day",
+          "since": "2026-11-21T20:15:33Z",
+          "on": 0.032,
+          "off": 0.025,
+          "bets": 2
         }
       ],
       "mind": {
-        "iq": 122,
-        "iq_week": 21,
+        "iq": 123,
+        "iq_week": 22,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -2980,7 +2980,7 @@
           },
           {
             "d": "2026-11-21",
-            "iq": 122
+            "iq": 123
           }
         ],
         "facts": [
@@ -3000,10 +3000,10 @@
           },
           {
             "conf": "solid",
-            "n": 38,
+            "n": 39,
             "z": 0,
-            "text": "When I find value, the market moves my way before kick-off 63% of the time.",
-            "detail": "38 bets measured"
+            "text": "When I find value, the market moves my way before kick-off 64% of the time.",
+            "detail": "39 bets measured"
           },
           {
             "conf": "watching",
@@ -3015,7 +3015,7 @@
         ],
         "rules": 0,
         "studied": 289,
-        "resolved": 164
+        "resolved": 172
       }
     }
   },
@@ -4890,8 +4890,8 @@
       "edge": 0.0212,
       "stake": 2.41,
       "status": "open",
-      "closing_fair_odds": null,
-      "clv": null,
+      "closing_fair_odds": 3.431,
+      "clv": 0.0552,
       "profit": 0.0,
       "score": null,
       "settled_at": null,
@@ -10639,18 +10639,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-21T17:00:58Z",
-      "text": "Results:\n- Won +3.12: Carrarese (Winner) in Carrarese vs Virtus Entella (Carrarese 1 - 0 Virtus Entella)"
-    },
-    {
-      "t": "2026-11-21T17:15:34Z",
-      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-21T17:30:47Z",
-      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
-    },
-    {
       "t": "2026-11-21T17:30:47Z",
       "text": "🏟️ 🦈 The Shark takes the lead in the Arena."
     },
@@ -10757,6 +10745,18 @@
     {
       "t": "2026-11-21T20:00:55Z",
       "text": "Placed 9 practice bets:\n- The Lizard: **Hellas Verona** (Winner) in Virtus Entella vs Hellas Verona (Serie B (Italy 2)) at 2.43 on Unibet (NL), stake 5.25, edge +2.2%\n- The Lizard: **Draw** (Winner) in Pisa vs Modena (Serie B (Italy 2)) at 3.3 on Unibet (SE), stake 5.49, edge +3.8%\n- The Quant: **Los Angeles Clippers** (Winner) in Dallas Mavericks vs Los Angeles Clippers (NBA) at 2.8 on Unibet (SE), stake 2.40, edge +2.7%\n- The Quant: **Bradley Braves** (Winner) in Pacific Tigers vs Bradley Braves (College basketball (US)) at 4.5 on Unibet (SE), stake 1.93, edge +4.2%\n- The Shark: **Tennessee Titans** (Winner) in Dallas Cowboys vs Tennessee Titans (NFL) at 4.3 on Matchbook, stake 2.35, edge +2.6%\n- The Shark ⚡ pounce: **New Orleans Saints** (Winner) in Chicago Bears vs New Orleans Saints (NFL) at 6.2 on Tipico, stake 2.85, edge +10.2%\n- The Quant 🧭 scout: **New York Knicks** (Winner) in New York Knicks vs Portland Trail Blazers (NBA) at 1.71 on Matchbook, stake 2.25, edge +1.0%\n- The Shark 🧭 scout: **Washington Commanders** (Winner) in Washington Commanders vs Cincinnati Bengals (NFL) at 3.6 on Matchbook, stake 2.41, edge +0.8%\n- The Shark 🎲 wild: **South Carolina Gamecocks** (Winner) in South Carolina Gamecocks vs Georgia Bulldogs (College football (US)) at 7.2 on Betfair, stake 1.21, edge +1.9%"
+    },
+    {
+      "t": "2026-11-21T20:15:33Z",
+      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
+    },
+    {
+      "t": "2026-11-21T20:15:33Z",
+      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (-0.2% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-21T20:15:33Z",
+      "text": "🏟️ 🦈 The Shark takes the lead in the Arena."
     }
   ]
 }
