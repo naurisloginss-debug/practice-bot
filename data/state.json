@@ -52,14 +52,6 @@
   },
   "log": [
     {
-      "t": "2026-11-21T16:30:49Z",
-      "text": "🏅 🦈 The Shark unlocked 🧪 Self-Critic: Cut or backed a kind of bet based on its own record."
-    },
-    {
-      "t": "2026-11-21T16:30:49Z",
-      "text": "🏅 🦈 The Shark unlocked 💡 IQ 120: Reached Sport IQ 120."
-    },
-    {
       "t": "2026-11-21T16:45:33Z",
       "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
     },
@@ -170,6 +162,14 @@
     {
       "t": "2026-11-21T19:41:11Z",
       "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +0.5%. Allows underdogs at odds up to 1.0 higher."
+    },
+    {
+      "t": "2026-11-21T19:45:30Z",
+      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
+    },
+    {
+      "t": "2026-11-21T19:45:30Z",
+      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+0.0% vs the market on those days)."
     }
   ],
   "levels": {
@@ -2730,11 +2730,11 @@
         "off": 0.0179,
         "bets": 2
       },
-      "underdog": {
-        "since": "2026-11-21T19:41:11Z",
-        "on": 0.0045,
-        "off": 0.0302,
-        "bets": 7
+      "precision": {
+        "since": "2026-11-21T19:45:30Z",
+        "on": 0.032,
+        "off": 0.0266,
+        "bets": 2
       }
     }
   },
