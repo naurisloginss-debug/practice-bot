@@ -1,6 +1,6 @@
 {
   "last_scan": "2026-11-21@8",
-  "credits_left": 18515,
+  "credits_left": 18514,
   "league_names": {
     "soccer_italy_serie_b": "Serie B (Italy 2)",
     "soccer_efl_champ": "Championship (England 2)",
@@ -51,10 +51,6 @@
     "soccer_mexico_ligamx": "2026-11-21T10:00:55Z"
   },
   "log": [
-    {
-      "t": "2026-11-21T00:00:58Z",
-      "text": "🎯 🧮 The Quant's challenge today: 📰 Read and react. Use something I read in a bet today."
-    },
     {
       "t": "2026-11-21T00:00:58Z",
       "text": "🎯 🦈 The Shark's challenge today: 🧭 Explorer day. Make a bet in NCAAF FCS, the competition I'm exploring."
@@ -170,6 +166,10 @@
     {
       "t": "2026-11-21T11:15:41Z",
       "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
+    },
+    {
+      "t": "2026-11-21T11:30:48Z",
+      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
     }
   ],
   "levels": {
@@ -2695,12 +2695,6 @@
         "on": 0.0105,
         "off": 0.0188,
         "bets": 5
-      },
-      "precision": {
-        "since": "2026-11-21T11:15:41Z",
-        "on": 0.032,
-        "off": 0.022,
-        "bets": 2
       }
     }
   },
