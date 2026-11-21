@@ -52,22 +52,6 @@
   },
   "log": [
     {
-      "t": "2026-11-19T08:00:56Z",
-      "text": "Placed 13 practice bets:\n- The Lizard: **Draw** (Winner) in Lincoln City vs Wrexham AFC (Championship (England 2)) at 3.45 on LeoVegas (SE), stake 2.62, edge +2.7%\n- The Lizard: **Draw** (Winner) in Palmeiras vs Flamengo (Brasileirão (Brazil)) at 3.35 on Unibet (SE), stake 5.20, edge +5.1%\n- The Lizard 🧭 scout: **Oldham Athletic** (Winner) in Oldham Athletic vs Exeter City (League Two (England 4)) at 2.1 on Matchbook, stake 2.40, edge +0.5%\n- The Lizard 🧭 scout: **Strasbourg** (Winner) in Strasbourg vs Brest (Ligue 1 (France)) at 2.35 on LeoVegas (SE), stake 2.40, edge +1.0%\n- The Quant 🧭 scout: **Maccabi Tel Aviv** (Winner) in Maccabi Tel Aviv vs Dubai Basketball (EuroLeague) at 2.41 on Marathon Bet, stake 2.33, edge +0.7%\n- The Quant 🧭 scout: **Texas A&M Aggies** (Winner) in TCU Horned Frogs vs Texas A&M Aggies (College basketball (US)) at 1.95 on GTbets, stake 2.33, edge +0.5%\n- The Shark 🧭 scout: **Under 38.5** (Total) in Philadelphia Eagles vs Pittsburgh Steelers (NFL) at 1.92 on Unibet (NL), stake 2.47, edge +1.4%\n- The Shark 🧭 scout: **California Golden Bears +2.5** (Spread) in California Golden Bears vs Stanford Cardinal (College football (US)) at 2.0 on BetAnything, stake 2.47, edge +0.8%\n- The Shark 🧭 scout: **Cincinnati Bearcats** (Winner) in Cincinnati Bearcats vs Colorado Buffaloes (College football (US)) at 1.67 on BetAnything, stake 2.47, edge +0.6%\n- The Shark 💭 gut: **New York Giants** (Winner) in New York Giants vs Jacksonville Jaguars (NFL) at 3.35 on Unibet (SE), stake 2.47, edge +-0.1%\n- The Lizard 🎲 wild: **Preston North End** (Winner) in West Ham United vs Preston North End (Championship (England 2)) at 14.0 on LeoVegas (SE), stake 1.20, edge +12.8%\n- The Lizard 🎲 wild: **Charlton Athletic** (Winner) in Wolverhampton Wanderers vs Charlton Athletic (Championship (England 2)) at 10.5 on Matchbook, stake 1.20, edge +11.3%\n- The Shark 🎲 wild: **Charlotte 49ers** (Winner) in Tulsa Golden Hurricane vs Charlotte 49ers (College football (US)) at 14.5 on Betfair, stake 1.23, edge +12.9%"
-    },
-    {
-      "t": "2026-11-19T08:15:32Z",
-      "text": "✅ 🦎 The Lizard completed 📚 Study day: Studied 103 games."
-    },
-    {
-      "t": "2026-11-19T08:15:32Z",
-      "text": "🏅 🦎 The Lizard unlocked 🎯 Challenge Accepted: Completed its first daily challenge."
-    },
-    {
-      "t": "2026-11-19T09:15:34Z",
-      "text": "Results:\n- Lost -2.39: New Orleans Pelicans (Winner) in New Orleans Pelicans vs Detroit Pistons (New Orleans Pelicans 109 - 122 Detroit Pistons)"
-    },
-    {
       "t": "2026-11-19T10:30:47Z",
       "text": "Results:\n- Lost -2.23: Fresno St Bulldogs (Winner) in San José St Spartans vs Fresno St Bulldogs (San José St Spartans 92 - 86 Fresno St Bulldogs)"
     },
@@ -170,6 +154,22 @@
     {
       "t": "2026-11-21T03:15:32Z",
       "text": "Results:\n- Lost -5.70: Charlotte Hornets (Winner) in Atlanta Hawks vs Charlotte Hornets (Atlanta Hawks 111 - 97 Charlotte Hornets)"
+    },
+    {
+      "t": "2026-11-21T07:21:41Z",
+      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
+    },
+    {
+      "t": "2026-11-21T07:21:41Z",
+      "text": "🧬 🧮 The Quant made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-11 and its bets beat the market by +1.3%. Allows underdogs at odds up to 1.0 higher."
+    },
+    {
+      "t": "2026-11-21T07:21:41Z",
+      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
+    },
+    {
+      "t": "2026-11-21T07:21:41Z",
+      "text": "🧬 🦈 The Shark made New ground part of its character: 🗺️ Versatile. It completed the challenge on 2026-11-13 and its bets beat the market by +2.9%. Keeps trying every bet type (+1 scout bet a day)."
     }
   ],
   "levels": {
@@ -2671,8 +2671,34 @@
   },
   "traits": {
     "lizard": {},
-    "quant": {},
-    "shark": {}
+    "quant": {
+      "discipline": {
+        "since": "2026-11-21T07:21:41Z",
+        "on": 0.0391,
+        "off": -0.0006,
+        "bets": 3
+      },
+      "underdog": {
+        "since": "2026-11-21T07:21:41Z",
+        "on": 0.0135,
+        "off": -0.0025,
+        "bets": 10
+      }
+    },
+    "shark": {
+      "precision": {
+        "since": "2026-11-21T07:21:41Z",
+        "on": 0.032,
+        "off": 0.022,
+        "bets": 2
+      },
+      "new_ground": {
+        "since": "2026-11-21T07:21:41Z",
+        "on": 0.029,
+        "off": 0.0188,
+        "bets": 6
+      }
+    }
   },
   "race_leader": "quant"
 }
