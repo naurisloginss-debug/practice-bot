@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T21:30:46Z",
+  "updated": "2026-11-21T21:45:32Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -29,8 +29,8 @@
     ],
     "chars": {
       "lizard": {
-        "iq": 120,
-        "iq_gain": 14,
+        "iq": 121,
+        "iq_gain": 15,
         "streak": 4,
         "best_streak": 8,
         "achievements": [
@@ -152,7 +152,7 @@
             "pending": false
           }
         ],
-        "score": 171,
+        "score": 172,
         "trophies": [
           {
             "kind": "sharpshooter",
@@ -518,7 +518,7 @@
       "leader": "lizard"
     }
   },
-  "credits_left": 18277,
+  "credits_left": 18271,
   "last_scan": "2026-11-21@21",
   "strategies": {
     "lizard": {
@@ -563,7 +563,7 @@
         "Total"
       ],
       "start_fund": 500,
-      "fund": 510.09,
+      "fund": 487.35,
       "lessons": [
         {
           "kind": "avoid",
@@ -577,12 +577,12 @@
         }
       ],
       "bets": 79,
-      "open": 29,
-      "won": 16,
-      "lost": 34,
-      "staked": 109.84,
-      "profit": 10.09,
-      "roi": 0.0919,
+      "open": 19,
+      "won": 17,
+      "lost": 43,
+      "staked": 136.56,
+      "profit": -12.65,
+      "roi": -0.0926,
       "avg_edge": 0.0317,
       "avg_clv": 0.0027,
       "beat_close": 0.6406,
@@ -791,6 +791,46 @@
         {
           "t": "2026-11-21T21:00:57Z",
           "fund": 510.09
+        },
+        {
+          "t": "2026-11-21T21:45:32Z",
+          "fund": 507.47
+        },
+        {
+          "t": "2026-11-21T21:45:32Z",
+          "fund": 505.07
+        },
+        {
+          "t": "2026-11-21T21:45:32Z",
+          "fund": 503.87
+        },
+        {
+          "t": "2026-11-21T21:45:32Z",
+          "fund": 502.67
+        },
+        {
+          "t": "2026-11-21T21:45:32Z",
+          "fund": 499.15
+        },
+        {
+          "t": "2026-11-21T21:45:32Z",
+          "fund": 500.73
+        },
+        {
+          "t": "2026-11-21T21:45:32Z",
+          "fund": 495.55
+        },
+        {
+          "t": "2026-11-21T21:45:32Z",
+          "fund": 491.01
+        },
+        {
+          "t": "2026-11-21T21:45:32Z",
+          "fund": 488.57
+        },
+        {
+          "t": "2026-11-21T21:45:32Z",
+          "fund": 487.35
         }
       ],
       "by_league": [
@@ -842,8 +882,8 @@
         {
           "name": "Championship (England 2)",
           "bets": 20,
-          "profit": 10.23,
-          "roi": 0.8455,
+          "profit": -2.05,
+          "roi": -0.0723,
           "avg_clv": 0.0002,
           "beat_close": 0.5882,
           "clv_count": 17
@@ -860,8 +900,8 @@
         {
           "name": "League Two (England 4)",
           "bets": 9,
-          "profit": 0.77,
-          "roi": 0.0777,
+          "profit": -9.69,
+          "roi": -0.4757,
           "avg_clv": -0.0113,
           "beat_close": 0.5556,
           "clv_count": 9
@@ -925,8 +965,8 @@
         {
           "name": "Winner",
           "bets": 72,
-          "profit": 7.87,
-          "roi": 0.0849,
+          "profit": -14.87,
+          "roi": -0.1245,
           "avg_clv": 0.0016,
           "beat_close": 0.623,
           "clv_count": 61
@@ -945,8 +985,8 @@
         {
           "name": "Football",
           "bets": 79,
-          "profit": 10.09,
-          "roi": 0.0919,
+          "profit": -12.65,
+          "roi": -0.0926,
           "avg_clv": 0.0027,
           "beat_close": 0.6406,
           "clv_count": 64
@@ -966,8 +1006,8 @@
       "wild": {
         "bets": 4,
         "won": 0,
-        "lost": 1,
-        "profit": -1.24,
+        "lost": 4,
+        "profit": -4.86,
         "best": null,
         "avg_clv": 0.0556,
         "appetite": 0.45
@@ -981,49 +1021,49 @@
         "measured": 2
       },
       "reading": {
-        "week": 99,
+        "week": 88,
         "latest": [
+          {
+            "t": "2026-11-21T21:14:08Z",
+            "title": "Raya set to have scan on injury - how much would Arsenal miss him?",
+            "link": "https://www.bbc.co.uk/sport/football/articles/ckx28w9ree9vo?at_medium=RSS&at_campaign=rss",
+            "source": "feeds.bbci.co.uk",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-21T21:04:56Z",
+            "title": "Juventus squad vs. Venezia: Cambiaso and Çelik return, Kalulu and González miss out",
+            "link": "https://football-italia.net/juventus-squad-vs-venezia-cambiaso-and-celik/",
+            "source": "football-italia.net",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-21T20:36:43Z",
+            "title": "Hirst key for Stoke, injuries derail Millwall - Sam Parkin's EFL takeaways",
+            "link": "https://www.bbc.co.uk/sport/football/articles/c6r7g8253e3yo?at_medium=RSS&at_campaign=rss",
+            "source": "feeds.bbci.co.uk",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-21T20:27:58Z",
+            "title": "Vergara forced off in tears as De Bruyne comes on early for Napoli, will affect Manchester City game",
+            "link": "https://football-italia.net/vergara-forced-off-in-tears-as-de-bruyne-on/",
+            "source": "football-italia.net",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-21T18:49:54Z",
+            "title": "Serie A | Parma 1-5 Roma: Malen hero with four goals as big names return",
+            "link": "https://football-italia.net/serie-a-parma-1-5-roma-malen-hero-four-goals/",
+            "source": "football-italia.net",
+            "tone": 1
+          },
           {
             "t": "2026-11-21T18:11:00Z",
             "title": "PSG fear Doue ACL injury in latest blow ahead of Roma clash",
             "link": "https://football-italia.net/psg-fear-doue-acl-latest-blow-roma-clash/",
             "source": "football-italia.net",
             "tone": -1
-          },
-          {
-            "t": "2026-11-21T16:01:03Z",
-            "title": "Serie A | Como 2-0 Cagliari: Comfortable Lariani return to victory",
-            "link": "https://football-italia.net/serie-a-como-2-0-cagliari-comfortable-lariani/",
-            "source": "football-italia.net",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-21T14:25:54Z",
-            "title": "Italy star Tonali out for Tottenham Hotspur, but Udogie back to start",
-            "link": "https://football-italia.net/italy-tonali-tottenham-hotspur-udogie-start/",
-            "source": "football-italia.net",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-21T13:29:40Z",
-            "title": "Bayern draw with Cologne as Kane picks up ankle injury",
-            "link": "https://www.bbc.co.uk/sport/football/videos/ck7v2nz0lp32o?at_medium=RSS&at_campaign=rss",
-            "source": "feeds.bbci.co.uk",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-21T11:52:51Z",
-            "title": "Report: Bayern Munich could rival Milan for Tresoldi after Kane surgery",
-            "link": "https://football-italia.net/report-bayern-could-rival-milan-for-tresoldi/",
-            "source": "football-italia.net",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-21T09:29:13Z",
-            "title": "Serie A: Lazio vs. Lecce – Probable line-ups and where to watch on TV",
-            "link": "https://football-italia.net/serie-a-lazio-vs-lecce-probable-line-ups-3/",
-            "source": "football-italia.net",
-            "tone": 1
           }
         ]
       },
@@ -1261,8 +1301,8 @@
         }
       ],
       "mind": {
-        "iq": 120,
-        "iq_week": 18,
+        "iq": 121,
+        "iq_week": 19,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -1334,7 +1374,7 @@
           },
           {
             "d": "2026-11-21",
-            "iq": 120
+            "iq": 121
           }
         ],
         "facts": [
@@ -1425,7 +1465,7 @@
         ],
         "rules": 0,
         "studied": 257,
-        "resolved": 144
+        "resolved": 171
       }
     },
     "quant": {
@@ -1880,7 +1920,7 @@
         "measured": 0
       },
       "reading": {
-        "week": 97,
+        "week": 91,
         "latest": [
           {
             "t": "2026-11-21T07:00:00Z",
@@ -1911,18 +1951,18 @@
             "tone": -1
           },
           {
-            "t": "2026-11-20T22:20:44Z",
-            "title": "Dominick Barlow probable, Jaylen Brown out for Sixers vs. Bucks",
-            "link": "https://sports.yahoo.com/articles/dominick-barlow-probable-jaylen-brown-222044017.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
             "t": "2026-11-20T15:30:27Z",
             "title": "Damian Lillard stars in his Milwaukee return in another stark reminder of how bleak things are for the Bucks",
             "link": "https://www.cbssports.com/nba/news/damian-lillard-milwaukee-return-trail-blazers-bucks-bleak-future/",
             "source": "www.cbssports.com",
             "tone": 1
+          },
+          {
+            "t": "2026-11-19T17:22:11Z",
+            "title": "NBA's eight biggest disappointments through one month: Injury bug, same old East and an underwhelming champ",
+            "link": "https://www.cbssports.com/nba/news/nbas-biggest-disappointments-one-month-injury-bug-east-underwhelming-champ/",
+            "source": "www.cbssports.com",
+            "tone": -1
           }
         ]
       },
@@ -2145,7 +2185,7 @@
           "from": "Discipline day",
           "since": "2026-11-21T07:21:41Z",
           "on": 0.0129,
-          "off": -0.0,
+          "off": -0.002,
           "bets": 6
         },
         {
@@ -2156,7 +2196,7 @@
           "from": "Underdog hunter",
           "since": "2026-11-21T07:21:41Z",
           "on": 0.016,
-          "off": -0.0017,
+          "off": -0.0038,
           "bets": 9
         },
         {
@@ -2166,9 +2206,9 @@
           "effect": "Trusts its hunches more (+10% gut trust).",
           "from": "Read and react",
           "since": "2026-11-21T18:45:31Z",
-          "on": 0.0056,
+          "on": -0.0133,
           "off": 0.0012,
-          "bets": 4
+          "bets": 5
         }
       ],
       "mind": {
@@ -2323,10 +2363,10 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.015,
+        "min_edge": 0.02,
         "odds": [
           1.6,
-          5.0
+          4.0
         ],
         "stop_below": 250
       },
@@ -2633,49 +2673,49 @@
         "measured": 0
       },
       "reading": {
-        "week": 404,
+        "week": 421,
         "latest": [
           {
-            "t": "2026-11-21T18:31:04Z",
-            "title": "Oklahoma vs Texas A&M live updates: Score, highlights, predictions",
-            "link": "https://sports.yahoo.com/articles/oklahoma-vs-texas-m-live-183104575.html",
+            "t": "2026-11-21T21:27:05Z",
+            "title": "Packers Injuries: Entire roster healthy enough to practice on Saturday",
+            "link": "https://sports.yahoo.com/articles/packers-injuries-entire-roster-healthy-212705164.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-21T18:30:50Z",
-            "title": "Penn State vs. Rutgers live updates: Score, highlights, analysis",
-            "link": "https://sports.yahoo.com/articles/penn-state-vs-rutgers-live-183050546.html",
+            "t": "2026-11-21T21:19:57Z",
+            "title": "Eagles roster news includes Dontayvion Wicks and Zack Baun to injured reserve",
+            "link": "https://sports.yahoo.com/articles/eagles-roster-news-includes-dontayvion-211957914.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-21T18:29:09Z",
-            "title": "Buffalo Bills DT Ed Oliver questionable for Week 11 vs. Miami Dolphins",
-            "link": "https://sports.yahoo.com/articles/buffalo-bills-dt-ed-oliver-182909082.html",
+            "t": "2026-11-21T21:00:33Z",
+            "title": "Miami vs Virginia Tech live updates: Start time, TV channel, predictions",
+            "link": "https://sports.yahoo.com/articles/miami-vs-virginia-tech-live-210033585.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-21T18:27:43Z",
-            "title": "Oregon’s Fake Field Goal, Michigan State’s Meltdown Fuel 45-7 Rout",
-            "link": "https://sports.yahoo.com/articles/oregon-fake-field-goal-michigan-182743107.html",
+            "t": "2026-11-21T20:52:37Z",
+            "title": "Dwayne Johnson makes expected Miami football prediction vs. Virginia Tech",
+            "link": "https://sports.yahoo.com/articles/dwayne-johnson-makes-expected-miami-205237631.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-21T18:04:00Z",
-            "title": "Raiders Mailbag: How will Fernando Mendoza look in 2nd career start against Denver Broncos’ defense?",
-            "link": "https://sports.yahoo.com/articles/raiders-mailbag-fernando-mendoza-look-180400421.html",
+            "t": "2026-11-21T20:52:28Z",
+            "title": "Texas star edge Colin Simmons officially ruled out for Arkansas bout",
+            "link": "https://sports.yahoo.com/articles/texas-star-edge-colin-simmons-205228475.html",
             "source": "sports.yahoo.com",
-            "tone": 1
+            "tone": -1
           },
           {
-            "t": "2026-11-21T18:00:00Z",
-            "title": "How to watch Alabama vs Chattanooga: Live stream NCAA College Football, TV channel",
-            "link": "https://sports.yahoo.com/articles/watch-alabama-vs-chattanooga-live-180000818.html",
+            "t": "2026-11-21T20:41:29Z",
+            "title": "Ravens’ 2026 season has come to a crashing halt",
+            "link": "https://sports.yahoo.com/articles/ravens-2026-season-come-crashing-204129542.html",
             "source": "sports.yahoo.com",
-            "tone": 1
+            "tone": -1
           }
         ]
       },
@@ -2913,15 +2953,15 @@
           "bets": 2
         },
         {
-          "id": "underdog",
-          "emoji": "🐶",
-          "title": "Underdog lover",
-          "effect": "Allows underdogs at odds up to 1.0 higher.",
-          "from": "Underdog hunter",
-          "since": "2026-11-21T21:30:46Z",
-          "on": 0.0105,
-          "off": 0.0303,
-          "bets": 11
+          "id": "precision",
+          "emoji": "🎯",
+          "title": "Precise",
+          "effect": "Always demands +0.5% more edge.",
+          "from": "Precision day",
+          "since": "2026-11-21T21:45:32Z",
+          "on": 0.032,
+          "off": 0.0241,
+          "bets": 2
         }
       ],
       "mind": {
@@ -6137,12 +6177,12 @@
       "fair_odds": 3.36,
       "edge": 0.0267,
       "stake": 2.62,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 3.317,
       "clv": 0.0402,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -2.62,
+      "score": "Lincoln City 0 - 1 Wrexham AFC",
+      "settled_at": "2026-11-21T21:45:32Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates Draw at 29.8%. That makes the fair price 3.36.",
         "LeoVegas (SE) pays 3.45. That is +2.7% above fair. My bar is +2.0%.",
@@ -6175,12 +6215,12 @@
       "fair_odds": 2.068,
       "edge": 0.005,
       "stake": 2.4,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 2.133,
       "clv": -0.0259,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -2.4,
+      "score": "Oldham Athletic 1 - 1 Exeter City",
+      "settled_at": "2026-11-21T21:45:32Z",
       "thoughts": [
         "🧭 Exploring. I've only made 0 bets like this (League Two (England 4) winner bets at middle odds).",
         "Oldham Athletic at 2.10 is +0.50% above fair: below my usual bar, but the only way to learn if this kind of bet works for me is to try it.",
@@ -6212,12 +6252,12 @@
       "fair_odds": 12.416,
       "edge": 0.1276,
       "stake": 1.2,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 11.051,
       "clv": 0.2668,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -1.2,
+      "score": "West Ham United 1 - 1 Preston North End",
+      "settled_at": "2026-11-21T21:45:32Z",
       "thoughts": [
         "Wild one: Preston North End at 14.00. The market gives it 8%.",
         "Patience is a weapon, but even lizards sunbathe on a crazy rock now and then.",
@@ -6249,12 +6289,12 @@
       "fair_odds": 9.26,
       "edge": 0.1134,
       "stake": 1.2,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 11.908,
       "clv": -0.1342,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -1.2,
+      "score": "Wolverhampton Wanderers 2 - 1 Charlton Athletic",
+      "settled_at": "2026-11-21T21:45:32Z",
       "thoughts": [
         "Wild one: Charlton Athletic at 10.50. The market gives it 11%.",
         "Patience is a weapon, but even lizards sunbathe on a crazy rock now and then.",
@@ -6285,12 +6325,12 @@
       "fair_odds": 3.007,
       "edge": 0.0308,
       "stake": 3.52,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 2.801,
       "clv": 0.1066,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -3.52,
+      "score": "Cheltenham Town 0 - 3 Bristol Rovers",
+      "settled_at": "2026-11-21T21:45:32Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates Cheltenham Town at 33.3%. That makes the fair price 3.01.",
         "Unibet (NL) pays 3.10. That is +3.1% above fair. My bar is +2.0%.",
@@ -6323,12 +6363,12 @@
       "fair_odds": 1.645,
       "edge": 0.0093,
       "stake": 2.4,
-      "status": "open",
+      "status": "won",
       "closing_fair_odds": 1.623,
       "clv": 0.0225,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": 1.58,
+      "score": "Sheffield United 4 - 0 Watford",
+      "settled_at": "2026-11-21T21:45:32Z",
       "thoughts": [
         "🧭 Exploring. I've only made 0 bets like this (Championship (England 2) winner bets at favourites).",
         "Sheffield United at 1.66 is +0.93% above fair: below my usual bar, but the only way to learn if this kind of bet works for me is to try it.",
@@ -6359,12 +6399,12 @@
       "fair_odds": 3.235,
       "edge": 0.051,
       "stake": 5.18,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 3.321,
       "clv": 0.0238,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -5.18,
+      "score": "Stoke City 1 - 0 Birmingham City",
+      "settled_at": "2026-11-21T21:45:32Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates Draw at 30.9%. That makes the fair price 3.23.",
         "LeoVegas (SE) pays 3.40. That is +5.1% above fair. My bar is +2.0%.",
@@ -6398,12 +6438,12 @@
       "fair_odds": 2.199,
       "edge": 0.0233,
       "stake": 4.54,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 2.156,
       "clv": 0.0438,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -4.54,
+      "score": "Crawley Town 2 - 1 Fleetwood Town",
+      "settled_at": "2026-11-21T21:45:32Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates Fleetwood Town at 45.5%. That makes the fair price 2.20.",
         "Coolbet pays 2.25. That is +2.3% above fair. My bar is +2.0%.",
@@ -6436,12 +6476,12 @@
       "fair_odds": 2.471,
       "edge": 0.0118,
       "stake": 2.44,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 2.783,
       "clv": -0.1018,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -2.44,
+      "score": "Bolton Wanderers 1 - 1 Portsmouth",
+      "settled_at": "2026-11-21T21:45:32Z",
       "thoughts": [
         "🧭 Exploring. I've only made 6 bets like this (Championship (England 2) winner bets at middle odds).",
         "Portsmouth at 2.50 is +1.18% above fair: below my usual bar, but the only way to learn if this kind of bet works for me is to try it.",
@@ -6474,12 +6514,12 @@
       "fair_odds": 7.724,
       "edge": 0.0683,
       "stake": 1.22,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 7.896,
       "clv": 0.0451,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -1.22,
+      "score": "Middlesbrough 2 - 0 Bristol City",
+      "settled_at": "2026-11-21T21:45:32Z",
       "thoughts": [
         "Wild one: Bristol City at 8.40. The market gives it 13%.",
         "Patience is a weapon, but even lizards sunbathe on a crazy rock now and then.",
@@ -10657,18 +10697,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-21T19:00:55Z",
-      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+0.0% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-21T19:15:38Z",
-      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-21T19:15:38Z",
-      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +0.5%. Allows underdogs at odds up to 1.0 higher."
-    },
-    {
       "t": "2026-11-21T19:15:38Z",
       "text": "Results:\n- Lost -2.96: Nice (Winner) in Nice vs Paris Saint Germain (Nice 2 - 3 Paris Saint Germain)"
     },
@@ -10775,6 +10803,18 @@
     {
       "t": "2026-11-21T21:30:46Z",
       "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +1.0%. Allows underdogs at odds up to 1.0 higher."
+    },
+    {
+      "t": "2026-11-21T21:45:32Z",
+      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
+    },
+    {
+      "t": "2026-11-21T21:45:32Z",
+      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+0.2% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-21T21:45:32Z",
+      "text": "Results:\n- Lost -2.62: Draw (Winner) in Lincoln City vs Wrexham AFC (Lincoln City 0 - 1 Wrexham AFC)\n- Lost -1.20: Preston North End (Winner) in West Ham United vs Preston North End (West Ham United 1 - 1 Preston North End)\n- Lost -1.20: Charlton Athletic (Winner) in Wolverhampton Wanderers vs Charlton Athletic (Wolverhampton Wanderers 2 - 1 Charlton Athletic)\n- Won +1.58: Sheffield United (Winner) in Sheffield United vs Watford (Sheffield United 4 - 0 Watford)\n- Lost -5.18: Draw (Winner) in Stoke City vs Birmingham City (Stoke City 1 - 0 Birmingham City)\n- Lost -2.44: Portsmouth (Winner) in Bolton Wanderers vs Portsmouth (Bolton Wanderers 1 - 1 Portsmouth)\n- Lost -1.22: Bristol City (Winner) in Middlesbrough vs Bristol City (Middlesbrough 2 - 0 Bristol City)\n- Lost -2.40: Oldham Athletic (Winner) in Oldham Athletic vs Exeter City (Oldham Athletic 1 - 1 Exeter City)\n- Lost -3.52: Cheltenham Town (Winner) in Cheltenham Town vs Bristol Rovers (Cheltenham Town 0 - 3 Bristol Rovers)\n- Lost -4.54: Fleetwood Town (Winner) in Crawley Town vs Fleetwood Town (Crawley Town 2 - 1 Fleetwood Town)"
     }
   ]
 }
