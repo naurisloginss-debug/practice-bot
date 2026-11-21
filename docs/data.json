@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T12:01:04Z",
+  "updated": "2026-11-21T12:15:32Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -494,8 +494,8 @@
           "cautious": 0.0009,
           "beat": 0.6154,
           "challenges": 0.75,
-          "traits": 1,
-          "score": 8.93
+          "traits": 2,
+          "score": 10.93
         },
         {
           "who": "lizard",
@@ -506,8 +506,8 @@
           "cautious": -0.0195,
           "beat": 0.6786,
           "challenges": 0.25,
-          "traits": 0,
-          "score": -14.66
+          "traits": 1,
+          "score": -12.66
         }
       ],
       "ranking": [
@@ -536,7 +536,7 @@
         "min_edge": 0.02,
         "odds": [
           1.6,
-          6.0
+          3.5
         ],
         "stop_below": 250
       },
@@ -1207,7 +1207,19 @@
         "judged": 8,
         "streak": 2
       },
-      "traits": [],
+      "traits": [
+        {
+          "id": "discipline",
+          "emoji": "🧘",
+          "title": "Disciplined",
+          "effect": "Avoids odds above 3.5.",
+          "from": "Discipline day",
+          "since": "2026-11-21T12:15:32Z",
+          "on": 0.0221,
+          "off": -0.0095,
+          "bets": 2
+        }
+      ],
       "mind": {
         "iq": 114,
         "iq_week": 12,
@@ -2246,7 +2258,7 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.015,
+        "min_edge": 0.02,
         "odds": [
           1.6,
           4.0
@@ -2811,6 +2823,17 @@
           "on": 0.0105,
           "off": 0.0188,
           "bets": 5
+        },
+        {
+          "id": "precision",
+          "emoji": "🎯",
+          "title": "Precise",
+          "effect": "Always demands +0.5% more edge.",
+          "from": "Precision day",
+          "since": "2026-11-21T12:15:32Z",
+          "on": 0.032,
+          "off": 0.022,
+          "bets": 2
         }
       ],
       "mind": {
@@ -10528,14 +10551,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-21T02:45:32Z",
-      "text": "Results:\n- Lost -2.31: FC Barcelona Bàsquet (Winner) in FC Barcelona Bàsquet vs KK Crvena zvezda (FC Barcelona Bàsquet 100 - 103 KK Crvena zvezda)\n- Lost -2.31: Beşiktaş J.K. (Winner) in KK Partizan NIS vs Beşiktaş J.K. (KK Partizan NIS 91 - 87 Beşiktaş J.K.)\n- Lost -2.31: Real Madrid (Winner) in Olympiacos vs Real Madrid (Olympiacos 92 - 76 Real Madrid)"
-    },
-    {
-      "t": "2026-11-21T03:15:32Z",
-      "text": "Results:\n- Lost -5.70: Charlotte Hornets (Winner) in Atlanta Hawks vs Charlotte Hornets (Atlanta Hawks 111 - 97 Charlotte Hornets)"
-    },
-    {
       "t": "2026-11-21T07:21:41Z",
       "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
     },
@@ -10646,6 +10661,14 @@
     {
       "t": "2026-11-21T12:01:04Z",
       "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-21T12:15:32Z",
+      "text": "🧬 🦎 The Lizard made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-18 and its bets beat the market by +2.2%. Avoids odds above 3.5."
+    },
+    {
+      "t": "2026-11-21T12:15:32Z",
+      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
     }
   ]
 }
