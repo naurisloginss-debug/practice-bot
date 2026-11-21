@@ -231,7 +231,7 @@
     "stake_pct": 0.5,
     "min_edge": 0.008,
     "steam": 0.025,
-    "daily_cap": 2,
+    "daily_cap": 3,
     "daily_cap_high": 3,
     "high_trust": 0.6,
     "min_measured": 8,
@@ -261,7 +261,8 @@
     "min_odds": 4.5,
     "max_odds": 15,
     "min_edge": -0.03,
-    "per_day": 2
+    "per_day": 2,
+    "chase_stop": 0.15
   },
   "news_every_hours": 3,
   "explore": {
@@ -273,15 +274,20 @@
     "adopt_bets": 3
   },
   "traits": {
-    "min_days": 3,
-    "min_bets": 8,
-    "min_base_bets": 15,
-    "min_gain": 0.005,
-    "drop_bets": 15,
-    "max_traits": 3
+    "min_days": 1,
+    "min_bets": 2,
+    "min_base_bets": 0,
+    "min_gain": 0.0,
+    "drop_bets": 6,
+    "max_traits": 4
   },
   "selection": {
     "date": "2026-12-04",
     "min_bets": 30
+  },
+  "pounce": {
+    "max_edge": 0.25,
+    "stake_pct": 1.0,
+    "per_day": 2
   }
 }

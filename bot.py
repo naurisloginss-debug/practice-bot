@@ -228,8 +228,10 @@ def best_value(rows, fair, strategy, market, league_key, playbook):
                       "odds": odds, "eff_odds": round(eff, 4), "fair_odds": round(1 / fair[k], 3),
                       "prob": fair[k], "edge": round(edge, 4)}
             reason = None
-            if edge > max_edge:
+            if edge > CONFIG["pounce"]["max_edge"]:
                 reason = f"+{edge*100:.1f}% looks too good to be true. Probably a price the bookmaker forgot to update."
+            elif edge > max_edge:
+                reason = f"+{edge*100:.1f}% looks too good to be true. Worth a careful pounce to find out."
             elif not lo <= odds <= hi:
                 reason = f"Odds {odds:.2f} are outside my game ({lo}–{hi})."
             elif verdict_for(playbook, league_key, market, odds) == "avoid":
@@ -295,7 +297,7 @@ def learn(bets, strategy):
     L = CONFIG["learning"]
     groups = {}
     for b in bets:
-        if b["strategy"] == strategy and b.get("clv") is not None and not b.get("gut") and not b.get("wild"):
+        if b["strategy"] == strategy and b.get("clv") is not None and not b.get("gut") and not b.get("wild") and not b.get("pounce"):
             for key in (segment(b["league_key"], b["market"], b["odds"]), segment(b["league_key"], b["market"]),
                         segment("*", b["market"], b["odds"])):
                 groups.setdefault(key, []).append(b)
@@ -407,7 +409,7 @@ def knowledge_of(obs, knowledge, bets, strategy):
             if v[1] / v[0] > avg * 1.3:
                 facts.append({"conf": "solid", "n": v[0], "z": 0, "text": f"{best} is the softest bookmaker in {league_name(lk)}.",
                               "detail": f"beats fair by 2%+ on {v[1]/v[0]*100:.0f}% of its prices vs {avg*100:.0f}% across all bookmakers"})
-    mine = [b for b in bets if b["strategy"] == strategy and b.get("clv") is not None and not b.get("gut") and not b.get("wild")]
+    mine = [b for b in bets if b["strategy"] == strategy and b.get("clv") is not None and not b.get("gut") and not b.get("wild") and not b.get("pounce")]
     if len(mine) >= 10:
         moved = sum(1 for b in mine if b["clv"] > 0) / len(mine)
         facts.append({"conf": "solid" if len(mine) >= 30 else "watching", "n": len(mine), "z": 0,
@@ -478,7 +480,7 @@ COLD = {"title": "Cold streak", "badge": "🥶", "stake": 0.6, "perk": "Stakes c
 
 def level_of(bets, strategy):
     measured = [b["clv"] for b in bets if b["strategy"] == strategy and b.get("clv") is not None
-                and not b.get("gut") and not b.get("wild") and not b.get("scout")]
+                and not b.get("gut") and not b.get("wild") and not b.get("scout") and not b.get("pounce")]
     n = len(measured)
     clv = sum(measured) / n if n else 0.0
     beat = sum(1 for c in measured if c > 0) / n if n else 0.0
@@ -616,7 +618,7 @@ def selection_race(bets, state, now, notes):
     rows = []
     for s, c in CONFIG["strategies"].items():
         m = [b["clv"] for b in bets if b["strategy"] == s and b.get("clv") is not None
-             and not b.get("gut") and not b.get("wild") and not b.get("scout")]
+             and not b.get("gut") and not b.get("wild") and not b.get("scout") and not b.get("pounce")]
         n = len(m)
         mean = sum(m) / n if n else 0.0
         sd = math.sqrt(sum((x - mean) ** 2 for x in m) / (n - 1)) if n > 1 else 0.05
@@ -758,6 +760,50 @@ def explorer_of(strategy, bets, state):
             "tried": [league_name(k) for k in state.get("tried", {}).get(strategy, {})],
             "curiosity": P(strategy, "curiosity"),
             "scouts": len(sc), "scout_clv": round(sum(m) / len(m), 4) if m else None, "scout_measured": len(m)}
+
+
+def pounce_record(bets, strategy):
+    p = [b for b in bets if b["strategy"] == strategy and b.get("pounce")]
+    m = [b["clv"] for b in p if b.get("clv") is not None]
+    return {"bets": len(p), "won": sum(1 for b in p if b["status"] == "won"), "lost": sum(1 for b in p if b["status"] == "lost"),
+            "profit": round(sum(b["profit"] for b in p if b["status"] in ("won", "lost")), 2),
+            "avg_clv": round(sum(m) / len(m), 4) if m else None, "measured": len(m)}
+
+
+def place_pounce_bets(bets, pool_by_char, placed, now, today):
+    """Prices 10-25% above fair: maybe a slow bookmaker, maybe a trap. Test them with a small stake and let the
+    market's final price say which. Tracked on their own; kept out of levels."""
+    PO = CONFIG["pounce"]
+    for strategy, pool in pool_by_char.items():
+        if not pool:
+            continue
+        done = sum(1 for b in bets if b["strategy"] == strategy and b.get("pounce") and b["placed_at"][:10] == today)
+        fund = fund_of(bets, strategy)
+        if fund < P(strategy, "stop_below"):
+            continue
+        for c in sorted(pool, key=lambda c: -c["edge"]):
+            if done >= PO["per_day"]:
+                break
+            if any(b["event_id"] == c["ev"]["id"] and b["strategy"] == strategy for b in bets):
+                continue
+            ev, market = c["ev"], c["market"]
+            stake = round(min(fund * PO["stake_pct"] / 100, max(CONFIG["min_stake"], kelly_stake(c["eff_odds"], c["prob"], fund, strategy) / 2)), 2)
+            pick = pick_label(market, c["name"], c["point"])
+            bet = {
+                "id": f"{ev['id']}-{strategy}-{market}-pounce", "strategy": strategy, "placed_at": iso(now), "pounce": True,
+                "league_key": c["league_key"], "league": c["league"], "sport": sport_of(c["league_key"]), "event_id": ev["id"],
+                "game": f"{ev['home_team']} vs {ev['away_team']}", "home": ev["home_team"], "away": ev["away_team"],
+                "start": ev["commence_time"], "market": market, "market_name": MARKET_NAMES[market],
+                "name": c["name"], "point": c["point"], "pick": pick, "book": c["book"], "book_key": c["book_key"],
+                "odds": c["odds"], "eff_odds": c["eff_odds"], "fair_odds": c["fair_odds"], "edge": c["edge"],
+                "stake": stake, "status": "open", "closing_fair_odds": None, "clv": None, "profit": 0.0, "score": None, "settled_at": None,
+                "thoughts": [f"⚡ {c['book']} pays {c['odds']:.2f} for {pick}. Fair is {c['fair_odds']:.2f}: +{c['edge']*100:.1f}%. That's huge.",
+                             "Either they're slow to update, or I'm missing something. I'll pounce carefully and let the final price tell me.",
+                             f"Pounce stake: {stake:.2f} (at most {PO['stake_pct']:g}% of my fund)."],
+            }
+            bets.append(bet)
+            placed.append(bet)
+            done += 1
 
 
 def place_scout_bets(bets, scout_pool, placed, now, today):
@@ -1117,7 +1163,7 @@ TRAITS = {
 def challenge_effect(bets, state, strategy, cid):
     """Bets on days with this challenge vs bets on all other days, measured against the market's final price."""
     days = {c["day"] for c in state.get("challenges", {}).get(strategy, []) if c["id"] == cid and c["status"] != "active"}
-    serious = [b for b in bets if b["strategy"] == strategy and b.get("clv") is not None and not b.get("gut") and not b.get("wild")]
+    serious = [b for b in bets if b["strategy"] == strategy and b.get("clv") is not None and not b.get("gut") and not b.get("wild") and not b.get("pounce")]
     on = [b["clv"] for b in serious if b["placed_at"][:10] in days]
     off = [b["clv"] for b in serious if b["placed_at"][:10] not in days]
     stats = lambda xs: (sum(xs) / len(xs), sum(1 for x in xs if x > 0) / len(xs)) if xs else (None, None)
@@ -1125,28 +1171,37 @@ def challenge_effect(bets, state, strategy, cid):
 
 
 def update_traits(bets, state, now, notes):
-    """A challenge that clearly makes a character stronger becomes part of who it is; one that stops helping is dropped."""
+    """As soon as a challenge day is completed and its bets beat the market, that strength becomes part of the
+    character. If later bets on those challenge days stop beating the market, the trait is dropped again."""
     T = CONFIG["traits"]
     all_traits = state.setdefault("traits", {})
     for s, c in CONFIG["strategies"].items():
         mine = all_traits.setdefault(s, {})
+        hist = state.get("challenges", {}).get(s, [])
         for cid in TRAITS:
             n_days, on, off, (clv_on, beat_on), (clv_off, beat_off) = challenge_effect(bets, state, s, cid)
             emoji, title, effect, _ = TRAITS[cid]
             ch_title = CHALLENGES[cid][1]
+            completed = [h for h in hist if h["id"] == cid and h["status"] == "done"]
             if cid not in mine:
-                if (n_days >= T["min_days"] and len(on) >= T["min_bets"] and len(off) >= T["min_base_bets"]
-                        and clv_on >= T["min_gain"] and clv_on - clv_off >= T["min_gain"] and beat_on >= beat_off
-                        and len(mine) < T["max_traits"]):
-                    mine[cid] = {"since": iso(now), "on": round(clv_on, 4), "off": round(clv_off, 4), "bets": len(on)}
+                # Straight after it worked: one completed day whose bets beat the market is enough.
+                worked = None
+                for h in reversed(completed):
+                    day_clv = [b["clv"] for b in bets if b["strategy"] == s and b["placed_at"][:10] == h["day"]
+                               and b.get("clv") is not None and not b.get("wild")]
+                    if len(day_clv) >= T["min_bets"] and sum(day_clv) / len(day_clv) > 0:
+                        worked = (h["day"], sum(day_clv) / len(day_clv), len(day_clv))
+                        break
+                if worked and len(mine) < T["max_traits"]:
+                    mine[cid] = {"since": iso(now), "on": round(worked[1], 4), "off": round(clv_off or 0, 4), "bets": worked[2]}
                     notes.append(f"🧬 {c['emoji']} {c['name']} made {ch_title} part of its character: {emoji} {title}. "
-                                 f"On those days its bets beat the market by {clv_on*100:+.1f}%, vs {clv_off*100:+.1f}% normally. {effect}")
-            elif on and off:
-                mine[cid].update(on=round(clv_on, 4), off=round(clv_off, 4), bets=len(on))
-                if len(on) >= T["drop_bets"] and clv_on - clv_off < 0:
+                                 f"It completed the challenge on {worked[0]} and its bets beat the market by {worked[1]*100:+.1f}%. {effect}")
+            elif on:
+                mine[cid].update(on=round(clv_on, 4), off=round(clv_off or 0, 4), bets=len(on))
+                if len(on) >= T["drop_bets"] and (clv_on < 0 or (clv_off is not None and clv_on < clv_off)):
                     del mine[cid]
-                    notes.append(f"🧬 {c['emoji']} {c['name']} dropped the {emoji} {title} trait: it stopped helping "
-                                 f"({clv_on*100:+.1f}% vs {clv_off*100:+.1f}% normally).")
+                    notes.append(f"🧬 {c['emoji']} {c['name']} dropped the {emoji} {title} trait: it stopped working "
+                                 f"({clv_on*100:+.1f}% vs the market on those days).")
         mods = {}
         for cid in mine:
             for k, v in TRAITS[cid][3].items():
@@ -1268,7 +1323,7 @@ def wild_mood(bets, strategy):
     start = P(strategy, "start_fund")
     cur, _ = streaks(bets, strategy)
     lv = level_of(bets, strategy)
-    if fund < start * 0.95:
+    if fund < start * (1 - CONFIG["wild"].get("chase_stop", 0.15)):
         return 0.0, f"I'm down ({fund:.2f} of {start:.0f}), and I don't chase losses."
     if lv["cold"]:
         return 0.3, "I'm on a cold streak. Staying careful."
@@ -1360,6 +1415,7 @@ def scan(api, bets, state, now, notes):
     limited, stopped = {}, {}
     gut_pool = {s: [] for s in CONFIG["strategies"]}
     scout_pool = {s: [] for s in CONFIG["strategies"]}
+    pounce_pool = {s: [] for s in CONFIG["strategies"]}
     wild_pool = {s: [] for s in CONFIG["strategies"]}
     news = load(NEWS_FILE, [])
     for league_key in competitions(api, state):
@@ -1401,6 +1457,8 @@ def scan(api, bets, state, now, notes):
                         misses[strategy].append({**miss, "game": f"{ev['home_team']} vs {ev['away_team']}", "league": league,
                                                  "pick": pick_label(market, miss["name"], miss["point"])})
                         misses_here.append(miss)
+                        if miss["reason"].endswith("careful pounce to find out.") and P(strategy, "min_odds") <= miss["odds"] <= P(strategy, "max_odds") * 2:
+                            pounce_pool[strategy].append({**miss, "ev": ev, "league_key": league_key, "league": league})
                         E = CONFIG["explore"]
                         if not v and miss["reason"].startswith("Only +") and miss["edge"] >= E["min_edge"]:
                             exp = experience(bets, strategy, league_key, market, miss["odds"])
@@ -1438,6 +1496,7 @@ def scan(api, bets, state, now, notes):
                         gut_pool[strategy].append({**c, "ev": ev, "league_key": league_key, "league": league})
                     for c in wild_candidates(strategy, ev, league_key, rows, fair_market, news, now):
                         wild_pool[strategy].append({**c, "ev": ev, "league_key": league_key, "league": league})
+    place_pounce_bets(bets, pounce_pool, placed, now, today)
     place_scout_bets(bets, scout_pool, placed, now, today)
     place_gut_bets(bets, gut_pool, placed, now, today)
     wild_choices = place_wild_bets(bets, wild_pool, placed, now, today)
@@ -1470,7 +1529,7 @@ def scan(api, bets, state, now, notes):
                            "scouts": sum(1 for b in mine if b.get("scout")),
                            "passed": [{k: m[k] for k in ("game", "league", "pick", "odds", "book", "edge", "reason")} for m in top]}
     if placed:
-        lines = [f"- {CONFIG['strategies'][b['strategy']]['name']}{' 💭 gut' if b.get('gut') else ''}{' 🎲 wild' if b.get('wild') else ''}{' 🧭 scout' if b.get('scout') else ''}: **{b['pick']}** ({b['market_name']}) in {b['game']} "
+        lines = [f"- {CONFIG['strategies'][b['strategy']]['name']}{' 💭 gut' if b.get('gut') else ''}{' 🎲 wild' if b.get('wild') else ''}{' 🧭 scout' if b.get('scout') else ''}{' ⚡ pounce' if b.get('pounce') else ''}: **{b['pick']}** ({b['market_name']}) in {b['game']} "
                  f"({b['league']}) at {b['odds']} on {b['book']}, stake {b['stake']:.2f}, edge +{b['edge']*100:.1f}%"
                  for b in placed]
         notes.append(f"Placed {len(placed)} practice bet{'s' if len(placed) != 1 else ''}:\n" + "\n".join(lines))
@@ -1633,6 +1692,7 @@ def summary(bets, strategy):
         "by_sport": breakdown(mine, "sport"),
         "gut": gut_record(bets, strategy),
         "wild": wild_record(bets, strategy),
+        "pounce": pounce_record(bets, strategy),
         "reading": reading_of(strategy),
     }
 

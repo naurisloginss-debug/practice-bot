@@ -162,6 +162,7 @@
   .xp { margin: 12px 0 0; }
   .gut { margin: 14px 0 0; padding: 12px; border-radius: 14px; background: var(--card-2); border: 1px solid var(--line); }
   .wildchip { background: rgba(235,104,52,.18) !important; color: var(--accent-2) !important; margin-left: 4px; }
+  .pouncechip { background: rgba(201,162,39,.2) !important; color: #b08a12 !important; margin-left: 4px; }
   .scoutchip { background: rgba(31,157,85,.16) !important; color: var(--good) !important; margin-left: 4px; }
   .race { border-top: 4px solid #c9a227; }
   .race-top { display: flex; gap: 18px; align-items: center; flex-wrap: wrap; }
@@ -374,7 +375,8 @@ function render() {
     <dt>Gut feeling</dt><dd>Sometimes a character follows a hunch its rules don't accept: a price that's almost good enough, or sharp money moving. Hunches are small, rare, marked 💭 and graded. A gut that beats the market earns more trust.</dd>
     <dt>Daily challenge</dt><dd>Every morning each character gets a challenge aimed at its weak spot: precision, discipline, new bet types, sharp edges, study, exploring, using the news, or underdogs. Challenges reward skill, never risk. Completed ones count in the Arena.</dd>
     <dt>Race to go live</dt><dd>After the test only one character continues with real money. It's chosen on proven skill: a cautious measure of how reliably it beats the market's final price (at least 30 measured bets), plus a little for challenges and traits. Profit and lucky streaks don't decide it.</dd>
-    <dt>Character traits</dt><dd>When a daily challenge clearly makes a character stronger (its bets on those days beat the market by more than usual), it becomes a permanent trait that changes how it bets. If a trait stops helping, it's dropped. At most 3 at a time.</dd>
+    <dt>Character traits</dt><dd>As soon as a character completes a daily challenge and its bets that day beat the market, that strength becomes a trait that changes how it bets. If later bets show the trait doesn't hold up, it's dropped. Up to 4 at a time.</dd>
+    <dt>Pounce</dt><dd>A price 10–25% above fair is either a slow bookmaker or a trap. Characters test these with small stakes (⚡) and the market's final price shows which it was.</dd>
     <dt>Explorer</dt><dd>Each character keeps trying new things in small amounts: 🧭 scout bets on kinds of bets it has barely tried, and one new competition each week. What works, it keeps; what doesn't, it drops.</dd>
     <dt>Wild bets</dt><dd>A character may choose a bold long shot (odds 4.5–15, tiny stake, at most two a day). It's a choice, not a rule: it's bolder on a hot streak, careful on a cold one, and never chases losses. Its 🧠 says why it did or didn't.</dd>
     <dt>Reading</dt><dd>Twice a day each character skims its sport's news headlines and notices injuries, suspensions and good news. Its reasoning shows what it read.</dd>
@@ -419,10 +421,10 @@ function matchCard(b) {
   const clv = b.clv == null ? '' : ` · ${b.clv > 0 ? 'beat' : 'missed'} the market by ${Math.abs(b.clv * 100).toFixed(1)}%`;
   return `<div class="match"><div>
       <div class="teams">${esc(b.home)} <span class="sub">vs</span> ${esc(b.away)}</div>
-      <div class="pick">${esc(b.pick)} <span class="odds num">${Number(b.odds).toFixed(2)}</span>${b.gut ? '<span class="gutchip" title="A hunch, not a calculated edge">💭 gut</span>' : ''}${b.wild ? '<span class="gutchip wildchip" title="A wild long shot with a tiny stake">🎲 wild</span>' : ''}${b.scout ? '<span class="gutchip scoutchip" title="A small scout bet to explore a kind of bet it has barely tried">🧭 scout</span>' : ''}</div>
+      <div class="pick">${esc(b.pick)} <span class="odds num">${Number(b.odds).toFixed(2)}</span>${b.gut ? '<span class="gutchip" title="A hunch, not a calculated edge">💭 gut</span>' : ''}${b.wild ? '<span class="gutchip wildchip" title="A wild long shot with a tiny stake">🎲 wild</span>' : ''}${b.scout ? '<span class="gutchip scoutchip" title="A small scout bet to explore a kind of bet it has barely tried">🧭 scout</span>' : ''}${b.pounce ? '<span class="gutchip pouncechip" title="Testing a price that looks too good to be true">⚡ pounce</span>' : ''}</div>
       <div class="meta">${esc(b.league)} · ${open ? day(b.start) + ' · ' + rel(b.start) : (b.score ? esc(b.score) : day(b.start))}</div>
       <div class="meta">${esc(b.book)} · ${pct(b.edge)} edge${clv}</div>
-      ${b.thoughts ? `<details class="think"><summary>${b.wild ? '🎲 Why I went wild' : b.gut ? '💭 Why I followed my gut' : b.scout ? '🧭 Why I explored' : '🧠 See my thinking'}</summary><ol>${b.thoughts.map(t => `<li>${esc(t)}</li>`).join('')}</ol></details>` : ''}
+      ${b.thoughts ? `<details class="think"><summary>${b.wild ? '🎲 Why I went wild' : b.gut ? '💭 Why I followed my gut' : b.scout ? '🧭 Why I explored' : b.pounce ? '⚡ Why I pounced' : '🧠 See my thinking'}</summary><ol>${b.thoughts.map(t => `<li>${esc(t)}</li>`).join('')}</ol></details>` : ''}
     </div><div class="side">${side}</div></div>`;
 }
 
@@ -487,6 +489,7 @@ function character(s) {
     ${explorerLine(s)}
     ${gutMeter(s)}
     ${wildLine(s)}
+    ${pounceLine(s)}
     <p class="motto">“${esc(s.motto)}”</p>
     <p class="story">${esc(s.story)}</p>
     <div class="chips">
@@ -529,6 +532,15 @@ function explorerLine(s) {
   return `<div class="gut"><div class="xp-head"><span>🧭 <b>Explorer</b> · curiosity ${Math.round(e.curiosity * 100)}%</span><span class="sub">tries new things in small amounts</span></div>
     <div class="sub" style="margin-top:6px">${ex ? `Exploring this week: <b>${esc(ex.name)}</b>. ` : ''}${e.adopted.length ? `Adopted: ${esc(e.adopted.join(', '))}. ` : ''}${e.tried.length ? `Tried and moved on: ${esc(e.tried.slice(-3).join(', '))}. ` : ''}
     ${e.scouts ? `${e.scouts} scout bet${e.scouts === 1 ? '' : 's'}${e.scout_clv != null ? ` (${pct(e.scout_clv)} vs the market)` : ''}.` : 'No scout bets yet.'}</div></div>`;
+}
+
+function pounceLine(s) {
+  const p = s.pounce;
+  if (!p) return '';
+  const verdict = p.measured < 3 ? 'Testing whether "too good to be true" prices are real chances.'
+    : p.avg_clv > 0 ? `They've been real: the market moved their way (${pct(p.avg_clv)} on average).` : `Mostly traps so far (${pct(p.avg_clv)} vs the market).`;
+  return `<div class="gut"><div class="xp-head"><span>⚡ <b>Pounces</b></span><span class="sub">prices 10–25% above fair, small stakes</span></div>
+    <div class="sub" style="margin-top:6px">${p.bets ? `${p.bets} pounce${p.bets === 1 ? '' : 's'} · ${p.won} won, ${p.lost} lost (${signed(p.profit)}). ` : 'No pounces yet. '}${verdict}</div></div>`;
 }
 
 function wildLine(s) {
