@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T11:30:48Z",
+  "updated": "2026-11-21T11:45:33Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -494,8 +494,8 @@
           "cautious": 0.0009,
           "beat": 0.6154,
           "challenges": 0.75,
-          "traits": 1,
-          "score": 8.93
+          "traits": 2,
+          "score": 10.93
         },
         {
           "who": "lizard",
@@ -2246,7 +2246,7 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.015,
+        "min_edge": 0.02,
         "odds": [
           1.6,
           4.0
@@ -2811,6 +2811,17 @@
           "on": 0.0105,
           "off": 0.0188,
           "bets": 5
+        },
+        {
+          "id": "precision",
+          "emoji": "🎯",
+          "title": "Precise",
+          "effect": "Always demands +0.5% more edge.",
+          "from": "Precision day",
+          "since": "2026-11-21T11:45:33Z",
+          "on": 0.032,
+          "off": 0.022,
+          "bets": 2
         }
       ],
       "mind": {
@@ -10528,10 +10539,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-21T00:00:58Z",
-      "text": "🎯 🦈 The Shark's challenge today: 🧭 Explorer day. Make a bet in NCAAF FCS, the competition I'm exploring."
-    },
-    {
       "t": "2026-11-21T02:15:31Z",
       "text": "Results:\n- Lost -2.86: Middle Tennessee Blue Raiders (Winner) in Middle Tennessee Blue Raiders vs Temple Owls (Middle Tennessee Blue Raiders 76 - 85 Temple Owls)"
     },
@@ -10646,6 +10653,10 @@
     {
       "t": "2026-11-21T11:30:48Z",
       "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-21T11:45:33Z",
+      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
     }
   ]
 }
