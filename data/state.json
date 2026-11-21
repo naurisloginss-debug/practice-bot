@@ -52,10 +52,6 @@
   },
   "log": [
     {
-      "t": "2026-11-20T19:30:52Z",
-      "text": "✅ 🦎 The Lizard completed 🧘 Discipline day: 1 bet beat the market."
-    },
-    {
       "t": "2026-11-20T22:45:37Z",
       "text": "Results:\n- Lost -2.41: Under 2.5 (Total) in Troyes vs Le Havre (Troyes 3 - 1 Le Havre)"
     },
@@ -170,6 +166,10 @@
     {
       "t": "2026-11-21T10:00:55Z",
       "text": "Results:\n- Won +10.19: Under 2.5 (Total) in Tijuana vs Atlante FC (Tijuana 1 - 0 Atlante FC)"
+    },
+    {
+      "t": "2026-11-21T10:15:34Z",
+      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
     }
   ],
   "levels": {
@@ -2695,6 +2695,12 @@
         "on": 0.0105,
         "off": 0.0188,
         "bets": 5
+      },
+      "precision": {
+        "since": "2026-11-21T10:15:34Z",
+        "on": 0.032,
+        "off": 0.022,
+        "bets": 2
       }
     }
   },
