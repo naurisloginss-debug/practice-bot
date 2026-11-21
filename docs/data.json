@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T13:30:48Z",
+  "updated": "2026-11-21T13:45:33Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -494,8 +494,8 @@
           "cautious": 0.0009,
           "beat": 0.6154,
           "challenges": 0.75,
-          "traits": 2,
-          "score": 10.93
+          "traits": 1,
+          "score": 8.93
         },
         {
           "who": "lizard",
@@ -2258,7 +2258,7 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.02,
+        "min_edge": 0.015,
         "odds": [
           1.6,
           4.0
@@ -2823,17 +2823,6 @@
           "on": 0.0105,
           "off": 0.0188,
           "bets": 5
-        },
-        {
-          "id": "precision",
-          "emoji": "🎯",
-          "title": "Precise",
-          "effect": "Always demands +0.5% more edge.",
-          "from": "Precision day",
-          "since": "2026-11-21T13:30:48Z",
-          "on": 0.032,
-          "off": 0.022,
-          "bets": 2
         }
       ],
       "mind": {
@@ -10552,10 +10541,6 @@
   "log": [
     {
       "t": "2026-11-21T08:00:54Z",
-      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-21T08:00:54Z",
       "text": "Placed 18 practice bets:\n- The Lizard: **Draw** (Winner) in Stoke City vs Birmingham City (Championship (England 2)) at 3.4 on LeoVegas (SE), stake 5.18, edge +5.1%\n- The Lizard: **Fleetwood Town** (Winner) in Crawley Town vs Fleetwood Town (League Two (England 4)) at 2.25 on Coolbet, stake 4.54, edge +2.3%\n- The Lizard: **Draw** (Winner) in Argentinos Juniors vs Independiente (Primera División (Argentina)) at 3.25 on Unibet (NL), stake 4.86, edge +4.5%\n- The Quant: **Denver Pioneers** (Winner) in Eastern Michigan Eagles vs Denver Pioneers (College basketball (US)) at 3.85 on Unibet (NL), stake 1.97, edge +3.5%\n- The Quant: **Portland Pilots** (Winner) in Portland Pilots vs Fordham Rams (College basketball (US)) at 3.2 on Unibet (SE), stake 2.05, edge +2.8%\n- The Quant: **Pennsylvania Quakers** (Winner) in La Salle Explorers vs Pennsylvania Quakers (College basketball (US)) at 2.2 on 888sport, stake 3.87, edge +2.9%\n- The Shark: **Kansas Jayhawks** (Winner) in Kansas Jayhawks vs BYU Cougars (College football (US)) at 2.98 on Matchbook, stake 4.02, edge +2.6%\n- The Lizard ⚡ pounce: **Nice** (Winner) in Nice vs Paris Saint Germain (Ligue 1 (France)) at 7.0 on LeoVegas (SE), stake 2.96, edge +14.6%\n- The Lizard ⚡ pounce: **Bromley FC** (Winner) in Reading vs Bromley FC (League One (England 3)) at 9.0 on Matchbook, stake 1.61, edge +10.4%\n- The Lizard 🧭 scout: **Pachuca** (Winner) in Pachuca vs Toluca (Liga MX) at 2.75 on Coolbet, stake 2.44, edge +1.5%\n- The Lizard 🧭 scout: **Under 2** (Total) in Instituto de Córdoba vs Atlético Huracán (Primera División (Argentina)) at 1.89 on BetOnline.ag, stake 2.44, edge +1.4%\n- The Lizard 🧭 scout: **Vasco da Gama** (Winner) in Bragantino-SP vs Vasco da Gama (Brasileirão (Brazil)) at 3.0 on Unibet (NL), stake 2.44, edge +1.5%\n- The Lizard 🧭 scout: **Draw** (Winner) in Tenerife vs Mallorca (La Liga 2 (Spain 2)) at 3.15 on Coolbet, stake 2.44, edge +1.3%\n- The Lizard 🧭 scout: **Portsmouth** (Winner) in Bolton Wanderers vs Portsmouth (Championship (England 2)) at 2.5 on LeoVegas (SE), stake 2.44, edge +1.2%\n- The Lizard 💭 gut: **Carrarese** (Winner) in Carrarese vs Virtus Entella (Serie B (Italy 2)) at 2.28 on Unibet (NL), stake 2.44, edge +0.1%\n- The Lizard 💭 gut: **VfL Wolfsburg** (Winner) in VfL Wolfsburg vs Holstein Kiel (2. Bundesliga) at 1.68 on Unibet (NL), stake 2.44, edge +1.9%\n- The Quant 💭 gut: **Saint Peter's Peacocks** (Winner) in Saint Peter's Peacocks vs Stony Brook Seawolves (College basketball (US)) at 3.0 on Unibet (NL), stake 2.23, edge +1.2%\n- The Lizard 🎲 wild: **Bristol City** (Winner) in Middlesbrough vs Bristol City (Championship (England 2)) at 8.4 on Matchbook, stake 1.22, edge +6.8%"
     },
     {
@@ -10669,6 +10654,10 @@
     {
       "t": "2026-11-21T13:30:48Z",
       "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
+    },
+    {
+      "t": "2026-11-21T13:45:33Z",
+      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
     }
   ]
 }
