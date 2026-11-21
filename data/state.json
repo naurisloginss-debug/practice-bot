@@ -52,18 +52,6 @@
   },
   "log": [
     {
-      "t": "2026-11-21T14:30:48Z",
-      "text": "🏁 🦎 The Lizard now leads the race to go live (13 days to selection)."
-    },
-    {
-      "t": "2026-11-21T14:45:34Z",
-      "text": "🧬 🦎 The Lizard made Study day part of its character: 📚 Studious. It completed the challenge on 2026-11-19 and its bets beat the market by +3.6%. Looks a day further ahead."
-    },
-    {
-      "t": "2026-11-21T14:45:34Z",
-      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
-    },
-    {
       "t": "2026-11-21T15:00:59Z",
       "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
     },
@@ -170,6 +158,18 @@
     {
       "t": "2026-11-21T18:30:46Z",
       "text": "🏟️ 🧮 The Quant takes the lead in the Arena."
+    },
+    {
+      "t": "2026-11-21T18:45:31Z",
+      "text": "🧬 🧮 The Quant made Read and react part of its character: 📰 Well-read. It completed the challenge on 2026-11-21 and its bets beat the market by +8.7%. Trusts its hunches more (+10% gut trust)."
+    },
+    {
+      "t": "2026-11-21T18:45:31Z",
+      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-21T18:45:31Z",
+      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +0.5%. Allows underdogs at odds up to 1.0 higher."
     }
   ],
   "levels": {
@@ -2193,20 +2193,20 @@
     }
   },
   "skip_note": "2026-11-06@8",
-  "news_at": "2026-11-21T15:30:47Z",
+  "news_at": "2026-11-21T18:45:31Z",
   "feed_status": {
     "https://www.espn.com/espn/rss/nba/news": "error 2026-11-10T08:42:16Z: no element found: line 1, column 0",
-    "https://www.cbssports.com/rss/headlines/nba/": "ok 2026-11-21T15:30:47Z",
-    "https://sports.yahoo.com/nba/rss.xml": "ok 2026-11-21T15:30:47Z",
+    "https://www.cbssports.com/rss/headlines/nba/": "ok 2026-11-21T18:45:31Z",
+    "https://sports.yahoo.com/nba/rss.xml": "ok 2026-11-21T18:45:31Z",
     "https://www.espn.com/espn/rss/nfl/news": "error 2026-11-10T08:42:16Z: no element found: line 1, column 0",
     "https://www.espn.com/espn/rss/ncf/news": "error 2026-11-10T08:42:16Z: no element found: line 1, column 0",
-    "https://www.cbssports.com/rss/headlines/nfl/": "ok 2026-11-21T15:30:47Z",
-    "https://sports.yahoo.com/nfl/rss.xml": "ok 2026-11-21T15:30:47Z",
-    "https://sports.yahoo.com/college-football/rss.xml": "ok 2026-11-21T15:30:47Z",
-    "https://feeds.bbci.co.uk/sport/football/rss.xml": "ok 2026-11-21T15:30:47Z",
-    "https://feeds.bbci.co.uk/sport/football/championship/rss.xml": "ok 2026-11-21T15:30:47Z",
-    "https://feeds.bbci.co.uk/sport/football/european/rss.xml": "ok 2026-11-21T15:30:47Z",
-    "https://football-italia.net/feed/": "ok 2026-11-21T15:30:47Z"
+    "https://www.cbssports.com/rss/headlines/nfl/": "ok 2026-11-21T18:45:31Z",
+    "https://sports.yahoo.com/nfl/rss.xml": "ok 2026-11-21T18:45:31Z",
+    "https://sports.yahoo.com/college-football/rss.xml": "ok 2026-11-21T18:45:31Z",
+    "https://feeds.bbci.co.uk/sport/football/rss.xml": "ok 2026-11-21T18:45:31Z",
+    "https://feeds.bbci.co.uk/sport/football/championship/rss.xml": "ok 2026-11-21T18:45:31Z",
+    "https://feeds.bbci.co.uk/sport/football/european/rss.xml": "ok 2026-11-21T18:45:31Z",
+    "https://football-italia.net/feed/": "ok 2026-11-21T18:45:31Z"
   },
   "exploring": {
     "lizard": {
@@ -2700,34 +2700,40 @@
       "discipline": {
         "since": "2026-11-21T07:21:41Z",
         "on": 0.0129,
-        "off": 0.0005,
+        "off": 0.0038,
         "bets": 6
       },
       "underdog": {
         "since": "2026-11-21T07:21:41Z",
         "on": 0.016,
-        "off": -0.0013,
+        "off": 0.0023,
         "bets": 9
+      },
+      "news": {
+        "since": "2026-11-21T18:45:31Z",
+        "on": 0.0868,
+        "off": 0.0012,
+        "bets": 3
       }
     },
     "shark": {
       "new_ground": {
         "since": "2026-11-21T07:21:41Z",
         "on": 0.0105,
-        "off": 0.0229,
+        "off": 0.0237,
         "bets": 5
       },
       "news": {
         "since": "2026-11-21T17:45:33Z",
         "on": 0.0888,
-        "off": 0.017,
+        "off": 0.0179,
         "bets": 2
       },
-      "precision": {
-        "since": "2026-11-21T18:30:46Z",
-        "on": 0.032,
-        "off": 0.0258,
-        "bets": 2
+      "underdog": {
+        "since": "2026-11-21T18:45:31Z",
+        "on": 0.0045,
+        "off": 0.0302,
+        "bets": 7
       }
     }
   },
