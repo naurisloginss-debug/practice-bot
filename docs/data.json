@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T12:15:32Z",
+  "updated": "2026-11-21T12:22:28Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -184,8 +184,8 @@
         ]
       },
       "quant": {
-        "iq": 127,
-        "iq_gain": 8,
+        "iq": 126,
+        "iq_gain": 7,
         "streak": 0,
         "best_streak": 4,
         "achievements": [
@@ -307,7 +307,7 @@
             "pending": false
           }
         ],
-        "score": 187,
+        "score": 186,
         "trophies": [
           {
             "kind": "grower",
@@ -494,8 +494,8 @@
           "cautious": 0.0009,
           "beat": 0.6154,
           "challenges": 0.75,
-          "traits": 2,
-          "score": 10.93
+          "traits": 1,
+          "score": 8.93
         },
         {
           "who": "lizard",
@@ -952,8 +952,22 @@
         "measured": 1
       },
       "reading": {
-        "week": 111,
+        "week": 100,
         "latest": [
+          {
+            "t": "2026-11-21T11:52:51Z",
+            "title": "Report: Bayern Munich could rival Milan for Tresoldi after Kane surgery",
+            "link": "https://football-italia.net/report-bayern-could-rival-milan-for-tresoldi/",
+            "source": "football-italia.net",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-21T09:29:13Z",
+            "title": "Serie A: Lazio vs. Lecce – Probable line-ups and where to watch on TV",
+            "link": "https://football-italia.net/serie-a-lazio-vs-lecce-probable-line-ups-3/",
+            "source": "football-italia.net",
+            "tone": 1
+          },
           {
             "t": "2026-11-21T09:06:41Z",
             "title": "Serie A: Como vs. Cagliari – Probable line-ups and where to watch on TV",
@@ -980,20 +994,6 @@
             "title": "Kane out for 'few months' with ankle ligament tear",
             "link": "https://www.bbc.co.uk/sport/football/articles/cvze7d4w5g49o?at_medium=RSS&at_campaign=rss",
             "source": "feeds.bbci.co.uk",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-20T18:41:33Z",
-            "title": "Sarr focused on Palace return after Liverpool interest",
-            "link": "https://www.bbc.co.uk/sport/football/articles/cvj6l7pd1yd0o?at_medium=RSS&at_campaign=rss",
-            "source": "feeds.bbci.co.uk",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-20T17:13:47Z",
-            "title": "Palladino punishment for Heggem, fresh Bologna injury updates",
-            "link": "https://football-italia.net/palladino-punishment-heggem-bologna-injury/",
-            "source": "football-italia.net",
             "tone": -1
           }
         ]
@@ -1215,9 +1215,9 @@
           "effect": "Avoids odds above 3.5.",
           "from": "Discipline day",
           "since": "2026-11-21T12:15:32Z",
-          "on": 0.0221,
+          "on": -0.0049,
           "off": -0.0095,
-          "bets": 2
+          "bets": 3
         }
       ],
       "mind": {
@@ -1840,7 +1840,7 @@
         "measured": 0
       },
       "reading": {
-        "week": 116,
+        "week": 77,
         "latest": [
           {
             "t": "2026-11-21T00:36:05Z",
@@ -2121,8 +2121,8 @@
         }
       ],
       "mind": {
-        "iq": 127,
-        "iq_week": 15,
+        "iq": 126,
+        "iq_week": 14,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -2194,7 +2194,7 @@
           },
           {
             "d": "2026-11-21",
-            "iq": 127
+            "iq": 126
           }
         ],
         "facts": [
@@ -2258,7 +2258,7 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.02,
+        "min_edge": 0.015,
         "odds": [
           1.6,
           4.0
@@ -2557,47 +2557,47 @@
         "measured": 0
       },
       "reading": {
-        "week": 373,
+        "week": 423,
         "latest": [
           {
-            "t": "2026-11-21T06:34:58Z",
-            "title": "TCU QB Adam Schobel expected to start over doubtful Jaden Craig vs. Utah",
-            "link": "https://sports.yahoo.com/articles/tcu-qb-adam-schobel-expected-063458409.html",
+            "t": "2026-11-21T12:03:54Z",
+            "title": "Drew Mestemaker injury update: Is Oklahoma State football QB playing vs Arizona State?",
+            "link": "https://sports.yahoo.com/articles/drew-mestemaker-injury-oklahoma-state-120354777.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-21T04:19:09Z",
-            "title": "Alabama QB Keelon Russell Gets Injury Update Before Chattanooga",
-            "link": "https://sports.yahoo.com/articles/alabama-qb-keelon-russell-gets-041909982.html",
+            "t": "2026-11-21T12:02:08Z",
+            "title": "Notre Dame vs. SMU live updates: Score, highlights and analysis",
+            "link": "https://sports.yahoo.com/articles/notre-dame-vs-smu-live-120208354.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-21T04:02:52Z",
-            "title": "Oregon football’s Dan Lanning turns heads with wild fake field goal TD call",
-            "link": "https://sports.yahoo.com/articles/oregon-football-dan-lanning-turns-040252877.html",
+            "t": "2026-11-21T12:02:01Z",
+            "title": "Texas A&M vs. Oklahoma live updates: Score, highlights, analysis",
+            "link": "https://sports.yahoo.com/articles/texas-m-vs-oklahoma-live-120201853.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-21T03:00:00Z",
-            "title": "Sean McVay has at least one positive injury update",
-            "link": "https://sports.yahoo.com/articles/sean-mcvay-least-one-positive-030000321.html",
+            "t": "2026-11-21T11:30:50Z",
+            "title": "Ohio State at Nebraska: Complete preview, keys, score prediction",
+            "link": "https://sports.yahoo.com/articles/ohio-state-nebraska-complete-preview-113050176.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-21T02:50:19Z",
-            "title": "Giving Props: Prop Bets for Vikings/Niners en México",
-            "link": "https://sports.yahoo.com/articles/giving-props-prop-bets-vikings-025019897.html",
+            "t": "2026-11-21T11:01:23Z",
+            "title": "Georgia vs. South Carolina live updates: Follow SEC showdown from Columbia",
+            "link": "https://sports.yahoo.com/articles/georgia-vs-south-carolina-live-110123826.html",
             "source": "sports.yahoo.com",
-            "tone": 1
+            "tone": -1
           },
           {
-            "t": "2026-11-21T02:40:20Z",
-            "title": "Oregon football’s Dierre Hill limps off field vs. Michigan State",
-            "link": "https://sports.yahoo.com/articles/oregon-football-dierre-hill-limps-024020980.html",
+            "t": "2026-11-21T11:00:00Z",
+            "title": "Giants news: Clean injury report, ‘baby DJ Reader,’ more",
+            "link": "https://sports.yahoo.com/articles/giants-news-clean-injury-report-110000271.html",
             "source": "sports.yahoo.com",
             "tone": -1
           }
@@ -2823,17 +2823,6 @@
           "on": 0.0105,
           "off": 0.0188,
           "bets": 5
-        },
-        {
-          "id": "precision",
-          "emoji": "🎯",
-          "title": "Precise",
-          "effect": "Always demands +0.5% more edge.",
-          "from": "Precision day",
-          "since": "2026-11-21T12:15:32Z",
-          "on": 0.032,
-          "off": 0.022,
-          "bets": 2
         }
       ],
       "mind": {
@@ -10552,10 +10541,6 @@
   "log": [
     {
       "t": "2026-11-21T07:21:41Z",
-      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
-    },
-    {
-      "t": "2026-11-21T07:21:41Z",
       "text": "🧬 🧮 The Quant made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-11 and its bets beat the market by +1.3%. Allows underdogs at odds up to 1.0 higher."
     },
     {
@@ -10669,6 +10654,10 @@
     {
       "t": "2026-11-21T12:15:32Z",
       "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
+    },
+    {
+      "t": "2026-11-21T12:22:28Z",
+      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
     }
   ]
 }
