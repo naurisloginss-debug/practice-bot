@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T02:00:54Z",
+  "updated": "2026-11-22T02:15:31Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -184,8 +184,8 @@
         ]
       },
       "quant": {
-        "iq": 129,
-        "iq_gain": 10,
+        "iq": 131,
+        "iq_gain": 12,
         "streak": 1,
         "best_streak": 4,
         "achievements": [
@@ -307,7 +307,7 @@
             "pending": false
           }
         ],
-        "score": 189,
+        "score": 191,
         "trophies": [
           {
             "kind": "grower",
@@ -330,8 +330,8 @@
         ]
       },
       "shark": {
-        "iq": 123,
-        "iq_gain": 6,
+        "iq": 125,
+        "iq_gain": 8,
         "streak": 1,
         "best_streak": 4,
         "achievements": [
@@ -453,7 +453,7 @@
             "pending": false
           }
         ],
-        "score": 189,
+        "score": 191,
         "trophies": [
           {
             "kind": "sharpshooter",
@@ -518,7 +518,7 @@
       "leader": "lizard"
     }
   },
-  "credits_left": 18187,
+  "credits_left": 18183,
   "last_scan": "2026-11-22@1",
   "strategies": {
     "lizard": {
@@ -1527,15 +1527,15 @@
         "Winner"
       ],
       "start_fund": 500,
-      "fund": 450.49,
+      "fund": 456.26,
       "lessons": [],
       "bets": 89,
-      "open": 13,
-      "won": 29,
-      "lost": 47,
-      "staked": 567.31,
-      "profit": -49.51,
-      "roi": -0.0873,
+      "open": 7,
+      "won": 32,
+      "lost": 50,
+      "staked": 581.04,
+      "profit": -43.74,
+      "roi": -0.0753,
       "avg_edge": 0.0327,
       "avg_clv": 0.0015,
       "beat_close": 0.4783,
@@ -1848,6 +1848,30 @@
         {
           "t": "2026-11-21T08:15:34Z",
           "fund": 450.49
+        },
+        {
+          "t": "2026-11-22T02:15:31Z",
+          "fund": 448.52
+        },
+        {
+          "t": "2026-11-22T02:15:31Z",
+          "fund": 446.47
+        },
+        {
+          "t": "2026-11-22T02:15:31Z",
+          "fund": 451.11
+        },
+        {
+          "t": "2026-11-22T02:15:31Z",
+          "fund": 448.88
+        },
+        {
+          "t": "2026-11-22T02:15:31Z",
+          "fund": 453.81
+        },
+        {
+          "t": "2026-11-22T02:15:31Z",
+          "fund": 456.26
         }
       ],
       "by_league": [
@@ -1872,8 +1896,8 @@
         {
           "name": "College basketball (US)",
           "bets": 61,
-          "profit": -13.38,
-          "roi": -0.0263,
+          "profit": -7.61,
+          "roi": -0.0146,
           "avg_clv": -0.0029,
           "beat_close": 0.4048,
           "clv_count": 42
@@ -1892,8 +1916,8 @@
         {
           "name": "Winner",
           "bets": 58,
-          "profit": -43.17,
-          "roi": -0.3745,
+          "profit": -37.4,
+          "roi": -0.2899,
           "avg_clv": 0.0057,
           "beat_close": 0.5179,
           "clv_count": 56
@@ -1912,8 +1936,8 @@
         {
           "name": "Basketball",
           "bets": 89,
-          "profit": -49.51,
-          "roi": -0.0873,
+          "profit": -43.74,
+          "roi": -0.0753,
           "avg_clv": 0.0015,
           "beat_close": 0.4783,
           "clv_count": 69
@@ -1927,8 +1951,8 @@
         "trust": 0.75,
         "base": 0.4,
         "won": 2,
-        "lost": 6,
-        "profit": -8.51
+        "lost": 7,
+        "profit": -10.74
       },
       "wild": {
         "bets": 5,
@@ -2227,8 +2251,8 @@
         }
       ],
       "mind": {
-        "iq": 129,
-        "iq_week": 10,
+        "iq": 131,
+        "iq_week": 12,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -2304,7 +2328,7 @@
           },
           {
             "d": "2026-11-22",
-            "iq": 129
+            "iq": 131
           }
         ],
         "facts": [
@@ -2317,10 +2341,10 @@
           },
           {
             "conf": "solid",
-            "n": 483,
+            "n": 517,
             "z": 0,
             "text": "The market prices overs in College basketball (US) accurately.",
-            "detail": "48% happened, 50% priced, 483 games"
+            "detail": "49% happened, 50% priced, 517 games"
           },
           {
             "conf": "solid",
@@ -2328,6 +2352,20 @@
             "z": 0,
             "text": "Betfair is the softest bookmaker in NBA.",
             "detail": "beats fair by 2%+ on 6% of its prices vs 1% across all bookmakers"
+          },
+          {
+            "conf": "solid",
+            "n": 371,
+            "z": 0,
+            "text": "The market prices home wins in College basketball (US) accurately.",
+            "detail": "58% happened, 61% priced, 371 games"
+          },
+          {
+            "conf": "solid",
+            "n": 371,
+            "z": 0,
+            "text": "The market prices away wins in College basketball (US) accurately.",
+            "detail": "42% happened, 39% priced, 371 games"
           },
           {
             "conf": "solid",
@@ -2367,7 +2405,7 @@
         ],
         "rules": 0,
         "studied": 689,
-        "resolved": 634
+        "resolved": 670
       }
     },
     "shark": {
@@ -2382,10 +2420,10 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.02,
+        "min_edge": 0.015,
         "odds": [
           1.6,
-          4.0
+          5.0
         ],
         "stop_below": 250
       },
@@ -2400,7 +2438,7 @@
         "Winner"
       ],
       "start_fund": 500,
-      "fund": 482.86,
+      "fund": 494.25,
       "lessons": [
         {
           "kind": "favour",
@@ -2414,12 +2452,12 @@
         }
       ],
       "bets": 92,
-      "open": 51,
-      "won": 11,
-      "lost": 30,
-      "staked": 73.99,
-      "profit": -17.14,
-      "roi": -0.2317,
+      "open": 29,
+      "won": 20,
+      "lost": 43,
+      "staked": 149.68,
+      "profit": -5.75,
+      "roi": -0.0384,
       "avg_edge": 0.0285,
       "avg_clv": 0.01,
       "beat_close": 0.5455,
@@ -2592,6 +2630,94 @@
         {
           "t": "2026-11-21T08:00:54Z",
           "fund": 482.86
+        },
+        {
+          "t": "2026-11-22T02:15:31Z",
+          "fund": 492.7
+        },
+        {
+          "t": "2026-11-22T02:15:31Z",
+          "fund": 497.46
+        },
+        {
+          "t": "2026-11-22T02:15:31Z",
+          "fund": 491.97
+        },
+        {
+          "t": "2026-11-22T02:15:31Z",
+          "fund": 484.69
+        },
+        {
+          "t": "2026-11-22T02:15:31Z",
+          "fund": 480.18
+        },
+        {
+          "t": "2026-11-22T02:15:31Z",
+          "fund": 494.4
+        },
+        {
+          "t": "2026-11-22T02:15:31Z",
+          "fund": 491.99
+        },
+        {
+          "t": "2026-11-22T02:15:31Z",
+          "fund": 489.51
+        },
+        {
+          "t": "2026-11-22T02:15:31Z",
+          "fund": 488.27
+        },
+        {
+          "t": "2026-11-22T02:15:31Z",
+          "fund": 499.88
+        },
+        {
+          "t": "2026-11-22T02:15:31Z",
+          "fund": 502.22
+        },
+        {
+          "t": "2026-11-22T02:15:31Z",
+          "fund": 499.73
+        },
+        {
+          "t": "2026-11-22T02:15:31Z",
+          "fund": 498.1
+        },
+        {
+          "t": "2026-11-22T02:15:31Z",
+          "fund": 499.75
+        },
+        {
+          "t": "2026-11-22T02:15:31Z",
+          "fund": 498.52
+        },
+        {
+          "t": "2026-11-22T02:15:31Z",
+          "fund": 503.67
+        },
+        {
+          "t": "2026-11-22T02:15:31Z",
+          "fund": 501.2
+        },
+        {
+          "t": "2026-11-22T02:15:31Z",
+          "fund": 496.68
+        },
+        {
+          "t": "2026-11-22T02:15:31Z",
+          "fund": 498.33
+        },
+        {
+          "t": "2026-11-22T02:15:31Z",
+          "fund": 495.84
+        },
+        {
+          "t": "2026-11-22T02:15:31Z",
+          "fund": 491.82
+        },
+        {
+          "t": "2026-11-22T02:15:31Z",
+          "fund": 494.25
         }
       ],
       "by_league": [
@@ -2616,8 +2742,8 @@
         {
           "name": "College football (US)",
           "bets": 61,
-          "profit": -17.86,
-          "roi": -0.4146,
+          "profit": -6.47,
+          "roi": -0.0545,
           "avg_clv": 0.009,
           "beat_close": 0.549,
           "clv_count": 51
@@ -2636,8 +2762,8 @@
         {
           "name": "Winner",
           "bets": 70,
-          "profit": 0.19,
-          "roi": 0.0041,
+          "profit": 9.24,
+          "roi": 0.0775,
           "avg_clv": 0.0101,
           "beat_close": 0.5536,
           "clv_count": 56
@@ -2645,8 +2771,8 @@
         {
           "name": "Total",
           "bets": 8,
-          "profit": -9.48,
-          "roi": -1.0,
+          "profit": -7.14,
+          "roi": -0.5965,
           "avg_clv": -0.0048,
           "beat_close": 0.6667,
           "clv_count": 3
@@ -2656,8 +2782,8 @@
         {
           "name": "American football",
           "bets": 92,
-          "profit": -17.14,
-          "roi": -0.2317,
+          "profit": -5.75,
+          "roi": -0.0384,
           "avg_clv": 0.01,
           "beat_close": 0.5455,
           "clv_count": 66
@@ -2670,15 +2796,15 @@
         "beat": 0.2857,
         "trust": 0.65,
         "base": 0.65,
-        "won": 1,
-        "lost": 2,
-        "profit": -1.06
+        "won": 3,
+        "lost": 5,
+        "profit": -4.42
       },
       "wild": {
         "bets": 16,
         "won": 1,
-        "lost": 7,
-        "profit": -2.7,
+        "lost": 9,
+        "profit": -5.17,
         "best": 5.8,
         "avg_clv": -0.0073,
         "appetite": 0.6
@@ -2972,20 +3098,20 @@
           "bets": 2
         },
         {
-          "id": "precision",
-          "emoji": "🎯",
-          "title": "Precise",
-          "effect": "Always demands +0.5% more edge.",
-          "from": "Precision day",
-          "since": "2026-11-22T02:00:54Z",
-          "on": 0.032,
-          "off": 0.0237,
-          "bets": 2
+          "id": "underdog",
+          "emoji": "🐶",
+          "title": "Underdog lover",
+          "effect": "Allows underdogs at odds up to 1.0 higher.",
+          "from": "Underdog hunter",
+          "since": "2026-11-22T02:15:31Z",
+          "on": 0.0153,
+          "off": 0.0303,
+          "bets": 14
         }
       ],
       "mind": {
-        "iq": 123,
-        "iq_week": 7,
+        "iq": 125,
+        "iq_week": 9,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -3061,7 +3187,7 @@
           },
           {
             "d": "2026-11-22",
-            "iq": 123
+            "iq": 125
           }
         ],
         "facts": [
@@ -3085,18 +3211,11 @@
             "z": 0,
             "text": "When I find value, the market moves my way before kick-off 62% of the time.",
             "detail": "45 bets measured"
-          },
-          {
-            "conf": "watching",
-            "n": 132,
-            "z": 1.7574028154575672,
-            "text": "Overs in College football (US) happen less often than priced.",
-            "detail": "42% happened vs 50% priced, 132 games"
           }
         ],
         "rules": 0,
         "studied": 289,
-        "resolved": 172
+        "resolved": 211
       }
     }
   },
@@ -5044,12 +5163,12 @@
       "fair_odds": 4.039,
       "edge": 0.0151,
       "stake": 0.79,
-      "status": "open",
+      "status": "won",
       "closing_fair_odds": 4.5,
       "clv": -0.0889,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": 2.45,
+      "score": "Stonehill Skyhawks 95 - 82 Northeastern Huskies",
+      "settled_at": "2026-11-22T02:15:31Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates Stonehill Skyhawks at 24.8%. That makes the fair price 4.04.",
         "Unibet (SE) pays 4.10. That is +1.5% above fair. My bar is +1.5%.",
@@ -5082,12 +5201,12 @@
       "fair_odds": 3.725,
       "edge": 0.0738,
       "stake": 7.28,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 3.758,
       "clv": 0.0645,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -7.28,
+      "score": "Troy Trojans 7 - 45 Georgia Southern Eagles",
+      "settled_at": "2026-11-22T02:15:31Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates Troy Trojans at 26.8%. That makes the fair price 3.73.",
         "Unibet (SE) pays 4.00. That is +7.4% above fair. My bar is +1.5%.",
@@ -5122,12 +5241,12 @@
       "fair_odds": 2.743,
       "edge": 0.0024,
       "stake": 2.48,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 2.783,
       "clv": -0.0118,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -2.48,
+      "score": "Southern Mississippi Golden Eagles 35 - 40 South Alabama Jaguars",
+      "settled_at": "2026-11-22T02:15:31Z",
       "thoughts": [
         "I read that South Alabama Jaguars have trouble: “Alabama football’s Kalen DeBoer explains how last-minute Keelon Russell decision came to be”. The price on Southern Mississippi Golden Eagles may not have caught up yet.",
         "My rules say no. I smell it before I can prove it. Biting.",
@@ -5160,12 +5279,12 @@
       "fair_odds": 2.208,
       "edge": 0.0191,
       "stake": 4.52,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 2.428,
       "clv": -0.0732,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -4.52,
+      "score": "Marshall Thundering Herd 28 - 27 Georgia State Panthers",
+      "settled_at": "2026-11-22T02:15:31Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates Georgia State Panthers at 45.3%. That makes the fair price 2.21.",
         "BetOnline.ag pays 2.25. That is +1.9% above fair. My bar is +1.5%.",
@@ -5199,12 +5318,12 @@
       "fair_odds": 2.138,
       "edge": 0.0289,
       "stake": 3.87,
-      "status": "open",
+      "status": "won",
       "closing_fair_odds": 2.3,
       "clv": -0.0435,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": 4.64,
+      "score": "La Salle Explorers 73 - 83 Pennsylvania Quakers",
+      "settled_at": "2026-11-22T02:15:31Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates Pennsylvania Quakers at 46.8%. That makes the fair price 2.14.",
         "888sport pays 2.20. That is +2.9% above fair. My bar is +1.5%.",
@@ -5237,12 +5356,12 @@
       "fair_odds": 3.545,
       "edge": 0.0212,
       "stake": 2.41,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 3.431,
       "clv": 0.0552,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -2.41,
+      "score": "Oklahoma Sooners 28 - 7 Texas A&M Aggies",
+      "settled_at": "2026-11-22T02:15:31Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates Texas A&M Aggies at 28.2%. That makes the fair price 3.54.",
         "Marathon Bet pays 3.62. That is +2.1% above fair. My bar is +1.5%.",
@@ -5276,12 +5395,12 @@
       "fair_odds": 3.674,
       "edge": 0.0478,
       "stake": 4.99,
-      "status": "open",
+      "status": "won",
       "closing_fair_odds": 3.946,
       "clv": -0.0244,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": 14.22,
+      "score": "Washington Huskies 27 - 24 Indiana Hoosiers",
+      "settled_at": "2026-11-22T02:15:31Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates Washington Huskies at 27.2%. That makes the fair price 3.67.",
         "MyBookie.ag pays 3.85. That is +4.8% above fair. My bar is +1.5%.",
@@ -5315,12 +5434,12 @@
       "fair_odds": 2.57,
       "edge": 0.0391,
       "stake": 6.95,
-      "status": "open",
+      "status": "won",
       "closing_fair_odds": 2.585,
       "clv": 0.0329,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": 11.61,
+      "score": "Michigan Wolverines 18 - 16 UCLA Bruins",
+      "settled_at": "2026-11-22T02:15:31Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates Michigan Wolverines at 38.9%. That makes the fair price 2.57.",
         "MyBookie.ag pays 2.67. That is +3.9% above fair. My bar is +1.5%.",
@@ -5355,12 +5474,12 @@
       "fair_odds": 2.538,
       "edge": -0.0034,
       "stake": 2.47,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 2.926,
       "clv": -0.1357,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -2.47,
+      "score": "Baylor Bears 10 - 20 Texas Tech Red Raiders",
+      "settled_at": "2026-11-22T02:15:31Z",
       "thoughts": [
         "I read that Texas Tech Red Raiders have trouble: “Texas A&M&#39;s WR Room Faces More Injury Concerns Ahead of Oklahoma Game”. The price on Baylor Bears may not have caught up yet.",
         "My rules say no. I smell it before I can prove it. Biting.",
@@ -5394,12 +5513,12 @@
       "fair_odds": 1.672,
       "edge": -0.0013,
       "stake": 2.47,
-      "status": "open",
+      "status": "won",
       "closing_fair_odds": 1.78,
       "clv": -0.0619,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": 1.65,
+      "score": "New Mexico State Aggies 30 - 42 Delaware Blue Hens",
+      "settled_at": "2026-11-22T02:15:31Z",
       "thoughts": [
         "I read that New Mexico State Aggies have trouble: “Texas A&M captain Marcus Ratcliffe ruled out vs. Oklahoma”. The price on Delaware Blue Hens may not have caught up yet.",
         "My rules say no. I smell it before I can prove it. Biting.",
@@ -5506,12 +5625,12 @@
       "fair_odds": 2.669,
       "edge": 0.0304,
       "stake": 2.82,
-      "status": "open",
+      "status": "won",
       "closing_fair_odds": 3.092,
       "clv": -0.1105,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": 4.93,
+      "score": "Austin Peay Governors 73 - 79 UT Rio Grande Valley Vaqueros",
+      "settled_at": "2026-11-22T02:15:31Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates UT Rio Grande Valley Vaqueros at 37.5%. That makes the fair price 2.67.",
         "LeoVegas (SE) pays 2.75. That is +3.0% above fair. My bar is +1.5%.",
@@ -5659,12 +5778,12 @@
       "fair_odds": 3.763,
       "edge": 0.0044,
       "stake": 2.49,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 3.773,
       "clv": 0.0019,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -2.49,
+      "score": "Illinois Fighting Illini 17 - 34 Iowa Hawkeyes",
+      "settled_at": "2026-11-22T02:15:31Z",
       "thoughts": [
         "I read that Iowa Hawkeyes have trouble: “Iowa football updates injury front before Illinois game”. The price on Illinois Fighting Illini may not have caught up yet.",
         "My rules say no. I smell it before I can prove it. Biting.",
@@ -5734,12 +5853,12 @@
       "fair_odds": 2.938,
       "edge": 0.038,
       "stake": 5.49,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 2.912,
       "clv": 0.0473,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -5.49,
+      "score": "Sam Houston State Bearkats 28 - 31 Middle Tennessee Blue Raiders",
+      "settled_at": "2026-11-22T02:15:31Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates Sam Houston State Bearkats at 34.0%. That makes the fair price 2.94.",
         "Unibet (SE) pays 3.05. That is +3.8% above fair. My bar is +1.5%.",
@@ -5774,12 +5893,12 @@
       "fair_odds": 12.248,
       "edge": 0.1288,
       "stake": 1.23,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 12.462,
       "clv": 0.1093,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -1.23,
+      "score": "Tulsa Golden Hurricane 42 - 14 Charlotte 49ers",
+      "settled_at": "2026-11-22T02:15:31Z",
       "thoughts": [
         "Wild one: Charlotte 49ers at 14.50. The market gives it 8%.",
         "Big fish, long line. Let's see if it bites.",
@@ -5811,12 +5930,12 @@
       "fair_odds": 3.113,
       "edge": 0.0281,
       "stake": 2.05,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 2.819,
       "clv": 0.1352,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -2.05,
+      "score": "Portland Pilots 69 - 87 Fordham Rams",
+      "settled_at": "2026-11-22T02:15:31Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates Portland Pilots at 32.1%. That makes the fair price 3.11.",
         "Unibet (SE) pays 3.20. That is +2.8% above fair. My bar is +1.5%.",
@@ -5851,12 +5970,12 @@
       "fair_odds": 2.966,
       "edge": 0.0116,
       "stake": 2.23,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 2.768,
       "clv": 0.0837,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -2.23,
+      "score": "Saint Peter's Peacocks 52 - 67 Stony Brook Seawolves",
+      "settled_at": "2026-11-22T02:15:31Z",
       "thoughts": [
         "Only +1.16% edge, just under my +1.5% bar. Can't prove it, but I like it.",
         "My rules say no. The model says no. The 2% of me that isn't a model says try it.",
@@ -5887,12 +6006,12 @@
       "fair_odds": 3.742,
       "edge": 0.0154,
       "stake": 1.63,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 3.147,
       "clv": 0.2076,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -1.63,
+      "score": "West Virginia Mountaineers 31 - 34 Houston Cougars",
+      "settled_at": "2026-11-22T02:15:31Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates West Virginia Mountaineers at 26.7%. That makes the fair price 3.74.",
         "BetAnything pays 3.80. That is +1.5% above fair. My bar is +1.5%.",
@@ -5963,12 +6082,12 @@
       "fair_odds": 3.72,
       "edge": 0.035,
       "stake": 1.97,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 3.697,
       "clv": 0.0414,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -1.97,
+      "score": "Eastern Michigan Eagles 70 - 68 Denver Pioneers",
+      "settled_at": "2026-11-22T02:15:31Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates Denver Pioneers at 26.9%. That makes the fair price 3.72.",
         "Unibet (NL) pays 3.85. That is +3.5% above fair. My bar is +1.5%.",
@@ -6003,12 +6122,12 @@
       "fair_odds": 1.98,
       "edge": 0.0153,
       "stake": 2.41,
-      "status": "open",
+      "status": "won",
       "closing_fair_odds": 2.08,
       "clv": -0.0336,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": 2.43,
+      "score": "Virginia Cavaliers 41 - 24 North Carolina Tar Heels",
+      "settled_at": "2026-11-22T02:15:31Z",
       "thoughts": [
         "I read that North Carolina Tar Heels have trouble: “Is South Carolina star QB LaNorris Sellers playing vs. Georgia?”. The price on Virginia Cavaliers may not have caught up yet.",
         "My rules say no. I smell it before I can prove it. Biting.",
@@ -6041,12 +6160,12 @@
       "fair_odds": 2.807,
       "edge": 0.0333,
       "stake": 5.18,
-      "status": "open",
+      "status": "won",
       "closing_fair_odds": 2.847,
       "clv": 0.0187,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": 9.84,
+      "score": "Army Black Knights 6 - 10 East Carolina Pirates",
+      "settled_at": "2026-11-22T02:15:31Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates East Carolina Pirates at 35.6%. That makes the fair price 2.81.",
         "LeoVegas (SE) pays 2.90. That is +3.3% above fair. My bar is +1.5%.",
@@ -6080,12 +6199,12 @@
       "fair_odds": 2.392,
       "edge": 0.0161,
       "stake": 3.33,
-      "status": "open",
+      "status": "won",
       "closing_fair_odds": 2.407,
       "clv": 0.0095,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": 4.76,
+      "score": "Boston College Eagles 27 - 15 Syracuse Orange",
+      "settled_at": "2026-11-22T02:15:31Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates Boston College Eagles at 41.8%. That makes the fair price 2.39.",
         "Unibet (NL) pays 2.43. That is +1.6% above fair. My bar is +1.5%.",
@@ -6119,12 +6238,12 @@
       "fair_odds": 2.912,
       "edge": 0.0304,
       "stake": 4.51,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 2.815,
       "clv": 0.0659,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -4.51,
+      "score": "Purdue Boilermakers 10 - 42 Wisconsin Badgers",
+      "settled_at": "2026-11-22T02:15:31Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates Purdue Boilermakers at 34.3%. That makes the fair price 2.91.",
         "MyBookie.ag pays 3.00. That is +3.0% above fair. My bar is +1.5%.",
@@ -6159,12 +6278,12 @@
       "fair_odds": 10.0,
       "edge": 0.075,
       "stake": 1.24,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 11.613,
       "clv": -0.0743,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -1.24,
+      "score": "Georgia Tech Yellow Jackets 29 - 50 Wake Forest Demon Deacons",
+      "settled_at": "2026-11-22T02:15:31Z",
       "thoughts": [
         "Wild one: Georgia Tech Yellow Jackets at 10.75. The market gives it 10%.",
         "Feeling sharp after beating the market 3 times in a row.",
@@ -6199,12 +6318,12 @@
       "fair_odds": 1.93,
       "edge": 0.0054,
       "stake": 2.49,
-      "status": "open",
+      "status": "won",
       "closing_fair_odds": 2.0,
       "clv": -0.03,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": 2.34,
+      "score": "Tulane Green Wave 28 - 24 North Texas Mean Green",
+      "settled_at": "2026-11-22T02:15:31Z",
       "thoughts": [
         "🧭 Exploring. I've only made 4 bets like this (College football (US) total bets at favourites).",
         "Under 56.5 at 1.94 is +0.54% above fair: below my usual bar, but the only way to learn if this kind of bet works for me is to try it.",
@@ -6238,12 +6357,12 @@
       "fair_odds": 1.66,
       "edge": 0.0061,
       "stake": 2.47,
-      "status": "open",
+      "status": "won",
       "closing_fair_odds": 1.693,
       "clv": -0.0137,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": 1.65,
+      "score": "Cincinnati Bearcats 35 - 28 Colorado Buffaloes",
+      "settled_at": "2026-11-22T02:15:31Z",
       "thoughts": [
         "🧭 Exploring. I've only made 1 bet like this (College football (US) winner bets at favourites).",
         "Cincinnati Bearcats at 1.67 is +0.61% above fair: below my usual bar, but the only way to learn if this kind of bet works for me is to try it.",
@@ -6276,12 +6395,12 @@
       "fair_odds": 2.595,
       "edge": 0.0174,
       "stake": 3.14,
-      "status": "open",
+      "status": "won",
       "closing_fair_odds": 2.637,
       "clv": 0.0012,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": 5.15,
+      "score": "Nebraska Cornhuskers 31 - 28 Ohio State Buckeyes",
+      "settled_at": "2026-11-22T02:15:31Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates Nebraska Cornhuskers at 38.5%. That makes the fair price 2.60.",
         "Marathon Bet pays 2.64. That is +1.7% above fair. My bar is +1.5%.",
@@ -6316,12 +6435,12 @@
       "fair_odds": 1.73,
       "edge": 0.0055,
       "stake": 2.49,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 1.772,
       "clv": -0.0182,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -2.49,
+      "score": "Navy Midshipmen 38 - 34 Memphis Tigers",
+      "settled_at": "2026-11-22T02:15:31Z",
       "thoughts": [
         "🧭 Exploring. I've only made 2 bets like this (College football (US) winner bets at favourites).",
         "Memphis Tigers at 1.74 is +0.55% above fair: below my usual bar, but the only way to learn if this kind of bet works for me is to try it.",
@@ -6354,12 +6473,12 @@
       "fair_odds": 2.866,
       "edge": 0.026,
       "stake": 4.02,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 2.796,
       "clv": 0.0516,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -4.02,
+      "score": "Kansas Jayhawks 29 - 31 BYU Cougars",
+      "settled_at": "2026-11-22T02:15:31Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates Kansas Jayhawks at 34.9%. That makes the fair price 2.87.",
         "Matchbook pays 2.98 (2.94 after the exchange fee). That is +2.6% above fair. My bar is +1.5%.",
@@ -10723,18 +10842,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-21T23:57:06Z",
-      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +1.9%. Allows underdogs at odds up to 1.0 higher."
-    },
-    {
-      "t": "2026-11-22T00:01:04Z",
-      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
-    },
-    {
-      "t": "2026-11-22T00:01:04Z",
-      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+0.8% vs the market on those days)."
-    },
-    {
       "t": "2026-11-22T00:01:04Z",
       "text": "❌ 🦎 The Lizard missed 🗺️ New ground: No bet of that type today."
     },
@@ -10841,6 +10948,18 @@
     {
       "t": "2026-11-22T02:00:54Z",
       "text": "Results:\n- Won +4.27: Pachuca (Winner) in Pachuca vs Toluca (Pachuca 2 - 0 Toluca)"
+    },
+    {
+      "t": "2026-11-22T02:15:31Z",
+      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-22T02:15:31Z",
+      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +1.5%. Allows underdogs at odds up to 1.0 higher."
+    },
+    {
+      "t": "2026-11-22T02:15:31Z",
+      "text": "Results:\n- Won +9.84: East Carolina Pirates (Winner) in Army Black Knights vs East Carolina Pirates (Army Black Knights 6 - 10 East Carolina Pirates)\n- Won +4.76: Boston College Eagles (Winner) in Boston College Eagles vs Syracuse Orange (Boston College Eagles 27 - 15 Syracuse Orange)\n- Lost -5.49: Sam Houston State Bearkats (Winner) in Sam Houston State Bearkats vs Middle Tennessee Blue Raiders (Sam Houston State Bearkats 28 - 31 Middle Tennessee Blue Raiders)\n- Lost -7.28: Troy Trojans (Winner) in Troy Trojans vs Georgia Southern Eagles (Troy Trojans 7 - 45 Georgia Southern Eagles)\n- Lost -4.51: Purdue Boilermakers (Winner) in Purdue Boilermakers vs Wisconsin Badgers (Purdue Boilermakers 10 - 42 Wisconsin Badgers)\n- Won +14.22: Washington Huskies (Winner) in Washington Huskies vs Indiana Hoosiers (Washington Huskies 27 - 24 Indiana Hoosiers)\n- Lost -2.41: Texas A&M Aggies (Winner) in Oklahoma Sooners vs Texas A&M Aggies (Oklahoma Sooners 28 - 7 Texas A&M Aggies)\n- Lost -2.48: Southern Mississippi Golden Eagles (Winner) in Southern Mississippi Golden Eagles vs South Alabama Jaguars (Southern Mississippi Golden Eagles 35 - 40 South Alabama Jaguars)\n- Lost -1.24: Georgia Tech Yellow Jackets (Winner) in Georgia Tech Yellow Jackets vs Wake Forest Demon Deacons (Georgia Tech Yellow Jackets 29 - 50 Wake Forest Demon Deacons)\n- Won +11.61: Michigan Wolverines (Winner) in Michigan Wolverines vs UCLA Bruins (Michigan Wolverines 18 - 16 UCLA Bruins)\n- Won +2.34: Under 56.5 (Total) in Tulane Green Wave vs North Texas Mean Green (Tulane Green Wave 28 - 24 North Texas Mean Green)\n- Lost -2.49: Illinois Fighting Illini (Winner) in Illinois Fighting Illini vs Iowa Hawkeyes (Illinois Fighting Illini 17 - 34 Iowa Hawkeyes)\n- Lost -1.63: West Virginia Mountaineers (Winner) in West Virginia Mountaineers vs Houston Cougars (West Virginia Mountaineers 31 - 34 Houston Cougars)\n- Won +1.65: Cincinnati Bearcats (Winner) in Cincinnati Bearcats vs Colorado Buffaloes (Cincinnati Bearcats 35 - 28 Colorado Buffaloes)\n- Lost -1.23: Charlotte 49ers (Winner) in Tulsa Golden Hurricane vs Charlotte 49ers (Tulsa Golden Hurricane 42 - 14 Charlotte 49ers)\n- Won +5.15: Nebraska Cornhuskers (Winner) in Nebraska Cornhuskers vs Ohio State Buckeyes (Nebraska Cornhuskers 31 - 28 Ohio State Buckeyes)\n- Lost -2.47: Baylor Bears (Winner) in Baylor Bears vs Texas Tech Red Raiders (Baylor Bears 10 - 20 Texas Tech Red Raiders)\n- Lost -4.52: Georgia State Panthers (Winner) in Marshall Thundering Herd vs Georgia State Panthers (Marshall Thundering Herd 28 - 27 Georgia State Panthers)\n- Won +1.65: Delaware Blue Hens (Winner) in New Mexico State Aggies vs Delaware Blue Hens (New Mexico State Aggies 30 - 42 Delaware Blue Hens)\n- Lost -2.49: Memphis Tigers (Winner) in Navy Midshipmen vs Memphis Tigers (Navy Midshipmen 38 - 34 Memphis Tigers)\n- Lost -4.02: Kansas Jayhawks (Winner) in Kansas Jayhawks vs BYU Cougars (Kansas Jayhawks 29 - 31 BYU Cougars)\n- Won +2.43: Virginia Cavaliers (Winner) in Virginia Cavaliers vs North Carolina Tar Heels (Virginia Cavaliers 41 - 24 North Carolina Tar Heels)\n- Lost -1.97: Denver Pioneers (Winner) in Eastern Michigan Eagles vs Denver Pioneers (Eastern Michigan Eagles 70 - 68 Denver Pioneers)\n- Lost -2.05: Portland Pilots (Winner) in Portland Pilots vs Fordham Rams (Portland Pilots 69 - 87 Fordham Rams)\n- Won +4.64: Pennsylvania Quakers (Winner) in La Salle Explorers vs Pennsylvania Quakers (La Salle Explorers 73 - 83 Pennsylvania Quakers)\n- Lost -2.23: Saint Peter's Peacocks (Winner) in Saint Peter's Peacocks vs Stony Brook Seawolves (Saint Peter's Peacocks 52 - 67 Stony Brook Seawolves)\n- Won +4.93: UT Rio Grande Valley Vaqueros (Winner) in Austin Peay Governors vs UT Rio Grande Valley Vaqueros (Austin Peay Governors 73 - 79 UT Rio Grande Valley Vaqueros)\n- Won +2.45: Stonehill Skyhawks (Winner) in Stonehill Skyhawks vs Northeastern Huskies (Stonehill Skyhawks 95 - 82 Northeastern Huskies)"
     }
   ]
 }
