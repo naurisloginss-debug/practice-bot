@@ -1,6 +1,6 @@
 {
   "last_scan": "2026-11-22@1",
-  "credits_left": 18178,
+  "credits_left": 18176,
   "league_names": {
     "soccer_italy_serie_b": "Serie B (Italy 2)",
     "soccer_efl_champ": "Championship (England 2)",
@@ -47,23 +47,11 @@
     "soccer_usa_mls": "2026-11-21T22:00:55Z",
     "soccer_australia_aleague": "2026-11-21T13:00:56Z",
     "soccer_japan_j_league": "2026-11-21T14:00:56Z",
-    "soccer_argentina_primera_division": "2026-11-21T21:00:57Z",
+    "soccer_argentina_primera_division": "2026-11-22T03:15:30Z",
     "soccer_mexico_ligamx": "2026-11-22T02:00:54Z",
     "americanfootball_ncaaf_fcs": "2026-11-22T02:30:44Z"
   },
   "log": [
-    {
-      "t": "2026-11-22T00:15:31Z",
-      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-22T00:15:31Z",
-      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +1.9%. Allows underdogs at odds up to 1.0 higher."
-    },
-    {
-      "t": "2026-11-22T00:30:44Z",
-      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
-    },
     {
       "t": "2026-11-22T00:30:44Z",
       "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+0.8% vs the market on those days)."
@@ -171,6 +159,18 @@
     {
       "t": "2026-11-22T03:00:54Z",
       "text": "🏟️ 🦈 The Shark takes the lead in the Arena."
+    },
+    {
+      "t": "2026-11-22T03:15:30Z",
+      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-22T03:15:30Z",
+      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
+    },
+    {
+      "t": "2026-11-22T03:15:30Z",
+      "text": "Results:\n- Lost -4.86: Draw (Winner) in Argentinos Juniors vs Independiente (Argentinos Juniors 1 - 2 Independiente)"
     }
   ],
   "levels": {
@@ -2771,20 +2771,20 @@
       "new_ground": {
         "since": "2026-11-21T07:21:41Z",
         "on": 0.0105,
-        "off": 0.0218,
+        "off": 0.0262,
         "bets": 5
       },
       "news": {
         "since": "2026-11-21T17:45:33Z",
         "on": 0.0888,
-        "off": 0.0174,
+        "off": 0.0216,
         "bets": 2
       },
-      "precision": {
-        "since": "2026-11-22T03:00:54Z",
-        "on": 0.032,
-        "off": 0.0237,
-        "bets": 2
+      "underdog": {
+        "since": "2026-11-22T03:15:30Z",
+        "on": 0.0278,
+        "off": 0.0303,
+        "bets": 15
       }
     }
   },
