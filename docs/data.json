@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T09:30:46Z",
+  "updated": "2026-11-22T09:45:35Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -518,7 +518,7 @@
       "leader": "lizard"
     }
   },
-  "credits_left": 18056,
+  "credits_left": 18054,
   "last_scan": "2026-11-22@9",
   "strategies": {
     "lizard": {
@@ -1535,15 +1535,15 @@
         "Winner"
       ],
       "start_fund": 500,
-      "fund": 461.84,
+      "fund": 459.44,
       "lessons": [],
       "bets": 93,
-      "open": 6,
+      "open": 5,
       "won": 35,
-      "lost": 52,
-      "staked": 589.52,
-      "profit": -38.16,
-      "roi": -0.0647,
+      "lost": 53,
+      "staked": 591.92,
+      "profit": -40.56,
+      "roi": -0.0685,
       "avg_edge": 0.0319,
       "avg_clv": 0.0021,
       "beat_close": 0.4857,
@@ -1900,6 +1900,10 @@
         {
           "t": "2026-11-22T08:15:32Z",
           "fund": 461.84
+        },
+        {
+          "t": "2026-11-22T09:45:35Z",
+          "fund": 459.44
         }
       ],
       "by_league": [
@@ -1915,8 +1919,8 @@
         {
           "name": "NBA",
           "bets": 22,
-          "profit": -17.06,
-          "roi": -0.4082,
+          "profit": -19.46,
+          "roi": -0.4404,
           "avg_clv": 0.0076,
           "beat_close": 0.6,
           "clv_count": 20
@@ -1944,8 +1948,8 @@
         {
           "name": "Winner",
           "bets": 62,
-          "profit": -31.82,
-          "roi": -0.2314,
+          "profit": -34.22,
+          "roi": -0.2446,
           "avg_clv": 0.0064,
           "beat_close": 0.5263,
           "clv_count": 57
@@ -1964,8 +1968,8 @@
         {
           "name": "Basketball",
           "bets": 93,
-          "profit": -38.16,
-          "roi": -0.0647,
+          "profit": -40.56,
+          "roi": -0.0685,
           "avg_clv": 0.0021,
           "beat_close": 0.4857,
           "clv_count": 70
@@ -2404,24 +2408,24 @@
           },
           {
             "conf": "solid",
-            "n": 116,
+            "n": 117,
             "z": 0,
             "text": "The market prices overs in NBA accurately.",
-            "detail": "51% happened, 50% priced, 116 games"
+            "detail": "50% happened, 50% priced, 117 games"
           },
           {
             "conf": "solid",
-            "n": 86,
+            "n": 87,
             "z": 0,
             "text": "The market prices home wins in NBA accurately.",
-            "detail": "50% happened, 54% priced, 86 games"
+            "detail": "51% happened, 53% priced, 87 games"
           },
           {
             "conf": "solid",
-            "n": 86,
+            "n": 87,
             "z": 0,
             "text": "The market prices away wins in NBA accurately.",
-            "detail": "50% happened, 46% priced, 86 games"
+            "detail": "49% happened, 47% priced, 87 games"
           },
           {
             "conf": "solid",
@@ -2433,7 +2437,7 @@
         ],
         "rules": 0,
         "studied": 718,
-        "resolved": 683
+        "resolved": 684
       }
     },
     "shark": {
@@ -2448,10 +2452,10 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.015,
+        "min_edge": 0.02,
         "odds": [
           1.6,
-          5.0
+          4.0
         ],
         "stop_below": 250
       },
@@ -3177,15 +3181,15 @@
           "bets": 2
         },
         {
-          "id": "underdog",
-          "emoji": "🐶",
-          "title": "Underdog lover",
-          "effect": "Allows underdogs at odds up to 1.0 higher.",
-          "from": "Underdog hunter",
-          "since": "2026-11-22T09:30:46Z",
-          "on": 0.0278,
-          "off": 0.0303,
-          "bets": 15
+          "id": "precision",
+          "emoji": "🎯",
+          "title": "Precise",
+          "effect": "Always demands +0.5% more edge.",
+          "from": "Precision day",
+          "since": "2026-11-22T09:45:35Z",
+          "on": 0.032,
+          "off": 0.0287,
+          "bets": 2
         }
       ],
       "mind": {
@@ -4903,12 +4907,12 @@
       "fair_odds": 2.727,
       "edge": 0.0267,
       "stake": 2.4,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 2.784,
       "clv": 0.0056,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -2.4,
+      "score": "Dallas Mavericks 110 - 100 Los Angeles Clippers",
+      "settled_at": "2026-11-22T09:45:35Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates Los Angeles Clippers at 36.7%. That makes the fair price 2.73.",
         "Unibet (SE) pays 2.80. That is +2.7% above fair. My bar is +1.5%.",
@@ -10928,18 +10932,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-22T06:15:35Z",
-      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
-    },
-    {
-      "t": "2026-11-22T06:15:35Z",
-      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.6% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-22T06:30:44Z",
-      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
-    },
-    {
       "t": "2026-11-22T06:30:44Z",
       "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
     },
@@ -11046,6 +11038,18 @@
     {
       "t": "2026-11-22T09:30:46Z",
       "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
+    },
+    {
+      "t": "2026-11-22T09:45:35Z",
+      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
+    },
+    {
+      "t": "2026-11-22T09:45:35Z",
+      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.6% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-22T09:45:35Z",
+      "text": "Results:\n- Lost -2.40: Los Angeles Clippers (Winner) in Dallas Mavericks vs Los Angeles Clippers (Dallas Mavericks 110 - 100 Los Angeles Clippers)"
     }
   ]
 }
