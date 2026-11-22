@@ -12564,7 +12564,10 @@
       "point": 41.0,
       "over": 0.5168
     },
-    "result": null
+    "result": [
+      34.0,
+      7.0
+    ]
   },
   "4c5b1c0843a260278e95eb93e7787576": {
     "league": "americanfootball_nfl",
@@ -21788,6 +21791,22 @@
     },
     "tot": {
       "point": 155.5,
+      "over": 0.5
+    },
+    "result": null
+  },
+  "4da46315b5b1d5305eea1a58a8167213": {
+    "league": "soccer_england_league1",
+    "start": "2026-11-26T20:00:00Z",
+    "home": "Doncaster Rovers",
+    "away": "Huddersfield Town",
+    "h2h": {
+      "home": 0.2423,
+      "away": 0.5383,
+      "draw": 0.2193
+    },
+    "tot": {
+      "point": 3.0,
       "over": 0.5
     },
     "result": null
