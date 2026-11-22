@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T21:45:30Z",
+  "updated": "2026-11-22T22:00:54Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -29,9 +29,9 @@
     ],
     "chars": {
       "lizard": {
-        "iq": 121,
-        "iq_gain": 15,
-        "streak": 6,
+        "iq": 124,
+        "iq_gain": 18,
+        "streak": 7,
         "best_streak": 8,
         "achievements": [
           {
@@ -142,17 +142,17 @@
           {
             "text": "Bets checked against the market",
             "target": 19,
-            "now": 30
+            "now": 31
           },
           {
             "text": "Beat the market on",
             "target": 55,
-            "now": 67,
+            "now": 68,
             "unit": "%",
             "pending": false
           }
         ],
-        "score": 175,
+        "score": 178,
         "trophies": [
           {
             "kind": "sharpshooter",
@@ -518,7 +518,7 @@
       "leader": "shark"
     }
   },
-  "credits_left": 17867,
+  "credits_left": 17862,
   "last_scan": "2026-11-22@21",
   "strategies": {
     "lizard": {
@@ -569,6 +569,11 @@
           "kind": "avoid",
           "text": "Stopped: all leagues · winner · long shots",
           "detail": "-3.7% vs the market over 17 bets"
+        },
+        {
+          "kind": "favour",
+          "text": "Backing harder: all leagues · winner · middle odds",
+          "detail": "+1.8% vs the market, beat it on 71% of 31 bets"
         }
       ],
       "bets": 90,
@@ -579,9 +584,9 @@
       "profit": -2.1,
       "roi": -0.0129,
       "avg_edge": 0.03,
-      "avg_clv": 0.0029,
-      "beat_close": 0.6515,
-      "clv_count": 66,
+      "avg_clv": 0.0048,
+      "beat_close": 0.6567,
+      "clv_count": 67,
       "history": [
         {
           "t": "2026-11-04T12:49:24Z",
@@ -916,6 +921,15 @@
           "clv_count": 12
         },
         {
+          "name": "Brasileirão (Brazil)",
+          "bets": 5,
+          "profit": 12.81,
+          "roi": 1.1397,
+          "avg_clv": 0.0066,
+          "beat_close": 0.4,
+          "clv_count": 5
+        },
+        {
           "name": "Championship (England 2)",
           "bets": 24,
           "profit": -2.05,
@@ -952,15 +966,6 @@
           "clv_count": 3
         },
         {
-          "name": "Brasileirão (Brazil)",
-          "bets": 5,
-          "profit": 12.81,
-          "roi": 1.1397,
-          "avg_clv": -0.0231,
-          "beat_close": 0.25,
-          "clv_count": 4
-        },
-        {
           "name": "League One (England 3)",
           "bets": 5,
           "profit": 7.48,
@@ -994,9 +999,9 @@
           "bets": 80,
           "profit": -6.48,
           "roi": -0.0454,
-          "avg_clv": 0.0019,
-          "beat_close": 0.6349,
-          "clv_count": 63
+          "avg_clv": 0.0039,
+          "beat_close": 0.6406,
+          "clv_count": 64
         },
         {
           "name": "Spread",
@@ -1014,9 +1019,9 @@
           "bets": 90,
           "profit": -2.1,
           "roi": -0.0129,
-          "avg_clv": 0.0029,
-          "beat_close": 0.6515,
-          "clv_count": 66
+          "avg_clv": 0.0048,
+          "beat_close": 0.6567,
+          "clv_count": 67
         }
       ],
       "gut": {
@@ -1188,8 +1193,8 @@
         ],
         "curiosity": 0.5,
         "scouts": 24,
-        "scout_clv": -0.0126,
-        "scout_measured": 18
+        "scout_clv": -0.0054,
+        "scout_measured": 19
       },
       "challenge": {
         "today": {
@@ -1330,8 +1335,8 @@
         }
       ],
       "mind": {
-        "iq": 121,
-        "iq_week": 16,
+        "iq": 124,
+        "iq_week": 19,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -1407,7 +1412,7 @@
           },
           {
             "d": "2026-11-22",
-            "iq": 121
+            "iq": 124
           }
         ],
         "facts": [
@@ -1498,7 +1503,7 @@
         ],
         "rules": 0,
         "studied": 266,
-        "resolved": 201
+        "resolved": 203
       }
     },
     "quant": {
@@ -2449,10 +2454,10 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.02,
+        "min_edge": 0.015,
         "odds": [
           1.6,
-          4.0
+          5.0
         ],
         "stop_below": 250
       },
@@ -3169,15 +3174,15 @@
           "bets": 1
         },
         {
-          "id": "precision",
-          "emoji": "🎯",
-          "title": "Precise",
-          "effect": "Always demands +0.5% more edge.",
-          "from": "Precision day",
-          "since": "2026-11-22T21:45:30Z",
-          "on": 0.032,
-          "off": 0.0263,
-          "bets": 2
+          "id": "underdog",
+          "emoji": "🐶",
+          "title": "Underdog lover",
+          "effect": "Allows underdogs at odds up to 1.0 higher.",
+          "from": "Underdog hunter",
+          "since": "2026-11-22T22:00:54Z",
+          "on": 0.0278,
+          "off": 0.029,
+          "bets": 15
         }
       ],
       "mind": {
@@ -4359,8 +4364,8 @@
       "edge": 0.0146,
       "stake": 2.44,
       "status": "open",
-      "closing_fair_odds": null,
-      "clv": null,
+      "closing_fair_odds": 2.665,
+      "clv": 0.1257,
       "profit": 0.0,
       "score": null,
       "settled_at": null,
@@ -10924,14 +10929,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-22T17:30:46Z",
-      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.6% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-22T17:30:46Z",
-      "text": "🏁 🦈 The Shark now leads the race to go live (12 days to selection)."
-    },
-    {
       "t": "2026-11-22T17:45:32Z",
       "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
     },
@@ -11042,6 +11039,14 @@
     {
       "t": "2026-11-22T21:45:30Z",
       "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
+    },
+    {
+      "t": "2026-11-22T22:00:54Z",
+      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-22T22:00:54Z",
+      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
     }
   ]
 }
