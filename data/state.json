@@ -1,6 +1,6 @@
 {
   "last_scan": "2026-11-21@21",
-  "credits_left": 18246,
+  "credits_left": 18244,
   "league_names": {
     "soccer_italy_serie_b": "Serie B (Italy 2)",
     "soccer_efl_champ": "Championship (England 2)",
@@ -52,14 +52,6 @@
     "americanfootball_ncaaf_fcs": "2026-11-21T20:15:33Z"
   },
   "log": [
-    {
-      "t": "2026-11-21T22:00:55Z",
-      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +1.0%. Allows underdogs at odds up to 1.0 higher."
-    },
-    {
-      "t": "2026-11-21T22:15:32Z",
-      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
-    },
     {
       "t": "2026-11-21T22:15:32Z",
       "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+0.2% vs the market on those days)."
@@ -171,6 +163,14 @@
     {
       "t": "2026-11-22T00:15:31Z",
       "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +1.9%. Allows underdogs at odds up to 1.0 higher."
+    },
+    {
+      "t": "2026-11-22T00:30:44Z",
+      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
+    },
+    {
+      "t": "2026-11-22T00:30:44Z",
+      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+0.8% vs the market on those days)."
     }
   ],
   "levels": {
@@ -2777,11 +2777,11 @@
         "off": 0.0186,
         "bets": 2
       },
-      "underdog": {
-        "since": "2026-11-22T00:15:31Z",
-        "on": 0.019,
-        "off": 0.0303,
-        "bets": 12
+      "precision": {
+        "since": "2026-11-22T00:30:44Z",
+        "on": 0.032,
+        "off": 0.0256,
+        "bets": 2
       }
     }
   },
