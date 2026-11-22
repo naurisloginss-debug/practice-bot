@@ -54,10 +54,6 @@
   "log": [
     {
       "t": "2026-11-22T14:45:32Z",
-      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-22T14:45:32Z",
       "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
     },
     {
@@ -171,6 +167,10 @@
     {
       "t": "2026-11-22T18:01:00Z",
       "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.4% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-22T18:15:35Z",
+      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
     }
   ],
   "levels": {
@@ -2767,6 +2767,12 @@
         "on": 0.0329,
         "off": 0.0227,
         "bets": 1
+      },
+      "precision": {
+        "since": "2026-11-22T18:15:35Z",
+        "on": 0.032,
+        "off": 0.0263,
+        "bets": 2
       }
     }
   },
