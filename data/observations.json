@@ -16252,7 +16252,10 @@
       "point": 2.75,
       "over": 0.5026
     },
-    "result": null
+    "result": [
+      1.0,
+      2.0
+    ]
   },
   "7bbb07868081773728289235e9d22f42": {
     "league": "soccer_mexico_ligamx",
@@ -21013,6 +21016,414 @@
     "tot": {
       "point": 221.0,
       "over": 0.5116
+    },
+    "result": null
+  },
+  "90da1cde4144fac00d41f2c0db2cc921": {
+    "league": "basketball_nba",
+    "start": "2026-11-22T23:10:00Z",
+    "home": "Miami Heat",
+    "away": "Oklahoma City Thunder",
+    "h2h": {
+      "home": 0.5609,
+      "away": 0.4391
+    },
+    "tot": {
+      "point": 231.0,
+      "over": 0.5
+    },
+    "result": null
+  },
+  "1e7b9477c6c55aea5efd9c1a47039f5c": {
+    "league": "basketball_nba",
+    "start": "2026-11-23T00:10:00Z",
+    "home": "Utah Jazz",
+    "away": "Dallas Mavericks",
+    "h2h": {
+      "away": 0.5422,
+      "home": 0.4578
+    },
+    "tot": {
+      "point": 225.5,
+      "over": 0.5
+    },
+    "result": null
+  },
+  "031fa761cc38e1b5afd9309b731b38b2": {
+    "league": "basketball_nba",
+    "start": "2026-11-23T01:10:00Z",
+    "home": "New York Knicks",
+    "away": "Indiana Pacers",
+    "h2h": {
+      "away": 0.2277,
+      "home": 0.7723
+    },
+    "tot": {
+      "point": 218.0,
+      "over": 0.491
+    },
+    "result": null
+  },
+  "9db5c4284531a6c45d11d71c9debdf30": {
+    "league": "basketball_ncaab",
+    "start": "2026-11-22T17:00:00Z",
+    "home": "Nebraska Cornhuskers",
+    "away": "Butler Bulldogs",
+    "h2h": {
+      "away": 0.1472,
+      "home": 0.8528
+    },
+    "tot": {
+      "point": 154.0,
+      "over": 0.5197
+    },
+    "result": null
+  },
+  "8df795d92371ff8d107e74c5f9e3a315": {
+    "league": "basketball_ncaab",
+    "start": "2026-11-22T17:00:00Z",
+    "home": "UIC Flames",
+    "away": "Miami (OH) RedHawks",
+    "h2h": {
+      "away": 0.5117,
+      "home": 0.4883
+    },
+    "tot": {
+      "point": 149.0,
+      "over": 0.4947
+    },
+    "result": null
+  },
+  "6720f59950e8e460d7daf76bc09897e6": {
+    "league": "basketball_ncaab",
+    "start": "2026-11-22T18:00:00Z",
+    "home": "Canisius Golden Griffins",
+    "away": "Western Illinois Leathernecks",
+    "h2h": {
+      "home": 0.6186,
+      "away": 0.3814
+    },
+    "tot": {
+      "point": 140.5,
+      "over": 0.4948
+    },
+    "result": null
+  },
+  "a4479cbdb9666b13f2c1f33e93f6e281": {
+    "league": "basketball_ncaab",
+    "start": "2026-11-22T18:00:00Z",
+    "home": "Northwestern Wildcats",
+    "away": "Dayton Flyers",
+    "h2h": {
+      "away": 0.6,
+      "home": 0.4
+    },
+    "tot": {
+      "point": 136.0,
+      "over": 0.5026
+    },
+    "result": null
+  },
+  "ca02e6e3717e63798ba1db0542ee38ee": {
+    "league": "basketball_ncaab",
+    "start": "2026-11-22T19:00:00Z",
+    "home": "Memphis Tigers",
+    "away": "Evansville Purple Aces",
+    "h2h": null,
+    "tot": {
+      "point": 159.5,
+      "over": 0.4817
+    },
+    "result": null
+  },
+  "d9147d63fc7cb44ba58391e30c6d0806": {
+    "league": "basketball_ncaab",
+    "start": "2026-11-22T19:00:00Z",
+    "home": "Fordham Rams",
+    "away": "San Diego Toreros",
+    "h2h": {
+      "home": 0.5797,
+      "away": 0.4203
+    },
+    "tot": {
+      "point": 144.0,
+      "over": 0.5026
+    },
+    "result": null
+  },
+  "dce1dc11a16440e70de006d164780ac2": {
+    "league": "basketball_ncaab",
+    "start": "2026-11-22T19:00:00Z",
+    "home": "GW Revolutionaries",
+    "away": "Western Kentucky Hilltoppers",
+    "h2h": {
+      "home": 0.6573,
+      "away": 0.3427
+    },
+    "tot": {
+      "point": 147.0,
+      "over": 0.5105
+    },
+    "result": null
+  },
+  "20c6981840df47c0889d7ae41c56aa84": {
+    "league": "basketball_ncaab",
+    "start": "2026-11-22T19:00:00Z",
+    "home": "South Dakota Coyotes",
+    "away": "Utah Tech Trailblazers",
+    "h2h": {
+      "home": 0.5,
+      "away": 0.5
+    },
+    "tot": {
+      "point": 153.0,
+      "over": 0.5079
+    },
+    "result": null
+  },
+  "c4fb85c9d4955609536990dc5dd565d9": {
+    "league": "basketball_ncaab",
+    "start": "2026-11-22T19:00:00Z",
+    "home": "Youngstown St Penguins",
+    "away": "William & Mary Tribe",
+    "h2h": {
+      "away": 0.5689,
+      "home": 0.4311
+    },
+    "tot": {
+      "point": 164.5,
+      "over": 0.5052
+    },
+    "result": null
+  },
+  "5269b87b9d1db58e870998a3d05f42eb": {
+    "league": "basketball_ncaab",
+    "start": "2026-11-22T19:30:00Z",
+    "home": "New Mexico St Aggies",
+    "away": "Robert Morris Colonials",
+    "h2h": {
+      "home": 0.5325,
+      "away": 0.4675
+    },
+    "tot": {
+      "point": 137.5,
+      "over": 0.5119
+    },
+    "result": null
+  },
+  "ce609d312c528c91d20e80577d8feee5": {
+    "league": "basketball_ncaab",
+    "start": "2026-11-22T20:00:00Z",
+    "home": "Texas Longhorns",
+    "away": "Southern Indiana Screaming Eagles",
+    "h2h": null,
+    "tot": {
+      "point": 148.5,
+      "over": 0.5052
+    },
+    "result": null
+  },
+  "a43c29f68105ec56703e2c7c29568490": {
+    "league": "basketball_ncaab",
+    "start": "2026-11-22T20:30:00Z",
+    "home": "Oklahoma St Cowboys",
+    "away": "Virginia Tech Hokies",
+    "h2h": {
+      "home": 0.4753,
+      "away": 0.5247
+    },
+    "tot": {
+      "point": 160.0,
+      "over": 0.4974
+    },
+    "result": null
+  },
+  "05c828d73504c939e026a844ffcabd3c": {
+    "league": "basketball_ncaab",
+    "start": "2026-11-22T21:30:00Z",
+    "home": "Richmond Spiders",
+    "away": "Liberty Flames",
+    "h2h": {
+      "away": 0.5452,
+      "home": 0.4548
+    },
+    "tot": {
+      "point": 142.5,
+      "over": 0.5
+    },
+    "result": null
+  },
+  "42e47ef758f2c16dcf1cc64806373809": {
+    "league": "basketball_ncaab",
+    "start": "2026-11-22T21:30:00Z",
+    "home": "Loyola Marymount Lions",
+    "away": "UC Irvine Anteaters",
+    "h2h": {
+      "home": 0.4167,
+      "away": 0.5833
+    },
+    "tot": {
+      "point": 139.0,
+      "over": 0.4948
+    },
+    "result": null
+  },
+  "2a7854aaf3f39f696f8f72e8b4d719be": {
+    "league": "basketball_ncaab",
+    "start": "2026-11-22T22:00:00Z",
+    "home": "Portland St Vikings",
+    "away": "CSU Fullerton Titans",
+    "h2h": {
+      "away": 0.3621,
+      "home": 0.6379
+    },
+    "tot": {
+      "point": 163.5,
+      "over": 0.4843
+    },
+    "result": null
+  },
+  "4d57a3b1bd68b12004210b45e6627108": {
+    "league": "basketball_ncaab",
+    "start": "2026-11-22T22:30:00Z",
+    "home": "Stephen F. Austin Lumberjacks",
+    "away": "Temple Owls",
+    "h2h": {
+      "home": 0.4767,
+      "away": 0.5233
+    },
+    "tot": {
+      "point": 144.5,
+      "over": 0.5
+    },
+    "result": null
+  },
+  "c176d337261bbb0fe334d3bf7f270ba6": {
+    "league": "basketball_ncaab",
+    "start": "2026-11-22T23:00:00Z",
+    "home": "Minnesota Golden Gophers",
+    "away": "Utah Utes",
+    "h2h": {
+      "home": 0.8338,
+      "away": 0.1662
+    },
+    "tot": {
+      "point": 132.0,
+      "over": 0.4947
+    },
+    "result": null
+  },
+  "9d284f0191ee2d4d218bd46e7cb2ea12": {
+    "league": "basketball_ncaab",
+    "start": "2026-11-22T23:00:00Z",
+    "home": "Southern Miss Golden Eagles",
+    "away": "Valparaiso Beacons",
+    "h2h": {
+      "home": 0.2438,
+      "away": 0.7562
+    },
+    "tot": {
+      "point": 144.0,
+      "over": 0.5066
+    },
+    "result": null
+  },
+  "26ab317bb218650201b41abfbf26b858": {
+    "league": "basketball_ncaab",
+    "start": "2026-11-23T00:00:00Z",
+    "home": "Portland Pilots",
+    "away": "Cal Baptist Lancers",
+    "h2h": {
+      "away": 0.1967,
+      "home": 0.8033
+    },
+    "tot": {
+      "point": 147.0,
+      "over": 0.5
+    },
+    "result": null
+  },
+  "44c35f271b07ee73f3cdeb6afb468ff6": {
+    "league": "basketball_ncaab",
+    "start": "2026-11-23T00:00:00Z",
+    "home": "UCLA Bruins",
+    "away": "Delaware Blue Hens",
+    "h2h": null,
+    "tot": {
+      "point": 145.5,
+      "over": 0.5026
+    },
+    "result": null
+  },
+  "1ee2fb83953abf7e64374cbf970ddd8f": {
+    "league": "basketball_ncaab",
+    "start": "2026-11-23T00:00:00Z",
+    "home": "Rhode Island Rams",
+    "away": "UAB Blazers",
+    "h2h": {
+      "home": 0.5452,
+      "away": 0.4548
+    },
+    "tot": {
+      "point": 149.5,
+      "over": 0.5079
+    },
+    "result": null
+  },
+  "441228531de5a6035d73ba3bc9f49d19": {
+    "league": "basketball_ncaab",
+    "start": "2026-11-23T01:00:00Z",
+    "home": "USC Trojans",
+    "away": "Louisiana Ragin' Cajuns",
+    "h2h": null,
+    "tot": {
+      "point": 147.5,
+      "over": 0.5
+    },
+    "result": null
+  },
+  "4564c6b619ba4df5c3f81b609a24f582": {
+    "league": "basketball_ncaab",
+    "start": "2026-11-23T01:00:00Z",
+    "home": "Utah Valley Wolverines",
+    "away": "Tenn-Martin Skyhawks",
+    "h2h": {
+      "away": 0.2409,
+      "home": 0.7591
+    },
+    "tot": {
+      "point": 146.5,
+      "over": 0.5
+    },
+    "result": null
+  },
+  "193030f0c2c0c4a26223daa93d916bff": {
+    "league": "basketball_ncaab",
+    "start": "2026-11-23T02:30:00Z",
+    "home": "UC San Diego Tritons",
+    "away": "Seattle Redhawks",
+    "h2h": {
+      "away": 0.4883,
+      "home": 0.5117
+    },
+    "tot": {
+      "point": 146.0,
+      "over": 0.4974
+    },
+    "result": null
+  },
+  "e1df42277edc29d6e8f5fe465c9fb695": {
+    "league": "basketball_ncaab",
+    "start": "2026-11-23T04:59:00Z",
+    "home": "Loyola (Chi) Ramblers",
+    "away": "San José St Spartans",
+    "h2h": {
+      "home": 0.6,
+      "away": 0.4
+    },
+    "tot": {
+      "point": 148.5,
+      "over": 0.5
     },
     "result": null
   }
