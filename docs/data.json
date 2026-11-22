@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T01:45:30Z",
+  "updated": "2026-11-22T02:00:54Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -29,8 +29,8 @@
     ],
     "chars": {
       "lizard": {
-        "iq": 122,
-        "iq_gain": 16,
+        "iq": 123,
+        "iq_gain": 17,
         "streak": 5,
         "best_streak": 8,
         "achievements": [
@@ -152,7 +152,7 @@
             "pending": false
           }
         ],
-        "score": 173,
+        "score": 174,
         "trophies": [
           {
             "kind": "sharpshooter",
@@ -332,7 +332,7 @@
       "shark": {
         "iq": 123,
         "iq_gain": 6,
-        "streak": 0,
+        "streak": 1,
         "best_streak": 4,
         "achievements": [
           {
@@ -443,12 +443,12 @@
           {
             "text": "Bets checked against the market",
             "target": 30,
-            "now": 36
+            "now": 37
           },
           {
             "text": "Beat the market on",
             "target": 61,
-            "now": 50,
+            "now": 51,
             "unit": "%",
             "pending": false
           }
@@ -518,7 +518,7 @@
       "leader": "lizard"
     }
   },
-  "credits_left": 18190,
+  "credits_left": 18187,
   "last_scan": "2026-11-22@1",
   "strategies": {
     "lizard": {
@@ -563,7 +563,7 @@
         "Total"
       ],
       "start_fund": 500,
-      "fund": 493.24,
+      "fund": 497.51,
       "lessons": [
         {
           "kind": "avoid",
@@ -577,12 +577,12 @@
         }
       ],
       "bets": 81,
-      "open": 16,
-      "won": 19,
+      "open": 15,
+      "won": 20,
       "lost": 46,
-      "staked": 152.71,
-      "profit": -6.76,
-      "roi": -0.0443,
+      "staked": 155.15,
+      "profit": -2.49,
+      "roi": -0.016,
       "avg_edge": 0.0313,
       "avg_clv": 0.003,
       "beat_close": 0.6462,
@@ -851,6 +851,10 @@
         {
           "t": "2026-11-22T01:30:44Z",
           "fund": 493.24
+        },
+        {
+          "t": "2026-11-22T02:00:54Z",
+          "fund": 497.51
         }
       ],
       "by_league": [
@@ -893,8 +897,8 @@
         {
           "name": "Liga MX",
           "bets": 3,
-          "profit": 10.19,
-          "roi": 1.11,
+          "profit": 14.46,
+          "roi": 1.2444,
           "avg_clv": 0.0204,
           "beat_close": 1.0,
           "clv_count": 1
@@ -985,8 +989,8 @@
         {
           "name": "Winner",
           "bets": 74,
-          "profit": -11.14,
-          "roi": -0.0837,
+          "profit": -6.87,
+          "roi": -0.0507,
           "avg_clv": 0.0019,
           "beat_close": 0.629,
           "clv_count": 62
@@ -1005,8 +1009,8 @@
         {
           "name": "Football",
           "bets": 81,
-          "profit": -6.76,
-          "roi": -0.0443,
+          "profit": -2.49,
+          "roi": -0.016,
           "avg_clv": 0.003,
           "beat_close": 0.6462,
           "clv_count": 65
@@ -1321,8 +1325,8 @@
         }
       ],
       "mind": {
-        "iq": 122,
-        "iq_week": 17,
+        "iq": 123,
+        "iq_week": 18,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -1398,7 +1402,7 @@
           },
           {
             "d": "2026-11-22",
-            "iq": 122
+            "iq": 123
           }
         ],
         "facts": [
@@ -1489,7 +1493,7 @@
         ],
         "rules": 0,
         "studied": 260,
-        "resolved": 184
+        "resolved": 186
       }
     },
     "quant": {
@@ -2378,10 +2382,10 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.015,
+        "min_edge": 0.02,
         "odds": [
           1.6,
-          5.0
+          4.0
         ],
         "stop_below": 250
       },
@@ -2417,9 +2421,9 @@
       "profit": -17.14,
       "roi": -0.2317,
       "avg_edge": 0.0285,
-      "avg_clv": 0.0083,
-      "beat_close": 0.5385,
-      "clv_count": 65,
+      "avg_clv": 0.01,
+      "beat_close": 0.5455,
+      "clv_count": 66,
       "history": [
         {
           "t": "2026-11-07T16:00:52Z",
@@ -2614,9 +2618,9 @@
           "bets": 61,
           "profit": -17.86,
           "roi": -0.4146,
-          "avg_clv": 0.0068,
-          "beat_close": 0.54,
-          "clv_count": 50
+          "avg_clv": 0.009,
+          "beat_close": 0.549,
+          "clv_count": 51
         }
       ],
       "by_market": [
@@ -2634,9 +2638,9 @@
           "bets": 70,
           "profit": 0.19,
           "roi": 0.0041,
-          "avg_clv": 0.0082,
-          "beat_close": 0.5455,
-          "clv_count": 55
+          "avg_clv": 0.0101,
+          "beat_close": 0.5536,
+          "clv_count": 56
         },
         {
           "name": "Total",
@@ -2654,9 +2658,9 @@
           "bets": 92,
           "profit": -17.14,
           "roi": -0.2317,
-          "avg_clv": 0.0083,
-          "beat_close": 0.5385,
-          "clv_count": 65
+          "avg_clv": 0.01,
+          "beat_close": 0.5455,
+          "clv_count": 66
         }
       ],
       "gut": {
@@ -2676,7 +2680,7 @@
         "lost": 7,
         "profit": -2.7,
         "best": 5.8,
-        "avg_clv": -0.0171,
+        "avg_clv": -0.0073,
         "appetite": 0.6
       },
       "pounce": {
@@ -2968,15 +2972,15 @@
           "bets": 2
         },
         {
-          "id": "underdog",
-          "emoji": "🐶",
-          "title": "Underdog lover",
-          "effect": "Allows underdogs at odds up to 1.0 higher.",
-          "from": "Underdog hunter",
-          "since": "2026-11-22T01:45:30Z",
-          "on": 0.0153,
-          "off": 0.0303,
-          "bets": 14
+          "id": "precision",
+          "emoji": "🎯",
+          "title": "Precise",
+          "effect": "Always demands +0.5% more edge.",
+          "from": "Precision day",
+          "since": "2026-11-22T02:00:54Z",
+          "on": 0.032,
+          "off": 0.0237,
+          "bets": 2
         }
       ],
       "mind": {
@@ -4349,8 +4353,8 @@
       "edge": 0.0999,
       "stake": 1.21,
       "status": "open",
-      "closing_fair_odds": null,
-      "clv": null,
+      "closing_fair_odds": 9.376,
+      "clv": 0.1199,
       "profit": 0.0,
       "score": null,
       "settled_at": null,
@@ -5004,12 +5008,12 @@
       "fair_odds": 2.709,
       "edge": 0.0152,
       "stake": 2.44,
-      "status": "open",
+      "status": "won",
       "closing_fair_odds": 2.695,
       "clv": 0.0204,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": 4.27,
+      "score": "Pachuca 2 - 0 Toluca",
+      "settled_at": "2026-11-22T02:00:54Z",
       "thoughts": [
         "🧭 Exploring. I've only made 0 bets like this (Liga MX winner bets at middle odds).",
         "Pachuca at 2.75 is +1.52% above fair: below my usual bar, but the only way to learn if this kind of bet works for me is to try it.",
@@ -10719,18 +10723,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-21T23:45:30Z",
-      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
-    },
-    {
-      "t": "2026-11-21T23:45:30Z",
-      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+0.9% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-21T23:57:06Z",
-      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
-    },
-    {
       "t": "2026-11-21T23:57:06Z",
       "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +1.9%. Allows underdogs at odds up to 1.0 higher."
     },
@@ -10837,6 +10829,18 @@
     {
       "t": "2026-11-22T01:45:30Z",
       "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +1.5%. Allows underdogs at odds up to 1.0 higher."
+    },
+    {
+      "t": "2026-11-22T02:00:54Z",
+      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
+    },
+    {
+      "t": "2026-11-22T02:00:54Z",
+      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+0.6% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-22T02:00:54Z",
+      "text": "Results:\n- Won +4.27: Pachuca (Winner) in Pachuca vs Toluca (Pachuca 2 - 0 Toluca)"
     }
   ]
 }
