@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T16:00:58Z",
+  "updated": "2026-11-22T16:15:33Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -1053,8 +1053,15 @@
         "measured": 2
       },
       "reading": {
-        "week": 86,
+        "week": 78,
         "latest": [
+          {
+            "t": "2026-11-22T15:50:05Z",
+            "title": "PSG's Doue to have surgery on ruptured ACL",
+            "link": "https://www.bbc.co.uk/sport/football/articles/cw0k6x0764ero?at_medium=RSS&at_campaign=rss",
+            "source": "feeds.bbci.co.uk",
+            "tone": -1
+          },
           {
             "t": "2026-11-22T11:41:36Z",
             "title": "Allegri reveals possible cause of Vergara’s injury, warns Napoli fans about Man City clash",
@@ -1084,18 +1091,11 @@
             "tone": 1
           },
           {
-            "t": "2026-11-21T21:14:08Z",
-            "title": "Raya set to have scan on injury - how much would Arsenal miss him?",
-            "link": "https://www.bbc.co.uk/sport/football/articles/ckx28w9ree9vo?at_medium=RSS&at_campaign=rss",
+            "t": "2026-11-21T13:29:40Z",
+            "title": "Bayern draw with Cologne as Kane picks up ankle injury",
+            "link": "https://www.bbc.co.uk/sport/football/videos/ck7v2nz0lp32o?at_medium=RSS&at_campaign=rss",
             "source": "feeds.bbci.co.uk",
             "tone": -1
-          },
-          {
-            "t": "2026-11-21T21:04:56Z",
-            "title": "Juventus squad vs. Venezia: Cambiaso and Çelik return, Kalulu and González miss out",
-            "link": "https://football-italia.net/juventus-squad-vs-venezia-cambiaso-and-celik/",
-            "source": "football-italia.net",
-            "tone": 1
           }
         ]
       },
@@ -2004,7 +2004,7 @@
         "measured": 0
       },
       "reading": {
-        "week": 72,
+        "week": 82,
         "latest": [
           {
             "t": "2026-11-22T06:13:05Z",
@@ -2452,10 +2452,10 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.02,
+        "min_edge": 0.015,
         "odds": [
           1.6,
-          4.0
+          5.0
         ],
         "stop_below": 250
       },
@@ -2910,47 +2910,47 @@
         "measured": 0
       },
       "reading": {
-        "week": 442,
+        "week": 440,
         "latest": [
           {
-            "t": "2026-11-22T12:00:00Z",
-            "title": "Cowboys news: DaRon Bland on IR, future in Dallas in doubt",
-            "link": "https://sports.yahoo.com/articles/cowboys-news-daron-bland-ir-120000915.html",
+            "t": "2026-11-22T16:09:25Z",
+            "title": "Lions LB Jack Campbell sent &#39;thrilled&#39; coach a gameday text: Latest injury update",
+            "link": "https://sports.yahoo.com/articles/lions-lb-jack-campbell-sent-160925535.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-22T11:03:41Z",
-            "title": "Steelers&#39; Max Iheanachor in spotlight in matchup with Eagles&#39; Makai Lemon",
-            "link": "https://sports.yahoo.com/articles/steelers-max-iheanachor-spotlight-matchup-110341505.html",
+            "t": "2026-11-22T15:26:19Z",
+            "title": "Is Travis Kelce playing today? Injury update, status for Chiefs TE",
+            "link": "https://sports.yahoo.com/articles/travis-kelce-playing-today-injury-152619969.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-22T10:59:41Z",
-            "title": "Are the Patriots playing today? NFL Week 11 schedule, AFC standings",
-            "link": "https://sports.yahoo.com/articles/patriots-playing-today-nfl-week-105941742.html",
+            "t": "2026-11-22T15:14:31Z",
+            "title": "NFL fines: 2 Texans, 1 Browns punished for Week 10 actions, includes ‘violent gesture’",
+            "link": "https://sports.yahoo.com/articles/nfl-fines-2-texans-1-151431887.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-22T09:20:14Z",
-            "title": "Five Oklahoma State football takeaways as Caleb Hawkins powers OT rally at Arizona State",
-            "link": "https://sports.yahoo.com/articles/five-oklahoma-state-football-takeaways-092014815.html",
+            "t": "2026-11-22T15:07:32Z",
+            "title": "What are UCLA&#39;s options at quarterback after Ty Dieffenbach&#39;s injury?",
+            "link": "https://sports.yahoo.com/articles/uclas-options-quarterback-ty-dieffenbachs-150732581.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-22T08:38:11Z",
-            "title": "Indiana Football&#39;s Biggest Winners and Losers From Overtime Loss To Washington",
-            "link": "https://sports.yahoo.com/articles/indiana-footballs-biggest-winners-losers-083811567.html",
+            "t": "2026-11-22T14:49:30Z",
+            "title": "Tennessee fans halt the game against LSU, reviving the 2021 scene with golf balls and mustard bottles at Lane Kiffin’s return",
+            "link": "https://sports.yahoo.com/articles/tennessee-fans-halt-game-against-144930031.html",
             "source": "sports.yahoo.com",
-            "tone": -1
+            "tone": 1
           },
           {
-            "t": "2026-11-22T06:45:47Z",
-            "title": "Brutal Lane Kiffin stat will have fans questioning his LSU hiring",
-            "link": "https://sports.yahoo.com/articles/brutal-lane-kiffin-stat-fans-064547806.html",
+            "t": "2026-11-22T14:49:12Z",
+            "title": "Kirk Ferentz makes feelings on CFP committee clear after Iowa’s 34-17 win at Illinois",
+            "link": "https://sports.yahoo.com/articles/kirk-ferentz-makes-feelings-cfp-144912354.html",
             "source": "sports.yahoo.com",
             "tone": -1
           }
@@ -3172,15 +3172,15 @@
           "bets": 2
         },
         {
-          "id": "precision",
-          "emoji": "🎯",
-          "title": "Precise",
-          "effect": "Always demands +0.5% more edge.",
-          "from": "Precision day",
-          "since": "2026-11-22T16:00:58Z",
-          "on": 0.032,
-          "off": 0.0287,
-          "bets": 2
+          "id": "underdog",
+          "emoji": "🐶",
+          "title": "Underdog lover",
+          "effect": "Allows underdogs at odds up to 1.0 higher.",
+          "from": "Underdog hunter",
+          "since": "2026-11-22T16:15:33Z",
+          "on": 0.0278,
+          "off": 0.0303,
+          "bets": 15
         }
       ],
       "mind": {
@@ -10926,14 +10926,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-22T12:45:34Z",
-      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.6% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-22T13:01:04Z",
-      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
-    },
-    {
       "t": "2026-11-22T13:01:04Z",
       "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
     },
@@ -11044,6 +11036,14 @@
     {
       "t": "2026-11-22T16:00:58Z",
       "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.6% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-22T16:15:33Z",
+      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-22T16:15:33Z",
+      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
     }
   ]
 }
