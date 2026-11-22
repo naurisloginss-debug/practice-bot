@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T23:00:57Z",
+  "updated": "2026-11-22T23:15:30Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -482,8 +482,8 @@
           "cautious": 0.0203,
           "beat": 0.7097,
           "challenges": 0.7,
-          "traits": 3,
-          "score": 33.95
+          "traits": 4,
+          "score": 35.95
         },
         {
           "who": "lizard",
@@ -1322,9 +1322,9 @@
           "effect": "Avoids odds above 3.5.",
           "from": "Discipline day",
           "since": "2026-11-21T12:15:32Z",
-          "on": -0.0033,
+          "on": 0.0142,
           "off": 0.0019,
-          "bets": 4
+          "bets": 5
         },
         {
           "id": "study",
@@ -1334,7 +1334,7 @@
           "from": "Study day",
           "since": "2026-11-21T14:45:34Z",
           "on": 0.0228,
-          "off": -0.0027,
+          "off": -0.0008,
           "bets": 9
         }
       ],
@@ -2458,7 +2458,7 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.015,
+        "min_edge": 0.02,
         "odds": [
           1.6,
           4.0
@@ -3176,6 +3176,17 @@
           "on": 0.0329,
           "off": 0.0227,
           "bets": 1
+        },
+        {
+          "id": "precision",
+          "emoji": "🎯",
+          "title": "Precise",
+          "effect": "Always demands +0.5% more edge.",
+          "from": "Precision day",
+          "since": "2026-11-22T23:15:30Z",
+          "on": 0.032,
+          "off": 0.0263,
+          "bets": 2
         }
       ],
       "mind": {
@@ -10922,10 +10933,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-22T18:30:46Z",
-      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
-    },
-    {
       "t": "2026-11-22T18:45:31Z",
       "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.4% vs the market on those days)."
     },
@@ -11040,6 +11047,10 @@
     {
       "t": "2026-11-22T23:00:57Z",
       "text": "Results:\n- Lost -2.49: Over 2.5 (Total) in Lorient vs Rennes (Lorient 1 - 1 Rennes)"
+    },
+    {
+      "t": "2026-11-22T23:15:30Z",
+      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
     }
   ]
 }
