@@ -1,6 +1,6 @@
 {
   "last_scan": "2026-11-22@21",
-  "credits_left": 17853,
+  "credits_left": 17851,
   "league_names": {
     "soccer_italy_serie_b": "Serie B (Italy 2)",
     "soccer_efl_champ": "Championship (England 2)",
@@ -35,7 +35,7 @@
     "soccer_spain_segunda_division": "2026-11-22T22:15:30Z",
     "americanfootball_nfl": "2026-11-22T21:00:55Z",
     "soccer_italy_serie_b": "2026-11-22T23:00:57Z",
-    "basketball_nba": "2026-11-22T09:45:35Z",
+    "basketball_nba": "2026-11-22T23:45:30Z",
     "basketball_euroleague": "2026-11-21T02:45:32Z",
     "americanfootball_ncaaf": "2026-11-22T08:15:32Z",
     "basketball_ncaab": "2026-11-22T20:00:58Z",
@@ -52,14 +52,6 @@
     "americanfootball_ncaaf_fcs": "2026-11-22T08:30:53Z"
   },
   "log": [
-    {
-      "t": "2026-11-22T19:15:31Z",
-      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-22T19:15:31Z",
-      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
-    },
     {
       "t": "2026-11-22T19:30:45Z",
       "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.4% vs the market on those days)."
@@ -171,6 +163,14 @@
     {
       "t": "2026-11-22T23:30:45Z",
       "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
+    },
+    {
+      "t": "2026-11-22T23:45:30Z",
+      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.4% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-22T23:45:30Z",
+      "text": "Results:\n- Lost -2.25: Detroit Pistons (Winner) in Atlanta Hawks vs Detroit Pistons (Atlanta Hawks 107 - 97 Detroit Pistons)"
     }
   ],
   "levels": {
@@ -2721,13 +2721,13 @@
       "discipline": {
         "since": "2026-11-21T07:21:41Z",
         "on": 0.0129,
-        "off": -0.0018,
+        "off": -0.0023,
         "bets": 6
       },
       "underdog": {
         "since": "2026-11-21T07:21:41Z",
         "on": 0.016,
-        "off": -0.0033,
+        "off": -0.0038,
         "bets": 9
       }
     },
@@ -2749,12 +2749,6 @@
         "on": 0.0329,
         "off": 0.0227,
         "bets": 1
-      },
-      "underdog": {
-        "since": "2026-11-22T23:30:45Z",
-        "on": 0.0278,
-        "off": 0.029,
-        "bets": 15
       }
     }
   },

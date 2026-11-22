@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T23:30:45Z",
+  "updated": "2026-11-22T23:45:30Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -482,8 +482,8 @@
           "cautious": 0.0203,
           "beat": 0.7097,
           "challenges": 0.7,
-          "traits": 4,
-          "score": 35.95
+          "traits": 3,
+          "score": 33.95
         },
         {
           "who": "lizard",
@@ -518,7 +518,7 @@
       "leader": "shark"
     }
   },
-  "credits_left": 17853,
+  "credits_left": 17851,
   "last_scan": "2026-11-22@21",
   "strategies": {
     "lizard": {
@@ -1541,15 +1541,15 @@
         "Winner"
       ],
       "start_fund": 500,
-      "fund": 459.44,
+      "fund": 457.19,
       "lessons": [],
       "bets": 97,
-      "open": 9,
+      "open": 8,
       "won": 35,
-      "lost": 53,
-      "staked": 591.92,
-      "profit": -40.56,
-      "roi": -0.0685,
+      "lost": 54,
+      "staked": 594.17,
+      "profit": -42.81,
+      "roi": -0.0721,
       "avg_edge": 0.0318,
       "avg_clv": 0.0023,
       "beat_close": 0.5,
@@ -1910,6 +1910,10 @@
         {
           "t": "2026-11-22T09:45:35Z",
           "fund": 459.44
+        },
+        {
+          "t": "2026-11-22T23:45:30Z",
+          "fund": 457.19
         }
       ],
       "by_league": [
@@ -1925,8 +1929,8 @@
         {
           "name": "NBA",
           "bets": 25,
-          "profit": -19.46,
-          "roi": -0.4404,
+          "profit": -21.71,
+          "roi": -0.4675,
           "avg_clv": 0.0034,
           "beat_close": 0.5652,
           "clv_count": 23
@@ -1954,8 +1958,8 @@
         {
           "name": "Winner",
           "bets": 66,
-          "profit": -34.22,
-          "roi": -0.2446,
+          "profit": -36.47,
+          "roi": -0.2566,
           "avg_clv": 0.0062,
           "beat_close": 0.5397,
           "clv_count": 63
@@ -1974,8 +1978,8 @@
         {
           "name": "Basketball",
           "bets": 97,
-          "profit": -40.56,
-          "roi": -0.0685,
+          "profit": -42.81,
+          "roi": -0.0721,
           "avg_clv": 0.0023,
           "beat_close": 0.5,
           "clv_count": 76
@@ -1989,8 +1993,8 @@
         "trust": 0.75,
         "base": 0.4,
         "won": 2,
-        "lost": 7,
-        "profit": -10.74
+        "lost": 8,
+        "profit": -12.99
       },
       "wild": {
         "bets": 5,
@@ -2273,7 +2277,7 @@
           "from": "Discipline day",
           "since": "2026-11-21T07:21:41Z",
           "on": 0.0129,
-          "off": -0.0018,
+          "off": -0.0023,
           "bets": 6
         },
         {
@@ -2284,7 +2288,7 @@
           "from": "Underdog hunter",
           "since": "2026-11-21T07:21:41Z",
           "on": 0.016,
-          "off": -0.0033,
+          "off": -0.0038,
           "bets": 9
         }
       ],
@@ -2414,24 +2418,24 @@
           },
           {
             "conf": "solid",
-            "n": 117,
+            "n": 118,
             "z": 0,
             "text": "The market prices overs in NBA accurately.",
-            "detail": "50% happened, 50% priced, 117 games"
+            "detail": "50% happened, 50% priced, 118 games"
           },
           {
             "conf": "solid",
-            "n": 87,
+            "n": 88,
             "z": 0,
             "text": "The market prices home wins in NBA accurately.",
-            "detail": "51% happened, 53% priced, 87 games"
+            "detail": "51% happened, 53% priced, 88 games"
           },
           {
             "conf": "solid",
-            "n": 87,
+            "n": 88,
             "z": 0,
             "text": "The market prices away wins in NBA accurately.",
-            "detail": "49% happened, 47% priced, 87 games"
+            "detail": "49% happened, 47% priced, 88 games"
           },
           {
             "conf": "solid",
@@ -2443,7 +2447,7 @@
         ],
         "rules": 0,
         "studied": 728,
-        "resolved": 687
+        "resolved": 688
       }
     },
     "shark": {
@@ -2461,7 +2465,7 @@
         "min_edge": 0.015,
         "odds": [
           1.6,
-          5.0
+          4.0
         ],
         "stop_below": 250
       },
@@ -3176,17 +3180,6 @@
           "on": 0.0329,
           "off": 0.0227,
           "bets": 1
-        },
-        {
-          "id": "underdog",
-          "emoji": "🐶",
-          "title": "Underdog lover",
-          "effect": "Allows underdogs at odds up to 1.0 higher.",
-          "from": "Underdog hunter",
-          "since": "2026-11-22T23:30:45Z",
-          "on": 0.0278,
-          "off": 0.029,
-          "bets": 15
         }
       ],
       "mind": {
@@ -4558,12 +4551,12 @@
       "fair_odds": 1.775,
       "edge": 0.0142,
       "stake": 2.25,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 1.885,
       "clv": -0.0452,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -2.25,
+      "score": "Atlanta Hawks 107 - 97 Detroit Pistons",
+      "settled_at": "2026-11-22T23:45:30Z",
       "thoughts": [
         "Only +1.42% edge, just under my +1.5% bar. Can't prove it, but I like it.",
         "My rules say no. The model says no. The 2% of me that isn't a model says try it.",
@@ -10933,14 +10926,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-22T19:15:31Z",
-      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-22T19:15:31Z",
-      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
-    },
-    {
       "t": "2026-11-22T19:30:45Z",
       "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.4% vs the market on those days)."
     },
@@ -11051,6 +11036,14 @@
     {
       "t": "2026-11-22T23:30:45Z",
       "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
+    },
+    {
+      "t": "2026-11-22T23:45:30Z",
+      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.4% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-22T23:45:30Z",
+      "text": "Results:\n- Lost -2.25: Detroit Pistons (Winner) in Atlanta Hawks vs Detroit Pistons (Atlanta Hawks 107 - 97 Detroit Pistons)"
     }
   ]
 }
