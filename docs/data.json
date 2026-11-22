@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T08:00:56Z",
+  "updated": "2026-11-22T08:15:32Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -518,7 +518,7 @@
       "leader": "lizard"
     }
   },
-  "credits_left": 18113,
+  "credits_left": 18109,
   "last_scan": "2026-11-22@5",
   "strategies": {
     "lizard": {
@@ -1535,15 +1535,15 @@
         "Winner"
       ],
       "start_fund": 500,
-      "fund": 457.83,
+      "fund": 461.84,
       "lessons": [],
       "bets": 91,
-      "open": 8,
-      "won": 33,
-      "lost": 50,
-      "staked": 583.29,
-      "profit": -42.17,
-      "roi": -0.0723,
+      "open": 4,
+      "won": 35,
+      "lost": 52,
+      "staked": 589.52,
+      "profit": -38.16,
+      "roi": -0.0647,
       "avg_edge": 0.0325,
       "avg_clv": 0.0021,
       "beat_close": 0.4857,
@@ -1884,6 +1884,22 @@
         {
           "t": "2026-11-22T03:45:32Z",
           "fund": 457.83
+        },
+        {
+          "t": "2026-11-22T08:15:32Z",
+          "fund": 461.1
+        },
+        {
+          "t": "2026-11-22T08:15:32Z",
+          "fund": 460.0
+        },
+        {
+          "t": "2026-11-22T08:15:32Z",
+          "fund": 463.77
+        },
+        {
+          "t": "2026-11-22T08:15:32Z",
+          "fund": 461.84
         }
       ],
       "by_league": [
@@ -1908,8 +1924,8 @@
         {
           "name": "College basketball (US)",
           "bets": 63,
-          "profit": -7.61,
-          "roi": -0.0146,
+          "profit": -3.6,
+          "roi": -0.0068,
           "avg_clv": -0.0019,
           "beat_close": 0.4186,
           "clv_count": 43
@@ -1928,8 +1944,8 @@
         {
           "name": "Winner",
           "bets": 60,
-          "profit": -35.83,
-          "roi": -0.273,
+          "profit": -31.82,
+          "roi": -0.2314,
           "avg_clv": 0.0064,
           "beat_close": 0.5263,
           "clv_count": 57
@@ -1948,8 +1964,8 @@
         {
           "name": "Basketball",
           "bets": 91,
-          "profit": -42.17,
-          "roi": -0.0723,
+          "profit": -38.16,
+          "roi": -0.0647,
           "avg_clv": 0.0021,
           "beat_close": 0.4857,
           "clv_count": 70
@@ -2353,10 +2369,10 @@
           },
           {
             "conf": "solid",
-            "n": 517,
+            "n": 526,
             "z": 0,
             "text": "The market prices overs in College basketball (US) accurately.",
-            "detail": "49% happened, 50% priced, 517 games"
+            "detail": "49% happened, 50% priced, 526 games"
           },
           {
             "conf": "solid",
@@ -2367,17 +2383,17 @@
           },
           {
             "conf": "solid",
-            "n": 371,
+            "n": 379,
             "z": 0,
             "text": "The market prices home wins in College basketball (US) accurately.",
-            "detail": "58% happened, 61% priced, 371 games"
+            "detail": "59% happened, 61% priced, 379 games"
           },
           {
             "conf": "solid",
-            "n": 371,
+            "n": 379,
             "z": 0,
             "text": "The market prices away wins in College basketball (US) accurately.",
-            "detail": "42% happened, 39% priced, 371 games"
+            "detail": "41% happened, 39% priced, 379 games"
           },
           {
             "conf": "solid",
@@ -2417,7 +2433,7 @@
         ],
         "rules": 0,
         "studied": 717,
-        "resolved": 674
+        "resolved": 683
       }
     },
     "shark": {
@@ -2432,10 +2448,10 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.015,
+        "min_edge": 0.02,
         "odds": [
           1.6,
-          5.0
+          4.0
         ],
         "stop_below": 250
       },
@@ -2450,7 +2466,7 @@
         "Winner"
       ],
       "start_fund": 500,
-      "fund": 494.25,
+      "fund": 480.95,
       "lessons": [
         {
           "kind": "favour",
@@ -2464,12 +2480,12 @@
         }
       ],
       "bets": 92,
-      "open": 29,
-      "won": 20,
-      "lost": 43,
-      "staked": 149.68,
-      "profit": -5.75,
-      "roi": -0.0384,
+      "open": 14,
+      "won": 23,
+      "lost": 55,
+      "staked": 185.32,
+      "profit": -19.05,
+      "roi": -0.1028,
       "avg_edge": 0.0285,
       "avg_clv": 0.0125,
       "beat_close": 0.5507,
@@ -2730,6 +2746,66 @@
         {
           "t": "2026-11-22T02:15:31Z",
           "fund": 494.25
+        },
+        {
+          "t": "2026-11-22T08:15:32Z",
+          "fund": 489.4
+        },
+        {
+          "t": "2026-11-22T08:15:32Z",
+          "fund": 487.85
+        },
+        {
+          "t": "2026-11-22T08:15:32Z",
+          "fund": 490.2
+        },
+        {
+          "t": "2026-11-22T08:15:32Z",
+          "fund": 485.23
+        },
+        {
+          "t": "2026-11-22T08:15:32Z",
+          "fund": 483.12
+        },
+        {
+          "t": "2026-11-22T08:15:32Z",
+          "fund": 481.88
+        },
+        {
+          "t": "2026-11-22T08:15:32Z",
+          "fund": 479.39
+        },
+        {
+          "t": "2026-11-22T08:15:32Z",
+          "fund": 476.92
+        },
+        {
+          "t": "2026-11-22T08:15:32Z",
+          "fund": 474.45
+        },
+        {
+          "t": "2026-11-22T08:15:32Z",
+          "fund": 471.98
+        },
+        {
+          "t": "2026-11-22T08:15:32Z",
+          "fund": 474.33
+        },
+        {
+          "t": "2026-11-22T08:15:32Z",
+          "fund": 473.08
+        },
+        {
+          "t": "2026-11-22T08:15:32Z",
+          "fund": 471.87
+        },
+        {
+          "t": "2026-11-22T08:15:32Z",
+          "fund": 469.46
+        },
+        {
+          "t": "2026-11-22T08:15:32Z",
+          "fund": 480.95
         }
       ],
       "by_league": [
@@ -2745,8 +2821,8 @@
         {
           "name": "College football (US)",
           "bets": 61,
-          "profit": -6.47,
-          "roi": -0.0545,
+          "profit": -19.77,
+          "roi": -0.128,
           "avg_clv": 0.0122,
           "beat_close": 0.5556,
           "clv_count": 54
@@ -2765,8 +2841,8 @@
         {
           "name": "Spread",
           "bets": 14,
-          "profit": -7.85,
-          "roi": -0.425,
+          "profit": -12.91,
+          "roi": -0.4554,
           "avg_clv": 0.0154,
           "beat_close": 0.4286,
           "clv_count": 7
@@ -2774,8 +2850,8 @@
         {
           "name": "Winner",
           "bets": 70,
-          "profit": 9.24,
-          "roi": 0.0775,
+          "profit": -1.35,
+          "roi": -0.0095,
           "avg_clv": 0.013,
           "beat_close": 0.5593,
           "clv_count": 59
@@ -2783,8 +2859,8 @@
         {
           "name": "Total",
           "bets": 8,
-          "profit": -7.14,
-          "roi": -0.5965,
+          "profit": -4.79,
+          "roi": -0.3317,
           "avg_clv": -0.0048,
           "beat_close": 0.6667,
           "clv_count": 3
@@ -2794,8 +2870,8 @@
         {
           "name": "American football",
           "bets": 92,
-          "profit": -5.75,
-          "roi": -0.0384,
+          "profit": -19.05,
+          "roi": -0.1028,
           "avg_clv": 0.0125,
           "beat_close": 0.5507,
           "clv_count": 69
@@ -2808,16 +2884,16 @@
         "beat": 0.3333,
         "trust": 0.373,
         "base": 0.65,
-        "won": 3,
-        "lost": 5,
-        "profit": -4.42
+        "won": 4,
+        "lost": 7,
+        "profit": -6.97
       },
       "wild": {
         "bets": 16,
-        "won": 1,
-        "lost": 9,
-        "profit": -5.17,
-        "best": 5.8,
+        "won": 2,
+        "lost": 12,
+        "profit": 2.62,
+        "best": 10.5,
         "avg_clv": -0.0073,
         "appetite": 0.6
       },
@@ -3092,15 +3168,15 @@
           "bets": 2
         },
         {
-          "id": "underdog",
-          "emoji": "🐶",
-          "title": "Underdog lover",
-          "effect": "Allows underdogs at odds up to 1.0 higher.",
-          "from": "Underdog hunter",
-          "since": "2026-11-22T08:00:56Z",
-          "on": 0.0278,
-          "off": 0.0303,
-          "bets": 15
+          "id": "precision",
+          "emoji": "🎯",
+          "title": "Precise",
+          "effect": "Always demands +0.5% more edge.",
+          "from": "Precision day",
+          "since": "2026-11-22T08:15:32Z",
+          "on": 0.032,
+          "off": 0.0287,
+          "bets": 2
         }
       ],
       "mind": {
@@ -3212,11 +3288,18 @@
             "z": 1.540389007464521,
             "text": "Overs in NCAAF FCS happen less often than priced.",
             "detail": "39% happened vs 49% priced, 54 games"
+          },
+          {
+            "conf": "watching",
+            "n": 189,
+            "z": 1.5317005379240503,
+            "text": "Overs in College football (US) happen less often than priced.",
+            "detail": "44% happened vs 50% priced, 189 games"
           }
         ],
         "rules": 0,
         "studied": 289,
-        "resolved": 257
+        "resolved": 275
       }
     }
   },
@@ -4429,12 +4512,12 @@
       "fair_odds": 3.938,
       "edge": 0.0157,
       "stake": 1.55,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 3.324,
       "clv": 0.2035,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -1.55,
+      "score": "Oregon State Beavers 31 - 24 Utah State Aggies",
+      "settled_at": "2026-11-22T08:15:32Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates Utah State Aggies at 25.4%. That makes the fair price 3.94.",
         "Unibet (NL) pays 4.00. That is +1.6% above fair. My bar is +1.5%.",
@@ -4469,12 +4552,12 @@
       "fair_odds": 3.438,
       "edge": 0.0064,
       "stake": 2.41,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 3.391,
       "clv": 0.0203,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -2.41,
+      "score": "Nevada Wolf Pack 16 - 8 Hawaii Rainbow Warriors",
+      "settled_at": "2026-11-22T08:15:32Z",
       "thoughts": [
         "I read that Nevada Wolf Pack have trouble: “Packers Injuries: Entire roster healthy enough to practice on Saturday”. The price on Hawaii Rainbow Warriors may not have caught up yet.",
         "My rules say no. I smell it before I can prove it. Biting.",
@@ -4507,12 +4590,12 @@
       "fair_odds": 2.392,
       "edge": -0.0048,
       "stake": 2.49,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 2.442,
       "clv": -0.0256,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -2.49,
+      "score": "Arizona State Sun Devils 27 - 30 Oklahoma State Cowboys",
+      "settled_at": "2026-11-22T08:15:32Z",
       "thoughts": [
         "I read that Oklahoma State Cowboys have trouble: “Ole Miss&#39; Pete Golding Blames $8M Crisis for Oklahoma Loss as Brent Venables Puts SEC Under Fire”. The price on Arizona State Sun Devils may not have caught up yet.",
         "My rules say no. I smell it before I can prove it. Biting.",
@@ -4545,12 +4628,12 @@
       "fair_odds": 4.32,
       "edge": 0.0417,
       "stake": 1.93,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 4.32,
       "clv": 0.0417,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -1.93,
+      "score": "Pacific Tigers 63 - 62 Bradley Braves",
+      "settled_at": "2026-11-22T08:15:32Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates Bradley Braves at 23.1%. That makes the fair price 4.32.",
         "Unibet (SE) pays 4.50. That is +4.2% above fair. My bar is +1.5%.",
@@ -4584,12 +4667,12 @@
       "fair_odds": 9.546,
       "edge": 0.0999,
       "stake": 1.21,
-      "status": "open",
+      "status": "won",
       "closing_fair_odds": 9.376,
       "clv": 0.1199,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": 11.49,
+      "score": "Boise State Broncos 20 - 22 San Diego State Aztecs",
+      "settled_at": "2026-11-22T08:15:32Z",
       "thoughts": [
         "Wild one: San Diego State Aztecs at 10.50. The market gives it 10%.",
         "Big fish, long line. Let's see if it bites.",
@@ -4621,12 +4704,12 @@
       "fair_odds": 3.343,
       "edge": 0.017,
       "stake": 2.11,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 3.84,
       "clv": -0.1145,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -2.11,
+      "score": "TCU Horned Frogs 17 - 38 Utah Utes",
+      "settled_at": "2026-11-22T08:15:32Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates TCU Horned Frogs at 29.9%. That makes the fair price 3.34.",
         "MyBookie.ag pays 3.40. That is +1.7% above fair. My bar is +1.5%.",
@@ -4700,12 +4783,12 @@
       "fair_odds": 2.905,
       "edge": 0.0328,
       "stake": 4.85,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 2.727,
       "clv": 0.1,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -4.85,
+      "score": "UAB Blazers 17 - 19 UTSA Roadrunners",
+      "settled_at": "2026-11-22T08:15:32Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates UAB Blazers at 34.4%. That makes the fair price 2.90.",
         "LeoVegas (SE) pays 3.00. That is +3.3% above fair. My bar is +1.5%.",
@@ -4777,12 +4860,12 @@
       "fair_odds": 9.579,
       "edge": 0.1483,
       "stake": 1.24,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 10.019,
       "clv": 0.098,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -1.24,
+      "score": "Fresno State Bulldogs 49 - 42 Colorado State Rams",
+      "settled_at": "2026-11-22T08:15:32Z",
       "thoughts": [
         "Wild one: Colorado State Rams at 11.00. The market gives it 10%.",
         "Feeling sharp after beating the market 3 times in a row.",
@@ -4817,12 +4900,12 @@
       "fair_odds": 1.985,
       "edge": 0.0078,
       "stake": 2.47,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 2.031,
       "clv": -0.0155,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -2.47,
+      "score": "California Golden Bears 28 - 44 Stanford Cardinal",
+      "settled_at": "2026-11-22T08:15:32Z",
       "thoughts": [
         "🧭 Exploring. I've only made 1 bet like this (College football (US) spread bets at middle odds).",
         "California Golden Bears +2.5 at 2.00 is +0.78% above fair: below my usual bar, but the only way to learn if this kind of bet works for me is to try it.",
@@ -4855,12 +4938,12 @@
       "fair_odds": 6.763,
       "edge": 0.0188,
       "stake": 1.21,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 6.737,
       "clv": 0.0227,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -1.21,
+      "score": "South Carolina Gamecocks 6 - 34 Georgia Bulldogs",
+      "settled_at": "2026-11-22T08:15:32Z",
       "thoughts": [
         "Wild one: South Carolina Gamecocks at 7.20. The market gives it 15%.",
         "Big fish, long line. Let's see if it bites.",
@@ -4894,12 +4977,12 @@
       "fair_odds": 1.939,
       "edge": 0.0056,
       "stake": 2.47,
-      "status": "open",
+      "status": "won",
       "closing_fair_odds": null,
       "clv": null,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": 2.35,
+      "score": "San Jose State Spartans 22 - 24 UNLV Rebels",
+      "settled_at": "2026-11-22T08:15:32Z",
       "thoughts": [
         "🧭 Exploring. I've only made 2 bets like this (College football (US) total bets at favourites).",
         "Under 46.5 at 1.95 is +0.56% above fair: below my usual bar, but the only way to learn if this kind of bet works for me is to try it.",
@@ -4931,12 +5014,12 @@
       "fair_odds": 3.214,
       "edge": 0.0391,
       "stake": 4.97,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 3.0,
       "clv": 0.1133,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -4.97,
+      "score": "San Jose State Spartans 22 - 24 UNLV Rebels",
+      "settled_at": "2026-11-22T08:15:32Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates San Jose State Spartans at 31.1%. That makes the fair price 3.21.",
         "MyBookie.ag pays 3.34. That is +3.9% above fair. My bar is +1.5%.",
@@ -4970,12 +5053,12 @@
       "fair_odds": 2.005,
       "edge": 0.0124,
       "stake": 2.47,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": null,
       "clv": null,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -2.47,
+      "score": "Louisiana Tech Bulldogs 48 - 3 Arkansas State Red Wolves",
+      "settled_at": "2026-11-22T08:15:32Z",
       "thoughts": [
         "🧭 Exploring. I've only made 2 bets like this (College football (US) spread bets at middle odds).",
         "Arkansas State Red Wolves +14 at 2.03 is +1.24% above fair: below my usual bar, but the only way to learn if this kind of bet works for me is to try it.",
@@ -5009,12 +5092,12 @@
       "fair_odds": 1.925,
       "edge": 0.0128,
       "stake": 2.47,
-      "status": "open",
+      "status": "won",
       "closing_fair_odds": null,
       "clv": null,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": 2.35,
+      "score": "Kansas State Wildcats 28 - 35 Arizona Wildcats",
+      "settled_at": "2026-11-22T08:15:32Z",
       "thoughts": [
         "Only +1.28% edge, just under my +1.5% bar. Can't prove it, but I like it.",
         "My rules say no. I smell it before I can prove it. Biting.",
@@ -5048,12 +5131,12 @@
       "fair_odds": 9.907,
       "edge": 0.1104,
       "stake": 1.25,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 11.056,
       "clv": -0.0051,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -1.25,
+      "score": "Miami Hurricanes 28 - 20 Virginia Tech Hokies",
+      "settled_at": "2026-11-22T08:15:32Z",
       "thoughts": [
         "Wild one: Virginia Tech Hokies at 11.00. The market gives it 10%.",
         "Big fish, long line. Let's see if it bites.",
@@ -5086,12 +5169,12 @@
       "fair_odds": 4.254,
       "edge": 0.0202,
       "stake": 0.98,
-      "status": "open",
+      "status": "won",
       "closing_fair_odds": 4.126,
       "clv": 0.0519,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": 3.27,
+      "score": "Chattanooga Mocs 65 - 73 Radford Highlanders",
+      "settled_at": "2026-11-22T08:15:32Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates Radford Highlanders at 23.5%. That makes the fair price 4.25.",
         "BetOnline.ag pays 4.34. That is +2.0% above fair. My bar is +1.5%.",
@@ -5124,12 +5207,12 @@
       "fair_odds": 4.016,
       "edge": 0.021,
       "stake": 1.1,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 4.165,
       "clv": -0.0157,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -1.1,
+      "score": "VMI Keydets 71 - 68 Gardner-Webb Bulldogs",
+      "settled_at": "2026-11-22T08:15:32Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates Gardner-Webb Bulldogs at 24.9%. That makes the fair price 4.02.",
         "LeoVegas (SE) pays 4.10. That is +2.1% above fair. My bar is +1.5%.",
@@ -5162,12 +5245,12 @@
       "fair_odds": 2.639,
       "edge": 0.0232,
       "stake": 2.22,
-      "status": "open",
+      "status": "won",
       "closing_fair_odds": 2.562,
       "clv": 0.0537,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": 3.77,
+      "score": "Villanova Wildcats 79 - 73 Michigan Wolverines",
+      "settled_at": "2026-11-22T08:15:32Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates Villanova Wildcats at 37.9%. That makes the fair price 2.64.",
         "Unibet (NL) pays 2.70. That is +2.3% above fair. My bar is +1.5%.",
@@ -5201,12 +5284,12 @@
       "fair_odds": 2.026,
       "edge": 0.0118,
       "stake": 2.47,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": null,
       "clv": null,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -2.47,
+      "score": "Texas State Bobcats 42 - 14 Washington State Cougars",
+      "settled_at": "2026-11-22T08:15:32Z",
       "thoughts": [
         "🧭 Exploring. I've only made 2 bets like this (College football (US) spread bets at middle odds).",
         "Washington State Cougars +13 at 2.05 is +1.18% above fair: below my usual bar, but the only way to learn if this kind of bet works for me is to try it.",
@@ -10839,18 +10922,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-22T04:45:37Z",
-      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
-    },
-    {
-      "t": "2026-11-22T05:00:54Z",
-      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
-    },
-    {
-      "t": "2026-11-22T05:00:54Z",
-      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.6% vs the market on those days)."
-    },
-    {
       "t": "2026-11-22T05:00:54Z",
       "text": "Placed 3 practice bets:\n- The Quant: **Tenn-Martin Skyhawks** (Winner) in Utah Valley Wolverines vs Tenn-Martin Skyhawks (College basketball (US)) at 4.3 on LeoVegas (SE), stake 1.80, edge +3.6%\n- The Lizard 🧭 scout: **Over 2.5** (Total) in Lorient vs Rennes (Ligue 1 (France)) at 2.0 on Betsson, stake 2.49, edge +0.8%\n- The Quant 💭 gut: **William & Mary Tribe** (Winner) in Youngstown St Penguins vs William & Mary Tribe (College basketball (US)) at 1.78 on LeoVegas (SE), stake 2.29, edge +1.3%"
     },
@@ -10957,6 +11028,18 @@
     {
       "t": "2026-11-22T08:00:56Z",
       "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
+    },
+    {
+      "t": "2026-11-22T08:15:32Z",
+      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
+    },
+    {
+      "t": "2026-11-22T08:15:32Z",
+      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.6% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-22T08:15:32Z",
+      "text": "Results:\n- Lost -4.85: UAB Blazers (Winner) in UAB Blazers vs UTSA Roadrunners (UAB Blazers 17 - 19 UTSA Roadrunners)\n- Lost -1.55: Utah State Aggies (Winner) in Oregon State Beavers vs Utah State Aggies (Oregon State Beavers 31 - 24 Utah State Aggies)\n- Won +2.35: Under 46.5 (Total) in San Jose State Spartans vs UNLV Rebels (San Jose State Spartans 22 - 24 UNLV Rebels)\n- Lost -4.97: San Jose State Spartans (Winner) in San Jose State Spartans vs UNLV Rebels (San Jose State Spartans 22 - 24 UNLV Rebels)\n- Lost -2.11: TCU Horned Frogs (Winner) in TCU Horned Frogs vs Utah Utes (TCU Horned Frogs 17 - 38 Utah Utes)\n- Lost -1.24: Colorado State Rams (Winner) in Fresno State Bulldogs vs Colorado State Rams (Fresno State Bulldogs 49 - 42 Colorado State Rams)\n- Lost -2.49: Arizona State Sun Devils (Winner) in Arizona State Sun Devils vs Oklahoma State Cowboys (Arizona State Sun Devils 27 - 30 Oklahoma State Cowboys)\n- Lost -2.47: California Golden Bears +2.5 (Spread) in California Golden Bears vs Stanford Cardinal (California Golden Bears 28 - 44 Stanford Cardinal)\n- Lost -2.47: Arkansas State Red Wolves +14 (Spread) in Louisiana Tech Bulldogs vs Arkansas State Red Wolves (Louisiana Tech Bulldogs 48 - 3 Arkansas State Red Wolves)\n- Lost -2.47: Washington State Cougars +13 (Spread) in Texas State Bobcats vs Washington State Cougars (Texas State Bobcats 42 - 14 Washington State Cougars)\n- Won +2.35: Kansas State Wildcats +7.5 (Spread) in Kansas State Wildcats vs Arizona Wildcats (Kansas State Wildcats 28 - 35 Arizona Wildcats)\n- Lost -1.25: Virginia Tech Hokies (Winner) in Miami Hurricanes vs Virginia Tech Hokies (Miami Hurricanes 28 - 20 Virginia Tech Hokies)\n- Lost -1.21: South Carolina Gamecocks (Winner) in South Carolina Gamecocks vs Georgia Bulldogs (South Carolina Gamecocks 6 - 34 Georgia Bulldogs)\n- Lost -2.41: Hawaii Rainbow Warriors (Winner) in Nevada Wolf Pack vs Hawaii Rainbow Warriors (Nevada Wolf Pack 16 - 8 Hawaii Rainbow Warriors)\n- Won +11.49: San Diego State Aztecs (Winner) in Boise State Broncos vs San Diego State Aztecs (Boise State Broncos 20 - 22 San Diego State Aztecs)\n- Won +3.27: Radford Highlanders (Winner) in Chattanooga Mocs vs Radford Highlanders (Chattanooga Mocs 65 - 73 Radford Highlanders)\n- Lost -1.10: Gardner-Webb Bulldogs (Winner) in VMI Keydets vs Gardner-Webb Bulldogs (VMI Keydets 71 - 68 Gardner-Webb Bulldogs)\n- Won +3.77: Villanova Wildcats (Winner) in Villanova Wildcats vs Michigan Wolverines (Villanova Wildcats 79 - 73 Michigan Wolverines)\n- Lost -1.93: Bradley Braves (Winner) in Pacific Tigers vs Bradley Braves (Pacific Tigers 63 - 62 Bradley Braves)"
     }
   ]
 }
