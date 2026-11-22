@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T09:45:35Z",
+  "updated": "2026-11-22T10:01:00Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -1053,8 +1053,22 @@
         "measured": 2
       },
       "reading": {
-        "week": 103,
+        "week": 100,
         "latest": [
+          {
+            "t": "2026-11-22T09:48:29Z",
+            "title": "Serie A: Atalanta vs. Inter – probable line-ups, where to watch on TV",
+            "link": "https://football-italia.net/serie-a-atalanta-v-inter-probable-line-ups-tv/",
+            "source": "football-italia.net",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-22T05:12:04Z",
+            "title": "Wales boss Wilkinson rules out Fishlock return",
+            "link": "https://www.bbc.co.uk/sport/football/articles/ckzd9n5j9mj9o?at_medium=RSS&at_campaign=rss",
+            "source": "feeds.bbci.co.uk",
+            "tone": 1
+          },
           {
             "t": "2026-11-21T21:14:08Z",
             "title": "Raya set to have scan on injury - how much would Arsenal miss him?",
@@ -1080,20 +1094,6 @@
             "t": "2026-11-21T20:27:58Z",
             "title": "Vergara forced off in tears as De Bruyne comes on early for Napoli, will affect Manchester City game",
             "link": "https://football-italia.net/vergara-forced-off-in-tears-as-de-bruyne-on/",
-            "source": "football-italia.net",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-21T18:49:54Z",
-            "title": "Serie A | Parma 1-5 Roma: Malen hero with four goals as big names return",
-            "link": "https://football-italia.net/serie-a-parma-1-5-roma-malen-hero-four-goals/",
-            "source": "football-italia.net",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-21T18:11:00Z",
-            "title": "PSG fear Doue ACL injury in latest blow ahead of Roma clash",
-            "link": "https://football-italia.net/psg-fear-doue-acl-latest-blow-roma-clash/",
             "source": "football-italia.net",
             "tone": -1
           }
@@ -2004,7 +2004,7 @@
         "measured": 0
       },
       "reading": {
-        "week": 95,
+        "week": 78,
         "latest": [
           {
             "t": "2026-11-22T06:13:05Z",
@@ -2452,10 +2452,10 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.02,
+        "min_edge": 0.015,
         "odds": [
           1.6,
-          4.0
+          5.0
         ],
         "stop_below": 250
       },
@@ -2910,8 +2910,15 @@
         "measured": 0
       },
       "reading": {
-        "week": 402,
+        "week": 422,
         "latest": [
+          {
+            "t": "2026-11-22T09:20:14Z",
+            "title": "Five Oklahoma State football takeaways as Caleb Hawkins powers OT rally at Arizona State",
+            "link": "https://sports.yahoo.com/articles/five-oklahoma-state-football-takeaways-092014815.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
           {
             "t": "2026-11-22T06:45:47Z",
             "title": "Brutal Lane Kiffin stat will have fans questioning his LSU hiring",
@@ -2944,13 +2951,6 @@
             "t": "2026-11-22T03:00:20Z",
             "title": "Michigan WR Andrew Marsh expected to play vs Ohio State amidst legal matter",
             "link": "https://sports.yahoo.com/articles/michigan-wr-andrew-marsh-expected-030020760.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-22T02:43:54Z",
-            "title": "Matthew Stafford gets emotional about Puka Nacua’s surgery and human cost of football",
-            "link": "https://sports.yahoo.com/articles/matthew-stafford-gets-emotional-puka-024354711.html",
             "source": "sports.yahoo.com",
             "tone": -1
           }
@@ -3181,15 +3181,15 @@
           "bets": 2
         },
         {
-          "id": "precision",
-          "emoji": "🎯",
-          "title": "Precise",
-          "effect": "Always demands +0.5% more edge.",
-          "from": "Precision day",
-          "since": "2026-11-22T09:45:35Z",
-          "on": 0.032,
-          "off": 0.0287,
-          "bets": 2
+          "id": "underdog",
+          "emoji": "🐶",
+          "title": "Underdog lover",
+          "effect": "Allows underdogs at odds up to 1.0 higher.",
+          "from": "Underdog hunter",
+          "since": "2026-11-22T10:01:00Z",
+          "on": 0.0278,
+          "off": 0.0303,
+          "bets": 15
         }
       ],
       "mind": {
@@ -10932,14 +10932,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-22T06:30:44Z",
-      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
-    },
-    {
-      "t": "2026-11-22T06:45:34Z",
-      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
-    },
-    {
       "t": "2026-11-22T06:45:34Z",
       "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.6% vs the market on those days)."
     },
@@ -11050,6 +11042,14 @@
     {
       "t": "2026-11-22T09:45:35Z",
       "text": "Results:\n- Lost -2.40: Los Angeles Clippers (Winner) in Dallas Mavericks vs Los Angeles Clippers (Dallas Mavericks 110 - 100 Los Angeles Clippers)"
+    },
+    {
+      "t": "2026-11-22T10:01:00Z",
+      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-22T10:01:00Z",
+      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
     }
   ]
 }
