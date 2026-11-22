@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T22:00:54Z",
+  "updated": "2026-11-22T22:15:30Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -482,8 +482,8 @@
           "cautious": 0.0203,
           "beat": 0.7097,
           "challenges": 0.7,
-          "traits": 4,
-          "score": 35.95
+          "traits": 3,
+          "score": 33.95
         },
         {
           "who": "lizard",
@@ -518,7 +518,7 @@
       "leader": "shark"
     }
   },
-  "credits_left": 17862,
+  "credits_left": 17860,
   "last_scan": "2026-11-22@21",
   "strategies": {
     "lizard": {
@@ -1319,7 +1319,7 @@
           "from": "Discipline day",
           "since": "2026-11-21T12:15:32Z",
           "on": -0.0033,
-          "off": -0.0006,
+          "off": 0.0019,
           "bets": 4
         },
         {
@@ -1330,7 +1330,7 @@
           "from": "Study day",
           "since": "2026-11-21T14:45:34Z",
           "on": 0.0228,
-          "off": -0.0055,
+          "off": -0.0027,
           "bets": 9
         }
       ],
@@ -1503,7 +1503,7 @@
         ],
         "rules": 0,
         "studied": 266,
-        "resolved": 203
+        "resolved": 207
       }
     },
     "quant": {
@@ -2457,7 +2457,7 @@
         "min_edge": 0.015,
         "odds": [
           1.6,
-          5.0
+          4.0
         ],
         "stop_below": 250
       },
@@ -3172,17 +3172,6 @@
           "on": 0.0329,
           "off": 0.0227,
           "bets": 1
-        },
-        {
-          "id": "underdog",
-          "emoji": "🐶",
-          "title": "Underdog lover",
-          "effect": "Allows underdogs at odds up to 1.0 higher.",
-          "from": "Underdog hunter",
-          "since": "2026-11-22T22:00:54Z",
-          "on": 0.0278,
-          "off": 0.029,
-          "bets": 15
         }
       ],
       "mind": {
@@ -10930,10 +10919,6 @@
   "log": [
     {
       "t": "2026-11-22T17:45:32Z",
-      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-22T17:45:32Z",
       "text": "🧬 🦈 The Shark made Study day part of its character: 📚 Studious. It completed the challenge on 2026-11-17 and its bets beat the market by +13.1%. Looks a day further ahead."
     },
     {
@@ -11047,6 +11032,10 @@
     {
       "t": "2026-11-22T22:00:54Z",
       "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
+    },
+    {
+      "t": "2026-11-22T22:15:30Z",
+      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.4% vs the market on those days)."
     }
   ]
 }
