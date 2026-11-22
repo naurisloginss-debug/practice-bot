@@ -53,14 +53,6 @@
   },
   "log": [
     {
-      "t": "2026-11-22T13:01:04Z",
-      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
-    },
-    {
-      "t": "2026-11-22T13:01:04Z",
-      "text": "Placed 6 practice bets:\n- The Lizard: **Birmingham City** (Winner) in Burnley vs Birmingham City (Championship (England 2)) at 2.65 on LeoVegas (SE), stake 9.21, edge +4.7%\n- The Lizard: **Watford** (Winner) in Watford vs Blackburn Rovers (Championship (England 2)) at 2.57 on Nordic Bet, stake 9.84, edge +4.8%\n- The Lizard: **Under 2.5** (Total) in Stevenage vs Sheffield Wednesday (League One (England 3)) at 2.0 on William Hill, stake 7.19, edge +2.9%\n- The Quant: **Chicago Bulls** (Winner) in Chicago Bulls vs Denver Nuggets (NBA) at 4.2 on Matchbook, stake 1.90, edge +3.6%\n- The Quant: **Washington Wizards** (Winner) in Washington Wizards vs Orlando Magic (NBA) at 2.85 on Unibet (SE), stake 1.77, edge +2.0%\n- The Quant: **Golden State Warriors** (Winner) in Golden State Warriors vs Boston Celtics (NBA) at 4.1 on Matchbook, stake 1.16, edge +2.1%"
-    },
-    {
       "t": "2026-11-22T13:15:32Z",
       "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
     },
@@ -171,6 +163,14 @@
     {
       "t": "2026-11-22T16:15:33Z",
       "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
+    },
+    {
+      "t": "2026-11-22T16:30:46Z",
+      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
+    },
+    {
+      "t": "2026-11-22T16:30:46Z",
+      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.6% vs the market on those days)."
     }
   ],
   "levels": {
@@ -2762,11 +2762,11 @@
         "off": 0.0216,
         "bets": 2
       },
-      "underdog": {
-        "since": "2026-11-22T16:15:33Z",
-        "on": 0.0278,
-        "off": 0.0303,
-        "bets": 15
+      "precision": {
+        "since": "2026-11-22T16:30:46Z",
+        "on": 0.032,
+        "off": 0.0287,
+        "bets": 2
       }
     }
   },
