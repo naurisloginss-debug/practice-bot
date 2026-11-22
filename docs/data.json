@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T03:45:32Z",
+  "updated": "2026-11-22T04:00:56Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -518,7 +518,7 @@
       "leader": "lizard"
     }
   },
-  "credits_left": 18174,
+  "credits_left": 18172,
   "last_scan": "2026-11-22@1",
   "strategies": {
     "lizard": {
@@ -1049,7 +1049,7 @@
         "measured": 2
       },
       "reading": {
-        "week": 114,
+        "week": 108,
         "latest": [
           {
             "t": "2026-11-21T21:14:08Z",
@@ -1497,7 +1497,7 @@
         ],
         "rules": 0,
         "studied": 260,
-        "resolved": 187
+        "resolved": 189
       }
     },
     "quant": {
@@ -1980,8 +1980,29 @@
         "measured": 0
       },
       "reading": {
-        "week": 87,
+        "week": 83,
         "latest": [
+          {
+            "t": "2026-11-22T00:00:00Z",
+            "title": "Mavericks vs Clippers Preview and Injury Report: Dallas looks to build at home",
+            "link": "https://sports.yahoo.com/articles/mavericks-vs-clippers-preview-injury-000000314.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-22T00:00:00Z",
+            "title": "Game Discussion Thread: Knicks vs. Trail Blazers, November 21, 2026",
+            "link": "https://sports.yahoo.com/articles/game-discussion-thread-knicks-vs-000000695.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-21T23:15:15Z",
+            "title": "Wizards vs Magic Preview: Washington returns home to face Magic",
+            "link": "https://sports.yahoo.com/articles/wizards-vs-magic-preview-washington-231515414.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
           {
             "t": "2026-11-21T19:34:28Z",
             "title": "JJ Redick hopeful Austin Reaves will return in next two games",
@@ -2002,27 +2023,6 @@
             "link": "https://sports.yahoo.com/articles/worked-every-time-sixers-found-135320234.html",
             "source": "sports.yahoo.com",
             "tone": 1
-          },
-          {
-            "t": "2026-11-20T23:30:29Z",
-            "title": "NBA injury updates: The latest on Tyrese Haliburton, Anthony Edwards, Kawhi Leonard, Dylan Harper, more",
-            "link": "https://www.cbssports.com/nba/news/nba-injury-updates-tyrese-haliburton-kawhi-leonard-dylan-harper-brandon-ingram/",
-            "source": "www.cbssports.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-20T15:30:27Z",
-            "title": "Damian Lillard stars in his Milwaukee return in another stark reminder of how bleak things are for the Bucks",
-            "link": "https://www.cbssports.com/nba/news/damian-lillard-milwaukee-return-trail-blazers-bucks-bleak-future/",
-            "source": "www.cbssports.com",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-19T17:22:11Z",
-            "title": "NBA's eight biggest disappointments through one month: Injury bug, same old East and an underwhelming champ",
-            "link": "https://www.cbssports.com/nba/news/nbas-biggest-disappointments-one-month-injury-bug-east-underwhelming-champ/",
-            "source": "www.cbssports.com",
-            "tone": -1
           }
         ]
       },
@@ -2428,10 +2428,10 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.015,
+        "min_edge": 0.02,
         "odds": [
           1.6,
-          5.0
+          4.0
         ],
         "stop_below": 250
       },
@@ -2826,47 +2826,47 @@
         "measured": 0
       },
       "reading": {
-        "week": 399,
+        "week": 409,
         "latest": [
           {
-            "t": "2026-11-22T00:48:23Z",
-            "title": "Houston football’s Keisean Henderson gets real in emotional postgame interview after big win in first career start",
-            "link": "https://sports.yahoo.com/articles/houston-football-keisean-henderson-gets-004823780.html",
+            "t": "2026-11-22T03:00:20Z",
+            "title": "Michigan WR Andrew Marsh expected to play vs Ohio State amidst legal matter",
+            "link": "https://sports.yahoo.com/articles/michigan-wr-andrew-marsh-expected-030020760.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-22T00:43:57Z",
-            "title": "Michigan Football stuns unbeaten No. 4 UCLA in triple OT",
-            "link": "https://sports.yahoo.com/articles/michigan-football-stuns-unbeaten-no-004357935.html",
+            "t": "2026-11-22T02:43:54Z",
+            "title": "Matthew Stafford gets emotional about Puka Nacua’s surgery and human cost of football",
+            "link": "https://sports.yahoo.com/articles/matthew-stafford-gets-emotional-puka-024354711.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-22T02:41:57Z",
+            "title": "Puka Nacua injury report is devastating news for Rams",
+            "link": "https://sports.yahoo.com/articles/puka-nacua-injury-report-devastating-024157103.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-22T02:37:08Z",
+            "title": "Knee surgery complicates Puka Nacua&#39;s future",
+            "link": "https://sports.yahoo.com/articles/knee-surgery-complicates-puka-nacuas-023708964.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-22T02:23:00Z",
+            "title": "No. 13 Iowa shuts out Illinois in the second half, pulls away for 34-17 win to help playoff hopes",
+            "link": "https://sports.yahoo.com/articles/no-13-iowa-shuts-illinois-022300505.html",
             "source": "sports.yahoo.com",
             "tone": 1
           },
           {
-            "t": "2026-11-22T00:32:48Z",
-            "title": "Nebraska football’s Luke Lindenmeyer drops Matt Rhule CFP declaration after beating Ohio State",
-            "link": "https://sports.yahoo.com/articles/nebraska-football-luke-lindenmeyer-drops-003248170.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-22T00:27:30Z",
-            "title": "UCLA unbeaten no more after Bruins lose QB and fall in triple OT",
-            "link": "https://sports.yahoo.com/articles/ucla-unbeaten-no-more-bruins-002730605.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-22T00:23:41Z",
-            "title": "Indiana football&#39;s overtime loss at Washington makes CFP a long shot | Overreactions",
-            "link": "https://sports.yahoo.com/articles/quarterback-change-couldnt-save-indiana-002341761.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-22T00:23:32Z",
-            "title": "QB Ty Dieffenbach carted off the field in OT as No. 4 UCLA&#39;s undefeated season ends with loss to Michigan",
-            "link": "https://sports.yahoo.com/college-football/breaking-news/article/qb-ty-dieffenbach-carted-off-the-field-in-ot-as-no-4-uclas-undefeated-season-ends-with-loss-to-michigan-002332580.html",
+            "t": "2026-11-22T02:22:52Z",
+            "title": "Rams WR Puka Nacua reportedly out 4-5 months following knee surgery, will be sidelined for playoffs",
+            "link": "https://sports.yahoo.com/nfl/breaking-news/article/rams-wr-puka-nacua-reportedly-out-4-5-months-following-knee-surgery-will-be-sidelined-for-playoffs-022252192.html",
             "source": "sports.yahoo.com",
             "tone": -1
           }
@@ -3106,15 +3106,15 @@
           "bets": 2
         },
         {
-          "id": "underdog",
-          "emoji": "🐶",
-          "title": "Underdog lover",
-          "effect": "Allows underdogs at odds up to 1.0 higher.",
-          "from": "Underdog hunter",
-          "since": "2026-11-22T03:45:32Z",
-          "on": 0.0278,
-          "off": 0.0303,
-          "bets": 15
+          "id": "precision",
+          "emoji": "🎯",
+          "title": "Precise",
+          "effect": "Always demands +0.5% more edge.",
+          "from": "Precision day",
+          "since": "2026-11-22T04:00:56Z",
+          "on": 0.032,
+          "off": 0.0287,
+          "bets": 2
         }
       ],
       "mind": {
@@ -10857,14 +10857,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-22T01:00:53Z",
-      "text": "Placed 7 practice bets:\n- The Shark: **Arizona Cardinals +16.5** (Spread) in Kansas City Chiefs vs Arizona Cardinals (NFL) at 1.91 on 888sport, stake 9.78, edge +3.1%\n- The Lizard 🧭 scout: **St. Louis City SC** (Winner) in St. Louis City SC vs Los Angeles FC (MLS (USA)) at 2.5 on GTbets, stake 2.49, edge +1.1%\n- The Lizard 🧭 scout: **Burgos CF** (Winner) in Burgos CF vs Albacete (La Liga 2 (Spain 2)) at 2.15 on Coolbet, stake 2.49, edge +1.6%\n- The Shark 🧭 scout: **Denver Broncos -10.5** (Spread) in Denver Broncos vs Las Vegas Raiders (NFL) at 2.02 on Matchbook, stake 2.41, edge +0.8%\n- The Quant 💭 gut: **Detroit Pistons** (Winner) in Atlanta Hawks vs Detroit Pistons (NBA) at 1.8 on William Hill, stake 2.25, edge +1.4%\n- The Shark 💭 gut: **Hawaii Rainbow Warriors** (Winner) in Nevada Wolf Pack vs Hawaii Rainbow Warriors (College football (US)) at 3.46 on Marathon Bet, stake 2.41, edge +0.6%\n- The Shark 🎲 wild: **San Diego State Aztecs** (Winner) in Boise State Broncos vs San Diego State Aztecs (College football (US)) at 10.5 on BetAnything, stake 1.21, edge +10.0%"
-    },
-    {
-      "t": "2026-11-22T01:15:31Z",
-      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
-    },
-    {
       "t": "2026-11-22T01:15:31Z",
       "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.5%. Allows underdogs at odds up to 1.0 higher."
     },
@@ -10975,6 +10967,14 @@
     {
       "t": "2026-11-22T03:45:32Z",
       "text": "Results:\n- Won +1.57: New York Knicks (Winner) in New York Knicks vs Portland Trail Blazers (New York Knicks 97 - 96 Portland Trail Blazers)"
+    },
+    {
+      "t": "2026-11-22T04:00:56Z",
+      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
+    },
+    {
+      "t": "2026-11-22T04:00:56Z",
+      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.6% vs the market on those days)."
     }
   ]
 }
