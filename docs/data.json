@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T20:30:44Z",
+  "updated": "2026-11-22T20:45:31Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -332,7 +332,7 @@
       "shark": {
         "iq": 128,
         "iq_gain": 11,
-        "streak": 1,
+        "streak": 0,
         "best_streak": 4,
         "achievements": [
           {
@@ -443,12 +443,12 @@
           {
             "text": "Bets checked against the market",
             "target": 30,
-            "now": 48
+            "now": 49
           },
           {
             "text": "Beat the market on",
             "target": 61,
-            "now": 54,
+            "now": 53,
             "unit": "%",
             "pending": false
           }
@@ -518,7 +518,7 @@
       "leader": "shark"
     }
   },
-  "credits_left": 17926,
+  "credits_left": 17924,
   "last_scan": "2026-11-22@17",
   "strategies": {
     "lizard": {
@@ -2449,10 +2449,10 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.02,
+        "min_edge": 0.015,
         "odds": [
           1.6,
-          4.0
+          5.0
         ],
         "stop_below": 250
       },
@@ -2488,9 +2488,9 @@
       "profit": -19.05,
       "roi": -0.1028,
       "avg_edge": 0.0284,
-      "avg_clv": 0.0185,
-      "beat_close": 0.5584,
-      "clv_count": 77,
+      "avg_clv": 0.0177,
+      "beat_close": 0.5513,
+      "clv_count": 78,
       "history": [
         {
           "t": "2026-11-07T16:00:52Z",
@@ -2824,9 +2824,9 @@
           "bets": 31,
           "profit": -0.99,
           "roi": -0.0332,
-          "avg_clv": 0.0328,
-          "beat_close": 0.5455,
-          "clv_count": 22
+          "avg_clv": 0.0294,
+          "beat_close": 0.5217,
+          "clv_count": 23
         },
         {
           "name": "College football (US)",
@@ -2844,9 +2844,9 @@
           "bets": 70,
           "profit": -1.35,
           "roi": -0.0095,
-          "avg_clv": 0.0208,
-          "beat_close": 0.5758,
-          "clv_count": 66
+          "avg_clv": 0.0198,
+          "beat_close": 0.5672,
+          "clv_count": 67
         },
         {
           "name": "Spread",
@@ -2873,17 +2873,17 @@
           "bets": 93,
           "profit": -19.05,
           "roi": -0.1028,
-          "avg_clv": 0.0185,
-          "beat_close": 0.5584,
-          "clv_count": 77
+          "avg_clv": 0.0177,
+          "beat_close": 0.5513,
+          "clv_count": 78
         }
       ],
       "gut": {
         "bets": 14,
-        "measured": 11,
-        "avg_clv": 0.0071,
-        "beat": 0.4545,
-        "trust": 0.75,
+        "measured": 12,
+        "avg_clv": 0.0027,
+        "beat": 0.4167,
+        "trust": 0.691,
         "base": 0.65,
         "won": 4,
         "lost": 7,
@@ -3180,15 +3180,15 @@
           "bets": 1
         },
         {
-          "id": "precision",
-          "emoji": "🎯",
-          "title": "Precise",
-          "effect": "Always demands +0.5% more edge.",
-          "from": "Precision day",
-          "since": "2026-11-22T20:30:44Z",
-          "on": 0.032,
-          "off": 0.0263,
-          "bets": 2
+          "id": "underdog",
+          "emoji": "🐶",
+          "title": "Underdog lover",
+          "effect": "Allows underdogs at odds up to 1.0 higher.",
+          "from": "Underdog hunter",
+          "since": "2026-11-22T20:45:31Z",
+          "on": 0.0278,
+          "off": 0.029,
+          "bets": 15
         }
       ],
       "mind": {
@@ -4293,8 +4293,8 @@
       "edge": -0.0015,
       "stake": 2.47,
       "status": "open",
-      "closing_fair_odds": null,
-      "clv": null,
+      "closing_fair_odds": 3.507,
+      "clv": -0.0449,
       "profit": 0.0,
       "score": null,
       "settled_at": null,
@@ -10935,14 +10935,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-22T16:30:46Z",
-      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
-    },
-    {
-      "t": "2026-11-22T16:30:46Z",
-      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.6% vs the market on those days)."
-    },
-    {
       "t": "2026-11-22T16:45:32Z",
       "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
     },
@@ -11053,6 +11045,14 @@
     {
       "t": "2026-11-22T20:30:44Z",
       "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
+    },
+    {
+      "t": "2026-11-22T20:45:31Z",
+      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-22T20:45:31Z",
+      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
     }
   ]
 }

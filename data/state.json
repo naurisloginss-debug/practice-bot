@@ -1,6 +1,6 @@
 {
   "last_scan": "2026-11-22@17",
-  "credits_left": 17926,
+  "credits_left": 17924,
   "league_names": {
     "soccer_italy_serie_b": "Serie B (Italy 2)",
     "soccer_efl_champ": "Championship (England 2)",
@@ -52,14 +52,6 @@
     "americanfootball_ncaaf_fcs": "2026-11-22T08:30:53Z"
   },
   "log": [
-    {
-      "t": "2026-11-22T16:30:46Z",
-      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
-    },
-    {
-      "t": "2026-11-22T16:30:46Z",
-      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.6% vs the market on those days)."
-    },
     {
       "t": "2026-11-22T16:45:32Z",
       "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
@@ -171,6 +163,14 @@
     {
       "t": "2026-11-22T20:30:44Z",
       "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
+    },
+    {
+      "t": "2026-11-22T20:45:31Z",
+      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-22T20:45:31Z",
+      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
     }
   ],
   "levels": {
@@ -2769,11 +2769,11 @@
         "off": 0.0227,
         "bets": 1
       },
-      "precision": {
-        "since": "2026-11-22T20:30:44Z",
-        "on": 0.032,
-        "off": 0.0263,
-        "bets": 2
+      "underdog": {
+        "since": "2026-11-22T20:45:31Z",
+        "on": 0.0278,
+        "off": 0.029,
+        "bets": 15
       }
     }
   },
