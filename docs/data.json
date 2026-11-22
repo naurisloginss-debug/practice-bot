@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T22:15:30Z",
+  "updated": "2026-11-22T22:30:45Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -31,7 +31,7 @@
       "lizard": {
         "iq": 124,
         "iq_gain": 18,
-        "streak": 7,
+        "streak": 0,
         "best_streak": 8,
         "achievements": [
           {
@@ -142,12 +142,12 @@
           {
             "text": "Bets checked against the market",
             "target": 19,
-            "now": 31
+            "now": 32
           },
           {
             "text": "Beat the market on",
             "target": 55,
-            "now": 68,
+            "now": 66,
             "unit": "%",
             "pending": false
           }
@@ -482,8 +482,8 @@
           "cautious": 0.0203,
           "beat": 0.7097,
           "challenges": 0.7,
-          "traits": 3,
-          "score": 33.95
+          "traits": 4,
+          "score": 35.95
         },
         {
           "who": "lizard",
@@ -518,7 +518,7 @@
       "leader": "shark"
     }
   },
-  "credits_left": 17860,
+  "credits_left": 17859,
   "last_scan": "2026-11-22@21",
   "strategies": {
     "lizard": {
@@ -584,9 +584,9 @@
       "profit": -2.1,
       "roi": -0.0129,
       "avg_edge": 0.03,
-      "avg_clv": 0.0048,
-      "beat_close": 0.6567,
-      "clv_count": 67,
+      "avg_clv": 0.0024,
+      "beat_close": 0.6471,
+      "clv_count": 68,
       "history": [
         {
           "t": "2026-11-04T12:49:24Z",
@@ -903,15 +903,6 @@
           "clv_count": 3
         },
         {
-          "name": "Liga MX",
-          "bets": 4,
-          "profit": 14.46,
-          "roi": 1.2444,
-          "avg_clv": 0.0204,
-          "beat_close": 1.0,
-          "clv_count": 1
-        },
-        {
           "name": "La Liga 2 (Spain 2)",
           "bets": 12,
           "profit": -5.87,
@@ -982,6 +973,15 @@
           "avg_clv": -0.059,
           "beat_close": 0.0,
           "clv_count": 1
+        },
+        {
+          "name": "Liga MX",
+          "bets": 4,
+          "profit": 14.46,
+          "roi": 1.2444,
+          "avg_clv": -0.0684,
+          "beat_close": 0.5,
+          "clv_count": 2
         }
       ],
       "by_market": [
@@ -999,9 +999,9 @@
           "bets": 80,
           "profit": -6.48,
           "roi": -0.0454,
-          "avg_clv": 0.0039,
-          "beat_close": 0.6406,
-          "clv_count": 64
+          "avg_clv": 0.0014,
+          "beat_close": 0.6308,
+          "clv_count": 65
         },
         {
           "name": "Spread",
@@ -1019,16 +1019,16 @@
           "bets": 90,
           "profit": -2.1,
           "roi": -0.0129,
-          "avg_clv": 0.0048,
-          "beat_close": 0.6567,
-          "clv_count": 67
+          "avg_clv": 0.0024,
+          "beat_close": 0.6471,
+          "clv_count": 68
         }
       ],
       "gut": {
         "bets": 10,
-        "measured": 6,
-        "avg_clv": -0.0579,
-        "beat": 0.3333,
+        "measured": 7,
+        "avg_clv": -0.0721,
+        "beat": 0.2857,
         "trust": 0.45,
         "base": 0.45,
         "won": 4,
@@ -1053,8 +1053,22 @@
         "measured": 2
       },
       "reading": {
-        "week": 92,
+        "week": 119,
         "latest": [
+          {
+            "t": "2026-11-22T21:04:55Z",
+            "title": "Pepe did not injure eyes staring at sun, say Villarreal",
+            "link": "https://www.bbc.co.uk/sport/football/articles/c8zx9y6d29vyo?at_medium=RSS&at_campaign=rss",
+            "source": "feeds.bbci.co.uk",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-22T20:32:10Z",
+            "title": "Calhanoglu forced off injured in Atalanta-Inter as Carnesecchi pulls out in warm-up",
+            "link": "https://football-italia.net/calhanoglu-injured-in-atalanta-inter/",
+            "source": "football-italia.net",
+            "tone": -1
+          },
           {
             "t": "2026-11-22T17:54:36Z",
             "title": "Spurs deny Man City top spot with statement win",
@@ -1082,20 +1096,6 @@
             "link": "https://www.bbc.co.uk/sport/football/articles/cw0k6x0764ero?at_medium=RSS&at_campaign=rss",
             "source": "feeds.bbci.co.uk",
             "tone": -1
-          },
-          {
-            "t": "2026-11-22T11:41:36Z",
-            "title": "Allegri reveals possible cause of Vergara’s injury, warns Napoli fans about Man City clash",
-            "link": "https://football-italia.net/allegri-cause-vergara-injury-napoli-man-city/",
-            "source": "football-italia.net",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-22T11:24:45Z",
-            "title": "Spalletti: Only one way to stop speculation over Conte’s Juventus return",
-            "link": "https://football-italia.net/spalletti-1-way-avoid-conte-noise-juventus/",
-            "source": "football-italia.net",
-            "tone": 1
           }
         ]
       },
@@ -2006,8 +2006,22 @@
         "measured": 0
       },
       "reading": {
-        "week": 65,
+        "week": 75,
         "latest": [
+          {
+            "t": "2026-11-22T22:12:02Z",
+            "title": "Shai-Gilgeous Alexander, Giannis Antetokounmpo ruled out of Sunday&#39;s Thunder-Heat game",
+            "link": "https://sports.yahoo.com/nba/breaking-news/article/shai-gilgeous-alexander-giannis-antetokounmpo-ruled-out-of-sundays-thunder-heat-game-221215293.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-22T21:55:44Z",
+            "title": "Lakers share encouraging Austin Reaves injury update ahead of Jazz game",
+            "link": "https://sports.yahoo.com/articles/lakers-share-encouraging-austin-reaves-215544653.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
           {
             "t": "2026-11-22T18:00:00Z",
             "title": "Week 6 Look-Ahead: Nuggets pick up two big wins while Dylan Harper and Jaylen Brown suffer injuries",
@@ -2016,39 +2030,25 @@
             "tone": -1
           },
           {
-            "t": "2026-11-22T06:13:05Z",
-            "title": "Lakers desperately need Austin Reaves. When will LA star return?",
-            "link": "https://sports.yahoo.com/articles/lakers-desperately-austin-reaves-la-061305290.html",
+            "t": "2026-11-22T11:38:29Z",
+            "title": "Steve Kerr, coaching staff tasked with burden of lifting impaired Warriors",
+            "link": "https://sports.yahoo.com/articles/steve-kerr-coaching-staff-tasked-113829177.html",
             "source": "sports.yahoo.com",
             "tone": 1
           },
           {
-            "t": "2026-11-22T02:53:51Z",
-            "title": "Celtics announce new starting lineup against Kings in wake of injuries",
-            "link": "https://sports.yahoo.com/articles/celtics-announce-starting-lineup-against-025351353.html",
+            "t": "2026-11-22T00:00:00Z",
+            "title": "Mavericks vs Clippers Preview and Injury Report: Dallas looks to build at home",
+            "link": "https://sports.yahoo.com/articles/mavericks-vs-clippers-preview-injury-000000314.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-21T23:14:28Z",
-            "title": "The 76ers are fun again, so it&#39;s the return of Roob&#39;s 76ers Stats!",
-            "link": "https://sports.yahoo.com/articles/76ers-fun-again-return-roobs-121311032.html",
+            "t": "2026-11-22T00:00:00Z",
+            "title": "Game Discussion Thread: Knicks vs. Trail Blazers, November 21, 2026",
+            "link": "https://sports.yahoo.com/articles/game-discussion-thread-knicks-vs-000000695.html",
             "source": "sports.yahoo.com",
             "tone": 1
-          },
-          {
-            "t": "2026-11-21T23:14:28Z",
-            "title": "‘It worked every time&#39;: How Sixers found a clutch answer at shootaround",
-            "link": "https://sports.yahoo.com/articles/worked-every-time-sixers-found-135320234.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-20T23:30:29Z",
-            "title": "NBA injury updates: The latest on Tyrese Haliburton, Anthony Edwards, Kawhi Leonard, Dylan Harper, more",
-            "link": "https://www.cbssports.com/nba/news/nba-injury-updates-tyrese-haliburton-kawhi-leonard-dylan-harper-brandon-ingram/",
-            "source": "www.cbssports.com",
-            "tone": -1
           }
         ]
       },
@@ -2454,7 +2454,7 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.015,
+        "min_edge": 0.02,
         "odds": [
           1.6,
           4.0
@@ -2920,47 +2920,47 @@
         "measured": 1
       },
       "reading": {
-        "week": 443,
+        "week": 406,
         "latest": [
           {
-            "t": "2026-11-22T19:05:05Z",
-            "title": "Why didn’t LaNorris Sellers walk on South Carolina football Senior Night? Shane Beamer butts in to explain",
-            "link": "https://sports.yahoo.com/articles/why-didn-t-lanorris-sellers-190505390.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-22T18:57:48Z",
-            "title": "Tony Adams downgraded to out due to illness",
-            "link": "https://sports.yahoo.com/articles/tony-adams-downgraded-due-illness-185748968.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-22T18:21:15Z",
-            "title": "Bryce Young sacked for safety, Jacoby Brissett throws TD as Ravens lead Panthers 9-0",
-            "link": "https://sports.yahoo.com/articles/bryce-young-sacked-safety-jacoby-182115288.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-22T17:53:11Z",
-            "title": "US LBM Coaches Poll: UCLA tumbles after Michigan football upset",
-            "link": "https://sports.yahoo.com/articles/us-lbm-coaches-poll-ucla-175311434.html",
+            "t": "2026-11-22T22:10:43Z",
+            "title": "ClutchPoints’ Week 13 2026 College Football Top 25 Power Rankings",
+            "link": "https://sports.yahoo.com/articles/clutchpoints-week-13-2026-college-221043346.html",
             "source": "sports.yahoo.com",
             "tone": 1
           },
           {
-            "t": "2026-11-22T17:51:37Z",
-            "title": "Eagles vs. Steelers: Live score updates, highlights, injury news",
-            "link": "https://sports.yahoo.com/articles/eagles-vs-steelers-live-score-175137128.html",
+            "t": "2026-11-22T22:09:15Z",
+            "title": "Derrick Henry injury: Ravens star RB clears concussion protocol after leaving game post-TD",
+            "link": "https://www.cbssports.com/nfl/news/derrick-henry-injury-ravens-star-rb-leaves-evaluated-concussion-after-scoring-touchdown/",
+            "source": "www.cbssports.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-22T21:51:07Z",
+            "title": "Jameson Williams scares Lions fans with front-flip touchdown following Aidan Hutchinson injury",
+            "link": "https://sports.yahoo.com/articles/jameson-williams-scares-lions-fans-215107844.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-22T17:45:00Z",
-            "title": "Lions vs. Bucs: Live score updates, highlights, injury news",
-            "link": "https://sports.yahoo.com/articles/lions-vs-bucs-live-score-174500152.html",
+            "t": "2026-11-22T21:49:15Z",
+            "title": "Packers Injury Report: 9 players limited on Sunday",
+            "link": "https://sports.yahoo.com/articles/packers-injury-report-9-players-214915318.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-22T21:49:09Z",
+            "title": "Josh Jacobs listed as limited in Packers practice",
+            "link": "https://sports.yahoo.com/articles/josh-jacobs-listed-limited-packers-214909315.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-22T21:46:02Z",
+            "title": "Steelers OLB Alex Highsmith seen in boot after loss vs. Eagles",
+            "link": "https://sports.yahoo.com/articles/steelers-olb-alex-highsmith-seen-214602136.html",
             "source": "sports.yahoo.com",
             "tone": -1
           }
@@ -3172,6 +3172,17 @@
           "on": 0.0329,
           "off": 0.0227,
           "bets": 1
+        },
+        {
+          "id": "precision",
+          "emoji": "🎯",
+          "title": "Precise",
+          "effect": "Always demands +0.5% more edge.",
+          "from": "Precision day",
+          "since": "2026-11-22T22:30:45Z",
+          "on": 0.032,
+          "off": 0.0263,
+          "bets": 2
         }
       ],
       "mind": {
@@ -4316,8 +4327,8 @@
       "edge": 0.0095,
       "stake": 2.57,
       "status": "open",
-      "closing_fair_odds": null,
-      "clv": null,
+      "closing_fair_odds": 3.441,
+      "clv": -0.1573,
       "profit": 0.0,
       "score": null,
       "settled_at": null,
@@ -10919,10 +10930,6 @@
   "log": [
     {
       "t": "2026-11-22T17:45:32Z",
-      "text": "🧬 🦈 The Shark made Study day part of its character: 📚 Studious. It completed the challenge on 2026-11-17 and its bets beat the market by +13.1%. Looks a day further ahead."
-    },
-    {
-      "t": "2026-11-22T17:45:32Z",
       "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
     },
     {
@@ -11036,6 +11043,10 @@
     {
       "t": "2026-11-22T22:15:30Z",
       "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.4% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-22T22:30:45Z",
+      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
     }
   ]
 }
