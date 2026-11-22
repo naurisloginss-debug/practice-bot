@@ -53,18 +53,6 @@
   },
   "log": [
     {
-      "t": "2026-11-21T21:45:32Z",
-      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+0.2% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-21T21:45:32Z",
-      "text": "Results:\n- Lost -2.62: Draw (Winner) in Lincoln City vs Wrexham AFC (Lincoln City 0 - 1 Wrexham AFC)\n- Lost -1.20: Preston North End (Winner) in West Ham United vs Preston North End (West Ham United 1 - 1 Preston North End)\n- Lost -1.20: Charlton Athletic (Winner) in Wolverhampton Wanderers vs Charlton Athletic (Wolverhampton Wanderers 2 - 1 Charlton Athletic)\n- Won +1.58: Sheffield United (Winner) in Sheffield United vs Watford (Sheffield United 4 - 0 Watford)\n- Lost -5.18: Draw (Winner) in Stoke City vs Birmingham City (Stoke City 1 - 0 Birmingham City)\n- Lost -2.44: Portsmouth (Winner) in Bolton Wanderers vs Portsmouth (Bolton Wanderers 1 - 1 Portsmouth)\n- Lost -1.22: Bristol City (Winner) in Middlesbrough vs Bristol City (Middlesbrough 2 - 0 Bristol City)\n- Lost -2.40: Oldham Athletic (Winner) in Oldham Athletic vs Exeter City (Oldham Athletic 1 - 1 Exeter City)\n- Lost -3.52: Cheltenham Town (Winner) in Cheltenham Town vs Bristol Rovers (Cheltenham Town 0 - 3 Bristol Rovers)\n- Lost -4.54: Fleetwood Town (Winner) in Crawley Town vs Fleetwood Town (Crawley Town 2 - 1 Fleetwood Town)"
-    },
-    {
-      "t": "2026-11-21T22:00:55Z",
-      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
-    },
-    {
       "t": "2026-11-21T22:00:55Z",
       "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +1.0%. Allows underdogs at odds up to 1.0 higher."
     },
@@ -171,6 +159,18 @@
     {
       "t": "2026-11-22T00:01:04Z",
       "text": "🏟️ 🦈 The Shark takes the lead in the Arena."
+    },
+    {
+      "t": "2026-11-22T00:15:31Z",
+      "text": "🧬 🧮 The Quant dropped the 📰 Well-read trait: it stopped working (-1.7% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-22T00:15:31Z",
+      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-22T00:15:31Z",
+      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +1.9%. Allows underdogs at odds up to 1.0 higher."
     }
   ],
   "levels": {
@@ -2754,20 +2754,14 @@
       "discipline": {
         "since": "2026-11-21T07:21:41Z",
         "on": 0.0129,
-        "off": 0.0,
+        "off": -0.0037,
         "bets": 6
       },
       "underdog": {
         "since": "2026-11-21T07:21:41Z",
         "on": 0.016,
-        "off": -0.0015,
+        "off": -0.0054,
         "bets": 9
-      },
-      "news": {
-        "since": "2026-11-21T18:45:31Z",
-        "on": 0.0029,
-        "off": 0.0012,
-        "bets": 8
       }
     },
     "shark": {
@@ -2783,11 +2777,11 @@
         "off": 0.0186,
         "bets": 2
       },
-      "precision": {
-        "since": "2026-11-22T00:01:04Z",
-        "on": 0.032,
-        "off": 0.0256,
-        "bets": 2
+      "underdog": {
+        "since": "2026-11-22T00:15:31Z",
+        "on": 0.019,
+        "off": 0.0303,
+        "bets": 12
       }
     }
   },
