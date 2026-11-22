@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T12:30:52Z",
+  "updated": "2026-11-22T12:45:34Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -2452,10 +2452,10 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.015,
+        "min_edge": 0.02,
         "odds": [
           1.6,
-          5.0
+          4.0
         ],
         "stop_below": 250
       },
@@ -3181,15 +3181,15 @@
           "bets": 2
         },
         {
-          "id": "underdog",
-          "emoji": "🐶",
-          "title": "Underdog lover",
-          "effect": "Allows underdogs at odds up to 1.0 higher.",
-          "from": "Underdog hunter",
-          "since": "2026-11-22T12:30:52Z",
-          "on": 0.0278,
-          "off": 0.0303,
-          "bets": 15
+          "id": "precision",
+          "emoji": "🎯",
+          "title": "Precise",
+          "effect": "Always demands +0.5% more edge.",
+          "from": "Precision day",
+          "since": "2026-11-22T12:45:34Z",
+          "on": 0.032,
+          "off": 0.0287,
+          "bets": 2
         }
       ],
       "mind": {
@@ -10932,14 +10932,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-22T09:00:56Z",
-      "text": "Placed 4 practice bets:\n- The Lizard: **Under 3.5** (Total) in Chicago Fire vs Charlotte FC (MLS (USA)) at 2.13 on BetAnything, stake 13.71, edge +6.2%\n- The Shark: **Washington Commanders +6.5** (Spread) in Washington Commanders vs Cincinnati Bengals (NFL) at 1.97 on Tipico, stake 5.33, edge +1.8%\n- The Quant 🧭 scout: **Indiana Pacers** (Winner) in New York Knicks vs Indiana Pacers (NBA) at 4.2 on William Hill, stake 2.31, edge +1.2%\n- The Quant 💭 gut: **Richmond Spiders** (Winner) in Richmond Spiders vs Liberty Flames (College basketball (US)) at 2.08 on Unibet (NL), stake 2.31, edge +-0.1%"
-    },
-    {
-      "t": "2026-11-22T09:15:33Z",
-      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
-    },
-    {
       "t": "2026-11-22T09:15:33Z",
       "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.6% vs the market on those days)."
     },
@@ -11050,6 +11042,14 @@
     {
       "t": "2026-11-22T12:30:52Z",
       "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
+    },
+    {
+      "t": "2026-11-22T12:45:34Z",
+      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
+    },
+    {
+      "t": "2026-11-22T12:45:34Z",
+      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.6% vs the market on those days)."
     }
   ]
 }
