@@ -53,14 +53,6 @@
   },
   "log": [
     {
-      "t": "2026-11-21T22:15:32Z",
-      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+0.2% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-21T22:30:50Z",
-      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
-    },
-    {
       "t": "2026-11-21T22:30:50Z",
       "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +1.0%. Allows underdogs at odds up to 1.0 higher."
     },
@@ -171,6 +163,14 @@
     {
       "t": "2026-11-22T00:30:44Z",
       "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+0.8% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-22T00:45:30Z",
+      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-22T00:45:30Z",
+      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.5%. Allows underdogs at odds up to 1.0 higher."
     }
   ],
   "levels": {
@@ -2754,13 +2754,13 @@
       "discipline": {
         "since": "2026-11-21T07:21:41Z",
         "on": 0.0129,
-        "off": -0.0037,
+        "off": -0.0035,
         "bets": 6
       },
       "underdog": {
         "since": "2026-11-21T07:21:41Z",
         "on": 0.016,
-        "off": -0.0054,
+        "off": -0.0052,
         "bets": 9
       }
     },
@@ -2768,20 +2768,20 @@
       "new_ground": {
         "since": "2026-11-21T07:21:41Z",
         "on": 0.0105,
-        "off": 0.0233,
+        "off": 0.0253,
         "bets": 5
       },
       "news": {
         "since": "2026-11-21T17:45:33Z",
         "on": 0.0888,
-        "off": 0.0186,
+        "off": 0.0205,
         "bets": 2
       },
-      "precision": {
-        "since": "2026-11-22T00:30:44Z",
-        "on": 0.032,
-        "off": 0.0256,
-        "bets": 2
+      "underdog": {
+        "since": "2026-11-22T00:45:30Z",
+        "on": 0.0253,
+        "off": 0.0303,
+        "bets": 13
       }
     }
   },

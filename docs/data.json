@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T00:30:44Z",
+  "updated": "2026-11-22T00:45:30Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -2195,7 +2195,7 @@
           "from": "Discipline day",
           "since": "2026-11-21T07:21:41Z",
           "on": 0.0129,
-          "off": -0.0037,
+          "off": -0.0035,
           "bets": 6
         },
         {
@@ -2206,7 +2206,7 @@
           "from": "Underdog hunter",
           "since": "2026-11-21T07:21:41Z",
           "on": 0.016,
-          "off": -0.0054,
+          "off": -0.0052,
           "bets": 9
         }
       ],
@@ -2366,10 +2366,10 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.02,
+        "min_edge": 0.015,
         "odds": [
           1.6,
-          4.0
+          5.0
         ],
         "stop_below": 250
       },
@@ -2941,7 +2941,7 @@
           "from": "New ground",
           "since": "2026-11-21T07:21:41Z",
           "on": 0.0105,
-          "off": 0.0233,
+          "off": 0.0253,
           "bets": 5
         },
         {
@@ -2952,19 +2952,19 @@
           "from": "Read and react",
           "since": "2026-11-21T17:45:33Z",
           "on": 0.0888,
-          "off": 0.0186,
+          "off": 0.0205,
           "bets": 2
         },
         {
-          "id": "precision",
-          "emoji": "🎯",
-          "title": "Precise",
-          "effect": "Always demands +0.5% more edge.",
-          "from": "Precision day",
-          "since": "2026-11-22T00:30:44Z",
-          "on": 0.032,
-          "off": 0.0256,
-          "bets": 2
+          "id": "underdog",
+          "emoji": "🐶",
+          "title": "Underdog lover",
+          "effect": "Allows underdogs at odds up to 1.0 higher.",
+          "from": "Underdog hunter",
+          "since": "2026-11-22T00:45:30Z",
+          "on": 0.0253,
+          "off": 0.0303,
+          "bets": 13
         }
       ],
       "mind": {
@@ -10704,14 +10704,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-21T22:15:32Z",
-      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+0.2% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-21T22:30:50Z",
-      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
-    },
-    {
       "t": "2026-11-21T22:30:50Z",
       "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +1.0%. Allows underdogs at odds up to 1.0 higher."
     },
@@ -10822,6 +10814,14 @@
     {
       "t": "2026-11-22T00:30:44Z",
       "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+0.8% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-22T00:45:30Z",
+      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-22T00:45:30Z",
+      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.5%. Allows underdogs at odds up to 1.0 higher."
     }
   ]
 }
