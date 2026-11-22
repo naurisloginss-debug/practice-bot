@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T19:30:45Z",
+  "updated": "2026-11-22T19:45:32Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -152,7 +152,7 @@
             "pending": false
           }
         ],
-        "score": 172,
+        "score": 175,
         "trophies": [
           {
             "kind": "sharpshooter",
@@ -482,8 +482,8 @@
           "cautious": 0.0203,
           "beat": 0.7097,
           "challenges": 0.7,
-          "traits": 3,
-          "score": 33.95
+          "traits": 4,
+          "score": 35.95
         },
         {
           "who": "lizard",
@@ -493,9 +493,9 @@
           "clv": 0.0051,
           "cautious": -0.0067,
           "beat": 0.7222,
-          "challenges": 0.222,
+          "challenges": 0.3,
           "traits": 2,
-          "score": 2.81
+          "score": 3.2
         },
         {
           "who": "quant",
@@ -536,7 +536,7 @@
         "min_edge": 0.02,
         "odds": [
           1.6,
-          3.0
+          3.5
         ],
         "stop_below": 250
       },
@@ -1198,10 +1198,11 @@
           "emoji": "🧘",
           "title": "Discipline day",
           "text": "No gut calls, no wild bets, nothing above odds 3.0, and still beat the market.",
-          "status": "active",
+          "status": "done",
           "market": "spreads",
           "target": 87,
-          "league": "soccer_mexico_ligamx"
+          "league": "soccer_mexico_ligamx",
+          "detail": "1 bet beat the market."
         },
         "recent": [
           {
@@ -1210,10 +1211,11 @@
             "emoji": "🧘",
             "title": "Discipline day",
             "text": "No gut calls, no wild bets, nothing above odds 3.0, and still beat the market.",
-            "status": "active",
+            "status": "done",
             "market": "spreads",
             "target": 87,
-            "league": "soccer_mexico_ligamx"
+            "league": "soccer_mexico_ligamx",
+            "detail": "1 bet beat the market."
           },
           {
             "day": "2026-11-21",
@@ -1299,9 +1301,9 @@
             "detail": "No bet of that type today."
           }
         ],
-        "done": 2,
-        "judged": 9,
-        "streak": 0
+        "done": 3,
+        "judged": 10,
+        "streak": 1
       },
       "traits": [
         {
@@ -1323,7 +1325,7 @@
           "from": "Study day",
           "since": "2026-11-21T14:45:34Z",
           "on": 0.0228,
-          "off": -0.0057,
+          "off": -0.0055,
           "bets": 9
         }
       ],
@@ -2447,7 +2449,7 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.015,
+        "min_edge": 0.02,
         "odds": [
           1.6,
           4.0
@@ -3176,6 +3178,17 @@
           "on": 0.0329,
           "off": 0.0227,
           "bets": 1
+        },
+        {
+          "id": "precision",
+          "emoji": "🎯",
+          "title": "Precise",
+          "effect": "Always demands +0.5% more edge.",
+          "from": "Precision day",
+          "since": "2026-11-22T19:45:32Z",
+          "on": 0.032,
+          "off": 0.0263,
+          "bets": 2
         }
       ],
       "mind": {
@@ -10922,14 +10935,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-22T15:45:32Z",
-      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-22T15:45:32Z",
-      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
-    },
-    {
       "t": "2026-11-22T16:00:58Z",
       "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
     },
@@ -11040,6 +11045,14 @@
     {
       "t": "2026-11-22T19:30:45Z",
       "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.4% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-22T19:45:32Z",
+      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
+    },
+    {
+      "t": "2026-11-22T19:45:32Z",
+      "text": "✅ 🦎 The Lizard completed 🧘 Discipline day: 1 bet beat the market."
     }
   ]
 }
