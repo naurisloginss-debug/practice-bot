@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T19:15:31Z",
+  "updated": "2026-11-22T19:30:45Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -29,9 +29,9 @@
     ],
     "chars": {
       "lizard": {
-        "iq": 122,
-        "iq_gain": 16,
-        "streak": 5,
+        "iq": 121,
+        "iq_gain": 15,
+        "streak": 6,
         "best_streak": 8,
         "achievements": [
           {
@@ -142,17 +142,17 @@
           {
             "text": "Bets checked against the market",
             "target": 19,
-            "now": 29
+            "now": 30
           },
           {
             "text": "Beat the market on",
             "target": 55,
-            "now": 66,
+            "now": 67,
             "unit": "%",
             "pending": false
           }
         ],
-        "score": 173,
+        "score": 172,
         "trophies": [
           {
             "kind": "sharpshooter",
@@ -482,8 +482,8 @@
           "cautious": 0.0203,
           "beat": 0.7097,
           "challenges": 0.7,
-          "traits": 4,
-          "score": 35.95
+          "traits": 3,
+          "score": 33.95
         },
         {
           "who": "lizard",
@@ -518,7 +518,7 @@
       "leader": "shark"
     }
   },
-  "credits_left": 17931,
+  "credits_left": 17930,
   "last_scan": "2026-11-22@17",
   "strategies": {
     "lizard": {
@@ -569,11 +569,6 @@
           "kind": "avoid",
           "text": "Stopped: all leagues · winner · long shots",
           "detail": "-3.7% vs the market over 17 bets"
-        },
-        {
-          "kind": "favour",
-          "text": "Backing harder: all leagues · winner · middle odds",
-          "detail": "+1.5% vs the market, beat it on 69% of 29 bets"
         }
       ],
       "bets": 86,
@@ -584,9 +579,9 @@
       "profit": -2.1,
       "roi": -0.0129,
       "avg_edge": 0.0317,
-      "avg_clv": 0.003,
-      "beat_close": 0.6462,
-      "clv_count": 65,
+      "avg_clv": 0.0029,
+      "beat_close": 0.6515,
+      "clv_count": 66,
       "history": [
         {
           "t": "2026-11-04T12:49:24Z",
@@ -916,9 +911,9 @@
           "bets": 12,
           "profit": -5.87,
           "roi": -0.1697,
-          "avg_clv": 0.0077,
-          "beat_close": 0.7273,
-          "clv_count": 11
+          "avg_clv": 0.0072,
+          "beat_close": 0.75,
+          "clv_count": 12
         },
         {
           "name": "Championship (England 2)",
@@ -1000,8 +995,8 @@
           "profit": -6.48,
           "roi": -0.0454,
           "avg_clv": 0.0019,
-          "beat_close": 0.629,
-          "clv_count": 62
+          "beat_close": 0.6349,
+          "clv_count": 63
         },
         {
           "name": "Spread",
@@ -1019,9 +1014,9 @@
           "bets": 86,
           "profit": -2.1,
           "roi": -0.0129,
-          "avg_clv": 0.003,
-          "beat_close": 0.6462,
-          "clv_count": 65
+          "avg_clv": 0.0029,
+          "beat_close": 0.6515,
+          "clv_count": 66
         }
       ],
       "gut": {
@@ -1053,8 +1048,29 @@
         "measured": 2
       },
       "reading": {
-        "week": 78,
+        "week": 92,
         "latest": [
+          {
+            "t": "2026-11-22T17:54:36Z",
+            "title": "Spurs deny Man City top spot with statement win",
+            "link": "https://www.bbc.co.uk/sport/football/videos/c9vg2112evvdo?at_medium=RSS&at_campaign=rss",
+            "source": "feeds.bbci.co.uk",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-22T17:54:32Z",
+            "title": "Man Utd score dramatic late winner to extend record run",
+            "link": "https://www.bbc.co.uk/sport/football/videos/cm0rkzzyl2ego?at_medium=RSS&at_campaign=rss",
+            "source": "feeds.bbci.co.uk",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-22T16:25:35Z",
+            "title": "Spurs 'a match for anyone' as win at Man City boosts European hopes",
+            "link": "https://www.bbc.co.uk/sport/football/articles/c6n901w453nlo?at_medium=RSS&at_campaign=rss",
+            "source": "feeds.bbci.co.uk",
+            "tone": 1
+          },
           {
             "t": "2026-11-22T15:50:05Z",
             "title": "PSG's Doue to have surgery on ruptured ACL",
@@ -1075,27 +1091,6 @@
             "link": "https://football-italia.net/spalletti-1-way-avoid-conte-noise-juventus/",
             "source": "football-italia.net",
             "tone": 1
-          },
-          {
-            "t": "2026-11-22T09:48:29Z",
-            "title": "Serie A: Atalanta vs. Inter – probable line-ups, where to watch on TV",
-            "link": "https://football-italia.net/serie-a-atalanta-v-inter-probable-line-ups-tv/",
-            "source": "football-italia.net",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-22T05:12:04Z",
-            "title": "Wales boss Wilkinson rules out Fishlock return",
-            "link": "https://www.bbc.co.uk/sport/football/articles/ckzd9n5j9mj9o?at_medium=RSS&at_campaign=rss",
-            "source": "feeds.bbci.co.uk",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-21T13:29:40Z",
-            "title": "Bayern draw with Cologne as Kane picks up ankle injury",
-            "link": "https://www.bbc.co.uk/sport/football/videos/ck7v2nz0lp32o?at_medium=RSS&at_campaign=rss",
-            "source": "feeds.bbci.co.uk",
-            "tone": -1
           }
         ]
       },
@@ -1193,8 +1188,8 @@
         ],
         "curiosity": 0.5,
         "scouts": 24,
-        "scout_clv": -0.0135,
-        "scout_measured": 17
+        "scout_clv": -0.0126,
+        "scout_measured": 18
       },
       "challenge": {
         "today": {
@@ -1333,8 +1328,8 @@
         }
       ],
       "mind": {
-        "iq": 122,
-        "iq_week": 17,
+        "iq": 121,
+        "iq_week": 16,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -1410,7 +1405,7 @@
           },
           {
             "d": "2026-11-22",
-            "iq": 122
+            "iq": 121
           }
         ],
         "facts": [
@@ -2004,8 +1999,15 @@
         "measured": 0
       },
       "reading": {
-        "week": 82,
+        "week": 65,
         "latest": [
+          {
+            "t": "2026-11-22T18:00:00Z",
+            "title": "Week 6 Look-Ahead: Nuggets pick up two big wins while Dylan Harper and Jaylen Brown suffer injuries",
+            "link": "https://sports.yahoo.com/articles/week-6-look-ahead-nuggets-180000551.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
           {
             "t": "2026-11-22T06:13:05Z",
             "title": "Lakers desperately need Austin Reaves. When will LA star return?",
@@ -2021,32 +2023,25 @@
             "tone": -1
           },
           {
-            "t": "2026-11-22T00:00:00Z",
-            "title": "Mavericks vs Clippers Preview and Injury Report: Dallas looks to build at home",
-            "link": "https://sports.yahoo.com/articles/mavericks-vs-clippers-preview-injury-000000314.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-22T00:00:00Z",
-            "title": "Game Discussion Thread: Knicks vs. Trail Blazers, November 21, 2026",
-            "link": "https://sports.yahoo.com/articles/game-discussion-thread-knicks-vs-000000695.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-21T23:15:15Z",
-            "title": "Wizards vs Magic Preview: Washington returns home to face Magic",
-            "link": "https://sports.yahoo.com/articles/wizards-vs-magic-preview-washington-231515414.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
-          },
-          {
             "t": "2026-11-21T23:14:28Z",
             "title": "The 76ers are fun again, so it&#39;s the return of Roob&#39;s 76ers Stats!",
             "link": "https://sports.yahoo.com/articles/76ers-fun-again-return-roobs-121311032.html",
             "source": "sports.yahoo.com",
             "tone": 1
+          },
+          {
+            "t": "2026-11-21T23:14:28Z",
+            "title": "‘It worked every time&#39;: How Sixers found a clutch answer at shootaround",
+            "link": "https://sports.yahoo.com/articles/worked-every-time-sixers-found-135320234.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-20T23:30:29Z",
+            "title": "NBA injury updates: The latest on Tyrese Haliburton, Anthony Edwards, Kawhi Leonard, Dylan Harper, more",
+            "link": "https://www.cbssports.com/nba/news/nba-injury-updates-tyrese-haliburton-kawhi-leonard-dylan-harper-brandon-ingram/",
+            "source": "www.cbssports.com",
+            "tone": -1
           }
         ]
       },
@@ -2455,7 +2450,7 @@
         "min_edge": 0.015,
         "odds": [
           1.6,
-          5.0
+          4.0
         ],
         "stop_below": 250
       },
@@ -2910,47 +2905,47 @@
         "measured": 1
       },
       "reading": {
-        "week": 440,
+        "week": 443,
         "latest": [
           {
-            "t": "2026-11-22T16:09:25Z",
-            "title": "Lions LB Jack Campbell sent &#39;thrilled&#39; coach a gameday text: Latest injury update",
-            "link": "https://sports.yahoo.com/articles/lions-lb-jack-campbell-sent-160925535.html",
+            "t": "2026-11-22T19:05:05Z",
+            "title": "Why didn’t LaNorris Sellers walk on South Carolina football Senior Night? Shane Beamer butts in to explain",
+            "link": "https://sports.yahoo.com/articles/why-didn-t-lanorris-sellers-190505390.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-22T15:26:19Z",
-            "title": "Is Travis Kelce playing today? Injury update, status for Chiefs TE",
-            "link": "https://sports.yahoo.com/articles/travis-kelce-playing-today-injury-152619969.html",
+            "t": "2026-11-22T18:57:48Z",
+            "title": "Tony Adams downgraded to out due to illness",
+            "link": "https://sports.yahoo.com/articles/tony-adams-downgraded-due-illness-185748968.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-22T15:14:31Z",
-            "title": "NFL fines: 2 Texans, 1 Browns punished for Week 10 actions, includes ‘violent gesture’",
-            "link": "https://sports.yahoo.com/articles/nfl-fines-2-texans-1-151431887.html",
+            "t": "2026-11-22T18:21:15Z",
+            "title": "Bryce Young sacked for safety, Jacoby Brissett throws TD as Ravens lead Panthers 9-0",
+            "link": "https://sports.yahoo.com/articles/bryce-young-sacked-safety-jacoby-182115288.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-22T15:07:32Z",
-            "title": "What are UCLA&#39;s options at quarterback after Ty Dieffenbach&#39;s injury?",
-            "link": "https://sports.yahoo.com/articles/uclas-options-quarterback-ty-dieffenbachs-150732581.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-22T14:49:30Z",
-            "title": "Tennessee fans halt the game against LSU, reviving the 2021 scene with golf balls and mustard bottles at Lane Kiffin’s return",
-            "link": "https://sports.yahoo.com/articles/tennessee-fans-halt-game-against-144930031.html",
+            "t": "2026-11-22T17:53:11Z",
+            "title": "US LBM Coaches Poll: UCLA tumbles after Michigan football upset",
+            "link": "https://sports.yahoo.com/articles/us-lbm-coaches-poll-ucla-175311434.html",
             "source": "sports.yahoo.com",
             "tone": 1
           },
           {
-            "t": "2026-11-22T14:49:12Z",
-            "title": "Kirk Ferentz makes feelings on CFP committee clear after Iowa’s 34-17 win at Illinois",
-            "link": "https://sports.yahoo.com/articles/kirk-ferentz-makes-feelings-cfp-144912354.html",
+            "t": "2026-11-22T17:51:37Z",
+            "title": "Eagles vs. Steelers: Live score updates, highlights, injury news",
+            "link": "https://sports.yahoo.com/articles/eagles-vs-steelers-live-score-175137128.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-22T17:45:00Z",
+            "title": "Lions vs. Bucs: Live score updates, highlights, injury news",
+            "link": "https://sports.yahoo.com/articles/lions-vs-bucs-live-score-174500152.html",
             "source": "sports.yahoo.com",
             "tone": -1
           }
@@ -3181,17 +3176,6 @@
           "on": 0.0329,
           "off": 0.0227,
           "bets": 1
-        },
-        {
-          "id": "underdog",
-          "emoji": "🐶",
-          "title": "Underdog lover",
-          "effect": "Allows underdogs at odds up to 1.0 higher.",
-          "from": "Underdog hunter",
-          "since": "2026-11-22T19:15:31Z",
-          "on": 0.0278,
-          "off": 0.029,
-          "bets": 15
         }
       ],
       "mind": {
@@ -4452,8 +4436,8 @@
       "edge": 0.0159,
       "stake": 2.49,
       "status": "open",
-      "closing_fair_odds": null,
-      "clv": null,
+      "closing_fair_odds": 2.147,
+      "clv": 0.0013,
       "profit": 0.0,
       "score": null,
       "settled_at": null,
@@ -10938,10 +10922,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-22T15:30:49Z",
-      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.6% vs the market on those days)."
-    },
-    {
       "t": "2026-11-22T15:45:32Z",
       "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
     },
@@ -11056,6 +11036,10 @@
     {
       "t": "2026-11-22T19:15:31Z",
       "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
+    },
+    {
+      "t": "2026-11-22T19:30:45Z",
+      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.4% vs the market on those days)."
     }
   ]
 }
