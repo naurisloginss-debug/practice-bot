@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T04:15:34Z",
+  "updated": "2026-11-22T04:30:44Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -2432,10 +2432,10 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.015,
+        "min_edge": 0.02,
         "odds": [
           1.6,
-          5.0
+          4.0
         ],
         "stop_below": 250
       },
@@ -3110,15 +3110,15 @@
           "bets": 2
         },
         {
-          "id": "underdog",
-          "emoji": "🐶",
-          "title": "Underdog lover",
-          "effect": "Allows underdogs at odds up to 1.0 higher.",
-          "from": "Underdog hunter",
-          "since": "2026-11-22T04:15:34Z",
-          "on": 0.0278,
-          "off": 0.0303,
-          "bets": 15
+          "id": "precision",
+          "emoji": "🎯",
+          "title": "Precise",
+          "effect": "Always demands +0.5% more edge.",
+          "from": "Precision day",
+          "since": "2026-11-22T04:30:44Z",
+          "on": 0.032,
+          "off": 0.0287,
+          "bets": 2
         }
       ],
       "mind": {
@@ -10861,14 +10861,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-22T01:30:44Z",
-      "text": "Results:\n- Lost -2.40: Strasbourg (Winner) in Strasbourg vs Brest (Strasbourg 0 - 1 Brest)\n- Won +2.16: Under 2.5 (Total) in Lille vs Lyon (Lille 0 - 1 Lyon)\n- Lost -3.69: Draw (Winner) in Lille vs Lyon (Lille 0 - 1 Lyon)"
-    },
-    {
-      "t": "2026-11-22T01:30:44Z",
-      "text": "🏟️ 🧮 The Quant takes the lead in the Arena."
-    },
-    {
       "t": "2026-11-22T01:45:30Z",
       "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
     },
@@ -10979,6 +10971,14 @@
     {
       "t": "2026-11-22T04:15:34Z",
       "text": "Results:\n- Won +5.25: Draw (Winner) in Tenerife vs Mallorca (Tenerife 0 - 0 Mallorca)"
+    },
+    {
+      "t": "2026-11-22T04:30:44Z",
+      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
+    },
+    {
+      "t": "2026-11-22T04:30:44Z",
+      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.6% vs the market on those days)."
     }
   ]
 }
