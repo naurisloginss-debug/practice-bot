@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T04:00:54Z",
+  "updated": "2026-11-23T04:15:32Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -12,7 +12,7 @@
       "shark",
       "lizard"
     ],
-    "grower": "lizard",
+    "grower": null,
     "talk": [
       {
         "who": "quant",
@@ -30,7 +30,7 @@
     "chars": {
       "lizard": {
         "iq": 125,
-        "iq_gain": 1,
+        "iq_gain": 0,
         "streak": 1,
         "best_streak": 8,
         "achievements": [
@@ -509,8 +509,8 @@
           "cautious": 0.0222,
           "beat": 0.7188,
           "challenges": 0.7,
-          "traits": 3,
-          "score": 36.06
+          "traits": 4,
+          "score": 38.06
         },
         {
           "who": "lizard",
@@ -545,7 +545,7 @@
       "leader": "shark"
     }
   },
-  "credits_left": 17787,
+  "credits_left": 17785,
   "last_scan": "2026-11-23@1",
   "strategies": {
     "lizard": {
@@ -590,7 +590,7 @@
         "Total"
       ],
       "start_fund": 500,
-      "fund": 487.96,
+      "fund": 490.82,
       "lessons": [
         {
           "kind": "avoid",
@@ -604,12 +604,12 @@
         }
       ],
       "bets": 90,
-      "open": 18,
-      "won": 21,
+      "open": 17,
+      "won": 22,
       "lost": 51,
-      "staked": 172.39,
-      "profit": -12.04,
-      "roi": -0.0698,
+      "staked": 174.88,
+      "profit": -9.18,
+      "roi": -0.0525,
       "avg_edge": 0.03,
       "avg_clv": 0.0034,
       "beat_close": 0.6479,
@@ -906,6 +906,10 @@
         {
           "t": "2026-11-23T04:00:54Z",
           "fund": 487.96
+        },
+        {
+          "t": "2026-11-23T04:15:32Z",
+          "fund": 490.82
         }
       ],
       "by_league": [
@@ -957,8 +961,8 @@
         {
           "name": "La Liga 2 (Spain 2)",
           "bets": 12,
-          "profit": -5.87,
-          "roi": -0.1697,
+          "profit": -3.01,
+          "roi": -0.0812,
           "avg_clv": 0.0072,
           "beat_close": 0.75,
           "clv_count": 12
@@ -1040,8 +1044,8 @@
         {
           "name": "Winner",
           "bets": 80,
-          "profit": -11.49,
-          "roi": -0.0777,
+          "profit": -8.63,
+          "roi": -0.0574,
           "avg_clv": 0.0018,
           "beat_close": 0.6364,
           "clv_count": 66
@@ -1060,8 +1064,8 @@
         {
           "name": "Football",
           "bets": 90,
-          "profit": -12.04,
-          "roi": -0.0698,
+          "profit": -9.18,
+          "roi": -0.0525,
           "avg_clv": 0.0034,
           "beat_close": 0.6479,
           "clv_count": 71
@@ -2516,7 +2520,7 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.015,
+        "min_edge": 0.02,
         "odds": [
           1.6,
           3.0
@@ -3306,6 +3310,17 @@
           "on": 0.0329,
           "off": 0.0239,
           "bets": 1
+        },
+        {
+          "id": "precision",
+          "emoji": "🎯",
+          "title": "Precise",
+          "effect": "Always demands +0.5% more edge.",
+          "from": "Precision day",
+          "since": "2026-11-23T04:15:32Z",
+          "on": 0.032,
+          "off": 0.0278,
+          "bets": 2
         }
       ],
       "mind": {
@@ -5179,12 +5194,12 @@
       "fair_odds": 2.116,
       "edge": 0.0159,
       "stake": 2.49,
-      "status": "open",
+      "status": "won",
       "closing_fair_odds": 2.147,
       "clv": 0.0013,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": 2.86,
+      "score": "Burgos CF 1 - 0 Albacete",
+      "settled_at": "2026-11-23T04:15:32Z",
       "thoughts": [
         "🧭 Exploring. I've only made 5 bets like this (La Liga 2 (Spain 2) winner bets at middle odds).",
         "Burgos CF at 2.15 is +1.59% above fair: below my usual bar, but the only way to learn if this kind of bet works for me is to try it.",
@@ -11056,14 +11071,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-23T00:01:07Z",
-      "text": "🏟️ 🧮 The Quant takes the lead in the Arena."
-    },
-    {
-      "t": "2026-11-23T00:15:32Z",
-      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
-    },
-    {
       "t": "2026-11-23T00:15:32Z",
       "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
     },
@@ -11174,6 +11181,14 @@
     {
       "t": "2026-11-23T04:00:54Z",
       "text": "Results:\n- Lost -2.44: Under 2 (Total) in Instituto de Córdoba vs Atlético Huracán (Instituto de Córdoba 2 - 1 Atlético Huracán)\n- Lost -2.44: Vasco da Gama (Winner) in Bragantino-SP vs Vasco da Gama (Bragantino-SP 1 - 0 Vasco da Gama)"
+    },
+    {
+      "t": "2026-11-23T04:15:32Z",
+      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
+    },
+    {
+      "t": "2026-11-23T04:15:32Z",
+      "text": "Results:\n- Won +2.86: Burgos CF (Winner) in Burgos CF vs Albacete (Burgos CF 1 - 0 Albacete)"
     }
   ]
 }
