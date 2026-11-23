@@ -1,6 +1,6 @@
 {
   "last_scan": "2026-11-23@17",
-  "credits_left": 17582,
+  "credits_left": 17581,
   "league_names": {
     "soccer_italy_serie_b": "Serie B (Italy 2)",
     "soccer_efl_champ": "Championship (England 2)",
@@ -50,14 +50,6 @@
     "americanfootball_ncaaf_fcs": "2026-11-22T08:30:53Z"
   },
   "log": [
-    {
-      "t": "2026-11-23T16:00:59Z",
-      "text": "🧬 🧮 The Quant made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-23 and its bets beat the market by +4.4%. Always demands +0.5% more edge."
-    },
-    {
-      "t": "2026-11-23T16:00:59Z",
-      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
-    },
     {
       "t": "2026-11-23T16:15:35Z",
       "text": "🧬 🧮 The Quant dropped the 🎯 Precise trait: it stopped working (-0.0% vs the market on those days)."
@@ -169,6 +161,14 @@
     {
       "t": "2026-11-23T19:00:57Z",
       "text": "Results:\n- Lost -4.62: Appalachian St Mountaineers (Winner) in Appalachian St Mountaineers vs St. Bonaventure Bonnies (Appalachian St Mountaineers 65 - 71 St. Bonaventure Bonnies)"
+    },
+    {
+      "t": "2026-11-23T19:15:43Z",
+      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-23T19:15:43Z",
+      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
     }
   ],
   "levels": {
@@ -2863,11 +2863,11 @@
         "off": 0.0239,
         "bets": 1
       },
-      "precision": {
-        "since": "2026-11-23T19:00:57Z",
-        "on": 0.032,
-        "off": 0.0278,
-        "bets": 2
+      "underdog": {
+        "since": "2026-11-23T19:15:43Z",
+        "on": 0.0278,
+        "off": 0.029,
+        "bets": 15
       }
     }
   },
