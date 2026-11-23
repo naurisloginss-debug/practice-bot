@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T02:45:31Z",
+  "updated": "2026-11-23T03:00:57Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -545,7 +545,7 @@
       "leader": "shark"
     }
   },
-  "credits_left": 17793,
+  "credits_left": 17791,
   "last_scan": "2026-11-23@1",
   "strategies": {
     "lizard": {
@@ -2508,7 +2508,7 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.02,
+        "min_edge": 0.015,
         "odds": [
           1.6,
           3.0
@@ -2525,7 +2525,7 @@
         "Winner"
       ],
       "start_fund": 500,
-      "fund": 469.93,
+      "fund": 484.49,
       "lessons": [
         {
           "kind": "favour",
@@ -2539,12 +2539,12 @@
         }
       ],
       "bets": 103,
-      "open": 23,
-      "won": 23,
-      "lost": 57,
-      "staked": 196.34,
-      "profit": -30.07,
-      "roi": -0.1532,
+      "open": 13,
+      "won": 29,
+      "lost": 61,
+      "staked": 226.39,
+      "profit": -15.51,
+      "roi": -0.0685,
       "avg_edge": 0.0277,
       "avg_clv": 0.0185,
       "beat_close": 0.557,
@@ -2873,6 +2873,46 @@
         {
           "t": "2026-11-22T21:00:55Z",
           "fund": 469.93
+        },
+        {
+          "t": "2026-11-23T03:00:57Z",
+          "fund": 467.44
+        },
+        {
+          "t": "2026-11-23T03:00:57Z",
+          "fund": 471.42
+        },
+        {
+          "t": "2026-11-23T03:00:57Z",
+          "fund": 473.69
+        },
+        {
+          "t": "2026-11-23T03:00:57Z",
+          "fund": 479.49
+        },
+        {
+          "t": "2026-11-23T03:00:57Z",
+          "fund": 486.08
+        },
+        {
+          "t": "2026-11-23T03:00:57Z",
+          "fund": 488.49
+        },
+        {
+          "t": "2026-11-23T03:00:57Z",
+          "fund": 487.28
+        },
+        {
+          "t": "2026-11-23T03:00:57Z",
+          "fund": 484.93
+        },
+        {
+          "t": "2026-11-23T03:00:57Z",
+          "fund": 482.08
+        },
+        {
+          "t": "2026-11-23T03:00:57Z",
+          "fund": 484.49
         }
       ],
       "by_league": [
@@ -2888,8 +2928,8 @@
         {
           "name": "NFL",
           "bets": 32,
-          "profit": -12.01,
-          "roi": -0.2943,
+          "profit": 2.55,
+          "roi": 0.036,
           "avg_clv": 0.0317,
           "beat_close": 0.5417,
           "clv_count": 24
@@ -2908,8 +2948,8 @@
         {
           "name": "Winner",
           "bets": 76,
-          "profit": -2.59,
-          "roi": -0.018,
+          "profit": 4.88,
+          "roi": 0.0293,
           "avg_clv": 0.0208,
           "beat_close": 0.5735,
           "clv_count": 68
@@ -2917,8 +2957,8 @@
         {
           "name": "Spread",
           "bets": 19,
-          "profit": -22.69,
-          "roi": -0.5951,
+          "profit": -17.87,
+          "roi": -0.4161,
           "avg_clv": 0.008,
           "beat_close": 0.375,
           "clv_count": 8
@@ -2926,8 +2966,8 @@
         {
           "name": "Total",
           "bets": 8,
-          "profit": -4.79,
-          "roi": -0.3317,
+          "profit": -2.52,
+          "roi": -0.149,
           "avg_clv": -0.0048,
           "beat_close": 0.6667,
           "clv_count": 3
@@ -2937,8 +2977,8 @@
         {
           "name": "American football",
           "bets": 103,
-          "profit": -30.07,
-          "roi": -0.1532,
+          "profit": -15.51,
+          "roi": -0.0685,
           "avg_clv": 0.0185,
           "beat_close": 0.557,
           "clv_count": 79
@@ -2951,15 +2991,15 @@
         "beat": 0.4167,
         "trust": 0.691,
         "base": 0.65,
-        "won": 4,
-        "lost": 7,
-        "profit": -6.97
+        "won": 6,
+        "lost": 8,
+        "profit": 0.32
       },
       "wild": {
         "bets": 16,
         "won": 2,
-        "lost": 13,
-        "profit": 1.38,
+        "lost": 14,
+        "profit": 0.17,
         "best": 10.5,
         "avg_clv": 0.0197,
         "appetite": 0.6
@@ -2967,8 +3007,8 @@
       "pounce": {
         "bets": 1,
         "won": 0,
-        "lost": 0,
-        "profit": 0,
+        "lost": 1,
+        "profit": -2.85,
         "avg_clv": -0.0892,
         "measured": 1
       },
@@ -3260,15 +3300,15 @@
           "bets": 1
         },
         {
-          "id": "precision",
-          "emoji": "🎯",
-          "title": "Precise",
-          "effect": "Always demands +0.5% more edge.",
-          "from": "Precision day",
-          "since": "2026-11-23T02:45:31Z",
-          "on": 0.032,
-          "off": 0.0278,
-          "bets": 2
+          "id": "underdog",
+          "emoji": "🐶",
+          "title": "Underdog lover",
+          "effect": "Allows underdogs at odds up to 1.0 higher.",
+          "from": "Underdog hunter",
+          "since": "2026-11-23T03:00:57Z",
+          "on": 0.0278,
+          "off": 0.029,
+          "bets": 15
         }
       ],
       "mind": {
@@ -3388,7 +3428,7 @@
         ],
         "rules": 0,
         "studied": 306,
-        "resolved": 222
+        "resolved": 231
       }
     }
   },
@@ -4986,12 +5026,12 @@
       "fair_odds": 3.355,
       "edge": -0.0015,
       "stake": 2.47,
-      "status": "open",
+      "status": "won",
       "closing_fair_odds": 3.507,
       "clv": -0.0449,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": 5.8,
+      "score": "New York Giants 23 - 18 Jacksonville Jaguars",
+      "settled_at": "2026-11-23T03:00:57Z",
       "thoughts": [
         "I read that Jacksonville Jaguars have trouble: “No major injury issues for Giants as they open practice for game vs. Jaguars”. The price on New York Giants may not have caught up yet.",
         "My rules say no. I smell it before I can prove it. Biting.",
@@ -5025,12 +5065,12 @@
       "fair_odds": 1.985,
       "edge": 0.0075,
       "stake": 2.41,
-      "status": "open",
+      "status": "won",
       "closing_fair_odds": null,
       "clv": null,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": 2.41,
+      "score": "Denver Broncos 38 - 24 Las Vegas Raiders",
+      "settled_at": "2026-11-23T03:00:57Z",
       "thoughts": [
         "🧭 Exploring. I've only made 4 bets like this (NFL spread bets at middle odds).",
         "Denver Broncos -10.5 at 2.02 is +0.75% above fair: below my usual bar, but the only way to learn if this kind of bet works for me is to try it.",
@@ -5064,12 +5104,12 @@
       "fair_odds": 2.595,
       "edge": 0.002,
       "stake": 2.49,
-      "status": "open",
+      "status": "won",
       "closing_fair_odds": 2.562,
       "clv": 0.0146,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": 3.98,
+      "score": "Los Angeles Chargers 24 - 27 New York Jets",
+      "settled_at": "2026-11-23T03:00:57Z",
       "thoughts": [
         "I read that Los Angeles Chargers have trouble: “Report: Tests showed no major injury for Geno Smith”. The price on New York Jets may not have caught up yet.",
         "My rules say no. I smell it before I can prove it. Biting.",
@@ -5255,12 +5295,12 @@
       "fair_odds": 3.449,
       "edge": 0.0146,
       "stake": 2.49,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 2.847,
       "clv": 0.2292,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -2.49,
+      "score": "Detroit Lions 31 - 21 Tampa Bay Buccaneers",
+      "settled_at": "2026-11-23T03:00:57Z",
       "thoughts": [
         "I read that Detroit Lions have trouble: “Lions&#39; Aidan Hutchinson confirmed to have torn ACL, ending his 2026 season”. The price on Tampa Bay Buccaneers may not have caught up yet.",
         "My rules say no. I smell it before I can prove it. Biting.",
@@ -5333,12 +5373,12 @@
       "fair_odds": 1.893,
       "edge": 0.0144,
       "stake": 2.47,
-      "status": "open",
+      "status": "won",
       "closing_fair_odds": null,
       "clv": null,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": 2.27,
+      "score": "Philadelphia Eagles 19 - 16 Pittsburgh Steelers",
+      "settled_at": "2026-11-23T03:00:57Z",
       "thoughts": [
         "🧭 Exploring. I've only made 0 bets like this (NFL total bets at favourites).",
         "Under 38.5 at 1.92 is +1.44% above fair: below my usual bar, but the only way to learn if this kind of bet works for me is to try it.",
@@ -5371,12 +5411,12 @@
       "fair_odds": 1.702,
       "edge": 0.0223,
       "stake": 8.9,
-      "status": "open",
+      "status": "won",
       "closing_fair_odds": 1.795,
       "clv": -0.0309,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": 6.59,
+      "score": "Carolina Panthers 35 - 33 Baltimore Ravens",
+      "settled_at": "2026-11-23T03:00:57Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates Carolina Panthers at 58.8%. That makes the fair price 1.70.",
         "Marathon Bet pays 1.74. That is +2.2% above fair. My bar is +1.5%.",
@@ -5411,12 +5451,12 @@
       "fair_odds": 1.985,
       "edge": 0.0075,
       "stake": 2.41,
-      "status": "open",
+      "status": "won",
       "closing_fair_odds": 2.091,
       "clv": -0.0437,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": 2.41,
+      "score": "Dallas Cowboys 51 - 30 Tennessee Titans",
+      "settled_at": "2026-11-23T03:00:57Z",
       "thoughts": [
         "🧭 Exploring. I've only made 3 bets like this (NFL spread bets at middle odds).",
         "Dallas Cowboys -8 at 2.02 is +0.75% above fair: below my usual bar, but the only way to learn if this kind of bet works for me is to try it.",
@@ -5450,12 +5490,12 @@
       "fair_odds": 10.15,
       "edge": 0.1606,
       "stake": 1.21,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 10.148,
       "clv": 0.1608,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -1.21,
+      "score": "Buffalo Bills 26 - 9 Miami Dolphins",
+      "settled_at": "2026-11-23T03:00:57Z",
       "thoughts": [
         "Wild one: Miami Dolphins at 12.00. The market gives it 10%.",
         "Big fish, long line. Let's see if it bites.",
@@ -5488,12 +5528,12 @@
       "fair_odds": 4.126,
       "edge": 0.0262,
       "stake": 2.35,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 3.969,
       "clv": 0.0667,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -2.35,
+      "score": "Dallas Cowboys 51 - 30 Tennessee Titans",
+      "settled_at": "2026-11-23T03:00:57Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates Tennessee Titans at 24.2%. That makes the fair price 4.13.",
         "Matchbook pays 4.30 (4.23 after the exchange fee). That is +2.6% above fair. My bar is +1.5%.",
@@ -5528,12 +5568,12 @@
       "fair_odds": 5.624,
       "edge": 0.1024,
       "stake": 2.85,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 6.807,
       "clv": -0.0892,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -2.85,
+      "score": "Chicago Bears 21 - 13 New Orleans Saints",
+      "settled_at": "2026-11-23T03:00:57Z",
       "thoughts": [
         "⚡ Tipico pays 6.20 for New Orleans Saints. Fair is 5.62: +10.2%. That's huge.",
         "Either they're slow to update, or I'm missing something. I'll pounce carefully and let the final price tell me.",
@@ -11020,18 +11060,6 @@
   "log": [
     {
       "t": "2026-11-23T00:01:07Z",
-      "text": "🧭 🦈 The Shark moved on from NCAAF FCS (not enough bets to judge)."
-    },
-    {
-      "t": "2026-11-23T00:01:07Z",
-      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
-    },
-    {
-      "t": "2026-11-23T00:01:07Z",
-      "text": "🎯 🦎 The Lizard's challenge today: 🦅 Sharp eye. Find a +3% edge that holds up against the market."
-    },
-    {
-      "t": "2026-11-23T00:01:07Z",
       "text": "❌ 🧮 The Quant missed 🗺️ New ground: No bet of that type today."
     },
     {
@@ -11137,6 +11165,18 @@
     {
       "t": "2026-11-23T02:45:31Z",
       "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
+    },
+    {
+      "t": "2026-11-23T03:00:57Z",
+      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-23T03:00:57Z",
+      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
+    },
+    {
+      "t": "2026-11-23T03:00:57Z",
+      "text": "Results:\n- Lost -2.49: Tampa Bay Buccaneers (Winner) in Detroit Lions vs Tampa Bay Buccaneers (Detroit Lions 31 - 21 Tampa Bay Buccaneers)\n- Won +3.98: New York Jets (Winner) in Los Angeles Chargers vs New York Jets (Los Angeles Chargers 24 - 27 New York Jets)\n- Won +2.27: Under 38.5 (Total) in Philadelphia Eagles vs Pittsburgh Steelers (Philadelphia Eagles 19 - 16 Pittsburgh Steelers)\n- Won +5.80: New York Giants (Winner) in New York Giants vs Jacksonville Jaguars (New York Giants 23 - 18 Jacksonville Jaguars)\n- Won +6.59: Carolina Panthers (Winner) in Carolina Panthers vs Baltimore Ravens (Carolina Panthers 35 - 33 Baltimore Ravens)\n- Won +2.41: Dallas Cowboys -8 (Spread) in Dallas Cowboys vs Tennessee Titans (Dallas Cowboys 51 - 30 Tennessee Titans)\n- Lost -1.21: Miami Dolphins (Winner) in Buffalo Bills vs Miami Dolphins (Buffalo Bills 26 - 9 Miami Dolphins)\n- Lost -2.35: Tennessee Titans (Winner) in Dallas Cowboys vs Tennessee Titans (Dallas Cowboys 51 - 30 Tennessee Titans)\n- Lost -2.85: New Orleans Saints (Winner) in Chicago Bears vs New Orleans Saints (Chicago Bears 21 - 13 New Orleans Saints)\n- Won +2.41: Denver Broncos -10.5 (Spread) in Denver Broncos vs Las Vegas Raiders (Denver Broncos 38 - 24 Las Vegas Raiders)"
     }
   ]
 }
