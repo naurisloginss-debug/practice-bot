@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T02:00:54Z",
+  "updated": "2026-11-23T02:15:31Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -545,7 +545,7 @@
       "leader": "shark"
     }
   },
-  "credits_left": 17797,
+  "credits_left": 17793,
   "last_scan": "2026-11-23@1",
   "strategies": {
     "lizard": {
@@ -590,7 +590,7 @@
         "Total"
       ],
       "start_fund": 500,
-      "fund": 495.41,
+      "fund": 492.84,
       "lessons": [
         {
           "kind": "avoid",
@@ -604,12 +604,12 @@
         }
       ],
       "bets": 90,
-      "open": 21,
+      "open": 20,
       "won": 21,
-      "lost": 48,
-      "staked": 164.94,
-      "profit": -4.59,
-      "roi": -0.0278,
+      "lost": 49,
+      "staked": 167.51,
+      "profit": -7.16,
+      "roi": -0.0427,
       "avg_edge": 0.03,
       "avg_clv": 0.0034,
       "beat_close": 0.6479,
@@ -894,6 +894,10 @@
         {
           "t": "2026-11-22T23:00:57Z",
           "fund": 495.41
+        },
+        {
+          "t": "2026-11-23T02:15:31Z",
+          "fund": 492.84
         }
       ],
       "by_league": [
@@ -999,8 +1003,8 @@
         {
           "name": "Liga MX",
           "bets": 4,
-          "profit": 14.46,
-          "roi": 1.2444,
+          "profit": 11.89,
+          "roi": 0.8379,
           "avg_clv": -0.037,
           "beat_close": 0.6667,
           "clv_count": 3
@@ -1028,8 +1032,8 @@
         {
           "name": "Winner",
           "bets": 80,
-          "profit": -6.48,
-          "roi": -0.0454,
+          "profit": -9.05,
+          "roi": -0.0622,
           "avg_clv": 0.0018,
           "beat_close": 0.6364,
           "clv_count": 66
@@ -1048,8 +1052,8 @@
         {
           "name": "Football",
           "bets": 90,
-          "profit": -4.59,
-          "roi": -0.0278,
+          "profit": -7.16,
+          "roi": -0.0427,
           "avg_clv": 0.0034,
           "beat_close": 0.6479,
           "clv_count": 71
@@ -1063,8 +1067,8 @@
         "trust": 0.1,
         "base": 0.45,
         "won": 4,
-        "lost": 2,
-        "profit": 7.09
+        "lost": 3,
+        "profit": 4.52
       },
       "wild": {
         "bets": 5,
@@ -1570,15 +1574,15 @@
         "Winner"
       ],
       "start_fund": 500,
-      "fund": 457.19,
+      "fund": 467.7,
       "lessons": [],
       "bets": 99,
-      "open": 10,
-      "won": 35,
+      "open": 7,
+      "won": 38,
       "lost": 54,
-      "staked": 594.17,
-      "profit": -42.81,
-      "roi": -0.0721,
+      "staked": 602.59,
+      "profit": -32.3,
+      "roi": -0.0536,
       "avg_edge": 0.0317,
       "avg_clv": 0.0077,
       "beat_close": 0.525,
@@ -1943,6 +1947,18 @@
         {
           "t": "2026-11-22T23:45:30Z",
           "fund": 457.19
+        },
+        {
+          "t": "2026-11-23T02:15:31Z",
+          "fund": 458.98
+        },
+        {
+          "t": "2026-11-23T02:15:31Z",
+          "fund": 461.47
+        },
+        {
+          "t": "2026-11-23T02:15:31Z",
+          "fund": 467.7
         }
       ],
       "by_league": [
@@ -1967,8 +1983,8 @@
         {
           "name": "College basketball (US)",
           "bets": 67,
-          "profit": -3.6,
-          "roi": -0.0068,
+          "profit": 6.91,
+          "roi": 0.0129,
           "avg_clv": 0.0055,
           "beat_close": 0.4792,
           "clv_count": 48
@@ -1987,8 +2003,8 @@
         {
           "name": "Winner",
           "bets": 67,
-          "profit": -36.47,
-          "roi": -0.2566,
+          "profit": -25.96,
+          "roi": -0.1724,
           "avg_clv": 0.0124,
           "beat_close": 0.5606,
           "clv_count": 66
@@ -2007,8 +2023,8 @@
         {
           "name": "Basketball",
           "bets": 99,
-          "profit": -42.81,
-          "roi": -0.0721,
+          "profit": -32.3,
+          "roi": -0.0536,
           "avg_clv": 0.0077,
           "beat_close": 0.525,
           "clv_count": 80
@@ -2021,9 +2037,9 @@
         "beat": 0.5833,
         "trust": 0.75,
         "base": 0.4,
-        "won": 2,
+        "won": 4,
         "lost": 8,
-        "profit": -12.99
+        "profit": -8.71
       },
       "wild": {
         "bets": 5,
@@ -2303,7 +2319,7 @@
           "from": "Discipline day",
           "since": "2026-11-21T07:21:41Z",
           "on": 0.0129,
-          "off": 0.0055,
+          "off": 0.0056,
           "bets": 6
         },
         {
@@ -2314,7 +2330,7 @@
           "from": "Underdog hunter",
           "since": "2026-11-21T07:21:41Z",
           "on": 0.016,
-          "off": 0.0046,
+          "off": 0.0047,
           "bets": 9
         }
       ],
@@ -2413,10 +2429,10 @@
           },
           {
             "conf": "solid",
-            "n": 529,
+            "n": 556,
             "z": 0,
             "text": "The market prices overs in College basketball (US) accurately.",
-            "detail": "49% happened, 50% priced, 529 games"
+            "detail": "50% happened, 50% priced, 556 games"
           },
           {
             "conf": "solid",
@@ -2427,17 +2443,17 @@
           },
           {
             "conf": "solid",
-            "n": 382,
+            "n": 404,
             "z": 0,
             "text": "The market prices home wins in College basketball (US) accurately.",
-            "detail": "59% happened, 61% priced, 382 games"
+            "detail": "59% happened, 60% priced, 404 games"
           },
           {
             "conf": "solid",
-            "n": 382,
+            "n": 404,
             "z": 0,
             "text": "The market prices away wins in College basketball (US) accurately.",
-            "detail": "41% happened, 39% priced, 382 games"
+            "detail": "41% happened, 40% priced, 404 games"
           },
           {
             "conf": "solid",
@@ -2477,7 +2493,7 @@
         ],
         "rules": 0,
         "studied": 736,
-        "resolved": 688
+        "resolved": 715
       }
     },
     "shark": {
@@ -2492,7 +2508,7 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.02,
+        "min_edge": 0.015,
         "odds": [
           1.6,
           3.0
@@ -3244,15 +3260,15 @@
           "bets": 1
         },
         {
-          "id": "precision",
-          "emoji": "🎯",
-          "title": "Precise",
-          "effect": "Always demands +0.5% more edge.",
-          "from": "Precision day",
-          "since": "2026-11-23T02:00:54Z",
-          "on": 0.032,
-          "off": 0.0278,
-          "bets": 2
+          "id": "underdog",
+          "emoji": "🐶",
+          "title": "Underdog lover",
+          "effect": "Allows underdogs at odds up to 1.0 higher.",
+          "from": "Underdog hunter",
+          "since": "2026-11-23T02:15:31Z",
+          "on": 0.0278,
+          "off": 0.029,
+          "bets": 15
         }
       ],
       "mind": {
@@ -4859,12 +4875,12 @@
       "fair_odds": 2.873,
       "edge": 0.0095,
       "stake": 2.57,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 3.441,
       "clv": -0.1573,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -2.57,
+      "score": "Guadalajara 1 - 0 Cruz Azul",
+      "settled_at": "2026-11-23T02:15:31Z",
       "thoughts": [
         "Only +0.95% edge, just under my +2.0% bar. Can't prove it, but I like it.",
         "My rules say no. But something in the grass is moving. I'm taking a nibble.",
@@ -4933,12 +4949,12 @@
       "fair_odds": 2.081,
       "edge": -0.0005,
       "stake": 2.31,
-      "status": "open",
+      "status": "won",
       "closing_fair_odds": 2.0,
       "clv": 0.04,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": 2.49,
+      "score": "Richmond Spiders 92 - 88 Liberty Flames",
+      "settled_at": "2026-11-23T02:15:31Z",
       "thoughts": [
         "The sharp money is moving to Richmond Spiders: its chance went from 45% to 48% since I first looked.",
         "My rules say no. The model says no. The 2% of me that isn't a model says try it.",
@@ -5163,12 +5179,12 @@
       "fair_odds": 1.758,
       "edge": 0.0126,
       "stake": 2.29,
-      "status": "open",
+      "status": "won",
       "closing_fair_odds": 1.736,
       "clv": 0.0255,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": 1.79,
+      "score": "Youngstown St Penguins 63 - 75 William & Mary Tribe",
+      "settled_at": "2026-11-23T02:15:31Z",
       "thoughts": [
         "Only +1.26% edge, just under my +1.5% bar. Can't prove it, but I like it.",
         "My rules say no. The model says no. The 2% of me that isn't a model says try it.",
@@ -5199,12 +5215,12 @@
       "fair_odds": 2.535,
       "edge": 0.0376,
       "stake": 3.82,
-      "status": "open",
+      "status": "won",
       "closing_fair_odds": 2.535,
       "clv": 0.0376,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": 6.23,
+      "score": "GW Revolutionaries 78 - 86 Western Kentucky Hilltoppers",
+      "settled_at": "2026-11-23T02:15:31Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates Western Kentucky Hilltoppers at 39.5%. That makes the fair price 2.54.",
         "Unibet (NL) pays 2.63. That is +3.8% above fair. My bar is +1.5%.",
@@ -11003,18 +11019,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-22T23:45:30Z",
-      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.4% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-22T23:45:30Z",
-      "text": "Results:\n- Lost -2.25: Detroit Pistons (Winner) in Atlanta Hawks vs Detroit Pistons (Atlanta Hawks 107 - 97 Detroit Pistons)"
-    },
-    {
-      "t": "2026-11-23T00:01:07Z",
-      "text": "🧭 🦎 The Lizard moved on from Liga MX (not enough bets to judge)."
-    },
-    {
       "t": "2026-11-23T00:01:07Z",
       "text": "🧭 🦎 The Lizard is exploring Bundesliga - Germany this week."
     },
@@ -11121,6 +11125,18 @@
     {
       "t": "2026-11-23T02:00:54Z",
       "text": "🏅 🧮 The Quant unlocked 🔥 On Fire: Beat the market 5 bets in a row."
+    },
+    {
+      "t": "2026-11-23T02:15:31Z",
+      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-23T02:15:31Z",
+      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
+    },
+    {
+      "t": "2026-11-23T02:15:31Z",
+      "text": "Results:\n- Lost -2.57: Cruz Azul (Winner) in Guadalajara vs Cruz Azul (Guadalajara 1 - 0 Cruz Azul)\n- Won +1.79: William & Mary Tribe (Winner) in Youngstown St Penguins vs William & Mary Tribe (Youngstown St Penguins 63 - 75 William & Mary Tribe)\n- Won +2.49: Richmond Spiders (Winner) in Richmond Spiders vs Liberty Flames (Richmond Spiders 92 - 88 Liberty Flames)\n- Won +6.23: Western Kentucky Hilltoppers (Winner) in GW Revolutionaries vs Western Kentucky Hilltoppers (GW Revolutionaries 78 - 86 Western Kentucky Hilltoppers)"
     }
   ]
 }
