@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T16:30:48Z",
+  "updated": "2026-11-23T16:45:38Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -12,7 +12,7 @@
       "shark",
       "lizard"
     ],
-    "grower": null,
+    "grower": "lizard",
     "talk": [
       {
         "who": "quant",
@@ -29,8 +29,8 @@
     ],
     "chars": {
       "lizard": {
-        "iq": 124,
-        "iq_gain": 0,
+        "iq": 125,
+        "iq_gain": 1,
         "streak": 1,
         "best_streak": 8,
         "achievements": [
@@ -152,7 +152,7 @@
             "pending": true
           }
         ],
-        "score": 178,
+        "score": 179,
         "trophies": [
           {
             "kind": "sharpshooter",
@@ -509,20 +509,8 @@
           "cautious": 0.0222,
           "beat": 0.7188,
           "challenges": 0.7,
-          "traits": 3,
-          "score": 36.06
-        },
-        {
-          "who": "quant",
-          "eligible": true,
-          "measured": 49,
-          "need": 0,
-          "clv": 0.0059,
-          "cautious": -0.0035,
-          "beat": 0.5306,
-          "challenges": 0.545,
-          "traits": 3,
-          "score": 5.89
+          "traits": 4,
+          "score": 38.06
         },
         {
           "who": "lizard",
@@ -535,12 +523,24 @@
           "challenges": 0.3,
           "traits": 2,
           "score": 5.61
+        },
+        {
+          "who": "quant",
+          "eligible": true,
+          "measured": 49,
+          "need": 0,
+          "clv": 0.0059,
+          "cautious": -0.0035,
+          "beat": 0.5306,
+          "challenges": 0.545,
+          "traits": 2,
+          "score": 3.89
         }
       ],
       "ranking": [
         "shark",
-        "quant",
-        "lizard"
+        "lizard",
+        "quant"
       ],
       "leader": "shark"
     }
@@ -1108,8 +1108,36 @@
         "measured": 2
       },
       "reading": {
-        "week": 85,
+        "week": 119,
         "latest": [
+          {
+            "t": "2026-11-23T16:19:23Z",
+            "title": "Murphy's 'long road' to Pompey return after 336 days",
+            "link": "https://www.bbc.co.uk/sport/football/articles/ck3rgpv0d8pvo?at_medium=RSS&at_campaign=rss",
+            "source": "feeds.bbci.co.uk",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-23T15:33:49Z",
+            "title": "Three Italians ruled out for several months with serious injuries after Serie A Week 12",
+            "link": "https://football-italia.net/three-italians-ruled-out-months-serie-a-wk-12/",
+            "source": "football-italia.net",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-23T15:23:09Z",
+            "title": "Raya to miss Dortmund game but injury 'not serious'",
+            "link": "https://www.bbc.co.uk/sport/football/articles/cjx2rqpr7l9lo?at_medium=RSS&at_campaign=rss",
+            "source": "feeds.bbci.co.uk",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-23T13:52:36Z",
+            "title": "Official: Carnesecchi to undergo knee surgery",
+            "link": "https://football-italia.net/official-carnesecchi-to-undergo-knee-surgery/",
+            "source": "football-italia.net",
+            "tone": -1
+          },
           {
             "t": "2026-11-23T12:59:52Z",
             "title": "Wrexham could spell end of Skubala's short tenure",
@@ -1123,34 +1151,6 @@
             "link": "https://www.bbc.co.uk/sport/football/articles/cq23jmmn4grdo?at_medium=RSS&at_campaign=rss",
             "source": "feeds.bbci.co.uk",
             "tone": -1
-          },
-          {
-            "t": "2026-11-23T11:35:50Z",
-            "title": "Mustaki out of World Cup play-off with knee injury",
-            "link": "https://www.bbc.co.uk/sport/football/articles/cw33g15zeemro?at_medium=RSS&at_campaign=rss",
-            "source": "feeds.bbci.co.uk",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-23T08:44:53Z",
-            "title": "Holloway sacked by Swindon after two seasons",
-            "link": "https://www.bbc.co.uk/sport/football/articles/c5yrg1r6ezno?at_medium=RSS&at_campaign=rss",
-            "source": "feeds.bbci.co.uk",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-22T17:54:36Z",
-            "title": "Spurs deny Man City top spot with statement win",
-            "link": "https://www.bbc.co.uk/sport/football/videos/c9vg2112evvdo?at_medium=RSS&at_campaign=rss",
-            "source": "feeds.bbci.co.uk",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-22T17:54:32Z",
-            "title": "Man Utd score dramatic late winner to extend record run",
-            "link": "https://www.bbc.co.uk/sport/football/videos/cm0rkzzyl2ego?at_medium=RSS&at_campaign=rss",
-            "source": "feeds.bbci.co.uk",
-            "tone": 1
           }
         ]
       },
@@ -1389,8 +1389,8 @@
         }
       ],
       "mind": {
-        "iq": 124,
-        "iq_week": 18,
+        "iq": 125,
+        "iq_week": 19,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -1470,7 +1470,7 @@
           },
           {
             "d": "2026-11-23",
-            "iq": 124
+            "iq": 125
           }
         ],
         "facts": [
@@ -1576,7 +1576,7 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.02,
+        "min_edge": 0.015,
         "odds": [
           1.6,
           4.5
@@ -2103,12 +2103,40 @@
         "measured": 0
       },
       "reading": {
-        "week": 111,
+        "week": 106,
         "latest": [
+          {
+            "t": "2026-11-23T16:30:00Z",
+            "title": "Cavs at Bulls: How to watch, odds, and injury report",
+            "link": "https://sports.yahoo.com/articles/cavs-bulls-watch-odds-injury-163000130.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-23T15:23:44Z",
+            "title": "Fantasy Basketball Waiver Wire Week 6: Charles Bassey, Julian Champagnie filling in for injured stars",
+            "link": "https://sports.yahoo.com/articles/fantasy-basketball-waiver-wire-week-152344766.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-23T13:46:44Z",
+            "title": "2026-27 NBA News, Injury Updates Nov. 23: Dylan Harper, CJ McCollum out, but Brandon Ingram returning",
+            "link": "https://sports.yahoo.com/articles/2026-27-nba-news-injury-134644787.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
           {
             "t": "2026-11-23T13:26:37Z",
             "title": "NBA winners and losers after one month: Wemby soars, injuries pile up",
             "link": "https://sports.yahoo.com/articles/nba-winners-losers-one-month-132637636.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-23T13:00:00Z",
+            "title": "Winners & Sinners: Week 5",
+            "link": "https://sports.yahoo.com/articles/winners-sinners-week-5-130000238.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
@@ -2118,34 +2146,6 @@
             "link": "https://sports.yahoo.com/articles/austin-reaves-progressing-full-participant-060319526.html",
             "source": "sports.yahoo.com",
             "tone": 1
-          },
-          {
-            "t": "2026-11-23T05:00:00Z",
-            "title": "Houston Rockets vs. Los Angeles Clippers game preview",
-            "link": "https://sports.yahoo.com/articles/houston-rockets-vs-los-angeles-050000179.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-23T04:13:02Z",
-            "title": "Karl-Anthony Towns dominates Pacers in return to push Knicks’ win streak to five",
-            "link": "https://sports.yahoo.com/articles/karl-anthony-towns-dominates-pacers-041302920.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-23T02:31:32Z",
-            "title": "Lakers get encouraging Austin Reaves update as star nears return",
-            "link": "https://sports.yahoo.com/articles/lakers-encouraging-austin-reaves-star-023132438.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-23T01:55:26Z",
-            "title": "Thunder are NBA&#39;s deepest team, but not even they can weather all these injuries",
-            "link": "https://sports.yahoo.com/articles/thunder-nbas-deepest-team-not-015526529.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
           }
         ]
       },
@@ -2378,17 +2378,6 @@
           "on": 0.016,
           "off": 0.006,
           "bets": 9
-        },
-        {
-          "id": "precision",
-          "emoji": "🎯",
-          "title": "Precise",
-          "effect": "Always demands +0.5% more edge.",
-          "from": "Precision day",
-          "since": "2026-11-23T16:30:48Z",
-          "on": 0.0439,
-          "off": 0.0085,
-          "bets": 2
         }
       ],
       "mind": {
@@ -2565,7 +2554,7 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.015,
+        "min_edge": 0.02,
         "odds": [
           1.6,
           3.0
@@ -3074,47 +3063,47 @@
         "measured": 1
       },
       "reading": {
-        "week": 404,
+        "week": 375,
         "latest": [
           {
-            "t": "2026-11-23T13:18:12Z",
-            "title": "Close friend reveals Tom Jackson was ‘going back and forth on’ surgery days before unexpected death",
-            "link": "https://sports.yahoo.com/articles/close-friend-reveals-tom-jackson-131812511.html",
+            "t": "2026-11-23T16:31:31Z",
+            "title": "Kyle Whittingham names Bryce Underwood starter vs. Ohio State",
+            "link": "https://sports.yahoo.com/articles/kyle-whittingham-names-bryce-underwood-163131929.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-23T13:12:23Z",
-            "title": "Tennessee fined $250,000 after fans took Josh Heupel’s golf ball suggestion against Lane Kiffin",
-            "link": "https://sports.yahoo.com/articles/tennessee-fined-250-000-fans-131223049.html",
+            "t": "2026-11-23T16:30:00Z",
+            "title": "Michigan Football: Kyle Whittingham press conference pre-Ohio State",
+            "link": "https://sports.yahoo.com/articles/michigan-football-kyle-whittingham-press-163000727.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-23T16:01:41Z",
+            "title": "Browns Week 12 vs. Raiders: Thanksgiving Week practice schedule is different than usual",
+            "link": "https://sports.yahoo.com/articles/browns-week-12-vs-raiders-160141213.html",
             "source": "sports.yahoo.com",
             "tone": 1
           },
           {
-            "t": "2026-11-23T13:11:00Z",
-            "title": "Dabo Swinney says former Clemson quarterback is ‘nowhere near being back’",
-            "link": "https://sports.yahoo.com/articles/dabo-swinney-says-former-clemson-131100159.html",
+            "t": "2026-11-23T15:29:37Z",
+            "title": "Kyle Whittingham Names Starting QB, Gives Injury Update Prior to Ohio State Game",
+            "link": "https://sports.yahoo.com/articles/kyle-whittingham-names-starting-qb-152937440.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-23T13:07:06Z",
-            "title": "Drake Maye injury: Everything we know about the Patriots QB’s status",
-            "link": "https://sports.yahoo.com/articles/drake-maye-injury-know-patriots-195552414.html",
+            "t": "2026-11-23T15:25:43Z",
+            "title": "Lions vs. Bucs snap counts: Derrick Moore levels up; return of 3-safety sets",
+            "link": "https://sports.yahoo.com/articles/lions-vs-bucs-snap-counts-152543786.html",
             "source": "sports.yahoo.com",
-            "tone": -1
+            "tone": 1
           },
           {
-            "t": "2026-11-23T13:04:08Z",
-            "title": "Patriots won’t immediately add third QB, continue to back Tommy DeVito as starter",
-            "link": "https://sports.yahoo.com/articles/patriots-won-t-immediately-add-130408424.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-23T13:00:00Z",
-            "title": "Cam Skattebo’s backflip celebration ban only lasted one week",
-            "link": "https://sports.yahoo.com/articles/cam-skattebo-backflip-celebration-ban-130000687.html",
+            "t": "2026-11-23T15:06:22Z",
+            "title": "Tennessee fined $250,000 after fans threw mustard and golf balls at coach",
+            "link": "https://sports.yahoo.com/articles/tennessee-fined-250-000-fans-150511281.html",
             "source": "sports.yahoo.com",
             "tone": -1
           }
@@ -3359,6 +3348,17 @@
           "on": 0.0329,
           "off": 0.0239,
           "bets": 1
+        },
+        {
+          "id": "precision",
+          "emoji": "🎯",
+          "title": "Precise",
+          "effect": "Always demands +0.5% more edge.",
+          "from": "Precision day",
+          "since": "2026-11-23T16:45:38Z",
+          "on": 0.032,
+          "off": 0.0278,
+          "bets": 2
         }
       ],
       "mind": {
@@ -11105,14 +11105,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-23T12:00:58Z",
-      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-23T12:15:36Z",
-      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
-    },
-    {
       "t": "2026-11-23T12:30:49Z",
       "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
     },
@@ -11223,6 +11215,14 @@
     {
       "t": "2026-11-23T16:30:48Z",
       "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-23T16:45:38Z",
+      "text": "🧬 🧮 The Quant dropped the 🎯 Precise trait: it stopped working (-0.0% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-23T16:45:38Z",
+      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
     }
   ]
 }
