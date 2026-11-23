@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T22:30:47Z",
+  "updated": "2026-11-23T22:45:31Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -545,7 +545,7 @@
       "leader": "shark"
     }
   },
-  "credits_left": 17521,
+  "credits_left": 17519,
   "last_scan": "2026-11-23@21",
   "strategies": {
     "lizard": {
@@ -590,7 +590,7 @@
         "Total"
       ],
       "start_fund": 500,
-      "fund": 503.82,
+      "fund": 500.57,
       "lessons": [
         {
           "kind": "avoid",
@@ -604,12 +604,12 @@
         }
       ],
       "bets": 98,
-      "open": 23,
+      "open": 22,
       "won": 23,
-      "lost": 52,
-      "staked": 191.08,
-      "profit": 3.82,
-      "roi": 0.02,
+      "lost": 53,
+      "staked": 194.33,
+      "profit": 0.57,
+      "roi": 0.0029,
       "avg_edge": 0.0303,
       "avg_clv": 0.0037,
       "beat_close": 0.6575,
@@ -918,6 +918,10 @@
         {
           "t": "2026-11-23T08:15:35Z",
           "fund": 503.82
+        },
+        {
+          "t": "2026-11-23T22:45:31Z",
+          "fund": 500.57
         }
       ],
       "by_league": [
@@ -951,7 +955,7 @@
         {
           "name": "Ligue 2 (France 2)",
           "bets": 2,
-          "profit": -0.95,
+          "profit": -4.2,
           "roi": -1.0,
           "avg_clv": 0.0248,
           "beat_close": 1.0,
@@ -1052,8 +1056,8 @@
         {
           "name": "Winner",
           "bets": 87,
-          "profit": -11.12,
-          "roi": -0.0728,
+          "profit": -14.37,
+          "roi": -0.0921,
           "avg_clv": 0.0021,
           "beat_close": 0.6418,
           "clv_count": 67
@@ -1072,8 +1076,8 @@
         {
           "name": "Football",
           "bets": 98,
-          "profit": 3.82,
-          "roi": 0.02,
+          "profit": 0.57,
+          "roi": 0.0029,
           "avg_clv": 0.0037,
           "beat_close": 0.6575,
           "clv_count": 73
@@ -1561,7 +1565,7 @@
         ],
         "rules": 0,
         "studied": 263,
-        "resolved": 211
+        "resolved": 212
       }
     },
     "quant": {
@@ -2580,7 +2584,7 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.02,
+        "min_edge": 0.015,
         "odds": [
           1.6,
           3.0
@@ -3376,15 +3380,15 @@
           "bets": 1
         },
         {
-          "id": "precision",
-          "emoji": "🎯",
-          "title": "Precise",
-          "effect": "Always demands +0.5% more edge.",
-          "from": "Precision day",
-          "since": "2026-11-23T22:30:47Z",
-          "on": 0.032,
-          "off": 0.0278,
-          "bets": 2
+          "id": "underdog",
+          "emoji": "🐶",
+          "title": "Underdog lover",
+          "effect": "Allows underdogs at odds up to 1.0 higher.",
+          "from": "Underdog hunter",
+          "since": "2026-11-23T22:45:31Z",
+          "on": 0.0278,
+          "off": 0.029,
+          "bets": 15
         }
       ],
       "mind": {
@@ -5592,12 +5596,12 @@
       "fair_odds": 3.368,
       "edge": 0.0243,
       "stake": 3.25,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 3.365,
       "clv": 0.0253,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -3.25,
+      "score": "Sochaux 2 - 3 USL Dunkerque",
+      "settled_at": "2026-11-23T22:45:31Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates Draw at 29.7%. That makes the fair price 3.37.",
         "Unibet (NL) pays 3.45. That is +2.4% above fair. My bar is +2.0%.",
@@ -11132,18 +11136,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-23T18:15:32Z",
-      "text": "🧬 🧮 The Quant dropped the 🎯 Precise trait: it stopped working (-0.0% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-23T18:15:32Z",
-      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
-    },
-    {
-      "t": "2026-11-23T18:30:49Z",
-      "text": "🧬 🧮 The Quant made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-23 and its bets beat the market by +4.4%. Always demands +0.5% more edge."
-    },
-    {
       "t": "2026-11-23T18:30:49Z",
       "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
     },
@@ -11250,6 +11242,18 @@
     {
       "t": "2026-11-23T22:30:47Z",
       "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
+    },
+    {
+      "t": "2026-11-23T22:45:31Z",
+      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-23T22:45:31Z",
+      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
+    },
+    {
+      "t": "2026-11-23T22:45:31Z",
+      "text": "Results:\n- Lost -3.25: Draw (Winner) in Sochaux vs USL Dunkerque (Sochaux 2 - 3 USL Dunkerque)"
     }
   ]
 }
