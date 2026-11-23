@@ -52,10 +52,6 @@
   "log": [
     {
       "t": "2026-11-23T05:00:57Z",
-      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
-    },
-    {
-      "t": "2026-11-23T05:00:57Z",
       "text": "Placed 2 practice bets:\n- The Lizard 🧭 scout: **Urawa Red Diamonds** (Winner) in Urawa Red Diamonds vs Cerezo Osaka (J-League (Japan)) at 1.93 on LeoVegas (SE), stake 2.45, edge +0.9%\n- The Lizard 🎲 wild: **Derby County** (Winner) in Wolverhampton Wanderers vs Derby County (Championship (England 2)) at 11.0 on Matchbook, stake 1.23, edge +16.1%"
     },
     {
@@ -169,6 +165,10 @@
     {
       "t": "2026-11-23T09:10:03Z",
       "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-23T09:15:33Z",
+      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
     }
   ],
   "levels": {
@@ -2855,6 +2855,12 @@
         "on": 0.0329,
         "off": 0.0239,
         "bets": 1
+      },
+      "precision": {
+        "since": "2026-11-23T09:15:33Z",
+        "on": 0.032,
+        "off": 0.0278,
+        "bets": 2
       }
     }
   },
