@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T03:45:31Z",
+  "updated": "2026-11-23T04:00:54Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -12,7 +12,7 @@
       "shark",
       "lizard"
     ],
-    "grower": null,
+    "grower": "lizard",
     "talk": [
       {
         "who": "quant",
@@ -29,8 +29,8 @@
     ],
     "chars": {
       "lizard": {
-        "iq": 124,
-        "iq_gain": 0,
+        "iq": 125,
+        "iq_gain": 1,
         "streak": 1,
         "best_streak": 8,
         "achievements": [
@@ -152,7 +152,7 @@
             "pending": true
           }
         ],
-        "score": 178,
+        "score": 179,
         "trophies": [
           {
             "kind": "sharpshooter",
@@ -509,8 +509,8 @@
           "cautious": 0.0222,
           "beat": 0.7188,
           "challenges": 0.7,
-          "traits": 4,
-          "score": 38.06
+          "traits": 3,
+          "score": 36.06
         },
         {
           "who": "lizard",
@@ -545,7 +545,7 @@
       "leader": "shark"
     }
   },
-  "credits_left": 17791,
+  "credits_left": 17787,
   "last_scan": "2026-11-23@1",
   "strategies": {
     "lizard": {
@@ -590,7 +590,7 @@
         "Total"
       ],
       "start_fund": 500,
-      "fund": 492.84,
+      "fund": 487.96,
       "lessons": [
         {
           "kind": "avoid",
@@ -604,12 +604,12 @@
         }
       ],
       "bets": 90,
-      "open": 20,
+      "open": 18,
       "won": 21,
-      "lost": 49,
-      "staked": 167.51,
-      "profit": -7.16,
-      "roi": -0.0427,
+      "lost": 51,
+      "staked": 172.39,
+      "profit": -12.04,
+      "roi": -0.0698,
       "avg_edge": 0.03,
       "avg_clv": 0.0034,
       "beat_close": 0.6479,
@@ -898,6 +898,14 @@
         {
           "t": "2026-11-23T02:15:31Z",
           "fund": 492.84
+        },
+        {
+          "t": "2026-11-23T04:00:54Z",
+          "fund": 490.4
+        },
+        {
+          "t": "2026-11-23T04:00:54Z",
+          "fund": 487.96
         }
       ],
       "by_league": [
@@ -913,7 +921,7 @@
         {
           "name": "Primera División (Argentina)",
           "bets": 3,
-          "profit": -8.88,
+          "profit": -11.32,
           "roi": -1.0,
           "avg_clv": 0.0393,
           "beat_close": 0.6667,
@@ -958,8 +966,8 @@
         {
           "name": "Brasileirão (Brazil)",
           "bets": 5,
-          "profit": 12.81,
-          "roi": 1.1397,
+          "profit": 10.37,
+          "roi": 0.758,
           "avg_clv": 0.0066,
           "beat_close": 0.4,
           "clv_count": 5
@@ -1023,8 +1031,8 @@
         {
           "name": "Total",
           "bets": 9,
-          "profit": 4.35,
-          "roi": 0.2215,
+          "profit": 1.91,
+          "roi": 0.0865,
           "avg_clv": 0.0246,
           "beat_close": 0.8,
           "clv_count": 5
@@ -1032,8 +1040,8 @@
         {
           "name": "Winner",
           "bets": 80,
-          "profit": -9.05,
-          "roi": -0.0622,
+          "profit": -11.49,
+          "roi": -0.0777,
           "avg_clv": 0.0018,
           "beat_close": 0.6364,
           "clv_count": 66
@@ -1052,8 +1060,8 @@
         {
           "name": "Football",
           "bets": 90,
-          "profit": -7.16,
-          "roi": -0.0427,
+          "profit": -12.04,
+          "roi": -0.0698,
           "avg_clv": 0.0034,
           "beat_close": 0.6479,
           "clv_count": 71
@@ -1369,8 +1377,8 @@
         }
       ],
       "mind": {
-        "iq": 124,
-        "iq_week": 18,
+        "iq": 125,
+        "iq_week": 19,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -1450,7 +1458,7 @@
           },
           {
             "d": "2026-11-23",
-            "iq": 124
+            "iq": 125
           }
         ],
         "facts": [
@@ -1541,7 +1549,7 @@
         ],
         "rules": 0,
         "studied": 257,
-        "resolved": 204
+        "resolved": 208
       }
     },
     "quant": {
@@ -3298,17 +3306,6 @@
           "on": 0.0329,
           "off": 0.0239,
           "bets": 1
-        },
-        {
-          "id": "underdog",
-          "emoji": "🐶",
-          "title": "Underdog lover",
-          "effect": "Allows underdogs at odds up to 1.0 higher.",
-          "from": "Underdog hunter",
-          "since": "2026-11-23T03:45:31Z",
-          "on": 0.0278,
-          "off": 0.029,
-          "bets": 15
         }
       ],
       "mind": {
@@ -4724,12 +4721,12 @@
       "fair_odds": 1.865,
       "edge": 0.0135,
       "stake": 2.44,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 1.955,
       "clv": -0.0331,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -2.44,
+      "score": "Instituto de Córdoba 2 - 1 Atlético Huracán",
+      "settled_at": "2026-11-23T04:00:54Z",
       "thoughts": [
         "🧭 Exploring. I've only made 0 bets like this (Primera División (Argentina) total bets at favourites).",
         "Under 2 at 1.89 is +1.35% above fair: below my usual bar, but the only way to learn if this kind of bet works for me is to try it.",
@@ -4952,12 +4949,12 @@
       "fair_odds": 2.957,
       "edge": 0.0146,
       "stake": 2.44,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 2.665,
       "clv": 0.1257,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -2.44,
+      "score": "Bragantino-SP 1 - 0 Vasco da Gama",
+      "settled_at": "2026-11-23T04:00:54Z",
       "thoughts": [
         "🧭 Exploring. I've only made 3 bets like this (Brasileirão (Brazil) winner bets at middle odds).",
         "Vasco da Gama at 3.00 is +1.46% above fair: below my usual bar, but the only way to learn if this kind of bet works for me is to try it.",
@@ -11060,14 +11057,6 @@
   "log": [
     {
       "t": "2026-11-23T00:01:07Z",
-      "text": "📈 🦎 The Lizard wins Grower of the Week (week of 16 Nov). +19 Sport IQ."
-    },
-    {
-      "t": "2026-11-23T00:01:07Z",
-      "text": "🎯 🦎 The Lizard wins Sharpshooter of the Week (week of 16 Nov). Beat the market on 67% of 33 bets."
-    },
-    {
-      "t": "2026-11-23T00:01:07Z",
       "text": "🏟️ 🧮 The Quant takes the lead in the Arena."
     },
     {
@@ -11177,6 +11166,14 @@
     {
       "t": "2026-11-23T03:45:31Z",
       "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
+    },
+    {
+      "t": "2026-11-23T04:00:54Z",
+      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-23T04:00:54Z",
+      "text": "Results:\n- Lost -2.44: Under 2 (Total) in Instituto de Córdoba vs Atlético Huracán (Instituto de Córdoba 2 - 1 Atlético Huracán)\n- Lost -2.44: Vasco da Gama (Winner) in Bragantino-SP vs Vasco da Gama (Bragantino-SP 1 - 0 Vasco da Gama)"
     }
   ]
 }
