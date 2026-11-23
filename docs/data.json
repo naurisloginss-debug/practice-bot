@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T22:45:31Z",
+  "updated": "2026-11-23T23:00:59Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -509,8 +509,8 @@
           "cautious": 0.0222,
           "beat": 0.7188,
           "challenges": 0.7,
-          "traits": 4,
-          "score": 38.06
+          "traits": 3,
+          "score": 36.06
         },
         {
           "who": "quant",
@@ -545,7 +545,7 @@
       "leader": "shark"
     }
   },
-  "credits_left": 17519,
+  "credits_left": 17517,
   "last_scan": "2026-11-23@21",
   "strategies": {
     "lizard": {
@@ -1112,8 +1112,22 @@
         "measured": 2
       },
       "reading": {
-        "week": 119,
+        "week": 116,
         "latest": [
+          {
+            "t": "2026-11-23T21:57:40Z",
+            "title": "Como interested in Manchester United’s Zirkzee following long-term Kean setback",
+            "link": "https://football-italia.net/como-interested-in-manchester-uniteds-zirkzee/",
+            "source": "football-italia.net",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-23T19:59:45Z",
+            "title": "De Bruyne hits back at Napoli exit rumours and comments on Man City guilty verdict",
+            "link": "https://football-italia.net/de-bruyne-hits-back-at-napoli-exit-rumours/",
+            "source": "football-italia.net",
+            "tone": 1
+          },
           {
             "t": "2026-11-23T18:03:22Z",
             "title": "QPR skipper Dunne set to miss Norwich trip",
@@ -1139,20 +1153,6 @@
             "t": "2026-11-23T15:33:49Z",
             "title": "Three Italians ruled out for several months with serious injuries after Serie A Week 12",
             "link": "https://football-italia.net/three-italians-ruled-out-months-serie-a-wk-12/",
-            "source": "football-italia.net",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-23T15:23:09Z",
-            "title": "Raya to miss Dortmund game but injury 'not serious'",
-            "link": "https://www.bbc.co.uk/sport/football/articles/cjx2rqpr7l9lo?at_medium=RSS&at_campaign=rss",
-            "source": "feeds.bbci.co.uk",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-23T13:52:36Z",
-            "title": "Official: Carnesecchi to undergo knee surgery",
-            "link": "https://football-italia.net/official-carnesecchi-to-undergo-knee-surgery/",
             "source": "football-italia.net",
             "tone": -1
           }
@@ -1565,7 +1565,7 @@
         ],
         "rules": 0,
         "studied": 263,
-        "resolved": 212
+        "resolved": 213
       }
     },
     "quant": {
@@ -2122,7 +2122,7 @@
         "measured": 0
       },
       "reading": {
-        "week": 92,
+        "week": 68,
         "latest": [
           {
             "t": "2026-11-23T18:51:48Z",
@@ -2137,6 +2137,13 @@
             "link": "https://sports.yahoo.com/articles/nets-gets-crushing-injury-nolan-180410690.html",
             "source": "sports.yahoo.com",
             "tone": -1
+          },
+          {
+            "t": "2026-11-23T18:00:00Z",
+            "title": "NBA Game Preview: Timberwolves vs Blazers Thread",
+            "link": "https://sports.yahoo.com/articles/nba-game-preview-timberwolves-vs-180000701.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
           },
           {
             "t": "2026-11-23T17:03:31Z",
@@ -2158,13 +2165,6 @@
             "link": "https://www.cbssports.com/nba/news/2027-nba-draft-big-board-quentin-coleman-tyran-stokes-ivan-kharchenkov/",
             "source": "www.cbssports.com",
             "tone": 1
-          },
-          {
-            "t": "2026-11-23T16:14:14Z",
-            "title": "Nolan Traoré set to miss 8-10 weeks, Nets announce",
-            "link": "https://sports.yahoo.com/articles/nolan-traor-set-miss-8-161414867.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
           }
         ]
       },
@@ -3093,47 +3093,47 @@
         "measured": 1
       },
       "reading": {
-        "week": 389,
+        "week": 416,
         "latest": [
           {
-            "t": "2026-11-23T19:12:13Z",
-            "title": "UCLA Gets Ty Dieffenbach Injury Update With Playoff Stakes Rising",
-            "link": "https://sports.yahoo.com/articles/ucla-gets-ty-dieffenbach-injury-191213113.html",
+            "t": "2026-11-23T22:51:52Z",
+            "title": "Micah Parsons cleared to play Wednesday night",
+            "link": "https://sports.yahoo.com/articles/micah-parsons-cleared-play-wednesday-225152171.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-23T19:05:52Z",
-            "title": "Wake Forest leading rusher Ty Clark III to miss the rest of the season due to injury",
-            "link": "https://sports.yahoo.com/college-football/breaking-news/article/wake-forest-leading-rusher-ty-clark-iii-to-miss-the-rest-of-the-season-due-to-injury-190552718.html",
+            "t": "2026-11-23T22:46:15Z",
+            "title": "Packers star Micah Parsons reportedly cleared to return from ACL injury, will make season debut vs. Rams on Thanksgiving Eve",
+            "link": "https://sports.yahoo.com/nfl/breaking-news/article/packers-star-micah-parsons-reportedly-cleared-to-return-from-acl-injury-will-make-season-debut-vs-rams-on-thanksgiving-eve-224615033.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-23T19:04:53Z",
-            "title": "TCU needs a coach. Lincoln Riley is from Texas. Could this actually happen?",
-            "link": "https://sports.yahoo.com/articles/tcu-needs-coach-lincoln-riley-190453556.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-23T18:57:01Z",
-            "title": "NFL Injury Report, Week 12: Latest news, updates for Kenneth Walker III, Brock Bowers, more players for fantasy football",
-            "link": "https://sports.yahoo.com/fantasy/article/nfl-injury-report-week-12-latest-news-updates-for-kenneth-walker-iii-brock-bowers-more-players-for-fantasy-football-185701559.html",
+            "t": "2026-11-23T22:45:00Z",
+            "title": "Survey: Does Indiana still belong in the College Football Playoff after the loss to Washington?",
+            "link": "https://sports.yahoo.com/articles/survey-does-indiana-still-belong-224500978.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-23T18:36:42Z",
-            "title": "Patriots not closing the door on Drake Maye returning this season",
-            "link": "https://sports.yahoo.com/articles/patriots-not-closing-door-drake-183642775.html",
+            "t": "2026-11-23T22:45:00Z",
+            "title": "Everything Curt Cignetti said after the loss to Washington, ahead of Purdue",
+            "link": "https://sports.yahoo.com/articles/everything-curt-cignetti-said-loss-224500988.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-23T18:31:20Z",
-            "title": "Oklahoma’s Jason Witten Decision Saved Season",
-            "link": "https://sports.yahoo.com/articles/oklahoma-jason-witten-decision-saved-183120035.html",
+            "t": "2026-11-23T22:33:21Z",
+            "title": "Bills list Greg Rousseau, Dalton Kincaid as limited on Monday&#39;s practice report",
+            "link": "https://sports.yahoo.com/articles/bills-list-greg-rousseau-dalton-223321622.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-23T22:32:51Z",
+            "title": "Limited practice for Dallas Goedert",
+            "link": "https://sports.yahoo.com/articles/limited-practice-dallas-goedert-223251496.html",
             "source": "sports.yahoo.com",
             "tone": -1
           }
@@ -3378,17 +3378,6 @@
           "on": 0.0329,
           "off": 0.0239,
           "bets": 1
-        },
-        {
-          "id": "underdog",
-          "emoji": "🐶",
-          "title": "Underdog lover",
-          "effect": "Allows underdogs at odds up to 1.0 higher.",
-          "from": "Underdog hunter",
-          "since": "2026-11-23T22:45:31Z",
-          "on": 0.0278,
-          "off": 0.029,
-          "bets": 15
         }
       ],
       "mind": {
@@ -11137,10 +11126,6 @@
   "log": [
     {
       "t": "2026-11-23T18:30:49Z",
-      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-23T18:30:49Z",
       "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
     },
     {
@@ -11254,6 +11239,10 @@
     {
       "t": "2026-11-23T22:45:31Z",
       "text": "Results:\n- Lost -3.25: Draw (Winner) in Sochaux vs USL Dunkerque (Sochaux 2 - 3 USL Dunkerque)"
+    },
+    {
+      "t": "2026-11-23T23:00:59Z",
+      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
     }
   ]
 }
