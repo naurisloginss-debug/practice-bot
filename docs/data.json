@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T07:15:31Z",
+  "updated": "2026-11-23T07:30:48Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -12,7 +12,7 @@
       "shark",
       "lizard"
     ],
-    "grower": null,
+    "grower": "quant",
     "talk": [
       {
         "who": "quant",
@@ -211,8 +211,8 @@
         ]
       },
       "quant": {
-        "iq": 135,
-        "iq_gain": 0,
+        "iq": 136,
+        "iq_gain": 1,
         "streak": 5,
         "best_streak": 5,
         "achievements": [
@@ -334,7 +334,7 @@
             "pending": false
           }
         ],
-        "score": 200,
+        "score": 201,
         "trophies": [
           {
             "kind": "grower",
@@ -1121,30 +1121,30 @@
             "tone": -1
           },
           {
-            "t": "2026-11-22T17:54:36Z",
-            "title": "Spurs deny Man City top spot with statement win",
-            "link": "https://www.bbc.co.uk/sport/football/videos/c9vg2112evvdo?at_medium=RSS&at_campaign=rss",
+            "t": "2026-11-22T15:50:05Z",
+            "title": "PSG's Doue to have surgery on ruptured ACL",
+            "link": "https://www.bbc.co.uk/sport/football/articles/cw0k6x0764ero?at_medium=RSS&at_campaign=rss",
             "source": "feeds.bbci.co.uk",
-            "tone": 1
+            "tone": -1
           },
           {
-            "t": "2026-11-22T17:54:32Z",
-            "title": "Man Utd score dramatic late winner to extend record run",
-            "link": "https://www.bbc.co.uk/sport/football/videos/cm0rkzzyl2ego?at_medium=RSS&at_campaign=rss",
+            "t": "2026-11-21T20:36:43Z",
+            "title": "Hirst key for Stoke, injuries derail Millwall - Sam Parkin's EFL takeaways",
+            "link": "https://www.bbc.co.uk/sport/football/articles/c6r7g8253e3yo?at_medium=RSS&at_campaign=rss",
             "source": "feeds.bbci.co.uk",
-            "tone": 1
+            "tone": -1
           },
           {
-            "t": "2026-11-22T16:25:35Z",
-            "title": "Spurs 'a match for anyone' as win at Man City boosts European hopes",
-            "link": "https://www.bbc.co.uk/sport/football/articles/c6n901w453nlo?at_medium=RSS&at_campaign=rss",
+            "t": "2026-11-21T11:42:44Z",
+            "title": "Kane to miss 'a few months' after ankle surgery",
+            "link": "https://www.bbc.co.uk/sport/football/articles/cvze7d4w5g49o?at_medium=RSS&at_campaign=rss",
             "source": "feeds.bbci.co.uk",
-            "tone": 1
+            "tone": -1
           },
           {
-            "t": "2026-11-21T21:14:08Z",
-            "title": "Raya set to have scan on injury - how much would Arsenal miss him?",
-            "link": "https://www.bbc.co.uk/sport/football/articles/ckx28w9ree9vo?at_medium=RSS&at_campaign=rss",
+            "t": "2026-11-20T12:21:26Z",
+            "title": "Seriki injury 'a hammer blow' for Sheff Utd",
+            "link": "https://www.bbc.co.uk/sport/football/articles/c3rrgdxedjz5o?at_medium=RSS&at_campaign=rss",
             "source": "feeds.bbci.co.uk",
             "tone": -1
           }
@@ -2091,8 +2091,15 @@
         "measured": 0
       },
       "reading": {
-        "week": 68,
+        "week": 108,
         "latest": [
+          {
+            "t": "2026-11-23T05:00:00Z",
+            "title": "Houston Rockets vs. Los Angeles Clippers game preview",
+            "link": "https://sports.yahoo.com/articles/houston-rockets-vs-los-angeles-050000179.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
           {
             "t": "2026-11-23T04:13:02Z",
             "title": "Karl-Anthony Towns dominates Pacers in return to push Knicks’ win streak to five",
@@ -2125,13 +2132,6 @@
             "t": "2026-11-22T23:52:27Z",
             "title": "Mavericks vs Jazz Preview and Injury Report: Dallas attempts to break a bad streak while starting a new one",
             "link": "https://sports.yahoo.com/articles/mavericks-vs-jazz-preview-injury-235227456.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-22T22:12:02Z",
-            "title": "Shai-Gilgeous Alexander, Giannis Antetokounmpo ruled out of Sunday&#39;s Thunder-Heat game",
-            "link": "https://sports.yahoo.com/nba/breaking-news/article/shai-gilgeous-alexander-giannis-antetokounmpo-ruled-out-of-sundays-thunder-heat-game-221215293.html",
             "source": "sports.yahoo.com",
             "tone": -1
           }
@@ -2367,8 +2367,8 @@
         }
       ],
       "mind": {
-        "iq": 135,
-        "iq_week": 16,
+        "iq": 136,
+        "iq_week": 17,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -2448,7 +2448,7 @@
           },
           {
             "d": "2026-11-23",
-            "iq": 135
+            "iq": 136
           }
         ],
         "facts": [
@@ -2540,7 +2540,7 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.02,
+        "min_edge": 0.015,
         "odds": [
           1.6,
           3.0
@@ -3045,8 +3045,22 @@
         "measured": 1
       },
       "reading": {
-        "week": 453,
+        "week": 413,
         "latest": [
+          {
+            "t": "2026-11-23T06:55:15Z",
+            "title": "Tennessee Hit With Massive Fine After Fans Threw Golf Balls, Mustard Bottles at LSU",
+            "link": "https://sports.yahoo.com/articles/tennessee-hit-massive-fine-fans-065515755.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-23T06:45:32Z",
+            "title": "Lane Kiffin’s Daughter Landry Kiffin Takes Brutal Shot at Tennessee Fans After LSU Loss",
+            "link": "https://sports.yahoo.com/articles/lane-kiffin-daughter-landry-kiffin-064532959.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
           {
             "t": "2026-11-23T04:14:49Z",
             "title": "Patrick Mahomes has heartfelt reaction to brutal 49ers injury",
@@ -3074,20 +3088,6 @@
             "link": "https://sports.yahoo.com/articles/32-things-learned-nfl-week-032304468.html",
             "source": "sports.yahoo.com",
             "tone": 1
-          },
-          {
-            "t": "2026-11-23T03:03:00Z",
-            "title": "Aaron Best will not return as Eastern Washington head coach",
-            "link": "https://sports.yahoo.com/articles/aaron-best-not-return-eastern-030300308.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-23T02:48:02Z",
-            "title": "Clemson Provides Brutal Christopher Vizzina Update",
-            "link": "https://sports.yahoo.com/articles/clemson-provides-brutal-christopher-vizzina-024802808.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
           }
         ]
       },
@@ -3332,15 +3332,15 @@
           "bets": 1
         },
         {
-          "id": "precision",
-          "emoji": "🎯",
-          "title": "Precise",
-          "effect": "Always demands +0.5% more edge.",
-          "from": "Precision day",
-          "since": "2026-11-23T07:15:31Z",
-          "on": 0.032,
-          "off": 0.0278,
-          "bets": 2
+          "id": "underdog",
+          "emoji": "🐶",
+          "title": "Underdog lover",
+          "effect": "Allows underdogs at odds up to 1.0 higher.",
+          "from": "Underdog hunter",
+          "since": "2026-11-23T07:30:48Z",
+          "on": 0.0278,
+          "off": 0.029,
+          "bets": 15
         }
       ],
       "mind": {
@@ -11092,14 +11092,6 @@
   "log": [
     {
       "t": "2026-11-23T03:00:57Z",
-      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-23T03:00:57Z",
-      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
-    },
-    {
-      "t": "2026-11-23T03:00:57Z",
       "text": "Results:\n- Lost -2.49: Tampa Bay Buccaneers (Winner) in Detroit Lions vs Tampa Bay Buccaneers (Detroit Lions 31 - 21 Tampa Bay Buccaneers)\n- Won +3.98: New York Jets (Winner) in Los Angeles Chargers vs New York Jets (Los Angeles Chargers 24 - 27 New York Jets)\n- Won +2.27: Under 38.5 (Total) in Philadelphia Eagles vs Pittsburgh Steelers (Philadelphia Eagles 19 - 16 Pittsburgh Steelers)\n- Won +5.80: New York Giants (Winner) in New York Giants vs Jacksonville Jaguars (New York Giants 23 - 18 Jacksonville Jaguars)\n- Won +6.59: Carolina Panthers (Winner) in Carolina Panthers vs Baltimore Ravens (Carolina Panthers 35 - 33 Baltimore Ravens)\n- Won +2.41: Dallas Cowboys -8 (Spread) in Dallas Cowboys vs Tennessee Titans (Dallas Cowboys 51 - 30 Tennessee Titans)\n- Lost -1.21: Miami Dolphins (Winner) in Buffalo Bills vs Miami Dolphins (Buffalo Bills 26 - 9 Miami Dolphins)\n- Lost -2.35: Tennessee Titans (Winner) in Dallas Cowboys vs Tennessee Titans (Dallas Cowboys 51 - 30 Tennessee Titans)\n- Lost -2.85: New Orleans Saints (Winner) in Chicago Bears vs New Orleans Saints (Chicago Bears 21 - 13 New Orleans Saints)\n- Won +2.41: Denver Broncos -10.5 (Spread) in Denver Broncos vs Las Vegas Raiders (Denver Broncos 38 - 24 Las Vegas Raiders)"
     },
     {
@@ -11209,6 +11201,14 @@
     {
       "t": "2026-11-23T07:15:31Z",
       "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
+    },
+    {
+      "t": "2026-11-23T07:30:48Z",
+      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-23T07:30:48Z",
+      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
     }
   ]
 }
