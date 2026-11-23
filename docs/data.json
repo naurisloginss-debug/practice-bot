@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T13:30:46Z",
+  "updated": "2026-11-23T13:45:33Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -509,8 +509,8 @@
           "cautious": 0.0222,
           "beat": 0.7188,
           "challenges": 0.7,
-          "traits": 3,
-          "score": 36.06
+          "traits": 4,
+          "score": 38.06
         },
         {
           "who": "lizard",
@@ -1108,27 +1108,34 @@
         "measured": 2
       },
       "reading": {
-        "week": 90,
+        "week": 85,
         "latest": [
+          {
+            "t": "2026-11-23T12:59:52Z",
+            "title": "Wrexham could spell end of Skubala's short tenure",
+            "link": "https://www.bbc.co.uk/sport/football/articles/c6rmgkvpyj07o?at_medium=RSS&at_campaign=rss",
+            "source": "feeds.bbci.co.uk",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-23T12:34:23Z",
+            "title": "Little solace - and no Solis - in setback at Stoke",
+            "link": "https://www.bbc.co.uk/sport/football/articles/cq23jmmn4grdo?at_medium=RSS&at_campaign=rss",
+            "source": "feeds.bbci.co.uk",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-23T11:35:50Z",
+            "title": "Mustaki out of World Cup play-off with knee injury",
+            "link": "https://www.bbc.co.uk/sport/football/articles/cw33g15zeemro?at_medium=RSS&at_campaign=rss",
+            "source": "feeds.bbci.co.uk",
+            "tone": -1
+          },
           {
             "t": "2026-11-23T08:44:53Z",
             "title": "Holloway sacked by Swindon after two seasons",
             "link": "https://www.bbc.co.uk/sport/football/articles/c5yrg1r6ezno?at_medium=RSS&at_campaign=rss",
             "source": "feeds.bbci.co.uk",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-22T21:04:55Z",
-            "title": "Pepe did not injure eyes staring at sun, say Villarreal",
-            "link": "https://www.bbc.co.uk/sport/football/articles/c8zx9y6d29vyo?at_medium=RSS&at_campaign=rss",
-            "source": "feeds.bbci.co.uk",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-22T20:32:10Z",
-            "title": "Calhanoglu forced off injured in Atalanta-Inter as Carnesecchi pulls out in warm-up",
-            "link": "https://football-italia.net/calhanoglu-injured-in-atalanta-inter/",
-            "source": "football-italia.net",
             "tone": -1
           },
           {
@@ -1142,13 +1149,6 @@
             "t": "2026-11-22T17:54:32Z",
             "title": "Man Utd score dramatic late winner to extend record run",
             "link": "https://www.bbc.co.uk/sport/football/videos/cm0rkzzyl2ego?at_medium=RSS&at_campaign=rss",
-            "source": "feeds.bbci.co.uk",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-22T16:25:35Z",
-            "title": "Spurs 'a match for anyone' as win at Man City boosts European hopes",
-            "link": "https://www.bbc.co.uk/sport/football/articles/c6n901w453nlo?at_medium=RSS&at_campaign=rss",
             "source": "feeds.bbci.co.uk",
             "tone": 1
           }
@@ -2103,8 +2103,15 @@
         "measured": 0
       },
       "reading": {
-        "week": 101,
+        "week": 111,
         "latest": [
+          {
+            "t": "2026-11-23T13:26:37Z",
+            "title": "NBA winners and losers after one month: Wemby soars, injuries pile up",
+            "link": "https://sports.yahoo.com/articles/nba-winners-losers-one-month-132637636.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
           {
             "t": "2026-11-23T06:03:19Z",
             "title": "Austin Reaves progressing, full participant in Lakers practice",
@@ -2137,13 +2144,6 @@
             "t": "2026-11-23T01:55:26Z",
             "title": "Thunder are NBA&#39;s deepest team, but not even they can weather all these injuries",
             "link": "https://sports.yahoo.com/articles/thunder-nbas-deepest-team-not-015526529.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-23T01:41:24Z",
-            "title": "Lakers make Austin Reaves injury decision ahead of Jazz rematch",
-            "link": "https://sports.yahoo.com/articles/lakers-austin-reaves-injury-decision-014124782.html",
             "source": "sports.yahoo.com",
             "tone": -1
           }
@@ -2552,7 +2552,7 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.015,
+        "min_edge": 0.02,
         "odds": [
           1.6,
           3.0
@@ -3061,47 +3061,47 @@
         "measured": 1
       },
       "reading": {
-        "week": 409,
+        "week": 404,
         "latest": [
           {
-            "t": "2026-11-23T07:53:15Z",
-            "title": "Livvy Dunne Shares 6-Word Message for Lane Kiffin’s Daughter Landry After ‘Hazardous Conditions’ in LSU-Tennessee Clash",
-            "link": "https://sports.yahoo.com/articles/livvy-dunne-shares-6-word-075315933.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-23T06:55:15Z",
-            "title": "Tennessee Hit With Massive Fine After Fans Threw Golf Balls, Mustard Bottles at LSU",
-            "link": "https://sports.yahoo.com/articles/tennessee-hit-massive-fine-fans-065515755.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-23T06:45:32Z",
-            "title": "Lane Kiffin’s Daughter Landry Kiffin Takes Brutal Shot at Tennessee Fans After LSU Loss",
-            "link": "https://sports.yahoo.com/articles/lane-kiffin-daughter-landry-kiffin-064532959.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-23T04:14:49Z",
-            "title": "Patrick Mahomes has heartfelt reaction to brutal 49ers injury",
-            "link": "https://sports.yahoo.com/articles/patrick-mahomes-heartfelt-reaction-brutal-041449627.html",
+            "t": "2026-11-23T13:18:12Z",
+            "title": "Close friend reveals Tom Jackson was ‘going back and forth on’ surgery days before unexpected death",
+            "link": "https://sports.yahoo.com/articles/close-friend-reveals-tom-jackson-131812511.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-23T03:56:40Z",
-            "title": "Will Ohio State get star running back from injury for Michigan game?",
-            "link": "https://sports.yahoo.com/articles/ohio-state-star-running-back-035640102.html",
+            "t": "2026-11-23T13:12:23Z",
+            "title": "Tennessee fined $250,000 after fans took Josh Heupel’s golf ball suggestion against Lane Kiffin",
+            "link": "https://sports.yahoo.com/articles/tennessee-fined-250-000-fans-131223049.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-23T13:11:00Z",
+            "title": "Dabo Swinney says former Clemson quarterback is ‘nowhere near being back’",
+            "link": "https://sports.yahoo.com/articles/dabo-swinney-says-former-clemson-131100159.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-23T03:31:09Z",
-            "title": "Cam Skattebo renews backflip celebration days after vowing to shelve it: &#39;It&#39;s hard to hold back from&#39;",
-            "link": "https://sports.yahoo.com/nfl/breaking-news/article/cam-skattebo-renews-backflip-celebration-days-after-vowing-to-shelve-it-its-hard-to-hold-back-from-033725330.html",
+            "t": "2026-11-23T13:07:06Z",
+            "title": "Drake Maye injury: Everything we know about the Patriots QB’s status",
+            "link": "https://sports.yahoo.com/articles/drake-maye-injury-know-patriots-195552414.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-23T13:04:08Z",
+            "title": "Patriots won’t immediately add third QB, continue to back Tommy DeVito as starter",
+            "link": "https://sports.yahoo.com/articles/patriots-won-t-immediately-add-130408424.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-23T13:00:00Z",
+            "title": "Cam Skattebo’s backflip celebration ban only lasted one week",
+            "link": "https://sports.yahoo.com/articles/cam-skattebo-backflip-celebration-ban-130000687.html",
             "source": "sports.yahoo.com",
             "tone": -1
           }
@@ -3346,6 +3346,17 @@
           "on": 0.0329,
           "off": 0.0239,
           "bets": 1
+        },
+        {
+          "id": "precision",
+          "emoji": "🎯",
+          "title": "Precise",
+          "effect": "Always demands +0.5% more edge.",
+          "from": "Precision day",
+          "since": "2026-11-23T13:45:33Z",
+          "on": 0.032,
+          "off": 0.0278,
+          "bets": 2
         }
       ],
       "mind": {
@@ -11093,10 +11104,6 @@
   "log": [
     {
       "t": "2026-11-23T09:00:58Z",
-      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-23T09:00:58Z",
       "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
     },
     {
@@ -11210,6 +11217,10 @@
     {
       "t": "2026-11-23T13:30:46Z",
       "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-23T13:45:33Z",
+      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
     }
   ]
 }
