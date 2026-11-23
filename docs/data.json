@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T02:15:31Z",
+  "updated": "2026-11-23T02:30:45Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -509,8 +509,8 @@
           "cautious": 0.0222,
           "beat": 0.7188,
           "challenges": 0.7,
-          "traits": 4,
-          "score": 38.06
+          "traits": 3,
+          "score": 36.06
         },
         {
           "who": "lizard",
@@ -3258,17 +3258,6 @@
           "on": 0.0329,
           "off": 0.0239,
           "bets": 1
-        },
-        {
-          "id": "underdog",
-          "emoji": "🐶",
-          "title": "Underdog lover",
-          "effect": "Allows underdogs at odds up to 1.0 higher.",
-          "from": "Underdog hunter",
-          "since": "2026-11-23T02:15:31Z",
-          "on": 0.0278,
-          "off": 0.029,
-          "bets": 15
         }
       ],
       "mind": {
@@ -11020,10 +11009,6 @@
   "log": [
     {
       "t": "2026-11-23T00:01:07Z",
-      "text": "🧭 🦎 The Lizard is exploring Bundesliga - Germany this week."
-    },
-    {
-      "t": "2026-11-23T00:01:07Z",
       "text": "🧭 🧮 The Quant moved on from WNCAAB (not enough bets to judge)."
     },
     {
@@ -11137,6 +11122,10 @@
     {
       "t": "2026-11-23T02:15:31Z",
       "text": "Results:\n- Lost -2.57: Cruz Azul (Winner) in Guadalajara vs Cruz Azul (Guadalajara 1 - 0 Cruz Azul)\n- Won +1.79: William & Mary Tribe (Winner) in Youngstown St Penguins vs William & Mary Tribe (Youngstown St Penguins 63 - 75 William & Mary Tribe)\n- Won +2.49: Richmond Spiders (Winner) in Richmond Spiders vs Liberty Flames (Richmond Spiders 92 - 88 Liberty Flames)\n- Won +6.23: Western Kentucky Hilltoppers (Winner) in GW Revolutionaries vs Western Kentucky Hilltoppers (GW Revolutionaries 78 - 86 Western Kentucky Hilltoppers)"
+    },
+    {
+      "t": "2026-11-23T02:30:45Z",
+      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
     }
   ]
 }
