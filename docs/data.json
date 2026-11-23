@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T19:30:47Z",
+  "updated": "2026-11-23T19:45:41Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -509,8 +509,8 @@
           "cautious": 0.0222,
           "beat": 0.7188,
           "challenges": 0.7,
-          "traits": 3,
-          "score": 36.06
+          "traits": 4,
+          "score": 38.06
         },
         {
           "who": "quant",
@@ -1111,6 +1111,20 @@
         "week": 119,
         "latest": [
           {
+            "t": "2026-11-23T18:03:22Z",
+            "title": "QPR skipper Dunne set to miss Norwich trip",
+            "link": "https://www.bbc.co.uk/sport/football/articles/c3702n9pvx8ko?at_medium=RSS&at_campaign=rss",
+            "source": "feeds.bbci.co.uk",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-23T17:27:59Z",
+            "title": "Returning players no 'magic wand' for Rams - Eustace",
+            "link": "https://www.bbc.co.uk/sport/football/articles/cv8e06y40yr4o?at_medium=RSS&at_campaign=rss",
+            "source": "feeds.bbci.co.uk",
+            "tone": 1
+          },
+          {
             "t": "2026-11-23T16:19:23Z",
             "title": "Murphy's 'long road' to Pompey return after 336 days",
             "link": "https://www.bbc.co.uk/sport/football/articles/ck3rgpv0d8pvo?at_medium=RSS&at_campaign=rss",
@@ -1136,20 +1150,6 @@
             "title": "Official: Carnesecchi to undergo knee surgery",
             "link": "https://football-italia.net/official-carnesecchi-to-undergo-knee-surgery/",
             "source": "football-italia.net",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-23T12:59:52Z",
-            "title": "Wrexham could spell end of Skubala's short tenure",
-            "link": "https://www.bbc.co.uk/sport/football/articles/c6rmgkvpyj07o?at_medium=RSS&at_campaign=rss",
-            "source": "feeds.bbci.co.uk",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-23T12:34:23Z",
-            "title": "Little solace - and no Solis - in setback at Stoke",
-            "link": "https://www.bbc.co.uk/sport/football/articles/cq23jmmn4grdo?at_medium=RSS&at_campaign=rss",
-            "source": "feeds.bbci.co.uk",
             "tone": -1
           }
         ]
@@ -2107,8 +2107,29 @@
         "measured": 0
       },
       "reading": {
-        "week": 106,
+        "week": 92,
         "latest": [
+          {
+            "t": "2026-11-23T18:51:48Z",
+            "title": "Brooklyn&#39;s Nolan Traore out 8-10 weeks with hamstring strain",
+            "link": "https://sports.yahoo.com/articles/brooklyns-nolan-traore-8-10-185148691.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-23T18:04:10Z",
+            "title": "Nets gets crushing injury update on Nolan Traore — with Mikel Brown set for big chance",
+            "link": "https://sports.yahoo.com/articles/nets-gets-crushing-injury-nolan-180410690.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-23T17:03:31Z",
+            "title": "Joel Embiid questionable (illness) for Monday vs. Trail Blazers",
+            "link": "https://sports.yahoo.com/articles/joel-embiid-questionable-illness-monday-170331674.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
           {
             "t": "2026-11-23T16:30:00Z",
             "title": "Cavs at Bulls: How to watch, odds, and injury report",
@@ -2117,39 +2138,18 @@
             "tone": -1
           },
           {
-            "t": "2026-11-23T15:23:44Z",
-            "title": "Fantasy Basketball Waiver Wire Week 6: Charles Bassey, Julian Champagnie filling in for injured stars",
-            "link": "https://sports.yahoo.com/articles/fantasy-basketball-waiver-wire-week-152344766.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-23T13:46:44Z",
-            "title": "2026-27 NBA News, Injury Updates Nov. 23: Dylan Harper, CJ McCollum out, but Brandon Ingram returning",
-            "link": "https://sports.yahoo.com/articles/2026-27-nba-news-injury-134644787.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-23T13:26:37Z",
-            "title": "NBA winners and losers after one month: Wemby soars, injuries pile up",
-            "link": "https://sports.yahoo.com/articles/nba-winners-losers-one-month-132637636.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-23T13:00:00Z",
-            "title": "Winners & Sinners: Week 5",
-            "link": "https://sports.yahoo.com/articles/winners-sinners-week-5-130000238.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-23T06:03:19Z",
-            "title": "Austin Reaves progressing, full participant in Lakers practice",
-            "link": "https://sports.yahoo.com/articles/austin-reaves-progressing-full-participant-060319526.html",
-            "source": "sports.yahoo.com",
+            "t": "2026-11-23T16:18:33Z",
+            "title": "2027 NBA Draft Big Board: Quentin Coleman's meteoric rise, Tyran Stokes stays at No. 1, returners boost stock",
+            "link": "https://www.cbssports.com/nba/news/2027-nba-draft-big-board-quentin-coleman-tyran-stokes-ivan-kharchenkov/",
+            "source": "www.cbssports.com",
             "tone": 1
+          },
+          {
+            "t": "2026-11-23T16:14:14Z",
+            "title": "Nolan Traoré set to miss 8-10 weeks, Nets announce",
+            "link": "https://sports.yahoo.com/articles/nolan-traor-set-miss-8-161414867.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
           }
         ]
       },
@@ -2569,7 +2569,7 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.015,
+        "min_edge": 0.02,
         "odds": [
           1.6,
           3.0
@@ -3078,47 +3078,47 @@
         "measured": 1
       },
       "reading": {
-        "week": 375,
+        "week": 389,
         "latest": [
           {
-            "t": "2026-11-23T16:31:31Z",
-            "title": "Kyle Whittingham names Bryce Underwood starter vs. Ohio State",
-            "link": "https://sports.yahoo.com/articles/kyle-whittingham-names-bryce-underwood-163131929.html",
+            "t": "2026-11-23T19:12:13Z",
+            "title": "UCLA Gets Ty Dieffenbach Injury Update With Playoff Stakes Rising",
+            "link": "https://sports.yahoo.com/articles/ucla-gets-ty-dieffenbach-injury-191213113.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-23T16:30:00Z",
-            "title": "Michigan Football: Kyle Whittingham press conference pre-Ohio State",
-            "link": "https://sports.yahoo.com/articles/michigan-football-kyle-whittingham-press-163000727.html",
+            "t": "2026-11-23T19:05:52Z",
+            "title": "Wake Forest leading rusher Ty Clark III to miss the rest of the season due to injury",
+            "link": "https://sports.yahoo.com/college-football/breaking-news/article/wake-forest-leading-rusher-ty-clark-iii-to-miss-the-rest-of-the-season-due-to-injury-190552718.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-23T16:01:41Z",
-            "title": "Browns Week 12 vs. Raiders: Thanksgiving Week practice schedule is different than usual",
-            "link": "https://sports.yahoo.com/articles/browns-week-12-vs-raiders-160141213.html",
+            "t": "2026-11-23T19:04:53Z",
+            "title": "TCU needs a coach. Lincoln Riley is from Texas. Could this actually happen?",
+            "link": "https://sports.yahoo.com/articles/tcu-needs-coach-lincoln-riley-190453556.html",
             "source": "sports.yahoo.com",
             "tone": 1
           },
           {
-            "t": "2026-11-23T15:29:37Z",
-            "title": "Kyle Whittingham Names Starting QB, Gives Injury Update Prior to Ohio State Game",
-            "link": "https://sports.yahoo.com/articles/kyle-whittingham-names-starting-qb-152937440.html",
+            "t": "2026-11-23T18:57:01Z",
+            "title": "NFL Injury Report, Week 12: Latest news, updates for Kenneth Walker III, Brock Bowers, more players for fantasy football",
+            "link": "https://sports.yahoo.com/fantasy/article/nfl-injury-report-week-12-latest-news-updates-for-kenneth-walker-iii-brock-bowers-more-players-for-fantasy-football-185701559.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-23T15:25:43Z",
-            "title": "Lions vs. Bucs snap counts: Derrick Moore levels up; return of 3-safety sets",
-            "link": "https://sports.yahoo.com/articles/lions-vs-bucs-snap-counts-152543786.html",
+            "t": "2026-11-23T18:36:42Z",
+            "title": "Patriots not closing the door on Drake Maye returning this season",
+            "link": "https://sports.yahoo.com/articles/patriots-not-closing-door-drake-183642775.html",
             "source": "sports.yahoo.com",
-            "tone": 1
+            "tone": -1
           },
           {
-            "t": "2026-11-23T15:06:22Z",
-            "title": "Tennessee fined $250,000 after fans threw mustard and golf balls at coach",
-            "link": "https://sports.yahoo.com/articles/tennessee-fined-250-000-fans-150511281.html",
+            "t": "2026-11-23T18:31:20Z",
+            "title": "Oklahoma’s Jason Witten Decision Saved Season",
+            "link": "https://sports.yahoo.com/articles/oklahoma-jason-witten-decision-saved-183120035.html",
             "source": "sports.yahoo.com",
             "tone": -1
           }
@@ -3363,6 +3363,17 @@
           "on": 0.0329,
           "off": 0.0239,
           "bets": 1
+        },
+        {
+          "id": "precision",
+          "emoji": "🎯",
+          "title": "Precise",
+          "effect": "Always demands +0.5% more edge.",
+          "from": "Precision day",
+          "since": "2026-11-23T19:45:41Z",
+          "on": 0.032,
+          "off": 0.0278,
+          "bets": 2
         }
       ],
       "mind": {
@@ -11108,10 +11119,6 @@
   "log": [
     {
       "t": "2026-11-23T16:15:35Z",
-      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-23T16:15:35Z",
       "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
     },
     {
@@ -11225,6 +11232,10 @@
     {
       "t": "2026-11-23T19:30:47Z",
       "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-23T19:45:41Z",
+      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
     }
   ]
 }
