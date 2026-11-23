@@ -51,10 +51,6 @@
   },
   "log": [
     {
-      "t": "2026-11-23T09:00:58Z",
-      "text": "Results:\n- Won +7.21: San Francisco 49ers (Winner) in San Francisco 49ers vs Minnesota Vikings (San Francisco 49ers 35 - 10 Minnesota Vikings)"
-    },
-    {
       "t": "2026-11-23T09:10:03Z",
       "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
     },
@@ -169,6 +165,10 @@
     {
       "t": "2026-11-23T14:01:01Z",
       "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
+    },
+    {
+      "t": "2026-11-23T14:15:33Z",
+      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
     }
   ],
   "levels": {
@@ -2855,12 +2855,6 @@
         "on": 0.0329,
         "off": 0.0239,
         "bets": 1
-      },
-      "underdog": {
-        "since": "2026-11-23T14:01:01Z",
-        "on": 0.0278,
-        "off": 0.029,
-        "bets": 15
       }
     }
   },
