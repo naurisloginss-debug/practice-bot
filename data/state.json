@@ -51,14 +51,6 @@
   },
   "log": [
     {
-      "t": "2026-11-23T13:01:01Z",
-      "text": "Placed 5 practice bets:\n- The Lizard: **Draw** (Winner) in Cremonese vs Avellino (Serie B (Italy 2)) at 3.35 on LeoVegas (SE), stake 3.40, edge +2.4%\n- The Quant: **Indiana Pacers** (Winner) in Indiana Pacers vs Oklahoma City Thunder (NBA) at 2.8 on Unibet (NL), stake 4.25, edge +2.7%\n- The Quant: **Tulsa Golden Hurricane** (Winner) in Oregon St Beavers vs Tulsa Golden Hurricane (College basketball (US)) at 3.45 on Everygame, stake 3.14, edge +2.8%\n- The Lizard 🧭 scout: **Under 2.5** (Total) in Internacional vs Vitoria (Brasileirão (Brazil)) at 1.91 on Coolbet, stake 2.52, edge +0.9%\n- The Quant 🧭 scout: **Under 224.5** (Total) in Minnesota Timberwolves vs Brooklyn Nets (NBA) at 1.95 on 888sport, stake 2.33, edge +0.8%"
-    },
-    {
-      "t": "2026-11-23T13:15:34Z",
-      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
-    },
-    {
       "t": "2026-11-23T13:15:34Z",
       "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
     },
@@ -169,6 +161,14 @@
     {
       "t": "2026-11-23T17:01:09Z",
       "text": "Placed 12 practice bets:\n- The Lizard: **Yokohama F Marinos** (Winner) in Avispa Fukuoka vs Yokohama F Marinos (J-League (Japan)) at 2.63 on LeoVegas (SE), stake 5.84, edge +2.9%\n- The Quant: **Portland Trail Blazers** (Winner) in Philadelphia 76ers vs Portland Trail Blazers (NBA) at 2.3 on BetAnything, stake 10.24, edge +4.8%\n- The Quant: **IUPUI Jaguars** (Winner) in IUPUI Jaguars vs William & Mary Tribe (College basketball (US)) at 3.15 on BetOnline.ag, stake 3.70, edge +2.8%\n- The Quant: **San Francisco Dons** (Winner) in San Francisco Dons vs Nevada Wolf Pack (College basketball (US)) at 3.7 on LeoVegas (SE), stake 2.17, edge +2.1%\n- The Quant: **FC Bayern München -3.5** (Spread) in FC Bayern München vs Maccabi Tel Aviv (EuroLeague) at 2.0 on 888sport, stake 5.83, edge +2.1%\n- The Quant: **Over 174.5** (Total) in Valencia Basket vs Panathinaikos (EuroLeague) at 2.0 on 888sport, stake 15.18, edge +5.4%\n- The Quant: **Valencia Basket** (Winner) in Valencia Basket vs Panathinaikos (EuroLeague) at 2.0 on 888sport, stake 6.54, edge +2.3%\n- The Shark: **Clemson Tigers** (Winner) in Clemson Tigers vs South Carolina Gamecocks (College football (US)) at 2.9 on Marathon Bet, stake 3.86, edge +1.9%\n- The Shark ⚡ pounce: **Vanderbilt Commodores** (Winner) in Vanderbilt Commodores vs Tennessee Volunteers (College football (US)) at 6.0 on MyBookie.ag, stake 4.29, edge +14.6%\n- The Quant 🧭 scout: **Paris Basketball** (Winner) in Beşiktaş J.K. vs Paris Basketball (EuroLeague) at 2.0 on 888sport, stake 2.33, edge +1.3%\n- The Quant 💭 gut: **Charlotte Hornets** (Winner) in Charlotte Hornets vs Memphis Grizzlies (NBA) at 2.36 on Matchbook, stake 2.33, edge +-0.6%\n- The Quant 💭 gut: **Eastern Washington Eagles** (Winner) in UNLV Rebels vs Eastern Washington Eagles (College basketball (US)) at 3.74 on BetOnline.ag, stake 2.33, edge +1.6%"
+    },
+    {
+      "t": "2026-11-23T17:15:36Z",
+      "text": "🧬 🧮 The Quant dropped the 🎯 Precise trait: it stopped working (-0.0% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-23T17:15:36Z",
+      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
     }
   ],
   "levels": {
@@ -2836,12 +2836,6 @@
         "on": 0.016,
         "off": 0.006,
         "bets": 9
-      },
-      "precision": {
-        "since": "2026-11-23T17:01:09Z",
-        "on": 0.0439,
-        "off": 0.0085,
-        "bets": 2
       }
     },
     "shark": {
@@ -2862,12 +2856,6 @@
         "on": 0.0329,
         "off": 0.0239,
         "bets": 1
-      },
-      "underdog": {
-        "since": "2026-11-23T17:01:09Z",
-        "on": 0.0278,
-        "off": 0.029,
-        "bets": 15
       }
     }
   },
