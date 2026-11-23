@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T18:01:04Z",
+  "updated": "2026-11-23T18:15:32Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -509,20 +509,8 @@
           "cautious": 0.0222,
           "beat": 0.7188,
           "challenges": 0.7,
-          "traits": 3,
-          "score": 36.06
-        },
-        {
-          "who": "quant",
-          "eligible": true,
-          "measured": 49,
-          "need": 0,
-          "clv": 0.0059,
-          "cautious": -0.0035,
-          "beat": 0.5306,
-          "challenges": 0.545,
-          "traits": 3,
-          "score": 5.89
+          "traits": 4,
+          "score": 38.06
         },
         {
           "who": "lizard",
@@ -535,12 +523,24 @@
           "challenges": 0.3,
           "traits": 2,
           "score": 5.61
+        },
+        {
+          "who": "quant",
+          "eligible": true,
+          "measured": 49,
+          "need": 0,
+          "clv": 0.0059,
+          "cautious": -0.0035,
+          "beat": 0.5306,
+          "challenges": 0.545,
+          "traits": 2,
+          "score": 3.89
         }
       ],
       "ranking": [
         "shark",
-        "quant",
-        "lizard"
+        "lizard",
+        "quant"
       ],
       "leader": "shark"
     }
@@ -1576,7 +1576,7 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.02,
+        "min_edge": 0.015,
         "odds": [
           1.6,
           4.5
@@ -2378,17 +2378,6 @@
           "on": 0.016,
           "off": 0.006,
           "bets": 9
-        },
-        {
-          "id": "precision",
-          "emoji": "🎯",
-          "title": "Precise",
-          "effect": "Always demands +0.5% more edge.",
-          "from": "Precision day",
-          "since": "2026-11-23T18:01:04Z",
-          "on": 0.0439,
-          "off": 0.0085,
-          "bets": 2
         }
       ],
       "mind": {
@@ -2565,7 +2554,7 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.015,
+        "min_edge": 0.02,
         "odds": [
           1.6,
           3.0
@@ -3359,6 +3348,17 @@
           "on": 0.0329,
           "off": 0.0239,
           "bets": 1
+        },
+        {
+          "id": "precision",
+          "emoji": "🎯",
+          "title": "Precise",
+          "effect": "Always demands +0.5% more edge.",
+          "from": "Precision day",
+          "since": "2026-11-23T18:15:32Z",
+          "on": 0.032,
+          "off": 0.0278,
+          "bets": 2
         }
       ],
       "mind": {
@@ -11103,14 +11103,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-23T14:45:33Z",
-      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-23T14:45:33Z",
-      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
-    },
-    {
       "t": "2026-11-23T15:01:11Z",
       "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
     },
@@ -11221,6 +11213,14 @@
     {
       "t": "2026-11-23T18:01:04Z",
       "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-23T18:15:32Z",
+      "text": "🧬 🧮 The Quant dropped the 🎯 Precise trait: it stopped working (-0.0% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-23T18:15:32Z",
+      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
     }
   ]
 }
