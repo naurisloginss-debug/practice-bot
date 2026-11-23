@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T05:30:46Z",
+  "updated": "2026-11-23T05:45:31Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -509,8 +509,8 @@
           "cautious": 0.0222,
           "beat": 0.7188,
           "challenges": 0.7,
-          "traits": 3,
-          "score": 36.06
+          "traits": 4,
+          "score": 38.06
         },
         {
           "who": "lizard",
@@ -545,7 +545,7 @@
       "leader": "shark"
     }
   },
-  "credits_left": 17740,
+  "credits_left": 17738,
   "last_scan": "2026-11-23@5",
   "strategies": {
     "lizard": {
@@ -1586,15 +1586,15 @@
         "Winner"
       ],
       "start_fund": 500,
-      "fund": 467.7,
+      "fund": 470.28,
       "lessons": [],
       "bets": 99,
-      "open": 7,
-      "won": 38,
-      "lost": 54,
-      "staked": 602.59,
-      "profit": -32.3,
-      "roi": -0.0536,
+      "open": 3,
+      "won": 40,
+      "lost": 56,
+      "staked": 609.73,
+      "profit": -29.72,
+      "roi": -0.0487,
       "avg_edge": 0.0317,
       "avg_clv": 0.0077,
       "beat_close": 0.525,
@@ -1971,14 +1971,30 @@
         {
           "t": "2026-11-23T02:15:31Z",
           "fund": 467.7
+        },
+        {
+          "t": "2026-11-23T05:45:31Z",
+          "fund": 465.39
+        },
+        {
+          "t": "2026-11-23T05:45:31Z",
+          "fund": 463.49
+        },
+        {
+          "t": "2026-11-23T05:45:31Z",
+          "fund": 466.76
+        },
+        {
+          "t": "2026-11-23T05:45:31Z",
+          "fund": 470.28
         }
       ],
       "by_league": [
         {
           "name": "NBA",
           "bets": 25,
-          "profit": -21.71,
-          "roi": -0.4675,
+          "profit": -19.13,
+          "roi": -0.357,
           "avg_clv": 0.011,
           "beat_close": 0.6,
           "clv_count": 25
@@ -2015,8 +2031,8 @@
         {
           "name": "Winner",
           "bets": 67,
-          "profit": -25.96,
-          "roi": -0.1724,
+          "profit": -23.38,
+          "roi": -0.1483,
           "avg_clv": 0.0124,
           "beat_close": 0.5606,
           "clv_count": 66
@@ -2035,8 +2051,8 @@
         {
           "name": "Basketball",
           "bets": 99,
-          "profit": -32.3,
-          "roi": -0.0536,
+          "profit": -29.72,
+          "roi": -0.0487,
           "avg_clv": 0.0077,
           "beat_close": 0.525,
           "clv_count": 80
@@ -2476,24 +2492,24 @@
           },
           {
             "conf": "solid",
-            "n": 118,
+            "n": 124,
             "z": 0,
             "text": "The market prices overs in NBA accurately.",
-            "detail": "50% happened, 50% priced, 118 games"
+            "detail": "51% happened, 50% priced, 124 games"
           },
           {
             "conf": "solid",
-            "n": 88,
+            "n": 94,
             "z": 0,
             "text": "The market prices home wins in NBA accurately.",
-            "detail": "51% happened, 53% priced, 88 games"
+            "detail": "52% happened, 53% priced, 94 games"
           },
           {
             "conf": "solid",
-            "n": 88,
+            "n": 94,
             "z": 0,
             "text": "The market prices away wins in NBA accurately.",
-            "detail": "49% happened, 47% priced, 88 games"
+            "detail": "48% happened, 47% priced, 94 games"
           },
           {
             "conf": "solid",
@@ -2505,7 +2521,7 @@
         ],
         "rules": 0,
         "studied": 749,
-        "resolved": 715
+        "resolved": 721
       }
     },
     "shark": {
@@ -2520,7 +2536,7 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.015,
+        "min_edge": 0.02,
         "odds": [
           1.6,
           3.0
@@ -3310,6 +3326,17 @@
           "on": 0.0329,
           "off": 0.0239,
           "bets": 1
+        },
+        {
+          "id": "precision",
+          "emoji": "🎯",
+          "title": "Precise",
+          "effect": "Always demands +0.5% more edge.",
+          "from": "Precision day",
+          "since": "2026-11-23T05:45:31Z",
+          "on": 0.032,
+          "off": 0.0278,
+          "bets": 2
         }
       ],
       "mind": {
@@ -4644,12 +4671,12 @@
       "fair_odds": 3.953,
       "edge": 0.0214,
       "stake": 1.16,
-      "status": "open",
+      "status": "won",
       "closing_fair_odds": 3.924,
       "clv": 0.0291,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": 3.52,
+      "score": "Golden State Warriors 88 - 87 Boston Celtics",
+      "settled_at": "2026-11-23T05:45:31Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates Golden State Warriors at 25.3%. That makes the fair price 3.95.",
         "Matchbook pays 4.10 (4.04 after the exchange fee). That is +2.1% above fair. My bar is +1.5%.",
@@ -4724,12 +4751,12 @@
       "fair_odds": 4.15,
       "edge": 0.0121,
       "stake": 2.31,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 3.597,
       "clv": 0.1676,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -2.31,
+      "score": "New York Knicks 113 - 106 Indiana Pacers",
+      "settled_at": "2026-11-23T05:45:31Z",
       "thoughts": [
         "🧭 Exploring. I've only made 0 bets like this (NBA winner bets at long shots).",
         "Indiana Pacers at 4.20 is +1.21% above fair: below my usual bar, but the only way to learn if this kind of bet works for me is to try it.",
@@ -4873,12 +4900,12 @@
       "fair_odds": 3.992,
       "edge": 0.036,
       "stake": 1.9,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 4.323,
       "clv": -0.0432,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -1.9,
+      "score": "Chicago Bulls 145 - 151 Denver Nuggets",
+      "settled_at": "2026-11-23T05:45:31Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates Chicago Bulls at 25.0%. That makes the fair price 3.99.",
         "Matchbook pays 4.20 (4.14 after the exchange fee). That is +3.6% above fair. My bar is +1.5%.",
@@ -4912,12 +4939,12 @@
       "fair_odds": 2.795,
       "edge": 0.0198,
       "stake": 1.77,
-      "status": "open",
+      "status": "won",
       "closing_fair_odds": 2.809,
       "clv": 0.0145,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": 3.27,
+      "score": "Washington Wizards 116 - 96 Orlando Magic",
+      "settled_at": "2026-11-23T05:45:31Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates Washington Wizards at 35.8%. That makes the fair price 2.79.",
         "Unibet (SE) pays 2.85. That is +2.0% above fair. My bar is +1.5%.",
@@ -11060,14 +11087,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-23T01:15:31Z",
-      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
-    },
-    {
-      "t": "2026-11-23T01:30:45Z",
-      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
-    },
-    {
       "t": "2026-11-23T01:30:45Z",
       "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
     },
@@ -11178,6 +11197,14 @@
     {
       "t": "2026-11-23T05:30:46Z",
       "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-23T05:45:31Z",
+      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
+    },
+    {
+      "t": "2026-11-23T05:45:31Z",
+      "text": "Results:\n- Lost -2.31: Indiana Pacers (Winner) in New York Knicks vs Indiana Pacers (New York Knicks 113 - 106 Indiana Pacers)\n- Lost -1.90: Chicago Bulls (Winner) in Chicago Bulls vs Denver Nuggets (Chicago Bulls 145 - 151 Denver Nuggets)\n- Won +3.27: Washington Wizards (Winner) in Washington Wizards vs Orlando Magic (Washington Wizards 116 - 96 Orlando Magic)\n- Won +3.52: Golden State Warriors (Winner) in Golden State Warriors vs Boston Celtics (Golden State Warriors 88 - 87 Boston Celtics)"
     }
   ]
 }
