@@ -51,14 +51,6 @@
   },
   "log": [
     {
-      "t": "2026-11-23T08:15:35Z",
-      "text": "Results:\n- Lost -1.80: Tenn-Martin Skyhawks (Winner) in Utah Valley Wolverines vs Tenn-Martin Skyhawks (Utah Valley Wolverines 78 - 76 Tenn-Martin Skyhawks)\n- Lost -2.29: UC San Diego Tritons -1.5 (Spread) in UC San Diego Tritons vs Seattle Redhawks (UC San Diego Tritons 64 - 90 Seattle Redhawks)\n- Lost -2.49: Necaxa (Winner) in Querétaro vs Necaxa (Querétaro 2 - 2 Necaxa)"
-    },
-    {
-      "t": "2026-11-23T08:30:52Z",
-      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
-    },
-    {
       "t": "2026-11-23T08:45:32Z",
       "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
     },
@@ -169,6 +161,14 @@
     {
       "t": "2026-11-23T13:01:01Z",
       "text": "Placed 5 practice bets:\n- The Lizard: **Draw** (Winner) in Cremonese vs Avellino (Serie B (Italy 2)) at 3.35 on LeoVegas (SE), stake 3.40, edge +2.4%\n- The Quant: **Indiana Pacers** (Winner) in Indiana Pacers vs Oklahoma City Thunder (NBA) at 2.8 on Unibet (NL), stake 4.25, edge +2.7%\n- The Quant: **Tulsa Golden Hurricane** (Winner) in Oregon St Beavers vs Tulsa Golden Hurricane (College basketball (US)) at 3.45 on Everygame, stake 3.14, edge +2.8%\n- The Lizard 🧭 scout: **Under 2.5** (Total) in Internacional vs Vitoria (Brasileirão (Brazil)) at 1.91 on Coolbet, stake 2.52, edge +0.9%\n- The Quant 🧭 scout: **Under 224.5** (Total) in Minnesota Timberwolves vs Brooklyn Nets (NBA) at 1.95 on 888sport, stake 2.33, edge +0.8%"
+    },
+    {
+      "t": "2026-11-23T13:15:34Z",
+      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-23T13:15:34Z",
+      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
     }
   ],
   "levels": {
@@ -2856,11 +2856,11 @@
         "off": 0.0239,
         "bets": 1
       },
-      "precision": {
-        "since": "2026-11-23T13:01:01Z",
-        "on": 0.032,
-        "off": 0.0278,
-        "bets": 2
+      "underdog": {
+        "since": "2026-11-23T13:15:34Z",
+        "on": 0.0278,
+        "off": 0.029,
+        "bets": 15
       }
     }
   },
