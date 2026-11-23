@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T22:15:40Z",
+  "updated": "2026-11-23T22:30:47Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -509,8 +509,8 @@
           "cautious": 0.0222,
           "beat": 0.7188,
           "challenges": 0.7,
-          "traits": 3,
-          "score": 36.06
+          "traits": 4,
+          "score": 38.06
         },
         {
           "who": "quant",
@@ -545,7 +545,7 @@
       "leader": "shark"
     }
   },
-  "credits_left": 17523,
+  "credits_left": 17521,
   "last_scan": "2026-11-23@21",
   "strategies": {
     "lizard": {
@@ -1561,7 +1561,7 @@
         ],
         "rules": 0,
         "studied": 263,
-        "resolved": 210
+        "resolved": 211
       }
     },
     "quant": {
@@ -2580,7 +2580,7 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.015,
+        "min_edge": 0.02,
         "odds": [
           1.6,
           3.0
@@ -3374,6 +3374,17 @@
           "on": 0.0329,
           "off": 0.0239,
           "bets": 1
+        },
+        {
+          "id": "precision",
+          "emoji": "🎯",
+          "title": "Precise",
+          "effect": "Always demands +0.5% more edge.",
+          "from": "Precision day",
+          "since": "2026-11-23T22:30:47Z",
+          "on": 0.032,
+          "off": 0.0278,
+          "bets": 2
         }
       ],
       "mind": {
@@ -11121,10 +11132,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-23T18:01:04Z",
-      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
-    },
-    {
       "t": "2026-11-23T18:15:32Z",
       "text": "🧬 🧮 The Quant dropped the 🎯 Precise trait: it stopped working (-0.0% vs the market on those days)."
     },
@@ -11239,6 +11246,10 @@
     {
       "t": "2026-11-23T22:15:40Z",
       "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-23T22:30:47Z",
+      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
     }
   ]
 }
