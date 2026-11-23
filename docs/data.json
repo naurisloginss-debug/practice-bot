@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T06:00:56Z",
+  "updated": "2026-11-23T06:15:39Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -509,8 +509,8 @@
           "cautious": 0.0222,
           "beat": 0.7188,
           "challenges": 0.7,
-          "traits": 4,
-          "score": 38.06
+          "traits": 3,
+          "score": 36.06
         },
         {
           "who": "lizard",
@@ -545,7 +545,7 @@
       "leader": "shark"
     }
   },
-  "credits_left": 17738,
+  "credits_left": 17736,
   "last_scan": "2026-11-23@5",
   "strategies": {
     "lizard": {
@@ -590,7 +590,7 @@
         "Total"
       ],
       "start_fund": 500,
-      "fund": 490.82,
+      "fund": 506.31,
       "lessons": [
         {
           "kind": "avoid",
@@ -604,12 +604,12 @@
         }
       ],
       "bets": 92,
-      "open": 19,
-      "won": 22,
+      "open": 18,
+      "won": 23,
       "lost": 51,
-      "staked": 174.88,
-      "profit": -9.18,
-      "roi": -0.0525,
+      "staked": 188.59,
+      "profit": 6.31,
+      "roi": 0.0335,
       "avg_edge": 0.0312,
       "avg_clv": 0.0034,
       "beat_close": 0.6479,
@@ -910,14 +910,18 @@
         {
           "t": "2026-11-23T04:15:32Z",
           "fund": 490.82
+        },
+        {
+          "t": "2026-11-23T06:15:39Z",
+          "fund": 506.31
         }
       ],
       "by_league": [
         {
           "name": "MLS (USA)",
           "bets": 3,
-          "profit": 8.17,
-          "roi": 1.7495,
+          "profit": 23.66,
+          "roi": 1.2873,
           "avg_clv": 0.0415,
           "beat_close": 0.5,
           "clv_count": 2
@@ -1035,8 +1039,8 @@
         {
           "name": "Total",
           "bets": 9,
-          "profit": 1.91,
-          "roi": 0.0865,
+          "profit": 17.4,
+          "roi": 0.4862,
           "avg_clv": 0.0246,
           "beat_close": 0.8,
           "clv_count": 5
@@ -1064,8 +1068,8 @@
         {
           "name": "Football",
           "bets": 92,
-          "profit": -9.18,
-          "roi": -0.0525,
+          "profit": 6.31,
+          "roi": 0.0335,
           "avg_clv": 0.0034,
           "beat_close": 0.6479,
           "clv_count": 71
@@ -1553,7 +1557,7 @@
         ],
         "rules": 0,
         "studied": 257,
-        "resolved": 208
+        "resolved": 210
       }
     },
     "quant": {
@@ -3326,17 +3330,6 @@
           "on": 0.0329,
           "off": 0.0239,
           "bets": 1
-        },
-        {
-          "id": "underdog",
-          "emoji": "🐶",
-          "title": "Underdog lover",
-          "effect": "Allows underdogs at odds up to 1.0 higher.",
-          "from": "Underdog hunter",
-          "since": "2026-11-23T06:00:56Z",
-          "on": 0.0278,
-          "off": 0.029,
-          "bets": 15
         }
       ],
       "mind": {
@@ -4979,12 +4972,12 @@
       "fair_odds": 2.005,
       "edge": 0.0622,
       "stake": 13.71,
-      "status": "open",
+      "status": "won",
       "closing_fair_odds": 1.965,
       "clv": 0.0842,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": 15.49,
+      "score": "Chicago Fire 1 - 2 Charlotte FC",
+      "settled_at": "2026-11-23T06:15:39Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates Under 3.5 at 49.9%. That makes the fair price 2.00.",
         "BetAnything pays 2.13. That is +6.2% above fair. My bar is +2.0%.",
@@ -11087,14 +11080,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-23T02:00:54Z",
-      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
-    },
-    {
-      "t": "2026-11-23T02:00:54Z",
-      "text": "🏅 🧮 The Quant unlocked 🔥 On Fire: Beat the market 5 bets in a row."
-    },
-    {
       "t": "2026-11-23T02:15:31Z",
       "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
     },
@@ -11205,6 +11190,14 @@
     {
       "t": "2026-11-23T06:00:56Z",
       "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
+    },
+    {
+      "t": "2026-11-23T06:15:39Z",
+      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-23T06:15:39Z",
+      "text": "Results:\n- Won +15.49: Under 3.5 (Total) in Chicago Fire vs Charlotte FC (Chicago Fire 1 - 2 Charlotte FC)"
     }
   ]
 }

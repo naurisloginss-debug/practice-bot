@@ -1,6 +1,6 @@
 {
   "last_scan": "2026-11-23@5",
-  "credits_left": 17738,
+  "credits_left": 17736,
   "league_names": {
     "soccer_italy_serie_b": "Serie B (Italy 2)",
     "soccer_efl_champ": "Championship (England 2)",
@@ -42,7 +42,7 @@
     "soccer_england_league1": "2026-11-21T21:45:32Z",
     "soccer_brazil_campeonato": "2026-11-23T04:00:54Z",
     "americanfootball_cfl": "2026-11-16T08:01:11Z",
-    "soccer_usa_mls": "2026-11-23T00:01:07Z",
+    "soccer_usa_mls": "2026-11-23T06:15:39Z",
     "soccer_australia_aleague": "2026-11-22T05:00:54Z",
     "soccer_japan_j_league": "2026-11-21T14:00:56Z",
     "soccer_argentina_primera_division": "2026-11-23T04:00:54Z",
@@ -50,14 +50,6 @@
     "americanfootball_ncaaf_fcs": "2026-11-22T08:30:53Z"
   },
   "log": [
-    {
-      "t": "2026-11-23T02:00:54Z",
-      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
-    },
-    {
-      "t": "2026-11-23T02:00:54Z",
-      "text": "🏅 🧮 The Quant unlocked 🔥 On Fire: Beat the market 5 bets in a row."
-    },
     {
       "t": "2026-11-23T02:15:31Z",
       "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
@@ -169,6 +161,14 @@
     {
       "t": "2026-11-23T06:00:56Z",
       "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
+    },
+    {
+      "t": "2026-11-23T06:15:39Z",
+      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-23T06:15:39Z",
+      "text": "Results:\n- Won +15.49: Under 3.5 (Total) in Chicago Fire vs Charlotte FC (Chicago Fire 1 - 2 Charlotte FC)"
     }
   ],
   "levels": {
@@ -2855,12 +2855,6 @@
         "on": 0.0329,
         "off": 0.0239,
         "bets": 1
-      },
-      "underdog": {
-        "since": "2026-11-23T06:00:56Z",
-        "on": 0.0278,
-        "off": 0.029,
-        "bets": 15
       }
     }
   },
