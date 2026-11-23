@@ -1,6 +1,6 @@
 {
   "last_scan": "2026-11-23@17",
-  "credits_left": 17580,
+  "credits_left": 17579,
   "league_names": {
     "soccer_italy_serie_b": "Serie B (Italy 2)",
     "soccer_efl_champ": "Championship (England 2)",
@@ -50,14 +50,6 @@
     "americanfootball_ncaaf_fcs": "2026-11-22T08:30:53Z"
   },
   "log": [
-    {
-      "t": "2026-11-23T16:45:38Z",
-      "text": "🧬 🧮 The Quant dropped the 🎯 Precise trait: it stopped working (-0.0% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-23T16:45:38Z",
-      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
-    },
     {
       "t": "2026-11-23T17:01:09Z",
       "text": "🧬 🧮 The Quant made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-23 and its bets beat the market by +4.4%. Always demands +0.5% more edge."
@@ -169,6 +161,14 @@
     {
       "t": "2026-11-23T20:15:41Z",
       "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-23T20:30:47Z",
+      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
+    },
+    {
+      "t": "2026-11-23T20:30:47Z",
+      "text": "🏅 🧮 The Quant unlocked 🧪 Self-Critic: Cut or backed a kind of bet based on its own record."
     }
   ],
   "levels": {
@@ -198,7 +198,8 @@
       "pattern": "2026-11-15T02:01:01Z",
       "rule": "2026-11-15T02:01:01Z",
       "iq120": "2026-11-16T07:00:54Z",
-      "on_fire": "2026-11-23T02:00:54Z"
+      "on_fire": "2026-11-23T02:00:54Z",
+      "lesson": "2026-11-23T20:30:47Z"
     },
     "shark": {
       "first_blood": "2026-11-07T16:00:52Z",
@@ -460,7 +461,7 @@
       },
       {
         "d": "2026-11-23",
-        "iq": 137
+        "iq": 140
       }
     ],
     "shark": [
@@ -2862,6 +2863,12 @@
         "on": 0.0329,
         "off": 0.0239,
         "bets": 1
+      },
+      "precision": {
+        "since": "2026-11-23T20:30:47Z",
+        "on": 0.032,
+        "off": 0.0278,
+        "bets": 2
       }
     }
   },
