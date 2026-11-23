@@ -12681,7 +12681,10 @@
       "point": 47.0,
       "over": 0.4845
     },
-    "result": null
+    "result": [
+      35.0,
+      10.0
+    ]
   },
   "68cfa1aec1d5f4115ca07e6237dfa6fd": {
     "league": "soccer_australia_aleague",
@@ -23466,6 +23469,97 @@
     },
     "tot": {
       "point": 40.5,
+      "over": 0.5
+    },
+    "result": null
+  },
+  "acbf7c0545986cd60dd4e4cb0152bd41": {
+    "league": "soccer_australia_aleague",
+    "start": "2026-11-27T08:40:00Z",
+    "home": "Macarthur FC",
+    "away": "Melbourne City",
+    "h2h": {
+      "home": 0.2804,
+      "away": 0.4562,
+      "draw": 0.2634
+    },
+    "tot": {
+      "point": 2.75,
+      "over": 0.5
+    },
+    "result": null
+  },
+  "c9b6c9f77fd3628308dd34f50854a9c0": {
+    "league": "basketball_nba",
+    "start": "2026-11-24T00:40:00Z",
+    "home": "Indiana Pacers",
+    "away": "Oklahoma City Thunder",
+    "h2h": {
+      "home": 0.366,
+      "away": 0.634
+    },
+    "tot": {
+      "point": 223.0,
+      "over": 0.5013
+    },
+    "result": null
+  },
+  "b8dfee1fca57ec870528a14c792ad73a": {
+    "league": "basketball_nba",
+    "start": "2026-11-24T01:10:00Z",
+    "home": "Chicago Bulls",
+    "away": "Cleveland Cavaliers",
+    "h2h": {
+      "home": 0.2625,
+      "away": 0.7375
+    },
+    "tot": {
+      "point": 240.5,
+      "over": 0.5065
+    },
+    "result": null
+  },
+  "6caeb7cce7c8340fed588f3badd83fe0": {
+    "league": "basketball_nba",
+    "start": "2026-11-24T01:10:00Z",
+    "home": "New Orleans Pelicans",
+    "away": "Phoenix Suns",
+    "h2h": {
+      "home": 0.4175,
+      "away": 0.5825
+    },
+    "tot": {
+      "point": 233.0,
+      "over": 0.5
+    },
+    "result": null
+  },
+  "3e9dc52cb055c0154839c4aec417955b": {
+    "league": "basketball_nba",
+    "start": "2026-11-24T03:10:00Z",
+    "home": "Los Angeles Lakers",
+    "away": "Utah Jazz",
+    "h2h": {
+      "home": 0.858,
+      "away": 0.142
+    },
+    "tot": {
+      "point": 227.5,
+      "over": 0.4961
+    },
+    "result": null
+  },
+  "17f31499f145cd9d3232819395d29448": {
+    "league": "basketball_nba",
+    "start": "2026-11-24T03:10:00Z",
+    "home": "Sacramento Kings",
+    "away": "San Antonio Spurs",
+    "h2h": {
+      "home": 0.202,
+      "away": 0.798
+    },
+    "tot": {
+      "point": 223.5,
       "over": 0.5
     },
     "result": null
