@@ -1,6 +1,6 @@
 {
   "last_scan": "2026-11-23@5",
-  "credits_left": 17736,
+  "credits_left": 17732,
   "league_names": {
     "soccer_italy_serie_b": "Serie B (Italy 2)",
     "soccer_efl_champ": "Championship (England 2)",
@@ -36,7 +36,7 @@
     "basketball_nba": "2026-11-23T05:45:31Z",
     "basketball_euroleague": "2026-11-21T02:45:32Z",
     "americanfootball_ncaaf": "2026-11-22T08:15:32Z",
-    "basketball_ncaab": "2026-11-23T02:15:31Z",
+    "basketball_ncaab": "2026-11-23T08:15:35Z",
     "basketball_nbl": "2026-11-15T13:15:30Z",
     "soccer_england_league2": "2026-11-21T21:45:32Z",
     "soccer_england_league1": "2026-11-21T21:45:32Z",
@@ -46,22 +46,10 @@
     "soccer_australia_aleague": "2026-11-22T05:00:54Z",
     "soccer_japan_j_league": "2026-11-21T14:00:56Z",
     "soccer_argentina_primera_division": "2026-11-23T04:00:54Z",
-    "soccer_mexico_ligamx": "2026-11-23T02:15:31Z",
+    "soccer_mexico_ligamx": "2026-11-23T08:15:35Z",
     "americanfootball_ncaaf_fcs": "2026-11-22T08:30:53Z"
   },
   "log": [
-    {
-      "t": "2026-11-23T03:30:45Z",
-      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
-    },
-    {
-      "t": "2026-11-23T03:45:31Z",
-      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-23T03:45:31Z",
-      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
-    },
     {
       "t": "2026-11-23T04:00:54Z",
       "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
@@ -169,6 +157,18 @@
     {
       "t": "2026-11-23T08:00:58Z",
       "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
+    },
+    {
+      "t": "2026-11-23T08:15:35Z",
+      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-23T08:15:35Z",
+      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
+    },
+    {
+      "t": "2026-11-23T08:15:35Z",
+      "text": "Results:\n- Lost -1.80: Tenn-Martin Skyhawks (Winner) in Utah Valley Wolverines vs Tenn-Martin Skyhawks (Utah Valley Wolverines 78 - 76 Tenn-Martin Skyhawks)\n- Lost -2.29: UC San Diego Tritons -1.5 (Spread) in UC San Diego Tritons vs Seattle Redhawks (UC San Diego Tritons 64 - 90 Seattle Redhawks)\n- Lost -2.49: Necaxa (Winner) in Querétaro vs Necaxa (Querétaro 2 - 2 Necaxa)"
     }
   ],
   "levels": {
@@ -2856,11 +2856,11 @@
         "off": 0.0239,
         "bets": 1
       },
-      "precision": {
-        "since": "2026-11-23T08:00:58Z",
-        "on": 0.032,
-        "off": 0.0278,
-        "bets": 2
+      "underdog": {
+        "since": "2026-11-23T08:15:35Z",
+        "on": 0.0278,
+        "off": 0.029,
+        "bets": 15
       }
     }
   },
