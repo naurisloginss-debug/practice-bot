@@ -51,14 +51,6 @@
   },
   "log": [
     {
-      "t": "2026-11-22T23:00:57Z",
-      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.4% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-22T23:00:57Z",
-      "text": "Results:\n- Lost -2.49: Over 2.5 (Total) in Lorient vs Rennes (Lorient 1 - 1 Rennes)"
-    },
-    {
       "t": "2026-11-22T23:15:30Z",
       "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
     },
@@ -169,6 +161,14 @@
     {
       "t": "2026-11-23T01:15:31Z",
       "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
+    },
+    {
+      "t": "2026-11-23T01:30:45Z",
+      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-23T01:30:45Z",
+      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
     }
   ],
   "levels": {
@@ -377,7 +377,7 @@
       },
       {
         "d": "2026-11-23",
-        "iq": 125
+        "iq": 124
       }
     ],
     "quant": [
@@ -2249,20 +2249,20 @@
     }
   },
   "skip_note": "2026-11-06@8",
-  "news_at": "2026-11-22T22:30:45Z",
+  "news_at": "2026-11-23T01:30:45Z",
   "feed_status": {
     "https://www.espn.com/espn/rss/nba/news": "error 2026-11-10T08:42:16Z: no element found: line 1, column 0",
-    "https://www.cbssports.com/rss/headlines/nba/": "ok 2026-11-22T22:30:45Z",
-    "https://sports.yahoo.com/nba/rss.xml": "ok 2026-11-22T22:30:45Z",
+    "https://www.cbssports.com/rss/headlines/nba/": "ok 2026-11-23T01:30:45Z",
+    "https://sports.yahoo.com/nba/rss.xml": "ok 2026-11-23T01:30:45Z",
     "https://www.espn.com/espn/rss/nfl/news": "error 2026-11-10T08:42:16Z: no element found: line 1, column 0",
     "https://www.espn.com/espn/rss/ncf/news": "error 2026-11-10T08:42:16Z: no element found: line 1, column 0",
-    "https://www.cbssports.com/rss/headlines/nfl/": "ok 2026-11-22T22:30:45Z",
-    "https://sports.yahoo.com/nfl/rss.xml": "ok 2026-11-22T22:30:45Z",
-    "https://sports.yahoo.com/college-football/rss.xml": "ok 2026-11-22T22:30:45Z",
-    "https://feeds.bbci.co.uk/sport/football/rss.xml": "ok 2026-11-22T22:30:45Z",
-    "https://feeds.bbci.co.uk/sport/football/championship/rss.xml": "ok 2026-11-22T22:30:45Z",
-    "https://feeds.bbci.co.uk/sport/football/european/rss.xml": "ok 2026-11-22T22:30:45Z",
-    "https://football-italia.net/feed/": "ok 2026-11-22T22:30:45Z"
+    "https://www.cbssports.com/rss/headlines/nfl/": "ok 2026-11-23T01:30:45Z",
+    "https://sports.yahoo.com/nfl/rss.xml": "ok 2026-11-23T01:30:45Z",
+    "https://sports.yahoo.com/college-football/rss.xml": "ok 2026-11-23T01:30:45Z",
+    "https://feeds.bbci.co.uk/sport/football/rss.xml": "ok 2026-11-23T01:30:45Z",
+    "https://feeds.bbci.co.uk/sport/football/championship/rss.xml": "ok 2026-11-23T01:30:45Z",
+    "https://feeds.bbci.co.uk/sport/football/european/rss.xml": "ok 2026-11-23T01:30:45Z",
+    "https://football-italia.net/feed/": "ok 2026-11-23T01:30:45Z"
   },
   "exploring": {
     "lizard": {
@@ -2855,11 +2855,11 @@
         "off": 0.0239,
         "bets": 1
       },
-      "precision": {
-        "since": "2026-11-23T01:15:31Z",
-        "on": 0.032,
-        "off": 0.0278,
-        "bets": 2
+      "underdog": {
+        "since": "2026-11-23T01:30:45Z",
+        "on": 0.0278,
+        "off": 0.029,
+        "bets": 15
       }
     }
   },

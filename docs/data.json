@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T01:15:31Z",
+  "updated": "2026-11-23T01:30:45Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -29,8 +29,8 @@
     ],
     "chars": {
       "lizard": {
-        "iq": 125,
-        "iq_gain": 0,
+        "iq": 124,
+        "iq_gain": -1,
         "streak": 1,
         "best_streak": 8,
         "achievements": [
@@ -152,7 +152,7 @@
             "pending": true
           }
         ],
-        "score": 179,
+        "score": 178,
         "trophies": [
           {
             "kind": "sharpshooter",
@@ -1084,7 +1084,7 @@
         "measured": 2
       },
       "reading": {
-        "week": 119,
+        "week": 113,
         "latest": [
           {
             "t": "2026-11-22T21:04:55Z",
@@ -1365,8 +1365,8 @@
         }
       ],
       "mind": {
-        "iq": 125,
-        "iq_week": 19,
+        "iq": 124,
+        "iq_week": 18,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -1446,7 +1446,7 @@
           },
           {
             "d": "2026-11-23",
-            "iq": 125
+            "iq": 124
           }
         ],
         "facts": [
@@ -2043,7 +2043,7 @@
         "measured": 0
       },
       "reading": {
-        "week": 75,
+        "week": 88,
         "latest": [
           {
             "t": "2026-11-22T22:12:02Z",
@@ -2074,18 +2074,18 @@
             "tone": 1
           },
           {
+            "t": "2026-11-22T06:13:05Z",
+            "title": "Lakers desperately need Austin Reaves. When will LA star return?",
+            "link": "https://sports.yahoo.com/articles/lakers-desperately-austin-reaves-la-061305290.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
+          {
             "t": "2026-11-22T00:00:00Z",
             "title": "Mavericks vs Clippers Preview and Injury Report: Dallas looks to build at home",
             "link": "https://sports.yahoo.com/articles/mavericks-vs-clippers-preview-injury-000000314.html",
             "source": "sports.yahoo.com",
             "tone": -1
-          },
-          {
-            "t": "2026-11-22T00:00:00Z",
-            "title": "Game Discussion Thread: Knicks vs. Trail Blazers, November 21, 2026",
-            "link": "https://sports.yahoo.com/articles/game-discussion-thread-knicks-vs-000000695.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
           }
         ]
       },
@@ -2492,7 +2492,7 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.02,
+        "min_edge": 0.015,
         "odds": [
           1.6,
           3.0
@@ -2957,49 +2957,49 @@
         "measured": 1
       },
       "reading": {
-        "week": 406,
+        "week": 399,
         "latest": [
+          {
+            "t": "2026-11-23T01:06:48Z",
+            "title": "Rams release 1st injury report for Week 12",
+            "link": "https://sports.yahoo.com/articles/rams-release-1st-injury-report-010648932.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-23T01:01:28Z",
+            "title": "Chargers’ season takes another ugly turn as Justin Herbert suffers head injury",
+            "link": "https://sports.yahoo.com/articles/chargers-season-takes-another-ugly-010128254.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-23T00:51:36Z",
+            "title": "Notre Dame gets encouraging Brauntae Johnson injury update after losing Luke Talich",
+            "link": "https://sports.yahoo.com/articles/notre-dame-gets-encouraging-brauntae-005136678.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-23T00:34:37Z",
+            "title": "Justin Herbert injury update as Chargers QB enters concussion protocol",
+            "link": "https://sports.yahoo.com/articles/justin-herbert-injury-chargers-qb-003437766.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-22T22:48:13Z",
+            "title": "Notre Dame safety Luke Talich out for season after tearing Achilles against SMU",
+            "link": "https://sports.yahoo.com/college-football/breaking-news/article/notre-dame-safety-luke-talich-out-for-season-after-tearing-achilles-against-smu-224813083.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
           {
             "t": "2026-11-22T22:10:43Z",
             "title": "ClutchPoints’ Week 13 2026 College Football Top 25 Power Rankings",
             "link": "https://sports.yahoo.com/articles/clutchpoints-week-13-2026-college-221043346.html",
             "source": "sports.yahoo.com",
             "tone": 1
-          },
-          {
-            "t": "2026-11-22T22:09:15Z",
-            "title": "Derrick Henry injury: Ravens star RB clears concussion protocol after leaving game post-TD",
-            "link": "https://www.cbssports.com/nfl/news/derrick-henry-injury-ravens-star-rb-leaves-evaluated-concussion-after-scoring-touchdown/",
-            "source": "www.cbssports.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-22T21:51:07Z",
-            "title": "Jameson Williams scares Lions fans with front-flip touchdown following Aidan Hutchinson injury",
-            "link": "https://sports.yahoo.com/articles/jameson-williams-scares-lions-fans-215107844.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-22T21:49:15Z",
-            "title": "Packers Injury Report: 9 players limited on Sunday",
-            "link": "https://sports.yahoo.com/articles/packers-injury-report-9-players-214915318.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-22T21:49:09Z",
-            "title": "Josh Jacobs listed as limited in Packers practice",
-            "link": "https://sports.yahoo.com/articles/josh-jacobs-listed-limited-packers-214909315.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-22T21:46:02Z",
-            "title": "Steelers OLB Alex Highsmith seen in boot after loss vs. Eagles",
-            "link": "https://sports.yahoo.com/articles/steelers-olb-alex-highsmith-seen-214602136.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
           }
         ]
       },
@@ -3244,15 +3244,15 @@
           "bets": 1
         },
         {
-          "id": "precision",
-          "emoji": "🎯",
-          "title": "Precise",
-          "effect": "Always demands +0.5% more edge.",
-          "from": "Precision day",
-          "since": "2026-11-23T01:15:31Z",
-          "on": 0.032,
-          "off": 0.0278,
-          "bets": 2
+          "id": "underdog",
+          "emoji": "🐶",
+          "title": "Underdog lover",
+          "effect": "Allows underdogs at odds up to 1.0 higher.",
+          "from": "Underdog hunter",
+          "since": "2026-11-23T01:30:45Z",
+          "on": 0.0278,
+          "off": 0.029,
+          "bets": 15
         }
       ],
       "mind": {
@@ -11003,14 +11003,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-22T23:00:57Z",
-      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.4% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-22T23:00:57Z",
-      "text": "Results:\n- Lost -2.49: Over 2.5 (Total) in Lorient vs Rennes (Lorient 1 - 1 Rennes)"
-    },
-    {
       "t": "2026-11-22T23:15:30Z",
       "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
     },
@@ -11121,6 +11113,14 @@
     {
       "t": "2026-11-23T01:15:31Z",
       "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
+    },
+    {
+      "t": "2026-11-23T01:30:45Z",
+      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-23T01:30:45Z",
+      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
     }
   ]
 }
