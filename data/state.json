@@ -52,10 +52,6 @@
   "log": [
     {
       "t": "2026-11-23T00:01:07Z",
-      "text": "❌ 🧮 The Quant missed 🗺️ New ground: No bet of that type today."
-    },
-    {
-      "t": "2026-11-23T00:01:07Z",
       "text": "🎯 🧮 The Quant's challenge today: 🎯 Precision day. Only bets with an edge 1% above my usual bar, and at least 2 of them must beat the market."
     },
     {
@@ -169,6 +165,10 @@
     {
       "t": "2026-11-23T03:00:57Z",
       "text": "Results:\n- Lost -2.49: Tampa Bay Buccaneers (Winner) in Detroit Lions vs Tampa Bay Buccaneers (Detroit Lions 31 - 21 Tampa Bay Buccaneers)\n- Won +3.98: New York Jets (Winner) in Los Angeles Chargers vs New York Jets (Los Angeles Chargers 24 - 27 New York Jets)\n- Won +2.27: Under 38.5 (Total) in Philadelphia Eagles vs Pittsburgh Steelers (Philadelphia Eagles 19 - 16 Pittsburgh Steelers)\n- Won +5.80: New York Giants (Winner) in New York Giants vs Jacksonville Jaguars (New York Giants 23 - 18 Jacksonville Jaguars)\n- Won +6.59: Carolina Panthers (Winner) in Carolina Panthers vs Baltimore Ravens (Carolina Panthers 35 - 33 Baltimore Ravens)\n- Won +2.41: Dallas Cowboys -8 (Spread) in Dallas Cowboys vs Tennessee Titans (Dallas Cowboys 51 - 30 Tennessee Titans)\n- Lost -1.21: Miami Dolphins (Winner) in Buffalo Bills vs Miami Dolphins (Buffalo Bills 26 - 9 Miami Dolphins)\n- Lost -2.35: Tennessee Titans (Winner) in Dallas Cowboys vs Tennessee Titans (Dallas Cowboys 51 - 30 Tennessee Titans)\n- Lost -2.85: New Orleans Saints (Winner) in Chicago Bears vs New Orleans Saints (Chicago Bears 21 - 13 New Orleans Saints)\n- Won +2.41: Denver Broncos -10.5 (Spread) in Denver Broncos vs Las Vegas Raiders (Denver Broncos 38 - 24 Las Vegas Raiders)"
+    },
+    {
+      "t": "2026-11-23T03:15:33Z",
+      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
     }
   ],
   "levels": {
@@ -2855,12 +2855,6 @@
         "on": 0.0329,
         "off": 0.0239,
         "bets": 1
-      },
-      "underdog": {
-        "since": "2026-11-23T03:00:57Z",
-        "on": 0.0278,
-        "off": 0.029,
-        "bets": 15
       }
     }
   },
