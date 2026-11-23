@@ -51,14 +51,6 @@
   },
   "log": [
     {
-      "t": "2026-11-23T10:15:34Z",
-      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
-    },
-    {
-      "t": "2026-11-23T10:30:50Z",
-      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
-    },
-    {
       "t": "2026-11-23T10:45:43Z",
       "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
     },
@@ -169,6 +161,14 @@
     {
       "t": "2026-11-23T15:31:35Z",
       "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
+    },
+    {
+      "t": "2026-11-23T15:45:34Z",
+      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-23T15:45:34Z",
+      "text": "✅ 🧮 The Quant completed 🎯 Precision day: 2 bets beat the market."
     }
   ],
   "levels": {
@@ -2600,10 +2600,11 @@
         "emoji": "🎯",
         "title": "Precision day",
         "text": "Only bets with an edge 1% above my usual bar, and at least 2 of them must beat the market.",
-        "status": "active",
+        "status": "done",
         "market": "spreads",
         "target": 65,
-        "league": null
+        "league": null,
+        "detail": "2 bets beat the market."
       }
     ],
     "shark": [
@@ -2827,13 +2828,13 @@
       "discipline": {
         "since": "2026-11-21T07:21:41Z",
         "on": 0.0129,
-        "off": 0.0056,
+        "off": 0.0068,
         "bets": 6
       },
       "underdog": {
         "since": "2026-11-21T07:21:41Z",
         "on": 0.016,
-        "off": 0.0047,
+        "off": 0.006,
         "bets": 9
       }
     },
@@ -2855,12 +2856,6 @@
         "on": 0.0329,
         "off": 0.0239,
         "bets": 1
-      },
-      "underdog": {
-        "since": "2026-11-23T15:31:35Z",
-        "on": 0.0278,
-        "off": 0.029,
-        "bets": 15
       }
     }
   },

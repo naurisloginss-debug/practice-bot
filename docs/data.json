@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T15:31:35Z",
+  "updated": "2026-11-23T15:45:34Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -334,7 +334,7 @@
             "pending": false
           }
         ],
-        "score": 201,
+        "score": 204,
         "trophies": [
           {
             "kind": "grower",
@@ -509,8 +509,8 @@
           "cautious": 0.0222,
           "beat": 0.7188,
           "challenges": 0.7,
-          "traits": 4,
-          "score": 38.06
+          "traits": 3,
+          "score": 36.06
         },
         {
           "who": "lizard",
@@ -532,9 +532,9 @@
           "clv": 0.0059,
           "cautious": -0.0035,
           "beat": 0.5306,
-          "challenges": 0.5,
+          "challenges": 0.545,
           "traits": 2,
-          "score": 3.66
+          "score": 3.89
         }
       ],
       "ranking": [
@@ -1576,7 +1576,7 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.025,
+        "min_edge": 0.015,
         "odds": [
           1.6,
           4.5
@@ -2249,10 +2249,11 @@
           "emoji": "🎯",
           "title": "Precision day",
           "text": "Only bets with an edge 1% above my usual bar, and at least 2 of them must beat the market.",
-          "status": "active",
+          "status": "done",
           "market": "spreads",
           "target": 65,
-          "league": null
+          "league": null,
+          "detail": "2 bets beat the market."
         },
         "recent": [
           {
@@ -2261,10 +2262,11 @@
             "emoji": "🎯",
             "title": "Precision day",
             "text": "Only bets with an edge 1% above my usual bar, and at least 2 of them must beat the market.",
-            "status": "active",
+            "status": "done",
             "market": "spreads",
             "target": 65,
-            "league": null
+            "league": null,
+            "detail": "2 bets beat the market."
           },
           {
             "day": "2026-11-22",
@@ -2350,9 +2352,9 @@
             "detail": "No bet there today."
           }
         ],
-        "done": 5,
-        "judged": 10,
-        "streak": 0
+        "done": 6,
+        "judged": 11,
+        "streak": 1
       },
       "traits": [
         {
@@ -2363,7 +2365,7 @@
           "from": "Discipline day",
           "since": "2026-11-21T07:21:41Z",
           "on": 0.0129,
-          "off": 0.0056,
+          "off": 0.0068,
           "bets": 6
         },
         {
@@ -2374,7 +2376,7 @@
           "from": "Underdog hunter",
           "since": "2026-11-21T07:21:41Z",
           "on": 0.016,
-          "off": 0.0047,
+          "off": 0.006,
           "bets": 9
         }
       ],
@@ -3346,17 +3348,6 @@
           "on": 0.0329,
           "off": 0.0239,
           "bets": 1
-        },
-        {
-          "id": "underdog",
-          "emoji": "🐶",
-          "title": "Underdog lover",
-          "effect": "Allows underdogs at odds up to 1.0 higher.",
-          "from": "Underdog hunter",
-          "since": "2026-11-23T15:31:35Z",
-          "on": 0.0278,
-          "off": 0.029,
-          "bets": 15
         }
       ],
       "mind": {
@@ -11103,14 +11094,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-23T10:15:34Z",
-      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
-    },
-    {
-      "t": "2026-11-23T10:30:50Z",
-      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
-    },
-    {
       "t": "2026-11-23T10:45:43Z",
       "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
     },
@@ -11221,6 +11204,14 @@
     {
       "t": "2026-11-23T15:31:35Z",
       "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
+    },
+    {
+      "t": "2026-11-23T15:45:34Z",
+      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-23T15:45:34Z",
+      "text": "✅ 🧮 The Quant completed 🎯 Precision day: 2 bets beat the market."
     }
   ]
 }
