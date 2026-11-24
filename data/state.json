@@ -51,18 +51,6 @@
   },
   "log": [
     {
-      "t": "2026-11-24T14:45:39Z",
-      "text": "🧬 🦎 The Lizard made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-18 and its bets beat the market by +2.2%. Avoids odds above 3.5."
-    },
-    {
-      "t": "2026-11-24T14:45:39Z",
-      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
-    },
-    {
-      "t": "2026-11-24T14:45:39Z",
-      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
-    },
-    {
       "t": "2026-11-24T15:01:07Z",
       "text": "🧬 🦎 The Lizard dropped the 🧘 Disciplined trait: it stopped working (-1.0% vs the market on those days)."
     },
@@ -169,6 +157,18 @@
     {
       "t": "2026-11-24T16:30:47Z",
       "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-24T16:45:33Z",
+      "text": "🧬 🦎 The Lizard dropped the 🧘 Disciplined trait: it stopped working (-1.0% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-24T16:45:33Z",
+      "text": "🧬 🧮 The Quant dropped the 🧘 Disciplined trait: it stopped working (+1.3% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-24T16:45:33Z",
+      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
     }
   ],
   "levels": {
@@ -2958,32 +2958,20 @@
         "on": 0.0228,
         "off": -0.0034,
         "bets": 9
-      },
-      "discipline": {
-        "since": "2026-11-24T16:30:47Z",
-        "on": 0.0221,
-        "off": 0.0017,
-        "bets": 2
       }
     },
     "quant": {
       "underdog": {
         "since": "2026-11-21T07:21:41Z",
         "on": 0.016,
-        "off": 0.0144,
+        "off": 0.0138,
         "bets": 9
       },
       "precision": {
         "since": "2026-11-23T18:30:49Z",
-        "on": 0.0376,
+        "on": 0.0336,
         "off": 0.0085,
-        "bets": 15
-      },
-      "discipline": {
-        "since": "2026-11-24T16:30:47Z",
-        "on": 0.0391,
-        "off": 0.0148,
-        "bets": 3
+        "bets": 16
       }
     },
     "shark": {
@@ -3004,6 +2992,12 @@
         "on": 0.0329,
         "off": 0.0235,
         "bets": 1
+      },
+      "precision": {
+        "since": "2026-11-24T16:45:33Z",
+        "on": 0.032,
+        "off": 0.0271,
+        "bets": 2
       }
     }
   },
