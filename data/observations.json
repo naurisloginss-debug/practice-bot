@@ -19280,7 +19280,10 @@
       "point": 2.5,
       "over": 0.513
     },
-    "result": null
+    "result": [
+      5.0,
+      1.0
+    ]
   },
   "155d48f7d5af716b832e611847eecfe8": {
     "league": "soccer_italy_serie_b",
@@ -19296,7 +19299,10 @@
       "point": 2.5,
       "over": 0.4896
     },
-    "result": null
+    "result": [
+      0.0,
+      1.0
+    ]
   },
   "1126881ccd5628bc2a3e896fd7e05fed": {
     "league": "soccer_italy_serie_b",
@@ -19312,7 +19318,10 @@
       "point": 2.25,
       "over": 0.5156
     },
-    "result": null
+    "result": [
+      2.0,
+      1.0
+    ]
   },
   "92c74d2f4a4275568feff8072ed15e73": {
     "league": "soccer_efl_champ",
@@ -21027,7 +21036,10 @@
       "point": 2.75,
       "over": 0.5026
     },
-    "result": null
+    "result": [
+      1.0,
+      3.0
+    ]
   },
   "8a83b64c5a2da01e0be02f81c52c24c1": {
     "league": "soccer_italy_serie_b",
@@ -21043,7 +21055,10 @@
       "point": 2.75,
       "over": 0.4844
     },
-    "result": null
+    "result": [
+      5.0,
+      0.0
+    ]
   },
   "83a913029df6521a5822f1a77e619b78": {
     "league": "soccer_italy_serie_b",
@@ -21059,7 +21074,10 @@
       "point": 3.0,
       "over": 0.4727
     },
-    "result": null
+    "result": [
+      4.0,
+      1.0
+    ]
   },
   "8cf80807dee1ee73aefb295b560dc78e": {
     "league": "soccer_italy_serie_b",
@@ -25926,6 +25944,470 @@
     "tot": {
       "point": 41.5,
       "over": 0.4987
+    },
+    "result": null
+  },
+  "8d75d4c8f342e83c75febead12de7eaa": {
+    "league": "soccer_italy_serie_b",
+    "start": "2026-11-28T14:00:00Z",
+    "home": "Ascoli",
+    "away": "Virtus Entella",
+    "h2h": {
+      "home": 0.4742,
+      "away": 0.2483,
+      "draw": 0.2775
+    },
+    "tot": {
+      "point": 2.25,
+      "over": 0.5223
+    },
+    "result": null
+  },
+  "9beee8f80a22730b4f399165f8efe447": {
+    "league": "soccer_italy_serie_b",
+    "start": "2026-11-28T14:00:00Z",
+    "home": "Carrarese",
+    "away": "Juve Stabia",
+    "h2h": {
+      "home": 0.4311,
+      "away": 0.2682,
+      "draw": 0.3007
+    },
+    "tot": {
+      "point": 2.5,
+      "over": 0.4856
+    },
+    "result": null
+  },
+  "12cb6fab4268f2b1297b47835df4f7ee": {
+    "league": "soccer_italy_serie_b",
+    "start": "2026-11-28T14:00:00Z",
+    "home": "Empoli",
+    "away": "Hellas Verona",
+    "h2h": {
+      "home": 0.217,
+      "away": 0.5234,
+      "draw": 0.2596
+    },
+    "tot": {
+      "point": 2.75,
+      "over": 0.4727
+    },
+    "result": null
+  },
+  "95250c5fc5cc81a1d7831130f3976f81": {
+    "league": "soccer_italy_serie_b",
+    "start": "2026-11-28T16:15:00Z",
+    "home": "Vicenza",
+    "away": "Cesena FC",
+    "h2h": {
+      "away": 0.3378,
+      "home": 0.3799,
+      "draw": 0.2823
+    },
+    "tot": {
+      "point": 2.5,
+      "over": 0.5197
+    },
+    "result": null
+  },
+  "0f46a75e864e6435f0f67be78907c344": {
+    "league": "soccer_italy_serie_b",
+    "start": "2026-11-28T18:30:00Z",
+    "home": "Palermo",
+    "away": "Benevento",
+    "h2h": {
+      "away": 0.2133,
+      "home": 0.5171,
+      "draw": 0.2695
+    },
+    "tot": {
+      "point": 2.75,
+      "over": 0.5247
+    },
+    "result": null
+  },
+  "32b8e3ea76d9d8b2b36577063d40862e": {
+    "league": "soccer_efl_champ",
+    "start": "2026-11-27T20:00:00Z",
+    "home": "Southampton",
+    "away": "Middlesbrough",
+    "h2h": {
+      "away": 0.4146,
+      "home": 0.3305,
+      "draw": 0.2548
+    },
+    "tot": {
+      "point": 3.0,
+      "over": 0.5105
+    },
+    "result": null
+  },
+  "d2bc2d3b4a81177cb6b86f4add6ff81f": {
+    "league": "soccer_efl_champ",
+    "start": "2026-11-28T12:30:00Z",
+    "home": "Lincoln City",
+    "away": "Wolverhampton Wanderers",
+    "h2h": {
+      "home": 0.1815,
+      "away": 0.584,
+      "draw": 0.2345
+    },
+    "tot": {
+      "point": 2.5,
+      "over": 0.5262
+    },
+    "result": null
+  },
+  "d47bc722be164b3a733434e89f224654": {
+    "league": "soccer_efl_champ",
+    "start": "2026-11-28T12:30:00Z",
+    "home": "Preston North End",
+    "away": "Norwich City",
+    "h2h": {
+      "away": 0.5709,
+      "home": 0.2026,
+      "draw": 0.2265
+    },
+    "tot": {
+      "point": 3.0,
+      "over": 0.4947
+    },
+    "result": null
+  },
+  "9cd8c682c6864b59a7f1a58964083e08": {
+    "league": "soccer_efl_champ",
+    "start": "2026-11-28T15:00:00Z",
+    "home": "Wrexham AFC",
+    "away": "Portsmouth",
+    "h2h": {
+      "away": 0.248,
+      "home": 0.4724,
+      "draw": 0.2796
+    },
+    "tot": {
+      "point": 2.25,
+      "over": 0.5223
+    },
+    "result": null
+  },
+  "dc42f49649c5329c2c47f94fc4ca0c89": {
+    "league": "soccer_efl_champ",
+    "start": "2026-11-28T15:00:00Z",
+    "home": "Queens Park Rangers",
+    "away": "Sheffield United",
+    "h2h": {
+      "home": 0.4602,
+      "away": 0.2703,
+      "draw": 0.2695
+    },
+    "tot": {
+      "point": 2.75,
+      "over": 0.4921
+    },
+    "result": null
+  },
+  "80c3b1eccde4b39e3e000a65c0b4422b": {
+    "league": "soccer_spain_segunda_division",
+    "start": "2026-11-28T17:30:00Z",
+    "home": "SD Eibar",
+    "away": "Burgos CF",
+    "h2h": {
+      "away": 0.1976,
+      "home": 0.5147,
+      "draw": 0.2877
+    },
+    "tot": {
+      "point": 2.25,
+      "over": 0.5104
+    },
+    "result": null
+  },
+  "47ae19df7db7edc8ff768d66493a1f5a": {
+    "league": "soccer_spain_segunda_division",
+    "start": "2026-11-28T20:00:00Z",
+    "home": "Real Valladolid CF",
+    "away": "Real Sociedad B",
+    "h2h": {
+      "away": 0.2234,
+      "home": 0.5358,
+      "draw": 0.2408
+    },
+    "tot": {
+      "point": 2.75,
+      "over": 0.5299
+    },
+    "result": null
+  },
+  "f96c1137c9d3f7e2e691275a2988fa1d": {
+    "league": "soccer_france_ligue_one",
+    "start": "2026-11-28T19:45:00Z",
+    "home": "Le Havre",
+    "away": "Strasbourg",
+    "h2h": {
+      "home": 0.3074,
+      "away": 0.4242,
+      "draw": 0.2684
+    },
+    "tot": {
+      "point": 3.0,
+      "over": 0.4566
+    },
+    "result": null
+  },
+  "aaa86a483888836242da663a46957894": {
+    "league": "soccer_france_ligue_one",
+    "start": "2026-11-28T19:45:00Z",
+    "home": "Le Mans FC",
+    "away": "Lille",
+    "h2h": {
+      "home": 0.2523,
+      "away": 0.4636,
+      "draw": 0.2841
+    },
+    "tot": {
+      "point": 2.5,
+      "over": 0.4566
+    },
+    "result": null
+  },
+  "12002f6f804a122db48271ff05be03c0": {
+    "league": "soccer_france_ligue_one",
+    "start": "2026-11-28T19:45:00Z",
+    "home": "Paris Saint Germain",
+    "away": "Lorient",
+    "h2h": {
+      "away": 0.0811,
+      "home": 0.794,
+      "draw": 0.1249
+    },
+    "tot": {
+      "point": 3.25,
+      "over": 0.4987
+    },
+    "result": null
+  },
+  "e9a1243fbfbc6f58d0e0522eb07ea9a1": {
+    "league": "soccer_france_ligue_one",
+    "start": "2026-11-28T19:45:00Z",
+    "home": "Nice",
+    "away": "Troyes",
+    "h2h": {
+      "home": 0.5746,
+      "away": 0.1939,
+      "draw": 0.2315
+    },
+    "tot": {
+      "point": 2.75,
+      "over": 0.5282
+    },
+    "result": null
+  },
+  "8b4a6773598a5ab325ea4108c30ad7e4": {
+    "league": "soccer_england_league2",
+    "start": "2026-11-28T12:30:00Z",
+    "home": "Exeter City",
+    "away": "Crawley Town",
+    "h2h": {
+      "away": 0.2421,
+      "home": 0.4984,
+      "draw": 0.2596
+    },
+    "tot": {
+      "point": 2.5,
+      "over": 0.5252
+    },
+    "result": null
+  },
+  "8dbd13434adfd79bfed980d273be3127": {
+    "league": "soccer_england_league2",
+    "start": "2026-11-28T15:00:00Z",
+    "home": "Rochdale",
+    "away": "Barnet",
+    "h2h": {
+      "away": 0.495,
+      "home": 0.2614,
+      "draw": 0.2436
+    },
+    "tot": {
+      "point": 3.0,
+      "over": 0.4787
+    },
+    "result": null
+  },
+  "db5a835b1f6bf2fe850a66a20be0205e": {
+    "league": "soccer_england_league2",
+    "start": "2026-11-28T15:00:00Z",
+    "home": "Port Vale",
+    "away": "Newport County",
+    "h2h": {
+      "away": 0.2326,
+      "home": 0.503,
+      "draw": 0.2644
+    },
+    "tot": {
+      "point": 2.5,
+      "over": 0.496
+    },
+    "result": null
+  },
+  "7576fe8739527b9a6246c78bb6329d70": {
+    "league": "soccer_england_league2",
+    "start": "2026-11-28T15:00:00Z",
+    "home": "Walsall",
+    "away": "Northampton Town",
+    "h2h": {
+      "away": 0.3389,
+      "home": 0.4,
+      "draw": 0.2611
+    },
+    "tot": {
+      "point": 2.75,
+      "over": 0.4934
+    },
+    "result": null
+  },
+  "df8140d04daa5af2843c31a487896d93": {
+    "league": "soccer_england_league1",
+    "start": "2026-11-28T15:00:00Z",
+    "home": "Wimbledon",
+    "away": "Barnsley",
+    "h2h": {
+      "away": 0.4085,
+      "home": 0.3355,
+      "draw": 0.256
+    },
+    "tot": {
+      "point": 3.0,
+      "over": 0.5119
+    },
+    "result": null
+  },
+  "15cc33a71e190cb051dc95888b8744ca": {
+    "league": "soccer_england_league1",
+    "start": "2026-11-28T15:00:00Z",
+    "home": "Stevenage",
+    "away": "Blackpool",
+    "h2h": {
+      "away": 0.2753,
+      "home": 0.458,
+      "draw": 0.2667
+    },
+    "tot": {
+      "point": 2.5,
+      "over": 0.5132
+    },
+    "result": null
+  },
+  "9d1416df980b21a991e0a1b7305f928c": {
+    "league": "soccer_england_league1",
+    "start": "2026-11-28T15:00:00Z",
+    "home": "Wycombe Wanderers",
+    "away": "Bradford City",
+    "h2h": {
+      "away": 0.3255,
+      "home": 0.397,
+      "draw": 0.2775
+    },
+    "tot": {
+      "point": 2.5,
+      "over": 0.4894
+    },
+    "result": null
+  },
+  "b306e783e1961e8aaf7cc072799a2270": {
+    "league": "soccer_england_league1",
+    "start": "2026-11-28T15:00:00Z",
+    "home": "Bromley FC",
+    "away": "Burton Albion",
+    "h2h": {
+      "home": 0.3954,
+      "away": 0.3447,
+      "draw": 0.2599
+    },
+    "tot": {
+      "point": 2.75,
+      "over": 0.4802
+    },
+    "result": null
+  },
+  "5c88af05a6d82d9a8bd03b765815e068": {
+    "league": "soccer_england_league1",
+    "start": "2026-11-28T15:00:00Z",
+    "home": "Leicester City",
+    "away": "Mansfield Town",
+    "h2h": {
+      "home": 0.6171,
+      "away": 0.1726,
+      "draw": 0.2103
+    },
+    "tot": {
+      "point": 3.25,
+      "over": 0.4684
+    },
+    "result": null
+  },
+  "393cf84030ed4ed5d40ccede4a26fca4": {
+    "league": "soccer_england_league1",
+    "start": "2026-11-28T15:00:00Z",
+    "home": "Sheffield Wednesday",
+    "away": "Reading",
+    "h2h": {
+      "away": 0.3674,
+      "home": 0.3902,
+      "draw": 0.2424
+    },
+    "tot": {
+      "point": 3.0,
+      "over": 0.5066
+    },
+    "result": null
+  },
+  "a5dead802f33104d996d21cff6350452": {
+    "league": "soccer_germany_bundesliga2",
+    "start": "2026-11-28T19:30:00Z",
+    "home": "VfL Osnabrück",
+    "away": "Hannover 96",
+    "h2h": {
+      "away": 0.4382,
+      "home": 0.3071,
+      "draw": 0.2547
+    },
+    "tot": {
+      "point": 3.0,
+      "over": 0.4909
+    },
+    "result": null
+  },
+  "e98180af14a84c9f346a3b1c5019cba8": {
+    "league": "soccer_usa_mls",
+    "start": "2026-11-28T17:30:00Z",
+    "home": "Charlotte FC",
+    "away": "Chicago Fire",
+    "h2h": {
+      "home": 0.35,
+      "away": 0.3965,
+      "draw": 0.2535
+    },
+    "tot": {
+      "point": 3.5,
+      "over": 0.4935
+    },
+    "result": null
+  },
+  "5d838190a8f5932d7fcfbcc26bacdd9c": {
+    "league": "soccer_germany_bundesliga",
+    "start": "2026-11-28T17:30:00Z",
+    "home": "VfB Stuttgart",
+    "away": "Eintracht Frankfurt",
+    "h2h": {
+      "away": 0.251,
+      "home": 0.5442,
+      "draw": 0.2048
+    },
+    "tot": {
+      "point": 3.75,
+      "over": 0.5064
     },
     "result": null
   }
