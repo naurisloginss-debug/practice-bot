@@ -51,18 +51,6 @@
   },
   "log": [
     {
-      "t": "2026-11-24T05:01:01Z",
-      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
-    },
-    {
-      "t": "2026-11-24T05:01:01Z",
-      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-24T05:01:01Z",
-      "text": "Placed 6 practice bets:\n- The Lizard: **Palmeiras -0.5** (Spread) in Chapecoense vs Palmeiras (Brasileirão (Brazil)) at 2.25 on GTbets, stake 12.90, edge +6.4%\n- The Quant: **Detroit Mercy Titans** (Winner) in Detroit Mercy Titans vs North Dakota Fighting Hawks (College basketball (US)) at 2.7 on Unibet (NL), stake 7.75, edge +3.2%\n- The Shark: **Green Bay Packers +2.5** (Spread) in Los Angeles Rams vs Green Bay Packers (NFL) at 2.0 on 888sport, stake 9.86, edge +3.3%\n- The Shark: **Tampa Bay Buccaneers** (Winner) in Tampa Bay Buccaneers vs Carolina Panthers (NFL) at 1.72 on Marathon Bet, stake 9.26, edge +2.3%\n- The Quant 🧭 scout: **Appalachian St Mountaineers -1.5** (Spread) in Yale Bulldogs vs Appalachian St Mountaineers (College basketball (US)) at 2.11 on GTbets, stake 2.27, edge +1.7%\n- The Shark 🎲 wild: **Colorado State Rams** (Winner) in Colorado State Rams vs Boise State Broncos (College football (US)) at 12.75 on Marathon Bet, stake 1.23, edge +23.4%"
-    },
-    {
       "t": "2026-11-24T05:15:30Z",
       "text": "🧬 🦎 The Lizard dropped the 🧘 Disciplined trait: it stopped working (-1.0% vs the market on those days)."
     },
@@ -169,6 +157,18 @@
     {
       "t": "2026-11-24T06:45:38Z",
       "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
+    },
+    {
+      "t": "2026-11-24T07:00:56Z",
+      "text": "🧬 🦎 The Lizard dropped the 🧘 Disciplined trait: it stopped working (-1.0% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-24T07:00:56Z",
+      "text": "🧬 🧮 The Quant dropped the 🧘 Disciplined trait: it stopped working (+1.3% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-24T07:00:56Z",
+      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
     }
   ],
   "levels": {
@@ -2958,12 +2958,6 @@
         "on": 0.0228,
         "off": -0.0034,
         "bets": 9
-      },
-      "discipline": {
-        "since": "2026-11-24T06:45:38Z",
-        "on": 0.0221,
-        "off": 0.0017,
-        "bets": 2
       }
     },
     "quant": {
@@ -2978,12 +2972,6 @@
         "on": 0.0376,
         "off": 0.0085,
         "bets": 15
-      },
-      "discipline": {
-        "since": "2026-11-24T06:45:38Z",
-        "on": 0.0391,
-        "off": 0.0148,
-        "bets": 3
       }
     },
     "shark": {
@@ -3004,12 +2992,6 @@
         "on": 0.0329,
         "off": 0.0235,
         "bets": 1
-      },
-      "underdog": {
-        "since": "2026-11-24T06:45:38Z",
-        "on": 0.0278,
-        "off": 0.0285,
-        "bets": 15
       }
     }
   },
