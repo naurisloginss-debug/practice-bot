@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24T23:00:59Z",
+  "updated": "2026-11-24T23:15:29Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -521,8 +521,8 @@
           "cautious": 0.0066,
           "beat": 0.5902,
           "challenges": 0.583,
-          "traits": 2,
-          "score": 15.35
+          "traits": 3,
+          "score": 17.35
         },
         {
           "who": "lizard",
@@ -533,8 +533,8 @@
           "cautious": -0.0015,
           "beat": 0.7021,
           "challenges": 0.364,
-          "traits": 1,
-          "score": 6.39
+          "traits": 2,
+          "score": 8.39
         }
       ],
       "ranking": [
@@ -563,7 +563,7 @@
         "min_edge": 0.02,
         "odds": [
           1.6,
-          6.0
+          3.5
         ],
         "stop_below": 250
       },
@@ -1429,6 +1429,17 @@
           "on": 0.0228,
           "off": 0.0009,
           "bets": 9
+        },
+        {
+          "id": "discipline",
+          "emoji": "🧘",
+          "title": "Disciplined",
+          "effect": "Avoids odds above 3.5.",
+          "from": "Discipline day",
+          "since": "2026-11-24T23:15:29Z",
+          "on": 0.0095,
+          "off": 0.0044,
+          "bets": 6
         }
       ],
       "mind": {
@@ -1626,7 +1637,7 @@
         "min_edge": 0.02,
         "odds": [
           1.6,
-          4.5
+          3.5
         ],
         "stop_below": 250
       },
@@ -2497,6 +2508,17 @@
           "on": 0.0295,
           "off": 0.0085,
           "bets": 21
+        },
+        {
+          "id": "discipline",
+          "emoji": "🧘",
+          "title": "Disciplined",
+          "effect": "Avoids odds above 3.5.",
+          "from": "Discipline day",
+          "since": "2026-11-24T23:15:29Z",
+          "on": 0.0391,
+          "off": 0.0143,
+          "bets": 3
         }
       ],
       "mind": {
@@ -2677,10 +2699,10 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.02,
+        "min_edge": 0.015,
         "odds": [
           1.6,
-          4.0
+          5.0
         ],
         "stop_below": 250
       },
@@ -3445,15 +3467,15 @@
           "bets": 1
         },
         {
-          "id": "precision",
-          "emoji": "🎯",
-          "title": "Precise",
-          "effect": "Always demands +0.5% more edge.",
-          "from": "Precision day",
-          "since": "2026-11-24T23:00:59Z",
-          "on": 0.032,
-          "off": 0.0271,
-          "bets": 2
+          "id": "underdog",
+          "emoji": "🐶",
+          "title": "Underdog lover",
+          "effect": "Allows underdogs at odds up to 1.0 higher.",
+          "from": "Underdog hunter",
+          "since": "2026-11-24T23:15:29Z",
+          "on": 0.0278,
+          "off": 0.0285,
+          "bets": 15
         }
       ],
       "mind": {
@@ -11238,22 +11260,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-24T21:01:00Z",
-      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
-    },
-    {
-      "t": "2026-11-24T21:01:00Z",
-      "text": "Placed 9 practice bets:\n- The Lizard: **Draw** (Winner) in Carrarese vs Juve Stabia (Serie B (Italy 2)) at 3.4 on Coolbet, stake 2.67, edge +2.2%\n- The Lizard: **Under 2.5** (Total) in Le Mans FC vs Lille (Ligue 1 (France)) at 1.91 on William Hill, stake 11.96, edge +3.8%\n- The Lizard: **Northampton Town** (Winner) in Walsall vs Northampton Town (League Two (England 4)) at 3.1 on Coolbet, stake 6.94, edge +5.1%\n- The Lizard: **Barnsley** (Winner) in Wimbledon vs Barnsley (League One (England 3)) at 2.6 on Coolbet, stake 11.16, edge +6.2%\n- The Lizard: **Burton Albion** (Winner) in Bromley FC vs Burton Albion (League One (England 3)) at 3.0 on Coolbet, stake 4.90, edge +3.4%\n- The Lizard: **Reading** (Winner) in Sheffield Wednesday vs Reading (League One (England 3)) at 2.8 on Coolbet, stake 4.58, edge +2.9%\n- The Lizard ⚡ pounce: **Blackpool** (Winner) in Stevenage vs Blackpool (League One (England 3)) at 4.0 on Coolbet, stake 4.22, edge +10.1%\n- The Lizard 🧭 scout: **Under 2.5** (Total) in Port Vale vs Newport County (League Two (England 4)) at 2.0 on William Hill, stake 2.50, edge +0.8%\n- The Lizard 🧭 scout: **Under 2.5** (Total) in Shrewsbury Town vs Cheltenham Town (League Two (England 4)) at 1.91 on William Hill, stake 2.50, edge +0.5%"
-    },
-    {
-      "t": "2026-11-24T21:15:32Z",
-      "text": "🧬 🦎 The Lizard made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-22 and its bets beat the market by +1.0%. Avoids odds above 3.5."
-    },
-    {
-      "t": "2026-11-24T21:15:32Z",
-      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
-    },
-    {
       "t": "2026-11-24T21:15:32Z",
       "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
     },
@@ -11356,6 +11362,22 @@
     {
       "t": "2026-11-24T23:00:59Z",
       "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
+    },
+    {
+      "t": "2026-11-24T23:15:29Z",
+      "text": "🧬 🦎 The Lizard made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-22 and its bets beat the market by +1.0%. Avoids odds above 3.5."
+    },
+    {
+      "t": "2026-11-24T23:15:29Z",
+      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
+    },
+    {
+      "t": "2026-11-24T23:15:29Z",
+      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-24T23:15:29Z",
+      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
     }
   ]
 }
