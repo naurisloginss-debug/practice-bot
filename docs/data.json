@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24T02:00:55Z",
+  "updated": "2026-11-24T02:15:37Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -12,7 +12,7 @@
       "shark",
       "lizard"
     ],
-    "grower": null,
+    "grower": "quant",
     "talk": [
       {
         "who": "quant",
@@ -211,8 +211,8 @@
         ]
       },
       "quant": {
-        "iq": 143,
-        "iq_gain": 0,
+        "iq": 144,
+        "iq_gain": 1,
         "streak": 1,
         "best_streak": 9,
         "achievements": [
@@ -334,7 +334,7 @@
             "pending": false
           }
         ],
-        "score": 221,
+        "score": 222,
         "trophies": [
           {
             "kind": "grower",
@@ -509,8 +509,8 @@
           "cautious": 0.022,
           "beat": 0.7273,
           "challenges": 0.7,
-          "traits": 3,
-          "score": 36.01
+          "traits": 4,
+          "score": 38.01
         },
         {
           "who": "quant",
@@ -521,8 +521,8 @@
           "cautious": 0.0058,
           "beat": 0.5714,
           "challenges": 0.545,
-          "traits": 3,
-          "score": 15.98
+          "traits": 2,
+          "score": 13.98
         },
         {
           "who": "lizard",
@@ -533,8 +533,8 @@
           "cautious": -0.0037,
           "beat": 0.7368,
           "challenges": 0.364,
-          "traits": 2,
-          "score": 6.85
+          "traits": 1,
+          "score": 4.85
         }
       ],
       "ranking": [
@@ -563,7 +563,7 @@
         "min_edge": 0.02,
         "odds": [
           1.6,
-          3.5
+          6.0
         ],
         "stop_below": 250
       },
@@ -1111,8 +1111,15 @@
         "measured": 2
       },
       "reading": {
-        "week": 116,
+        "week": 96,
         "latest": [
+          {
+            "t": "2026-11-23T23:07:48Z",
+            "title": "Key questions as Rangers host Aberdeen & Dundee visit Hibs",
+            "link": "https://www.bbc.co.uk/sport/football/articles/cqe9kvdr2mmyo?at_medium=RSS&at_campaign=rss",
+            "source": "feeds.bbci.co.uk",
+            "tone": -1
+          },
           {
             "t": "2026-11-23T21:57:40Z",
             "title": "Como interested in Manchester United’s Zirkzee following long-term Kean setback",
@@ -1147,13 +1154,6 @@
             "link": "https://www.bbc.co.uk/sport/football/articles/ck3rgpv0d8pvo?at_medium=RSS&at_campaign=rss",
             "source": "feeds.bbci.co.uk",
             "tone": 1
-          },
-          {
-            "t": "2026-11-23T15:33:49Z",
-            "title": "Three Italians ruled out for several months with serious injuries after Serie A Week 12",
-            "link": "https://football-italia.net/three-italians-ruled-out-months-serie-a-wk-12/",
-            "source": "football-italia.net",
-            "tone": -1
           }
         ]
       },
@@ -1380,17 +1380,6 @@
           "on": 0.0228,
           "off": -0.0034,
           "bets": 9
-        },
-        {
-          "id": "discipline",
-          "emoji": "🧘",
-          "title": "Disciplined",
-          "effect": "Avoids odds above 3.5.",
-          "from": "Discipline day",
-          "since": "2026-11-24T02:00:55Z",
-          "on": 0.0221,
-          "off": 0.0017,
-          "bets": 2
         }
       ],
       "mind": {
@@ -1588,7 +1577,7 @@
         "min_edge": 0.03,
         "odds": [
           1.6,
-          3.5
+          4.5
         ],
         "stop_below": 250
       },
@@ -2148,8 +2137,22 @@
         "measured": 0
       },
       "reading": {
-        "week": 68,
+        "week": 98,
         "latest": [
+          {
+            "t": "2026-11-24T00:35:43Z",
+            "title": "Cameron Boozer injury update: Grizzlies share status of Rookie of the Year contender",
+            "link": "https://sports.yahoo.com/articles/cameron-boozer-injury-grizzlies-share-003543364.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-23T23:04:26Z",
+            "title": "Grizzlies rookie Cam Boozer out at least 4 weeks with ankle injury",
+            "link": "https://sports.yahoo.com/nba/breaking-news/article/grizzlies-rookie-cam-boozer-out-at-least-4-weeks-with-ankle-injury-230426625.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
           {
             "t": "2026-11-23T18:51:48Z",
             "title": "Brooklyn&#39;s Nolan Traore out 8-10 weeks with hamstring strain",
@@ -2172,24 +2175,10 @@
             "tone": 1
           },
           {
-            "t": "2026-11-23T17:03:31Z",
-            "title": "Joel Embiid questionable (illness) for Monday vs. Trail Blazers",
-            "link": "https://sports.yahoo.com/articles/joel-embiid-questionable-illness-monday-170331674.html",
+            "t": "2026-11-23T17:35:00Z",
+            "title": "The 76ers are fun again, so it&#39;s the return of Roob&#39;s 76ers Stats!",
+            "link": "https://sports.yahoo.com/articles/76ers-fun-again-return-roobs-121311032.html",
             "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-23T16:30:00Z",
-            "title": "Cavs at Bulls: How to watch, odds, and injury report",
-            "link": "https://sports.yahoo.com/articles/cavs-bulls-watch-odds-injury-163000130.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-23T16:18:33Z",
-            "title": "2027 NBA Draft Big Board: Quentin Coleman's meteoric rise, Tyran Stokes stays at No. 1, returners boost stock",
-            "link": "https://www.cbssports.com/nba/news/2027-nba-draft-big-board-quentin-coleman-tyran-stokes-ivan-kharchenkov/",
-            "source": "www.cbssports.com",
             "tone": 1
           }
         ]
@@ -2421,22 +2410,11 @@
           "on": 0.0376,
           "off": 0.0085,
           "bets": 15
-        },
-        {
-          "id": "discipline",
-          "emoji": "🧘",
-          "title": "Disciplined",
-          "effect": "Avoids odds above 3.5.",
-          "from": "Discipline day",
-          "since": "2026-11-24T02:00:55Z",
-          "on": 0.0391,
-          "off": 0.0148,
-          "bets": 3
         }
       ],
       "mind": {
-        "iq": 143,
-        "iq_week": 19,
+        "iq": 144,
+        "iq_week": 20,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -2520,7 +2498,7 @@
           },
           {
             "d": "2026-11-24",
-            "iq": 143
+            "iq": 144
           }
         ],
         "facts": [
@@ -2612,7 +2590,7 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.015,
+        "min_edge": 0.02,
         "odds": [
           1.6,
           4.0
@@ -3121,47 +3099,47 @@
         "measured": 1
       },
       "reading": {
-        "week": 416,
+        "week": 406,
         "latest": [
           {
-            "t": "2026-11-23T22:51:52Z",
-            "title": "Micah Parsons cleared to play Wednesday night",
-            "link": "https://sports.yahoo.com/articles/micah-parsons-cleared-play-wednesday-225152171.html",
+            "t": "2026-11-24T01:56:06Z",
+            "title": "Theo Benedet, Kyler Gordon listed as out of Bears practice",
+            "link": "https://sports.yahoo.com/articles/theo-benedet-kyler-gordon-listed-015606243.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-23T22:46:15Z",
-            "title": "Packers star Micah Parsons reportedly cleared to return from ACL injury, will make season debut vs. Rams on Thanksgiving Eve",
-            "link": "https://sports.yahoo.com/nfl/breaking-news/article/packers-star-micah-parsons-reportedly-cleared-to-return-from-acl-injury-will-make-season-debut-vs-rams-on-thanksgiving-eve-224615033.html",
+            "t": "2026-11-24T01:37:20Z",
+            "title": "Wake Forest Suffers Crushing Blow as Star RB Is Done",
+            "link": "https://sports.yahoo.com/articles/wake-forest-suffers-crushing-blow-013720066.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-23T22:45:00Z",
-            "title": "Survey: Does Indiana still belong in the College Football Playoff after the loss to Washington?",
-            "link": "https://sports.yahoo.com/articles/survey-does-indiana-still-belong-224500978.html",
+            "t": "2026-11-24T01:34:47Z",
+            "title": "No. 3 Notre Dame loses safety Luke Talich for the rest of the season with torn Achilles tendon",
+            "link": "https://sports.yahoo.com/articles/no-3-notre-dame-loses-013447242.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-23T22:45:00Z",
-            "title": "Everything Curt Cignetti said after the loss to Washington, ahead of Purdue",
-            "link": "https://sports.yahoo.com/articles/everything-curt-cignetti-said-loss-224500988.html",
+            "t": "2026-11-24T01:33:00Z",
+            "title": "UND cornerback Grant Noland will miss playoff game with injury",
+            "link": "https://sports.yahoo.com/articles/und-cornerback-grant-noland-miss-013300015.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-23T22:33:21Z",
-            "title": "Bills list Greg Rousseau, Dalton Kincaid as limited on Monday&#39;s practice report",
-            "link": "https://sports.yahoo.com/articles/bills-list-greg-rousseau-dalton-223321622.html",
+            "t": "2026-11-24T01:31:53Z",
+            "title": "Bhayshul Tuten aggravates ankle injury",
+            "link": "https://sports.yahoo.com/articles/bhayshul-tuten-aggravates-ankle-injury-013153916.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-23T22:32:51Z",
-            "title": "Limited practice for Dallas Goedert",
-            "link": "https://sports.yahoo.com/articles/limited-practice-dallas-goedert-223251496.html",
+            "t": "2026-11-24T00:46:49Z",
+            "title": "Lions, Bears Week 12 injury report: 4 defenders unable to practice; DJ Reed upgraded to FULL",
+            "link": "https://sports.yahoo.com/articles/lions-bears-week-12-injury-004649628.html",
             "source": "sports.yahoo.com",
             "tone": -1
           }
@@ -3405,6 +3383,17 @@
           "on": 0.0329,
           "off": 0.0235,
           "bets": 1
+        },
+        {
+          "id": "precision",
+          "emoji": "🎯",
+          "title": "Precise",
+          "effect": "Always demands +0.5% more edge.",
+          "from": "Precision day",
+          "since": "2026-11-24T02:15:37Z",
+          "on": 0.032,
+          "off": 0.0271,
+          "bets": 2
         }
       ],
       "mind": {
@@ -11176,18 +11165,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-24T00:00:59Z",
-      "text": "🎯 🦈 The Shark's challenge today: 🗺️ New ground. Make a bet in the bet type I use least: total."
-    },
-    {
-      "t": "2026-11-24T00:15:32Z",
-      "text": "🧬 🧮 The Quant dropped the 🧘 Disciplined trait: it stopped working (+1.3% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-24T00:15:32Z",
-      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
-    },
-    {
       "t": "2026-11-24T00:15:32Z",
       "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
     },
@@ -11294,6 +11271,18 @@
     {
       "t": "2026-11-24T02:00:55Z",
       "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-24T02:15:37Z",
+      "text": "🧬 🦎 The Lizard dropped the 🧘 Disciplined trait: it stopped working (-1.0% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-24T02:15:37Z",
+      "text": "🧬 🧮 The Quant dropped the 🧘 Disciplined trait: it stopped working (+1.3% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-24T02:15:37Z",
+      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
     }
   ]
 }
