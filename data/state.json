@@ -1,6 +1,6 @@
 {
   "last_scan": "2026-11-23@21",
-  "credits_left": 17514,
+  "credits_left": 17512,
   "league_names": {
     "soccer_italy_serie_b": "Serie B (Italy 2)",
     "soccer_efl_champ": "Championship (England 2)",
@@ -23,8 +23,8 @@
     "americanfootball_nfl": "NFL",
     "americanfootball_ncaaf": "College football (US)"
   },
-  "budget_day": "2026-11-23",
-  "credits_day_start": 17851,
+  "budget_day": "2026-11-24",
+  "credits_day_start": 17514,
   "last_settle_check": {
     "soccer_france_ligue_two": "2026-11-23T22:45:31Z",
     "soccer_efl_champ": "2026-11-22T15:00:57Z",
@@ -50,26 +50,6 @@
     "americanfootball_ncaaf_fcs": "2026-11-22T08:30:53Z"
   },
   "log": [
-    {
-      "t": "2026-11-23T19:45:41Z",
-      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
-    },
-    {
-      "t": "2026-11-23T20:00:57Z",
-      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-23T20:00:57Z",
-      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
-    },
-    {
-      "t": "2026-11-23T20:15:41Z",
-      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-23T20:30:47Z",
-      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
-    },
     {
       "t": "2026-11-23T20:30:47Z",
       "text": "🏅 🧮 The Quant unlocked 🧪 Self-Critic: Cut or backed a kind of bet based on its own record."
@@ -169,6 +149,26 @@
     {
       "t": "2026-11-23T23:45:30Z",
       "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-24T00:00:59Z",
+      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
+    },
+    {
+      "t": "2026-11-24T00:00:59Z",
+      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
+    },
+    {
+      "t": "2026-11-24T00:00:59Z",
+      "text": "🎯 🦎 The Lizard's challenge today: 📰 Read and react. Use something I read in a bet today."
+    },
+    {
+      "t": "2026-11-24T00:00:59Z",
+      "text": "🎯 🧮 The Quant's challenge today: 🎯 Precision day. Only bets with an edge 1% above my usual bar, and at least 2 of them must beat the market."
+    },
+    {
+      "t": "2026-11-24T00:00:59Z",
+      "text": "🎯 🦈 The Shark's challenge today: 🗺️ New ground. Make a bet in the bet type I use least: total."
     }
   ],
   "levels": {
@@ -381,6 +381,10 @@
       {
         "d": "2026-11-23",
         "iq": 125
+      },
+      {
+        "d": "2026-11-24",
+        "iq": 125
       }
     ],
     "quant": [
@@ -463,6 +467,10 @@
       {
         "d": "2026-11-23",
         "iq": 143
+      },
+      {
+        "d": "2026-11-24",
+        "iq": 143
       }
     ],
     "shark": [
@@ -544,6 +552,10 @@
       },
       {
         "d": "2026-11-23",
+        "iq": 127
+      },
+      {
+        "d": "2026-11-24",
         "iq": 127
       }
     ]
@@ -2537,9 +2549,21 @@
         "emoji": "🦅",
         "title": "Sharp eye",
         "text": "Find a +3% edge that holds up against the market.",
-        "status": "active",
+        "status": "none",
         "market": "spreads",
         "target": 106,
+        "league": "soccer_germany_bundesliga",
+        "detail": "No chance today: nothing fit the challenge, and not betting was the right call."
+      },
+      {
+        "day": "2026-11-24",
+        "id": "news",
+        "emoji": "📰",
+        "title": "Read and react",
+        "text": "Use something I read in a bet today.",
+        "status": "active",
+        "market": "spreads",
+        "target": 116,
         "league": "soccer_germany_bundesliga"
       }
     ],
@@ -2697,6 +2721,17 @@
         "target": 65,
         "league": null,
         "detail": "2 bets beat the market."
+      },
+      {
+        "day": "2026-11-24",
+        "id": "precision",
+        "emoji": "🎯",
+        "title": "Precision day",
+        "text": "Only bets with an edge 1% above my usual bar, and at least 2 of them must beat the market.",
+        "status": "active",
+        "market": "spreads",
+        "target": 71,
+        "league": null
       }
     ],
     "shark": [
@@ -2850,9 +2885,20 @@
         "emoji": "🧘",
         "title": "Discipline day",
         "text": "No gut calls, no wild bets, nothing above odds 3.0, and still beat the market.",
-        "status": "active",
+        "status": "judging",
         "market": "totals",
         "target": 109,
+        "league": null
+      },
+      {
+        "day": "2026-11-24",
+        "id": "new_ground",
+        "emoji": "🗺️",
+        "title": "New ground",
+        "text": "Make a bet in the bet type I use least: total.",
+        "status": "active",
+        "market": "totals",
+        "target": 132,
         "league": null
       }
     ]
@@ -2928,6 +2974,12 @@
         "on": 0.0366,
         "off": 0.0085,
         "bets": 14
+      },
+      "discipline": {
+        "since": "2026-11-24T00:00:59Z",
+        "on": 0.0391,
+        "off": 0.0142,
+        "bets": 3
       }
     },
     "shark": {
@@ -2948,6 +3000,12 @@
         "on": 0.0329,
         "off": 0.0239,
         "bets": 1
+      },
+      "precision": {
+        "since": "2026-11-24T00:00:59Z",
+        "on": 0.032,
+        "off": 0.0278,
+        "bets": 2
       }
     }
   },
