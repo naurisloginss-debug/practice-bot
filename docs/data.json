@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24T14:30:46Z",
+  "updated": "2026-11-24T14:45:39Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -509,8 +509,8 @@
           "cautious": 0.022,
           "beat": 0.7273,
           "challenges": 0.7,
-          "traits": 3,
-          "score": 36.01
+          "traits": 4,
+          "score": 38.01
         },
         {
           "who": "quant",
@@ -521,8 +521,8 @@
           "cautious": 0.0058,
           "beat": 0.5714,
           "challenges": 0.545,
-          "traits": 2,
-          "score": 13.98
+          "traits": 3,
+          "score": 15.98
         },
         {
           "who": "lizard",
@@ -533,8 +533,8 @@
           "cautious": -0.0037,
           "beat": 0.7368,
           "challenges": 0.364,
-          "traits": 1,
-          "score": 4.85
+          "traits": 2,
+          "score": 6.85
         }
       ],
       "ranking": [
@@ -563,7 +563,7 @@
         "min_edge": 0.02,
         "odds": [
           1.6,
-          6.0
+          3.5
         ],
         "stop_below": 250
       },
@@ -1119,8 +1119,36 @@
         "measured": 2
       },
       "reading": {
-        "week": 122,
+        "week": 112,
         "latest": [
+          {
+            "t": "2026-11-24T14:20:13Z",
+            "title": "Aitcheson to miss Rovers' trip to Watford",
+            "link": "https://www.bbc.co.uk/sport/football/articles/cqn83z841803o?at_medium=RSS&at_campaign=rss",
+            "source": "feeds.bbci.co.uk",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-24T14:08:04Z",
+            "title": "Why Juventus might not choose Conte as Spalletti’s replacement",
+            "link": "https://football-italia.net/why-juventus-might-no-choose-conte-spalletti/",
+            "source": "football-italia.net",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-24T12:31:12Z",
+            "title": "Non-league player injured falling down badger hole",
+            "link": "https://www.bbc.co.uk/sport/football/articles/cw0k636m0vr3o?at_medium=RSS&at_campaign=rss",
+            "source": "feeds.bbci.co.uk",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-24T11:36:18Z",
+            "title": "Glens boss Ferguson apologises after seven-game ban",
+            "link": "https://www.bbc.co.uk/sport/football/articles/cm0evqv7nyq5o?at_medium=RSS&at_campaign=rss",
+            "source": "feeds.bbci.co.uk",
+            "tone": -1
+          },
           {
             "t": "2026-11-24T09:42:22Z",
             "title": "How to follow the Champions League on the BBC",
@@ -1134,34 +1162,6 @@
             "link": "https://football-italia.net/champions-league-como-aek-probable-line-ups/",
             "source": "football-italia.net",
             "tone": 1
-          },
-          {
-            "t": "2026-11-24T08:44:15Z",
-            "title": "Today’s Papers: Max and the City, De Bruyne returns to Manchester",
-            "link": "https://football-italia.net/todays-papers-max-and-the-city-manchester/",
-            "source": "football-italia.net",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-24T08:08:33Z",
-            "title": "Can returning Beattie and Haughey make an impact?",
-            "link": "https://www.bbc.co.uk/sport/articles/cm04wz6ez2rgo?at_medium=RSS&at_campaign=rss",
-            "source": "feeds.bbci.co.uk",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-24T06:57:16Z",
-            "title": "Why has De Bruyne struggled at Napoli as he returns to Man City?",
-            "link": "https://www.bbc.co.uk/sport/football/articles/cqglreexkk06o?at_medium=RSS&at_campaign=rss",
-            "source": "feeds.bbci.co.uk",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-23T23:07:48Z",
-            "title": "Key questions as Rangers host Aberdeen & Dundee visit Hibs",
-            "link": "https://www.bbc.co.uk/sport/football/articles/cqe9kvdr2mmyo?at_medium=RSS&at_campaign=rss",
-            "source": "feeds.bbci.co.uk",
-            "tone": -1
           }
         ]
       },
@@ -1388,6 +1388,17 @@
           "on": 0.0228,
           "off": -0.0034,
           "bets": 9
+        },
+        {
+          "id": "discipline",
+          "emoji": "🧘",
+          "title": "Disciplined",
+          "effect": "Avoids odds above 3.5.",
+          "from": "Discipline day",
+          "since": "2026-11-24T14:45:39Z",
+          "on": 0.0221,
+          "off": 0.0017,
+          "bets": 2
         }
       ],
       "mind": {
@@ -1585,7 +1596,7 @@
         "min_edge": 0.03,
         "odds": [
           1.6,
-          4.5
+          3.5
         ],
         "stop_below": 250
       },
@@ -2177,8 +2188,15 @@
         "measured": 0
       },
       "reading": {
-        "week": 98,
+        "week": 91,
         "latest": [
+          {
+            "t": "2026-11-24T11:45:00Z",
+            "title": "How to watch Dallas Mavericks vs Denver Nuggets: TV, live stream, info for tonight&#39;s game",
+            "link": "https://sports.yahoo.com/articles/watch-dallas-mavericks-vs-denver-114500209.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
           {
             "t": "2026-11-24T05:45:41Z",
             "title": "Julius Randle has no hard feelings towards Timberwolves in return after salary-dump trade to Nets",
@@ -2213,13 +2231,6 @@
             "link": "https://sports.yahoo.com/nba/breaking-news/article/spurs-roll-past-kings-despite-victor-wembanyama-missing-first-game-of-the-season-deaaron-fox-sidelined-052828029.html",
             "source": "sports.yahoo.com",
             "tone": -1
-          },
-          {
-            "t": "2026-11-24T00:47:14Z",
-            "title": "Rockets Return Home To Face Clippers",
-            "link": "https://sports.yahoo.com/articles/rockets-return-home-face-clippers-004714742.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
           }
         ]
       },
@@ -2450,6 +2461,17 @@
           "on": 0.0376,
           "off": 0.0085,
           "bets": 15
+        },
+        {
+          "id": "discipline",
+          "emoji": "🧘",
+          "title": "Disciplined",
+          "effect": "Avoids odds above 3.5.",
+          "from": "Discipline day",
+          "since": "2026-11-24T14:45:39Z",
+          "on": 0.0391,
+          "off": 0.0148,
+          "bets": 3
         }
       ],
       "mind": {
@@ -2630,7 +2652,7 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.015,
+        "min_edge": 0.02,
         "odds": [
           1.6,
           4.0
@@ -3147,49 +3169,49 @@
         "measured": 1
       },
       "reading": {
-        "week": 380,
+        "week": 397,
         "latest": [
           {
-            "t": "2026-11-24T11:00:00Z",
-            "title": "Giants news: CB Greg Newsome injury, Dennard Wilson interview, more",
-            "link": "https://sports.yahoo.com/articles/giants-news-cb-greg-newsome-110000383.html",
+            "t": "2026-11-24T14:13:50Z",
+            "title": "Week 13 college football prediction market picks: UCLA, Ohio State lead Kalshi, Polymarket",
+            "link": "https://sports.yahoo.com/articles/week-13-college-football-prediction-141350021.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-24T10:25:40Z",
-            "title": "Texas A&M DL dealing with illness; will not play vs. Texas",
-            "link": "https://sports.yahoo.com/articles/texas-m-dl-dealing-illness-102540755.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-24T09:57:02Z",
-            "title": "UCLA football&#39;s CFP status is obvious. We don&#39;t need a committee to play doctor",
-            "link": "https://sports.yahoo.com/articles/ucla-footballs-cfp-status-obvious-095702037.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-24T09:03:03Z",
-            "title": "Upsets shake up Big Ten football power rankings with new No. 1, UCLA sliding",
-            "link": "https://sports.yahoo.com/articles/upsets-shake-big-ten-football-090303412.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-24T09:00:40Z",
-            "title": "Alex Golesh Understands What&#39;s at Stake for Auburn Football in His First Iron Bowl",
-            "link": "https://sports.yahoo.com/articles/alex-golesh-understands-whats-stake-090040248.html",
+            "t": "2026-11-24T14:00:38Z",
+            "title": "Auburn Football Needs More Than Another Close Iron Bowl",
+            "link": "https://sports.yahoo.com/articles/auburn-football-needs-more-another-140038116.html",
             "source": "sports.yahoo.com",
             "tone": 1
           },
           {
-            "t": "2026-11-24T06:10:48Z",
-            "title": "UCF HC Scott Frost Shares What He’s Thankful Ahead of Ending His Second Season",
-            "link": "https://sports.yahoo.com/articles/ucf-hc-scott-frost-shares-061048573.html",
+            "t": "2026-11-24T14:00:00Z",
+            "title": "Alijah Vera-Tucker return will be ‘huge’ for Patriots offensive line",
+            "link": "https://sports.yahoo.com/articles/alijah-vera-tucker-return-huge-140000583.html",
             "source": "sports.yahoo.com",
-            "tone": 1
+            "tone": -1
+          },
+          {
+            "t": "2026-11-24T14:00:00Z",
+            "title": "Mountaintop View 11-24-26",
+            "link": "https://sports.yahoo.com/articles/mountaintop-view-11-24-26-140000776.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-24T13:44:00Z",
+            "title": "Random Thoughts Week 12: The Glorious Big Ten Implosion",
+            "link": "https://sports.yahoo.com/articles/random-thoughts-week-12-glorious-134400049.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-24T12:00:43Z",
+            "title": "Numbers To Know Ahead Of Iowa Football&#39;s Home Finale Against Nebraska",
+            "link": "https://sports.yahoo.com/articles/numbers-know-ahead-iowa-footballs-120043264.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
           }
         ]
       },
@@ -3431,6 +3453,17 @@
           "on": 0.0329,
           "off": 0.0235,
           "bets": 1
+        },
+        {
+          "id": "precision",
+          "emoji": "🎯",
+          "title": "Precise",
+          "effect": "Always demands +0.5% more edge.",
+          "from": "Precision day",
+          "since": "2026-11-24T14:45:39Z",
+          "on": 0.032,
+          "off": 0.0271,
+          "bets": 2
         }
       ],
       "mind": {
@@ -11211,18 +11244,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-24T12:30:46Z",
-      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
-    },
-    {
-      "t": "2026-11-24T12:45:30Z",
-      "text": "🧬 🦎 The Lizard made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-18 and its bets beat the market by +2.2%. Avoids odds above 3.5."
-    },
-    {
-      "t": "2026-11-24T12:45:30Z",
-      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
-    },
-    {
       "t": "2026-11-24T12:45:30Z",
       "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
     },
@@ -11329,6 +11350,18 @@
     {
       "t": "2026-11-24T14:30:46Z",
       "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-24T14:45:39Z",
+      "text": "🧬 🦎 The Lizard made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-18 and its bets beat the market by +2.2%. Avoids odds above 3.5."
+    },
+    {
+      "t": "2026-11-24T14:45:39Z",
+      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
+    },
+    {
+      "t": "2026-11-24T14:45:39Z",
+      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
     }
   ]
 }
