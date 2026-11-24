@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24T23:15:29Z",
+  "updated": "2026-11-24T23:30:45Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -213,7 +213,7 @@
       "quant": {
         "iq": 144,
         "iq_gain": 1,
-        "streak": 2,
+        "streak": 3,
         "best_streak": 9,
         "achievements": [
           {
@@ -324,12 +324,12 @@
           {
             "text": "Bets checked against the market",
             "target": 49,
-            "now": 23
+            "now": 24
           },
           {
             "text": "Beat the market on",
             "target": 55,
-            "now": 74,
+            "now": 75,
             "unit": "%",
             "pending": false
           }
@@ -359,7 +359,7 @@
       "shark": {
         "iq": 127,
         "iq_gain": 0,
-        "streak": 3,
+        "streak": 0,
         "best_streak": 4,
         "achievements": [
           {
@@ -470,12 +470,12 @@
           {
             "text": "Bets checked against the market",
             "target": 54,
-            "now": 3
+            "now": 4
           },
           {
             "text": "Beat the market on",
             "target": 55,
-            "now": 100,
+            "now": 75,
             "unit": "%",
             "pending": false
           }
@@ -503,26 +503,26 @@
         {
           "who": "shark",
           "eligible": true,
-          "measured": 33,
+          "measured": 34,
           "need": 0,
-          "clv": 0.035,
-          "cautious": 0.022,
-          "beat": 0.7273,
+          "clv": 0.0323,
+          "cautious": 0.0193,
+          "beat": 0.7059,
           "challenges": 0.727,
-          "traits": 4,
-          "score": 38.15
+          "traits": 3,
+          "score": 33.1
         },
         {
           "who": "quant",
           "eligible": true,
-          "measured": 61,
+          "measured": 62,
           "need": 0,
-          "clv": 0.0154,
-          "cautious": 0.0066,
-          "beat": 0.5902,
+          "clv": 0.0157,
+          "cautious": 0.0071,
+          "beat": 0.5968,
           "challenges": 0.583,
-          "traits": 3,
-          "score": 17.35
+          "traits": 2,
+          "score": 15.95
         },
         {
           "who": "lizard",
@@ -533,8 +533,8 @@
           "cautious": -0.0015,
           "beat": 0.7021,
           "challenges": 0.364,
-          "traits": 2,
-          "score": 8.39
+          "traits": 1,
+          "score": 6.39
         }
       ],
       "ranking": [
@@ -545,7 +545,7 @@
       "leader": "shark"
     }
   },
-  "credits_left": 17126,
+  "credits_left": 17123,
   "last_scan": "2026-11-24@21",
   "strategies": {
     "lizard": {
@@ -563,7 +563,7 @@
         "min_edge": 0.02,
         "odds": [
           1.6,
-          3.5
+          6.0
         ],
         "stop_below": 250
       },
@@ -1429,17 +1429,6 @@
           "on": 0.0228,
           "off": 0.0009,
           "bets": 9
-        },
-        {
-          "id": "discipline",
-          "emoji": "🧘",
-          "title": "Disciplined",
-          "effect": "Avoids odds above 3.5.",
-          "from": "Discipline day",
-          "since": "2026-11-24T23:15:29Z",
-          "on": 0.0095,
-          "off": 0.0044,
-          "bets": 6
         }
       ],
       "mind": {
@@ -1637,7 +1626,7 @@
         "min_edge": 0.02,
         "odds": [
           1.6,
-          3.5
+          4.5
         ],
         "stop_below": 250
       },
@@ -1678,9 +1667,9 @@
       "profit": -48.46,
       "roi": -0.0725,
       "avg_edge": 0.0316,
-      "avg_clv": 0.0194,
-      "beat_close": 0.5567,
-      "clv_count": 97,
+      "avg_clv": 0.0195,
+      "beat_close": 0.5612,
+      "clv_count": 98,
       "history": [
         {
           "t": "2026-11-10T21:01:26Z",
@@ -2150,9 +2139,9 @@
           "bets": 78,
           "profit": -29.31,
           "roi": -0.0512,
-          "avg_clv": 0.0124,
-          "beat_close": 0.5088,
-          "clv_count": 57
+          "avg_clv": 0.0128,
+          "beat_close": 0.5172,
+          "clv_count": 58
         },
         {
           "name": "EuroLeague",
@@ -2179,9 +2168,9 @@
           "bets": 86,
           "profit": -37.5,
           "roi": -0.1769,
-          "avg_clv": 0.025,
-          "beat_close": 0.5854,
-          "clv_count": 82
+          "avg_clv": 0.0252,
+          "beat_close": 0.5904,
+          "clv_count": 83
         },
         {
           "name": "Total",
@@ -2199,9 +2188,9 @@
           "bets": 124,
           "profit": -48.46,
           "roi": -0.0725,
-          "avg_clv": 0.0194,
-          "beat_close": 0.5567,
-          "clv_count": 97
+          "avg_clv": 0.0195,
+          "beat_close": 0.5612,
+          "clv_count": 98
         }
       ],
       "gut": {
@@ -2332,9 +2321,9 @@
         "badge": "⚡",
         "stake": 1.15,
         "perk": "Stakes +15%. Consistently beats the market.",
-        "measured": 61,
-        "clv": 0.0154,
-        "beat": 0.5902,
+        "measured": 62,
+        "clv": 0.0157,
+        "beat": 0.5968,
         "cold": false,
         "next": {
           "title": "Mastermind",
@@ -2344,20 +2333,20 @@
             {
               "text": "100 measured bets",
               "done": false,
-              "now": "61"
+              "now": "62"
             },
             {
               "text": "beat the market on 57%+",
               "done": true,
-              "now": "59%"
+              "now": "60%"
             },
             {
               "text": "average price +1.5%+ vs market",
               "done": true,
-              "now": "+1.5%"
+              "now": "+1.6%"
             }
           ],
-          "progress": 0.61
+          "progress": 0.62
         }
       },
       "explorer": {
@@ -2508,17 +2497,6 @@
           "on": 0.0295,
           "off": 0.0085,
           "bets": 21
-        },
-        {
-          "id": "discipline",
-          "emoji": "🧘",
-          "title": "Disciplined",
-          "effect": "Avoids odds above 3.5.",
-          "from": "Discipline day",
-          "since": "2026-11-24T23:15:29Z",
-          "on": 0.0391,
-          "off": 0.0143,
-          "bets": 3
         }
       ],
       "mind": {
@@ -2676,10 +2654,10 @@
           },
           {
             "conf": "solid",
-            "n": 77,
+            "n": 78,
             "z": 0,
-            "text": "When I find value, the market moves my way before kick-off 57% of the time.",
-            "detail": "77 bets measured"
+            "text": "When I find value, the market moves my way before kick-off 58% of the time.",
+            "detail": "78 bets measured"
           }
         ],
         "rules": 0,
@@ -2702,7 +2680,7 @@
         "min_edge": 0.015,
         "odds": [
           1.6,
-          5.0
+          4.0
         ],
         "stop_below": 250
       },
@@ -2721,12 +2699,12 @@
         {
           "kind": "favour",
           "text": "Backing harder: all leagues · winner · middle odds",
-          "detail": "+2.6% vs the market, beat it on 76% of 21 bets"
+          "detail": "+2.2% vs the market, beat it on 73% of 22 bets"
         },
         {
           "kind": "favour",
           "text": "Backing harder: College football (US) · winner",
-          "detail": "+3.2% vs the market, beat it on 67% of 30 bets"
+          "detail": "+2.9% vs the market, beat it on 65% of 31 bets"
         }
       ],
       "bets": 127,
@@ -2737,9 +2715,9 @@
       "profit": 3.01,
       "roi": 0.0123,
       "avg_edge": 0.0327,
-      "avg_clv": 0.0184,
-      "beat_close": 0.5679,
-      "clv_count": 81,
+      "avg_clv": 0.0175,
+      "beat_close": 0.561,
+      "clv_count": 82,
       "history": [
         {
           "t": "2026-11-07T16:00:52Z",
@@ -3142,9 +3120,9 @@
           "bets": 86,
           "profit": -19.77,
           "roi": -0.128,
-          "avg_clv": 0.0122,
-          "beat_close": 0.5556,
-          "clv_count": 54
+          "avg_clv": 0.0109,
+          "beat_close": 0.5455,
+          "clv_count": 55
         }
       ],
       "by_market": [
@@ -3153,9 +3131,9 @@
           "bets": 97,
           "profit": 18.23,
           "roi": 0.1014,
-          "avg_clv": 0.0207,
-          "beat_close": 0.5797,
-          "clv_count": 69
+          "avg_clv": 0.0195,
+          "beat_close": 0.5714,
+          "clv_count": 70
         },
         {
           "name": "Spread",
@@ -3182,9 +3160,9 @@
           "bets": 127,
           "profit": 3.01,
           "roi": 0.0123,
-          "avg_clv": 0.0184,
-          "beat_close": 0.5679,
-          "clv_count": 81
+          "avg_clv": 0.0175,
+          "beat_close": 0.561,
+          "clv_count": 82
         }
       ],
       "gut": {
@@ -3278,9 +3256,9 @@
         "badge": "🎓",
         "stake": 1.0,
         "perk": "Has a track record. Starts learning which bets work.",
-        "measured": 33,
-        "clv": 0.035,
-        "beat": 0.7273,
+        "measured": 34,
+        "clv": 0.0323,
+        "beat": 0.7059,
         "cold": false,
         "next": {
           "title": "Sharp",
@@ -3290,20 +3268,20 @@
             {
               "text": "40 measured bets",
               "done": false,
-              "now": "33"
+              "now": "34"
             },
             {
               "text": "beat the market on 55%+",
               "done": true,
-              "now": "73%"
+              "now": "71%"
             },
             {
               "text": "average price +1.0%+ vs market",
               "done": true,
-              "now": "+3.5%"
+              "now": "+3.2%"
             }
           ],
-          "progress": 0.825
+          "progress": 0.85
         }
       },
       "explorer": {
@@ -3465,17 +3443,6 @@
           "on": 0.0329,
           "off": 0.0235,
           "bets": 1
-        },
-        {
-          "id": "underdog",
-          "emoji": "🐶",
-          "title": "Underdog lover",
-          "effect": "Allows underdogs at odds up to 1.0 higher.",
-          "from": "Underdog hunter",
-          "since": "2026-11-24T23:15:29Z",
-          "on": 0.0278,
-          "off": 0.0285,
-          "bets": 15
         }
       ],
       "mind": {
@@ -3584,10 +3551,10 @@
           },
           {
             "conf": "solid",
-            "n": 52,
+            "n": 53,
             "z": 0,
-            "text": "When I find value, the market moves my way before kick-off 63% of the time.",
-            "detail": "52 bets measured"
+            "text": "When I find value, the market moves my way before kick-off 62% of the time.",
+            "detail": "53 bets measured"
           },
           {
             "conf": "watching",
@@ -5899,8 +5866,8 @@
       "edge": 0.0472,
       "stake": 8.64,
       "status": "open",
-      "closing_fair_odds": null,
-      "clv": null,
+      "closing_fair_odds": 3.183,
+      "clv": -0.0575,
       "profit": 0.0,
       "score": null,
       "settled_at": null,
@@ -5978,8 +5945,8 @@
       "edge": 0.0462,
       "stake": 4.37,
       "status": "open",
-      "closing_fair_odds": null,
-      "clv": null,
+      "closing_fair_odds": 4.102,
+      "clv": 0.036,
       "profit": 0.0,
       "score": null,
       "settled_at": null,
@@ -11260,18 +11227,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-24T21:15:32Z",
-      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-24T21:30:45Z",
-      "text": "🧬 🦎 The Lizard dropped the 🧘 Disciplined trait: it stopped working (-0.1% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-24T21:30:45Z",
-      "text": "🧬 🧮 The Quant dropped the 🧘 Disciplined trait: it stopped working (+1.3% vs the market on those days)."
-    },
-    {
       "t": "2026-11-24T21:30:45Z",
       "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
     },
@@ -11378,6 +11333,18 @@
     {
       "t": "2026-11-24T23:15:29Z",
       "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
+    },
+    {
+      "t": "2026-11-24T23:30:45Z",
+      "text": "🧬 🦎 The Lizard dropped the 🧘 Disciplined trait: it stopped working (-0.1% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-24T23:30:45Z",
+      "text": "🧬 🧮 The Quant dropped the 🧘 Disciplined trait: it stopped working (+1.3% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-24T23:30:45Z",
+      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
     }
   ]
 }
