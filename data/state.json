@@ -1,6 +1,6 @@
 {
   "last_scan": "2026-11-24@21",
-  "credits_left": 17132,
+  "credits_left": 17126,
   "league_names": {
     "soccer_italy_serie_b": "Serie B (Italy 2)",
     "soccer_efl_champ": "Championship (England 2)",
@@ -27,7 +27,7 @@
   "credits_day_start": 17514,
   "last_settle_check": {
     "soccer_france_ligue_two": "2026-11-23T22:45:31Z",
-    "soccer_efl_champ": "2026-11-22T15:00:57Z",
+    "soccer_efl_champ": "2026-11-24T22:45:31Z",
     "soccer_germany_bundesliga2": "2026-11-22T15:30:49Z",
     "soccer_france_ligue_one": "2026-11-22T23:00:57Z",
     "soccer_spain_segunda_division": "2026-11-23T22:30:47Z",
@@ -38,8 +38,8 @@
     "americanfootball_ncaaf": "2026-11-22T08:15:32Z",
     "basketball_ncaab": "2026-11-24T19:15:34Z",
     "basketball_nbl": "2026-11-15T13:15:30Z",
-    "soccer_england_league2": "2026-11-21T21:45:32Z",
-    "soccer_england_league1": "2026-11-21T21:45:32Z",
+    "soccer_england_league2": "2026-11-24T22:45:31Z",
+    "soccer_england_league1": "2026-11-24T22:45:31Z",
     "soccer_brazil_campeonato": "2026-11-24T07:45:33Z",
     "americanfootball_cfl": "2026-11-16T08:01:11Z",
     "soccer_usa_mls": "2026-11-24T04:00:59Z",
@@ -50,26 +50,6 @@
     "americanfootball_ncaaf_fcs": "2026-11-22T08:30:53Z"
   },
   "log": [
-    {
-      "t": "2026-11-24T20:30:53Z",
-      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-24T20:30:53Z",
-      "text": "🦎 The Lizard levelled up: Apprentice → ⚡ Sharp. Stakes +15%. Consistently beats the market."
-    },
-    {
-      "t": "2026-11-24T20:45:33Z",
-      "text": "🧬 🦎 The Lizard made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-22 and its bets beat the market by +1.0%. Avoids odds above 3.5."
-    },
-    {
-      "t": "2026-11-24T20:45:33Z",
-      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
-    },
-    {
-      "t": "2026-11-24T20:45:33Z",
-      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
-    },
     {
       "t": "2026-11-24T21:01:00Z",
       "text": "🧬 🦎 The Lizard dropped the 🧘 Disciplined trait: it stopped working (-0.1% vs the market on those days)."
@@ -169,6 +149,26 @@
     {
       "t": "2026-11-24T22:30:54Z",
       "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
+    },
+    {
+      "t": "2026-11-24T22:45:31Z",
+      "text": "🧬 🦎 The Lizard made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-22 and its bets beat the market by +1.0%. Avoids odds above 3.5."
+    },
+    {
+      "t": "2026-11-24T22:45:31Z",
+      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
+    },
+    {
+      "t": "2026-11-24T22:45:31Z",
+      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-24T22:45:31Z",
+      "text": "✅ 🧮 The Quant completed 🎯 Precision day: 2 bets beat the market."
+    },
+    {
+      "t": "2026-11-24T22:45:31Z",
+      "text": "Results:\n- Lost -5.87: Wrexham AFC (Winner) in Bristol City vs Wrexham AFC (Bristol City 1 - 1 Wrexham AFC)\n- Lost -3.75: Lincoln City (Winner) in Charlton Athletic vs Lincoln City (Charlton Athletic 4 - 0 Lincoln City)\n- Lost -13.53: Sheffield United (Winner) in Sheffield United vs Southampton (Sheffield United 1 - 1 Southampton)\n- Lost -1.24: Draw (Winner) in Cardiff City vs Preston North End (Cardiff City 0 - 4 Preston North End)\n- Lost -1.25: Draw (Winner) in Middlesbrough vs Swansea City (Middlesbrough 2 - 1 Swansea City)\n- Won +7.19: Under 2.5 (Total) in Stevenage vs Sheffield Wednesday (Stevenage 0 - 0 Sheffield Wednesday)\n- Lost -2.49: Leicester City (Winner) in Blackpool vs Leicester City (Blackpool 1 - 1 Leicester City)\n- Lost -3.76: Stevenage (Winner) in Stevenage vs Sheffield Wednesday (Stevenage 0 - 0 Sheffield Wednesday)\n- Lost -2.50: Northampton Town (Winner) in Port Vale vs Northampton Town (Port Vale 1 - 1 Northampton Town)"
     }
   ],
   "levels": {
@@ -385,7 +385,7 @@
       },
       {
         "d": "2026-11-24",
-        "iq": 127
+        "iq": 128
       }
     ],
     "quant": [
@@ -2693,10 +2693,11 @@
         "emoji": "🎯",
         "title": "Precision day",
         "text": "Only bets with an edge 1% above my usual bar, and at least 2 of them must beat the market.",
-        "status": "active",
+        "status": "done",
         "market": "spreads",
         "target": 71,
-        "league": null
+        "league": null,
+        "detail": "2 bets beat the market."
       }
     ],
     "shark": [
@@ -2923,20 +2924,32 @@
         "on": 0.0228,
         "off": 0.0009,
         "bets": 9
+      },
+      "discipline": {
+        "since": "2026-11-24T22:45:31Z",
+        "on": 0.0095,
+        "off": 0.0044,
+        "bets": 6
       }
     },
     "quant": {
       "underdog": {
         "since": "2026-11-21T07:21:41Z",
         "on": 0.016,
-        "off": 0.0133,
+        "off": 0.014,
         "bets": 9
       },
       "precision": {
         "since": "2026-11-23T18:30:49Z",
         "on": 0.0318,
-        "off": 0.008,
+        "off": 0.0088,
         "bets": 18
+      },
+      "discipline": {
+        "since": "2026-11-24T22:45:31Z",
+        "on": 0.0391,
+        "off": 0.0143,
+        "bets": 3
       }
     },
     "shark": {
@@ -2957,12 +2970,6 @@
         "on": 0.0329,
         "off": 0.0235,
         "bets": 1
-      },
-      "underdog": {
-        "since": "2026-11-24T22:30:54Z",
-        "on": 0.0278,
-        "off": 0.0285,
-        "bets": 15
       }
     }
   },

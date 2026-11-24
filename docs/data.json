@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24T22:30:54Z",
+  "updated": "2026-11-24T22:45:31Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -29,8 +29,8 @@
     ],
     "chars": {
       "lizard": {
-        "iq": 127,
-        "iq_gain": 2,
+        "iq": 128,
+        "iq_gain": 3,
         "streak": 1,
         "best_streak": 8,
         "achievements": [
@@ -152,7 +152,7 @@
             "pending": false
           }
         ],
-        "score": 189,
+        "score": 190,
         "trophies": [
           {
             "kind": "sharpshooter",
@@ -334,7 +334,7 @@
             "pending": false
           }
         ],
-        "score": 222,
+        "score": 225,
         "trophies": [
           {
             "kind": "grower",
@@ -509,8 +509,8 @@
           "cautious": 0.022,
           "beat": 0.7273,
           "challenges": 0.727,
-          "traits": 4,
-          "score": 38.15
+          "traits": 3,
+          "score": 36.15
         },
         {
           "who": "quant",
@@ -520,9 +520,9 @@
           "clv": 0.0154,
           "cautious": 0.0066,
           "beat": 0.5902,
-          "challenges": 0.545,
-          "traits": 2,
-          "score": 15.16
+          "challenges": 0.583,
+          "traits": 3,
+          "score": 17.35
         },
         {
           "who": "lizard",
@@ -533,8 +533,8 @@
           "cautious": -0.0015,
           "beat": 0.7021,
           "challenges": 0.364,
-          "traits": 1,
-          "score": 6.39
+          "traits": 2,
+          "score": 8.39
         }
       ],
       "ranking": [
@@ -545,7 +545,7 @@
       "leader": "shark"
     }
   },
-  "credits_left": 17132,
+  "credits_left": 17126,
   "last_scan": "2026-11-24@21",
   "strategies": {
     "lizard": {
@@ -563,7 +563,7 @@
         "min_edge": 0.02,
         "odds": [
           1.6,
-          6.0
+          3.5
         ],
         "stop_below": 250
       },
@@ -590,7 +590,7 @@
         "Total"
       ],
       "start_fund": 500,
-      "fund": 500.53,
+      "fund": 473.33,
       "lessons": [
         {
           "kind": "avoid",
@@ -604,12 +604,12 @@
         }
       ],
       "bets": 117,
-      "open": 38,
-      "won": 24,
-      "lost": 55,
-      "staked": 200.6,
-      "profit": 0.53,
-      "roi": 0.0026,
+      "open": 29,
+      "won": 25,
+      "lost": 63,
+      "staked": 242.18,
+      "profit": -26.67,
+      "roi": -0.1101,
       "avg_edge": 0.0306,
       "avg_clv": 0.0016,
       "beat_close": 0.618,
@@ -934,6 +934,42 @@
         {
           "t": "2026-11-24T07:45:33Z",
           "fund": 500.53
+        },
+        {
+          "t": "2026-11-24T22:45:31Z",
+          "fund": 494.66
+        },
+        {
+          "t": "2026-11-24T22:45:31Z",
+          "fund": 490.91
+        },
+        {
+          "t": "2026-11-24T22:45:31Z",
+          "fund": 477.38
+        },
+        {
+          "t": "2026-11-24T22:45:31Z",
+          "fund": 484.57
+        },
+        {
+          "t": "2026-11-24T22:45:31Z",
+          "fund": 482.08
+        },
+        {
+          "t": "2026-11-24T22:45:31Z",
+          "fund": 480.84
+        },
+        {
+          "t": "2026-11-24T22:45:31Z",
+          "fund": 479.59
+        },
+        {
+          "t": "2026-11-24T22:45:31Z",
+          "fund": 475.83
+        },
+        {
+          "t": "2026-11-24T22:45:31Z",
+          "fund": 473.33
         }
       ],
       "by_league": [
@@ -1003,8 +1039,8 @@
         {
           "name": "Championship (England 2)",
           "bets": 26,
-          "profit": -2.05,
-          "roi": -0.0723,
+          "profit": -27.69,
+          "roi": -0.5128,
           "avg_clv": -0.0035,
           "beat_close": 0.4783,
           "clv_count": 23
@@ -1021,8 +1057,8 @@
         {
           "name": "League Two (England 4)",
           "bets": 13,
-          "profit": -9.69,
-          "roi": -0.4757,
+          "profit": -12.19,
+          "roi": -0.533,
           "avg_clv": -0.023,
           "beat_close": 0.5,
           "clv_count": 10
@@ -1030,8 +1066,8 @@
         {
           "name": "League One (England 3)",
           "bets": 11,
-          "profit": 7.48,
-          "roi": 1.1081,
+          "profit": 8.42,
+          "roi": 0.417,
           "avg_clv": -0.024,
           "beat_close": 0.5,
           "clv_count": 6
@@ -1068,8 +1104,8 @@
         {
           "name": "Total",
           "bets": 14,
-          "profit": 14.88,
-          "roi": 0.3884,
+          "profit": 22.07,
+          "roi": 0.4851,
           "avg_clv": 0.0258,
           "beat_close": 0.8571,
           "clv_count": 7
@@ -1077,8 +1113,8 @@
         {
           "name": "Winner",
           "bets": 101,
-          "profit": -11.89,
-          "roi": -0.0744,
+          "profit": -46.28,
+          "roi": -0.2383,
           "avg_clv": -0.0013,
           "beat_close": 0.5926,
           "clv_count": 81
@@ -1088,8 +1124,8 @@
         {
           "name": "Football",
           "bets": 117,
-          "profit": 0.53,
-          "roi": 0.0026,
+          "profit": -26.67,
+          "roi": -0.1101,
           "avg_clv": 0.0016,
           "beat_close": 0.618,
           "clv_count": 89
@@ -1103,14 +1139,14 @@
         "trust": 0.1,
         "base": 0.45,
         "won": 4,
-        "lost": 4,
-        "profit": 2.03
+        "lost": 6,
+        "profit": -2.96
       },
       "wild": {
         "bets": 9,
         "won": 0,
-        "lost": 5,
-        "profit": -6.12,
+        "lost": 7,
+        "profit": -8.61,
         "best": null,
         "avg_clv": 0.0124,
         "appetite": 0.45
@@ -1393,11 +1429,22 @@
           "on": 0.0228,
           "off": 0.0009,
           "bets": 9
+        },
+        {
+          "id": "discipline",
+          "emoji": "🧘",
+          "title": "Disciplined",
+          "effect": "Avoids odds above 3.5.",
+          "from": "Discipline day",
+          "since": "2026-11-24T22:45:31Z",
+          "on": 0.0095,
+          "off": 0.0044,
+          "bets": 6
         }
       ],
       "mind": {
-        "iq": 127,
-        "iq_week": 21,
+        "iq": 128,
+        "iq_week": 22,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -1481,7 +1528,7 @@
           },
           {
             "d": "2026-11-24",
-            "iq": 127
+            "iq": 128
           }
         ],
         "facts": [
@@ -1572,7 +1619,7 @@
         ],
         "rules": 0,
         "studied": 321,
-        "resolved": 223
+        "resolved": 237
       }
     },
     "quant": {
@@ -1587,10 +1634,10 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.03,
+        "min_edge": 0.02,
         "odds": [
           1.6,
-          4.5
+          3.5
         ],
         "stop_below": 250
       },
@@ -2332,10 +2379,11 @@
           "emoji": "🎯",
           "title": "Precision day",
           "text": "Only bets with an edge 1% above my usual bar, and at least 2 of them must beat the market.",
-          "status": "active",
+          "status": "done",
           "market": "spreads",
           "target": 71,
-          "league": null
+          "league": null,
+          "detail": "2 bets beat the market."
         },
         "recent": [
           {
@@ -2344,10 +2392,11 @@
             "emoji": "🎯",
             "title": "Precision day",
             "text": "Only bets with an edge 1% above my usual bar, and at least 2 of them must beat the market.",
-            "status": "active",
+            "status": "done",
             "market": "spreads",
             "target": 71,
-            "league": null
+            "league": null,
+            "detail": "2 bets beat the market."
           },
           {
             "day": "2026-11-23",
@@ -2433,9 +2482,9 @@
             "league": "basketball_wncaab"
           }
         ],
-        "done": 6,
-        "judged": 11,
-        "streak": 1
+        "done": 7,
+        "judged": 12,
+        "streak": 2
       },
       "traits": [
         {
@@ -2446,7 +2495,7 @@
           "from": "Underdog hunter",
           "since": "2026-11-21T07:21:41Z",
           "on": 0.016,
-          "off": 0.0133,
+          "off": 0.014,
           "bets": 9
         },
         {
@@ -2457,8 +2506,19 @@
           "from": "Precision day",
           "since": "2026-11-23T18:30:49Z",
           "on": 0.0318,
-          "off": 0.008,
+          "off": 0.0088,
           "bets": 18
+        },
+        {
+          "id": "discipline",
+          "emoji": "🧘",
+          "title": "Disciplined",
+          "effect": "Avoids odds above 3.5.",
+          "from": "Discipline day",
+          "since": "2026-11-24T22:45:31Z",
+          "on": 0.0391,
+          "off": 0.0143,
+          "bets": 3
         }
       ],
       "mind": {
@@ -2642,7 +2702,7 @@
         "min_edge": 0.015,
         "odds": [
           1.6,
-          5.0
+          4.0
         ],
         "stop_below": 250
       },
@@ -3405,17 +3465,6 @@
           "on": 0.0329,
           "off": 0.0235,
           "bets": 1
-        },
-        {
-          "id": "underdog",
-          "emoji": "🐶",
-          "title": "Underdog lover",
-          "effect": "Allows underdogs at odds up to 1.0 higher.",
-          "from": "Underdog hunter",
-          "since": "2026-11-24T22:30:54Z",
-          "on": 0.0278,
-          "off": 0.0285,
-          "bets": 15
         }
       ],
       "mind": {
@@ -6184,12 +6233,12 @@
       "fair_odds": 3.003,
       "edge": 0.0491,
       "stake": 5.87,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 3.443,
       "clv": -0.085,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -5.87,
+      "score": "Bristol City 1 - 1 Wrexham AFC",
+      "settled_at": "2026-11-24T22:45:31Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates Wrexham AFC at 33.3%. That makes the fair price 3.00.",
         "LeoVegas (SE) pays 3.15. That is +4.9% above fair. My bar is +2.0%.",
@@ -6222,12 +6271,12 @@
       "fair_odds": 2.822,
       "edge": 0.0277,
       "stake": 3.75,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 2.989,
       "clv": -0.0297,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -3.75,
+      "score": "Charlton Athletic 4 - 0 Lincoln City",
+      "settled_at": "2026-11-24T22:45:31Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates Lincoln City at 35.4%. That makes the fair price 2.82.",
         "LeoVegas (SE) pays 2.90. That is +2.8% above fair. My bar is +2.0%.",
@@ -6260,12 +6309,12 @@
       "fair_odds": 2.518,
       "edge": 0.0921,
       "stake": 13.53,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 2.328,
       "clv": 0.1812,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -13.53,
+      "score": "Sheffield United 1 - 1 Southampton",
+      "settled_at": "2026-11-24T22:45:31Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates Sheffield United at 39.7%. That makes the fair price 2.52.",
         "LeoVegas (SE) pays 2.75. That is +9.2% above fair. My bar is +2.0%.",
@@ -6299,12 +6348,12 @@
       "fair_odds": 1.944,
       "edge": 0.0289,
       "stake": 7.19,
-      "status": "open",
+      "status": "won",
       "closing_fair_odds": 1.902,
       "clv": 0.0515,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": 7.19,
+      "score": "Stevenage 0 - 0 Sheffield Wednesday",
+      "settled_at": "2026-11-24T22:45:31Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates Under 2.5 at 51.4%. That makes the fair price 1.94.",
         "William Hill pays 2.00. That is +2.9% above fair. My bar is +2.0%.",
@@ -6337,12 +6386,12 @@
       "fair_odds": 1.806,
       "edge": -0.0086,
       "stake": 2.49,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 1.747,
       "clv": 0.0248,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -2.49,
+      "score": "Blackpool 1 - 1 Leicester City",
+      "settled_at": "2026-11-24T22:45:31Z",
       "thoughts": [
         "The sharp money is moving to Leicester City: its chance went from 49% to 55% since I first looked.",
         "My rules say no. But something in the grass is moving. I'm taking a nibble.",
@@ -6374,12 +6423,12 @@
       "fair_odds": 5.21,
       "edge": -0.0135,
       "stake": 1.24,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 5.359,
       "clv": -0.0409,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -1.24,
+      "score": "Cardiff City 0 - 4 Preston North End",
+      "settled_at": "2026-11-24T22:45:31Z",
       "thoughts": [
         "Wild one: Draw at 5.14. The market gives it 19%.",
         "Feeling sharp after beating the market 6 times in a row.",
@@ -6412,12 +6461,12 @@
       "fair_odds": 5.087,
       "edge": -0.0136,
       "stake": 1.25,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 5.198,
       "clv": -0.0346,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -1.25,
+      "score": "Middlesbrough 2 - 1 Swansea City",
+      "settled_at": "2026-11-24T22:45:31Z",
       "thoughts": [
         "Wild one: Draw at 5.10. The market gives it 20%.",
         "Patience is a weapon, but even lizards sunbathe on a crazy rock now and then.",
@@ -6449,12 +6498,12 @@
       "fair_odds": 2.726,
       "edge": 0.027,
       "stake": 3.76,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 3.199,
       "clv": -0.1248,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -3.76,
+      "score": "Stevenage 0 - 0 Sheffield Wednesday",
+      "settled_at": "2026-11-24T22:45:31Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates Stevenage at 36.7%. That makes the fair price 2.73.",
         "Unibet (SE) pays 2.80. That is +2.7% above fair. My bar is +2.0%.",
@@ -6487,12 +6536,12 @@
       "fair_odds": 3.359,
       "edge": -0.0094,
       "stake": 2.5,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 3.818,
       "clv": -0.1284,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -2.5,
+      "score": "Port Vale 1 - 1 Northampton Town",
+      "settled_at": "2026-11-24T22:45:31Z",
       "thoughts": [
         "The sharp money is moving to Northampton Town: its chance went from 26% to 30% since I first looked.",
         "My rules say no. But something in the grass is moving. I'm taking a nibble.",
@@ -11200,26 +11249,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-24T20:30:53Z",
-      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-24T20:30:53Z",
-      "text": "🦎 The Lizard levelled up: Apprentice → ⚡ Sharp. Stakes +15%. Consistently beats the market."
-    },
-    {
-      "t": "2026-11-24T20:45:33Z",
-      "text": "🧬 🦎 The Lizard made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-22 and its bets beat the market by +1.0%. Avoids odds above 3.5."
-    },
-    {
-      "t": "2026-11-24T20:45:33Z",
-      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
-    },
-    {
-      "t": "2026-11-24T20:45:33Z",
-      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
-    },
-    {
       "t": "2026-11-24T21:01:00Z",
       "text": "🧬 🦎 The Lizard dropped the 🧘 Disciplined trait: it stopped working (-0.1% vs the market on those days)."
     },
@@ -11318,6 +11347,26 @@
     {
       "t": "2026-11-24T22:30:54Z",
       "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
+    },
+    {
+      "t": "2026-11-24T22:45:31Z",
+      "text": "🧬 🦎 The Lizard made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-22 and its bets beat the market by +1.0%. Avoids odds above 3.5."
+    },
+    {
+      "t": "2026-11-24T22:45:31Z",
+      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
+    },
+    {
+      "t": "2026-11-24T22:45:31Z",
+      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-24T22:45:31Z",
+      "text": "✅ 🧮 The Quant completed 🎯 Precision day: 2 bets beat the market."
+    },
+    {
+      "t": "2026-11-24T22:45:31Z",
+      "text": "Results:\n- Lost -5.87: Wrexham AFC (Winner) in Bristol City vs Wrexham AFC (Bristol City 1 - 1 Wrexham AFC)\n- Lost -3.75: Lincoln City (Winner) in Charlton Athletic vs Lincoln City (Charlton Athletic 4 - 0 Lincoln City)\n- Lost -13.53: Sheffield United (Winner) in Sheffield United vs Southampton (Sheffield United 1 - 1 Southampton)\n- Lost -1.24: Draw (Winner) in Cardiff City vs Preston North End (Cardiff City 0 - 4 Preston North End)\n- Lost -1.25: Draw (Winner) in Middlesbrough vs Swansea City (Middlesbrough 2 - 1 Swansea City)\n- Won +7.19: Under 2.5 (Total) in Stevenage vs Sheffield Wednesday (Stevenage 0 - 0 Sheffield Wednesday)\n- Lost -2.49: Leicester City (Winner) in Blackpool vs Leicester City (Blackpool 1 - 1 Leicester City)\n- Lost -3.76: Stevenage (Winner) in Stevenage vs Sheffield Wednesday (Stevenage 0 - 0 Sheffield Wednesday)\n- Lost -2.50: Northampton Town (Winner) in Port Vale vs Northampton Town (Port Vale 1 - 1 Northampton Town)"
     }
   ]
 }
