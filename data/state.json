@@ -51,18 +51,6 @@
   },
   "log": [
     {
-      "t": "2026-11-24T01:15:31Z",
-      "text": "Results:\n- Lost -9.76: Tulane Green Wave (Winner) in Georgia St Panthers vs Tulane Green Wave (Georgia St Panthers 73 - 63 Tulane Green Wave)\n- Lost -3.14: Tulsa Golden Hurricane (Winner) in Oregon St Beavers vs Tulsa Golden Hurricane (Oregon St Beavers 69 - 66 Tulsa Golden Hurricane)\n- Lost -3.70: IUPUI Jaguars (Winner) in IUPUI Jaguars vs William & Mary Tribe (IUPUI Jaguars 82 - 87 William & Mary Tribe)\n- Lost -2.17: San Francisco Dons (Winner) in San Francisco Dons vs Nevada Wolf Pack (San Francisco Dons 62 - 71 Nevada Wolf Pack)"
-    },
-    {
-      "t": "2026-11-24T01:30:53Z",
-      "text": "🧬 🦎 The Lizard made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-18 and its bets beat the market by +2.2%. Avoids odds above 3.5."
-    },
-    {
-      "t": "2026-11-24T01:30:53Z",
-      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
-    },
-    {
       "t": "2026-11-24T01:30:53Z",
       "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
     },
@@ -169,6 +157,18 @@
     {
       "t": "2026-11-24T03:15:33Z",
       "text": "Results:\n- Won +13.31: Portland Trail Blazers (Winner) in Philadelphia 76ers vs Portland Trail Blazers (Philadelphia 76ers 111 - 128 Portland Trail Blazers)\n- Lost -2.33: Charlotte Hornets (Winner) in Charlotte Hornets vs Memphis Grizzlies (Charlotte Hornets 111 - 117 Memphis Grizzlies)"
+    },
+    {
+      "t": "2026-11-24T03:30:45Z",
+      "text": "🧬 🦎 The Lizard made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-18 and its bets beat the market by +2.2%. Avoids odds above 3.5."
+    },
+    {
+      "t": "2026-11-24T03:30:45Z",
+      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
+    },
+    {
+      "t": "2026-11-24T03:30:45Z",
+      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
     }
   ],
   "levels": {
@@ -2958,6 +2958,12 @@
         "on": 0.0228,
         "off": -0.0034,
         "bets": 9
+      },
+      "discipline": {
+        "since": "2026-11-24T03:30:45Z",
+        "on": 0.0221,
+        "off": 0.0017,
+        "bets": 2
       }
     },
     "quant": {
@@ -2972,6 +2978,12 @@
         "on": 0.0376,
         "off": 0.0085,
         "bets": 15
+      },
+      "discipline": {
+        "since": "2026-11-24T03:30:45Z",
+        "on": 0.0391,
+        "off": 0.0148,
+        "bets": 3
       }
     },
     "shark": {
@@ -2992,12 +3004,6 @@
         "on": 0.0329,
         "off": 0.0235,
         "bets": 1
-      },
-      "underdog": {
-        "since": "2026-11-24T03:15:33Z",
-        "on": 0.0278,
-        "off": 0.0285,
-        "bets": 15
       }
     }
   },
