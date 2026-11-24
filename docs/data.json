@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24T11:30:46Z",
+  "updated": "2026-11-24T11:45:31Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -509,8 +509,8 @@
           "cautious": 0.022,
           "beat": 0.7273,
           "challenges": 0.7,
-          "traits": 3,
-          "score": 36.01
+          "traits": 4,
+          "score": 38.01
         },
         {
           "who": "quant",
@@ -521,8 +521,8 @@
           "cautious": 0.0058,
           "beat": 0.5714,
           "challenges": 0.545,
-          "traits": 2,
-          "score": 13.98
+          "traits": 3,
+          "score": 15.98
         },
         {
           "who": "lizard",
@@ -533,8 +533,8 @@
           "cautious": -0.0037,
           "beat": 0.7368,
           "challenges": 0.364,
-          "traits": 1,
-          "score": 4.85
+          "traits": 2,
+          "score": 6.85
         }
       ],
       "ranking": [
@@ -563,7 +563,7 @@
         "min_edge": 0.02,
         "odds": [
           1.6,
-          6.0
+          3.5
         ],
         "stop_below": 250
       },
@@ -1119,8 +1119,29 @@
         "measured": 2
       },
       "reading": {
-        "week": 108,
+        "week": 122,
         "latest": [
+          {
+            "t": "2026-11-24T09:42:22Z",
+            "title": "How to follow the Champions League on the BBC",
+            "link": "https://www.bbc.co.uk/sport/football/articles/c5yw79e4zgdo?at_medium=RSS&at_campaign=rss",
+            "source": "feeds.bbci.co.uk",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-24T09:29:48Z",
+            "title": "Champions League: Como vs. AEK – Probable line-ups and where to watch on TV",
+            "link": "https://football-italia.net/champions-league-como-aek-probable-line-ups/",
+            "source": "football-italia.net",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-24T08:44:15Z",
+            "title": "Today’s Papers: Max and the City, De Bruyne returns to Manchester",
+            "link": "https://football-italia.net/todays-papers-max-and-the-city-manchester/",
+            "source": "football-italia.net",
+            "tone": -1
+          },
           {
             "t": "2026-11-24T08:08:33Z",
             "title": "Can returning Beattie and Haughey make an impact?",
@@ -1141,27 +1162,6 @@
             "link": "https://www.bbc.co.uk/sport/football/articles/cqe9kvdr2mmyo?at_medium=RSS&at_campaign=rss",
             "source": "feeds.bbci.co.uk",
             "tone": -1
-          },
-          {
-            "t": "2026-11-23T21:57:40Z",
-            "title": "Como interested in Manchester United’s Zirkzee following long-term Kean setback",
-            "link": "https://football-italia.net/como-interested-in-manchester-uniteds-zirkzee/",
-            "source": "football-italia.net",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-23T19:59:45Z",
-            "title": "De Bruyne hits back at Napoli exit rumours and comments on Man City guilty verdict",
-            "link": "https://football-italia.net/de-bruyne-hits-back-at-napoli-exit-rumours/",
-            "source": "football-italia.net",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-23T18:03:22Z",
-            "title": "QPR skipper Dunne set to miss Norwich trip",
-            "link": "https://www.bbc.co.uk/sport/football/articles/c3702n9pvx8ko?at_medium=RSS&at_campaign=rss",
-            "source": "feeds.bbci.co.uk",
-            "tone": 1
           }
         ]
       },
@@ -1388,6 +1388,17 @@
           "on": 0.0228,
           "off": -0.0034,
           "bets": 9
+        },
+        {
+          "id": "discipline",
+          "emoji": "🧘",
+          "title": "Disciplined",
+          "effect": "Avoids odds above 3.5.",
+          "from": "Discipline day",
+          "since": "2026-11-24T11:45:31Z",
+          "on": 0.0221,
+          "off": 0.0017,
+          "bets": 2
         }
       ],
       "mind": {
@@ -1585,7 +1596,7 @@
         "min_edge": 0.03,
         "odds": [
           1.6,
-          4.5
+          3.5
         ],
         "stop_below": 250
       },
@@ -2173,7 +2184,7 @@
         "measured": 0
       },
       "reading": {
-        "week": 102,
+        "week": 98,
         "latest": [
           {
             "t": "2026-11-24T05:45:41Z",
@@ -2446,6 +2457,17 @@
           "on": 0.0376,
           "off": 0.0085,
           "bets": 15
+        },
+        {
+          "id": "discipline",
+          "emoji": "🧘",
+          "title": "Disciplined",
+          "effect": "Avoids odds above 3.5.",
+          "from": "Discipline day",
+          "since": "2026-11-24T11:45:31Z",
+          "on": 0.0391,
+          "off": 0.0148,
+          "bets": 3
         }
       ],
       "mind": {
@@ -2626,7 +2648,7 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.015,
+        "min_edge": 0.02,
         "odds": [
           1.6,
           4.0
@@ -3143,49 +3165,49 @@
         "measured": 1
       },
       "reading": {
-        "week": 390,
+        "week": 380,
         "latest": [
+          {
+            "t": "2026-11-24T11:00:00Z",
+            "title": "Giants news: CB Greg Newsome injury, Dennard Wilson interview, more",
+            "link": "https://sports.yahoo.com/articles/giants-news-cb-greg-newsome-110000383.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-24T10:25:40Z",
+            "title": "Texas A&M DL dealing with illness; will not play vs. Texas",
+            "link": "https://sports.yahoo.com/articles/texas-m-dl-dealing-illness-102540755.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-24T09:57:02Z",
+            "title": "UCLA football&#39;s CFP status is obvious. We don&#39;t need a committee to play doctor",
+            "link": "https://sports.yahoo.com/articles/ucla-footballs-cfp-status-obvious-095702037.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-24T09:03:03Z",
+            "title": "Upsets shake up Big Ten football power rankings with new No. 1, UCLA sliding",
+            "link": "https://sports.yahoo.com/articles/upsets-shake-big-ten-football-090303412.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-24T09:00:40Z",
+            "title": "Alex Golesh Understands What&#39;s at Stake for Auburn Football in His First Iron Bowl",
+            "link": "https://sports.yahoo.com/articles/alex-golesh-understands-whats-stake-090040248.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
           {
             "t": "2026-11-24T06:10:48Z",
             "title": "UCF HC Scott Frost Shares What He’s Thankful Ahead of Ending His Second Season",
             "link": "https://sports.yahoo.com/articles/ucf-hc-scott-frost-shares-061048573.html",
             "source": "sports.yahoo.com",
             "tone": 1
-          },
-          {
-            "t": "2026-11-24T06:03:44Z",
-            "title": "Bears vs. Lions Injury Report: Chicago has 3 DNP, and Detroit has 4",
-            "link": "https://sports.yahoo.com/articles/bears-vs-lions-injury-report-060344712.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-24T05:33:16Z",
-            "title": "UCLA football’s Bob Chesney stirs massive crowd at Beat SC rally",
-            "link": "https://sports.yahoo.com/articles/ucla-football-bob-chesney-stirs-053316951.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-24T04:44:47Z",
-            "title": "NFL Power Rankings entering Week 12: Is it time to start taking the Giants seriously?",
-            "link": "https://sports.yahoo.com/nfl/article/nfl-power-rankings-entering-week-12-is-it-time-to-start-taking-the-giants-seriously-044447574.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-24T03:30:00Z",
-            "title": "Chad Johnson Urges Arch Manning to Return to College Football for Another Season",
-            "link": "https://sports.yahoo.com/articles/chad-johnson-urges-arch-manning-033000662.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-24T02:45:32Z",
-            "title": "Chris Braswell out for the season",
-            "link": "https://sports.yahoo.com/articles/chris-braswell-season-024532429.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
           }
         ]
       },
@@ -3427,6 +3449,17 @@
           "on": 0.0329,
           "off": 0.0235,
           "bets": 1
+        },
+        {
+          "id": "precision",
+          "emoji": "🎯",
+          "title": "Precise",
+          "effect": "Always demands +0.5% more edge.",
+          "from": "Precision day",
+          "since": "2026-11-24T11:45:31Z",
+          "on": 0.032,
+          "off": 0.0271,
+          "bets": 2
         }
       ],
       "mind": {
@@ -11209,18 +11242,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-24T09:30:46Z",
-      "text": "🧬 🧮 The Quant dropped the 🧘 Disciplined trait: it stopped working (+1.3% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-24T09:30:46Z",
-      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
-    },
-    {
-      "t": "2026-11-24T09:45:33Z",
-      "text": "🧬 🦎 The Lizard made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-18 and its bets beat the market by +2.2%. Avoids odds above 3.5."
-    },
-    {
       "t": "2026-11-24T09:45:33Z",
       "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
     },
@@ -11327,6 +11348,18 @@
     {
       "t": "2026-11-24T11:30:46Z",
       "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-24T11:45:31Z",
+      "text": "🧬 🦎 The Lizard made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-18 and its bets beat the market by +2.2%. Avoids odds above 3.5."
+    },
+    {
+      "t": "2026-11-24T11:45:31Z",
+      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
+    },
+    {
+      "t": "2026-11-24T11:45:31Z",
+      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
     }
   ]
 }
