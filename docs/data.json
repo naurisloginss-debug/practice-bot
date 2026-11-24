@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24T05:15:30Z",
+  "updated": "2026-11-24T05:27:38Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -29,8 +29,8 @@
     ],
     "chars": {
       "lizard": {
-        "iq": 123,
-        "iq_gain": -2,
+        "iq": 122,
+        "iq_gain": -3,
         "streak": 0,
         "best_streak": 8,
         "achievements": [
@@ -152,7 +152,7 @@
             "pending": false
           }
         ],
-        "score": 180,
+        "score": 179,
         "trophies": [
           {
             "kind": "sharpshooter",
@@ -521,8 +521,8 @@
           "cautious": 0.0058,
           "beat": 0.5714,
           "challenges": 0.545,
-          "traits": 2,
-          "score": 13.98
+          "traits": 3,
+          "score": 15.98
         },
         {
           "who": "lizard",
@@ -533,8 +533,8 @@
           "cautious": -0.0037,
           "beat": 0.7368,
           "challenges": 0.364,
-          "traits": 1,
-          "score": 4.85
+          "traits": 2,
+          "score": 6.85
         }
       ],
       "ranking": [
@@ -563,7 +563,7 @@
         "min_edge": 0.02,
         "odds": [
           1.6,
-          6.0
+          3.5
         ],
         "stop_below": 250
       },
@@ -1115,7 +1115,7 @@
         "measured": 2
       },
       "reading": {
-        "week": 96,
+        "week": 52,
         "latest": [
           {
             "t": "2026-11-23T23:07:48Z",
@@ -1153,11 +1153,11 @@
             "tone": 1
           },
           {
-            "t": "2026-11-23T16:19:23Z",
-            "title": "Murphy's 'long road' to Pompey return after 336 days",
-            "link": "https://www.bbc.co.uk/sport/football/articles/ck3rgpv0d8pvo?at_medium=RSS&at_campaign=rss",
+            "t": "2026-11-23T08:44:53Z",
+            "title": "Holloway sacked by Swindon after two seasons",
+            "link": "https://www.bbc.co.uk/sport/football/articles/c5yrg1r6ezno?at_medium=RSS&at_campaign=rss",
             "source": "feeds.bbci.co.uk",
-            "tone": 1
+            "tone": -1
           }
         ]
       },
@@ -1384,11 +1384,22 @@
           "on": 0.0228,
           "off": -0.0034,
           "bets": 9
+        },
+        {
+          "id": "discipline",
+          "emoji": "🧘",
+          "title": "Disciplined",
+          "effect": "Avoids odds above 3.5.",
+          "from": "Discipline day",
+          "since": "2026-11-24T05:27:38Z",
+          "on": 0.0221,
+          "off": 0.0017,
+          "bets": 2
         }
       ],
       "mind": {
-        "iq": 123,
-        "iq_week": 17,
+        "iq": 122,
+        "iq_week": 16,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -1472,7 +1483,7 @@
           },
           {
             "d": "2026-11-24",
-            "iq": 123
+            "iq": 122
           }
         ],
         "facts": [
@@ -1581,7 +1592,7 @@
         "min_edge": 0.03,
         "odds": [
           1.6,
-          4.5
+          3.5
         ],
         "stop_below": 250
       },
@@ -2149,8 +2160,36 @@
         "measured": 0
       },
       "reading": {
-        "week": 98,
+        "week": 114,
         "latest": [
+          {
+            "t": "2026-11-24T03:28:28Z",
+            "title": "Mikel Brown Jr. impresses in first start during Nets night to forget against Timberwolves",
+            "link": "https://sports.yahoo.com/articles/mikel-brown-jr-impresses-first-032828330.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-24T02:22:45Z",
+            "title": "Lakers optimistic about Austin Reaves’ availability after star guard’s latest step",
+            "link": "https://sports.yahoo.com/articles/lakers-optimistic-austin-reaves-availability-022245376.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-24T02:16:55Z",
+            "title": "Victor Wembanyama missing first game of season due to back tightness, De&#39;Aaron Fox also out vs. Kings",
+            "link": "https://sports.yahoo.com/nba/breaking-news/article/victor-wembanyama-missing-first-game-of-season-due-to-back-tightness-deaaron-fox-also-out-vs-kings-022738046.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-24T00:47:14Z",
+            "title": "Rockets Return Home To Face Clippers",
+            "link": "https://sports.yahoo.com/articles/rockets-return-home-face-clippers-004714742.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
           {
             "t": "2026-11-24T00:35:43Z",
             "title": "Cameron Boozer injury update: Grizzlies share status of Rookie of the Year contender",
@@ -2159,37 +2198,9 @@
             "tone": -1
           },
           {
-            "t": "2026-11-23T23:04:26Z",
-            "title": "Grizzlies rookie Cam Boozer out at least 4 weeks with ankle injury",
-            "link": "https://sports.yahoo.com/nba/breaking-news/article/grizzlies-rookie-cam-boozer-out-at-least-4-weeks-with-ankle-injury-230426625.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-23T18:51:48Z",
-            "title": "Brooklyn&#39;s Nolan Traore out 8-10 weeks with hamstring strain",
-            "link": "https://sports.yahoo.com/articles/brooklyns-nolan-traore-8-10-185148691.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-23T18:04:10Z",
-            "title": "Nets gets crushing injury update on Nolan Traore — with Mikel Brown set for big chance",
-            "link": "https://sports.yahoo.com/articles/nets-gets-crushing-injury-nolan-180410690.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-23T18:00:00Z",
-            "title": "NBA Game Preview: Timberwolves vs Blazers Thread",
-            "link": "https://sports.yahoo.com/articles/nba-game-preview-timberwolves-vs-180000701.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-23T17:35:00Z",
-            "title": "The 76ers are fun again, so it&#39;s the return of Roob&#39;s 76ers Stats!",
-            "link": "https://sports.yahoo.com/articles/76ers-fun-again-return-roobs-121311032.html",
+            "t": "2026-11-23T23:43:11Z",
+            "title": "Observations after Sixers&#39; 5-game win streak ends with blowout loss to Blazers",
+            "link": "https://sports.yahoo.com/articles/observations-sixers-5-game-win-173500225.html",
             "source": "sports.yahoo.com",
             "tone": 1
           }
@@ -2422,6 +2433,17 @@
           "on": 0.0376,
           "off": 0.0085,
           "bets": 15
+        },
+        {
+          "id": "discipline",
+          "emoji": "🧘",
+          "title": "Disciplined",
+          "effect": "Avoids odds above 3.5.",
+          "from": "Discipline day",
+          "since": "2026-11-24T05:27:38Z",
+          "on": 0.0391,
+          "off": 0.0148,
+          "bets": 3
         }
       ],
       "mind": {
@@ -2602,10 +2624,10 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.02,
+        "min_edge": 0.015,
         "odds": [
           1.6,
-          4.0
+          5.0
         ],
         "stop_below": 250
       },
@@ -3111,8 +3133,29 @@
         "measured": 1
       },
       "reading": {
-        "week": 406,
+        "week": 434,
         "latest": [
+          {
+            "t": "2026-11-24T04:44:47Z",
+            "title": "NFL Power Rankings entering Week 12: Is it time to start taking the Giants seriously?",
+            "link": "https://sports.yahoo.com/nfl/article/nfl-power-rankings-entering-week-12-is-it-time-to-start-taking-the-giants-seriously-044447574.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-24T02:45:32Z",
+            "title": "Chris Braswell out for the season",
+            "link": "https://sports.yahoo.com/articles/chris-braswell-season-024532429.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-24T02:03:26Z",
+            "title": "Christian McCaffrey puts 49ers’ loss of ‘true warrior’ in perspective",
+            "link": "https://sports.yahoo.com/articles/christian-mccaffrey-puts-49ers-loss-020326441.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
           {
             "t": "2026-11-24T01:56:06Z",
             "title": "Theo Benedet, Kyler Gordon listed as out of Bears practice",
@@ -3131,27 +3174,6 @@
             "t": "2026-11-24T01:34:47Z",
             "title": "No. 3 Notre Dame loses safety Luke Talich for the rest of the season with torn Achilles tendon",
             "link": "https://sports.yahoo.com/articles/no-3-notre-dame-loses-013447242.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-24T01:33:00Z",
-            "title": "UND cornerback Grant Noland will miss playoff game with injury",
-            "link": "https://sports.yahoo.com/articles/und-cornerback-grant-noland-miss-013300015.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-24T01:31:53Z",
-            "title": "Bhayshul Tuten aggravates ankle injury",
-            "link": "https://sports.yahoo.com/articles/bhayshul-tuten-aggravates-ankle-injury-013153916.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-24T00:46:49Z",
-            "title": "Lions, Bears Week 12 injury report: 4 defenders unable to practice; DJ Reed upgraded to FULL",
-            "link": "https://sports.yahoo.com/articles/lions-bears-week-12-injury-004649628.html",
             "source": "sports.yahoo.com",
             "tone": -1
           }
@@ -3397,15 +3419,15 @@
           "bets": 1
         },
         {
-          "id": "precision",
-          "emoji": "🎯",
-          "title": "Precise",
-          "effect": "Always demands +0.5% more edge.",
-          "from": "Precision day",
-          "since": "2026-11-24T05:15:30Z",
-          "on": 0.032,
-          "off": 0.0271,
-          "bets": 2
+          "id": "underdog",
+          "emoji": "🐶",
+          "title": "Underdog lover",
+          "effect": "Allows underdogs at odds up to 1.0 higher.",
+          "from": "Underdog hunter",
+          "since": "2026-11-24T05:27:38Z",
+          "on": 0.0278,
+          "off": 0.0285,
+          "bets": 15
         }
       ],
       "mind": {
@@ -11183,22 +11205,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-24T03:15:33Z",
-      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
-    },
-    {
-      "t": "2026-11-24T03:15:33Z",
-      "text": "Results:\n- Won +13.31: Portland Trail Blazers (Winner) in Philadelphia 76ers vs Portland Trail Blazers (Philadelphia 76ers 111 - 128 Portland Trail Blazers)\n- Lost -2.33: Charlotte Hornets (Winner) in Charlotte Hornets vs Memphis Grizzlies (Charlotte Hornets 111 - 117 Memphis Grizzlies)"
-    },
-    {
-      "t": "2026-11-24T03:30:45Z",
-      "text": "🧬 🦎 The Lizard made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-18 and its bets beat the market by +2.2%. Avoids odds above 3.5."
-    },
-    {
-      "t": "2026-11-24T03:30:45Z",
-      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
-    },
-    {
       "t": "2026-11-24T03:30:45Z",
       "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
     },
@@ -11301,6 +11307,22 @@
     {
       "t": "2026-11-24T05:15:30Z",
       "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
+    },
+    {
+      "t": "2026-11-24T05:27:38Z",
+      "text": "🧬 🦎 The Lizard made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-18 and its bets beat the market by +2.2%. Avoids odds above 3.5."
+    },
+    {
+      "t": "2026-11-24T05:27:38Z",
+      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
+    },
+    {
+      "t": "2026-11-24T05:27:38Z",
+      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-24T05:27:38Z",
+      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
     }
   ]
 }
