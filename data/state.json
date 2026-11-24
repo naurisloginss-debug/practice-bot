@@ -1,6 +1,6 @@
 {
   "last_scan": "2026-11-24@17",
-  "credits_left": 17193,
+  "credits_left": 17192,
   "league_names": {
     "soccer_italy_serie_b": "Serie B (Italy 2)",
     "soccer_efl_champ": "Championship (England 2)",
@@ -50,18 +50,6 @@
     "americanfootball_ncaaf_fcs": "2026-11-22T08:30:53Z"
   },
   "log": [
-    {
-      "t": "2026-11-24T17:30:47Z",
-      "text": "🧬 🦎 The Lizard made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-18 and its bets beat the market by +2.2%. Avoids odds above 3.5."
-    },
-    {
-      "t": "2026-11-24T17:30:47Z",
-      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
-    },
-    {
-      "t": "2026-11-24T17:30:47Z",
-      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
-    },
     {
       "t": "2026-11-24T17:45:39Z",
       "text": "🧬 🦎 The Lizard dropped the 🧘 Disciplined trait: it stopped working (-1.0% vs the market on those days)."
@@ -169,6 +157,18 @@
     {
       "t": "2026-11-24T19:30:48Z",
       "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
+    },
+    {
+      "t": "2026-11-24T19:45:33Z",
+      "text": "🧬 🦎 The Lizard made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-22 and its bets beat the market by +1.0%. Avoids odds above 3.5."
+    },
+    {
+      "t": "2026-11-24T19:45:33Z",
+      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
+    },
+    {
+      "t": "2026-11-24T19:45:33Z",
+      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
     }
   ],
   "levels": {
@@ -2960,20 +2960,32 @@
         "on": 0.0228,
         "off": -0.0002,
         "bets": 9
+      },
+      "discipline": {
+        "since": "2026-11-24T19:45:33Z",
+        "on": 0.0095,
+        "off": 0.0033,
+        "bets": 6
       }
     },
     "quant": {
       "underdog": {
         "since": "2026-11-21T07:21:41Z",
         "on": 0.016,
-        "off": 0.0139,
+        "off": 0.0133,
         "bets": 9
       },
       "precision": {
         "since": "2026-11-23T18:30:49Z",
         "on": 0.0318,
-        "off": 0.0085,
+        "off": 0.008,
         "bets": 18
+      },
+      "discipline": {
+        "since": "2026-11-24T19:45:33Z",
+        "on": 0.0391,
+        "off": 0.0137,
+        "bets": 3
       }
     },
     "shark": {
@@ -2994,12 +3006,6 @@
         "on": 0.0329,
         "off": 0.0235,
         "bets": 1
-      },
-      "underdog": {
-        "since": "2026-11-24T19:30:48Z",
-        "on": 0.0278,
-        "off": 0.0285,
-        "bets": 15
       }
     }
   },
