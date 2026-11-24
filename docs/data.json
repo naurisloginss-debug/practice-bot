@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24T07:30:47Z",
+  "updated": "2026-11-24T07:45:33Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -509,8 +509,8 @@
           "cautious": 0.022,
           "beat": 0.7273,
           "challenges": 0.7,
-          "traits": 4,
-          "score": 38.01
+          "traits": 3,
+          "score": 36.01
         },
         {
           "who": "quant",
@@ -521,8 +521,8 @@
           "cautious": 0.0058,
           "beat": 0.5714,
           "challenges": 0.545,
-          "traits": 2,
-          "score": 13.98
+          "traits": 3,
+          "score": 15.98
         },
         {
           "who": "lizard",
@@ -533,8 +533,8 @@
           "cautious": -0.0037,
           "beat": 0.7368,
           "challenges": 0.364,
-          "traits": 1,
-          "score": 4.85
+          "traits": 2,
+          "score": 6.85
         }
       ],
       "ranking": [
@@ -545,7 +545,7 @@
       "leader": "shark"
     }
   },
-  "credits_left": 17383,
+  "credits_left": 17381,
   "last_scan": "2026-11-24@5",
   "strategies": {
     "lizard": {
@@ -563,7 +563,7 @@
         "min_edge": 0.02,
         "odds": [
           1.6,
-          6.0
+          3.5
         ],
         "stop_below": 250
       },
@@ -590,7 +590,7 @@
         "Total"
       ],
       "start_fund": 500,
-      "fund": 501.79,
+      "fund": 500.53,
       "lessons": [
         {
           "kind": "avoid",
@@ -599,12 +599,12 @@
         }
       ],
       "bets": 101,
-      "open": 23,
+      "open": 22,
       "won": 24,
-      "lost": 54,
-      "staked": 199.34,
-      "profit": 1.79,
-      "roi": 0.009,
+      "lost": 55,
+      "staked": 200.6,
+      "profit": 0.53,
+      "roi": 0.0026,
       "avg_edge": 0.0307,
       "avg_clv": 0.0022,
       "beat_close": 0.6533,
@@ -925,6 +925,10 @@
         {
           "t": "2026-11-24T04:00:59Z",
           "fund": 501.79
+        },
+        {
+          "t": "2026-11-24T07:45:33Z",
+          "fund": 500.53
         }
       ],
       "by_league": [
@@ -967,8 +971,8 @@
         {
           "name": "Brasileirão (Brazil)",
           "bets": 8,
-          "profit": 7.85,
-          "roi": 0.4846,
+          "profit": 6.59,
+          "roi": 0.3774,
           "avg_clv": 0.0095,
           "beat_close": 0.5714,
           "clv_count": 7
@@ -1059,8 +1063,8 @@
         {
           "name": "Winner",
           "bets": 89,
-          "profit": -10.63,
-          "roi": -0.067,
+          "profit": -11.89,
+          "roi": -0.0744,
           "avg_clv": 0.0005,
           "beat_close": 0.6377,
           "clv_count": 69
@@ -1079,8 +1083,8 @@
         {
           "name": "Football",
           "bets": 101,
-          "profit": 1.79,
-          "roi": 0.009,
+          "profit": 0.53,
+          "roi": 0.0026,
           "avg_clv": 0.0022,
           "beat_close": 0.6533,
           "clv_count": 75
@@ -1100,8 +1104,8 @@
       "wild": {
         "bets": 9,
         "won": 0,
-        "lost": 4,
-        "profit": -4.86,
+        "lost": 5,
+        "profit": -6.12,
         "best": null,
         "avg_clv": 0.0498,
         "appetite": 0.45
@@ -1384,6 +1388,17 @@
           "on": 0.0228,
           "off": -0.0034,
           "bets": 9
+        },
+        {
+          "id": "discipline",
+          "emoji": "🧘",
+          "title": "Disciplined",
+          "effect": "Avoids odds above 3.5.",
+          "from": "Discipline day",
+          "since": "2026-11-24T07:45:33Z",
+          "on": 0.0221,
+          "off": 0.0017,
+          "bets": 2
         }
       ],
       "mind": {
@@ -1563,7 +1578,7 @@
         ],
         "rules": 0,
         "studied": 267,
-        "resolved": 216
+        "resolved": 217
       }
     },
     "quant": {
@@ -1581,7 +1596,7 @@
         "min_edge": 0.03,
         "odds": [
           1.6,
-          4.5
+          3.5
         ],
         "stop_below": 250
       },
@@ -2430,6 +2445,17 @@
           "on": 0.0376,
           "off": 0.0085,
           "bets": 15
+        },
+        {
+          "id": "discipline",
+          "emoji": "🧘",
+          "title": "Disciplined",
+          "effect": "Avoids odds above 3.5.",
+          "from": "Discipline day",
+          "since": "2026-11-24T07:45:33Z",
+          "on": 0.0391,
+          "off": 0.0148,
+          "bets": 3
         }
       ],
       "mind": {
@@ -2613,7 +2639,7 @@
         "min_edge": 0.015,
         "odds": [
           1.6,
-          5.0
+          4.0
         ],
         "stop_below": 250
       },
@@ -3403,17 +3429,6 @@
           "on": 0.0329,
           "off": 0.0235,
           "bets": 1
-        },
-        {
-          "id": "underdog",
-          "emoji": "🐶",
-          "title": "Underdog lover",
-          "effect": "Allows underdogs at odds up to 1.0 higher.",
-          "from": "Underdog hunter",
-          "since": "2026-11-24T07:30:47Z",
-          "on": 0.0278,
-          "off": 0.0285,
-          "bets": 15
         }
       ],
       "mind": {
@@ -6256,12 +6271,12 @@
       "fair_odds": 4.519,
       "edge": 0.002,
       "stake": 1.26,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 4.411,
       "clv": 0.0265,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -1.26,
+      "score": "Santos 0 - 2 Grêmio",
+      "settled_at": "2026-11-24T07:45:33Z",
       "thoughts": [
         "Wild one: Draw at 4.60. The market gives it 22%.",
         "Patience is a weapon, but even lizards sunbathe on a crazy rock now and then.",
@@ -11191,22 +11206,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-24T05:30:45Z",
-      "text": "🧬 🧮 The Quant dropped the 🧘 Disciplined trait: it stopped working (+1.3% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-24T05:30:45Z",
-      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-24T05:45:31Z",
-      "text": "🧬 🦎 The Lizard made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-18 and its bets beat the market by +2.2%. Avoids odds above 3.5."
-    },
-    {
-      "t": "2026-11-24T05:45:31Z",
-      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
-    },
-    {
       "t": "2026-11-24T05:45:31Z",
       "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
     },
@@ -11309,6 +11308,22 @@
     {
       "t": "2026-11-24T07:30:47Z",
       "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
+    },
+    {
+      "t": "2026-11-24T07:45:33Z",
+      "text": "🧬 🦎 The Lizard made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-18 and its bets beat the market by +2.2%. Avoids odds above 3.5."
+    },
+    {
+      "t": "2026-11-24T07:45:33Z",
+      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
+    },
+    {
+      "t": "2026-11-24T07:45:33Z",
+      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-24T07:45:33Z",
+      "text": "Results:\n- Lost -1.26: Draw (Winner) in Santos vs Grêmio (Santos 0 - 2 Grêmio)"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "last_scan": "2026-11-24@5",
-  "credits_left": 17383,
+  "credits_left": 17381,
   "league_names": {
     "soccer_italy_serie_b": "Serie B (Italy 2)",
     "soccer_efl_champ": "Championship (England 2)",
@@ -40,7 +40,7 @@
     "basketball_nbl": "2026-11-15T13:15:30Z",
     "soccer_england_league2": "2026-11-21T21:45:32Z",
     "soccer_england_league1": "2026-11-21T21:45:32Z",
-    "soccer_brazil_campeonato": "2026-11-24T01:30:53Z",
+    "soccer_brazil_campeonato": "2026-11-24T07:45:33Z",
     "americanfootball_cfl": "2026-11-16T08:01:11Z",
     "soccer_usa_mls": "2026-11-24T04:00:59Z",
     "soccer_australia_aleague": "2026-11-22T05:00:54Z",
@@ -50,22 +50,6 @@
     "americanfootball_ncaaf_fcs": "2026-11-22T08:30:53Z"
   },
   "log": [
-    {
-      "t": "2026-11-24T05:30:45Z",
-      "text": "🧬 🧮 The Quant dropped the 🧘 Disciplined trait: it stopped working (+1.3% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-24T05:30:45Z",
-      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-24T05:45:31Z",
-      "text": "🧬 🦎 The Lizard made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-18 and its bets beat the market by +2.2%. Avoids odds above 3.5."
-    },
-    {
-      "t": "2026-11-24T05:45:31Z",
-      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
-    },
     {
       "t": "2026-11-24T05:45:31Z",
       "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
@@ -169,6 +153,22 @@
     {
       "t": "2026-11-24T07:30:47Z",
       "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
+    },
+    {
+      "t": "2026-11-24T07:45:33Z",
+      "text": "🧬 🦎 The Lizard made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-18 and its bets beat the market by +2.2%. Avoids odds above 3.5."
+    },
+    {
+      "t": "2026-11-24T07:45:33Z",
+      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
+    },
+    {
+      "t": "2026-11-24T07:45:33Z",
+      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-24T07:45:33Z",
+      "text": "Results:\n- Lost -1.26: Draw (Winner) in Santos vs Grêmio (Santos 0 - 2 Grêmio)"
     }
   ],
   "levels": {
@@ -2958,6 +2958,12 @@
         "on": 0.0228,
         "off": -0.0034,
         "bets": 9
+      },
+      "discipline": {
+        "since": "2026-11-24T07:45:33Z",
+        "on": 0.0221,
+        "off": 0.0017,
+        "bets": 2
       }
     },
     "quant": {
@@ -2972,6 +2978,12 @@
         "on": 0.0376,
         "off": 0.0085,
         "bets": 15
+      },
+      "discipline": {
+        "since": "2026-11-24T07:45:33Z",
+        "on": 0.0391,
+        "off": 0.0148,
+        "bets": 3
       }
     },
     "shark": {
@@ -2992,12 +3004,6 @@
         "on": 0.0329,
         "off": 0.0235,
         "bets": 1
-      },
-      "underdog": {
-        "since": "2026-11-24T07:30:47Z",
-        "on": 0.0278,
-        "off": 0.0285,
-        "bets": 15
       }
     }
   },
