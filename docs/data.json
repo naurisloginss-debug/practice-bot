@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24T17:30:47Z",
+  "updated": "2026-11-24T17:45:39Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -29,8 +29,8 @@
     ],
     "chars": {
       "lizard": {
-        "iq": 123,
-        "iq_gain": -2,
+        "iq": 124,
+        "iq_gain": -1,
         "streak": 0,
         "best_streak": 8,
         "achievements": [
@@ -152,7 +152,7 @@
             "pending": false
           }
         ],
-        "score": 180,
+        "score": 181,
         "trophies": [
           {
             "kind": "sharpshooter",
@@ -521,8 +521,8 @@
           "cautious": 0.0058,
           "beat": 0.5714,
           "challenges": 0.545,
-          "traits": 3,
-          "score": 15.98
+          "traits": 2,
+          "score": 13.98
         },
         {
           "who": "lizard",
@@ -533,8 +533,8 @@
           "cautious": -0.0037,
           "beat": 0.7368,
           "challenges": 0.364,
-          "traits": 2,
-          "score": 6.85
+          "traits": 1,
+          "score": 4.85
         }
       ],
       "ranking": [
@@ -545,7 +545,7 @@
       "leader": "shark"
     }
   },
-  "credits_left": 17211,
+  "credits_left": 17210,
   "last_scan": "2026-11-24@17",
   "strategies": {
     "lizard": {
@@ -563,7 +563,7 @@
         "min_edge": 0.02,
         "odds": [
           1.6,
-          3.5
+          6.0
         ],
         "stop_below": 250
       },
@@ -1119,8 +1119,15 @@
         "measured": 2
       },
       "reading": {
-        "week": 112,
+        "week": 127,
         "latest": [
+          {
+            "t": "2026-11-24T17:19:08Z",
+            "title": "Klopp advice and Iraola confidence boosts Wirtz",
+            "link": "https://www.bbc.co.uk/sport/football/articles/c69w91k0j9zeo?at_medium=RSS&at_campaign=rss",
+            "source": "feeds.bbci.co.uk",
+            "tone": 1
+          },
           {
             "t": "2026-11-24T14:20:13Z",
             "title": "Aitcheson to miss Rovers' trip to Watford",
@@ -1154,13 +1161,6 @@
             "title": "How to follow the Champions League on the BBC",
             "link": "https://www.bbc.co.uk/sport/football/articles/c5yw79e4zgdo?at_medium=RSS&at_campaign=rss",
             "source": "feeds.bbci.co.uk",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-24T09:29:48Z",
-            "title": "Champions League: Como vs. AEK – Probable line-ups and where to watch on TV",
-            "link": "https://football-italia.net/champions-league-como-aek-probable-line-ups/",
-            "source": "football-italia.net",
             "tone": 1
           }
         ]
@@ -1388,22 +1388,11 @@
           "on": 0.0228,
           "off": -0.0034,
           "bets": 9
-        },
-        {
-          "id": "discipline",
-          "emoji": "🧘",
-          "title": "Disciplined",
-          "effect": "Avoids odds above 3.5.",
-          "from": "Discipline day",
-          "since": "2026-11-24T17:30:47Z",
-          "on": 0.0221,
-          "off": 0.0017,
-          "bets": 2
         }
       ],
       "mind": {
-        "iq": 123,
-        "iq_week": 17,
+        "iq": 124,
+        "iq_week": 18,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -1487,7 +1476,7 @@
           },
           {
             "d": "2026-11-24",
-            "iq": 123
+            "iq": 124
           }
         ],
         "facts": [
@@ -1596,7 +1585,7 @@
         "min_edge": 0.03,
         "odds": [
           1.6,
-          3.5
+          4.5
         ],
         "stop_below": 250
       },
@@ -2188,7 +2177,7 @@
         "measured": 0
       },
       "reading": {
-        "week": 91,
+        "week": 109,
         "latest": [
           {
             "t": "2026-11-24T11:45:00Z",
@@ -2461,17 +2450,6 @@
           "on": 0.0336,
           "off": 0.0085,
           "bets": 16
-        },
-        {
-          "id": "discipline",
-          "emoji": "🧘",
-          "title": "Disciplined",
-          "effect": "Avoids odds above 3.5.",
-          "from": "Discipline day",
-          "since": "2026-11-24T17:30:47Z",
-          "on": 0.0391,
-          "off": 0.0142,
-          "bets": 3
         }
       ],
       "mind": {
@@ -2652,10 +2630,10 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.02,
+        "min_edge": 0.015,
         "odds": [
           1.6,
-          4.0
+          5.0
         ],
         "stop_below": 250
       },
@@ -3169,47 +3147,47 @@
         "measured": 1
       },
       "reading": {
-        "week": 397,
+        "week": 364,
         "latest": [
           {
-            "t": "2026-11-24T14:13:50Z",
-            "title": "Week 13 college football prediction market picks: UCLA, Ohio State lead Kalshi, Polymarket",
-            "link": "https://sports.yahoo.com/articles/week-13-college-football-prediction-141350021.html",
+            "t": "2026-11-24T17:34:21Z",
+            "title": "Jack Campbell &#39;doing fine&#39; as Lions teammates give LB space to recover",
+            "link": "https://sports.yahoo.com/articles/jack-campbell-doing-fine-lions-173421271.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-24T14:00:38Z",
-            "title": "Auburn Football Needs More Than Another Close Iron Bowl",
-            "link": "https://sports.yahoo.com/articles/auburn-football-needs-more-another-140038116.html",
+            "t": "2026-11-24T17:10:48Z",
+            "title": "Texas A&M football rumors: Will Trev Alberts return after Michigan pays $17 million buyout not to be AD?",
+            "link": "https://sports.yahoo.com/articles/texas-m-football-rumors-trev-171048577.html",
             "source": "sports.yahoo.com",
             "tone": 1
           },
           {
-            "t": "2026-11-24T14:00:00Z",
-            "title": "Alijah Vera-Tucker return will be ‘huge’ for Patriots offensive line",
-            "link": "https://sports.yahoo.com/articles/alijah-vera-tucker-return-huge-140000583.html",
+            "t": "2026-11-24T17:00:00Z",
+            "title": "Return man Xavier Gipson provided spark the Giants were looking for",
+            "link": "https://sports.yahoo.com/articles/return-man-xavier-gipson-provided-170000397.html",
             "source": "sports.yahoo.com",
-            "tone": -1
+            "tone": 1
           },
           {
-            "t": "2026-11-24T14:00:00Z",
-            "title": "Mountaintop View 11-24-26",
-            "link": "https://sports.yahoo.com/articles/mountaintop-view-11-24-26-140000776.html",
+            "t": "2026-11-24T16:01:50Z",
+            "title": "Browns designate RB Raheim Sanders for return",
+            "link": "https://sports.yahoo.com/articles/browns-designate-rb-raheim-sanders-160150671.html",
             "source": "sports.yahoo.com",
-            "tone": -1
+            "tone": 1
           },
           {
-            "t": "2026-11-24T13:44:00Z",
-            "title": "Random Thoughts Week 12: The Glorious Big Ten Implosion",
-            "link": "https://sports.yahoo.com/articles/random-thoughts-week-12-glorious-134400049.html",
+            "t": "2026-11-24T15:40:26Z",
+            "title": "CBS Sports projects Florida, Clemson matchup in Gator Bowl",
+            "link": "https://sports.yahoo.com/articles/cbs-sports-projects-florida-clemson-154026247.html",
             "source": "sports.yahoo.com",
-            "tone": -1
+            "tone": 1
           },
           {
-            "t": "2026-11-24T12:00:43Z",
-            "title": "Numbers To Know Ahead Of Iowa Football&#39;s Home Finale Against Nebraska",
-            "link": "https://sports.yahoo.com/articles/numbers-know-ahead-iowa-footballs-120043264.html",
+            "t": "2026-11-24T14:13:50Z",
+            "title": "Week 13 college football prediction market picks: UCLA, Ohio State lead Kalshi, Polymarket",
+            "link": "https://sports.yahoo.com/articles/week-13-college-football-prediction-141350021.html",
             "source": "sports.yahoo.com",
             "tone": -1
           }
@@ -3457,15 +3435,15 @@
           "bets": 1
         },
         {
-          "id": "precision",
-          "emoji": "🎯",
-          "title": "Precise",
-          "effect": "Always demands +0.5% more edge.",
-          "from": "Precision day",
-          "since": "2026-11-24T17:30:47Z",
-          "on": 0.032,
-          "off": 0.0271,
-          "bets": 2
+          "id": "underdog",
+          "emoji": "🐶",
+          "title": "Underdog lover",
+          "effect": "Allows underdogs at odds up to 1.0 higher.",
+          "from": "Underdog hunter",
+          "since": "2026-11-24T17:45:39Z",
+          "on": 0.0278,
+          "off": 0.0285,
+          "bets": 15
         }
       ],
       "mind": {
@@ -11247,22 +11225,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-24T15:45:33Z",
-      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-24T15:45:33Z",
-      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
-    },
-    {
-      "t": "2026-11-24T16:00:58Z",
-      "text": "🧬 🦎 The Lizard dropped the 🧘 Disciplined trait: it stopped working (-1.0% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-24T16:00:58Z",
-      "text": "🧬 🧮 The Quant dropped the 🧘 Disciplined trait: it stopped working (+1.3% vs the market on those days)."
-    },
-    {
       "t": "2026-11-24T16:00:58Z",
       "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
     },
@@ -11365,6 +11327,22 @@
     {
       "t": "2026-11-24T17:30:47Z",
       "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
+    },
+    {
+      "t": "2026-11-24T17:45:39Z",
+      "text": "🧬 🦎 The Lizard dropped the 🧘 Disciplined trait: it stopped working (-1.0% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-24T17:45:39Z",
+      "text": "🧬 🧮 The Quant dropped the 🧘 Disciplined trait: it stopped working (+1.3% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-24T17:45:39Z",
+      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-24T17:45:39Z",
+      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
     }
   ]
 }
