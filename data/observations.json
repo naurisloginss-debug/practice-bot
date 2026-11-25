@@ -21159,7 +21159,10 @@
       "point": 2.5,
       "over": 0.5039
     },
-    "result": null
+    "result": [
+      1.0,
+      1.0
+    ]
   },
   "9dfe9df3ad88c453e3572872bf500488": {
     "league": "soccer_efl_champ",
@@ -21872,7 +21875,10 @@
       "point": 2.25,
       "over": 0.5144
     },
-    "result": null
+    "result": [
+      0.0,
+      1.0
+    ]
   },
   "9c57ff58a8b71d7648b7914d3fe2c839": {
     "league": "soccer_italy_serie_b",
@@ -21888,7 +21894,10 @@
       "point": 2.5,
       "over": 0.5144
     },
-    "result": null
+    "result": [
+      3.0,
+      0.0
+    ]
   },
   "30fb25fc45cd386b33e223302ff98f4d": {
     "league": "soccer_italy_serie_b",
@@ -21904,7 +21913,10 @@
       "point": 2.25,
       "over": 0.5132
     },
-    "result": null
+    "result": [
+      1.0,
+      2.0
+    ]
   },
   "8973c989f9e6975bd343485eade0a1dc": {
     "league": "basketball_ncaab",
@@ -28090,6 +28102,262 @@
     "tot": {
       "point": 149.0,
       "over": 0.5
+    },
+    "result": null
+  },
+  "fa8f94062f7c69818493b5bcf1cabda3": {
+    "league": "soccer_italy_serie_b",
+    "start": "2026-11-29T14:00:00Z",
+    "home": "Südtirol",
+    "away": "Mantova",
+    "h2h": {
+      "away": 0.3828,
+      "home": 0.3141,
+      "draw": 0.3031
+    },
+    "tot": {
+      "point": 2.5,
+      "over": 0.5197
+    },
+    "result": null
+  },
+  "50363e80c9c22c3c07a593bc1b165d87": {
+    "league": "soccer_italy_serie_b",
+    "start": "2026-11-29T14:00:00Z",
+    "home": "Modena",
+    "away": "Padova",
+    "h2h": {
+      "home": 0.6649,
+      "away": 0.1326,
+      "draw": 0.2025
+    },
+    "tot": {
+      "point": 2.75,
+      "over": 0.5066
+    },
+    "result": null
+  },
+  "b8581e80dcea9ac4065a9d464304c23b": {
+    "league": "soccer_italy_serie_b",
+    "start": "2026-11-29T16:15:00Z",
+    "home": "Sampdoria",
+    "away": "Cremonese",
+    "h2h": {
+      "away": 0.3619,
+      "home": 0.3376,
+      "draw": 0.3005
+    },
+    "tot": {
+      "point": 2.25,
+      "over": 0.513
+    },
+    "result": null
+  },
+  "febb69ba2ceb16db0f4a78dd9f640e40": {
+    "league": "soccer_italy_serie_b",
+    "start": "2026-11-29T18:30:00Z",
+    "home": "Arezzo",
+    "away": "Pisa",
+    "h2h": {
+      "home": 0.2079,
+      "away": 0.5092,
+      "draw": 0.2829
+    },
+    "tot": {
+      "point": 2.5,
+      "over": 0.4947
+    },
+    "result": null
+  },
+  "a1d96ec37a8b7022ef39a7755a655243": {
+    "league": "soccer_efl_champ",
+    "start": "2026-11-28T12:30:00Z",
+    "home": "Blackburn Rovers",
+    "away": "Charlton Athletic",
+    "h2h": {
+      "home": 0.4677,
+      "away": 0.2661,
+      "draw": 0.2661
+    },
+    "tot": {
+      "point": 2.5,
+      "over": 0.4868
+    },
+    "result": null
+  },
+  "15fc58a442321c2a85f7a814466c0ab9": {
+    "league": "soccer_efl_champ",
+    "start": "2026-11-28T15:00:00Z",
+    "home": "Birmingham City",
+    "away": "Bolton Wanderers",
+    "h2h": {
+      "home": 0.6146,
+      "away": 0.1722,
+      "draw": 0.2132
+    },
+    "tot": {
+      "point": 3.0,
+      "over": 0.4895
+    },
+    "result": null
+  },
+  "b67372e7107fdd259a978e614711e657": {
+    "league": "soccer_efl_champ",
+    "start": "2026-11-28T15:00:00Z",
+    "home": "West Bromwich Albion",
+    "away": "Bristol City",
+    "h2h": {
+      "away": 0.193,
+      "home": 0.5596,
+      "draw": 0.2474
+    },
+    "tot": {
+      "point": 2.5,
+      "over": 0.5053
+    },
+    "result": null
+  },
+  "3f93526d7c8e0ca84734aea60c13900a": {
+    "league": "soccer_efl_champ",
+    "start": "2026-11-28T15:00:00Z",
+    "home": "Millwall",
+    "away": "Burnley",
+    "h2h": {
+      "away": 0.2962,
+      "home": 0.4436,
+      "draw": 0.2603
+    },
+    "tot": {
+      "point": 2.75,
+      "over": 0.5223
+    },
+    "result": null
+  },
+  "82ef491ed2f8399e4ccec9f5d8315cee": {
+    "league": "soccer_efl_champ",
+    "start": "2026-11-28T15:00:00Z",
+    "home": "Derby County",
+    "away": "Watford",
+    "h2h": {
+      "home": 0.4278,
+      "away": 0.2865,
+      "draw": 0.2857
+    },
+    "tot": {
+      "point": 2.5,
+      "over": 0.4751
+    },
+    "result": null
+  },
+  "c836236766f7859e3c1d61caa581abe1": {
+    "league": "soccer_efl_champ",
+    "start": "2026-11-28T15:00:00Z",
+    "home": "West Ham United",
+    "away": "Stoke City",
+    "h2h": {
+      "away": 0.1974,
+      "home": 0.5934,
+      "draw": 0.2093
+    },
+    "tot": {
+      "point": 2.75,
+      "over": 0.5223
+    },
+    "result": null
+  },
+  "48a0a5242bc33406117258635a4b327f": {
+    "league": "soccer_spain_segunda_division",
+    "start": "2026-11-29T17:30:00Z",
+    "home": "Cádiz CF",
+    "away": "Córdoba",
+    "h2h": {
+      "home": 0.3122,
+      "away": 0.4303,
+      "draw": 0.2575
+    },
+    "tot": {
+      "point": 3.0,
+      "over": 0.513
+    },
+    "result": null
+  },
+  "d12e5cab1c311e27cef5a36e8a545f3b": {
+    "league": "soccer_spain_segunda_division",
+    "start": "2026-11-29T20:00:00Z",
+    "home": "Almería",
+    "away": "Sporting Gijón",
+    "h2h": {
+      "home": 0.5617,
+      "away": 0.1949,
+      "draw": 0.2434
+    },
+    "tot": {
+      "point": 2.5,
+      "over": 0.5182
+    },
+    "result": null
+  },
+  "ca8aa566e27e1d05b47e8151b2066f9a": {
+    "league": "soccer_france_ligue_one",
+    "start": "2026-11-29T19:45:00Z",
+    "home": "Lyon",
+    "away": "AS Monaco",
+    "h2h": {
+      "away": 0.3079,
+      "home": 0.4008,
+      "draw": 0.2913
+    },
+    "tot": {
+      "point": 2.5,
+      "over": 0.491
+    },
+    "result": null
+  },
+  "d0b3104f6b235f9a40a98879fffefb93": {
+    "league": "soccer_brazil_campeonato",
+    "start": "2026-11-29T19:00:00Z",
+    "home": "Coritiba",
+    "away": "Flamengo",
+    "h2h": {
+      "home": 0.2419,
+      "away": 0.5429,
+      "draw": 0.2152
+    },
+    "tot": {
+      "point": 2.75,
+      "over": 0.5039
+    },
+    "result": null
+  },
+  "195e2c2a346ef3e4fd8abf18706fb982": {
+    "league": "soccer_brazil_campeonato",
+    "start": "2026-11-29T19:00:00Z",
+    "home": "Vitoria",
+    "away": "Santos",
+    "h2h": {
+      "away": 0.4037,
+      "home": 0.3107,
+      "draw": 0.2856
+    },
+    "tot": {
+      "point": 2.5,
+      "over": 0.5156
+    },
+    "result": null
+  },
+  "98415e21c147d701bd81e70b1af0f3a7": {
+    "league": "soccer_germany_bundesliga",
+    "start": "2026-11-29T18:30:00Z",
+    "home": "Borussia Dortmund",
+    "away": "Bayer Leverkusen",
+    "h2h": {
+      "away": 0.3107,
+      "home": 0.4529,
+      "draw": 0.2364
+    },
+    "tot": {
+      "point": 3.25,
+      "over": 0.4821
     },
     "result": null
   }
