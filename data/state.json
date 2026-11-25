@@ -1,6 +1,6 @@
 {
   "last_scan": "2026-11-25@9",
-  "credits_left": 16935,
+  "credits_left": 16931,
   "league_names": {
     "soccer_italy_serie_b": "Serie B (Italy 2)",
     "soccer_efl_champ": "Championship (England 2)",
@@ -50,22 +50,6 @@
     "americanfootball_ncaaf_fcs": "2026-11-22T08:30:53Z"
   },
   "log": [
-    {
-      "t": "2026-11-25T07:30:52Z",
-      "text": "🧬 🦎 The Lizard made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-22 and its bets beat the market by +1.0%. Avoids odds above 3.5."
-    },
-    {
-      "t": "2026-11-25T07:30:52Z",
-      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
-    },
-    {
-      "t": "2026-11-25T07:30:52Z",
-      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-25T07:30:52Z",
-      "text": "Results:\n- Lost -7.53: Southern Indiana Screaming Eagles (Winner) in VMI Keydets vs Southern Indiana Screaming Eagles (VMI Keydets 87 - 83 Southern Indiana Screaming Eagles)\n- Lost -4.37: Hampton Pirates (Winner) in Old Dominion Monarchs vs Hampton Pirates (Old Dominion Monarchs 71 - 59 Hampton Pirates)"
-    },
     {
       "t": "2026-11-25T07:45:31Z",
       "text": "🧬 🦎 The Lizard dropped the 🧘 Disciplined trait: it stopped working (-0.1% vs the market on those days)."
@@ -169,6 +153,22 @@
     {
       "t": "2026-11-25T09:15:33Z",
       "text": "Results:\n- Won +15.12: Dallas Mavericks (Winner) in Denver Nuggets vs Dallas Mavericks (Denver Nuggets 101 - 120 Dallas Mavericks)"
+    },
+    {
+      "t": "2026-11-25T09:30:46Z",
+      "text": "🧬 🦎 The Lizard made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-22 and its bets beat the market by +1.0%. Avoids odds above 3.5."
+    },
+    {
+      "t": "2026-11-25T09:30:46Z",
+      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
+    },
+    {
+      "t": "2026-11-25T09:30:46Z",
+      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-25T09:30:46Z",
+      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
     }
   ],
   "levels": {
@@ -389,7 +389,7 @@
       },
       {
         "d": "2026-11-25",
-        "iq": 129
+        "iq": 131
       }
     ],
     "quant": [
@@ -3009,6 +3009,12 @@
         "on": 0.0228,
         "off": 0.002,
         "bets": 9
+      },
+      "discipline": {
+        "since": "2026-11-25T09:30:46Z",
+        "on": 0.0095,
+        "off": 0.0054,
+        "bets": 6
       }
     },
     "quant": {
@@ -3023,6 +3029,12 @@
         "on": 0.0344,
         "off": 0.0085,
         "bets": 23
+      },
+      "discipline": {
+        "since": "2026-11-25T09:30:46Z",
+        "on": 0.0391,
+        "off": 0.0163,
+        "bets": 3
       }
     },
     "shark": {
@@ -3044,11 +3056,11 @@
         "off": 0.022,
         "bets": 1
       },
-      "precision": {
-        "since": "2026-11-25T09:15:33Z",
-        "on": 0.032,
-        "off": 0.0251,
-        "bets": 2
+      "underdog": {
+        "since": "2026-11-25T09:30:46Z",
+        "on": 0.0278,
+        "off": 0.0257,
+        "bets": 15
       }
     }
   },
