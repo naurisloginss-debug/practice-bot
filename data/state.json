@@ -51,18 +51,6 @@
   },
   "log": [
     {
-      "t": "2026-11-25T13:45:31Z",
-      "text": "Results:\n- Lost -1.13: Kansas St Wildcats (Winner) in Kansas St Wildcats vs Gonzaga Bulldogs (Kansas St Wildcats 61 - 101 Gonzaga Bulldogs)"
-    },
-    {
-      "t": "2026-11-25T14:01:01Z",
-      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
-    },
-    {
-      "t": "2026-11-25T14:01:01Z",
-      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
-    },
-    {
       "t": "2026-11-25T14:01:01Z",
       "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
     },
@@ -169,6 +157,18 @@
     {
       "t": "2026-11-25T17:01:03Z",
       "text": "Placed 12 practice bets:\n- The Lizard: **Charlotte FC 0** (Spread) in Charlotte FC vs Chicago Fire (MLS (USA)) at 2.2 on BetAnything, stake 10.52, edge +4.9%\n- The Lizard: **Under 3** (Total) in Houston Dynamo vs San Jose Earthquakes (MLS (USA)) at 1.96 on BetAnything, stake 7.66, edge +2.8%\n- The Quant: **Phoenix Suns** (Winner) in Houston Rockets vs Phoenix Suns (NBA) at 4.35 on BetAnything, stake 3.16, edge +2.9%\n- The Quant: **Arizona St Sun Devils** (Winner) in Arizona St Sun Devils vs LSU Tigers (College basketball (US)) at 2.7 on Unibet (NL), stake 4.48, edge +2.1%\n- The Quant: **Xavier Musketeers** (Winner) in Xavier Musketeers vs Texas A&M Aggies (College basketball (US)) at 2.61 on BetOnline.ag, stake 6.79, edge +3.0%\n- The Quant: **Penn State Nittany Lions** (Winner) in Penn State Nittany Lions vs Memphis Tigers (College basketball (US)) at 2.57 on BetOnline.ag, stake 4.76, edge +2.0%\n- The Quant: **Bellarmine Knights** (Winner) in Northern Kentucky Norse vs Bellarmine Knights (College basketball (US)) at 3.85 on Unibet (SE), stake 8.54, edge +8.6%\n- The Quant: **Stanford Cardinal** (Winner) in Saint Louis Billikens vs Stanford Cardinal (College basketball (US)) at 2.7 on Everygame, stake 18.76, edge +8.7%\n- The Quant: **Hapoel Tel Aviv** (Winner) in Olympiacos vs Hapoel Tel Aviv (EuroLeague) at 3.25 on Winamax (DE), stake 9.58, edge +5.9%\n- The Shark: **Miami Dolphins** (Winner) in Miami Dolphins vs New York Jets (NFL) at 2.86 on Matchbook, stake 5.06, edge +2.4%\n- The Lizard 💭 gut: **Hiroshima Sanfrecce FC** (Winner) in Kashiwa Reysol vs Hiroshima Sanfrecce FC (J-League (Japan)) at 2.25 on LeoVegas (SE), stake 2.25, edge +1.2%\n- The Lizard 🎲 wild: **Lorient** (Winner) in Paris Saint Germain vs Lorient (Ligue 1 (France)) at 14.0 on LeoVegas (SE), stake 1.13, edge +13.6%"
+    },
+    {
+      "t": "2026-11-25T17:15:33Z",
+      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
+    },
+    {
+      "t": "2026-11-25T17:15:33Z",
+      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-25T17:15:33Z",
+      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
     }
   ],
   "levels": {
@@ -3031,6 +3031,12 @@
         "on": 0.0344,
         "off": 0.0085,
         "bets": 23
+      },
+      "discipline": {
+        "since": "2026-11-25T17:15:33Z",
+        "on": 0.0391,
+        "off": 0.0163,
+        "bets": 3
       }
     },
     "shark": {
@@ -3052,11 +3058,11 @@
         "off": 0.022,
         "bets": 1
       },
-      "precision": {
-        "since": "2026-11-25T17:01:03Z",
-        "on": 0.032,
-        "off": 0.0251,
-        "bets": 2
+      "underdog": {
+        "since": "2026-11-25T17:15:33Z",
+        "on": 0.0278,
+        "off": 0.0257,
+        "bets": 15
       }
     }
   },
