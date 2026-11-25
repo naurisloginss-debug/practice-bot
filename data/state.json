@@ -1,6 +1,6 @@
 {
   "last_scan": "2026-11-25@1",
-  "credits_left": 17062,
+  "credits_left": 17060,
   "league_names": {
     "soccer_italy_serie_b": "Serie B (Italy 2)",
     "soccer_efl_champ": "Championship (England 2)",
@@ -50,18 +50,6 @@
     "americanfootball_ncaaf_fcs": "2026-11-22T08:30:53Z"
   },
   "log": [
-    {
-      "t": "2026-11-25T00:45:31Z",
-      "text": "🧬 🦎 The Lizard made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-22 and its bets beat the market by +1.0%. Avoids odds above 3.5."
-    },
-    {
-      "t": "2026-11-25T00:45:31Z",
-      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
-    },
-    {
-      "t": "2026-11-25T00:45:31Z",
-      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
-    },
     {
       "t": "2026-11-25T00:45:31Z",
       "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
@@ -169,6 +157,18 @@
     {
       "t": "2026-11-25T02:15:30Z",
       "text": "Results:\n- Lost -5.83: FC Bayern München -3.5 (Spread) in FC Bayern München vs Maccabi Tel Aviv (FC Bayern München 79 - 87 Maccabi Tel Aviv)\n- Lost -15.18: Over 174.5 (Total) in Valencia Basket vs Panathinaikos (Valencia Basket 83 - 86 Panathinaikos)\n- Lost -6.54: Valencia Basket (Winner) in Valencia Basket vs Panathinaikos (Valencia Basket 83 - 86 Panathinaikos)\n- Won +2.15: Over 172.5 (Total) in KK Crvena zvezda vs Virtus Segafredo Bologna (KK Crvena zvezda 84 - 108 Virtus Segafredo Bologna)\n- Lost -8.37: FC Barcelona Bàsquet (Winner) in FC Barcelona Bàsquet vs Fenerbahce SK (FC Barcelona Bàsquet 77 - 83 Fenerbahce SK)"
+    },
+    {
+      "t": "2026-11-25T02:30:44Z",
+      "text": "🧬 🦎 The Lizard made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-22 and its bets beat the market by +1.0%. Avoids odds above 3.5."
+    },
+    {
+      "t": "2026-11-25T02:30:44Z",
+      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
+    },
+    {
+      "t": "2026-11-25T02:30:44Z",
+      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
     }
   ],
   "levels": {
@@ -389,7 +389,7 @@
       },
       {
         "d": "2026-11-25",
-        "iq": 127
+        "iq": 129
       }
     ],
     "quant": [
@@ -479,7 +479,7 @@
       },
       {
         "d": "2026-11-25",
-        "iq": 145
+        "iq": 146
       }
     ],
     "shark": [
@@ -3009,6 +3009,12 @@
         "on": 0.0228,
         "off": 0.0009,
         "bets": 9
+      },
+      "discipline": {
+        "since": "2026-11-25T02:30:44Z",
+        "on": 0.0095,
+        "off": 0.0044,
+        "bets": 6
       }
     },
     "quant": {
@@ -3023,6 +3029,12 @@
         "on": 0.0298,
         "off": 0.0085,
         "bets": 22
+      },
+      "discipline": {
+        "since": "2026-11-25T02:30:44Z",
+        "on": 0.0391,
+        "off": 0.0146,
+        "bets": 3
       }
     },
     "shark": {
@@ -3043,6 +3055,12 @@
         "on": 0.0329,
         "off": 0.022,
         "bets": 1
+      },
+      "precision": {
+        "since": "2026-11-25T02:30:44Z",
+        "on": 0.032,
+        "off": 0.0251,
+        "bets": 2
       }
     }
   },
