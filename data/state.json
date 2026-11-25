@@ -51,14 +51,6 @@
   },
   "log": [
     {
-      "t": "2026-11-25T13:00:58Z",
-      "text": "Placed 5 practice bets:\n- The Lizard: **FC Dallas** (Winner) in Portland Timbers vs FC Dallas (MLS (USA)) at 3.3 on LeoVegas (SE), stake 6.29, edge +4.3%\n- The Shark: **San Francisco 49ers** (Winner) in San Francisco 49ers vs Seattle Seahawks (NFL) at 1.67 on Marathon Bet, stake 10.26, edge +2.3%\n- The Lizard ⚡ pounce: **JEF United Chiba** (Winner) in Vissel Kobe vs JEF United Chiba (J-League (Japan)) at 5.8 on LeoVegas (SE), stake 2.44, edge +10.4%\n- The Lizard 💭 gut: **Columbus Crew SC** (Winner) in Columbus Crew SC vs Inter Miami CF (MLS (USA)) at 2.75 on LeoVegas (SE), stake 2.26, edge +1.0%\n- The Shark 🎲 wild: **Purdue Boilermakers** (Winner) in Indiana Hoosiers vs Purdue Boilermakers (College football (US)) at 12.7 on GTbets, stake 1.23, edge +10.0%"
-    },
-    {
-      "t": "2026-11-25T13:00:58Z",
-      "text": "Results:\n- Lost -5.64: Tokyo Verdy (Winner) in Mito HollyHock vs Tokyo Verdy (Mito HollyHock 1 - 0 Tokyo Verdy)\n- Won +9.52: Yokohama F Marinos (Winner) in Avispa Fukuoka vs Yokohama F Marinos (Avispa Fukuoka 1 - 2 Yokohama F Marinos)\n- Lost -2.50: Under 2.5 (Total) in JEF United Chiba vs Nagoya Grampus (JEF United Chiba 1 - 2 Nagoya Grampus)\n- Lost -2.30: FC Tokyo (Winner) in FC Tokyo vs Hiroshima Sanfrecce FC (FC Tokyo 2 - 2 Hiroshima Sanfrecce FC)"
-    },
-    {
       "t": "2026-11-25T13:15:34Z",
       "text": "🧬 🧮 The Quant dropped the 🧘 Disciplined trait: it stopped working (+1.3% vs the market on those days)."
     },
@@ -169,6 +161,14 @@
     {
       "t": "2026-11-25T16:01:07Z",
       "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-25T16:15:35Z",
+      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
+    },
+    {
+      "t": "2026-11-25T16:15:35Z",
+      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
     }
   ],
   "levels": {
@@ -3031,6 +3031,12 @@
         "on": 0.0344,
         "off": 0.0085,
         "bets": 23
+      },
+      "discipline": {
+        "since": "2026-11-25T16:15:35Z",
+        "on": 0.0391,
+        "off": 0.0163,
+        "bets": 3
       }
     },
     "shark": {
@@ -3051,6 +3057,12 @@
         "on": 0.0329,
         "off": 0.022,
         "bets": 1
+      },
+      "precision": {
+        "since": "2026-11-25T16:15:35Z",
+        "on": 0.032,
+        "off": 0.0251,
+        "bets": 2
       }
     }
   },
