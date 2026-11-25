@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25T19:00:58Z",
+  "updated": "2026-11-25T19:15:31Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -9,29 +9,29 @@
   "arena": {
     "ranking": [
       "quant",
-      "lizard",
-      "shark"
+      "shark",
+      "lizard"
     ],
     "grower": "lizard",
     "talk": [
       {
         "who": "quant",
-        "text": "The data put me first. The Lizard, check your model. 9 days until selection. Regression to the mean is coming for the leader."
-      },
-      {
-        "who": "lizard",
-        "text": "The Quant can enjoy the view. I'm patient, and I'm coming. Only one of us goes live in 9 days. I'll be the one still standing."
+        "text": "The data put me first. The Shark, check your model. 9 days until selection. Regression to the mean is coming for the leader."
       },
       {
         "who": "shark",
         "text": "I smell The Quant's lead from here. Closing in. Only one of us gets real money. Smell that? It's me."
+      },
+      {
+        "who": "lizard",
+        "text": "The Quant can enjoy the view. I'm patient, and I'm coming. Only one of us goes live in 9 days. I'll be the one still standing."
       }
     ],
     "chars": {
       "lizard": {
-        "iq": 131,
-        "iq_gain": 6,
-        "streak": 1,
+        "iq": 130,
+        "iq_gain": 5,
+        "streak": 0,
         "best_streak": 8,
         "achievements": [
           {
@@ -142,7 +142,7 @@
           {
             "text": "Bets checked against the market",
             "target": 37,
-            "now": 30
+            "now": 32
           },
           {
             "text": "Beat the market on",
@@ -152,7 +152,7 @@
             "pending": false
           }
         ],
-        "score": 196,
+        "score": 195,
         "trophies": [
           {
             "kind": "sharpshooter",
@@ -211,8 +211,8 @@
         ]
       },
       "quant": {
-        "iq": 146,
-        "iq_gain": 3,
+        "iq": 147,
+        "iq_gain": 4,
         "streak": 1,
         "best_streak": 9,
         "achievements": [
@@ -334,7 +334,7 @@
             "pending": false
           }
         ],
-        "score": 230,
+        "score": 231,
         "trophies": [
           {
             "kind": "grower",
@@ -509,8 +509,8 @@
           "cautious": 0.0193,
           "beat": 0.7059,
           "challenges": 0.727,
-          "traits": 3,
-          "score": 33.1
+          "traits": 4,
+          "score": 35.1
         },
         {
           "who": "quant",
@@ -521,20 +521,20 @@
           "cautious": 0.0109,
           "beat": 0.6212,
           "challenges": 0.615,
-          "traits": 3,
-          "score": 22.38
+          "traits": 2,
+          "score": 20.38
         },
         {
           "who": "lizard",
           "eligible": true,
-          "measured": 53,
+          "measured": 55,
           "need": 0,
-          "clv": 0.0104,
-          "cautious": -0.001,
-          "beat": 0.6792,
+          "clv": 0.0098,
+          "cautious": -0.0012,
+          "beat": 0.6727,
           "challenges": 0.417,
           "traits": 2,
-          "score": 8.69
+          "score": 8.31
         }
       ],
       "ranking": [
@@ -545,7 +545,7 @@
       "leader": "shark"
     }
   },
-  "credits_left": 16807,
+  "credits_left": 16805,
   "last_scan": "2026-11-25@17",
   "strategies": {
     "lizard": {
@@ -600,12 +600,7 @@
         {
           "kind": "avoid",
           "text": "Stopped: Championship (England 2) · winner",
-          "detail": "-0.6% vs the market over 17 bets"
-        },
-        {
-          "kind": "favour",
-          "text": "Backing harder: all leagues · winner · middle odds",
-          "detail": "+1.6% vs the market, beat it on 64% of 47 bets"
+          "detail": "-0.6% vs the market over 19 bets"
         }
       ],
       "bets": 130,
@@ -616,9 +611,9 @@
       "profit": -51.82,
       "roi": -0.1745,
       "avg_edge": 0.0324,
-      "avg_clv": 0.0034,
-      "beat_close": 0.6162,
-      "clv_count": 99,
+      "avg_clv": 0.0032,
+      "beat_close": 0.6139,
+      "clv_count": 101,
       "history": [
         {
           "t": "2026-11-04T12:49:24Z",
@@ -1099,9 +1094,9 @@
           "bets": 26,
           "profit": -28.92,
           "roi": -0.5236,
-          "avg_clv": -0.0035,
-          "beat_close": 0.4783,
-          "clv_count": 23
+          "avg_clv": -0.0037,
+          "beat_close": 0.48,
+          "clv_count": 25
         },
         {
           "name": "Serie B (Italy 2)",
@@ -1164,9 +1159,9 @@
           "bets": 111,
           "profit": -56.03,
           "roi": -0.2399,
-          "avg_clv": 0.0007,
-          "beat_close": 0.5889,
-          "clv_count": 90
+          "avg_clv": 0.0005,
+          "beat_close": 0.587,
+          "clv_count": 92
         }
       ],
       "by_sport": [
@@ -1175,9 +1170,9 @@
           "bets": 130,
           "profit": -51.82,
           "roi": -0.1745,
-          "avg_clv": 0.0034,
-          "beat_close": 0.6162,
-          "clv_count": 99
+          "avg_clv": 0.0032,
+          "beat_close": 0.6139,
+          "clv_count": 101
         }
       ],
       "gut": {
@@ -1209,7 +1204,7 @@
         "measured": 2
       },
       "reading": {
-        "week": 96,
+        "week": 125,
         "latest": [
           {
             "t": "2026-11-25T15:12:49Z",
@@ -1303,37 +1298,37 @@
         ]
       },
       "level": {
-        "n": 3,
-        "title": "Sharp",
-        "badge": "⚡",
-        "stake": 1.15,
-        "perk": "Stakes +15%. Consistently beats the market.",
-        "measured": 53,
-        "clv": 0.0104,
-        "beat": 0.6792,
+        "n": 2,
+        "title": "Apprentice",
+        "badge": "🎓",
+        "stake": 1.0,
+        "perk": "Has a track record. Starts learning which bets work.",
+        "measured": 55,
+        "clv": 0.0098,
+        "beat": 0.6727,
         "cold": false,
         "next": {
-          "title": "Mastermind",
-          "badge": "👑",
-          "perk": "Stakes +30%. Proven edge over 100+ bets.",
+          "title": "Sharp",
+          "badge": "⚡",
+          "perk": "Stakes +15%. Consistently beats the market.",
           "needs": [
             {
-              "text": "100 measured bets",
-              "done": false,
-              "now": "53"
-            },
-            {
-              "text": "beat the market on 57%+",
+              "text": "40 measured bets",
               "done": true,
-              "now": "68%"
+              "now": "55"
             },
             {
-              "text": "average price +1.5%+ vs market",
+              "text": "beat the market on 55%+",
+              "done": true,
+              "now": "67%"
+            },
+            {
+              "text": "average price +1.0%+ vs market",
               "done": false,
               "now": "+1.0%"
             }
           ],
-          "progress": 0.53
+          "progress": 1.0
         }
       },
       "explorer": {
@@ -1492,8 +1487,8 @@
         }
       ],
       "mind": {
-        "iq": 131,
-        "iq_week": 20,
+        "iq": 130,
+        "iq_week": 19,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -1581,7 +1576,7 @@
           },
           {
             "d": "2026-11-25",
-            "iq": 131
+            "iq": 130
           }
         ],
         "facts": [
@@ -1690,7 +1685,7 @@
         "min_edge": 0.02,
         "odds": [
           1.6,
-          4.5
+          3.5
         ],
         "stop_below": 250
       },
@@ -2334,47 +2329,47 @@
         "measured": 0
       },
       "reading": {
-        "week": 59,
+        "week": 84,
         "latest": [
           {
-            "t": "2026-11-25T12:25:48Z",
-            "title": "Knicks vs. Cavs injury report: Tonight’s game sponsored by Icy Hot",
-            "link": "https://sports.yahoo.com/nba/articles/knicks-vs-cavs-injury-report-122548997.html",
+            "t": "2026-11-25T16:32:37Z",
+            "title": "NBA Week 6 Injury Report: Cameron Boozer to miss at least four weeks; don&#39;t panic on Cade Cunningham",
+            "link": "https://sports.yahoo.com/fantasy/articles/nba-week-6-injury-report-163237767.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-25T04:49:05Z",
-            "title": "Kawhi Leonard is back on the (practice) court: will his return be enough?",
-            "link": "https://sports.yahoo.com/nba/articles/kawhi-leonard-back-practice-court-044905072.html",
+            "t": "2026-11-25T16:30:00Z",
+            "title": "Cavs at Knicks: How to watch, odds, and injury report",
+            "link": "https://sports.yahoo.com/nba/articles/cavs-knicks-watch-odds-injury-163000025.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-25T16:14:38Z",
+            "title": "2026-27 NBA Minutes Report: Brandon Ingram returns, Cameron Boozer is sidelined, more",
+            "link": "https://sports.yahoo.com/nba/articles/2026-27-nba-minutes-report-161438611.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-25T16:00:00Z",
+            "title": "Putting Phoenix’s four-game winning streak into perspective",
+            "link": "https://sports.yahoo.com/nba/articles/putting-phoenix-four-game-winning-160000365.html",
             "source": "sports.yahoo.com",
             "tone": 1
           },
           {
-            "t": "2026-11-25T03:51:56Z",
-            "title": "When will Steph Curry return? Latest injury update on Warriors star",
-            "link": "https://sports.yahoo.com/nba/articles/steph-curry-return-latest-injury-035156909.html",
+            "t": "2026-11-25T14:02:57Z",
+            "title": "Embiid sidelined for Sixers-Blazers with illness",
+            "link": "https://sports.yahoo.com/articles/embiid-sidelined-sixers-blazers-illness-173500321.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-25T02:56:25Z",
-            "title": "Pistons vs Magic final score: Detroit’s dominant defense shows up with Cade Cunningham sidelined",
-            "link": "https://sports.yahoo.com/nba/articles/pistons-vs-magic-final-score-025625807.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-25T02:20:57Z",
-            "title": "NBA Cup 2026: Pistons deny a Magic clinch without Cade Cunningham, who was a late scratch",
-            "link": "https://sports.yahoo.com/nba/breaking-news/article/nba-cup-2026-pistons-deny-a-magic-clinch-without-cade-cunningham-who-was-a-late-scratch-022057113.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-25T02:00:00Z",
-            "title": "Mavericks vs Nuggets Preview and Injury Report: For the Cup!",
-            "link": "https://sports.yahoo.com/nba/articles/mavericks-vs-nuggets-preview-injury-020000394.html",
+            "t": "2026-11-25T12:25:48Z",
+            "title": "Knicks vs. Cavs injury report: Tonight’s game sponsored by Icy Hot",
+            "link": "https://sports.yahoo.com/nba/articles/knicks-vs-cavs-injury-report-122548997.html",
             "source": "sports.yahoo.com",
             "tone": -1
           }
@@ -2596,36 +2591,25 @@
           "effect": "Always demands +0.5% more edge.",
           "from": "Precision day",
           "since": "2026-11-23T18:30:49Z",
-          "on": 0.0344,
-          "off": 0.0099,
-          "bets": 23
+          "on": 0.0324,
+          "off": 0.0107,
+          "bets": 24
         },
         {
-          "id": "study",
-          "emoji": "📚",
-          "title": "Studious",
-          "effect": "Looks a day further ahead.",
-          "from": "Study day",
-          "since": "2026-11-25T19:00:58Z",
-          "on": 0.0509,
-          "off": 0.0176,
-          "bets": 2
-        },
-        {
-          "id": "underdog",
-          "emoji": "🐶",
-          "title": "Underdog lover",
-          "effect": "Allows underdogs at odds up to 1.0 higher.",
-          "from": "Underdog hunter",
-          "since": "2026-11-25T19:00:58Z",
-          "on": 0.0135,
-          "off": 0.017,
-          "bets": 10
+          "id": "discipline",
+          "emoji": "🧘",
+          "title": "Disciplined",
+          "effect": "Avoids odds above 3.5.",
+          "from": "Discipline day",
+          "since": "2026-11-25T19:15:31Z",
+          "on": 0.0391,
+          "off": 0.0173,
+          "bets": 3
         }
       ],
       "mind": {
-        "iq": 146,
-        "iq_week": 23,
+        "iq": 147,
+        "iq_week": 24,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -2713,7 +2697,7 @@
           },
           {
             "d": "2026-11-25",
-            "iq": 146
+            "iq": 147
           }
         ],
         "facts": [
@@ -2805,7 +2789,7 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.015,
+        "min_edge": 0.02,
         "odds": [
           1.6,
           4.0
@@ -3330,47 +3314,47 @@
         "measured": 1
       },
       "reading": {
-        "week": 445,
+        "week": 391,
         "latest": [
           {
-            "t": "2026-11-25T15:41:47Z",
-            "title": "Ahead of Micah Parsons&#39; return for Packers-Rams, Aaron Donald jokes: &#39;Micah, if you want to take one more week …&#39;",
-            "link": "https://sports.yahoo.com/nfl/article/ahead-of-micah-parsons-return-for-packers-rams-aaron-donald-jokes-micah-if-you-want-to-take-one-more-week-154147713.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-25T15:00:00Z",
-            "title": "Patriots don’t want a new Drake Maye. They want Tommy DeVito to be himself.",
-            "link": "https://sports.yahoo.com/nfl/articles/patriots-don-t-want-drake-150000140.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-25T15:00:00Z",
-            "title": "NFL predictions: Rams’ defensive stars outshine Packers’ Parsons return",
-            "link": "https://sports.yahoo.com/nfl/articles/nfl-predictions-rams-defensive-stars-150000925.html",
+            "t": "2026-11-25T19:05:37Z",
+            "title": "Miami Dolphins fan confidence survey – Week 12 2026",
+            "link": "https://sports.yahoo.com/nfl/articles/miami-dolphins-fan-confidence-survey-190537701.html",
             "source": "sports.yahoo.com",
             "tone": 1
           },
           {
-            "t": "2026-11-25T14:36:08Z",
-            "title": "Important update regarding FSU-Florida game",
-            "link": "https://sports.yahoo.com/college-football/articles/important-regarding-fsu-florida-game-143608120.html",
+            "t": "2026-11-25T18:49:29Z",
+            "title": "Aaron Rodgers goes scorched earth on Mike McCarthy in post-benching comments: Live updates",
+            "link": "https://sports.yahoo.com/nfl/articles/aaron-rodgers-criticizes-mike-mccarthy-184929903.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-25T18:41:35Z",
+            "title": "Week 12 lineup questions? Fantasy Football Live has you covered on Sunday morning with last-minute start/sit advice",
+            "link": "https://sports.yahoo.com/fantasy/article/week-12-lineup-questions-fantasy-football-live-has-you-covered-on-sunday-morning-with-last-minute-startsit-advice-184135403.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-25T18:33:20Z",
+            "title": "Miami QB Darian Mensah to Impact Transfer Streak",
+            "link": "https://sports.yahoo.com/college-football/articles/miami-qb-darian-mensah-impact-183320901.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-25T14:07:18Z",
-            "title": "UCLA has incentive to not give exact details of Ty Dieffenbach status",
-            "link": "https://sports.yahoo.com/college-football/articles/ucla-incentive-not-exact-details-140718050.html",
+            "t": "2026-11-25T18:22:57Z",
+            "title": "Jets designate T&#39;Vondre Sweat for return from injured reserve",
+            "link": "https://sports.yahoo.com/nfl/articles/jets-designate-tvondre-sweat-return-182257017.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-25T12:30:57Z",
-            "title": "Is Davante Adams playing today? Injury update for Rams WR on IR",
-            "link": "https://sports.yahoo.com/nfl/articles/davante-adams-playing-today-injury-123057953.html",
+            "t": "2026-11-25T18:20:48Z",
+            "title": "Eagles-Cowboys Final Injury Report: Quinyon Mitchell will play in Dallas",
+            "link": "https://sports.yahoo.com/nfl/articles/eagles-cowboys-final-injury-report-182048180.html",
             "source": "sports.yahoo.com",
             "tone": -1
           }
@@ -3614,6 +3598,17 @@
           "on": 0.0329,
           "off": 0.022,
           "bets": 1
+        },
+        {
+          "id": "precision",
+          "emoji": "🎯",
+          "title": "Precise",
+          "effect": "Always demands +0.5% more edge.",
+          "from": "Precision day",
+          "since": "2026-11-25T19:15:31Z",
+          "on": 0.032,
+          "off": 0.0251,
+          "bets": 2
         }
       ],
       "mind": {
@@ -6862,8 +6857,8 @@
       "edge": 0.047,
       "stake": 9.21,
       "status": "open",
-      "closing_fair_odds": null,
-      "clv": null,
+      "closing_fair_odds": 2.567,
+      "clv": 0.0322,
       "profit": 0.0,
       "score": null,
       "settled_at": null,
@@ -6900,8 +6895,8 @@
       "edge": 0.0477,
       "stake": 9.84,
       "status": "open",
-      "closing_fair_odds": null,
-      "clv": null,
+      "closing_fair_odds": 2.692,
+      "clv": -0.0452,
       "profit": 0.0,
       "score": null,
       "settled_at": null,
@@ -11414,26 +11409,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-25T16:30:47Z",
-      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-25T16:30:47Z",
-      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
-    },
-    {
-      "t": "2026-11-25T16:45:34Z",
-      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
-    },
-    {
-      "t": "2026-11-25T16:45:34Z",
-      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-25T17:01:03Z",
-      "text": "🧬 🧮 The Quant dropped the 🧘 Disciplined trait: it stopped working (+1.3% vs the market on those days)."
-    },
-    {
       "t": "2026-11-25T17:01:03Z",
       "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
     },
@@ -11532,6 +11507,26 @@
     {
       "t": "2026-11-25T19:00:58Z",
       "text": "Results:\n- Lost -2.45: Urawa Red Diamonds (Winner) in Urawa Red Diamonds vs Cerezo Osaka (Urawa Red Diamonds 2 - 2 Cerezo Osaka)\n- Won +1.84: Under 164.5 (Total) in Dubai Basketball vs KK Partizan NIS (Dubai Basketball 71 - 84 KK Partizan NIS)"
+    },
+    {
+      "t": "2026-11-25T19:15:31Z",
+      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
+    },
+    {
+      "t": "2026-11-25T19:15:31Z",
+      "text": "🧬 🧮 The Quant dropped the 📚 Studious trait: it stopped working (+1.6% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-25T19:15:31Z",
+      "text": "🧬 🧮 The Quant dropped the 🐶 Underdog lover trait: it stopped working (+1.6% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-25T19:15:31Z",
+      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
+    },
+    {
+      "t": "2026-11-25T19:15:31Z",
+      "text": "🦎 The Lizard changed level: Sharp → 🎓 Apprentice. Has a track record. Starts learning which bets work."
     }
   ]
 }
