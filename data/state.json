@@ -51,26 +51,6 @@
   },
   "log": [
     {
-      "t": "2026-11-25T19:15:31Z",
-      "text": "🧬 🧮 The Quant dropped the 📚 Studious trait: it stopped working (+1.6% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-25T19:15:31Z",
-      "text": "🧬 🧮 The Quant dropped the 🐶 Underdog lover trait: it stopped working (+1.6% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-25T19:15:31Z",
-      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
-    },
-    {
-      "t": "2026-11-25T19:15:31Z",
-      "text": "🦎 The Lizard changed level: Sharp → 🎓 Apprentice. Has a track record. Starts learning which bets work."
-    },
-    {
-      "t": "2026-11-25T19:20:48Z",
-      "text": "🧬 🧮 The Quant dropped the 🧘 Disciplined trait: it stopped working (+1.3% vs the market on those days)."
-    },
-    {
       "t": "2026-11-25T19:20:48Z",
       "text": "🧬 🧮 The Quant made Study day part of its character: 📚 Studious. It completed the challenge on 2026-11-25 and its bets beat the market by +5.3%. Looks a day further ahead."
     },
@@ -169,6 +149,26 @@
     {
       "t": "2026-11-25T20:30:48Z",
       "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
+    },
+    {
+      "t": "2026-11-25T20:45:31Z",
+      "text": "🧬 🧮 The Quant dropped the 🧘 Disciplined trait: it stopped working (+1.3% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-25T20:45:31Z",
+      "text": "🧬 🧮 The Quant made Study day part of its character: 📚 Studious. It completed the challenge on 2026-11-25 and its bets beat the market by +6.8%. Looks a day further ahead."
+    },
+    {
+      "t": "2026-11-25T20:45:31Z",
+      "text": "🧬 🧮 The Quant made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-11 and its bets beat the market by +1.3%. Allows underdogs at odds up to 1.0 higher."
+    },
+    {
+      "t": "2026-11-25T20:45:31Z",
+      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-25T20:45:31Z",
+      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
     }
   ],
   "levels": {
@@ -3026,11 +3026,17 @@
         "off": 0.0107,
         "bets": 24
       },
-      "discipline": {
-        "since": "2026-11-25T20:30:48Z",
-        "on": 0.0391,
-        "off": 0.0173,
-        "bets": 3
+      "study": {
+        "since": "2026-11-25T20:45:31Z",
+        "on": 0.0682,
+        "off": 0.0171,
+        "bets": 4
+      },
+      "underdog": {
+        "since": "2026-11-25T20:45:31Z",
+        "on": 0.0135,
+        "off": 0.0171,
+        "bets": 10
       }
     },
     "shark": {
@@ -3052,11 +3058,11 @@
         "off": 0.022,
         "bets": 1
       },
-      "precision": {
-        "since": "2026-11-25T20:30:48Z",
-        "on": 0.032,
-        "off": 0.0251,
-        "bets": 2
+      "underdog": {
+        "since": "2026-11-25T20:45:31Z",
+        "on": 0.0278,
+        "off": 0.0257,
+        "bets": 15
       }
     }
   },
