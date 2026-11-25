@@ -1,6 +1,6 @@
 {
   "last_scan": "2026-11-25@21",
-  "credits_left": 16745,
+  "credits_left": 16743,
   "league_names": {
     "soccer_italy_serie_b": "Serie B (Italy 2)",
     "soccer_efl_champ": "Championship (England 2)",
@@ -27,7 +27,7 @@
   "credits_day_start": 17122,
   "last_settle_check": {
     "soccer_france_ligue_two": "2026-11-23T22:45:31Z",
-    "soccer_efl_champ": "2026-11-25T04:45:31Z",
+    "soccer_efl_champ": "2026-11-25T22:45:31Z",
     "soccer_germany_bundesliga2": "2026-11-22T15:30:49Z",
     "soccer_france_ligue_one": "2026-11-22T23:00:57Z",
     "soccer_spain_segunda_division": "2026-11-23T22:30:47Z",
@@ -50,26 +50,6 @@
     "americanfootball_ncaaf_fcs": "2026-11-22T08:30:53Z"
   },
   "log": [
-    {
-      "t": "2026-11-25T21:00:58Z",
-      "text": "🧬 🧮 The Quant dropped the 🐶 Underdog lover trait: it stopped working (+1.6% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-25T21:00:58Z",
-      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-25T21:00:58Z",
-      "text": "Placed 4 practice bets:\n- The Lizard: **Cremonese** (Winner) in Sampdoria vs Cremonese (Serie B (Italy 2)) at 2.85 on Codere (IT), stake 3.81, edge +3.1%\n- The Lizard: **Under 2.5** (Total) in Derby County vs Watford (Championship (England 2)) at 1.95 on LeoVegas (SE), stake 5.57, edge +2.4%\n- The Lizard: **Under 2.5** (Total) in Lyon vs AS Monaco (Ligue 1 (France)) at 2.02 on Unibet (SE), stake 6.19, edge +2.8%\n- The Lizard: **Bayer Leverkusen** (Winner) in Borussia Dortmund vs Bayer Leverkusen (Bundesliga - Germany) at 3.3 on Unibet (SE), stake 2.45, edge +2.5%"
-    },
-    {
-      "t": "2026-11-25T21:00:58Z",
-      "text": "Results:\n- Lost -3.40: Draw (Winner) in Cremonese vs Avellino (Cremonese 0 - 1 Avellino)"
-    },
-    {
-      "t": "2026-11-25T21:15:33Z",
-      "text": "🧬 🧮 The Quant dropped the 🧘 Disciplined trait: it stopped working (+1.3% vs the market on those days)."
-    },
     {
       "t": "2026-11-25T21:15:33Z",
       "text": "🧬 🧮 The Quant made Study day part of its character: 📚 Studious. It completed the challenge on 2026-11-25 and its bets beat the market by +6.8%. Looks a day further ahead."
@@ -169,6 +149,26 @@
     {
       "t": "2026-11-25T22:30:51Z",
       "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-25T22:45:31Z",
+      "text": "🧬 🧮 The Quant dropped the 🧘 Disciplined trait: it stopped working (+1.3% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-25T22:45:31Z",
+      "text": "🧬 🧮 The Quant made Study day part of its character: 📚 Studious. It completed the challenge on 2026-11-25 and its bets beat the market by +4.8%. Looks a day further ahead."
+    },
+    {
+      "t": "2026-11-25T22:45:31Z",
+      "text": "🧬 🧮 The Quant made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-11 and its bets beat the market by +1.3%. Allows underdogs at odds up to 1.0 higher."
+    },
+    {
+      "t": "2026-11-25T22:45:31Z",
+      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
+    },
+    {
+      "t": "2026-11-25T22:45:31Z",
+      "text": "Results:\n- Won +15.20: Birmingham City (Winner) in Burnley vs Birmingham City (Burnley 0 - 2 Birmingham City)\n- Lost -9.84: Watford (Winner) in Watford vs Blackburn Rovers (Watford 0 - 1 Blackburn Rovers)"
     }
   ],
   "levels": {
@@ -3026,11 +3026,17 @@
         "off": 0.0106,
         "bets": 24
       },
-      "discipline": {
-        "since": "2026-11-25T22:30:51Z",
-        "on": 0.0391,
+      "study": {
+        "since": "2026-11-25T22:45:31Z",
+        "on": 0.0483,
         "off": 0.0171,
-        "bets": 3
+        "bets": 6
+      },
+      "underdog": {
+        "since": "2026-11-25T22:45:31Z",
+        "on": 0.0135,
+        "off": 0.0169,
+        "bets": 10
       }
     },
     "shark": {
@@ -3051,6 +3057,12 @@
         "on": 0.0329,
         "off": 0.022,
         "bets": 1
+      },
+      "precision": {
+        "since": "2026-11-25T22:45:31Z",
+        "on": 0.032,
+        "off": 0.0251,
+        "bets": 2
       }
     }
   },
