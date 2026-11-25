@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25T01:00:51Z",
+  "updated": "2026-11-25T01:15:31Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -521,8 +521,8 @@
           "cautious": 0.0071,
           "beat": 0.5968,
           "challenges": 0.583,
-          "traits": 3,
-          "score": 17.95
+          "traits": 2,
+          "score": 15.95
         },
         {
           "who": "lizard",
@@ -533,8 +533,8 @@
           "cautious": -0.0015,
           "beat": 0.7021,
           "challenges": 0.364,
-          "traits": 2,
-          "score": 8.39
+          "traits": 1,
+          "score": 6.39
         }
       ],
       "ranking": [
@@ -1431,17 +1431,6 @@
           "on": 0.0228,
           "off": 0.0009,
           "bets": 9
-        },
-        {
-          "id": "discipline",
-          "emoji": "🧘",
-          "title": "Disciplined",
-          "effect": "Avoids odds above 3.5.",
-          "from": "Discipline day",
-          "since": "2026-11-25T01:00:51Z",
-          "on": 0.0095,
-          "off": 0.0044,
-          "bets": 6
         }
       ],
       "mind": {
@@ -1643,7 +1632,7 @@
         "min_edge": 0.02,
         "odds": [
           1.6,
-          3.5
+          4.5
         ],
         "stop_below": 250
       },
@@ -2513,17 +2502,6 @@
           "on": 0.0298,
           "off": 0.0085,
           "bets": 22
-        },
-        {
-          "id": "discipline",
-          "emoji": "🧘",
-          "title": "Disciplined",
-          "effect": "Avoids odds above 3.5.",
-          "from": "Discipline day",
-          "since": "2026-11-25T01:00:51Z",
-          "on": 0.0391,
-          "off": 0.0146,
-          "bets": 3
         }
       ],
       "mind": {
@@ -2708,10 +2686,10 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.02,
+        "min_edge": 0.015,
         "odds": [
           1.6,
-          4.0
+          5.0
         ],
         "stop_below": 250
       },
@@ -3511,15 +3489,15 @@
           "bets": 1
         },
         {
-          "id": "precision",
-          "emoji": "🎯",
-          "title": "Precise",
-          "effect": "Always demands +0.5% more edge.",
-          "from": "Precision day",
-          "since": "2026-11-25T01:00:51Z",
-          "on": 0.032,
-          "off": 0.0251,
-          "bets": 2
+          "id": "underdog",
+          "emoji": "🐶",
+          "title": "Underdog lover",
+          "effect": "Allows underdogs at odds up to 1.0 higher.",
+          "from": "Underdog hunter",
+          "since": "2026-11-25T01:15:31Z",
+          "on": 0.0278,
+          "off": 0.0257,
+          "bets": 15
         }
       ],
       "mind": {
@@ -11317,22 +11295,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-24T23:30:45Z",
-      "text": "🧬 🧮 The Quant dropped the 🧘 Disciplined trait: it stopped working (+1.3% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-24T23:30:45Z",
-      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-24T23:45:30Z",
-      "text": "🧬 🦎 The Lizard made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-22 and its bets beat the market by +1.0%. Avoids odds above 3.5."
-    },
-    {
-      "t": "2026-11-24T23:45:30Z",
-      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
-    },
-    {
       "t": "2026-11-24T23:45:30Z",
       "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
     },
@@ -11435,6 +11397,22 @@
     {
       "t": "2026-11-25T01:00:51Z",
       "text": "Placed 9 practice bets:\n- The Lizard: **Nashville SC** (Winner) in FC Cincinnati vs Nashville SC (MLS (USA)) at 2.25 on LeoVegas (SE), stake 6.60, edge +3.1%\n- The Lizard ⚡ pounce: **New England Revolution** (Winner) in Philadelphia Union vs New England Revolution (MLS (USA)) at 6.0 on LeoVegas (SE), stake 2.58, edge +11.2%\n- The Lizard 🧭 scout: **Hellas Verona** (Winner) in Empoli vs Hellas Verona (Serie B (Italy 2)) at 1.93 on Unibet (SE), stake 2.30, edge +1.6%\n- The Lizard 🧭 scout: **FC Tokyo** (Winner) in FC Tokyo vs Hiroshima Sanfrecce FC (J-League (Japan)) at 2.45 on LeoVegas (SE), stake 2.30, edge +1.2%\n- The Lizard 🧭 scout: **Wycombe Wanderers** (Winner) in Wycombe Wanderers vs Bradford City (League One (England 3)) at 2.5 on Unibet (SE), stake 2.30, edge +1.9%\n- The Shark 🧭 scout: **Chicago Bears** (Winner) in Detroit Lions vs Chicago Bears (NFL) at 1.86 on Matchbook, stake 2.52, edge +0.6%\n- The Shark 💭 gut: **Indianapolis Colts** (Winner) in Indianapolis Colts vs New York Giants (NFL) at 3.6 on Everygame, stake 2.52, edge +0.1%\n- The Shark 💭 gut: **Atlanta Falcons** (Winner) in Minnesota Vikings vs Atlanta Falcons (NFL) at 3.9 on Matchbook, stake 2.52, edge +1.5%\n- The Quant 🎲 wild: **Kansas St Wildcats** (Winner) in Kansas St Wildcats vs Gonzaga Bulldogs (College basketball (US)) at 10.1 on BetOnline.ag, stake 1.13, edge +-1.1%"
+    },
+    {
+      "t": "2026-11-25T01:15:31Z",
+      "text": "🧬 🦎 The Lizard dropped the 🧘 Disciplined trait: it stopped working (-0.1% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-25T01:15:31Z",
+      "text": "🧬 🧮 The Quant dropped the 🧘 Disciplined trait: it stopped working (+1.3% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-25T01:15:31Z",
+      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-25T01:15:31Z",
+      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
     }
   ]
 }
