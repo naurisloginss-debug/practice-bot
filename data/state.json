@@ -51,18 +51,6 @@
   },
   "log": [
     {
-      "t": "2026-11-25T02:15:30Z",
-      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-25T02:15:30Z",
-      "text": "Results:\n- Lost -5.83: FC Bayern München -3.5 (Spread) in FC Bayern München vs Maccabi Tel Aviv (FC Bayern München 79 - 87 Maccabi Tel Aviv)\n- Lost -15.18: Over 174.5 (Total) in Valencia Basket vs Panathinaikos (Valencia Basket 83 - 86 Panathinaikos)\n- Lost -6.54: Valencia Basket (Winner) in Valencia Basket vs Panathinaikos (Valencia Basket 83 - 86 Panathinaikos)\n- Won +2.15: Over 172.5 (Total) in KK Crvena zvezda vs Virtus Segafredo Bologna (KK Crvena zvezda 84 - 108 Virtus Segafredo Bologna)\n- Lost -8.37: FC Barcelona Bàsquet (Winner) in FC Barcelona Bàsquet vs Fenerbahce SK (FC Barcelona Bàsquet 77 - 83 Fenerbahce SK)"
-    },
-    {
-      "t": "2026-11-25T02:30:44Z",
-      "text": "🧬 🦎 The Lizard made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-22 and its bets beat the market by +1.0%. Avoids odds above 3.5."
-    },
-    {
       "t": "2026-11-25T02:30:44Z",
       "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
     },
@@ -169,6 +157,18 @@
     {
       "t": "2026-11-25T04:15:39Z",
       "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
+    },
+    {
+      "t": "2026-11-25T04:30:44Z",
+      "text": "🧬 🦎 The Lizard made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-22 and its bets beat the market by +1.0%. Avoids odds above 3.5."
+    },
+    {
+      "t": "2026-11-25T04:30:44Z",
+      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
+    },
+    {
+      "t": "2026-11-25T04:30:44Z",
+      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
     }
   ],
   "levels": {
@@ -3009,6 +3009,12 @@
         "on": 0.0228,
         "off": 0.002,
         "bets": 9
+      },
+      "discipline": {
+        "since": "2026-11-25T04:30:44Z",
+        "on": 0.0095,
+        "off": 0.0054,
+        "bets": 6
       }
     },
     "quant": {
@@ -3023,6 +3029,12 @@
         "on": 0.0344,
         "off": 0.0085,
         "bets": 23
+      },
+      "discipline": {
+        "since": "2026-11-25T04:30:44Z",
+        "on": 0.0391,
+        "off": 0.0163,
+        "bets": 3
       }
     },
     "shark": {
@@ -3043,12 +3055,6 @@
         "on": 0.0329,
         "off": 0.022,
         "bets": 1
-      },
-      "underdog": {
-        "since": "2026-11-25T04:15:39Z",
-        "on": 0.0278,
-        "off": 0.0257,
-        "bets": 15
       }
     }
   },
