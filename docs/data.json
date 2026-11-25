@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25T05:45:31Z",
+  "updated": "2026-11-25T06:00:53Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -509,8 +509,8 @@
           "cautious": 0.0193,
           "beat": 0.7059,
           "challenges": 0.727,
-          "traits": 4,
-          "score": 35.1
+          "traits": 3,
+          "score": 33.1
         },
         {
           "who": "quant",
@@ -521,8 +521,8 @@
           "cautious": 0.0089,
           "beat": 0.6032,
           "challenges": 0.583,
-          "traits": 2,
-          "score": 17.91
+          "traits": 3,
+          "score": 19.91
         },
         {
           "who": "lizard",
@@ -533,8 +533,8 @@
           "cautious": -0.0001,
           "beat": 0.7083,
           "challenges": 0.364,
-          "traits": 1,
-          "score": 7.9
+          "traits": 2,
+          "score": 9.9
         }
       ],
       "ranking": [
@@ -545,7 +545,7 @@
       "leader": "shark"
     }
   },
-  "credits_left": 16997,
+  "credits_left": 16995,
   "last_scan": "2026-11-25@5",
   "strategies": {
     "lizard": {
@@ -590,7 +590,7 @@
         "Total"
       ],
       "start_fund": 500,
-      "fund": 443.96,
+      "fund": 451.55,
       "lessons": [
         {
           "kind": "avoid",
@@ -609,12 +609,12 @@
         }
       ],
       "bets": 122,
-      "open": 29,
-      "won": 25,
+      "open": 28,
+      "won": 26,
       "lost": 68,
-      "staked": 271.55,
-      "profit": -56.04,
-      "roi": -0.2064,
+      "staked": 278.15,
+      "profit": -48.45,
+      "roi": -0.1742,
       "avg_edge": 0.0309,
       "avg_clv": 0.0023,
       "beat_close": 0.6222,
@@ -995,6 +995,10 @@
         {
           "t": "2026-11-25T04:45:31Z",
           "fund": 443.96
+        },
+        {
+          "t": "2026-11-25T06:00:53Z",
+          "fund": 451.55
         }
       ],
       "by_league": [
@@ -1064,8 +1068,8 @@
         {
           "name": "MLS (USA)",
           "bets": 6,
-          "profit": 27.4,
-          "roi": 1.3129,
+          "profit": 34.99,
+          "roi": 1.2738,
           "avg_clv": 0.005,
           "beat_close": 0.5,
           "clv_count": 4
@@ -1138,8 +1142,8 @@
         {
           "name": "Winner",
           "bets": 106,
-          "profit": -62.75,
-          "roi": -0.2978,
+          "profit": -55.16,
+          "roi": -0.2539,
           "avg_clv": -0.0005,
           "beat_close": 0.5976,
           "clv_count": 82
@@ -1149,8 +1153,8 @@
         {
           "name": "Football",
           "bets": 122,
-          "profit": -56.04,
-          "roi": -0.2064,
+          "profit": -48.45,
+          "roi": -0.1742,
           "avg_clv": 0.0023,
           "beat_close": 0.6222,
           "clv_count": 90
@@ -1452,6 +1456,17 @@
           "on": 0.0228,
           "off": 0.002,
           "bets": 9
+        },
+        {
+          "id": "discipline",
+          "emoji": "🧘",
+          "title": "Disciplined",
+          "effect": "Avoids odds above 3.5.",
+          "from": "Discipline day",
+          "since": "2026-11-25T06:00:53Z",
+          "on": 0.0095,
+          "off": 0.0054,
+          "bets": 6
         }
       ],
       "mind": {
@@ -1635,7 +1650,7 @@
         ],
         "rules": 0,
         "studied": 329,
-        "resolved": 238
+        "resolved": 239
       }
     },
     "quant": {
@@ -1653,7 +1668,7 @@
         "min_edge": 0.02,
         "odds": [
           1.6,
-          4.5
+          3.5
         ],
         "stop_below": 250
       },
@@ -2551,6 +2566,17 @@
           "on": 0.0344,
           "off": 0.0085,
           "bets": 23
+        },
+        {
+          "id": "discipline",
+          "emoji": "🧘",
+          "title": "Disciplined",
+          "effect": "Avoids odds above 3.5.",
+          "from": "Discipline day",
+          "since": "2026-11-25T06:00:53Z",
+          "on": 0.0391,
+          "off": 0.0163,
+          "bets": 3
         }
       ],
       "mind": {
@@ -2738,7 +2764,7 @@
         "min_edge": 0.015,
         "odds": [
           1.6,
-          5.0
+          4.0
         ],
         "stop_below": 250
       },
@@ -3536,17 +3562,6 @@
           "on": 0.0329,
           "off": 0.022,
           "bets": 1
-        },
-        {
-          "id": "underdog",
-          "emoji": "🐶",
-          "title": "Underdog lover",
-          "effect": "Allows underdogs at odds up to 1.0 higher.",
-          "from": "Underdog hunter",
-          "since": "2026-11-25T05:45:31Z",
-          "on": 0.0278,
-          "off": 0.0257,
-          "bets": 15
         }
       ],
       "mind": {
@@ -6665,12 +6680,12 @@
       "fair_odds": 2.087,
       "edge": 0.0303,
       "stake": 6.6,
-      "status": "open",
+      "status": "won",
       "closing_fair_odds": 2.014,
       "clv": 0.0678,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": 7.59,
+      "score": "San Jose Earthquakes 2 - 1 Houston Dynamo",
+      "settled_at": "2026-11-25T06:00:53Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates San Jose Earthquakes at 47.9%. That makes the fair price 2.09.",
         "GTbets pays 2.15. That is +3.0% above fair. My bar is +2.0%.",
@@ -11338,22 +11353,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-25T03:45:30Z",
-      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-25T04:00:50Z",
-      "text": "🧬 🦎 The Lizard made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-22 and its bets beat the market by +1.0%. Avoids odds above 3.5."
-    },
-    {
-      "t": "2026-11-25T04:00:50Z",
-      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
-    },
-    {
-      "t": "2026-11-25T04:00:50Z",
-      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
-    },
-    {
       "t": "2026-11-25T04:15:39Z",
       "text": "🧬 🦎 The Lizard dropped the 🧘 Disciplined trait: it stopped working (-0.1% vs the market on those days)."
     },
@@ -11456,6 +11455,22 @@
     {
       "t": "2026-11-25T05:45:31Z",
       "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
+    },
+    {
+      "t": "2026-11-25T06:00:53Z",
+      "text": "🧬 🦎 The Lizard made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-22 and its bets beat the market by +1.0%. Avoids odds above 3.5."
+    },
+    {
+      "t": "2026-11-25T06:00:53Z",
+      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
+    },
+    {
+      "t": "2026-11-25T06:00:53Z",
+      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-25T06:00:53Z",
+      "text": "Results:\n- Won +7.59: San Jose Earthquakes (Winner) in San Jose Earthquakes vs Houston Dynamo (San Jose Earthquakes 2 - 1 Houston Dynamo)"
     }
   ]
 }
