@@ -51,18 +51,6 @@
   },
   "log": [
     {
-      "t": "2026-11-25T03:15:32Z",
-      "text": "Results:\n- Lost -5.37: Ascoli (Winner) in Cesena FC vs Ascoli (Cesena FC 5 - 1 Ascoli)\n- Lost -4.62: Draw (Winner) in Vicenza vs Carrarese (Vicenza 0 - 1 Carrarese)\n- Lost -5.25: Hellas Verona (Winner) in Virtus Entella vs Hellas Verona (Virtus Entella 2 - 1 Hellas Verona)"
-    },
-    {
-      "t": "2026-11-25T03:30:49Z",
-      "text": "🧬 🦎 The Lizard made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-22 and its bets beat the market by +1.0%. Avoids odds above 3.5."
-    },
-    {
-      "t": "2026-11-25T03:30:49Z",
-      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
-    },
-    {
       "t": "2026-11-25T03:30:49Z",
       "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
     },
@@ -169,6 +157,18 @@
     {
       "t": "2026-11-25T05:15:32Z",
       "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-25T05:30:44Z",
+      "text": "🧬 🦎 The Lizard made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-22 and its bets beat the market by +1.0%. Avoids odds above 3.5."
+    },
+    {
+      "t": "2026-11-25T05:30:44Z",
+      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
+    },
+    {
+      "t": "2026-11-25T05:30:44Z",
+      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
     }
   ],
   "levels": {
@@ -3009,6 +3009,12 @@
         "on": 0.0228,
         "off": 0.002,
         "bets": 9
+      },
+      "discipline": {
+        "since": "2026-11-25T05:30:44Z",
+        "on": 0.0095,
+        "off": 0.0054,
+        "bets": 6
       }
     },
     "quant": {
@@ -3023,6 +3029,12 @@
         "on": 0.0344,
         "off": 0.0085,
         "bets": 23
+      },
+      "discipline": {
+        "since": "2026-11-25T05:30:44Z",
+        "on": 0.0391,
+        "off": 0.0163,
+        "bets": 3
       }
     },
     "shark": {
@@ -3043,6 +3055,12 @@
         "on": 0.0329,
         "off": 0.022,
         "bets": 1
+      },
+      "precision": {
+        "since": "2026-11-25T05:30:44Z",
+        "on": 0.032,
+        "off": 0.0251,
+        "bets": 2
       }
     }
   },
