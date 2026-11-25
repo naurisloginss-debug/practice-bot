@@ -19622,7 +19622,10 @@
       "point": 2.5,
       "over": 0.4935
     },
-    "result": null
+    "result": [
+      1.0,
+      2.0
+    ]
   },
   "e82083c75de6b9266b27142b9e045087": {
     "league": "soccer_japan_j_league",
@@ -19638,7 +19641,10 @@
       "point": 2.75,
       "over": 0.5065
     },
-    "result": null
+    "result": [
+      2.0,
+      2.0
+    ]
   },
   "fadcd788d19ce04ae2ac8f56edf60336": {
     "league": "soccer_japan_j_league",
@@ -19654,7 +19660,10 @@
       "point": 2.25,
       "over": 0.5247
     },
-    "result": null
+    "result": [
+      2.0,
+      0.0
+    ]
   },
   "56ce614c797d9691f61a0aab5a4fdc7a": {
     "league": "soccer_japan_j_league",
@@ -19670,7 +19679,10 @@
       "point": 2.75,
       "over": 0.5039
     },
-    "result": null
+    "result": [
+      1.0,
+      2.0
+    ]
   },
   "4d82f7110972d4f230cdfd5ca9a0d0dd": {
     "league": "soccer_japan_j_league",
@@ -19686,7 +19698,10 @@
       "point": 3.0,
       "over": 0.5039
     },
-    "result": null
+    "result": [
+      1.0,
+      2.0
+    ]
   },
   "2dfc5bec2d2449a9ee62d85ae92c8a2e": {
     "league": "soccer_japan_j_league",
@@ -19702,7 +19717,10 @@
       "point": 2.25,
       "over": 0.4585
     },
-    "result": null
+    "result": [
+      1.0,
+      0.0
+    ]
   },
   "c6b1486b9f3863fd4debf1f3727d0a1c": {
     "league": "soccer_japan_j_league",
@@ -19718,7 +19736,10 @@
       "point": 3.0,
       "over": 0.5026
     },
-    "result": null
+    "result": [
+      2.0,
+      2.0
+    ]
   },
   "1139ffb82856378723c5465df4e13d96": {
     "league": "basketball_nba",
@@ -27205,6 +27226,246 @@
     "tot": {
       "point": 154.0,
       "over": 0.4948
+    },
+    "result": null
+  },
+  "bcf1bfc44adf70bf134bd132c4a5ba87": {
+    "league": "soccer_efl_champ",
+    "start": "2026-11-29T12:00:00Z",
+    "home": "Swansea City",
+    "away": "Cardiff City",
+    "h2h": {
+      "away": 0.3018,
+      "home": 0.4562,
+      "draw": 0.242
+    },
+    "tot": {
+      "point": 3.25,
+      "over": 0.4766
+    },
+    "result": null
+  },
+  "468ebf38336fb839032102bc570787b7": {
+    "league": "soccer_spain_segunda_division",
+    "start": "2026-11-29T13:00:00Z",
+    "home": "Granada CF",
+    "away": "AD Ceuta FC",
+    "h2h": {
+      "away": 0.1677,
+      "home": 0.6154,
+      "draw": 0.2169
+    },
+    "tot": {
+      "point": 2.75,
+      "over": 0.5026
+    },
+    "result": null
+  },
+  "d6d944f72908fb252105090628bd6cda": {
+    "league": "soccer_germany_bundesliga2",
+    "start": "2026-11-29T12:30:00Z",
+    "home": "1. FC Magdeburg",
+    "away": "FC Energie Cottbus",
+    "h2h": {
+      "home": 0.5967,
+      "away": 0.1989,
+      "draw": 0.2044
+    },
+    "tot": {
+      "point": 3.5,
+      "over": 0.4961
+    },
+    "result": null
+  },
+  "3c54622721e80cdfbb954b810a125a04": {
+    "league": "soccer_germany_bundesliga2",
+    "start": "2026-11-29T12:30:00Z",
+    "home": "Greuther Fürth",
+    "away": "Arminia Bielefeld",
+    "h2h": {
+      "away": 0.4214,
+      "home": 0.3037,
+      "draw": 0.2749
+    },
+    "tot": {
+      "point": 2.75,
+      "over": 0.4856
+    },
+    "result": null
+  },
+  "77a14b15bb6d77f84e906042de068a70": {
+    "league": "soccer_germany_bundesliga2",
+    "start": "2026-11-29T12:30:00Z",
+    "home": "Eintracht Braunschweig",
+    "away": "VfL Wolfsburg",
+    "h2h": {
+      "home": 0.2538,
+      "away": 0.5158,
+      "draw": 0.2305
+    },
+    "tot": {
+      "point": 3.25,
+      "over": 0.5091
+    },
+    "result": null
+  },
+  "ce41cacfcb660dfe5d77395a990eb725": {
+    "league": "soccer_japan_j_league",
+    "start": "2026-11-28T05:00:00Z",
+    "home": "Kyoto Purple Sanga",
+    "away": "Cerezo Osaka",
+    "h2h": {
+      "away": 0.3436,
+      "home": 0.3825,
+      "draw": 0.2739
+    },
+    "tot": {
+      "point": 2.75,
+      "over": 0.4856
+    },
+    "result": null
+  },
+  "1a1517f6d2d9e450eaba4851a4cd4d6f": {
+    "league": "soccer_japan_j_league",
+    "start": "2026-11-28T05:00:00Z",
+    "home": "Shimizu S Pulse",
+    "away": "Urawa Red Diamonds",
+    "h2h": {
+      "home": 0.253,
+      "away": 0.4742,
+      "draw": 0.2728
+    },
+    "tot": {
+      "point": 2.5,
+      "over": 0.4803
+    },
+    "result": null
+  },
+  "0178a5e10b9ec15701b1580cb06c83b8": {
+    "league": "soccer_japan_j_league",
+    "start": "2026-11-28T06:00:00Z",
+    "home": "Kashima Antlers",
+    "away": "Fagiano Okayama",
+    "h2h": {
+      "away": 0.2126,
+      "home": 0.5321,
+      "draw": 0.2553
+    },
+    "tot": {
+      "point": 2.5,
+      "over": 0.5
+    },
+    "result": null
+  },
+  "7172e7dc52a9e11f4db549b97e0694a5": {
+    "league": "soccer_japan_j_league",
+    "start": "2026-11-28T06:00:00Z",
+    "home": "Vissel Kobe",
+    "away": "JEF United Chiba",
+    "h2h": {
+      "away": 0.1903,
+      "home": 0.5862,
+      "draw": 0.2235
+    },
+    "tot": {
+      "point": 2.5,
+      "over": 0.5208
+    },
+    "result": null
+  },
+  "011f4ffca58df74bfce11614845e7122": {
+    "league": "soccer_japan_j_league",
+    "start": "2026-11-28T07:00:00Z",
+    "home": "Kashiwa Reysol",
+    "away": "Hiroshima Sanfrecce FC",
+    "h2h": {
+      "away": 0.4268,
+      "home": 0.3176,
+      "draw": 0.2556
+    },
+    "tot": {
+      "point": 2.75,
+      "over": 0.5234
+    },
+    "result": null
+  },
+  "be503098b31cd073b2c26f4bd199e611": {
+    "league": "soccer_japan_j_league",
+    "start": "2026-11-29T05:00:00Z",
+    "home": "Yokohama F Marinos",
+    "away": "FC Tokyo",
+    "h2h": {
+      "away": 0.5528,
+      "home": 0.2027,
+      "draw": 0.2444
+    },
+    "tot": {
+      "point": 2.75,
+      "over": 0.4727
+    },
+    "result": null
+  },
+  "f7632c77b259388080dddd4000da2dd9": {
+    "league": "soccer_japan_j_league",
+    "start": "2026-11-29T05:00:00Z",
+    "home": "Mito HollyHock",
+    "away": "V-Varen Nagasaki",
+    "h2h": {
+      "home": 0.3259,
+      "away": 0.3866,
+      "draw": 0.2876
+    },
+    "tot": {
+      "point": 2.25,
+      "over": 0.5247
+    },
+    "result": null
+  },
+  "a707ee387c098265b14f9ccdba249293": {
+    "league": "soccer_japan_j_league",
+    "start": "2026-11-29T06:00:00Z",
+    "home": "Nagoya Grampus",
+    "away": "Avispa Fukuoka",
+    "h2h": {
+      "away": 0.2324,
+      "home": 0.4962,
+      "draw": 0.2714
+    },
+    "tot": {
+      "point": 2.25,
+      "over": 0.5311
+    },
+    "result": null
+  },
+  "74f6bfe1913aec3422567b45b17529ee": {
+    "league": "soccer_japan_j_league",
+    "start": "2026-11-29T06:00:00Z",
+    "home": "Kawasaki Frontale",
+    "away": "Gamba Osaka",
+    "h2h": {
+      "away": 0.294,
+      "home": 0.4627,
+      "draw": 0.2433
+    },
+    "tot": {
+      "point": 3.0,
+      "over": 0.5026
+    },
+    "result": null
+  },
+  "ed8d8a36e0aa7792f9fd2b41b40ba6c6": {
+    "league": "soccer_japan_j_league",
+    "start": "2026-11-29T07:00:00Z",
+    "home": "FC Machida Zelvia",
+    "away": "Tokyo Verdy",
+    "h2h": {
+      "home": 0.6055,
+      "away": 0.1494,
+      "draw": 0.245
+    },
+    "tot": {
+      "point": 2.25,
+      "over": 0.4934
     },
     "result": null
   }
