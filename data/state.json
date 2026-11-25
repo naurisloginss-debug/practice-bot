@@ -52,18 +52,6 @@
   "log": [
     {
       "t": "2026-11-24T22:30:54Z",
-      "text": "🧬 🦎 The Lizard dropped the 🧘 Disciplined trait: it stopped working (-0.1% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-24T22:30:54Z",
-      "text": "🧬 🧮 The Quant dropped the 🧘 Disciplined trait: it stopped working (+1.3% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-24T22:30:54Z",
-      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-24T22:30:54Z",
       "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
     },
     {
@@ -169,6 +157,18 @@
     {
       "t": "2026-11-25T00:00:54Z",
       "text": "Results:\n- Lost -12.90: Palmeiras -0.5 (Spread) in Chapecoense vs Palmeiras (Chapecoense 3 - 0 Palmeiras)"
+    },
+    {
+      "t": "2026-11-25T00:15:40Z",
+      "text": "🧬 🦎 The Lizard made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-22 and its bets beat the market by +1.0%. Avoids odds above 3.5."
+    },
+    {
+      "t": "2026-11-25T00:15:40Z",
+      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
+    },
+    {
+      "t": "2026-11-25T00:15:40Z",
+      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
     }
   ],
   "levels": {
@@ -389,7 +389,7 @@
       },
       {
         "d": "2026-11-25",
-        "iq": 128
+        "iq": 127
       }
     ],
     "quant": [
@@ -479,7 +479,7 @@
       },
       {
         "d": "2026-11-25",
-        "iq": 144
+        "iq": 145
       }
     ],
     "shark": [
@@ -2330,20 +2330,20 @@
     }
   },
   "skip_note": "2026-11-06@8",
-  "news_at": "2026-11-24T21:01:00Z",
+  "news_at": "2026-11-25T00:15:40Z",
   "feed_status": {
     "https://www.espn.com/espn/rss/nba/news": "error 2026-11-10T08:42:16Z: no element found: line 1, column 0",
-    "https://www.cbssports.com/rss/headlines/nba/": "ok 2026-11-24T21:01:00Z",
-    "https://sports.yahoo.com/nba/rss.xml": "ok 2026-11-24T21:01:00Z",
+    "https://www.cbssports.com/rss/headlines/nba/": "ok 2026-11-25T00:15:40Z",
+    "https://sports.yahoo.com/nba/rss.xml": "ok 2026-11-25T00:15:40Z",
     "https://www.espn.com/espn/rss/nfl/news": "error 2026-11-10T08:42:16Z: no element found: line 1, column 0",
     "https://www.espn.com/espn/rss/ncf/news": "error 2026-11-10T08:42:16Z: no element found: line 1, column 0",
-    "https://www.cbssports.com/rss/headlines/nfl/": "ok 2026-11-24T21:01:00Z",
-    "https://sports.yahoo.com/nfl/rss.xml": "ok 2026-11-24T21:01:00Z",
-    "https://sports.yahoo.com/college-football/rss.xml": "ok 2026-11-24T21:01:00Z",
-    "https://feeds.bbci.co.uk/sport/football/rss.xml": "ok 2026-11-24T21:01:00Z",
-    "https://feeds.bbci.co.uk/sport/football/championship/rss.xml": "ok 2026-11-24T21:01:00Z",
-    "https://feeds.bbci.co.uk/sport/football/european/rss.xml": "ok 2026-11-24T21:01:00Z",
-    "https://football-italia.net/feed/": "ok 2026-11-24T21:01:00Z"
+    "https://www.cbssports.com/rss/headlines/nfl/": "ok 2026-11-25T00:15:40Z",
+    "https://sports.yahoo.com/nfl/rss.xml": "ok 2026-11-25T00:15:40Z",
+    "https://sports.yahoo.com/college-football/rss.xml": "ok 2026-11-25T00:15:40Z",
+    "https://feeds.bbci.co.uk/sport/football/rss.xml": "ok 2026-11-25T00:15:40Z",
+    "https://feeds.bbci.co.uk/sport/football/championship/rss.xml": "ok 2026-11-25T00:15:40Z",
+    "https://feeds.bbci.co.uk/sport/football/european/rss.xml": "ok 2026-11-25T00:15:40Z",
+    "https://football-italia.net/feed/": "ok 2026-11-25T00:15:40Z"
   },
   "exploring": {
     "lizard": {
@@ -2969,6 +2969,12 @@
         "on": 0.0228,
         "off": 0.0009,
         "bets": 9
+      },
+      "discipline": {
+        "since": "2026-11-25T00:15:40Z",
+        "on": 0.0095,
+        "off": 0.0044,
+        "bets": 6
       }
     },
     "quant": {
@@ -2983,6 +2989,12 @@
         "on": 0.0298,
         "off": 0.0085,
         "bets": 22
+      },
+      "discipline": {
+        "since": "2026-11-25T00:15:40Z",
+        "on": 0.0391,
+        "off": 0.0146,
+        "bets": 3
       }
     },
     "shark": {
@@ -3003,12 +3015,6 @@
         "on": 0.0329,
         "off": 0.022,
         "bets": 1
-      },
-      "underdog": {
-        "since": "2026-11-25T00:00:54Z",
-        "on": 0.0278,
-        "off": 0.0257,
-        "bets": 15
       }
     }
   },

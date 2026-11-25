@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25T00:00:54Z",
+  "updated": "2026-11-25T00:15:40Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -29,8 +29,8 @@
     ],
     "chars": {
       "lizard": {
-        "iq": 128,
-        "iq_gain": 3,
+        "iq": 127,
+        "iq_gain": 2,
         "streak": 1,
         "best_streak": 8,
         "achievements": [
@@ -152,7 +152,7 @@
             "pending": false
           }
         ],
-        "score": 190,
+        "score": 189,
         "trophies": [
           {
             "kind": "sharpshooter",
@@ -211,8 +211,8 @@
         ]
       },
       "quant": {
-        "iq": 144,
-        "iq_gain": 1,
+        "iq": 145,
+        "iq_gain": 2,
         "streak": 3,
         "best_streak": 9,
         "achievements": [
@@ -334,7 +334,7 @@
             "pending": false
           }
         ],
-        "score": 225,
+        "score": 226,
         "trophies": [
           {
             "kind": "grower",
@@ -509,8 +509,8 @@
           "cautious": 0.0193,
           "beat": 0.7059,
           "challenges": 0.727,
-          "traits": 4,
-          "score": 35.1
+          "traits": 3,
+          "score": 33.1
         },
         {
           "who": "quant",
@@ -521,8 +521,8 @@
           "cautious": 0.0071,
           "beat": 0.5968,
           "challenges": 0.583,
-          "traits": 2,
-          "score": 15.95
+          "traits": 3,
+          "score": 17.95
         },
         {
           "who": "lizard",
@@ -533,8 +533,8 @@
           "cautious": -0.0015,
           "beat": 0.7021,
           "challenges": 0.364,
-          "traits": 1,
-          "score": 6.39
+          "traits": 2,
+          "score": 8.39
         }
       ],
       "ranking": [
@@ -1164,7 +1164,7 @@
         "measured": 2
       },
       "reading": {
-        "week": 133,
+        "week": 99,
         "latest": [
           {
             "t": "2026-11-24T20:35:19Z",
@@ -1431,11 +1431,22 @@
           "on": 0.0228,
           "off": 0.0009,
           "bets": 9
+        },
+        {
+          "id": "discipline",
+          "emoji": "🧘",
+          "title": "Disciplined",
+          "effect": "Avoids odds above 3.5.",
+          "from": "Discipline day",
+          "since": "2026-11-25T00:15:40Z",
+          "on": 0.0095,
+          "off": 0.0044,
+          "bets": 6
         }
       ],
       "mind": {
-        "iq": 128,
-        "iq_week": 17,
+        "iq": 127,
+        "iq_week": 16,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -1523,7 +1534,7 @@
           },
           {
             "d": "2026-11-25",
-            "iq": 128
+            "iq": 127
           }
         ],
         "facts": [
@@ -1632,7 +1643,7 @@
         "min_edge": 0.02,
         "odds": [
           1.6,
-          4.5
+          3.5
         ],
         "stop_below": 250
       },
@@ -2228,8 +2239,22 @@
         "measured": 0
       },
       "reading": {
-        "week": 76,
+        "week": 87,
         "latest": [
+          {
+            "t": "2026-11-24T23:03:05Z",
+            "title": "NBA Injury Update: Latest news on Tyrese Haliburton, Jalen Duren, Donte DiVincenzo",
+            "link": "https://sports.yahoo.com/nba/articles/nba-injury-latest-news-tyrese-230305832.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-24T22:50:37Z",
+            "title": "Joel Embiid listed as doubtful for 76ers&#39; NBA Cup matchup vs. Miami Heat on Wednesday due to illness",
+            "link": "https://sports.yahoo.com/nba/article/joel-embiid-listed-as-doubtful-for-76ers-nba-cup-matchup-vs-miami-heat-on-wednesday-due-to-illness-225037585.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
           {
             "t": "2026-11-24T20:33:23Z",
             "title": "Warriors rookie’s meteoric rise comes with glaring defensive concern",
@@ -2245,30 +2270,16 @@
             "tone": -1
           },
           {
-            "t": "2026-11-24T17:48:33Z",
-            "title": "T-Wolves&#39; Donte DiVincenzo cleared for basketball activity, 7 months after rupturing his Achilles",
-            "link": "https://sports.yahoo.com/nba/article/t-wolves-donte-divincenzo-cleared-for-basketball-activity-7-months-after-rupturing-his-achilles-174833748.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-24T17:22:25Z",
-            "title": "The Lakers are ‘optimistic’ Austin Reaves will return from injury against Spurs",
-            "link": "https://sports.yahoo.com/articles/lakers-optimistic-austin-reaves-return-172225359.html",
+            "t": "2026-11-24T18:33:32Z",
+            "title": "Embiid sidelined for Sixers-Blazers with illness",
+            "link": "https://sports.yahoo.com/articles/embiid-sidelined-sixers-blazers-illness-173500321.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-24T11:45:00Z",
-            "title": "How to watch Dallas Mavericks vs Denver Nuggets: TV, live stream, info for tonight&#39;s game",
-            "link": "https://sports.yahoo.com/articles/watch-dallas-mavericks-vs-denver-114500209.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-24T05:45:41Z",
-            "title": "Julius Randle has no hard feelings towards Timberwolves in return after salary-dump trade to Nets",
-            "link": "https://sports.yahoo.com/articles/julius-randle-no-hard-feelings-054541757.html",
+            "t": "2026-11-24T17:48:33Z",
+            "title": "T-Wolves&#39; Donte DiVincenzo cleared for basketball activity, 7 months after rupturing his Achilles",
+            "link": "https://sports.yahoo.com/nba/article/t-wolves-donte-divincenzo-cleared-for-basketball-activity-7-months-after-rupturing-his-achilles-174833748.html",
             "source": "sports.yahoo.com",
             "tone": 1
           }
@@ -2502,11 +2513,22 @@
           "on": 0.0298,
           "off": 0.0085,
           "bets": 22
+        },
+        {
+          "id": "discipline",
+          "emoji": "🧘",
+          "title": "Disciplined",
+          "effect": "Avoids odds above 3.5.",
+          "from": "Discipline day",
+          "since": "2026-11-25T00:15:40Z",
+          "on": 0.0391,
+          "off": 0.0146,
+          "bets": 3
         }
       ],
       "mind": {
-        "iq": 144,
-        "iq_week": 21,
+        "iq": 145,
+        "iq_week": 22,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -2594,7 +2616,7 @@
           },
           {
             "d": "2026-11-25",
-            "iq": 144
+            "iq": 145
           }
         ],
         "facts": [
@@ -2689,7 +2711,7 @@
         "min_edge": 0.015,
         "odds": [
           1.6,
-          5.0
+          4.0
         ],
         "stop_below": 250
       },
@@ -3203,47 +3225,47 @@
         "measured": 1
       },
       "reading": {
-        "week": 391,
+        "week": 414,
         "latest": [
           {
-            "t": "2026-11-24T20:23:15Z",
-            "title": "NFL Week 12 Injury Report: Drake Maye&#39;s updated timeline, Dalton Kincaid returns to practice, and more",
-            "link": "https://sports.yahoo.com/articles/nfl-week-12-injury-report-202315144.html",
+            "t": "2026-11-24T23:28:22Z",
+            "title": "College Football Playoff Rankings Prediction: Alabama Faces Stunning Drop as SEC Rivals Surge",
+            "link": "https://sports.yahoo.com/college-football/articles/college-football-playoff-rankings-prediction-232822979.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-24T20:21:29Z",
-            "title": "Kirby Smart provides injury update on Georgia All-SEC OL Drew Bobo",
-            "link": "https://sports.yahoo.com/articles/kirby-smart-provides-injury-georgia-202129335.html",
+            "t": "2026-11-24T23:16:02Z",
+            "title": "Eagles Injury Report: Quinyon Mitchell upgraded to limited",
+            "link": "https://sports.yahoo.com/nfl/articles/eagles-injury-report-quinyon-mitchell-231602485.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-24T20:07:38Z",
-            "title": "49ers backup gives real reason for hope after stalwart’s season-ending injury",
-            "link": "https://sports.yahoo.com/articles/49ers-backup-gives-real-reason-200738532.html",
+            "t": "2026-11-24T23:06:41Z",
+            "title": "Quinyon Mitchell listed as limited in Tuesday&#39;s practice",
+            "link": "https://sports.yahoo.com/nfl/articles/quinyon-mitchell-listed-limited-tuesdays-230641441.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-24T20:04:44Z",
-            "title": "Ravens cut WR LaJohntay Wester after 2 muffed punts in Carolina",
-            "link": "https://sports.yahoo.com/articles/ravens-cut-wr-lajohntay-wester-200444881.html",
+            "t": "2026-11-24T22:46:58Z",
+            "title": "Ex-Sherrone Moore Assistant Claims Michigan Poached Bryce Underwood From LSU While Brian Kelly Was Still Paying Him",
+            "link": "https://sports.yahoo.com/college-football/articles/ex-sherrone-moore-assistant-claims-224658671.html",
             "source": "sports.yahoo.com",
             "tone": 1
           },
           {
-            "t": "2026-11-24T20:00:00Z",
-            "title": "Chiefs sign tackle Fred Johnson to active roster",
-            "link": "https://sports.yahoo.com/articles/chiefs-sign-tackle-fred-johnson-200000666.html",
+            "t": "2026-11-24T22:45:05Z",
+            "title": "JK Dobbins suspended for ‘conduct detrimental’ in mysterious Broncos decision",
+            "link": "https://sports.yahoo.com/nfl/articles/jk-dobbins-suspended-conduct-detrimental-224505276.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-24T19:52:31Z",
-            "title": "Giants get timeline on Greg Newsome II injury with pressure now on Paulson Adebo",
-            "link": "https://sports.yahoo.com/articles/giants-timeline-greg-newsome-ii-195231910.html",
+            "t": "2026-11-24T22:29:28Z",
+            "title": "Puka Nacua injury details reveal ‘completely torn’ MCL",
+            "link": "https://sports.yahoo.com/nfl/articles/puka-nacua-injury-details-reveal-222928759.html",
             "source": "sports.yahoo.com",
             "tone": -1
           }
@@ -3450,17 +3472,6 @@
           "on": 0.0329,
           "off": 0.022,
           "bets": 1
-        },
-        {
-          "id": "underdog",
-          "emoji": "🐶",
-          "title": "Underdog lover",
-          "effect": "Allows underdogs at odds up to 1.0 higher.",
-          "from": "Underdog hunter",
-          "since": "2026-11-25T00:00:54Z",
-          "on": 0.0278,
-          "off": 0.0257,
-          "bets": 15
         }
       ],
       "mind": {
@@ -11250,18 +11261,6 @@
   "log": [
     {
       "t": "2026-11-24T22:30:54Z",
-      "text": "🧬 🦎 The Lizard dropped the 🧘 Disciplined trait: it stopped working (-0.1% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-24T22:30:54Z",
-      "text": "🧬 🧮 The Quant dropped the 🧘 Disciplined trait: it stopped working (+1.3% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-24T22:30:54Z",
-      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-24T22:30:54Z",
       "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
     },
     {
@@ -11367,6 +11366,18 @@
     {
       "t": "2026-11-25T00:00:54Z",
       "text": "Results:\n- Lost -12.90: Palmeiras -0.5 (Spread) in Chapecoense vs Palmeiras (Chapecoense 3 - 0 Palmeiras)"
+    },
+    {
+      "t": "2026-11-25T00:15:40Z",
+      "text": "🧬 🦎 The Lizard made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-22 and its bets beat the market by +1.0%. Avoids odds above 3.5."
+    },
+    {
+      "t": "2026-11-25T00:15:40Z",
+      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
+    },
+    {
+      "t": "2026-11-25T00:15:40Z",
+      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
     }
   ]
 }
