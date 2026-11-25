@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25T02:00:53Z",
+  "updated": "2026-11-25T02:15:30Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -509,8 +509,8 @@
           "cautious": 0.0193,
           "beat": 0.7059,
           "challenges": 0.727,
-          "traits": 4,
-          "score": 35.1
+          "traits": 3,
+          "score": 33.1
         },
         {
           "who": "quant",
@@ -521,8 +521,8 @@
           "cautious": 0.0071,
           "beat": 0.5968,
           "challenges": 0.583,
-          "traits": 3,
-          "score": 17.95
+          "traits": 2,
+          "score": 15.95
         },
         {
           "who": "lizard",
@@ -533,8 +533,8 @@
           "cautious": -0.0015,
           "beat": 0.7021,
           "challenges": 0.364,
-          "traits": 2,
-          "score": 8.39
+          "traits": 1,
+          "score": 6.39
         }
       ],
       "ranking": [
@@ -545,7 +545,7 @@
       "leader": "shark"
     }
   },
-  "credits_left": 17064,
+  "credits_left": 17062,
   "last_scan": "2026-11-25@1",
   "strategies": {
     "lizard": {
@@ -1431,17 +1431,6 @@
           "on": 0.0228,
           "off": 0.0009,
           "bets": 9
-        },
-        {
-          "id": "discipline",
-          "emoji": "🧘",
-          "title": "Disciplined",
-          "effect": "Avoids odds above 3.5.",
-          "from": "Discipline day",
-          "since": "2026-11-25T02:00:53Z",
-          "on": 0.0095,
-          "off": 0.0044,
-          "bets": 6
         }
       ],
       "mind": {
@@ -1643,7 +1632,7 @@
         "min_edge": 0.02,
         "odds": [
           1.6,
-          3.5
+          4.5
         ],
         "stop_below": 250
       },
@@ -1658,7 +1647,7 @@
         "Winner"
       ],
       "start_fund": 500,
-      "fund": 441.52,
+      "fund": 407.75,
       "lessons": [
         {
           "kind": "favour",
@@ -1677,12 +1666,12 @@
         }
       ],
       "bets": 125,
-      "open": 11,
-      "won": 43,
-      "lost": 71,
-      "staked": 678.6,
-      "profit": -58.48,
-      "roi": -0.0862,
+      "open": 6,
+      "won": 44,
+      "lost": 75,
+      "staked": 716.83,
+      "profit": -92.25,
+      "roi": -0.1287,
       "avg_edge": 0.0313,
       "avg_clv": 0.0195,
       "beat_close": 0.5612,
@@ -2147,6 +2136,26 @@
         {
           "t": "2026-11-25T01:30:44Z",
           "fund": 441.52
+        },
+        {
+          "t": "2026-11-25T02:15:30Z",
+          "fund": 435.69
+        },
+        {
+          "t": "2026-11-25T02:15:30Z",
+          "fund": 420.51
+        },
+        {
+          "t": "2026-11-25T02:15:30Z",
+          "fund": 413.97
+        },
+        {
+          "t": "2026-11-25T02:15:30Z",
+          "fund": 416.12
+        },
+        {
+          "t": "2026-11-25T02:15:30Z",
+          "fund": 407.75
         }
       ],
       "by_league": [
@@ -2171,8 +2180,8 @@
         {
           "name": "EuroLeague",
           "bets": 15,
-          "profit": -15.17,
-          "roi": -0.6936,
+          "profit": -48.94,
+          "roi": -0.8143,
           "avg_clv": 0.0089,
           "beat_close": 0.6364,
           "clv_count": 11
@@ -2182,8 +2191,8 @@
         {
           "name": "Spread",
           "bets": 6,
-          "profit": -8.59,
-          "roi": -0.8081,
+          "profit": -14.42,
+          "roi": -0.8761,
           "avg_clv": 0.0315,
           "beat_close": 1.0,
           "clv_count": 4
@@ -2191,8 +2200,8 @@
         {
           "name": "Winner",
           "bets": 87,
-          "profit": -45.25,
-          "roi": -0.206,
+          "profit": -60.16,
+          "roi": -0.2564,
           "avg_clv": 0.0252,
           "beat_close": 0.5904,
           "clv_count": 83
@@ -2200,8 +2209,8 @@
         {
           "name": "Total",
           "bets": 32,
-          "profit": -4.64,
-          "roi": -0.0104,
+          "profit": -17.67,
+          "roi": -0.0379,
           "avg_clv": -0.0274,
           "beat_close": 0.1818,
           "clv_count": 11
@@ -2211,8 +2220,8 @@
         {
           "name": "Basketball",
           "bets": 125,
-          "profit": -58.48,
-          "roi": -0.0862,
+          "profit": -92.25,
+          "roi": -0.1287,
           "avg_clv": 0.0195,
           "beat_close": 0.5612,
           "clv_count": 98
@@ -2225,9 +2234,9 @@
         "beat": 0.5,
         "trust": 0.75,
         "base": 0.4,
-        "won": 4,
+        "won": 5,
         "lost": 10,
-        "profit": -13.37
+        "profit": -11.22
       },
       "wild": {
         "bets": 8,
@@ -2521,17 +2530,6 @@
           "on": 0.0298,
           "off": 0.0085,
           "bets": 22
-        },
-        {
-          "id": "discipline",
-          "emoji": "🧘",
-          "title": "Disciplined",
-          "effect": "Avoids odds above 3.5.",
-          "from": "Discipline day",
-          "since": "2026-11-25T02:00:53Z",
-          "on": 0.0391,
-          "off": 0.0146,
-          "bets": 3
         }
       ],
       "mind": {
@@ -2701,7 +2699,7 @@
         ],
         "rules": 0,
         "studied": 860,
-        "resolved": 796
+        "resolved": 801
       }
     },
     "shark": {
@@ -2719,7 +2717,7 @@
         "min_edge": 0.015,
         "odds": [
           1.6,
-          5.0
+          4.0
         ],
         "stop_below": 250
       },
@@ -3517,17 +3515,6 @@
           "on": 0.0329,
           "off": 0.022,
           "bets": 1
-        },
-        {
-          "id": "underdog",
-          "emoji": "🐶",
-          "title": "Underdog lover",
-          "effect": "Allows underdogs at odds up to 1.0 higher.",
-          "from": "Underdog hunter",
-          "since": "2026-11-25T02:00:53Z",
-          "on": 0.0278,
-          "off": 0.0257,
-          "bets": 15
         }
       ],
       "mind": {
@@ -6605,12 +6592,12 @@
       "fair_odds": 2.406,
       "edge": 0.0307,
       "stake": 8.37,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 2.442,
       "clv": 0.0157,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -8.37,
+      "score": "FC Barcelona Bàsquet 77 - 83 Fenerbahce SK",
+      "settled_at": "2026-11-25T02:15:30Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates FC Barcelona Bàsquet at 41.6%. That makes the fair price 2.41.",
         "Unibet (NL) pays 2.48. That is +3.1% above fair. My bar is +3.0%.",
@@ -6983,12 +6970,12 @@
       "fair_odds": 1.897,
       "edge": 0.0543,
       "stake": 15.18,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": null,
       "clv": null,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -15.18,
+      "score": "Valencia Basket 83 - 86 Panathinaikos",
+      "settled_at": "2026-11-25T02:15:30Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates Over 174.5 at 52.7%. That makes the fair price 1.90.",
         "888sport pays 2.00. That is +5.4% above fair. My bar is +2.0%.",
@@ -7020,12 +7007,12 @@
       "fair_odds": 1.954,
       "edge": 0.0234,
       "stake": 6.54,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 1.995,
       "clv": 0.0026,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -6.54,
+      "score": "Valencia Basket 83 - 86 Panathinaikos",
+      "settled_at": "2026-11-25T02:15:30Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates Valencia Basket at 51.2%. That makes the fair price 1.95.",
         "888sport pays 2.00. That is +2.3% above fair. My bar is +2.0%.",
@@ -7169,12 +7156,12 @@
       "fair_odds": 1.959,
       "edge": 0.0208,
       "stake": 5.83,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 1.94,
       "clv": 0.0311,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -5.83,
+      "score": "FC Bayern München 79 - 87 Maccabi Tel Aviv",
+      "settled_at": "2026-11-25T02:15:30Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates FC Bayern München -3.5 at 51.0%. That makes the fair price 1.96.",
         "888sport pays 2.00. That is +2.1% above fair. My bar is +2.0%.",
@@ -7207,12 +7194,12 @@
       "fair_odds": 1.911,
       "edge": 0.01,
       "stake": 2.31,
-      "status": "open",
+      "status": "won",
       "closing_fair_odds": null,
       "clv": null,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": 2.15,
+      "score": "KK Crvena zvezda 84 - 108 Virtus Segafredo Bologna",
+      "settled_at": "2026-11-25T02:15:30Z",
       "thoughts": [
         "Only +1.00% edge, just under my +2.0% bar. Can't prove it, but I like it.",
         "My rules say no. The model says no. The 2% of me that isn't a model says try it.",
@@ -11325,22 +11312,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-25T00:15:40Z",
-      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-25T00:30:42Z",
-      "text": "🧬 🦎 The Lizard dropped the 🧘 Disciplined trait: it stopped working (-0.1% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-25T00:30:42Z",
-      "text": "🧬 🧮 The Quant dropped the 🧘 Disciplined trait: it stopped working (+1.3% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-25T00:30:42Z",
-      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
-    },
-    {
       "t": "2026-11-25T00:45:31Z",
       "text": "🧬 🦎 The Lizard made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-22 and its bets beat the market by +1.0%. Avoids odds above 3.5."
     },
@@ -11443,6 +11414,22 @@
     {
       "t": "2026-11-25T02:00:53Z",
       "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
+    },
+    {
+      "t": "2026-11-25T02:15:30Z",
+      "text": "🧬 🦎 The Lizard dropped the 🧘 Disciplined trait: it stopped working (-0.1% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-25T02:15:30Z",
+      "text": "🧬 🧮 The Quant dropped the 🧘 Disciplined trait: it stopped working (+1.3% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-25T02:15:30Z",
+      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-25T02:15:30Z",
+      "text": "Results:\n- Lost -5.83: FC Bayern München -3.5 (Spread) in FC Bayern München vs Maccabi Tel Aviv (FC Bayern München 79 - 87 Maccabi Tel Aviv)\n- Lost -15.18: Over 174.5 (Total) in Valencia Basket vs Panathinaikos (Valencia Basket 83 - 86 Panathinaikos)\n- Lost -6.54: Valencia Basket (Winner) in Valencia Basket vs Panathinaikos (Valencia Basket 83 - 86 Panathinaikos)\n- Won +2.15: Over 172.5 (Total) in KK Crvena zvezda vs Virtus Segafredo Bologna (KK Crvena zvezda 84 - 108 Virtus Segafredo Bologna)\n- Lost -8.37: FC Barcelona Bàsquet (Winner) in FC Barcelona Bàsquet vs Fenerbahce SK (FC Barcelona Bàsquet 77 - 83 Fenerbahce SK)"
     }
   ]
 }
