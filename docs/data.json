@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25T09:45:32Z",
+  "updated": "2026-11-25T10:00:56Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -31,7 +31,7 @@
       "lizard": {
         "iq": 131,
         "iq_gain": 6,
-        "streak": 3,
+        "streak": 4,
         "best_streak": 8,
         "achievements": [
           {
@@ -142,12 +142,12 @@
           {
             "text": "Bets checked against the market",
             "target": 37,
-            "now": 25
+            "now": 26
           },
           {
             "text": "Beat the market on",
             "target": 69,
-            "now": 56,
+            "now": 58,
             "unit": "%",
             "pending": false
           }
@@ -211,8 +211,8 @@
         ]
       },
       "quant": {
-        "iq": 146,
-        "iq_gain": 3,
+        "iq": 147,
+        "iq_gain": 4,
         "streak": 0,
         "best_streak": 9,
         "achievements": [
@@ -334,7 +334,7 @@
             "pending": false
           }
         ],
-        "score": 227,
+        "score": 228,
         "trophies": [
           {
             "kind": "grower",
@@ -509,8 +509,8 @@
           "cautious": 0.0193,
           "beat": 0.7059,
           "challenges": 0.727,
-          "traits": 3,
-          "score": 33.1
+          "traits": 4,
+          "score": 35.1
         },
         {
           "who": "quant",
@@ -521,8 +521,8 @@
           "cautious": 0.0089,
           "beat": 0.6032,
           "challenges": 0.583,
-          "traits": 2,
-          "score": 17.91
+          "traits": 3,
+          "score": 19.91
         },
         {
           "who": "lizard",
@@ -533,8 +533,8 @@
           "cautious": 0.0011,
           "beat": 0.7,
           "challenges": 0.417,
-          "traits": 1,
-          "score": 9.21
+          "traits": 2,
+          "score": 11.21
         }
       ],
       "ranking": [
@@ -545,7 +545,7 @@
       "leader": "shark"
     }
   },
-  "credits_left": 16931,
+  "credits_left": 16930,
   "last_scan": "2026-11-25@9",
   "strategies": {
     "lizard": {
@@ -563,7 +563,7 @@
         "min_edge": 0.02,
         "odds": [
           1.6,
-          6.0
+          3.5
         ],
         "stop_below": 250
       },
@@ -616,9 +616,9 @@
       "profit": -48.45,
       "roi": -0.1742,
       "avg_edge": 0.0312,
-      "avg_clv": 0.0046,
-      "beat_close": 0.6277,
-      "clv_count": 94,
+      "avg_clv": 0.0057,
+      "beat_close": 0.6316,
+      "clv_count": 95,
       "history": [
         {
           "t": "2026-11-04T12:49:24Z",
@@ -1003,6 +1003,15 @@
       ],
       "by_league": [
         {
+          "name": "J-League (Japan)",
+          "bets": 7,
+          "profit": -4.92,
+          "roi": -1.0,
+          "avg_clv": 0.0459,
+          "beat_close": 0.6667,
+          "clv_count": 6
+        },
+        {
           "name": "Primera División (Argentina)",
           "bets": 3,
           "profit": -11.32,
@@ -1010,15 +1019,6 @@
           "avg_clv": 0.0393,
           "beat_close": 0.6667,
           "clv_count": 3
-        },
-        {
-          "name": "J-League (Japan)",
-          "bets": 7,
-          "profit": -4.92,
-          "roi": -1.0,
-          "avg_clv": 0.0329,
-          "beat_close": 0.6,
-          "clv_count": 5
         },
         {
           "name": "Ligue 1 (France)",
@@ -1144,9 +1144,9 @@
           "bets": 106,
           "profit": -55.16,
           "roi": -0.2539,
-          "avg_clv": 0.0018,
-          "beat_close": 0.6,
-          "clv_count": 85
+          "avg_clv": 0.0031,
+          "beat_close": 0.6047,
+          "clv_count": 86
         }
       ],
       "by_sport": [
@@ -1155,9 +1155,9 @@
           "bets": 123,
           "profit": -48.45,
           "roi": -0.1742,
-          "avg_clv": 0.0046,
-          "beat_close": 0.6277,
-          "clv_count": 94
+          "avg_clv": 0.0057,
+          "beat_close": 0.6316,
+          "clv_count": 95
         }
       ],
       "gut": {
@@ -1189,7 +1189,7 @@
         "measured": 2
       },
       "reading": {
-        "week": 107,
+        "week": 122,
         "latest": [
           {
             "t": "2026-11-24T20:35:19Z",
@@ -1330,8 +1330,8 @@
         ],
         "curiosity": 0.5,
         "scouts": 33,
-        "scout_clv": -0.0041,
-        "scout_measured": 24
+        "scout_clv": 0.0005,
+        "scout_measured": 25
       },
       "challenge": {
         "today": {
@@ -1458,6 +1458,17 @@
           "on": 0.0228,
           "off": 0.0054,
           "bets": 9
+        },
+        {
+          "id": "discipline",
+          "emoji": "🧘",
+          "title": "Disciplined",
+          "effect": "Avoids odds above 3.5.",
+          "from": "Discipline day",
+          "since": "2026-11-25T10:00:56Z",
+          "on": 0.0095,
+          "off": 0.0065,
+          "bets": 6
         }
       ],
       "mind": {
@@ -1659,7 +1670,7 @@
         "min_edge": 0.02,
         "odds": [
           1.6,
-          4.5
+          3.5
         ],
         "stop_below": 250
       },
@@ -2295,8 +2306,15 @@
         "measured": 0
       },
       "reading": {
-        "week": 99,
+        "week": 106,
         "latest": [
+          {
+            "t": "2026-11-25T04:49:05Z",
+            "title": "Kawhi Leonard is back on the (practice) court: will his return be enough?",
+            "link": "https://sports.yahoo.com/nba/articles/kawhi-leonard-back-practice-court-044905072.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
           {
             "t": "2026-11-25T03:51:56Z",
             "title": "When will Steph Curry return? Latest injury update on Warriors star",
@@ -2331,13 +2349,6 @@
             "link": "https://sports.yahoo.com/nba/articles/injured-warriors-guard-says-t-000353520.html",
             "source": "sports.yahoo.com",
             "tone": -1
-          },
-          {
-            "t": "2026-11-24T23:43:38Z",
-            "title": "Observations after Sixers&#39; 5-game win streak ends with blowout loss to Blazers",
-            "link": "https://sports.yahoo.com/articles/observations-sixers-5-game-win-173500225.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
           }
         ]
       },
@@ -2569,11 +2580,22 @@
           "on": 0.0344,
           "off": 0.0085,
           "bets": 23
+        },
+        {
+          "id": "discipline",
+          "emoji": "🧘",
+          "title": "Disciplined",
+          "effect": "Avoids odds above 3.5.",
+          "from": "Discipline day",
+          "since": "2026-11-25T10:00:56Z",
+          "on": 0.0391,
+          "off": 0.0163,
+          "bets": 3
         }
       ],
       "mind": {
-        "iq": 146,
-        "iq_week": 23,
+        "iq": 147,
+        "iq_week": 24,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -2661,7 +2683,7 @@
           },
           {
             "d": "2026-11-25",
-            "iq": 146
+            "iq": 147
           }
         ],
         "facts": [
@@ -2753,7 +2775,7 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.015,
+        "min_edge": 0.02,
         "odds": [
           1.6,
           4.0
@@ -3278,8 +3300,22 @@
         "measured": 1
       },
       "reading": {
-        "week": 394,
+        "week": 372,
         "latest": [
+          {
+            "t": "2026-11-25T09:43:53Z",
+            "title": "Bears-Lions is first Thanksgiving game ever with both teams on 5+ game winning streaks",
+            "link": "https://sports.yahoo.com/nfl/articles/bears-lions-first-thanksgiving-game-094353891.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-25T06:58:11Z",
+            "title": "Utah QB Devon Dampier drops ‘amazing’ reaction to being 11-0",
+            "link": "https://sports.yahoo.com/college-football/articles/utah-qb-devon-dampier-drops-065811458.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
           {
             "t": "2026-11-25T05:59:39Z",
             "title": "Davis Warren returning to Stanford in 2026 after getting extra year",
@@ -3305,20 +3341,6 @@
             "t": "2026-11-25T03:35:21Z",
             "title": "Three players listed as questionable on the first Texas injury report",
             "link": "https://sports.yahoo.com/college-football/articles/three-players-listed-questionable-first-033521271.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-25T03:19:56Z",
-            "title": "Colts coaches weigh in on Anthony Richardson’s abrupt return to the starting lineup",
-            "link": "https://sports.yahoo.com/nfl/articles/colts-coaches-weigh-anthony-richardson-031956872.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-25T02:43:54Z",
-            "title": "UCLA drops in CFP rankings after OT loss. Did Ty Dieffenbach injury also play role?",
-            "link": "https://sports.yahoo.com/college-football/articles/ucla-drops-cfp-rankings-ot-024354202.html",
             "source": "sports.yahoo.com",
             "tone": -1
           }
@@ -3562,6 +3584,17 @@
           "on": 0.0329,
           "off": 0.022,
           "bets": 1
+        },
+        {
+          "id": "precision",
+          "emoji": "🎯",
+          "title": "Precise",
+          "effect": "Always demands +0.5% more edge.",
+          "from": "Precision day",
+          "since": "2026-11-25T10:00:56Z",
+          "on": 0.032,
+          "off": 0.0251,
+          "bets": 2
         }
       ],
       "mind": {
@@ -6611,8 +6644,8 @@
       "edge": 0.0092,
       "stake": 2.45,
       "status": "open",
-      "closing_fair_odds": null,
-      "clv": null,
+      "closing_fair_odds": 1.737,
+      "clv": 0.111,
       "profit": 0.0,
       "score": null,
       "settled_at": null,
@@ -11355,18 +11388,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-25T08:00:52Z",
-      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
-    },
-    {
-      "t": "2026-11-25T08:00:52Z",
-      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-25T08:00:52Z",
-      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
-    },
-    {
       "t": "2026-11-25T08:15:31Z",
       "text": "🧬 🦎 The Lizard dropped the 🧘 Disciplined trait: it stopped working (-0.1% vs the market on those days)."
     },
@@ -11473,6 +11494,18 @@
     {
       "t": "2026-11-25T09:45:32Z",
       "text": "✅ 🦎 The Lizard completed 🧘 Discipline day: 1 bet beat the market."
+    },
+    {
+      "t": "2026-11-25T10:00:56Z",
+      "text": "🧬 🦎 The Lizard made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-22 and its bets beat the market by +1.0%. Avoids odds above 3.5."
+    },
+    {
+      "t": "2026-11-25T10:00:56Z",
+      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
+    },
+    {
+      "t": "2026-11-25T10:00:56Z",
+      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
     }
   ]
 }
