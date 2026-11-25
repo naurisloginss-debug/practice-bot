@@ -52,14 +52,6 @@
   "log": [
     {
       "t": "2026-11-25T09:00:56Z",
-      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-25T09:00:56Z",
-      "text": "Placed 5 practice bets:\n- The Lizard: **Under 2.5** (Total) in Exeter City vs Crawley Town (League Two (England 4)) at 2.08 on Unibet (SE), stake 14.91, edge +6.2%\n- The Quant: **Los Angeles Clippers** (Winner) in Memphis Grizzlies vs Los Angeles Clippers (NBA) at 3.15 on Everygame, stake 3.54, edge +2.1%\n- The Quant: **SIU-Edwardsville Cougars** (Winner) in SIU-Edwardsville Cougars vs Northern Illinois Huskies (College basketball (US)) at 2.6 on Unibet (NL), stake 8.30, edge +3.7%\n- The Shark ⚡ pounce: **Minnesota Golden Gophers** (Winner) in Wisconsin Badgers vs Minnesota Golden Gophers (College football (US)) at 4.0 on William Hill, stake 5.03, edge +10.6%\n- The Quant 🧭 scout: **Under 164.5** (Total) in Dubai Basketball vs KK Partizan NIS (EuroLeague) at 1.93 on Unibet (NL), stake 1.98, edge +1.0%"
-    },
-    {
-      "t": "2026-11-25T09:00:56Z",
       "text": "Results:\n- Lost -8.64: Kent State Golden Flashes (Winner) in Eastern Michigan Eagles vs Kent State Golden Flashes (Eastern Michigan Eagles 17 - 12 Kent State Golden Flashes)\n- Lost -2.35: Western Michigan Broncos -7.5 (Spread) in Western Michigan Broncos vs Miami (OH) RedHawks (Western Michigan Broncos 24 - 28 Miami (OH) RedHawks)"
     },
     {
@@ -169,6 +161,14 @@
     {
       "t": "2026-11-25T11:15:32Z",
       "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-25T11:30:52Z",
+      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
+    },
+    {
+      "t": "2026-11-25T11:30:52Z",
+      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
     }
   ],
   "levels": {
@@ -3030,6 +3030,12 @@
         "on": 0.0344,
         "off": 0.0085,
         "bets": 23
+      },
+      "discipline": {
+        "since": "2026-11-25T11:30:52Z",
+        "on": 0.0391,
+        "off": 0.0163,
+        "bets": 3
       }
     },
     "shark": {
@@ -3050,6 +3056,12 @@
         "on": 0.0329,
         "off": 0.022,
         "bets": 1
+      },
+      "precision": {
+        "since": "2026-11-25T11:30:52Z",
+        "on": 0.032,
+        "off": 0.0251,
+        "bets": 2
       }
     }
   },
