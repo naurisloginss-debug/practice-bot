@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25T04:30:44Z",
+  "updated": "2026-11-25T04:45:31Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -509,8 +509,8 @@
           "cautious": 0.0193,
           "beat": 0.7059,
           "challenges": 0.727,
-          "traits": 3,
-          "score": 33.1
+          "traits": 4,
+          "score": 35.1
         },
         {
           "who": "quant",
@@ -521,8 +521,8 @@
           "cautious": 0.0089,
           "beat": 0.6032,
           "challenges": 0.583,
-          "traits": 3,
-          "score": 19.91
+          "traits": 2,
+          "score": 17.91
         },
         {
           "who": "lizard",
@@ -533,8 +533,8 @@
           "cautious": -0.0001,
           "beat": 0.7083,
           "challenges": 0.364,
-          "traits": 2,
-          "score": 9.9
+          "traits": 1,
+          "score": 7.9
         }
       ],
       "ranking": [
@@ -545,7 +545,7 @@
       "leader": "shark"
     }
   },
-  "credits_left": 17054,
+  "credits_left": 17052,
   "last_scan": "2026-11-25@1",
   "strategies": {
     "lizard": {
@@ -590,7 +590,7 @@
         "Total"
       ],
       "start_fund": 500,
-      "fund": 445.19,
+      "fund": 443.96,
       "lessons": [
         {
           "kind": "avoid",
@@ -609,12 +609,12 @@
         }
       ],
       "bets": 122,
-      "open": 30,
+      "open": 29,
       "won": 25,
-      "lost": 67,
-      "staked": 270.32,
-      "profit": -54.81,
-      "roi": -0.2028,
+      "lost": 68,
+      "staked": 271.55,
+      "profit": -56.04,
+      "roi": -0.2064,
       "avg_edge": 0.0309,
       "avg_clv": 0.0023,
       "beat_close": 0.6222,
@@ -991,6 +991,10 @@
         {
           "t": "2026-11-25T03:15:32Z",
           "fund": 445.19
+        },
+        {
+          "t": "2026-11-25T04:45:31Z",
+          "fund": 443.96
         }
       ],
       "by_league": [
@@ -1069,8 +1073,8 @@
         {
           "name": "Championship (England 2)",
           "bets": 26,
-          "profit": -27.69,
-          "roi": -0.5128,
+          "profit": -28.92,
+          "roi": -0.5236,
           "avg_clv": -0.0035,
           "beat_close": 0.4783,
           "clv_count": 23
@@ -1134,8 +1138,8 @@
         {
           "name": "Winner",
           "bets": 106,
-          "profit": -61.52,
-          "roi": -0.2937,
+          "profit": -62.75,
+          "roi": -0.2978,
           "avg_clv": -0.0005,
           "beat_close": 0.5976,
           "clv_count": 82
@@ -1145,8 +1149,8 @@
         {
           "name": "Football",
           "bets": 122,
-          "profit": -54.81,
-          "roi": -0.2028,
+          "profit": -56.04,
+          "roi": -0.2064,
           "avg_clv": 0.0023,
           "beat_close": 0.6222,
           "clv_count": 90
@@ -1166,8 +1170,8 @@
       "wild": {
         "bets": 9,
         "won": 0,
-        "lost": 7,
-        "profit": -8.61,
+        "lost": 8,
+        "profit": -9.84,
         "best": null,
         "avg_clv": 0.0124,
         "appetite": 0.45
@@ -1448,17 +1452,6 @@
           "on": 0.0228,
           "off": 0.002,
           "bets": 9
-        },
-        {
-          "id": "discipline",
-          "emoji": "🧘",
-          "title": "Disciplined",
-          "effect": "Avoids odds above 3.5.",
-          "from": "Discipline day",
-          "since": "2026-11-25T04:30:44Z",
-          "on": 0.0095,
-          "off": 0.0054,
-          "bets": 6
         }
       ],
       "mind": {
@@ -1660,7 +1653,7 @@
         "min_edge": 0.02,
         "odds": [
           1.6,
-          3.5
+          4.5
         ],
         "stop_below": 250
       },
@@ -2558,17 +2551,6 @@
           "on": 0.0344,
           "off": 0.0085,
           "bets": 23
-        },
-        {
-          "id": "discipline",
-          "emoji": "🧘",
-          "title": "Disciplined",
-          "effect": "Avoids odds above 3.5.",
-          "from": "Discipline day",
-          "since": "2026-11-25T04:30:44Z",
-          "on": 0.0391,
-          "off": 0.0163,
-          "bets": 3
         }
       ],
       "mind": {
@@ -2753,7 +2735,7 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.015,
+        "min_edge": 0.02,
         "odds": [
           1.6,
           4.0
@@ -3554,6 +3536,17 @@
           "on": 0.0329,
           "off": 0.022,
           "bets": 1
+        },
+        {
+          "id": "precision",
+          "emoji": "🎯",
+          "title": "Precise",
+          "effect": "Always demands +0.5% more edge.",
+          "from": "Precision day",
+          "since": "2026-11-25T04:45:31Z",
+          "on": 0.032,
+          "off": 0.0251,
+          "bets": 2
         }
       ],
       "mind": {
@@ -6518,12 +6511,12 @@
       "fair_odds": 9.304,
       "edge": 0.1608,
       "stake": 1.23,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 11.667,
       "clv": -0.0743,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -1.23,
+      "score": "Wolverhampton Wanderers 3 - 0 Derby County",
+      "settled_at": "2026-11-25T04:45:31Z",
       "thoughts": [
         "Wild one: Derby County at 11.00. The market gives it 11%.",
         "Patience is a weapon, but even lizards sunbathe on a crazy rock now and then.",
@@ -11351,22 +11344,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-25T02:30:44Z",
-      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
-    },
-    {
-      "t": "2026-11-25T02:30:44Z",
-      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
-    },
-    {
-      "t": "2026-11-25T02:45:30Z",
-      "text": "🧬 🦎 The Lizard dropped the 🧘 Disciplined trait: it stopped working (-0.1% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-25T02:45:30Z",
-      "text": "🧬 🧮 The Quant dropped the 🧘 Disciplined trait: it stopped working (+1.3% vs the market on those days)."
-    },
-    {
       "t": "2026-11-25T02:45:30Z",
       "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
     },
@@ -11469,6 +11446,22 @@
     {
       "t": "2026-11-25T04:30:44Z",
       "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-25T04:45:31Z",
+      "text": "🧬 🦎 The Lizard dropped the 🧘 Disciplined trait: it stopped working (-0.1% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-25T04:45:31Z",
+      "text": "🧬 🧮 The Quant dropped the 🧘 Disciplined trait: it stopped working (+1.3% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-25T04:45:31Z",
+      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
+    },
+    {
+      "t": "2026-11-25T04:45:31Z",
+      "text": "Results:\n- Lost -1.23: Derby County (Winner) in Wolverhampton Wanderers vs Derby County (Wolverhampton Wanderers 3 - 0 Derby County)"
     }
   ]
 }
