@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25T15:30:49Z",
+  "updated": "2026-11-25T16:01:07Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -211,8 +211,8 @@
         ]
       },
       "quant": {
-        "iq": 146,
-        "iq_gain": 3,
+        "iq": 145,
+        "iq_gain": 2,
         "streak": 0,
         "best_streak": 9,
         "achievements": [
@@ -334,7 +334,7 @@
             "pending": false
           }
         ],
-        "score": 230,
+        "score": 229,
         "trophies": [
           {
             "kind": "grower",
@@ -509,8 +509,8 @@
           "cautious": 0.0193,
           "beat": 0.7059,
           "challenges": 0.727,
-          "traits": 4,
-          "score": 35.1
+          "traits": 3,
+          "score": 33.1
         },
         {
           "who": "quant",
@@ -521,8 +521,8 @@
           "cautious": 0.0089,
           "beat": 0.6032,
           "challenges": 0.615,
-          "traits": 3,
-          "score": 20.07
+          "traits": 2,
+          "score": 18.07
         },
         {
           "who": "lizard",
@@ -1205,8 +1205,29 @@
         "measured": 2
       },
       "reading": {
-        "week": 95,
+        "week": 96,
         "latest": [
+          {
+            "t": "2026-11-25T15:12:49Z",
+            "title": "Championship survival behind sackings - Imps CEO",
+            "link": "https://www.bbc.co.uk/sport/football/articles/cm0l34j8d54yo?at_medium=RSS&at_campaign=rss",
+            "source": "feeds.bbci.co.uk",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-25T13:44:55Z",
+            "title": "Milan injury list rises to nine as Bartesaghi pulls up in training before Olympiacos",
+            "link": "https://football-italia.net/milan-injury-list-rises-to-nine-bartesaghi/",
+            "source": "football-italia.net",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-25T13:09:09Z",
+            "title": "No fresh Bolton concerns with Toal close to return",
+            "link": "https://www.bbc.co.uk/sport/football/articles/ck8dv60prle6o?at_medium=RSS&at_campaign=rss",
+            "source": "feeds.bbci.co.uk",
+            "tone": -1
+          },
           {
             "t": "2026-11-25T12:43:48Z",
             "title": "Sterling given suspended sentence for dangerous driving",
@@ -1226,27 +1247,6 @@
             "title": "Camarda the latest on Milan’s list of eight absences for Olympiacos clash",
             "link": "https://football-italia.net/camarda-the-latest-milan-absence-olympiacos/",
             "source": "football-italia.net",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-25T10:38:44Z",
-            "title": "Wales and West Ham's Morgan suffers serious injury",
-            "link": "https://www.bbc.co.uk/sport/football/articles/c920xdl6d6kpo?at_medium=RSS&at_campaign=rss",
-            "source": "feeds.bbci.co.uk",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-24T14:20:13Z",
-            "title": "Aitcheson to miss Rovers' trip to Watford",
-            "link": "https://www.bbc.co.uk/sport/football/articles/cqn83z841803o?at_medium=RSS&at_campaign=rss",
-            "source": "feeds.bbci.co.uk",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-24T12:31:12Z",
-            "title": "Non-league player injured falling down badger hole",
-            "link": "https://www.bbc.co.uk/sport/football/articles/cw0k636m0vr3o?at_medium=RSS&at_campaign=rss",
-            "source": "feeds.bbci.co.uk",
             "tone": -1
           }
         ]
@@ -1686,7 +1686,7 @@
         "min_edge": 0.02,
         "odds": [
           1.6,
-          3.5
+          4.5
         ],
         "stop_below": 250
       },
@@ -2326,8 +2326,15 @@
         "measured": 0
       },
       "reading": {
-        "week": 72,
+        "week": 59,
         "latest": [
+          {
+            "t": "2026-11-25T12:25:48Z",
+            "title": "Knicks vs. Cavs injury report: Tonight’s game sponsored by Icy Hot",
+            "link": "https://sports.yahoo.com/nba/articles/knicks-vs-cavs-injury-report-122548997.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
           {
             "t": "2026-11-25T04:49:05Z",
             "title": "Kawhi Leonard is back on the (practice) court: will his return be enough?",
@@ -2360,13 +2367,6 @@
             "t": "2026-11-25T02:00:00Z",
             "title": "Mavericks vs Nuggets Preview and Injury Report: For the Cup!",
             "link": "https://sports.yahoo.com/nba/articles/mavericks-vs-nuggets-preview-injury-020000394.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-25T00:03:53Z",
-            "title": "Injured Warriors guard says ‘s–t been tough’ with offensive struggles",
-            "link": "https://sports.yahoo.com/nba/articles/injured-warriors-guard-says-t-000353520.html",
             "source": "sports.yahoo.com",
             "tone": -1
           }
@@ -2602,22 +2602,11 @@
           "on": 0.0344,
           "off": 0.0085,
           "bets": 23
-        },
-        {
-          "id": "discipline",
-          "emoji": "🧘",
-          "title": "Disciplined",
-          "effect": "Avoids odds above 3.5.",
-          "from": "Discipline day",
-          "since": "2026-11-25T15:30:49Z",
-          "on": 0.0391,
-          "off": 0.0163,
-          "bets": 3
         }
       ],
       "mind": {
-        "iq": 146,
-        "iq_week": 23,
+        "iq": 145,
+        "iq_week": 22,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -2705,7 +2694,7 @@
           },
           {
             "d": "2026-11-25",
-            "iq": 146
+            "iq": 145
           }
         ],
         "facts": [
@@ -2800,7 +2789,7 @@
         "min_edge": 0.015,
         "odds": [
           1.6,
-          5.0
+          4.0
         ],
         "stop_below": 250
       },
@@ -3322,49 +3311,49 @@
         "measured": 1
       },
       "reading": {
-        "week": 433,
+        "week": 445,
         "latest": [
+          {
+            "t": "2026-11-25T15:41:47Z",
+            "title": "Ahead of Micah Parsons&#39; return for Packers-Rams, Aaron Donald jokes: &#39;Micah, if you want to take one more week …&#39;",
+            "link": "https://sports.yahoo.com/nfl/article/ahead-of-micah-parsons-return-for-packers-rams-aaron-donald-jokes-micah-if-you-want-to-take-one-more-week-154147713.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-25T15:00:00Z",
+            "title": "Patriots don’t want a new Drake Maye. They want Tommy DeVito to be himself.",
+            "link": "https://sports.yahoo.com/nfl/articles/patriots-don-t-want-drake-150000140.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-25T15:00:00Z",
+            "title": "NFL predictions: Rams’ defensive stars outshine Packers’ Parsons return",
+            "link": "https://sports.yahoo.com/nfl/articles/nfl-predictions-rams-defensive-stars-150000925.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-25T14:36:08Z",
+            "title": "Important update regarding FSU-Florida game",
+            "link": "https://sports.yahoo.com/college-football/articles/important-regarding-fsu-florida-game-143608120.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-25T14:07:18Z",
+            "title": "UCLA has incentive to not give exact details of Ty Dieffenbach status",
+            "link": "https://sports.yahoo.com/college-football/articles/ucla-incentive-not-exact-details-140718050.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
           {
             "t": "2026-11-25T12:30:57Z",
             "title": "Is Davante Adams playing today? Injury update for Rams WR on IR",
             "link": "https://sports.yahoo.com/nfl/articles/davante-adams-playing-today-injury-123057953.html",
             "source": "sports.yahoo.com",
             "tone": -1
-          },
-          {
-            "t": "2026-11-25T12:15:00Z",
-            "title": "3 Reasons Why Texas Will Cover the Spread Against Texas A&M in Lone Star Showdown",
-            "link": "https://sports.yahoo.com/college-football/articles/3-reasons-why-texas-cover-121500434.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-25T12:05:26Z",
-            "title": "Is Josh Jacobs playing tonight? Injury update for Packers RB",
-            "link": "https://sports.yahoo.com/nfl/articles/josh-jacobs-playing-tonight-injury-120526868.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-25T12:04:12Z",
-            "title": "Is Micah Parsons playing vs. Rams? Latest on Packers star&#39;s injury recovery",
-            "link": "https://sports.yahoo.com/nfl/articles/micah-parsons-playing-vs-rams-120412846.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-25T12:00:43Z",
-            "title": "Rams vs. Packers prediction: Can Green Bay find continue success with deep ball? Will L.A. overcome injuries?",
-            "link": "https://www.cbssports.com/nfl/news/rams-vs-packers-prediction-odds-how-to-watch-thanksgiving-eve/",
-            "source": "www.cbssports.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-25T11:30:00Z",
-            "title": "3 Reasons Texas A&M Could Upset Texas in the Lone Star Showdown",
-            "link": "https://sports.yahoo.com/college-football/articles/3-reasons-texas-m-could-113000373.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
           }
         ]
       },
@@ -3606,17 +3595,6 @@
           "on": 0.0329,
           "off": 0.022,
           "bets": 1
-        },
-        {
-          "id": "underdog",
-          "emoji": "🐶",
-          "title": "Underdog lover",
-          "effect": "Allows underdogs at odds up to 1.0 higher.",
-          "from": "Underdog hunter",
-          "since": "2026-11-25T15:30:49Z",
-          "on": 0.0278,
-          "off": 0.0257,
-          "bets": 15
         }
       ],
       "mind": {
@@ -11412,14 +11390,6 @@
   "log": [
     {
       "t": "2026-11-25T13:00:58Z",
-      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
-    },
-    {
-      "t": "2026-11-25T13:00:58Z",
-      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
-    },
-    {
-      "t": "2026-11-25T13:00:58Z",
       "text": "Placed 5 practice bets:\n- The Lizard: **FC Dallas** (Winner) in Portland Timbers vs FC Dallas (MLS (USA)) at 3.3 on LeoVegas (SE), stake 6.29, edge +4.3%\n- The Shark: **San Francisco 49ers** (Winner) in San Francisco 49ers vs Seattle Seahawks (NFL) at 1.67 on Marathon Bet, stake 10.26, edge +2.3%\n- The Lizard ⚡ pounce: **JEF United Chiba** (Winner) in Vissel Kobe vs JEF United Chiba (J-League (Japan)) at 5.8 on LeoVegas (SE), stake 2.44, edge +10.4%\n- The Lizard 💭 gut: **Columbus Crew SC** (Winner) in Columbus Crew SC vs Inter Miami CF (MLS (USA)) at 2.75 on LeoVegas (SE), stake 2.26, edge +1.0%\n- The Shark 🎲 wild: **Purdue Boilermakers** (Winner) in Indiana Hoosiers vs Purdue Boilermakers (College football (US)) at 12.7 on GTbets, stake 1.23, edge +10.0%"
     },
     {
@@ -11529,6 +11499,14 @@
     {
       "t": "2026-11-25T15:30:49Z",
       "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
+    },
+    {
+      "t": "2026-11-25T16:01:07Z",
+      "text": "🧬 🧮 The Quant dropped the 🧘 Disciplined trait: it stopped working (+1.3% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-25T16:01:07Z",
+      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
     }
   ]
 }
