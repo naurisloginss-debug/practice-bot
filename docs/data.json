@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T13:30:49Z",
+  "updated": "2026-11-26T13:45:32Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -509,8 +509,8 @@
           "cautious": 0.0175,
           "beat": 0.6857,
           "challenges": 0.727,
-          "traits": 3,
-          "score": 30.89
+          "traits": 4,
+          "score": 32.89
         },
         {
           "who": "quant",
@@ -1241,7 +1241,7 @@
         "measured": 2
       },
       "reading": {
-        "week": 107,
+        "week": 122,
         "latest": [
           {
             "t": "2026-11-26T07:42:21Z",
@@ -1724,7 +1724,7 @@
         "min_edge": 0.02,
         "odds": [
           1.6,
-          3.5
+          4.5
         ],
         "stop_below": 250
       },
@@ -2437,8 +2437,15 @@
         "measured": 0
       },
       "reading": {
-        "week": 90,
+        "week": 97,
         "latest": [
+          {
+            "t": "2026-11-26T07:00:00Z",
+            "title": "Embiid sidelined for Sixers-Blazers with illness",
+            "link": "https://sports.yahoo.com/articles/embiid-sidelined-sixers-blazers-illness-173500321.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
           {
             "t": "2026-11-26T06:57:02Z",
             "title": "Rockets Scurry Over Suns To Another 116-104 Victory",
@@ -2471,13 +2478,6 @@
             "t": "2026-11-25T23:34:37Z",
             "title": "After two-week hangover, Warriors&#39; slumbering offense wakes up in win over Kings",
             "link": "https://sports.yahoo.com/nba/articles/two-week-hangover-warriors-slumbering-233437230.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-25T22:18:33Z",
-            "title": "Warriors vs. Kings injury report: Yaxel Lendeborg and Brandon Williams both questionable",
-            "link": "https://sports.yahoo.com/nba/articles/warriors-vs-kings-injury-report-221833210.html",
             "source": "sports.yahoo.com",
             "tone": -1
           }
@@ -2715,15 +2715,15 @@
           "bets": 17
         },
         {
-          "id": "discipline",
-          "emoji": "🧘",
-          "title": "Disciplined",
-          "effect": "Avoids odds above 3.5.",
-          "from": "Discipline day",
-          "since": "2026-11-26T13:30:49Z",
-          "on": 0.0391,
-          "off": 0.0193,
-          "bets": 3
+          "id": "underdog",
+          "emoji": "🐶",
+          "title": "Underdog lover",
+          "effect": "Allows underdogs at odds up to 1.0 higher.",
+          "from": "Underdog hunter",
+          "since": "2026-11-26T13:45:32Z",
+          "on": 0.0135,
+          "off": 0.0192,
+          "bets": 10
         }
       ],
       "mind": {
@@ -2898,10 +2898,10 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.02,
+        "min_edge": 0.015,
         "odds": [
           1.6,
-          4.0
+          5.0
         ],
         "stop_below": 250
       },
@@ -3431,47 +3431,47 @@
         "measured": 1
       },
       "reading": {
-        "week": 403,
+        "week": 381,
         "latest": [
           {
-            "t": "2026-11-26T10:15:32Z",
-            "title": "No changes to Texas A&M&#39;s injury report before facing Texas",
-            "link": "https://sports.yahoo.com/college-football/articles/no-changes-texas-ms-injury-101532151.html",
+            "t": "2026-11-26T13:02:21Z",
+            "title": "Week 13 college football best bets include Ohio State, Northwestern in rivalry games",
+            "link": "https://sports.yahoo.com/betting/articles/week-13-college-football-best-130221719.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-26T09:01:06Z",
-            "title": "Georgia vs Georgia Tech scouting report, bold predictions, injury updates",
-            "link": "https://sports.yahoo.com/college-football/articles/georgia-vs-georgia-tech-scouting-090106895.html",
+            "t": "2026-11-26T13:00:00Z",
+            "title": "Stampede Blue Reacts results (Week 12): Colts fan confidence rebounds, but doubts remain about Richardson",
+            "link": "https://sports.yahoo.com/nfl/articles/stampede-blue-reacts-results-week-130000751.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-26T05:14:26Z",
-            "title": "West Virginia vs Utah Prediction: Can the Utes Keep Their Focus?",
-            "link": "https://sports.yahoo.com/college-football/articles/west-virginia-vs-utah-prediction-051426018.html",
+            "t": "2026-11-26T13:00:00Z",
+            "title": "How to Watch Ole Miss Football vs. Mississippi State: Kickoff Time, TV Channel, Radio and Weather",
+            "link": "https://sports.yahoo.com/college-football/articles/watch-ole-miss-football-vs-130000799.html",
             "source": "sports.yahoo.com",
             "tone": 1
           },
           {
-            "t": "2026-11-26T05:11:34Z",
-            "title": "Whit Weeks will miss LSU’s regular season finale vs. Arkansas",
-            "link": "https://sports.yahoo.com/college-football/articles/whit-weeks-miss-lsu-regular-051134163.html",
+            "t": "2026-11-26T12:18:07Z",
+            "title": "What Romeo Doubs returning to practice means for the Patriots",
+            "link": "https://sports.yahoo.com/nfl/articles/romeo-doubs-returning-practice-means-121807031.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-26T12:03:08Z",
+            "title": "Who is Joe Milton? Eagles QB starting Thanksgiving with Jalen Hurts sidelined",
+            "link": "https://sports.yahoo.com/nfl/articles/joe-milton-eagles-qb-starting-120308859.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-26T04:51:23Z",
-            "title": "Illinois looks to make it three straight against Northwestern in regular-season finale",
-            "link": "https://sports.yahoo.com/college-football/articles/illinois-looks-three-straight-against-045123939.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-26T04:07:27Z",
-            "title": "Desean Bishop, Arion Carter land on injury report for Tennessee vs. Vanderbilt",
-            "link": "https://sports.yahoo.com/college-football/articles/desean-bishop-arion-carter-land-040727656.html",
+            "t": "2026-11-26T12:00:00Z",
+            "title": "Swanson: Don&#39;t doubt the Rams. Sean McVay continues to transform crisis into success",
+            "link": "https://sports.yahoo.com/nfl/articles/swanson-dont-doubt-rams-sean-120000880.html",
             "source": "sports.yahoo.com",
             "tone": -1
           }
@@ -3705,15 +3705,26 @@
           "bets": 1
         },
         {
-          "id": "precision",
-          "emoji": "🎯",
-          "title": "Precise",
-          "effect": "Always demands +0.5% more edge.",
-          "from": "Precision day",
-          "since": "2026-11-26T13:30:49Z",
-          "on": 0.032,
-          "off": 0.0226,
-          "bets": 2
+          "id": "new_ground",
+          "emoji": "🗺️",
+          "title": "Versatile",
+          "effect": "Keeps trying every bet type (+1 scout bet a day).",
+          "from": "New ground",
+          "since": "2026-11-26T13:45:32Z",
+          "on": 0.029,
+          "off": 0.0224,
+          "bets": 6
+        },
+        {
+          "id": "underdog",
+          "emoji": "🐶",
+          "title": "Underdog lover",
+          "effect": "Allows underdogs at odds up to 1.0 higher.",
+          "from": "Underdog hunter",
+          "since": "2026-11-26T13:45:32Z",
+          "on": 0.0278,
+          "off": 0.0222,
+          "bets": 15
         }
       ],
       "mind": {
@@ -11503,26 +11514,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-26T12:01:00Z",
-      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-26T12:01:00Z",
-      "text": "🧬 🦈 The Shark dropped the 🗺️ Versatile trait: it stopped working (+0.2% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-26T12:01:00Z",
-      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
-    },
-    {
-      "t": "2026-11-26T12:15:43Z",
-      "text": "🧬 🧮 The Quant dropped the 🧘 Disciplined trait: it stopped working (+1.3% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-26T12:15:43Z",
-      "text": "🧬 🧮 The Quant made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-11 and its bets beat the market by +1.3%. Allows underdogs at odds up to 1.0 higher."
-    },
-    {
       "t": "2026-11-26T12:15:43Z",
       "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
     },
@@ -11621,6 +11612,26 @@
     {
       "t": "2026-11-26T13:30:49Z",
       "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-26T13:45:32Z",
+      "text": "🧬 🧮 The Quant dropped the 🧘 Disciplined trait: it stopped working (+1.3% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-26T13:45:32Z",
+      "text": "🧬 🧮 The Quant made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-11 and its bets beat the market by +1.3%. Allows underdogs at odds up to 1.0 higher."
+    },
+    {
+      "t": "2026-11-26T13:45:32Z",
+      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-26T13:45:32Z",
+      "text": "🧬 🦈 The Shark made New ground part of its character: 🗺️ Versatile. It completed the challenge on 2026-11-13 and its bets beat the market by +2.9%. Keeps trying every bet type (+1 scout bet a day)."
+    },
+    {
+      "t": "2026-11-26T13:45:32Z",
+      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
     }
   ]
 }
