@@ -51,26 +51,6 @@
   },
   "log": [
     {
-      "t": "2026-11-26T01:00:54Z",
-      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
-    },
-    {
-      "t": "2026-11-26T01:00:54Z",
-      "text": "🧬 🧮 The Quant dropped the 🐶 Underdog lover trait: it stopped working (+1.6% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-26T01:00:54Z",
-      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
-    },
-    {
-      "t": "2026-11-26T01:00:54Z",
-      "text": "🧬 🦈 The Shark made New ground part of its character: 🗺️ Versatile. It completed the challenge on 2026-11-13 and its bets beat the market by +2.9%. Keeps trying every bet type (+1 scout bet a day)."
-    },
-    {
-      "t": "2026-11-26T01:00:54Z",
-      "text": "Placed 8 practice bets:\n- The Lizard: **Corinthians** (Winner) in Corinthians vs Grêmio (Brasileirão (Brazil)) at 1.73 on GTbets, stake 7.71, edge +2.5%\n- The Lizard ⚡ pounce: **Stoke City** (Winner) in West Ham United vs Stoke City (Championship (England 2)) at 5.4 on LeoVegas (SE), stake 2.60, edge +10.2%\n- The Lizard 🧭 scout: **FC Tokyo** (Winner) in Yokohama F Marinos vs FC Tokyo (J-League (Japan)) at 1.79 on LeoVegas (SE), stake 2.25, edge +2.0%\n- The Lizard 🧭 scout: **Kyoto Purple Sanga** (Winner) in Kyoto Purple Sanga vs Cerezo Osaka (J-League (Japan)) at 2.65 on LeoVegas (SE), stake 2.25, edge +1.3%\n- The Lizard 🧭 scout: **Draw** (Winner) in Albacete vs Tenerife (La Liga 2 (Spain 2)) at 3.4 on Coolbet, stake 2.25, edge +1.8%\n- The Quant 🧭 scout: **Colorado St Rams +4** (Spread) in Colorado St Rams vs Clemson Tigers (College basketball (US)) at 1.96 on BetOnline.ag, stake 2.06, edge +0.8%\n- The Lizard 🎲 wild: **Draw** (Winner) in Los Angeles FC vs St. Louis City SC (MLS (USA)) at 4.5 on BetAnything, stake 1.13, edge +0.1%\n- The Lizard 🎲 wild: **Draw** (Winner) in Hamburger SV vs Bayern Munich (Bundesliga - Germany) at 7.5 on BetOnline.ag, stake 1.13, edge +-0.4%"
-    },
-    {
       "t": "2026-11-26T01:15:32Z",
       "text": "🧬 🧮 The Quant dropped the 🧘 Disciplined trait: it stopped working (+1.3% vs the market on those days)."
     },
@@ -169,6 +149,26 @@
     {
       "t": "2026-11-26T02:15:31Z",
       "text": "🧬 🦈 The Shark made New ground part of its character: 🗺️ Versatile. It completed the challenge on 2026-11-13 and its bets beat the market by +2.9%. Keeps trying every bet type (+1 scout bet a day)."
+    },
+    {
+      "t": "2026-11-26T02:17:35Z",
+      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
+    },
+    {
+      "t": "2026-11-26T02:17:35Z",
+      "text": "🧬 🧮 The Quant dropped the 🐶 Underdog lover trait: it stopped working (+1.6% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-26T02:17:35Z",
+      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-26T02:17:35Z",
+      "text": "🧬 🦈 The Shark dropped the 🗺️ Versatile trait: it stopped working (+0.2% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-26T02:17:35Z",
+      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
     }
   ],
   "levels": {
@@ -3078,11 +3078,11 @@
         "off": 0.0171,
         "bets": 16
       },
-      "underdog": {
-        "since": "2026-11-26T02:15:31Z",
-        "on": 0.0135,
-        "off": 0.0193,
-        "bets": 10
+      "discipline": {
+        "since": "2026-11-26T02:17:35Z",
+        "on": 0.0391,
+        "off": 0.0194,
+        "bets": 3
       }
     },
     "shark": {
@@ -3098,17 +3098,11 @@
         "off": 0.02,
         "bets": 1
       },
-      "precision": {
-        "since": "2026-11-26T02:15:31Z",
-        "on": 0.032,
-        "off": 0.0226,
-        "bets": 2
-      },
-      "new_ground": {
-        "since": "2026-11-26T02:15:31Z",
-        "on": 0.029,
-        "off": 0.0224,
-        "bets": 6
+      "underdog": {
+        "since": "2026-11-26T02:17:35Z",
+        "on": 0.0278,
+        "off": 0.0222,
+        "bets": 15
       }
     }
   },
