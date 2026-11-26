@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T19:45:31Z",
+  "updated": "2026-11-26T20:00:56Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -29,8 +29,8 @@
     ],
     "chars": {
       "lizard": {
-        "iq": 131,
-        "iq_gain": 6,
+        "iq": 130,
+        "iq_gain": 5,
         "streak": 2,
         "best_streak": 8,
         "achievements": [
@@ -152,7 +152,7 @@
             "pending": false
           }
         ],
-        "score": 196,
+        "score": 195,
         "trophies": [
           {
             "kind": "sharpshooter",
@@ -509,8 +509,8 @@
           "cautious": 0.0175,
           "beat": 0.6857,
           "challenges": 0.727,
-          "traits": 3,
-          "score": 30.89
+          "traits": 4,
+          "score": 32.89
         },
         {
           "who": "quant",
@@ -1241,8 +1241,15 @@
         "measured": 2
       },
       "reading": {
-        "week": 127,
+        "week": 119,
         "latest": [
+          {
+            "t": "2026-11-26T17:12:45Z",
+            "title": "Germany's Freigang given 16-month ban over drugs test issues",
+            "link": "https://www.bbc.co.uk/sport/football/articles/cqlym4rd3y52o?at_medium=RSS&at_campaign=rss",
+            "source": "feeds.bbci.co.uk",
+            "tone": -1
+          },
           {
             "t": "2026-11-26T16:38:05Z",
             "title": "Europa League line-ups: Olympiacos vs. Milan",
@@ -1277,13 +1284,6 @@
             "link": "https://www.bbc.co.uk/sport/football/articles/c6m2lv3k29gpo?at_medium=RSS&at_campaign=rss",
             "source": "feeds.bbci.co.uk",
             "tone": -1
-          },
-          {
-            "t": "2026-11-25T23:16:18Z",
-            "title": "Fenerbahce squeeze past Shakhtar to seal back-to-back wins",
-            "link": "https://www.bbc.co.uk/sport/football/videos/c6ly51452xe7o?at_medium=RSS&at_campaign=rss",
-            "source": "feeds.bbci.co.uk",
-            "tone": 1
           }
         ]
       },
@@ -1527,14 +1527,14 @@
           "effect": "Trusts its hunches more (+10% gut trust).",
           "from": "Read and react",
           "since": "2026-11-26T19:45:31Z",
-          "on": 0.0024,
+          "on": 0.013,
           "off": 0.0065,
-          "bets": 7
+          "bets": 5
         }
       ],
       "mind": {
-        "iq": 131,
-        "iq_week": 20,
+        "iq": 130,
+        "iq_week": 19,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -1626,7 +1626,7 @@
           },
           {
             "d": "2026-11-26",
-            "iq": 131
+            "iq": 130
           }
         ],
         "facts": [
@@ -1735,7 +1735,7 @@
         "min_edge": 0.02,
         "odds": [
           1.6,
-          4.5
+          3.5
         ],
         "stop_below": 250
       },
@@ -2452,7 +2452,7 @@
         "measured": 0
       },
       "reading": {
-        "week": 68,
+        "week": 76,
         "latest": [
           {
             "t": "2026-11-26T07:00:00Z",
@@ -2476,18 +2476,18 @@
             "tone": 1
           },
           {
-            "t": "2026-11-26T03:25:03Z",
-            "title": "LaMelo Ball injury update: Timberwolves star hurt late in win vs. Thunder",
-            "link": "https://sports.yahoo.com/nba/articles/lamelo-ball-injury-timberwolves-star-032503462.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
             "t": "2026-11-25T23:34:37Z",
             "title": "After two-week hangover, Warriors&#39; slumbering offense wakes up in win over Kings",
             "link": "https://sports.yahoo.com/nba/articles/two-week-hangover-warriors-slumbering-233437230.html",
             "source": "sports.yahoo.com",
             "tone": -1
+          },
+          {
+            "t": "2026-11-23T16:18:33Z",
+            "title": "2027 NBA Draft Big Board: Quentin Coleman's meteoric rise, Tyran Stokes stays at No. 1, returners boost stock",
+            "link": "https://www.cbssports.com/nba/news/2027-nba-draft-big-board-quentin-coleman-tyran-stokes-ivan-kharchenkov/",
+            "source": "www.cbssports.com",
+            "tone": 1
           },
           {
             "t": "2026-11-20T23:30:29Z",
@@ -2730,15 +2730,15 @@
           "bets": 17
         },
         {
-          "id": "underdog",
-          "emoji": "🐶",
-          "title": "Underdog lover",
-          "effect": "Allows underdogs at odds up to 1.0 higher.",
-          "from": "Underdog hunter",
-          "since": "2026-11-26T19:45:31Z",
-          "on": 0.0135,
-          "off": 0.0197,
-          "bets": 10
+          "id": "discipline",
+          "emoji": "🧘",
+          "title": "Disciplined",
+          "effect": "Avoids odds above 3.5.",
+          "from": "Discipline day",
+          "since": "2026-11-26T20:00:56Z",
+          "on": 0.0391,
+          "off": 0.0198,
+          "bets": 3
         }
       ],
       "mind": {
@@ -2913,10 +2913,10 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.02,
+        "min_edge": 0.015,
         "odds": [
           1.6,
-          4.0
+          5.0
         ],
         "stop_below": 250
       },
@@ -3449,44 +3449,44 @@
         "week": 405,
         "latest": [
           {
-            "t": "2026-11-26T16:01:00Z",
-            "title": "Miami Chases First ACC Sweep With Boston College Showdown",
-            "link": "https://sports.yahoo.com/college-football/articles/miami-chases-first-acc-sweep-160100586.html",
+            "t": "2026-11-26T19:11:56Z",
+            "title": "Bears suffer crushing Colston Loveland injury in Thanksgiving nightmare",
+            "link": "https://sports.yahoo.com/nfl/articles/bears-stuffer-crushing-colston-loveland-191156119.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-26T15:42:33Z",
-            "title": "&quot;4 Weeks Now&quot;: Cancer Survivor Holly Rowe Reveals Battling Prolonged Illness Amid ESPN College Football Duties",
-            "link": "https://sports.yahoo.com/college-football/articles/4-weeks-now-cancer-survivor-154233321.html",
+            "t": "2026-11-26T19:03:54Z",
+            "title": "Chicago Bears Injury Update: Colston Loveland is out",
+            "link": "https://sports.yahoo.com/nfl/articles/chicago-bears-injury-colston-loveland-190354103.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-26T14:46:55Z",
-            "title": "Carolina Panthers 2026 fan mailbag: Injured/reserve slots, NFC South, Celebrity Look-alikes, and more!",
-            "link": "https://sports.yahoo.com/nfl/articles/carolina-panthers-2026-fan-mailbag-144655858.html",
+            "t": "2026-11-26T19:00:00Z",
+            "title": "How to Watch Georgia Football vs. Georgia Tech: Kickoff Time, TV Channel, Radio and Weather",
+            "link": "https://sports.yahoo.com/college-football/articles/watch-georgia-football-vs-georgia-190000568.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-26T18:47:43Z",
+            "title": "Jahmyr Gibbs puts Lions up 10-0, Colston Loveland out with knee injury",
+            "link": "https://sports.yahoo.com/nfl/articles/jahmyr-gibbs-puts-lions-10-184743111.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-26T14:39:44Z",
-            "title": "Significant Injury News for the Buckeyes Days Before &#39;The Game&#39;",
-            "link": "https://sports.yahoo.com/college-football/articles/significant-injury-news-buckeyes-days-143944773.html",
+            "t": "2026-11-26T18:41:12Z",
+            "title": "Colston Loveland injury update: Bears TE ruled out with knee injury",
+            "link": "https://sports.yahoo.com/nfl/articles/colston-loveland-injury-bears-te-184112887.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-26T14:34:59Z",
-            "title": "Which Rams’ players came out win hurt in Week 12?",
-            "link": "https://sports.yahoo.com/nfl/articles/rams-players-came-win-hurt-143459944.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-26T14:30:13Z",
-            "title": "BYU’s Roger Saleapaga II, Isaiah Glasker doubtful for Cincinatti showdown",
-            "link": "https://sports.yahoo.com/college-football/articles/byu-roger-saleapaga-ii-isaiah-143013935.html",
+            "t": "2026-11-26T18:39:44Z",
+            "title": "Bears TE Colston Loveland carted into locker room, ruled out with knee injury",
+            "link": "https://sports.yahoo.com/nfl/article/bears-te-colston-loveland-carted-into-locker-room-ruled-out-with-knee-injury-184514724.html",
             "source": "sports.yahoo.com",
             "tone": -1
           }
@@ -3720,15 +3720,26 @@
           "bets": 1
         },
         {
-          "id": "precision",
-          "emoji": "🎯",
-          "title": "Precise",
-          "effect": "Always demands +0.5% more edge.",
-          "from": "Precision day",
-          "since": "2026-11-26T19:45:31Z",
-          "on": 0.032,
+          "id": "new_ground",
+          "emoji": "🗺️",
+          "title": "Versatile",
+          "effect": "Keeps trying every bet type (+1 scout bet a day).",
+          "from": "New ground",
+          "since": "2026-11-26T20:00:56Z",
+          "on": 0.029,
           "off": 0.0206,
-          "bets": 2
+          "bets": 6
+        },
+        {
+          "id": "underdog",
+          "emoji": "🐶",
+          "title": "Underdog lover",
+          "effect": "Allows underdogs at odds up to 1.0 higher.",
+          "from": "Underdog hunter",
+          "since": "2026-11-26T20:00:56Z",
+          "on": 0.0278,
+          "off": 0.0196,
+          "bets": 15
         }
       ],
       "mind": {
@@ -11517,26 +11528,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-26T18:15:35Z",
-      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-26T18:15:35Z",
-      "text": "🧬 🦈 The Shark dropped the 🗺️ Versatile trait: it stopped working (+0.2% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-26T18:15:35Z",
-      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
-    },
-    {
-      "t": "2026-11-26T18:30:47Z",
-      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
-    },
-    {
-      "t": "2026-11-26T18:30:47Z",
-      "text": "🧬 🧮 The Quant dropped the 🐶 Underdog lover trait: it stopped working (+1.6% vs the market on those days)."
-    },
-    {
       "t": "2026-11-26T18:30:47Z",
       "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
     },
@@ -11635,6 +11626,26 @@
     {
       "t": "2026-11-26T19:45:31Z",
       "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-26T20:00:56Z",
+      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
+    },
+    {
+      "t": "2026-11-26T20:00:56Z",
+      "text": "🧬 🧮 The Quant dropped the 🐶 Underdog lover trait: it stopped working (+1.6% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-26T20:00:56Z",
+      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-26T20:00:56Z",
+      "text": "🧬 🦈 The Shark made New ground part of its character: 🗺️ Versatile. It completed the challenge on 2026-11-13 and its bets beat the market by +2.9%. Keeps trying every bet type (+1 scout bet a day)."
+    },
+    {
+      "t": "2026-11-26T20:00:56Z",
+      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
     }
   ]
 }
