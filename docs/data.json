@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T07:30:52Z",
+  "updated": "2026-11-26T07:45:31Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -509,8 +509,8 @@
           "cautious": 0.0175,
           "beat": 0.6857,
           "challenges": 0.727,
-          "traits": 3,
-          "score": 30.89
+          "traits": 4,
+          "score": 32.89
         },
         {
           "who": "quant",
@@ -1241,8 +1241,15 @@
         "measured": 2
       },
       "reading": {
-        "week": 110,
+        "week": 83,
         "latest": [
+          {
+            "t": "2026-11-26T07:42:21Z",
+            "title": "Dundee United's Farrugia out until new year - gossip",
+            "link": "https://www.bbc.co.uk/sport/football/articles/c6m2lv3k29gpo?at_medium=RSS&at_campaign=rss",
+            "source": "feeds.bbci.co.uk",
+            "tone": -1
+          },
           {
             "t": "2026-11-25T23:16:18Z",
             "title": "Fenerbahce squeeze past Shakhtar to seal back-to-back wins",
@@ -1277,13 +1284,6 @@
             "link": "https://www.bbc.co.uk/sport/football/articles/c6n831jk3x4mo?at_medium=RSS&at_campaign=rss",
             "source": "feeds.bbci.co.uk",
             "tone": 1
-          },
-          {
-            "t": "2026-11-25T13:44:55Z",
-            "title": "Milan injury list rises to nine as Bartesaghi pulls up in training before Olympiacos",
-            "link": "https://football-italia.net/milan-injury-list-rises-to-nine-bartesaghi/",
-            "source": "football-italia.net",
-            "tone": -1
           }
         ]
       },
@@ -1724,7 +1724,7 @@
         "min_edge": 0.02,
         "odds": [
           1.6,
-          4.5
+          3.5
         ],
         "stop_below": 250
       },
@@ -2417,7 +2417,7 @@
         "measured": 0
       },
       "reading": {
-        "week": 84,
+        "week": 71,
         "latest": [
           {
             "t": "2026-11-26T03:25:03Z",
@@ -2430,6 +2430,13 @@
             "t": "2026-11-26T00:42:00Z",
             "title": "NBA Cup 2026: LeBron James nabs triple-double as 76ers snap Heat&#39;s 7-game win streak despite losing Jaylen Brown to hamstring injury",
             "link": "https://sports.yahoo.com/nba/breaking-news/article/nba-cup-2026-lebron-james-nabs-triple-double-as-76ers-snap-heats-7-game-win-streak-despite-losing-jaylen-brown-to-hamstring-injury-004200547.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-25T23:34:37Z",
+            "title": "After two-week hangover, Warriors&#39; slumbering offense wakes up in win over Kings",
+            "link": "https://sports.yahoo.com/nba/articles/two-week-hangover-warriors-slumbering-233437230.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
@@ -2448,18 +2455,11 @@
             "tone": 1
           },
           {
-            "t": "2026-11-25T16:32:37Z",
-            "title": "NBA Week 6 Injury Report: Cameron Boozer to miss at least four weeks; don&#39;t panic on Cade Cunningham",
-            "link": "https://sports.yahoo.com/fantasy/articles/nba-week-6-injury-report-163237767.html",
+            "t": "2026-11-25T15:20:00Z",
+            "title": "Observations after Sixers&#39; 5-game win streak ends with blowout loss to Blazers",
+            "link": "https://sports.yahoo.com/articles/observations-sixers-5-game-win-173500225.html",
             "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-25T16:30:00Z",
-            "title": "Cavs at Knicks: How to watch, odds, and injury report",
-            "link": "https://sports.yahoo.com/nba/articles/cavs-knicks-watch-odds-injury-163000025.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
+            "tone": 1
           }
         ]
       },
@@ -2695,15 +2695,15 @@
           "bets": 17
         },
         {
-          "id": "underdog",
-          "emoji": "🐶",
-          "title": "Underdog lover",
-          "effect": "Allows underdogs at odds up to 1.0 higher.",
-          "from": "Underdog hunter",
-          "since": "2026-11-26T07:30:52Z",
-          "on": 0.0135,
-          "off": 0.0192,
-          "bets": 10
+          "id": "discipline",
+          "emoji": "🧘",
+          "title": "Disciplined",
+          "effect": "Avoids odds above 3.5.",
+          "from": "Discipline day",
+          "since": "2026-11-26T07:45:31Z",
+          "on": 0.0391,
+          "off": 0.0193,
+          "bets": 3
         }
       ],
       "mind": {
@@ -2878,10 +2878,10 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.02,
+        "min_edge": 0.015,
         "odds": [
           1.6,
-          4.0
+          5.0
         ],
         "stop_below": 250
       },
@@ -3403,8 +3403,29 @@
         "measured": 1
       },
       "reading": {
-        "week": 406,
+        "week": 446,
         "latest": [
+          {
+            "t": "2026-11-26T05:14:26Z",
+            "title": "West Virginia vs Utah Prediction: Can the Utes Keep Their Focus?",
+            "link": "https://sports.yahoo.com/college-football/articles/west-virginia-vs-utah-prediction-051426018.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-26T05:11:34Z",
+            "title": "Whit Weeks will miss LSU’s regular season finale vs. Arkansas",
+            "link": "https://sports.yahoo.com/college-football/articles/whit-weeks-miss-lsu-regular-051134163.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-26T04:51:23Z",
+            "title": "Illinois looks to make it three straight against Northwestern in regular-season finale",
+            "link": "https://sports.yahoo.com/college-football/articles/illinois-looks-three-straight-against-045123939.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
           {
             "t": "2026-11-26T04:07:27Z",
             "title": "Desean Bishop, Arion Carter land on injury report for Tennessee vs. Vanderbilt",
@@ -3425,27 +3446,6 @@
             "link": "https://sports.yahoo.com/nfl/articles/christian-watson-wont-return-against-032029226.html",
             "source": "sports.yahoo.com",
             "tone": 1
-          },
-          {
-            "t": "2026-11-26T03:11:09Z",
-            "title": "UCLA QB Ty Dieffenbach officially questionable for Battle of Los Angeles vs. USC",
-            "link": "https://sports.yahoo.com/college-football/articles/ucla-qb-ty-dieffenbach-officially-031109416.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-26T03:09:45Z",
-            "title": "Christian Watson ruled out with a concussion",
-            "link": "https://sports.yahoo.com/nfl/articles/christian-watson-ruled-concussion-030945116.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-26T02:56:25Z",
-            "title": "Jaxon Smith-Njigba limited Wednesday",
-            "link": "https://sports.yahoo.com/nfl/articles/jaxon-smith-njigba-limited-wednesday-025625183.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
           }
         ]
       },
@@ -3677,15 +3677,26 @@
           "bets": 1
         },
         {
-          "id": "precision",
-          "emoji": "🎯",
-          "title": "Precise",
-          "effect": "Always demands +0.5% more edge.",
-          "from": "Precision day",
-          "since": "2026-11-26T07:30:52Z",
-          "on": 0.032,
-          "off": 0.0226,
-          "bets": 2
+          "id": "new_ground",
+          "emoji": "🗺️",
+          "title": "Versatile",
+          "effect": "Keeps trying every bet type (+1 scout bet a day).",
+          "from": "New ground",
+          "since": "2026-11-26T07:45:31Z",
+          "on": 0.029,
+          "off": 0.0224,
+          "bets": 6
+        },
+        {
+          "id": "underdog",
+          "emoji": "🐶",
+          "title": "Underdog lover",
+          "effect": "Allows underdogs at odds up to 1.0 higher.",
+          "from": "Underdog hunter",
+          "since": "2026-11-26T07:45:31Z",
+          "on": 0.0278,
+          "off": 0.0222,
+          "bets": 15
         }
       ],
       "mind": {
@@ -11476,26 +11487,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-26T06:00:56Z",
-      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-26T06:00:56Z",
-      "text": "🧬 🦈 The Shark dropped the 🗺️ Versatile trait: it stopped working (+0.2% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-26T06:00:56Z",
-      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
-    },
-    {
-      "t": "2026-11-26T06:15:32Z",
-      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
-    },
-    {
-      "t": "2026-11-26T06:15:32Z",
-      "text": "🧬 🧮 The Quant dropped the 🐶 Underdog lover trait: it stopped working (+1.6% vs the market on those days)."
-    },
-    {
       "t": "2026-11-26T06:15:32Z",
       "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
     },
@@ -11594,6 +11585,26 @@
     {
       "t": "2026-11-26T07:30:52Z",
       "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-26T07:45:31Z",
+      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
+    },
+    {
+      "t": "2026-11-26T07:45:31Z",
+      "text": "🧬 🧮 The Quant dropped the 🐶 Underdog lover trait: it stopped working (+1.6% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-26T07:45:31Z",
+      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-26T07:45:31Z",
+      "text": "🧬 🦈 The Shark made New ground part of its character: 🗺️ Versatile. It completed the challenge on 2026-11-13 and its bets beat the market by +2.9%. Keeps trying every bet type (+1 scout bet a day)."
+    },
+    {
+      "t": "2026-11-26T07:45:31Z",
+      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
     }
   ]
 }
