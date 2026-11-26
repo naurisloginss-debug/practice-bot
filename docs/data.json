@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T10:30:49Z",
+  "updated": "2026-11-26T10:45:32Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -509,8 +509,8 @@
           "cautious": 0.0175,
           "beat": 0.6857,
           "challenges": 0.727,
-          "traits": 2,
-          "score": 28.89
+          "traits": 4,
+          "score": 32.89
         },
         {
           "who": "quant",
@@ -1241,7 +1241,7 @@
         "measured": 2
       },
       "reading": {
-        "week": 83,
+        "week": 107,
         "latest": [
           {
             "t": "2026-11-26T07:42:21Z",
@@ -1724,7 +1724,7 @@
         "min_edge": 0.02,
         "odds": [
           1.6,
-          4.5
+          3.5
         ],
         "stop_below": 250
       },
@@ -2437,8 +2437,22 @@
         "measured": 0
       },
       "reading": {
-        "week": 71,
+        "week": 90,
         "latest": [
+          {
+            "t": "2026-11-26T06:57:02Z",
+            "title": "Rockets Scurry Over Suns To Another 116-104 Victory",
+            "link": "https://sports.yahoo.com/nba/articles/rockets-scurry-over-suns-another-065702969.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-26T05:53:20Z",
+            "title": "Game Recap: Suns run out of fuel in 116-104 loss to Rockets",
+            "link": "https://sports.yahoo.com/nba/articles/game-recap-suns-run-fuel-055320447.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
           {
             "t": "2026-11-26T03:25:03Z",
             "title": "LaMelo Ball injury update: Timberwolves star hurt late in win vs. Thunder",
@@ -2466,20 +2480,6 @@
             "link": "https://sports.yahoo.com/nba/articles/warriors-vs-kings-injury-report-221833210.html",
             "source": "sports.yahoo.com",
             "tone": -1
-          },
-          {
-            "t": "2026-11-25T21:53:14Z",
-            "title": "Austin Reaves returns to Lakers practice, might play Friday at San Antonio",
-            "link": "https://sports.yahoo.com/nba/articles/austin-reaves-returns-lakers-practice-215314512.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-25T15:20:00Z",
-            "title": "Observations after Sixers&#39; 5-game win streak ends with blowout loss to Blazers",
-            "link": "https://sports.yahoo.com/articles/observations-sixers-5-game-win-173500225.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
           }
         ]
       },
@@ -2715,15 +2715,15 @@
           "bets": 17
         },
         {
-          "id": "underdog",
-          "emoji": "🐶",
-          "title": "Underdog lover",
-          "effect": "Allows underdogs at odds up to 1.0 higher.",
-          "from": "Underdog hunter",
-          "since": "2026-11-26T10:30:49Z",
-          "on": 0.0135,
-          "off": 0.0192,
-          "bets": 10
+          "id": "discipline",
+          "emoji": "🧘",
+          "title": "Disciplined",
+          "effect": "Avoids odds above 3.5.",
+          "from": "Discipline day",
+          "since": "2026-11-26T10:45:32Z",
+          "on": 0.0391,
+          "off": 0.0193,
+          "bets": 3
         }
       ],
       "mind": {
@@ -2898,7 +2898,7 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.015,
+        "min_edge": 0.02,
         "odds": [
           1.6,
           4.0
@@ -3431,8 +3431,22 @@
         "measured": 1
       },
       "reading": {
-        "week": 446,
+        "week": 403,
         "latest": [
+          {
+            "t": "2026-11-26T10:15:32Z",
+            "title": "No changes to Texas A&M&#39;s injury report before facing Texas",
+            "link": "https://sports.yahoo.com/college-football/articles/no-changes-texas-ms-injury-101532151.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-26T09:01:06Z",
+            "title": "Georgia vs Georgia Tech scouting report, bold predictions, injury updates",
+            "link": "https://sports.yahoo.com/college-football/articles/georgia-vs-georgia-tech-scouting-090106895.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
           {
             "t": "2026-11-26T05:14:26Z",
             "title": "West Virginia vs Utah Prediction: Can the Utes Keep Their Focus?",
@@ -3460,20 +3474,6 @@
             "link": "https://sports.yahoo.com/college-football/articles/desean-bishop-arion-carter-land-040727656.html",
             "source": "sports.yahoo.com",
             "tone": -1
-          },
-          {
-            "t": "2026-11-26T03:32:38Z",
-            "title": "Davis Allen won&#39;t return against Packers",
-            "link": "https://sports.yahoo.com/nfl/articles/davis-allen-wont-return-against-033238855.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-26T03:20:29Z",
-            "title": "Christian Watson won&#39;t return against Rams",
-            "link": "https://sports.yahoo.com/nfl/articles/christian-watson-wont-return-against-032029226.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
           }
         ]
       },
@@ -3703,6 +3703,28 @@
           "on": 0.0329,
           "off": 0.02,
           "bets": 1
+        },
+        {
+          "id": "precision",
+          "emoji": "🎯",
+          "title": "Precise",
+          "effect": "Always demands +0.5% more edge.",
+          "from": "Precision day",
+          "since": "2026-11-26T10:45:32Z",
+          "on": 0.032,
+          "off": 0.0226,
+          "bets": 2
+        },
+        {
+          "id": "new_ground",
+          "emoji": "🗺️",
+          "title": "Versatile",
+          "effect": "Keeps trying every bet type (+1 scout bet a day).",
+          "from": "New ground",
+          "since": "2026-11-26T10:45:32Z",
+          "on": 0.029,
+          "off": 0.0224,
+          "bets": 6
         }
       ],
       "mind": {
@@ -11491,22 +11513,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-26T09:00:59Z",
-      "text": "🧬 🦈 The Shark made New ground part of its character: 🗺️ Versatile. It completed the challenge on 2026-11-13 and its bets beat the market by +2.9%. Keeps trying every bet type (+1 scout bet a day)."
-    },
-    {
-      "t": "2026-11-26T09:00:59Z",
-      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
-    },
-    {
-      "t": "2026-11-26T09:00:59Z",
-      "text": "Placed 4 practice bets:\n- The Lizard: **Santos** (Winner) in Vitoria vs Santos (Brasileirão (Brazil)) at 2.36 on GTbets, stake 3.85, edge +2.3%\n- The Quant: **San Diego St Aztecs** (Winner) in San Diego St Aztecs vs Maryland Terrapins (College basketball (US)) at 2.65 on LeoVegas (SE), stake 8.69, edge +3.9%\n- The Lizard 💭 gut: **Las Palmas** (Winner) in Las Palmas vs Andorra CF (La Liga 2 (Spain 2)) at 2.18 on Unibet (SE), stake 2.31, edge +-0.1%\n- The Shark 🎲 wild: **Cincinnati Bearcats** (Winner) in BYU Cougars vs Cincinnati Bearcats (College football (US)) at 6.6 on Matchbook, stake 1.23, edge +1.5%"
-    },
-    {
-      "t": "2026-11-26T09:15:33Z",
-      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
-    },
-    {
       "t": "2026-11-26T09:15:33Z",
       "text": "🧬 🧮 The Quant dropped the 🐶 Underdog lover trait: it stopped working (+1.6% vs the market on those days)."
     },
@@ -11609,6 +11615,22 @@
     {
       "t": "2026-11-26T10:30:49Z",
       "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-26T10:45:32Z",
+      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
+    },
+    {
+      "t": "2026-11-26T10:45:32Z",
+      "text": "🧬 🧮 The Quant dropped the 🐶 Underdog lover trait: it stopped working (+1.6% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-26T10:45:32Z",
+      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
+    },
+    {
+      "t": "2026-11-26T10:45:32Z",
+      "text": "🧬 🦈 The Shark made New ground part of its character: 🗺️ Versatile. It completed the challenge on 2026-11-13 and its bets beat the market by +2.9%. Keeps trying every bet type (+1 scout bet a day)."
     }
   ]
 }
