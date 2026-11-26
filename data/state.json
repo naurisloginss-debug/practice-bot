@@ -51,22 +51,6 @@
   },
   "log": [
     {
-      "t": "2026-11-26T21:00:57Z",
-      "text": "Placed 3 practice bets:\n- The Shark: **Baltimore Ravens +6.5** (Spread) in Houston Texans vs Baltimore Ravens (NFL) at 2.07 on Unibet (SE), stake 5.89, edge +2.2%\n- The Lizard 💭 gut: **Leyton Orient +1.25** (Spread) in Stockport County FC vs Leyton Orient (League One (England 3)) at 2.1 on Matchbook, stake 2.31, edge +1.7%\n- The Quant 💭 gut: **SMU Mustangs** (Winner) in LSU Tigers vs SMU Mustangs (College basketball (US)) at 3.9 on Betfair, stake 2.08, edge +1.4%"
-    },
-    {
-      "t": "2026-11-26T21:15:33Z",
-      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
-    },
-    {
-      "t": "2026-11-26T21:15:33Z",
-      "text": "🧬 🧮 The Quant dropped the 🐶 Underdog lover trait: it stopped working (+1.6% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-26T21:15:33Z",
-      "text": "🧬 🦈 The Shark dropped the 🗺️ Versatile trait: it stopped working (-0.0% vs the market on those days)."
-    },
-    {
       "t": "2026-11-26T21:15:33Z",
       "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
     },
@@ -169,6 +153,22 @@
     {
       "t": "2026-11-26T22:30:44Z",
       "text": "🏁 🧮 The Quant now leads the race to go live (8 days to selection)."
+    },
+    {
+      "t": "2026-11-26T22:45:30Z",
+      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
+    },
+    {
+      "t": "2026-11-26T22:45:30Z",
+      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
+    },
+    {
+      "t": "2026-11-26T22:45:30Z",
+      "text": "🧬 🦈 The Shark made New ground part of its character: 🗺️ Versatile. It completed the challenge on 2026-11-13 and its bets beat the market by +2.9%. Keeps trying every bet type (+1 scout bet a day)."
+    },
+    {
+      "t": "2026-11-26T22:45:30Z",
+      "text": "🏁 🦈 The Shark now leads the race to go live (8 days to selection)."
     }
   ],
   "levels": {
@@ -3089,6 +3089,12 @@
         "on": 0.052,
         "off": 0.0141,
         "bets": 15
+      },
+      "discipline": {
+        "since": "2026-11-26T22:45:30Z",
+        "on": 0.0391,
+        "off": 0.0207,
+        "bets": 3
       }
     },
     "shark": {
@@ -3103,8 +3109,20 @@
         "on": 0.0329,
         "off": 0.0178,
         "bets": 1
+      },
+      "precision": {
+        "since": "2026-11-26T22:45:30Z",
+        "on": 0.032,
+        "off": 0.0199,
+        "bets": 2
+      },
+      "new_ground": {
+        "since": "2026-11-26T22:45:30Z",
+        "on": 0.029,
+        "off": 0.0206,
+        "bets": 6
       }
     }
   },
-  "race_leader": "quant"
+  "race_leader": "shark"
 }
