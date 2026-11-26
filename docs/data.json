@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T01:00:54Z",
+  "updated": "2026-11-26T01:15:32Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -334,7 +334,7 @@
             "pending": false
           }
         ],
-        "score": 233,
+        "score": 236,
         "trophies": [
           {
             "kind": "grower",
@@ -509,8 +509,8 @@
           "cautious": 0.0175,
           "beat": 0.6857,
           "challenges": 0.727,
-          "traits": 4,
-          "score": 32.89
+          "traits": 3,
+          "score": 30.89
         },
         {
           "who": "quant",
@@ -520,9 +520,9 @@
           "clv": 0.0214,
           "cautious": 0.0135,
           "beat": 0.6389,
-          "challenges": 0.615,
+          "challenges": 0.643,
           "traits": 3,
-          "score": 25.32
+          "score": 25.45
         },
         {
           "who": "lizard",
@@ -545,7 +545,7 @@
       "leader": "shark"
     }
   },
-  "credits_left": 16683,
+  "credits_left": 16679,
   "last_scan": "2026-11-26@1",
   "strategies": {
     "lizard": {
@@ -1225,8 +1225,22 @@
         "measured": 2
       },
       "reading": {
-        "week": 105,
+        "week": 102,
         "latest": [
+          {
+            "t": "2026-11-25T23:16:18Z",
+            "title": "Fenerbahce squeeze past Shakhtar to seal back-to-back wins",
+            "link": "https://www.bbc.co.uk/sport/football/videos/c6ly51452xe7o?at_medium=RSS&at_campaign=rss",
+            "source": "feeds.bbci.co.uk",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-25T23:02:15Z",
+            "title": "Martinez secures Inter win against Stuttgart",
+            "link": "https://www.bbc.co.uk/sport/football/videos/c6j9mvjkkzymo?at_medium=RSS&at_campaign=rss",
+            "source": "feeds.bbci.co.uk",
+            "tone": 1
+          },
           {
             "t": "2026-11-25T21:41:00Z",
             "title": "Ferguson's Glentoran reign hits early turbulence",
@@ -1252,20 +1266,6 @@
             "t": "2026-11-25T15:12:49Z",
             "title": "Championship survival behind sackings - Imps CEO",
             "link": "https://www.bbc.co.uk/sport/football/articles/cm0l34j8d54yo?at_medium=RSS&at_campaign=rss",
-            "source": "feeds.bbci.co.uk",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-25T13:44:55Z",
-            "title": "Milan injury list rises to nine as Bartesaghi pulls up in training before Olympiacos",
-            "link": "https://football-italia.net/milan-injury-list-rises-to-nine-bartesaghi/",
-            "source": "football-italia.net",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-25T13:09:09Z",
-            "title": "No fresh Bolton concerns with Toal close to return",
-            "link": "https://www.bbc.co.uk/sport/football/articles/ck8dv60prle6o?at_medium=RSS&at_campaign=rss",
             "source": "feeds.bbci.co.uk",
             "tone": -1
           }
@@ -1708,7 +1708,7 @@
         "min_edge": 0.02,
         "odds": [
           1.6,
-          3.5
+          4.5
         ],
         "stop_below": 250
       },
@@ -1723,7 +1723,7 @@
         "Winner"
       ],
       "start_fund": 500,
-      "fund": 411.68,
+      "fund": 402.1,
       "lessons": [
         {
           "kind": "favour",
@@ -1747,12 +1747,12 @@
         }
       ],
       "bets": 141,
-      "open": 17,
-      "won": 46,
-      "lost": 78,
-      "staked": 737.24,
-      "profit": -88.32,
-      "roi": -0.1198,
+      "open": 14,
+      "won": 47,
+      "lost": 80,
+      "staked": 751.32,
+      "profit": -97.9,
+      "roi": -0.1303,
       "avg_edge": 0.0312,
       "avg_clv": 0.0229,
       "beat_close": 0.5893,
@@ -2257,6 +2257,18 @@
         {
           "t": "2026-11-25T19:00:58Z",
           "fund": 411.68
+        },
+        {
+          "t": "2026-11-26T01:15:32Z",
+          "fund": 409.43
+        },
+        {
+          "t": "2026-11-26T01:15:32Z",
+          "fund": 411.68
+        },
+        {
+          "t": "2026-11-26T01:15:32Z",
+          "fund": 402.1
         }
       ],
       "by_league": [
@@ -2281,8 +2293,8 @@
         {
           "name": "EuroLeague",
           "bets": 17,
-          "profit": -47.1,
-          "roi": -0.7587,
+          "profit": -56.68,
+          "roi": -0.7442,
           "avg_clv": 0.0087,
           "beat_close": 0.6154,
           "clv_count": 13
@@ -2292,8 +2304,8 @@
         {
           "name": "Spread",
           "bets": 7,
-          "profit": -14.42,
-          "roi": -0.8761,
+          "profit": -12.17,
+          "roi": -0.6505,
           "avg_clv": 0.0315,
           "beat_close": 1.0,
           "clv_count": 4
@@ -2301,8 +2313,8 @@
         {
           "name": "Winner",
           "bets": 100,
-          "profit": -58.07,
-          "roi": -0.2295,
+          "profit": -69.9,
+          "roi": -0.2639,
           "avg_clv": 0.0282,
           "beat_close": 0.6186,
           "clv_count": 97
@@ -2321,8 +2333,8 @@
         {
           "name": "Basketball",
           "bets": 141,
-          "profit": -88.32,
-          "roi": -0.1198,
+          "profit": -97.9,
+          "roi": -0.1303,
           "avg_clv": 0.0229,
           "beat_close": 0.5893,
           "clv_count": 112
@@ -2357,8 +2369,29 @@
         "measured": 0
       },
       "reading": {
-        "week": 78,
+        "week": 87,
         "latest": [
+          {
+            "t": "2026-11-26T00:42:00Z",
+            "title": "NBA Cup 2026: LeBron James nabs triple-double as 76ers snap Heat&#39;s 7-game win streak despite losing Jaylen Brown to hamstring injury",
+            "link": "https://sports.yahoo.com/nba/breaking-news/article/nba-cup-2026-lebron-james-nabs-triple-double-as-76ers-snap-heats-7-game-win-streak-despite-losing-jaylen-brown-to-hamstring-injury-004200547.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-25T22:18:33Z",
+            "title": "Warriors vs. Kings injury report: Yaxel Lendeborg and Brandon Williams both questionable",
+            "link": "https://sports.yahoo.com/nba/articles/warriors-vs-kings-injury-report-221833210.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-25T21:53:14Z",
+            "title": "Austin Reaves returns to Lakers practice, might play Friday at San Antonio",
+            "link": "https://sports.yahoo.com/nba/articles/austin-reaves-returns-lakers-practice-215314512.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
           {
             "t": "2026-11-25T16:32:37Z",
             "title": "NBA Week 6 Injury Report: Cameron Boozer to miss at least four weeks; don&#39;t panic on Cade Cunningham",
@@ -2377,27 +2410,6 @@
             "t": "2026-11-25T16:14:38Z",
             "title": "2026-27 NBA Minutes Report: Brandon Ingram returns, Cameron Boozer is sidelined, more",
             "link": "https://sports.yahoo.com/nba/articles/2026-27-nba-minutes-report-161438611.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-25T16:00:00Z",
-            "title": "Putting Phoenix’s four-game winning streak into perspective",
-            "link": "https://sports.yahoo.com/nba/articles/putting-phoenix-four-game-winning-160000365.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-25T14:02:57Z",
-            "title": "Embiid sidelined for Sixers-Blazers with illness",
-            "link": "https://sports.yahoo.com/articles/embiid-sidelined-sixers-blazers-illness-173500321.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-25T12:25:48Z",
-            "title": "Knicks vs. Cavs injury report: Tonight’s game sponsored by Icy Hot",
-            "link": "https://sports.yahoo.com/nba/articles/knicks-vs-cavs-injury-report-122548997.html",
             "source": "sports.yahoo.com",
             "tone": -1
           }
@@ -2503,10 +2515,11 @@
           "emoji": "🗺️",
           "title": "New ground",
           "text": "Make a bet in the bet type I use least: spread.",
-          "status": "active",
+          "status": "done",
           "market": "spreads",
           "target": 88,
-          "league": null
+          "league": null,
+          "detail": "Bet Colorado St Rams +4 (spread)."
         },
         "recent": [
           {
@@ -2515,10 +2528,11 @@
             "emoji": "🗺️",
             "title": "New ground",
             "text": "Make a bet in the bet type I use least: spread.",
-            "status": "active",
+            "status": "done",
             "market": "spreads",
             "target": 88,
-            "league": null
+            "league": null,
+            "detail": "Bet Colorado St Rams +4 (spread)."
           },
           {
             "day": "2026-11-25",
@@ -2605,9 +2619,9 @@
             "detail": "1 bet beat the market."
           }
         ],
-        "done": 8,
-        "judged": 13,
-        "streak": 3
+        "done": 9,
+        "judged": 14,
+        "streak": 4
       },
       "traits": [
         {
@@ -2618,7 +2632,7 @@
           "from": "Precision day",
           "since": "2026-11-23T18:30:49Z",
           "on": 0.0324,
-          "off": 0.0136,
+          "off": 0.014,
           "bets": 24
         },
         {
@@ -2628,20 +2642,20 @@
           "effect": "Looks a day further ahead.",
           "from": "Study day",
           "since": "2026-11-25T23:45:38Z",
-          "on": 0.0267,
+          "on": 0.0272,
           "off": 0.0171,
-          "bets": 15
+          "bets": 16
         },
         {
-          "id": "discipline",
-          "emoji": "🧘",
-          "title": "Disciplined",
-          "effect": "Avoids odds above 3.5.",
-          "from": "Discipline day",
-          "since": "2026-11-26T01:00:54Z",
-          "on": 0.0391,
-          "off": 0.0192,
-          "bets": 3
+          "id": "underdog",
+          "emoji": "🐶",
+          "title": "Underdog lover",
+          "effect": "Allows underdogs at odds up to 1.0 higher.",
+          "from": "Underdog hunter",
+          "since": "2026-11-26T01:15:32Z",
+          "on": 0.0135,
+          "off": 0.0193,
+          "bets": 10
         }
       ],
       "mind": {
@@ -2786,24 +2800,24 @@
           },
           {
             "conf": "solid",
-            "n": 137,
+            "n": 138,
             "z": 0,
             "text": "The market prices overs in NBA accurately.",
-            "detail": "52% happened, 50% priced, 137 games"
+            "detail": "51% happened, 50% priced, 138 games"
           },
           {
             "conf": "solid",
-            "n": 107,
+            "n": 108,
             "z": 0,
             "text": "The market prices home wins in NBA accurately.",
-            "detail": "50% happened, 53% priced, 107 games"
+            "detail": "51% happened, 53% priced, 108 games"
           },
           {
             "conf": "solid",
-            "n": 107,
+            "n": 108,
             "z": 0,
             "text": "The market prices away wins in NBA accurately.",
-            "detail": "50% happened, 47% priced, 107 games"
+            "detail": "49% happened, 47% priced, 108 games"
           },
           {
             "conf": "solid",
@@ -2815,7 +2829,7 @@
         ],
         "rules": 0,
         "studied": 921,
-        "resolved": 859
+        "resolved": 863
       }
     },
     "shark": {
@@ -2830,10 +2844,10 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.02,
+        "min_edge": 0.015,
         "odds": [
           1.6,
-          4.0
+          5.0
         ],
         "stop_below": 250
       },
@@ -3355,47 +3369,47 @@
         "measured": 1
       },
       "reading": {
-        "week": 417,
+        "week": 411,
         "latest": [
           {
-            "t": "2026-11-25T21:50:00Z",
-            "title": "Bears vs. Lions Injury Report: Kyler Gordon Out, Tyrique Stevenson Limited",
-            "link": "https://sports.yahoo.com/nfl/articles/bears-vs-lions-injury-report-215000540.html",
+            "t": "2026-11-26T00:47:51Z",
+            "title": "Tom Brady on speed dial? Welcome to Fernando Mendoza’s world",
+            "link": "https://sports.yahoo.com/nfl/articles/tom-brady-speed-dial-welcome-004751409.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-25T21:28:20Z",
-            "title": "Giants injury news: Abdul Carter should be ‘fine’ despite missing practice",
-            "link": "https://sports.yahoo.com/nfl/articles/giants-injury-news-abdul-carter-212820995.html",
+            "t": "2026-11-26T00:31:00Z",
+            "title": "NFL Week 12 Injury Report: Drake Maye&#39;s updated timeline, Dalton Kincaid returns to practice, and more",
+            "link": "https://sports.yahoo.com/articles/nfl-week-12-injury-report-202315144.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-25T21:17:59Z",
-            "title": "Indianapolis Colts Injury Report: Week 12 Wednesday",
-            "link": "https://sports.yahoo.com/nfl/articles/indianapolis-colts-injury-report-week-211759870.html",
+            "t": "2026-11-26T00:20:31Z",
+            "title": "Patriots vs. Chargers Wednesday injury report: Four non-participants heading out of bye week",
+            "link": "https://sports.yahoo.com/nfl/articles/patriots-vs-chargers-wednesday-injury-002031876.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-25T21:12:57Z",
-            "title": "Brock Purdy is dealing with an ankle injury, status uncertain for Week 12 vs. Seahawks",
-            "link": "https://sports.yahoo.com/nfl/breaking-news/article/brock-purdy-is-dealing-with-an-ankle-injury-status-uncertain-for-week-12-vs-seahawks-211257140.html",
+            "t": "2026-11-26T00:13:12Z",
+            "title": "Josh Jacobs inactive for Wednesday night&#39;s game, Micah Parsons officially active",
+            "link": "https://sports.yahoo.com/nfl/articles/josh-jacobs-inactive-wednesday-nights-001312202.html",
             "source": "sports.yahoo.com",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-26T00:01:26Z",
+            "title": "NFL Week 12 injury report: Thanksgiving game statuses, latest updates for Sam Darnold, Brock Purdy",
+            "link": "https://www.cbssports.com/nfl/news/nfl-week-12-injury-report-updates-kenneth-walker-brock-purdy-sam-darnold/",
+            "source": "www.cbssports.com",
             "tone": -1
           },
           {
-            "t": "2026-11-25T21:12:02Z",
-            "title": "Bears rule out Kyler Gordon, Roschon Johnson",
-            "link": "https://sports.yahoo.com/nfl/articles/bears-rule-kyler-gordon-roschon-211202197.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-25T21:00:22Z",
-            "title": "49ers get a Brock Purdy injury scare with Seahawks looming",
-            "link": "https://sports.yahoo.com/nfl/articles/49ers-brock-purdy-injury-scare-210022854.html",
+            "t": "2026-11-25T23:52:36Z",
+            "title": "Chargers Injury Report: Justin Herbert does not practice, remains in protocol",
+            "link": "https://sports.yahoo.com/nfl/articles/chargers-injury-report-justin-herbert-235236415.html",
             "source": "sports.yahoo.com",
             "tone": -1
           }
@@ -3629,26 +3643,15 @@
           "bets": 1
         },
         {
-          "id": "precision",
-          "emoji": "🎯",
-          "title": "Precise",
-          "effect": "Always demands +0.5% more edge.",
-          "from": "Precision day",
-          "since": "2026-11-26T01:00:54Z",
-          "on": 0.032,
-          "off": 0.0226,
-          "bets": 2
-        },
-        {
-          "id": "new_ground",
-          "emoji": "🗺️",
-          "title": "Versatile",
-          "effect": "Keeps trying every bet type (+1 scout bet a day).",
-          "from": "New ground",
-          "since": "2026-11-26T01:00:54Z",
-          "on": 0.029,
-          "off": 0.0224,
-          "bets": 6
+          "id": "underdog",
+          "emoji": "🐶",
+          "title": "Underdog lover",
+          "effect": "Allows underdogs at odds up to 1.0 higher.",
+          "from": "Underdog hunter",
+          "since": "2026-11-26T01:15:32Z",
+          "on": 0.0278,
+          "off": 0.0222,
+          "bets": 15
         }
       ],
       "mind": {
@@ -7429,12 +7432,12 @@
       "fair_odds": 1.949,
       "edge": 0.0259,
       "stake": 2.25,
-      "status": "open",
+      "status": "won",
       "closing_fair_odds": null,
       "clv": null,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": 2.25,
+      "score": "Real Madrid 108 - 93 Žalgiris",
+      "settled_at": "2026-11-26T01:15:32Z",
       "thoughts": [
         "🧭 Exploring. I've only made 3 bets like this (EuroLeague spread bets at middle odds).",
         "Real Madrid -6.5 at 2.00 is +2.59% above fair: below my usual bar, but the only way to learn if this kind of bet works for me is to try it.",
@@ -7466,12 +7469,12 @@
       "fair_odds": 1.789,
       "edge": 0.0062,
       "stake": 2.25,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 1.826,
       "clv": -0.0144,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -2.25,
+      "score": "Saski Baskonia 86 - 81 Anadolu Efes",
+      "settled_at": "2026-11-26T01:15:32Z",
       "thoughts": [
         "🧭 Exploring. I've only made 1 bet like this (EuroLeague winner bets at favourites).",
         "Anadolu Efes at 1.80 is +0.62% above fair: below my usual bar, but the only way to learn if this kind of bet works for me is to try it.",
@@ -7542,12 +7545,12 @@
       "fair_odds": 3.07,
       "edge": 0.0587,
       "stake": 9.58,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 3.156,
       "clv": 0.0298,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -9.58,
+      "score": "Olympiacos 104 - 79 Hapoel Tel Aviv",
+      "settled_at": "2026-11-26T01:15:32Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates Hapoel Tel Aviv at 32.6%. That makes the fair price 3.07.",
         "Winamax (DE) pays 3.25. That is +5.9% above fair. My bar is +2.0%.",
@@ -11442,34 +11445,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-25T23:30:43Z",
-      "text": "🧬 🧮 The Quant dropped the 📚 Studious trait: it stopped working (+1.5% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-25T23:30:43Z",
-      "text": "🧬 🧮 The Quant dropped the 🐶 Underdog lover trait: it stopped working (+1.6% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-25T23:30:43Z",
-      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
-    },
-    {
-      "t": "2026-11-25T23:45:38Z",
-      "text": "🧬 🧮 The Quant dropped the 🧘 Disciplined trait: it stopped working (+1.3% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-25T23:45:38Z",
-      "text": "🧬 🧮 The Quant made Study day part of its character: 📚 Studious. It completed the challenge on 2026-11-25 and its bets beat the market by +6.5%. Looks a day further ahead."
-    },
-    {
-      "t": "2026-11-25T23:45:38Z",
-      "text": "🧬 🧮 The Quant made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-11 and its bets beat the market by +1.3%. Allows underdogs at odds up to 1.0 higher."
-    },
-    {
-      "t": "2026-11-25T23:45:38Z",
-      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
-    },
-    {
       "t": "2026-11-25T23:45:38Z",
       "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
     },
@@ -11560,6 +11535,34 @@
     {
       "t": "2026-11-26T01:00:54Z",
       "text": "Placed 8 practice bets:\n- The Lizard: **Corinthians** (Winner) in Corinthians vs Grêmio (Brasileirão (Brazil)) at 1.73 on GTbets, stake 7.71, edge +2.5%\n- The Lizard ⚡ pounce: **Stoke City** (Winner) in West Ham United vs Stoke City (Championship (England 2)) at 5.4 on LeoVegas (SE), stake 2.60, edge +10.2%\n- The Lizard 🧭 scout: **FC Tokyo** (Winner) in Yokohama F Marinos vs FC Tokyo (J-League (Japan)) at 1.79 on LeoVegas (SE), stake 2.25, edge +2.0%\n- The Lizard 🧭 scout: **Kyoto Purple Sanga** (Winner) in Kyoto Purple Sanga vs Cerezo Osaka (J-League (Japan)) at 2.65 on LeoVegas (SE), stake 2.25, edge +1.3%\n- The Lizard 🧭 scout: **Draw** (Winner) in Albacete vs Tenerife (La Liga 2 (Spain 2)) at 3.4 on Coolbet, stake 2.25, edge +1.8%\n- The Quant 🧭 scout: **Colorado St Rams +4** (Spread) in Colorado St Rams vs Clemson Tigers (College basketball (US)) at 1.96 on BetOnline.ag, stake 2.06, edge +0.8%\n- The Lizard 🎲 wild: **Draw** (Winner) in Los Angeles FC vs St. Louis City SC (MLS (USA)) at 4.5 on BetAnything, stake 1.13, edge +0.1%\n- The Lizard 🎲 wild: **Draw** (Winner) in Hamburger SV vs Bayern Munich (Bundesliga - Germany) at 7.5 on BetOnline.ag, stake 1.13, edge +-0.4%"
+    },
+    {
+      "t": "2026-11-26T01:15:32Z",
+      "text": "🧬 🧮 The Quant dropped the 🧘 Disciplined trait: it stopped working (+1.3% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-26T01:15:32Z",
+      "text": "🧬 🧮 The Quant made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-11 and its bets beat the market by +1.3%. Allows underdogs at odds up to 1.0 higher."
+    },
+    {
+      "t": "2026-11-26T01:15:32Z",
+      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-26T01:15:32Z",
+      "text": "🧬 🦈 The Shark dropped the 🗺️ Versatile trait: it stopped working (+0.2% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-26T01:15:32Z",
+      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
+    },
+    {
+      "t": "2026-11-26T01:15:32Z",
+      "text": "✅ 🧮 The Quant completed 🗺️ New ground: Bet Colorado St Rams +4 (spread)."
+    },
+    {
+      "t": "2026-11-26T01:15:32Z",
+      "text": "Results:\n- Lost -2.25: Anadolu Efes (Winner) in Saski Baskonia vs Anadolu Efes (Saski Baskonia 86 - 81 Anadolu Efes)\n- Won +2.25: Real Madrid -6.5 (Spread) in Real Madrid vs Žalgiris (Real Madrid 108 - 93 Žalgiris)\n- Lost -9.58: Hapoel Tel Aviv (Winner) in Olympiacos vs Hapoel Tel Aviv (Olympiacos 104 - 79 Hapoel Tel Aviv)"
     }
   ]
 }
