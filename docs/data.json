@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T04:30:54Z",
+  "updated": "2026-11-26T04:45:32Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -509,8 +509,8 @@
           "cautious": 0.0175,
           "beat": 0.6857,
           "challenges": 0.727,
-          "traits": 4,
-          "score": 32.89
+          "traits": 3,
+          "score": 30.89
         },
         {
           "who": "quant",
@@ -545,7 +545,7 @@
       "leader": "shark"
     }
   },
-  "credits_left": 16667,
+  "credits_left": 16665,
   "last_scan": "2026-11-26@1",
   "strategies": {
     "lizard": {
@@ -590,7 +590,7 @@
         "Total"
       ],
       "start_fund": 500,
-      "fund": 458.46,
+      "fund": 462.07,
       "lessons": [
         {
           "kind": "avoid",
@@ -604,12 +604,12 @@
         }
       ],
       "bets": 141,
-      "open": 36,
-      "won": 29,
+      "open": 35,
+      "won": 30,
       "lost": 76,
-      "staked": 329.13,
-      "profit": -41.54,
-      "roi": -0.1262,
+      "staked": 331.62,
+      "profit": -37.93,
+      "roi": -0.1144,
       "avg_edge": 0.0319,
       "avg_clv": 0.0045,
       "beat_close": 0.6176,
@@ -1038,6 +1038,10 @@
         {
           "t": "2026-11-26T03:01:03Z",
           "fund": 458.46
+        },
+        {
+          "t": "2026-11-26T04:45:32Z",
+          "fund": 462.07
         }
       ],
       "by_league": [
@@ -1116,8 +1120,8 @@
         {
           "name": "Championship (England 2)",
           "bets": 28,
-          "profit": -23.56,
-          "roi": -0.3172,
+          "profit": -19.95,
+          "roi": -0.2599,
           "avg_clv": 0.0017,
           "beat_close": 0.5,
           "clv_count": 26
@@ -1190,8 +1194,8 @@
         {
           "name": "Winner",
           "bets": 120,
-          "profit": -45.75,
-          "roi": -0.1721,
+          "profit": -42.14,
+          "roi": -0.1571,
           "avg_clv": 0.002,
           "beat_close": 0.5914,
           "clv_count": 93
@@ -1201,8 +1205,8 @@
         {
           "name": "Football",
           "bets": 141,
-          "profit": -41.54,
-          "roi": -0.1262,
+          "profit": -37.93,
+          "roi": -0.1144,
           "avg_clv": 0.0045,
           "beat_close": 0.6176,
           "clv_count": 102
@@ -1215,9 +1219,9 @@
         "beat": 0.4545,
         "trust": 0.1,
         "base": 0.45,
-        "won": 4,
+        "won": 5,
         "lost": 6,
-        "profit": -2.96
+        "profit": 0.65
       },
       "wild": {
         "bets": 12,
@@ -1720,7 +1724,7 @@
         "min_edge": 0.02,
         "odds": [
           1.6,
-          4.5
+          3.5
         ],
         "stop_below": 250
       },
@@ -2660,7 +2664,7 @@
           "from": "Precision day",
           "since": "2026-11-23T18:30:49Z",
           "on": 0.0324,
-          "off": 0.014,
+          "off": 0.0146,
           "bets": 24
         },
         {
@@ -2670,20 +2674,20 @@
           "effect": "Looks a day further ahead.",
           "from": "Study day",
           "since": "2026-11-25T23:45:38Z",
-          "on": 0.0272,
+          "on": 0.0291,
           "off": 0.0171,
-          "bets": 16
+          "bets": 17
         },
         {
-          "id": "underdog",
-          "emoji": "🐶",
-          "title": "Underdog lover",
-          "effect": "Allows underdogs at odds up to 1.0 higher.",
-          "from": "Underdog hunter",
-          "since": "2026-11-26T04:30:54Z",
-          "on": 0.0135,
-          "off": 0.0193,
-          "bets": 10
+          "id": "discipline",
+          "emoji": "🧘",
+          "title": "Disciplined",
+          "effect": "Avoids odds above 3.5.",
+          "from": "Discipline day",
+          "since": "2026-11-26T04:45:32Z",
+          "on": 0.0391,
+          "off": 0.0198,
+          "bets": 3
         }
       ],
       "mind": {
@@ -2858,10 +2862,10 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.02,
+        "min_edge": 0.015,
         "odds": [
           1.6,
-          4.0
+          5.0
         ],
         "stop_below": 250
       },
@@ -3657,26 +3661,15 @@
           "bets": 1
         },
         {
-          "id": "precision",
-          "emoji": "🎯",
-          "title": "Precise",
-          "effect": "Always demands +0.5% more edge.",
-          "from": "Precision day",
-          "since": "2026-11-26T04:30:54Z",
-          "on": 0.032,
-          "off": 0.0226,
-          "bets": 2
-        },
-        {
-          "id": "new_ground",
-          "emoji": "🗺️",
-          "title": "Versatile",
-          "effect": "Keeps trying every bet type (+1 scout bet a day).",
-          "from": "New ground",
-          "since": "2026-11-26T04:30:54Z",
-          "on": 0.029,
-          "off": 0.0224,
-          "bets": 6
+          "id": "underdog",
+          "emoji": "🐶",
+          "title": "Underdog lover",
+          "effect": "Allows underdogs at odds up to 1.0 higher.",
+          "from": "Underdog hunter",
+          "since": "2026-11-26T04:45:32Z",
+          "on": 0.0278,
+          "off": 0.0222,
+          "bets": 15
         }
       ],
       "mind": {
@@ -7303,12 +7296,12 @@
       "fair_odds": 2.449,
       "edge": 0.0006,
       "stake": 2.49,
-      "status": "open",
+      "status": "won",
       "closing_fair_odds": 2.153,
       "clv": 0.1377,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": 3.61,
+      "score": "Stoke City 2 - 1 Millwall",
+      "settled_at": "2026-11-26T04:45:32Z",
       "thoughts": [
         "I read that Millwall have trouble: “Hirst key for Stoke, injuries derail Millwall - Sam Parkin's EFL takeaways”. The price on Stoke City may not have caught up yet.",
         "My rules say no. But something in the grass is moving. I'm taking a nibble.",
@@ -11470,30 +11463,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-26T03:01:03Z",
-      "text": "🧬 🧮 The Quant made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-11 and its bets beat the market by +1.3%. Allows underdogs at odds up to 1.0 higher."
-    },
-    {
-      "t": "2026-11-26T03:01:03Z",
-      "text": "🧬 🦈 The Shark dropped the 🗺️ Versatile trait: it stopped working (+0.2% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-26T03:01:03Z",
-      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-26T03:01:03Z",
-      "text": "Results:\n- Won +12.63: Draw (Winner) in Pisa vs Modena (Pisa 1 - 1 Modena)\n- Lost -1.25: Arezzo (Winner) in Mantova vs Arezzo (Mantova 3 - 0 Arezzo)\n- Lost -3.06: Draw (Winner) in Padova vs Sampdoria (Padova 1 - 2 Sampdoria)"
-    },
-    {
-      "t": "2026-11-26T03:15:30Z",
-      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
-    },
-    {
-      "t": "2026-11-26T03:15:30Z",
-      "text": "🧬 🧮 The Quant dropped the 🐶 Underdog lover trait: it stopped working (+1.6% vs the market on those days)."
-    },
-    {
       "t": "2026-11-26T03:15:30Z",
       "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
     },
@@ -11588,6 +11557,30 @@
     {
       "t": "2026-11-26T04:30:54Z",
       "text": "🧬 🦈 The Shark made New ground part of its character: 🗺️ Versatile. It completed the challenge on 2026-11-13 and its bets beat the market by +2.9%. Keeps trying every bet type (+1 scout bet a day)."
+    },
+    {
+      "t": "2026-11-26T04:45:32Z",
+      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
+    },
+    {
+      "t": "2026-11-26T04:45:32Z",
+      "text": "🧬 🧮 The Quant dropped the 🐶 Underdog lover trait: it stopped working (+1.6% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-26T04:45:32Z",
+      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-26T04:45:32Z",
+      "text": "🧬 🦈 The Shark dropped the 🗺️ Versatile trait: it stopped working (+0.2% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-26T04:45:32Z",
+      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
+    },
+    {
+      "t": "2026-11-26T04:45:32Z",
+      "text": "Results:\n- Won +3.61: Stoke City (Winner) in Stoke City vs Millwall (Stoke City 2 - 1 Millwall)"
     }
   ]
 }
