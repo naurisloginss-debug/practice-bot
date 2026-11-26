@@ -51,26 +51,6 @@
   },
   "log": [
     {
-      "t": "2026-11-26T17:01:00Z",
-      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-26T17:01:00Z",
-      "text": "🧬 🦈 The Shark dropped the 🗺️ Versatile trait: it stopped working (+0.2% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-26T17:01:00Z",
-      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
-    },
-    {
-      "t": "2026-11-26T17:01:00Z",
-      "text": "Placed 4 practice bets:\n- The Lizard: **Colchester United** (Winner) in Colchester United vs York City (League Two (England 4)) at 3.15 on Unibet (SE), stake 2.92, edge +2.7%\n- The Quant: **South Carolina Gamecocks** (Winner) in Arizona St Sun Devils vs South Carolina Gamecocks (College basketball (US)) at 2.9 on Nordic Bet, stake 10.25, edge +5.3%\n- The Quant: **Baylor Bears** (Winner) in Gonzaga Bulldogs vs Baylor Bears (College basketball (US)) at 2.6 on Everygame, stake 5.38, edge +2.3%\n- The Shark ⚡ pounce: **Temple Owls** (Winner) in Memphis Tigers vs Temple Owls (College football (US)) at 8.6 on Matchbook, stake 2.50, edge +12.8%"
-    },
-    {
-      "t": "2026-11-26T17:15:35Z",
-      "text": "🧬 🧮 The Quant dropped the 🧘 Disciplined trait: it stopped working (+1.3% vs the market on those days)."
-    },
-    {
       "t": "2026-11-26T17:15:35Z",
       "text": "🧬 🧮 The Quant made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-11 and its bets beat the market by +1.3%. Allows underdogs at odds up to 1.0 higher."
     },
@@ -169,6 +149,26 @@
     {
       "t": "2026-11-26T18:30:47Z",
       "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-26T18:45:32Z",
+      "text": "🧬 🧮 The Quant dropped the 🧘 Disciplined trait: it stopped working (+1.3% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-26T18:45:32Z",
+      "text": "🧬 🧮 The Quant made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-11 and its bets beat the market by +1.3%. Allows underdogs at odds up to 1.0 higher."
+    },
+    {
+      "t": "2026-11-26T18:45:32Z",
+      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-26T18:45:32Z",
+      "text": "🧬 🦈 The Shark made New ground part of its character: 🗺️ Versatile. It completed the challenge on 2026-11-13 and its bets beat the market by +2.9%. Keeps trying every bet type (+1 scout bet a day)."
+    },
+    {
+      "t": "2026-11-26T18:45:32Z",
+      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
     }
   ],
   "levels": {
@@ -3069,20 +3069,20 @@
       "precision": {
         "since": "2026-11-23T18:30:49Z",
         "on": 0.0324,
-        "off": 0.0141,
+        "off": 0.0148,
         "bets": 24
       },
       "study": {
         "since": "2026-11-25T23:45:38Z",
         "on": 0.0291,
-        "off": 0.0165,
+        "off": 0.0171,
         "bets": 17
       },
-      "discipline": {
-        "since": "2026-11-26T18:30:47Z",
-        "on": 0.0391,
-        "off": 0.0193,
-        "bets": 3
+      "underdog": {
+        "since": "2026-11-26T18:45:32Z",
+        "on": 0.0135,
+        "off": 0.0197,
+        "bets": 10
       }
     },
     "shark": {
@@ -3098,11 +3098,17 @@
         "off": 0.0184,
         "bets": 1
       },
-      "precision": {
-        "since": "2026-11-26T18:30:47Z",
-        "on": 0.032,
+      "new_ground": {
+        "since": "2026-11-26T18:45:32Z",
+        "on": 0.029,
         "off": 0.0206,
-        "bets": 2
+        "bets": 6
+      },
+      "underdog": {
+        "since": "2026-11-26T18:45:32Z",
+        "on": 0.0278,
+        "off": 0.0196,
+        "bets": 15
       }
     }
   },
