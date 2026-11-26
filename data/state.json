@@ -1,6 +1,6 @@
 {
   "last_scan": "2026-11-26@9",
-  "credits_left": 16558,
+  "credits_left": 16556,
   "league_names": {
     "soccer_italy_serie_b": "Serie B (Italy 2)",
     "soccer_efl_champ": "Championship (England 2)",
@@ -31,7 +31,7 @@
     "soccer_germany_bundesliga2": "2026-11-22T15:30:49Z",
     "soccer_france_ligue_one": "2026-11-22T23:00:57Z",
     "soccer_spain_segunda_division": "2026-11-23T22:30:47Z",
-    "americanfootball_nfl": "2026-11-26T04:00:54Z",
+    "americanfootball_nfl": "2026-11-26T10:00:58Z",
     "soccer_italy_serie_b": "2026-11-26T03:01:03Z",
     "basketball_nba": "2026-11-26T07:15:33Z",
     "basketball_euroleague": "2026-11-26T01:15:32Z",
@@ -50,26 +50,6 @@
     "americanfootball_ncaaf_fcs": "2026-11-22T08:30:53Z"
   },
   "log": [
-    {
-      "t": "2026-11-26T08:15:42Z",
-      "text": "🧬 🦈 The Shark made New ground part of its character: 🗺️ Versatile. It completed the challenge on 2026-11-13 and its bets beat the market by +2.9%. Keeps trying every bet type (+1 scout bet a day)."
-    },
-    {
-      "t": "2026-11-26T08:15:42Z",
-      "text": "Results:\n- Won +12.77: Wake Forest Demon Deacons (Winner) in Mississippi St Bulldogs vs Wake Forest Demon Deacons (Mississippi St Bulldogs 71 - 78 Wake Forest Demon Deacons)\n- Lost -8.30: SIU-Edwardsville Cougars (Winner) in SIU-Edwardsville Cougars vs Northern Illinois Huskies (SIU-Edwardsville Cougars 65 - 68 Northern Illinois Huskies)\n- Lost -4.76: Penn State Nittany Lions (Winner) in Penn State Nittany Lions vs Memphis Tigers (Penn State Nittany Lions 70 - 83 Memphis Tigers)\n- Won +24.34: Bellarmine Knights (Winner) in Northern Kentucky Norse vs Bellarmine Knights (Northern Kentucky Norse 52 - 66 Bellarmine Knights)\n- Lost -18.76: Stanford Cardinal (Winner) in Saint Louis Billikens vs Stanford Cardinal (Saint Louis Billikens 66 - 64 Stanford Cardinal)"
-    },
-    {
-      "t": "2026-11-26T08:30:47Z",
-      "text": "🧬 🧮 The Quant dropped the 🧘 Disciplined trait: it stopped working (+1.3% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-26T08:30:47Z",
-      "text": "🧬 🧮 The Quant made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-11 and its bets beat the market by +1.3%. Allows underdogs at odds up to 1.0 higher."
-    },
-    {
-      "t": "2026-11-26T08:30:47Z",
-      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
-    },
     {
       "t": "2026-11-26T08:30:47Z",
       "text": "🧬 🦈 The Shark dropped the 🗺️ Versatile trait: it stopped working (+0.2% vs the market on those days)."
@@ -169,6 +149,26 @@
     {
       "t": "2026-11-26T09:45:31Z",
       "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
+    },
+    {
+      "t": "2026-11-26T10:00:58Z",
+      "text": "🧬 🧮 The Quant dropped the 🧘 Disciplined trait: it stopped working (+1.3% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-26T10:00:58Z",
+      "text": "🧬 🧮 The Quant made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-11 and its bets beat the market by +1.3%. Allows underdogs at odds up to 1.0 higher."
+    },
+    {
+      "t": "2026-11-26T10:00:58Z",
+      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
+    },
+    {
+      "t": "2026-11-26T10:00:58Z",
+      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-26T10:00:58Z",
+      "text": "Results:\n- Won +1.65: Los Angeles Rams (Winner) in Los Angeles Rams vs Green Bay Packers (Los Angeles Rams 26 - 13 Green Bay Packers)\n- Lost -9.86: Green Bay Packers +2.5 (Spread) in Los Angeles Rams vs Green Bay Packers (Los Angeles Rams 26 - 13 Green Bay Packers)"
     }
   ],
   "levels": {
@@ -3078,11 +3078,11 @@
         "off": 0.0166,
         "bets": 17
       },
-      "discipline": {
-        "since": "2026-11-26T09:45:31Z",
-        "on": 0.0391,
-        "off": 0.0193,
-        "bets": 3
+      "underdog": {
+        "since": "2026-11-26T10:00:58Z",
+        "on": 0.0135,
+        "off": 0.0192,
+        "bets": 10
       }
     },
     "shark": {
@@ -3098,11 +3098,11 @@
         "off": 0.02,
         "bets": 1
       },
-      "underdog": {
-        "since": "2026-11-26T09:45:31Z",
-        "on": 0.0278,
-        "off": 0.0222,
-        "bets": 15
+      "precision": {
+        "since": "2026-11-26T10:00:58Z",
+        "on": 0.032,
+        "off": 0.0226,
+        "bets": 2
       }
     }
   },
