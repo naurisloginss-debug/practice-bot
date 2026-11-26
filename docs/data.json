@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T20:30:47Z",
+  "updated": "2026-11-26T20:45:33Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -12,7 +12,7 @@
       "lizard",
       "shark"
     ],
-    "grower": "lizard",
+    "grower": "quant",
     "talk": [
       {
         "who": "quant",
@@ -211,8 +211,8 @@
         ]
       },
       "quant": {
-        "iq": 148,
-        "iq_gain": 5,
+        "iq": 150,
+        "iq_gain": 7,
         "streak": 1,
         "best_streak": 9,
         "achievements": [
@@ -334,7 +334,7 @@
             "pending": false
           }
         ],
-        "score": 235,
+        "score": 237,
         "trophies": [
           {
             "kind": "grower",
@@ -545,7 +545,7 @@
       "leader": "shark"
     }
   },
-  "credits_left": 16446,
+  "credits_left": 16444,
   "last_scan": "2026-11-26@17",
   "strategies": {
     "lizard": {
@@ -1735,7 +1735,7 @@
         "min_edge": 0.02,
         "odds": [
           1.6,
-          4.5
+          3.5
         ],
         "stop_below": 250
       },
@@ -1750,7 +1750,7 @@
         "Winner"
       ],
       "start_fund": 500,
-      "fund": 412.48,
+      "fund": 416.16,
       "lessons": [
         {
           "kind": "favour",
@@ -1774,12 +1774,12 @@
         }
       ],
       "bets": 147,
-      "open": 6,
-      "won": 53,
+      "open": 5,
+      "won": 54,
       "lost": 88,
-      "staked": 827.38,
-      "profit": -87.52,
-      "roi": -0.1058,
+      "staked": 829.46,
+      "profit": -83.84,
+      "roi": -0.1011,
       "avg_edge": 0.0311,
       "avg_clv": 0.0202,
       "beat_close": 0.5798,
@@ -2352,6 +2352,10 @@
         {
           "t": "2026-11-26T14:30:48Z",
           "fund": 412.48
+        },
+        {
+          "t": "2026-11-26T20:45:33Z",
+          "fund": 416.16
         }
       ],
       "by_league": [
@@ -2367,8 +2371,8 @@
         {
           "name": "College basketball (US)",
           "bets": 95,
-          "profit": -31.2,
-          "roi": -0.0472,
+          "profit": -27.52,
+          "roi": -0.0415,
           "avg_clv": 0.0179,
           "beat_close": 0.5616,
           "clv_count": 73
@@ -2387,8 +2391,8 @@
         {
           "name": "Winner",
           "bets": 106,
-          "profit": -59.46,
-          "roi": -0.1765,
+          "profit": -55.78,
+          "roi": -0.1646,
           "avg_clv": 0.0252,
           "beat_close": 0.6117,
           "clv_count": 103
@@ -2416,8 +2420,8 @@
         {
           "name": "Basketball",
           "bets": 147,
-          "profit": -87.52,
-          "roi": -0.1058,
+          "profit": -83.84,
+          "roi": -0.1011,
           "avg_clv": 0.0202,
           "beat_close": 0.5798,
           "clv_count": 119
@@ -2430,9 +2434,9 @@
         "beat": 0.4737,
         "trust": 0.702,
         "base": 0.4,
-        "won": 7,
+        "won": 8,
         "lost": 11,
-        "profit": -5.82
+        "profit": -2.14
       },
       "wild": {
         "bets": 8,
@@ -2730,20 +2734,20 @@
           "bets": 17
         },
         {
-          "id": "underdog",
-          "emoji": "🐶",
-          "title": "Underdog lover",
-          "effect": "Allows underdogs at odds up to 1.0 higher.",
-          "from": "Underdog hunter",
-          "since": "2026-11-26T20:30:47Z",
-          "on": 0.0135,
-          "off": 0.0197,
-          "bets": 10
+          "id": "discipline",
+          "emoji": "🧘",
+          "title": "Disciplined",
+          "effect": "Avoids odds above 3.5.",
+          "from": "Discipline day",
+          "since": "2026-11-26T20:45:33Z",
+          "on": 0.0391,
+          "off": 0.0198,
+          "bets": 3
         }
       ],
       "mind": {
-        "iq": 148,
-        "iq_week": 26,
+        "iq": 150,
+        "iq_week": 28,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -2835,7 +2839,7 @@
           },
           {
             "d": "2026-11-26",
-            "iq": 148
+            "iq": 150
           }
         ],
         "facts": [
@@ -2848,10 +2852,10 @@
           },
           {
             "conf": "solid",
-            "n": 723,
+            "n": 726,
             "z": 0,
             "text": "The market prices overs in College basketball (US) accurately.",
-            "detail": "49% happened, 50% priced, 723 games"
+            "detail": "49% happened, 50% priced, 726 games"
           },
           {
             "conf": "solid",
@@ -2859,6 +2863,20 @@
             "z": 0,
             "text": "Betfair is the softest bookmaker in NBA.",
             "detail": "beats fair by 2%+ on 4% of its prices vs 1% across all bookmakers"
+          },
+          {
+            "conf": "solid",
+            "n": 543,
+            "z": 0,
+            "text": "The market prices home wins in College basketball (US) accurately.",
+            "detail": "58% happened, 60% priced, 543 games"
+          },
+          {
+            "conf": "solid",
+            "n": 543,
+            "z": 0,
+            "text": "The market prices away wins in College basketball (US) accurately.",
+            "detail": "42% happened, 40% priced, 543 games"
           },
           {
             "conf": "solid",
@@ -2898,7 +2916,7 @@
         ],
         "rules": 0,
         "studied": 941,
-        "resolved": 921
+        "resolved": 924
       }
     },
     "shark": {
@@ -2913,10 +2931,10 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.015,
+        "min_edge": 0.02,
         "odds": [
           1.6,
-          5.0
+          4.0
         ],
         "stop_below": 250
       },
@@ -3720,15 +3738,15 @@
           "bets": 1
         },
         {
-          "id": "underdog",
-          "emoji": "🐶",
-          "title": "Underdog lover",
-          "effect": "Allows underdogs at odds up to 1.0 higher.",
-          "from": "Underdog hunter",
-          "since": "2026-11-26T20:30:47Z",
-          "on": 0.0278,
-          "off": 0.0196,
-          "bets": 15
+          "id": "precision",
+          "emoji": "🎯",
+          "title": "Precise",
+          "effect": "Always demands +0.5% more edge.",
+          "from": "Precision day",
+          "since": "2026-11-26T20:45:33Z",
+          "on": 0.032,
+          "off": 0.0206,
+          "bets": 2
         }
       ],
       "mind": {
@@ -7425,12 +7443,12 @@
       "fair_odds": 2.737,
       "edge": 0.0121,
       "stake": 2.08,
-      "status": "open",
+      "status": "won",
       "closing_fair_odds": 2.839,
       "clv": -0.0243,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": 3.68,
+      "score": "Purdue Boilermakers 63 - 70 Oklahoma Sooners",
+      "settled_at": "2026-11-26T20:45:33Z",
       "thoughts": [
         "Only +1.21% edge, just under my +2.0% bar. Can't prove it, but I like it.",
         "My rules say no. The model says no. The 2% of me that isn't a model says try it.",
@@ -11517,26 +11535,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-26T19:15:36Z",
-      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
-    },
-    {
-      "t": "2026-11-26T19:15:36Z",
-      "text": "🧬 🦈 The Shark made New ground part of its character: 🗺️ Versatile. It completed the challenge on 2026-11-13 and its bets beat the market by +2.9%. Keeps trying every bet type (+1 scout bet a day)."
-    },
-    {
-      "t": "2026-11-26T19:30:47Z",
-      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
-    },
-    {
-      "t": "2026-11-26T19:30:47Z",
-      "text": "🧬 🧮 The Quant dropped the 🐶 Underdog lover trait: it stopped working (+1.6% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-26T19:30:47Z",
-      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
-    },
-    {
       "t": "2026-11-26T19:30:47Z",
       "text": "🧬 🦈 The Shark dropped the 🗺️ Versatile trait: it stopped working (+0.2% vs the market on those days)."
     },
@@ -11635,6 +11633,26 @@
     {
       "t": "2026-11-26T20:30:47Z",
       "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
+    },
+    {
+      "t": "2026-11-26T20:45:33Z",
+      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
+    },
+    {
+      "t": "2026-11-26T20:45:33Z",
+      "text": "🧬 🧮 The Quant dropped the 🐶 Underdog lover trait: it stopped working (+1.6% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-26T20:45:33Z",
+      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
+    },
+    {
+      "t": "2026-11-26T20:45:33Z",
+      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-26T20:45:33Z",
+      "text": "Results:\n- Won +3.68: Oklahoma Sooners (Winner) in Purdue Boilermakers vs Oklahoma Sooners (Purdue Boilermakers 63 - 70 Oklahoma Sooners)"
     }
   ]
 }

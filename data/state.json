@@ -1,6 +1,6 @@
 {
   "last_scan": "2026-11-26@17",
-  "credits_left": 16446,
+  "credits_left": 16444,
   "league_names": {
     "soccer_italy_serie_b": "Serie B (Italy 2)",
     "soccer_efl_champ": "Championship (England 2)",
@@ -36,7 +36,7 @@
     "basketball_nba": "2026-11-26T07:15:33Z",
     "basketball_euroleague": "2026-11-26T01:15:32Z",
     "americanfootball_ncaaf": "2026-11-25T09:00:56Z",
-    "basketball_ncaab": "2026-11-26T14:30:48Z",
+    "basketball_ncaab": "2026-11-26T20:45:33Z",
     "basketball_nbl": "2026-11-15T13:15:30Z",
     "soccer_england_league2": "2026-11-24T22:45:31Z",
     "soccer_england_league1": "2026-11-24T22:45:31Z",
@@ -50,26 +50,6 @@
     "americanfootball_ncaaf_fcs": "2026-11-22T08:30:53Z"
   },
   "log": [
-    {
-      "t": "2026-11-26T19:15:36Z",
-      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
-    },
-    {
-      "t": "2026-11-26T19:15:36Z",
-      "text": "🧬 🦈 The Shark made New ground part of its character: 🗺️ Versatile. It completed the challenge on 2026-11-13 and its bets beat the market by +2.9%. Keeps trying every bet type (+1 scout bet a day)."
-    },
-    {
-      "t": "2026-11-26T19:30:47Z",
-      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
-    },
-    {
-      "t": "2026-11-26T19:30:47Z",
-      "text": "🧬 🧮 The Quant dropped the 🐶 Underdog lover trait: it stopped working (+1.6% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-26T19:30:47Z",
-      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
-    },
     {
       "t": "2026-11-26T19:30:47Z",
       "text": "🧬 🦈 The Shark dropped the 🗺️ Versatile trait: it stopped working (+0.2% vs the market on those days)."
@@ -169,6 +149,26 @@
     {
       "t": "2026-11-26T20:30:47Z",
       "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
+    },
+    {
+      "t": "2026-11-26T20:45:33Z",
+      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
+    },
+    {
+      "t": "2026-11-26T20:45:33Z",
+      "text": "🧬 🧮 The Quant dropped the 🐶 Underdog lover trait: it stopped working (+1.6% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-26T20:45:33Z",
+      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
+    },
+    {
+      "t": "2026-11-26T20:45:33Z",
+      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-26T20:45:33Z",
+      "text": "Results:\n- Won +3.68: Oklahoma Sooners (Winner) in Purdue Boilermakers vs Oklahoma Sooners (Purdue Boilermakers 63 - 70 Oklahoma Sooners)"
     }
   ],
   "levels": {
@@ -487,7 +487,7 @@
       },
       {
         "d": "2026-11-26",
-        "iq": 148
+        "iq": 150
       }
     ],
     "shark": [
@@ -3084,11 +3084,11 @@
         "off": 0.0171,
         "bets": 17
       },
-      "underdog": {
-        "since": "2026-11-26T20:30:47Z",
-        "on": 0.0135,
-        "off": 0.0197,
-        "bets": 10
+      "discipline": {
+        "since": "2026-11-26T20:45:33Z",
+        "on": 0.0391,
+        "off": 0.0198,
+        "bets": 3
       }
     },
     "shark": {
@@ -3104,11 +3104,11 @@
         "off": 0.0184,
         "bets": 1
       },
-      "underdog": {
-        "since": "2026-11-26T20:30:47Z",
-        "on": 0.0278,
-        "off": 0.0196,
-        "bets": 15
+      "precision": {
+        "since": "2026-11-26T20:45:33Z",
+        "on": 0.032,
+        "off": 0.0206,
+        "bets": 2
       }
     }
   },
