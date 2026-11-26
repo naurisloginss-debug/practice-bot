@@ -51,22 +51,6 @@
   },
   "log": [
     {
-      "t": "2026-11-26T01:45:30Z",
-      "text": "🧬 🦈 The Shark made New ground part of its character: 🗺️ Versatile. It completed the challenge on 2026-11-13 and its bets beat the market by +2.9%. Keeps trying every bet type (+1 scout bet a day)."
-    },
-    {
-      "t": "2026-11-26T01:45:30Z",
-      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
-    },
-    {
-      "t": "2026-11-26T02:01:03Z",
-      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
-    },
-    {
-      "t": "2026-11-26T02:01:03Z",
-      "text": "🧬 🧮 The Quant dropped the 🐶 Underdog lover trait: it stopped working (+1.6% vs the market on those days)."
-    },
-    {
       "t": "2026-11-26T02:01:03Z",
       "text": "🧬 🦈 The Shark dropped the 🗺️ Versatile trait: it stopped working (+0.2% vs the market on those days)."
     },
@@ -169,6 +153,22 @@
     {
       "t": "2026-11-26T03:01:03Z",
       "text": "Results:\n- Won +12.63: Draw (Winner) in Pisa vs Modena (Pisa 1 - 1 Modena)\n- Lost -1.25: Arezzo (Winner) in Mantova vs Arezzo (Mantova 3 - 0 Arezzo)\n- Lost -3.06: Draw (Winner) in Padova vs Sampdoria (Padova 1 - 2 Sampdoria)"
+    },
+    {
+      "t": "2026-11-26T03:15:30Z",
+      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
+    },
+    {
+      "t": "2026-11-26T03:15:30Z",
+      "text": "🧬 🧮 The Quant dropped the 🐶 Underdog lover trait: it stopped working (+1.6% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-26T03:15:30Z",
+      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
+    },
+    {
+      "t": "2026-11-26T03:15:30Z",
+      "text": "🧬 🦈 The Shark made New ground part of its character: 🗺️ Versatile. It completed the challenge on 2026-11-13 and its bets beat the market by +2.9%. Keeps trying every bet type (+1 scout bet a day)."
     }
   ],
   "levels": {
@@ -3078,11 +3078,11 @@
         "off": 0.0171,
         "bets": 16
       },
-      "underdog": {
-        "since": "2026-11-26T03:01:03Z",
-        "on": 0.0135,
-        "off": 0.0193,
-        "bets": 10
+      "discipline": {
+        "since": "2026-11-26T03:15:30Z",
+        "on": 0.0391,
+        "off": 0.0194,
+        "bets": 3
       }
     },
     "shark": {
@@ -3097,6 +3097,18 @@
         "on": 0.0329,
         "off": 0.02,
         "bets": 1
+      },
+      "precision": {
+        "since": "2026-11-26T03:15:30Z",
+        "on": 0.032,
+        "off": 0.0226,
+        "bets": 2
+      },
+      "new_ground": {
+        "since": "2026-11-26T03:15:30Z",
+        "on": 0.029,
+        "off": 0.0224,
+        "bets": 6
       }
     }
   },
