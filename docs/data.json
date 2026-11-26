@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T04:15:31Z",
+  "updated": "2026-11-26T04:30:54Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -213,7 +213,7 @@
       "quant": {
         "iq": 148,
         "iq_gain": 5,
-        "streak": 0,
+        "streak": 1,
         "best_streak": 9,
         "achievements": [
           {
@@ -324,12 +324,12 @@
           {
             "text": "Bets checked against the market",
             "target": 49,
-            "now": 39
+            "now": 40
           },
           {
             "text": "Beat the market on",
             "target": 55,
-            "now": 74,
+            "now": 75,
             "unit": "%",
             "pending": false
           }
@@ -509,20 +509,20 @@
           "cautious": 0.0175,
           "beat": 0.6857,
           "challenges": 0.727,
-          "traits": 2,
-          "score": 28.89
+          "traits": 4,
+          "score": 32.89
         },
         {
           "who": "quant",
           "eligible": true,
-          "measured": 72,
+          "measured": 73,
           "need": 0,
-          "clv": 0.0214,
-          "cautious": 0.0135,
-          "beat": 0.6389,
+          "clv": 0.0219,
+          "cautious": 0.0141,
+          "beat": 0.6438,
           "challenges": 0.643,
           "traits": 3,
-          "score": 25.45
+          "score": 26.15
         },
         {
           "who": "lizard",
@@ -545,7 +545,7 @@
       "leader": "shark"
     }
   },
-  "credits_left": 16668,
+  "credits_left": 16667,
   "last_scan": "2026-11-26@1",
   "strategies": {
     "lizard": {
@@ -1237,7 +1237,7 @@
         "measured": 2
       },
       "reading": {
-        "week": 102,
+        "week": 110,
         "latest": [
           {
             "t": "2026-11-25T23:16:18Z",
@@ -1275,10 +1275,10 @@
             "tone": 1
           },
           {
-            "t": "2026-11-25T15:12:49Z",
-            "title": "Championship survival behind sackings - Imps CEO",
-            "link": "https://www.bbc.co.uk/sport/football/articles/cm0l34j8d54yo?at_medium=RSS&at_campaign=rss",
-            "source": "feeds.bbci.co.uk",
+            "t": "2026-11-25T13:44:55Z",
+            "title": "Milan injury list rises to nine as Bartesaghi pulls up in training before Olympiacos",
+            "link": "https://football-italia.net/milan-injury-list-rises-to-nine-bartesaghi/",
+            "source": "football-italia.net",
             "tone": -1
           }
         ]
@@ -1720,7 +1720,7 @@
         "min_edge": 0.02,
         "odds": [
           1.6,
-          3.5
+          4.5
         ],
         "stop_below": 250
       },
@@ -1745,7 +1745,7 @@
         {
           "kind": "favour",
           "text": "Backing harder: all leagues · winner · middle odds",
-          "detail": "+2.4% vs the market, beat it on 65% of 54 bets"
+          "detail": "+2.5% vs the market, beat it on 65% of 55 bets"
         },
         {
           "kind": "favour",
@@ -1755,7 +1755,7 @@
         {
           "kind": "favour",
           "text": "Backing harder: College basketball (US) · winner",
-          "detail": "+3.1% vs the market, beat it on 64% of 44 bets"
+          "detail": "+3.2% vs the market, beat it on 64% of 45 bets"
         }
       ],
       "bets": 141,
@@ -1766,9 +1766,9 @@
       "profit": -84.01,
       "roi": -0.1096,
       "avg_edge": 0.0312,
-      "avg_clv": 0.0208,
-      "beat_close": 0.5841,
-      "clv_count": 113,
+      "avg_clv": 0.0211,
+      "beat_close": 0.5877,
+      "clv_count": 114,
       "history": [
         {
           "t": "2026-11-10T21:01:26Z",
@@ -2314,9 +2314,9 @@
           "bets": 89,
           "profit": -38.47,
           "roi": -0.0629,
-          "avg_clv": 0.0188,
-          "beat_close": 0.5672,
-          "clv_count": 67
+          "avg_clv": 0.0194,
+          "beat_close": 0.5735,
+          "clv_count": 68
         },
         {
           "name": "EuroLeague",
@@ -2343,9 +2343,9 @@
           "bets": 100,
           "profit": -56.01,
           "roi": -0.1999,
-          "avg_clv": 0.0258,
-          "beat_close": 0.6122,
-          "clv_count": 98
+          "avg_clv": 0.0261,
+          "beat_close": 0.6162,
+          "clv_count": 99
         },
         {
           "name": "Total",
@@ -2363,9 +2363,9 @@
           "bets": 141,
           "profit": -84.01,
           "roi": -0.1096,
-          "avg_clv": 0.0208,
-          "beat_close": 0.5841,
-          "clv_count": 113
+          "avg_clv": 0.0211,
+          "beat_close": 0.5877,
+          "clv_count": 114
         }
       ],
       "gut": {
@@ -2397,8 +2397,15 @@
         "measured": 0
       },
       "reading": {
-        "week": 87,
+        "week": 84,
         "latest": [
+          {
+            "t": "2026-11-26T03:25:03Z",
+            "title": "LaMelo Ball injury update: Timberwolves star hurt late in win vs. Thunder",
+            "link": "https://sports.yahoo.com/nba/articles/lamelo-ball-injury-timberwolves-star-032503462.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
           {
             "t": "2026-11-26T00:42:00Z",
             "title": "NBA Cup 2026: LeBron James nabs triple-double as 76ers snap Heat&#39;s 7-game win streak despite losing Jaylen Brown to hamstring injury",
@@ -2431,13 +2438,6 @@
             "t": "2026-11-25T16:30:00Z",
             "title": "Cavs at Knicks: How to watch, odds, and injury report",
             "link": "https://sports.yahoo.com/nba/articles/cavs-knicks-watch-odds-injury-163000025.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-25T16:14:38Z",
-            "title": "2026-27 NBA Minutes Report: Brandon Ingram returns, Cameron Boozer is sidelined, more",
-            "link": "https://sports.yahoo.com/nba/articles/2026-27-nba-minutes-report-161438611.html",
             "source": "sports.yahoo.com",
             "tone": -1
           }
@@ -2496,9 +2496,9 @@
         "badge": "⚡",
         "stake": 1.15,
         "perk": "Stakes +15%. Consistently beats the market.",
-        "measured": 72,
-        "clv": 0.0214,
-        "beat": 0.6389,
+        "measured": 73,
+        "clv": 0.0219,
+        "beat": 0.6438,
         "cold": false,
         "next": {
           "title": "Mastermind",
@@ -2508,7 +2508,7 @@
             {
               "text": "100 measured bets",
               "done": false,
-              "now": "72"
+              "now": "73"
             },
             {
               "text": "beat the market on 57%+",
@@ -2518,10 +2518,10 @@
             {
               "text": "average price +1.5%+ vs market",
               "done": true,
-              "now": "+2.1%"
+              "now": "+2.2%"
             }
           ],
-          "progress": 0.72
+          "progress": 0.73
         }
       },
       "explorer": {
@@ -2675,15 +2675,15 @@
           "bets": 16
         },
         {
-          "id": "discipline",
-          "emoji": "🧘",
-          "title": "Disciplined",
-          "effect": "Avoids odds above 3.5.",
-          "from": "Discipline day",
-          "since": "2026-11-26T04:15:31Z",
-          "on": 0.0391,
-          "off": 0.0194,
-          "bets": 3
+          "id": "underdog",
+          "emoji": "🐶",
+          "title": "Underdog lover",
+          "effect": "Allows underdogs at odds up to 1.0 higher.",
+          "from": "Underdog hunter",
+          "since": "2026-11-26T04:30:54Z",
+          "on": 0.0135,
+          "off": 0.0193,
+          "bets": 10
         }
       ],
       "mind": {
@@ -2835,10 +2835,10 @@
           },
           {
             "conf": "solid",
-            "n": 89,
+            "n": 90,
             "z": 0,
             "text": "When I find value, the market moves my way before kick-off 61% of the time.",
-            "detail": "89 bets measured"
+            "detail": "90 bets measured"
           }
         ],
         "rules": 0,
@@ -2858,7 +2858,7 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.015,
+        "min_edge": 0.02,
         "odds": [
           1.6,
           4.0
@@ -3383,47 +3383,47 @@
         "measured": 1
       },
       "reading": {
-        "week": 411,
+        "week": 406,
         "latest": [
           {
-            "t": "2026-11-26T00:47:51Z",
-            "title": "Tom Brady on speed dial? Welcome to Fernando Mendoza’s world",
-            "link": "https://sports.yahoo.com/nfl/articles/tom-brady-speed-dial-welcome-004751409.html",
+            "t": "2026-11-26T04:07:27Z",
+            "title": "Desean Bishop, Arion Carter land on injury report for Tennessee vs. Vanderbilt",
+            "link": "https://sports.yahoo.com/college-football/articles/desean-bishop-arion-carter-land-040727656.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-26T00:31:00Z",
-            "title": "NFL Week 12 Injury Report: Drake Maye&#39;s updated timeline, Dalton Kincaid returns to practice, and more",
-            "link": "https://sports.yahoo.com/articles/nfl-week-12-injury-report-202315144.html",
+            "t": "2026-11-26T03:32:38Z",
+            "title": "Davis Allen won&#39;t return against Packers",
+            "link": "https://sports.yahoo.com/nfl/articles/davis-allen-wont-return-against-033238855.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-26T00:20:31Z",
-            "title": "Patriots vs. Chargers Wednesday injury report: Four non-participants heading out of bye week",
-            "link": "https://sports.yahoo.com/nfl/articles/patriots-vs-chargers-wednesday-injury-002031876.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-26T00:13:12Z",
-            "title": "Josh Jacobs inactive for Wednesday night&#39;s game, Micah Parsons officially active",
-            "link": "https://sports.yahoo.com/nfl/articles/josh-jacobs-inactive-wednesday-nights-001312202.html",
+            "t": "2026-11-26T03:20:29Z",
+            "title": "Christian Watson won&#39;t return against Rams",
+            "link": "https://sports.yahoo.com/nfl/articles/christian-watson-wont-return-against-032029226.html",
             "source": "sports.yahoo.com",
             "tone": 1
           },
           {
-            "t": "2026-11-26T00:01:26Z",
-            "title": "NFL Week 12 injury report: Thanksgiving game statuses, latest updates for Sam Darnold, Brock Purdy",
-            "link": "https://www.cbssports.com/nfl/news/nfl-week-12-injury-report-updates-kenneth-walker-brock-purdy-sam-darnold/",
-            "source": "www.cbssports.com",
+            "t": "2026-11-26T03:11:09Z",
+            "title": "UCLA QB Ty Dieffenbach officially questionable for Battle of Los Angeles vs. USC",
+            "link": "https://sports.yahoo.com/college-football/articles/ucla-qb-ty-dieffenbach-officially-031109416.html",
+            "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-25T23:52:36Z",
-            "title": "Chargers Injury Report: Justin Herbert does not practice, remains in protocol",
-            "link": "https://sports.yahoo.com/nfl/articles/chargers-injury-report-justin-herbert-235236415.html",
+            "t": "2026-11-26T03:09:45Z",
+            "title": "Christian Watson ruled out with a concussion",
+            "link": "https://sports.yahoo.com/nfl/articles/christian-watson-ruled-concussion-030945116.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-26T02:56:25Z",
+            "title": "Jaxon Smith-Njigba limited Wednesday",
+            "link": "https://sports.yahoo.com/nfl/articles/jaxon-smith-njigba-limited-wednesday-025625183.html",
             "source": "sports.yahoo.com",
             "tone": -1
           }
@@ -3655,6 +3655,28 @@
           "on": 0.0329,
           "off": 0.02,
           "bets": 1
+        },
+        {
+          "id": "precision",
+          "emoji": "🎯",
+          "title": "Precise",
+          "effect": "Always demands +0.5% more edge.",
+          "from": "Precision day",
+          "since": "2026-11-26T04:30:54Z",
+          "on": 0.032,
+          "off": 0.0226,
+          "bets": 2
+        },
+        {
+          "id": "new_ground",
+          "emoji": "🗺️",
+          "title": "Versatile",
+          "effect": "Keeps trying every bet type (+1 scout bet a day).",
+          "from": "New ground",
+          "since": "2026-11-26T04:30:54Z",
+          "on": 0.029,
+          "off": 0.0224,
+          "bets": 6
         }
       ],
       "mind": {
@@ -6813,8 +6835,8 @@
       "edge": 0.0868,
       "stake": 18.76,
       "status": "open",
-      "closing_fair_odds": null,
-      "clv": null,
+      "closing_fair_odds": 2.551,
+      "clv": 0.0586,
       "profit": 0.0,
       "score": null,
       "settled_at": null,
@@ -11448,22 +11470,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-26T02:45:30Z",
-      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-26T02:45:30Z",
-      "text": "🧬 🦈 The Shark made New ground part of its character: 🗺️ Versatile. It completed the challenge on 2026-11-13 and its bets beat the market by +2.9%. Keeps trying every bet type (+1 scout bet a day)."
-    },
-    {
-      "t": "2026-11-26T02:45:30Z",
-      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
-    },
-    {
-      "t": "2026-11-26T03:01:03Z",
-      "text": "🧬 🧮 The Quant dropped the 🧘 Disciplined trait: it stopped working (+1.3% vs the market on those days)."
-    },
-    {
       "t": "2026-11-26T03:01:03Z",
       "text": "🧬 🧮 The Quant made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-11 and its bets beat the market by +1.3%. Allows underdogs at odds up to 1.0 higher."
     },
@@ -11566,6 +11572,22 @@
     {
       "t": "2026-11-26T04:15:31Z",
       "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-26T04:30:54Z",
+      "text": "🧬 🧮 The Quant dropped the 🧘 Disciplined trait: it stopped working (+1.3% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-26T04:30:54Z",
+      "text": "🧬 🧮 The Quant made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-11 and its bets beat the market by +1.3%. Allows underdogs at odds up to 1.0 higher."
+    },
+    {
+      "t": "2026-11-26T04:30:54Z",
+      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
+    },
+    {
+      "t": "2026-11-26T04:30:54Z",
+      "text": "🧬 🦈 The Shark made New ground part of its character: 🗺️ Versatile. It completed the challenge on 2026-11-13 and its bets beat the market by +2.9%. Keeps trying every bet type (+1 scout bet a day)."
     }
   ]
 }
