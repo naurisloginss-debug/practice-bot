@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T21:00:57Z",
+  "updated": "2026-11-26T21:15:33Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -16,7 +16,7 @@
     "talk": [
       {
         "who": "quant",
-        "text": "The data put me first. The Lizard, check your model. 8 days until selection. Regression to the mean is coming for the leader."
+        "text": "The data put me first. The Lizard, check your model. The data says I'm the one going live. 8 days to prove it."
       },
       {
         "who": "lizard",
@@ -24,7 +24,7 @@
       },
       {
         "who": "shark",
-        "text": "I smell The Quant's lead from here. Closing in. Only one of us gets real money. Smell that? It's me."
+        "text": "I smell The Quant's lead from here. Closing in. Only one of us gets real money, in 8 days. And I'm hungry."
       }
     ],
     "chars": {
@@ -501,18 +501,6 @@
       "min_bets": 30,
       "rows": [
         {
-          "who": "shark",
-          "eligible": true,
-          "measured": 36,
-          "need": 0,
-          "clv": 0.029,
-          "cautious": 0.0166,
-          "beat": 0.6667,
-          "challenges": 0.727,
-          "traits": 4,
-          "score": 31.53
-        },
-        {
           "who": "quant",
           "eligible": true,
           "measured": 76,
@@ -523,6 +511,18 @@
           "challenges": 0.643,
           "traits": 3,
           "score": 28.09
+        },
+        {
+          "who": "shark",
+          "eligible": true,
+          "measured": 36,
+          "need": 0,
+          "clv": 0.029,
+          "cautious": 0.0166,
+          "beat": 0.6667,
+          "challenges": 0.727,
+          "traits": 2,
+          "score": 27.53
         },
         {
           "who": "lizard",
@@ -538,11 +538,11 @@
         }
       ],
       "ranking": [
-        "shark",
         "quant",
+        "shark",
         "lizard"
       ],
-      "leader": "shark"
+      "leader": "quant"
     }
   },
   "credits_left": 16389,
@@ -1735,7 +1735,7 @@
         "min_edge": 0.02,
         "odds": [
           1.6,
-          4.5
+          3.5
         ],
         "stop_below": 250
       },
@@ -2719,7 +2719,7 @@
           "from": "Precision day",
           "since": "2026-11-23T18:30:49Z",
           "on": 0.0324,
-          "off": 0.0148,
+          "off": 0.016,
           "bets": 24
         },
         {
@@ -2730,19 +2730,19 @@
           "from": "Study day",
           "since": "2026-11-25T23:45:38Z",
           "on": 0.0291,
-          "off": 0.0171,
+          "off": 0.0182,
           "bets": 17
         },
         {
-          "id": "underdog",
-          "emoji": "🐶",
-          "title": "Underdog lover",
-          "effect": "Allows underdogs at odds up to 1.0 higher.",
-          "from": "Underdog hunter",
-          "since": "2026-11-26T21:00:57Z",
-          "on": 0.0135,
-          "off": 0.0197,
-          "bets": 10
+          "id": "discipline",
+          "emoji": "🧘",
+          "title": "Disciplined",
+          "effect": "Avoids odds above 3.5.",
+          "from": "Discipline day",
+          "since": "2026-11-26T21:15:33Z",
+          "on": 0.0391,
+          "off": 0.0207,
+          "bets": 3
         }
       ],
       "mind": {
@@ -2934,7 +2934,7 @@
         "min_edge": 0.015,
         "odds": [
           1.6,
-          5.0
+          4.0
         ],
         "stop_below": 250
       },
@@ -3723,7 +3723,7 @@
           "from": "Read and react",
           "since": "2026-11-21T17:45:33Z",
           "on": 0.0888,
-          "off": 0.0161,
+          "off": 0.0155,
           "bets": 2
         },
         {
@@ -3734,30 +3734,8 @@
           "from": "Study day",
           "since": "2026-11-22T17:45:32Z",
           "on": 0.0329,
-          "off": 0.0184,
+          "off": 0.0178,
           "bets": 1
-        },
-        {
-          "id": "new_ground",
-          "emoji": "🗺️",
-          "title": "Versatile",
-          "effect": "Keeps trying every bet type (+1 scout bet a day).",
-          "from": "New ground",
-          "since": "2026-11-26T21:00:57Z",
-          "on": 0.029,
-          "off": 0.0206,
-          "bets": 6
-        },
-        {
-          "id": "underdog",
-          "emoji": "🐶",
-          "title": "Underdog lover",
-          "effect": "Allows underdogs at odds up to 1.0 higher.",
-          "from": "Underdog hunter",
-          "since": "2026-11-26T21:00:57Z",
-          "on": 0.0278,
-          "off": 0.0196,
-          "bets": 15
         }
       ],
       "mind": {
@@ -11543,26 +11521,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-26T19:45:31Z",
-      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-26T20:00:56Z",
-      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
-    },
-    {
-      "t": "2026-11-26T20:00:56Z",
-      "text": "🧬 🧮 The Quant dropped the 🐶 Underdog lover trait: it stopped working (+1.6% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-26T20:00:56Z",
-      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-26T20:00:56Z",
-      "text": "🧬 🦈 The Shark made New ground part of its character: 🗺️ Versatile. It completed the challenge on 2026-11-13 and its bets beat the market by +2.9%. Keeps trying every bet type (+1 scout bet a day)."
-    },
-    {
       "t": "2026-11-26T20:00:56Z",
       "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
     },
@@ -11661,6 +11619,26 @@
     {
       "t": "2026-11-26T21:00:57Z",
       "text": "Placed 3 practice bets:\n- The Shark: **Baltimore Ravens +6.5** (Spread) in Houston Texans vs Baltimore Ravens (NFL) at 2.07 on Unibet (SE), stake 5.89, edge +2.2%\n- The Lizard 💭 gut: **Leyton Orient +1.25** (Spread) in Stockport County FC vs Leyton Orient (League One (England 3)) at 2.1 on Matchbook, stake 2.31, edge +1.7%\n- The Quant 💭 gut: **SMU Mustangs** (Winner) in LSU Tigers vs SMU Mustangs (College basketball (US)) at 3.9 on Betfair, stake 2.08, edge +1.4%"
+    },
+    {
+      "t": "2026-11-26T21:15:33Z",
+      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
+    },
+    {
+      "t": "2026-11-26T21:15:33Z",
+      "text": "🧬 🧮 The Quant dropped the 🐶 Underdog lover trait: it stopped working (+1.6% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-26T21:15:33Z",
+      "text": "🧬 🦈 The Shark dropped the 🗺️ Versatile trait: it stopped working (-0.0% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-26T21:15:33Z",
+      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-26T21:15:33Z",
+      "text": "🏁 🧮 The Quant now leads the race to go live (8 days to selection)."
     }
   ]
 }
