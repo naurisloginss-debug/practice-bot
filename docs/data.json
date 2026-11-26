@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T02:45:30Z",
+  "updated": "2026-11-26T03:01:03Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -509,8 +509,8 @@
           "cautious": 0.0175,
           "beat": 0.6857,
           "challenges": 0.727,
-          "traits": 4,
-          "score": 32.89
+          "traits": 2,
+          "score": 28.89
         },
         {
           "who": "quant",
@@ -545,7 +545,7 @@
       "leader": "shark"
     }
   },
-  "credits_left": 16674,
+  "credits_left": 16670,
   "last_scan": "2026-11-26@1",
   "strategies": {
     "lizard": {
@@ -590,7 +590,7 @@
         "Total"
       ],
       "start_fund": 500,
-      "fund": 450.14,
+      "fund": 458.46,
       "lessons": [
         {
           "kind": "avoid",
@@ -604,12 +604,12 @@
         }
       ],
       "bets": 141,
-      "open": 39,
-      "won": 28,
-      "lost": 74,
-      "staked": 319.33,
-      "profit": -49.86,
-      "roi": -0.1561,
+      "open": 36,
+      "won": 29,
+      "lost": 76,
+      "staked": 329.13,
+      "profit": -41.54,
+      "roi": -0.1262,
       "avg_edge": 0.0319,
       "avg_clv": 0.0045,
       "beat_close": 0.6176,
@@ -1026,6 +1026,18 @@
         {
           "t": "2026-11-25T22:45:31Z",
           "fund": 450.14
+        },
+        {
+          "t": "2026-11-26T03:01:03Z",
+          "fund": 462.77
+        },
+        {
+          "t": "2026-11-26T03:01:03Z",
+          "fund": 461.52
+        },
+        {
+          "t": "2026-11-26T03:01:03Z",
+          "fund": 458.46
         }
       ],
       "by_league": [
@@ -1113,8 +1125,8 @@
         {
           "name": "Serie B (Italy 2)",
           "bets": 13,
-          "profit": -19.07,
-          "roi": -0.7743,
+          "profit": -10.75,
+          "roi": -0.3122,
           "avg_clv": -0.0099,
           "beat_close": 0.5,
           "clv_count": 10
@@ -1178,8 +1190,8 @@
         {
           "name": "Winner",
           "bets": 120,
-          "profit": -54.07,
-          "roi": -0.2112,
+          "profit": -45.75,
+          "roi": -0.1721,
           "avg_clv": 0.002,
           "beat_close": 0.5914,
           "clv_count": 93
@@ -1189,8 +1201,8 @@
         {
           "name": "Football",
           "bets": 141,
-          "profit": -49.86,
-          "roi": -0.1561,
+          "profit": -41.54,
+          "roi": -0.1262,
           "avg_clv": 0.0045,
           "beat_close": 0.6176,
           "clv_count": 102
@@ -1210,8 +1222,8 @@
       "wild": {
         "bets": 12,
         "won": 0,
-        "lost": 8,
-        "profit": -9.84,
+        "lost": 9,
+        "profit": -11.09,
         "best": null,
         "avg_clv": -0.001,
         "appetite": 0.45
@@ -1690,7 +1702,7 @@
         ],
         "rules": 0,
         "studied": 370,
-        "resolved": 255
+        "resolved": 256
       }
     },
     "quant": {
@@ -1708,7 +1720,7 @@
         "min_edge": 0.02,
         "odds": [
           1.6,
-          3.5
+          4.5
         ],
         "stop_below": 250
       },
@@ -2663,15 +2675,15 @@
           "bets": 16
         },
         {
-          "id": "discipline",
-          "emoji": "🧘",
-          "title": "Disciplined",
-          "effect": "Avoids odds above 3.5.",
-          "from": "Discipline day",
-          "since": "2026-11-26T02:45:30Z",
-          "on": 0.0391,
-          "off": 0.0194,
-          "bets": 3
+          "id": "underdog",
+          "emoji": "🐶",
+          "title": "Underdog lover",
+          "effect": "Allows underdogs at odds up to 1.0 higher.",
+          "from": "Underdog hunter",
+          "since": "2026-11-26T03:01:03Z",
+          "on": 0.0135,
+          "off": 0.0193,
+          "bets": 10
         }
       ],
       "mind": {
@@ -2849,7 +2861,7 @@
         "min_edge": 0.015,
         "odds": [
           1.6,
-          5.0
+          4.0
         ],
         "stop_below": 250
       },
@@ -3643,28 +3655,6 @@
           "on": 0.0329,
           "off": 0.02,
           "bets": 1
-        },
-        {
-          "id": "new_ground",
-          "emoji": "🗺️",
-          "title": "Versatile",
-          "effect": "Keeps trying every bet type (+1 scout bet a day).",
-          "from": "New ground",
-          "since": "2026-11-26T02:45:30Z",
-          "on": 0.029,
-          "off": 0.0224,
-          "bets": 6
-        },
-        {
-          "id": "underdog",
-          "emoji": "🐶",
-          "title": "Underdog lover",
-          "effect": "Allows underdogs at odds up to 1.0 higher.",
-          "from": "Underdog hunter",
-          "since": "2026-11-26T02:45:30Z",
-          "on": 0.0278,
-          "off": 0.0222,
-          "bets": 15
         }
       ],
       "mind": {
@@ -7597,12 +7587,12 @@
       "fair_odds": 3.18,
       "edge": 0.0378,
       "stake": 5.49,
-      "status": "open",
+      "status": "won",
       "closing_fair_odds": 3.532,
       "clv": -0.0657,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": 12.63,
+      "score": "Pisa 1 - 1 Modena",
+      "settled_at": "2026-11-26T03:01:03Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates Draw at 31.4%. That makes the fair price 3.18.",
         "Unibet (SE) pays 3.30. That is +3.8% above fair. My bar is +2.0%.",
@@ -7636,12 +7626,12 @@
       "fair_odds": 5.108,
       "edge": 0.0768,
       "stake": 1.25,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 6.167,
       "clv": -0.1082,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -1.25,
+      "score": "Mantova 3 - 0 Arezzo",
+      "settled_at": "2026-11-26T03:01:03Z",
       "thoughts": [
         "Wild one: Arezzo at 5.50. The market gives it 20%.",
         "Patience is a weapon, but even lizards sunbathe on a crazy rock now and then.",
@@ -7672,12 +7662,12 @@
       "fair_odds": 3.163,
       "edge": 0.0275,
       "stake": 3.06,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 3.166,
       "clv": 0.0264,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -3.06,
+      "score": "Padova 1 - 2 Sampdoria",
+      "settled_at": "2026-11-26T03:01:03Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates Draw at 31.6%. That makes the fair price 3.16.",
         "Unibet (NL) pays 3.25. That is +2.8% above fair. My bar is +2.0%.",
@@ -11458,26 +11448,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-26T01:30:44Z",
-      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
-    },
-    {
-      "t": "2026-11-26T01:30:44Z",
-      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-26T01:45:30Z",
-      "text": "🧬 🧮 The Quant dropped the 🧘 Disciplined trait: it stopped working (+1.3% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-26T01:45:30Z",
-      "text": "🧬 🧮 The Quant made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-11 and its bets beat the market by +1.3%. Allows underdogs at odds up to 1.0 higher."
-    },
-    {
-      "t": "2026-11-26T01:45:30Z",
-      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
-    },
-    {
       "t": "2026-11-26T01:45:30Z",
       "text": "🧬 🦈 The Shark made New ground part of its character: 🗺️ Versatile. It completed the challenge on 2026-11-13 and its bets beat the market by +2.9%. Keeps trying every bet type (+1 scout bet a day)."
     },
@@ -11576,6 +11546,26 @@
     {
       "t": "2026-11-26T02:45:30Z",
       "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
+    },
+    {
+      "t": "2026-11-26T03:01:03Z",
+      "text": "🧬 🧮 The Quant dropped the 🧘 Disciplined trait: it stopped working (+1.3% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-26T03:01:03Z",
+      "text": "🧬 🧮 The Quant made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-11 and its bets beat the market by +1.3%. Allows underdogs at odds up to 1.0 higher."
+    },
+    {
+      "t": "2026-11-26T03:01:03Z",
+      "text": "🧬 🦈 The Shark dropped the 🗺️ Versatile trait: it stopped working (+0.2% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-26T03:01:03Z",
+      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-26T03:01:03Z",
+      "text": "Results:\n- Won +12.63: Draw (Winner) in Pisa vs Modena (Pisa 1 - 1 Modena)\n- Lost -1.25: Arezzo (Winner) in Mantova vs Arezzo (Mantova 3 - 0 Arezzo)\n- Lost -3.06: Draw (Winner) in Padova vs Sampdoria (Padova 1 - 2 Sampdoria)"
     }
   ]
 }
