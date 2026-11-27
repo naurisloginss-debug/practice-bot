@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T18:45:32Z",
+  "updated": "2026-11-27T19:00:57Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -12,7 +12,7 @@
       "shark",
       "lizard"
     ],
-    "grower": "quant",
+    "grower": "lizard",
     "talk": [
       {
         "who": "quant",
@@ -29,9 +29,9 @@
     ],
     "chars": {
       "lizard": {
-        "iq": 130,
-        "iq_gain": 5,
-        "streak": 2,
+        "iq": 132,
+        "iq_gain": 7,
+        "streak": 3,
         "best_streak": 8,
         "achievements": [
           {
@@ -142,17 +142,17 @@
           {
             "text": "Bets checked against the market",
             "target": 37,
-            "now": 34
+            "now": 35
           },
           {
             "text": "Beat the market on",
             "target": 69,
-            "now": 56,
+            "now": 57,
             "unit": "%",
             "pending": false
           }
         ],
-        "score": 195,
+        "score": 197,
         "trophies": [
           {
             "kind": "sharpshooter",
@@ -211,8 +211,8 @@
         ]
       },
       "quant": {
-        "iq": 151,
-        "iq_gain": 8,
+        "iq": 150,
+        "iq_gain": 7,
         "streak": 5,
         "best_streak": 9,
         "achievements": [
@@ -334,7 +334,7 @@
             "pending": false
           }
         ],
-        "score": 238,
+        "score": 237,
         "trophies": [
           {
             "kind": "grower",
@@ -509,8 +509,8 @@
           "cautious": 0.02,
           "beat": 0.6842,
           "challenges": 0.75,
-          "traits": 3,
-          "score": 33.42
+          "traits": 4,
+          "score": 35.42
         },
         {
           "who": "quant",
@@ -521,8 +521,8 @@
           "cautious": 0.0173,
           "beat": 0.6623,
           "challenges": 0.643,
-          "traits": 4,
-          "score": 31.71
+          "traits": 3,
+          "score": 29.71
         },
         {
           "who": "lizard",
@@ -545,7 +545,7 @@
       "leader": "shark"
     }
   },
-  "credits_left": 16106,
+  "credits_left": 16103,
   "last_scan": "2026-11-27@17",
   "strategies": {
     "lizard": {
@@ -601,6 +601,11 @@
           "kind": "avoid",
           "text": "Stopped: Championship (England 2) · winner",
           "detail": "-0.6% vs the market over 19 bets"
+        },
+        {
+          "kind": "favour",
+          "text": "Backing harder: all leagues · winner · middle odds",
+          "detail": "+1.5% vs the market, beat it on 64% of 50 bets"
         }
       ],
       "bets": 155,
@@ -611,9 +616,9 @@
       "profit": -35.88,
       "roi": -0.1074,
       "avg_edge": 0.0309,
-      "avg_clv": 0.0053,
-      "beat_close": 0.6214,
-      "clv_count": 103,
+      "avg_clv": 0.0056,
+      "beat_close": 0.625,
+      "clv_count": 104,
       "history": [
         {
           "t": "2026-11-04T12:49:24Z",
@@ -1108,9 +1113,9 @@
           "bets": 16,
           "profit": -3.01,
           "roi": -0.0812,
-          "avg_clv": 0.0072,
-          "beat_close": 0.75,
-          "clv_count": 12
+          "avg_clv": 0.0094,
+          "beat_close": 0.7692,
+          "clv_count": 13
         },
         {
           "name": "MLS (USA)",
@@ -1200,9 +1205,9 @@
           "bets": 126,
           "profit": -40.09,
           "roi": -0.1481,
-          "avg_clv": 0.0028,
-          "beat_close": 0.5957,
-          "clv_count": 94
+          "avg_clv": 0.0032,
+          "beat_close": 0.6,
+          "clv_count": 95
         }
       ],
       "by_sport": [
@@ -1211,9 +1216,9 @@
           "bets": 155,
           "profit": -35.88,
           "roi": -0.1074,
-          "avg_clv": 0.0053,
-          "beat_close": 0.6214,
-          "clv_count": 103
+          "avg_clv": 0.0056,
+          "beat_close": 0.625,
+          "clv_count": 104
         }
       ],
       "gut": {
@@ -1386,8 +1391,8 @@
         ],
         "curiosity": 0.5,
         "scouts": 39,
-        "scout_clv": 0.0005,
-        "scout_measured": 25
+        "scout_clv": 0.0019,
+        "scout_measured": 26
       },
       "challenge": {
         "today": {
@@ -1536,8 +1541,8 @@
         }
       ],
       "mind": {
-        "iq": 130,
-        "iq_week": 17,
+        "iq": 132,
+        "iq_week": 19,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -1633,7 +1638,7 @@
           },
           {
             "d": "2026-11-27",
-            "iq": 130
+            "iq": 132
           }
         ],
         "facts": [
@@ -1742,7 +1747,7 @@
         "min_edge": 0.02,
         "odds": [
           1.6,
-          4.5
+          3.5
         ],
         "stop_below": 250
       },
@@ -2772,22 +2777,11 @@
           "on": 0.058,
           "off": 0.0141,
           "bets": 16
-        },
-        {
-          "id": "underdog",
-          "emoji": "🐶",
-          "title": "Underdog lover",
-          "effect": "Allows underdogs at odds up to 1.0 higher.",
-          "from": "Underdog hunter",
-          "since": "2026-11-27T18:45:32Z",
-          "on": 0.0135,
-          "off": 0.0221,
-          "bets": 10
         }
       ],
       "mind": {
-        "iq": 151,
-        "iq_week": 26,
+        "iq": 150,
+        "iq_week": 25,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -2883,7 +2877,7 @@
           },
           {
             "d": "2026-11-27",
-            "iq": 151
+            "iq": 150
           }
         ],
         "facts": [
@@ -2896,31 +2890,17 @@
           },
           {
             "conf": "solid",
+            "n": 745,
+            "z": 0,
+            "text": "The market prices overs in College basketball (US) accurately.",
+            "detail": "49% happened, 50% priced, 745 games"
+          },
+          {
+            "conf": "solid",
             "n": 744,
             "z": 0,
             "text": "Betfair is the softest bookmaker in NBA.",
             "detail": "beats fair by 2%+ on 4% of its prices vs 1% across all bookmakers"
-          },
-          {
-            "conf": "solid",
-            "n": 743,
-            "z": 0,
-            "text": "The market prices overs in College basketball (US) accurately.",
-            "detail": "49% happened, 50% priced, 743 games"
-          },
-          {
-            "conf": "solid",
-            "n": 560,
-            "z": 0,
-            "text": "The market prices home wins in College basketball (US) accurately.",
-            "detail": "58% happened, 60% priced, 560 games"
-          },
-          {
-            "conf": "solid",
-            "n": 560,
-            "z": 0,
-            "text": "The market prices away wins in College basketball (US) accurately.",
-            "detail": "42% happened, 40% priced, 560 games"
           },
           {
             "conf": "solid",
@@ -2960,7 +2940,7 @@
         ],
         "rules": 0,
         "studied": 998,
-        "resolved": 941
+        "resolved": 943
       }
     },
     "shark": {
@@ -2975,7 +2955,7 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.015,
+        "min_edge": 0.02,
         "odds": [
           1.6,
           3.5
@@ -3812,6 +3792,17 @@
           "on": 0.0102,
           "off": 0.0209,
           "bets": 3
+        },
+        {
+          "id": "precision",
+          "emoji": "🎯",
+          "title": "Precise",
+          "effect": "Always demands +0.5% more edge.",
+          "from": "Precision day",
+          "since": "2026-11-27T19:00:57Z",
+          "on": 0.032,
+          "off": 0.0226,
+          "bets": 2
         }
       ],
       "mind": {
@@ -7965,8 +7956,8 @@
       "edge": 0.013,
       "stake": 2.52,
       "status": "open",
-      "closing_fair_odds": null,
-      "clv": null,
+      "closing_fair_odds": 3.088,
+      "clv": 0.0361,
       "profit": 0.0,
       "score": null,
       "settled_at": null,
@@ -11601,14 +11592,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-27T16:30:48Z",
-      "text": "🏁 🦈 The Shark now leads the race to go live (7 days to selection)."
-    },
-    {
-      "t": "2026-11-27T16:45:33Z",
-      "text": "🧬 🧮 The Quant dropped the 🐶 Underdog lover trait: it stopped working (+1.6% vs the market on those days)."
-    },
-    {
       "t": "2026-11-27T16:45:33Z",
       "text": "🧬 🦈 The Shark dropped the 🗺️ Versatile trait: it stopped working (+0.7% vs the market on those days)."
     },
@@ -11719,6 +11702,14 @@
     {
       "t": "2026-11-27T18:45:32Z",
       "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-27T19:00:57Z",
+      "text": "🧬 🧮 The Quant dropped the 🐶 Underdog lover trait: it stopped working (+1.6% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-27T19:00:57Z",
+      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
     }
   ]
 }
