@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T19:45:32Z",
+  "updated": "2026-11-27T20:00:56Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -357,9 +357,9 @@
         ]
       },
       "shark": {
-        "iq": 128,
-        "iq_gain": 1,
-        "streak": 0,
+        "iq": 129,
+        "iq_gain": 2,
+        "streak": 2,
         "best_streak": 4,
         "achievements": [
           {
@@ -451,7 +451,7 @@
             "emoji": "⚡",
             "title": "Sharp Mind",
             "desc": "Reached level Sharp.",
-            "at": null
+            "at": "2026-11-27T20:00:56Z"
           },
           {
             "key": "master",
@@ -470,17 +470,17 @@
           {
             "text": "Bets checked against the market",
             "target": 54,
-            "now": 15
+            "now": 17
           },
           {
             "text": "Beat the market on",
             "target": 55,
-            "now": 53,
+            "now": 59,
             "unit": "%",
             "pending": false
           }
         ],
-        "score": 200,
+        "score": 206,
         "trophies": [
           {
             "kind": "sharpshooter",
@@ -503,14 +503,14 @@
         {
           "who": "shark",
           "eligible": true,
-          "measured": 39,
+          "measured": 40,
           "need": 0,
           "clv": 0.032,
-          "cautious": 0.0203,
-          "beat": 0.6923,
+          "cautious": 0.0206,
+          "beat": 0.7,
           "challenges": 0.75,
-          "traits": 3,
-          "score": 33.9
+          "traits": 4,
+          "score": 36.37
         },
         {
           "who": "quant",
@@ -521,8 +521,8 @@
           "cautious": 0.0173,
           "beat": 0.6623,
           "challenges": 0.643,
-          "traits": 3,
-          "score": 29.71
+          "traits": 4,
+          "score": 31.71
         },
         {
           "who": "lizard",
@@ -533,8 +533,8 @@
           "cautious": -0.0024,
           "beat": 0.6607,
           "challenges": 0.462,
-          "traits": 2,
-          "score": 7.14
+          "traits": 3,
+          "score": 9.14
         }
       ],
       "ranking": [
@@ -545,7 +545,7 @@
       "leader": "shark"
     }
   },
-  "credits_left": 16099,
+  "credits_left": 16096,
   "last_scan": "2026-11-27@17",
   "strategies": {
     "lizard": {
@@ -563,7 +563,7 @@
         "min_edge": 0.02,
         "odds": [
           1.6,
-          6.0
+          3.5
         ],
         "stop_below": 250
       },
@@ -1524,6 +1524,17 @@
           "on": 0.013,
           "off": 0.006,
           "bets": 5
+        },
+        {
+          "id": "discipline",
+          "emoji": "🧘",
+          "title": "Disciplined",
+          "effect": "Avoids odds above 3.5.",
+          "from": "Discipline day",
+          "since": "2026-11-27T20:00:56Z",
+          "on": 0.0202,
+          "off": 0.0067,
+          "bets": 9
         }
       ],
       "mind": {
@@ -2763,6 +2774,17 @@
           "on": 0.058,
           "off": 0.0141,
           "bets": 16
+        },
+        {
+          "id": "discipline",
+          "emoji": "🧘",
+          "title": "Disciplined",
+          "effect": "Avoids odds above 3.5.",
+          "from": "Discipline day",
+          "since": "2026-11-27T20:00:56Z",
+          "on": 0.0391,
+          "off": 0.0221,
+          "bets": 3
         }
       ],
       "mind": {
@@ -2941,7 +2963,7 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.015,
+        "min_edge": 0.02,
         "odds": [
           1.6,
           3.5
@@ -2963,7 +2985,7 @@
         {
           "kind": "favour",
           "text": "Backing harder: all leagues · winner · long shots",
-          "detail": "+4.2% vs the market, beat it on 67% of 15 bets"
+          "detail": "+4.2% vs the market, beat it on 69% of 16 bets"
         },
         {
           "kind": "favour",
@@ -2973,7 +2995,7 @@
         {
           "kind": "favour",
           "text": "Backing harder: College football (US) · winner",
-          "detail": "+3.2% vs the market, beat it on 68% of 34 bets"
+          "detail": "+3.2% vs the market, beat it on 69% of 35 bets"
         }
       ],
       "bets": 152,
@@ -2984,9 +3006,9 @@
       "profit": -0.73,
       "roi": -0.0025,
       "avg_edge": 0.0328,
-      "avg_clv": 0.0168,
-      "beat_close": 0.5484,
-      "clv_count": 93,
+      "avg_clv": 0.0173,
+      "beat_close": 0.5579,
+      "clv_count": 95,
       "history": [
         {
           "t": "2026-11-07T16:00:52Z",
@@ -3408,6 +3430,15 @@
           "clv_count": 1
         },
         {
+          "name": "College football (US)",
+          "bets": 102,
+          "profit": -35.04,
+          "roi": -0.2065,
+          "avg_clv": 0.0172,
+          "beat_close": 0.5873,
+          "clv_count": 63
+        },
+        {
           "name": "NFL",
           "bets": 49,
           "profit": 32.6,
@@ -3415,15 +3446,6 @@
           "avg_clv": 0.0167,
           "beat_close": 0.4839,
           "clv_count": 31
-        },
-        {
-          "name": "College football (US)",
-          "bets": 102,
-          "profit": -35.04,
-          "roi": -0.2065,
-          "avg_clv": 0.0164,
-          "beat_close": 0.5738,
-          "clv_count": 61
         }
       ],
       "by_market": [
@@ -3432,9 +3454,9 @@
           "bets": 117,
           "profit": 15.72,
           "roi": 0.0788,
-          "avg_clv": 0.0192,
-          "beat_close": 0.5625,
-          "clv_count": 80
+          "avg_clv": 0.0198,
+          "beat_close": 0.5732,
+          "clv_count": 82
         },
         {
           "name": "Spread",
@@ -3461,9 +3483,9 @@
           "bets": 152,
           "profit": -0.73,
           "roi": -0.0025,
-          "avg_clv": 0.0168,
-          "beat_close": 0.5484,
-          "clv_count": 93
+          "avg_clv": 0.0173,
+          "beat_close": 0.5579,
+          "clv_count": 95
         }
       ],
       "gut": {
@@ -3491,8 +3513,8 @@
         "won": 0,
         "lost": 2,
         "profit": -7.13,
-        "avg_clv": 0.0405,
-        "measured": 3
+        "avg_clv": 0.0441,
+        "measured": 4
       },
       "reading": {
         "week": 409,
@@ -3589,37 +3611,37 @@
         ]
       },
       "level": {
-        "n": 2,
-        "title": "Apprentice",
-        "badge": "🎓",
-        "stake": 1.0,
-        "perk": "Has a track record. Starts learning which bets work.",
-        "measured": 39,
+        "n": 3,
+        "title": "Sharp",
+        "badge": "⚡",
+        "stake": 1.15,
+        "perk": "Stakes +15%. Consistently beats the market.",
+        "measured": 40,
         "clv": 0.032,
-        "beat": 0.6923,
+        "beat": 0.7,
         "cold": false,
         "next": {
-          "title": "Sharp",
-          "badge": "⚡",
-          "perk": "Stakes +15%. Consistently beats the market.",
+          "title": "Mastermind",
+          "badge": "👑",
+          "perk": "Stakes +30%. Proven edge over 100+ bets.",
           "needs": [
             {
-              "text": "40 measured bets",
+              "text": "100 measured bets",
               "done": false,
-              "now": "39"
+              "now": "40"
             },
             {
-              "text": "beat the market on 55%+",
+              "text": "beat the market on 57%+",
               "done": true,
-              "now": "69%"
+              "now": "70%"
             },
             {
-              "text": "average price +1.0%+ vs market",
+              "text": "average price +1.5%+ vs market",
               "done": true,
               "now": "+3.2%"
             }
           ],
-          "progress": 0.975
+          "progress": 0.4
         }
       },
       "explorer": {
@@ -3778,11 +3800,22 @@
           "on": 0.0157,
           "off": 0.0183,
           "bets": 4
+        },
+        {
+          "id": "precision",
+          "emoji": "🎯",
+          "title": "Precise",
+          "effect": "Always demands +0.5% more edge.",
+          "from": "Precision day",
+          "since": "2026-11-27T20:00:56Z",
+          "on": 0.032,
+          "off": 0.0199,
+          "bets": 2
         }
       ],
       "mind": {
-        "iq": 128,
-        "iq_week": 12,
+        "iq": 129,
+        "iq_week": 13,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -3878,7 +3911,7 @@
           },
           {
             "d": "2026-11-27",
-            "iq": 128
+            "iq": 129
           }
         ],
         "facts": [
@@ -3898,10 +3931,10 @@
           },
           {
             "conf": "solid",
-            "n": 61,
+            "n": 62,
             "z": 0,
-            "text": "When I find value, the market moves my way before kick-off 59% of the time.",
-            "detail": "61 bets measured"
+            "text": "When I find value, the market moves my way before kick-off 60% of the time.",
+            "detail": "62 bets measured"
           }
         ],
         "rules": 0,
@@ -7700,8 +7733,8 @@
       "edge": 0.0522,
       "stake": 6.07,
       "status": "open",
-      "closing_fair_odds": null,
-      "clv": null,
+      "closing_fair_odds": 4.164,
+      "clv": 0.0326,
       "profit": 0.0,
       "score": null,
       "settled_at": null,
@@ -7739,8 +7772,8 @@
       "edge": 0.1284,
       "stake": 2.5,
       "status": "open",
-      "closing_fair_odds": null,
-      "clv": null,
+      "closing_fair_odds": 8.009,
+      "clv": 0.0548,
       "profit": 0.0,
       "score": null,
       "settled_at": null,
@@ -11567,26 +11600,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-27T17:30:46Z",
-      "text": "🧬 🧮 The Quant dropped the 🐶 Underdog lover trait: it stopped working (+1.6% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-27T17:30:46Z",
-      "text": "🧬 🦈 The Shark dropped the 🗺️ Versatile trait: it stopped working (+0.7% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-27T17:30:46Z",
-      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
-    },
-    {
-      "t": "2026-11-27T17:45:34Z",
-      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
-    },
-    {
-      "t": "2026-11-27T17:45:34Z",
-      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
-    },
-    {
       "t": "2026-11-27T18:00:57Z",
       "text": "🧬 🧮 The Quant dropped the 🧘 Disciplined trait: it stopped working (+1.3% vs the market on those days)."
     },
@@ -11685,6 +11698,26 @@
     {
       "t": "2026-11-27T19:45:32Z",
       "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-27T20:00:56Z",
+      "text": "🧬 🦎 The Lizard made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-22 and its bets beat the market by +2.0%. Avoids odds above 3.5."
+    },
+    {
+      "t": "2026-11-27T20:00:56Z",
+      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
+    },
+    {
+      "t": "2026-11-27T20:00:56Z",
+      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
+    },
+    {
+      "t": "2026-11-27T20:00:56Z",
+      "text": "🦈 The Shark levelled up: Apprentice → ⚡ Sharp. Stakes +15%. Consistently beats the market."
+    },
+    {
+      "t": "2026-11-27T20:00:56Z",
+      "text": "🏅 🦈 The Shark unlocked ⚡ Sharp Mind: Reached level Sharp."
     }
   ]
 }
