@@ -51,34 +51,6 @@
   },
   "log": [
     {
-      "t": "2026-11-26T22:15:32Z",
-      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
-    },
-    {
-      "t": "2026-11-26T22:15:32Z",
-      "text": "🏁 🦈 The Shark now leads the race to go live (8 days to selection)."
-    },
-    {
-      "t": "2026-11-26T22:30:44Z",
-      "text": "🧬 🧮 The Quant dropped the 🐶 Underdog lover trait: it stopped working (+1.6% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-26T22:30:44Z",
-      "text": "🧬 🦈 The Shark dropped the 🗺️ Versatile trait: it stopped working (-0.0% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-26T22:30:44Z",
-      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-26T22:30:44Z",
-      "text": "🏁 🧮 The Quant now leads the race to go live (8 days to selection)."
-    },
-    {
-      "t": "2026-11-26T22:45:30Z",
-      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
-    },
-    {
       "t": "2026-11-26T22:45:30Z",
       "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
     },
@@ -169,6 +141,34 @@
     {
       "t": "2026-11-26T23:45:30Z",
       "text": "🏁 🧮 The Quant now leads the race to go live (8 days to selection)."
+    },
+    {
+      "t": "2026-11-27T00:00:58Z",
+      "text": "🧬 🧮 The Quant dropped the 🐶 Underdog lover trait: it stopped working (+1.6% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-27T00:00:58Z",
+      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
+    },
+    {
+      "t": "2026-11-27T00:00:58Z",
+      "text": "🧬 🦈 The Shark made New ground part of its character: 🗺️ Versatile. It completed the challenge on 2026-11-13 and its bets beat the market by +2.9%. Keeps trying every bet type (+1 scout bet a day)."
+    },
+    {
+      "t": "2026-11-27T00:00:58Z",
+      "text": "🎯 🦎 The Lizard's challenge today: 🧘 Discipline day. No gut calls, no wild bets, nothing above odds 3.0, and still beat the market."
+    },
+    {
+      "t": "2026-11-27T00:00:58Z",
+      "text": "🎯 🧮 The Quant's challenge today: 🦅 Sharp eye. Find a +3% edge that holds up against the market."
+    },
+    {
+      "t": "2026-11-27T00:00:58Z",
+      "text": "🎯 🦈 The Shark's challenge today: 🗺️ New ground. Make a bet in the bet type I use least: total."
+    },
+    {
+      "t": "2026-11-27T00:00:58Z",
+      "text": "🏁 🦈 The Shark now leads the race to go live (7 days to selection)."
     }
   ],
   "levels": {
@@ -394,6 +394,10 @@
       {
         "d": "2026-11-26",
         "iq": 130
+      },
+      {
+        "d": "2026-11-27",
+        "iq": 130
       }
     ],
     "quant": [
@@ -488,6 +492,10 @@
       {
         "d": "2026-11-26",
         "iq": 150
+      },
+      {
+        "d": "2026-11-27",
+        "iq": 150
       }
     ],
     "shark": [
@@ -581,6 +589,10 @@
       },
       {
         "d": "2026-11-26",
+        "iq": 126
+      },
+      {
+        "d": "2026-11-27",
         "iq": 126
       }
     ]
@@ -2610,9 +2622,20 @@
         "emoji": "🦅",
         "title": "Sharp eye",
         "text": "Find a +3% edge that holds up against the market.",
-        "status": "active",
+        "status": "judging",
         "market": "spreads",
         "target": 153,
+        "league": "soccer_germany_bundesliga"
+      },
+      {
+        "day": "2026-11-27",
+        "id": "discipline",
+        "emoji": "🧘",
+        "title": "Discipline day",
+        "text": "No gut calls, no wild bets, nothing above odds 3.0, and still beat the market.",
+        "status": "active",
+        "market": "spreads",
+        "target": 190,
         "league": "soccer_germany_bundesliga"
       }
     ],
@@ -2806,6 +2829,17 @@
         "target": 88,
         "league": null,
         "detail": "Bet Colorado St Rams +4 (spread)."
+      },
+      {
+        "day": "2026-11-27",
+        "id": "sharp_eye",
+        "emoji": "🦅",
+        "title": "Sharp eye",
+        "text": "Find a +3% edge that holds up against the market.",
+        "status": "active",
+        "market": "spreads",
+        "target": 89,
+        "league": null
       }
     ],
     "shark": [
@@ -2993,9 +3027,20 @@
         "emoji": "🐶",
         "title": "Underdog hunter",
         "text": "Back an underdog (odds 2.5+) that beats the market.",
-        "status": "active",
+        "status": "judging",
         "market": "totals",
         "target": 164,
+        "league": null
+      },
+      {
+        "day": "2026-11-27",
+        "id": "new_ground",
+        "emoji": "🗺️",
+        "title": "New ground",
+        "text": "Make a bet in the bet type I use least: total.",
+        "status": "active",
+        "market": "totals",
+        "target": 183,
         "league": null
       }
     ]
@@ -3089,12 +3134,6 @@
         "on": 0.052,
         "off": 0.0141,
         "bets": 15
-      },
-      "underdog": {
-        "since": "2026-11-26T23:45:30Z",
-        "on": 0.0135,
-        "off": 0.0206,
-        "bets": 10
       }
     },
     "shark": {
@@ -3109,8 +3148,20 @@
         "on": 0.0329,
         "off": 0.0178,
         "bets": 1
+      },
+      "precision": {
+        "since": "2026-11-27T00:00:58Z",
+        "on": 0.032,
+        "off": 0.0199,
+        "bets": 2
+      },
+      "new_ground": {
+        "since": "2026-11-27T00:00:58Z",
+        "on": 0.029,
+        "off": 0.0206,
+        "bets": 6
       }
     }
   },
-  "race_leader": "quant"
+  "race_leader": "shark"
 }
