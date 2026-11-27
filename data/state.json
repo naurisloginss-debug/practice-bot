@@ -51,22 +51,6 @@
   },
   "log": [
     {
-      "t": "2026-11-27T09:00:59Z",
-      "text": "Placed 5 practice bets:\n- The Lizard: **Under 2.5** (Total) in Bristol Rovers vs Tranmere Rovers (League Two (England 4)) at 2.0 on William Hill, stake 7.92, edge +3.4%\n- The Quant 💭 gut: **Dallas Mavericks** (Winner) in Phoenix Suns vs Dallas Mavericks (NBA) at 2.15 on 888sport, stake 2.30, edge +-0.5%\n- The Quant 💭 gut: **Wake Forest Demon Deacons** (Winner) in Wake Forest Demon Deacons vs Memphis Tigers (College basketball (US)) at 2.18 on LeoVegas (SE), stake 2.30, edge +0.0%\n- The Shark 🎲 wild: **Coastal Carolina Chanticleers** (Winner) in James Madison Dukes vs Coastal Carolina Chanticleers (College football (US)) at 8.2 on Matchbook, stake 1.23, edge +12.5%\n- The Shark 🎲 wild: **Sacramento State Hornets** (Winner) in Hawaii Rainbow Warriors vs Sacramento State Hornets (College football (US)) at 5.75 on Unibet (SE), stake 1.23, edge +6.0%"
-    },
-    {
-      "t": "2026-11-27T09:15:41Z",
-      "text": "🧬 🧮 The Quant dropped the 🧘 Disciplined trait: it stopped working (+1.3% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-27T09:15:41Z",
-      "text": "🧬 🧮 The Quant made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-11 and its bets beat the market by +1.3%. Allows underdogs at odds up to 1.0 higher."
-    },
-    {
-      "t": "2026-11-27T09:15:41Z",
-      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
-    },
-    {
       "t": "2026-11-27T09:15:41Z",
       "text": "🧬 🦈 The Shark made New ground part of its character: 🗺️ Versatile. It completed the challenge on 2026-11-24 and its bets beat the market by +0.1%. Keeps trying every bet type (+1 scout bet a day)."
     },
@@ -169,6 +153,22 @@
     {
       "t": "2026-11-27T10:45:32Z",
       "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-27T11:01:00Z",
+      "text": "🧬 🧮 The Quant dropped the 🐶 Underdog lover trait: it stopped working (+1.6% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-27T11:01:00Z",
+      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
+    },
+    {
+      "t": "2026-11-27T11:01:00Z",
+      "text": "🧬 🦈 The Shark made New ground part of its character: 🗺️ Versatile. It completed the challenge on 2026-11-24 and its bets beat the market by +0.1%. Keeps trying every bet type (+1 scout bet a day)."
+    },
+    {
+      "t": "2026-11-27T11:01:00Z",
+      "text": "🏁 🦈 The Shark now leads the race to go live (7 days to selection)."
     }
   ],
   "levels": {
@@ -3134,12 +3134,6 @@
         "on": 0.058,
         "off": 0.0141,
         "bets": 16
-      },
-      "underdog": {
-        "since": "2026-11-27T10:45:32Z",
-        "on": 0.0135,
-        "off": 0.0221,
-        "bets": 10
       }
     },
     "shark": {
@@ -3154,8 +3148,20 @@
         "on": 0.0329,
         "off": 0.0178,
         "bets": 1
+      },
+      "precision": {
+        "since": "2026-11-27T11:01:00Z",
+        "on": 0.032,
+        "off": 0.0199,
+        "bets": 2
+      },
+      "new_ground": {
+        "since": "2026-11-27T11:01:00Z",
+        "on": 0.0006,
+        "off": 0.0206,
+        "bets": 3
       }
     }
   },
-  "race_leader": "quant"
+  "race_leader": "shark"
 }
