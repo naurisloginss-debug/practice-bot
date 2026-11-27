@@ -51,26 +51,6 @@
   },
   "log": [
     {
-      "t": "2026-11-27T09:15:41Z",
-      "text": "🧬 🦈 The Shark made New ground part of its character: 🗺️ Versatile. It completed the challenge on 2026-11-24 and its bets beat the market by +0.1%. Keeps trying every bet type (+1 scout bet a day)."
-    },
-    {
-      "t": "2026-11-27T09:15:41Z",
-      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
-    },
-    {
-      "t": "2026-11-27T09:15:41Z",
-      "text": "Results:\n- Won +10.98: Buffalo Bills -2.5 (Spread) in Buffalo Bills vs Kansas City Chiefs (Buffalo Bills 13 - 10 Kansas City Chiefs)\n- Lost -5.38: Baylor Bears (Winner) in Gonzaga Bulldogs vs Baylor Bears (Gonzaga Bulldogs 72 - 64 Baylor Bears)\n- Lost -2.08: SMU Mustangs (Winner) in LSU Tigers vs SMU Mustangs (LSU Tigers 95 - 86 SMU Mustangs)"
-    },
-    {
-      "t": "2026-11-27T09:30:47Z",
-      "text": "🧬 🧮 The Quant dropped the 🐶 Underdog lover trait: it stopped working (+1.6% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-27T09:30:47Z",
-      "text": "🧬 🦈 The Shark dropped the 🗺️ Versatile trait: it stopped working (-0.0% vs the market on those days)."
-    },
-    {
       "t": "2026-11-27T09:30:47Z",
       "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
     },
@@ -169,6 +149,26 @@
     {
       "t": "2026-11-27T11:01:00Z",
       "text": "🏁 🦈 The Shark now leads the race to go live (7 days to selection)."
+    },
+    {
+      "t": "2026-11-27T11:15:34Z",
+      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
+    },
+    {
+      "t": "2026-11-27T11:15:34Z",
+      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-27T11:15:34Z",
+      "text": "🧬 🦈 The Shark dropped the 🗺️ Versatile trait: it stopped working (-0.0% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-27T11:15:34Z",
+      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
+    },
+    {
+      "t": "2026-11-27T11:15:34Z",
+      "text": "🏁 🧮 The Quant now leads the race to go live (7 days to selection)."
     }
   ],
   "levels": {
@@ -495,7 +495,7 @@
       },
       {
         "d": "2026-11-27",
-        "iq": 152
+        "iq": 151
       }
     ],
     "shark": [
@@ -2391,20 +2391,20 @@
     }
   },
   "skip_note": "2026-11-06@8",
-  "news_at": "2026-11-27T08:15:34Z",
+  "news_at": "2026-11-27T11:15:34Z",
   "feed_status": {
     "https://www.espn.com/espn/rss/nba/news": "error 2026-11-10T08:42:16Z: no element found: line 1, column 0",
-    "https://www.cbssports.com/rss/headlines/nba/": "ok 2026-11-27T08:15:34Z",
-    "https://sports.yahoo.com/nba/rss.xml": "ok 2026-11-27T08:15:34Z",
+    "https://www.cbssports.com/rss/headlines/nba/": "ok 2026-11-27T11:15:34Z",
+    "https://sports.yahoo.com/nba/rss.xml": "ok 2026-11-27T11:15:34Z",
     "https://www.espn.com/espn/rss/nfl/news": "error 2026-11-10T08:42:16Z: no element found: line 1, column 0",
     "https://www.espn.com/espn/rss/ncf/news": "error 2026-11-10T08:42:16Z: no element found: line 1, column 0",
-    "https://www.cbssports.com/rss/headlines/nfl/": "ok 2026-11-27T08:15:34Z",
-    "https://sports.yahoo.com/nfl/rss.xml": "ok 2026-11-27T08:15:34Z",
-    "https://sports.yahoo.com/college-football/rss.xml": "ok 2026-11-27T08:15:34Z",
-    "https://feeds.bbci.co.uk/sport/football/rss.xml": "ok 2026-11-27T08:15:34Z",
-    "https://feeds.bbci.co.uk/sport/football/championship/rss.xml": "ok 2026-11-27T08:15:34Z",
-    "https://feeds.bbci.co.uk/sport/football/european/rss.xml": "ok 2026-11-27T08:15:34Z",
-    "https://football-italia.net/feed/": "ok 2026-11-27T08:15:34Z"
+    "https://www.cbssports.com/rss/headlines/nfl/": "ok 2026-11-27T11:15:34Z",
+    "https://sports.yahoo.com/nfl/rss.xml": "ok 2026-11-27T11:15:34Z",
+    "https://sports.yahoo.com/college-football/rss.xml": "ok 2026-11-27T11:15:34Z",
+    "https://feeds.bbci.co.uk/sport/football/rss.xml": "ok 2026-11-27T11:15:34Z",
+    "https://feeds.bbci.co.uk/sport/football/championship/rss.xml": "ok 2026-11-27T11:15:34Z",
+    "https://feeds.bbci.co.uk/sport/football/european/rss.xml": "ok 2026-11-27T11:15:34Z",
+    "https://football-italia.net/feed/": "ok 2026-11-27T11:15:34Z"
   },
   "exploring": {
     "lizard": {
@@ -3134,6 +3134,12 @@
         "on": 0.058,
         "off": 0.0141,
         "bets": 16
+      },
+      "discipline": {
+        "since": "2026-11-27T11:15:34Z",
+        "on": 0.0391,
+        "off": 0.0221,
+        "bets": 3
       }
     },
     "shark": {
@@ -3149,19 +3155,13 @@
         "off": 0.0178,
         "bets": 1
       },
-      "precision": {
-        "since": "2026-11-27T11:01:00Z",
-        "on": 0.032,
-        "off": 0.0199,
-        "bets": 2
-      },
-      "new_ground": {
-        "since": "2026-11-27T11:01:00Z",
-        "on": 0.0006,
-        "off": 0.0206,
-        "bets": 3
+      "underdog": {
+        "since": "2026-11-27T11:15:34Z",
+        "on": 0.0278,
+        "off": 0.0186,
+        "bets": 15
       }
     }
   },
-  "race_leader": "shark"
+  "race_leader": "quant"
 }

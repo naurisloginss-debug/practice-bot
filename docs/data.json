@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T11:01:00Z",
+  "updated": "2026-11-27T11:15:34Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -16,7 +16,7 @@
     "talk": [
       {
         "who": "quant",
-        "text": "The data put me first. The Lizard, check your model. 7 days until selection. Regression to the mean is coming for the leader."
+        "text": "The data put me first. The Lizard, check your model. The data says I'm the one going live. 7 days to prove it."
       },
       {
         "who": "lizard",
@@ -24,7 +24,7 @@
       },
       {
         "who": "shark",
-        "text": "I smell The Quant's lead from here. Closing in. Only one of us gets real money. Smell that? It's me."
+        "text": "I smell The Quant's lead from here. Closing in. Only one of us gets real money, in 7 days. And I'm hungry."
       }
     ],
     "chars": {
@@ -211,8 +211,8 @@
         ]
       },
       "quant": {
-        "iq": 152,
-        "iq_gain": 9,
+        "iq": 151,
+        "iq_gain": 8,
         "streak": 4,
         "best_streak": 9,
         "achievements": [
@@ -334,7 +334,7 @@
             "pending": false
           }
         ],
-        "score": 239,
+        "score": 238,
         "trophies": [
           {
             "kind": "grower",
@@ -501,18 +501,6 @@
       "min_bets": 30,
       "rows": [
         {
-          "who": "shark",
-          "eligible": true,
-          "measured": 36,
-          "need": 0,
-          "clv": 0.029,
-          "cautious": 0.0166,
-          "beat": 0.6667,
-          "challenges": 0.727,
-          "traits": 4,
-          "score": 31.53
-        },
-        {
           "who": "quant",
           "eligible": true,
           "measured": 77,
@@ -521,8 +509,20 @@
           "cautious": 0.0173,
           "beat": 0.6623,
           "challenges": 0.643,
+          "traits": 4,
+          "score": 31.71
+        },
+        {
+          "who": "shark",
+          "eligible": true,
+          "measured": 36,
+          "need": 0,
+          "clv": 0.029,
+          "cautious": 0.0166,
+          "beat": 0.6667,
+          "challenges": 0.727,
           "traits": 3,
-          "score": 29.71
+          "score": 29.53
         },
         {
           "who": "lizard",
@@ -538,11 +538,11 @@
         }
       ],
       "ranking": [
-        "shark",
         "quant",
+        "shark",
         "lizard"
       ],
-      "leader": "shark"
+      "leader": "quant"
     }
   },
   "credits_left": 16214,
@@ -1245,8 +1245,22 @@
         "measured": 2
       },
       "reading": {
-        "week": 132,
+        "week": 124,
         "latest": [
+          {
+            "t": "2026-11-27T10:34:09Z",
+            "title": "Botman banned from driving for using phone at wheel",
+            "link": "https://www.bbc.co.uk/news/articles/c6wy43d3ry12o?at_medium=RSS&at_campaign=rss",
+            "source": "feeds.bbci.co.uk",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-27T08:28:16Z",
+            "title": "Today’s Papers – Milan’s comeback, new Juventus goals",
+            "link": "https://football-italia.net/today-papers-milan-comeback-new-juventus-goals/",
+            "source": "football-italia.net",
+            "tone": 1
+          },
           {
             "t": "2026-11-27T06:54:36Z",
             "title": "What happens now for Bayern Munich and Musiala?",
@@ -1274,20 +1288,6 @@
             "link": "https://www.bbc.co.uk/sport/football/articles/cm93rdqrgkz2o?at_medium=RSS&at_campaign=rss",
             "source": "feeds.bbci.co.uk",
             "tone": 1
-          },
-          {
-            "t": "2026-11-26T17:12:45Z",
-            "title": "Germany's Freigang given 16-month ban over drugs test issues",
-            "link": "https://www.bbc.co.uk/sport/football/articles/cqlym4rd3y52o?at_medium=RSS&at_campaign=rss",
-            "source": "feeds.bbci.co.uk",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-26T16:38:05Z",
-            "title": "Europa League line-ups: Olympiacos vs. Milan",
-            "link": "https://football-italia.net/europa-league-line-ups-olympiacos-vs-milan/",
-            "source": "football-italia.net",
-            "tone": -1
           }
         ]
       },
@@ -2487,7 +2487,7 @@
         "measured": 0
       },
       "reading": {
-        "week": 93,
+        "week": 72,
         "latest": [
           {
             "t": "2026-11-27T02:20:41Z",
@@ -2772,11 +2772,22 @@
           "on": 0.058,
           "off": 0.0141,
           "bets": 16
+        },
+        {
+          "id": "discipline",
+          "emoji": "🧘",
+          "title": "Disciplined",
+          "effect": "Avoids odds above 3.5.",
+          "from": "Discipline day",
+          "since": "2026-11-27T11:15:34Z",
+          "on": 0.0391,
+          "off": 0.0221,
+          "bets": 3
         }
       ],
       "mind": {
-        "iq": 152,
-        "iq_week": 27,
+        "iq": 151,
+        "iq_week": 26,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -2872,7 +2883,7 @@
           },
           {
             "d": "2026-11-27",
-            "iq": 152
+            "iq": 151
           }
         ],
         "facts": [
@@ -2964,10 +2975,10 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.02,
+        "min_edge": 0.015,
         "odds": [
           1.6,
-          4.0
+          5.0
         ],
         "stop_below": 250
       },
@@ -3513,8 +3524,29 @@
         "measured": 2
       },
       "reading": {
-        "week": 375,
+        "week": 404,
         "latest": [
+          {
+            "t": "2026-11-27T11:00:00Z",
+            "title": "When it comes to the national championship, why not the Utes?",
+            "link": "https://sports.yahoo.com/college-football/articles/comes-national-championship-why-not-110000451.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-27T10:46:00Z",
+            "title": "Gamecock DBs aren&#39;t being told to play so loose. So what gives?",
+            "link": "https://sports.yahoo.com/college-football/articles/gamecock-dbs-arent-being-told-104600616.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-27T10:25:29Z",
+            "title": "Texas A&M WR Kelshaun Johnson upgraded to probable vs. Texas",
+            "link": "https://sports.yahoo.com/college-football/articles/texas-m-wr-kelshaun-johnson-102529734.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
           {
             "t": "2026-11-27T05:29:20Z",
             "title": "Utah RB Wayshawn Parker gets notable injury upgrade for West Virginia game",
@@ -3533,27 +3565,6 @@
             "t": "2026-11-27T01:17:26Z",
             "title": "Oklahoma Offensive Lineman Cleared to Play Against Missouri",
             "link": "https://sports.yahoo.com/college-football/articles/oklahoma-offensive-lineman-cleared-play-011726328.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-27T01:09:08Z",
-            "title": "USC Trojans Injury Report Sees Two Key Changes As UCLA Game Looms",
-            "link": "https://sports.yahoo.com/college-football/articles/usc-trojans-injury-report-sees-010908543.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-27T01:04:35Z",
-            "title": "Oregon Ducks&#39; Injury Report vs. Washington Huskies Sees No Changes",
-            "link": "https://sports.yahoo.com/college-football/articles/oregon-ducks-injury-report-vs-010435022.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-27T01:00:00Z",
-            "title": "How to Watch Alabama Football vs. Auburn: Kickoff Time, TV Channel, Radio and Weather",
-            "link": "https://sports.yahoo.com/college-football/articles/watch-alabama-football-vs-auburn-010000738.html",
             "source": "sports.yahoo.com",
             "tone": 1
           }
@@ -3786,26 +3797,15 @@
           "bets": 1
         },
         {
-          "id": "precision",
-          "emoji": "🎯",
-          "title": "Precise",
-          "effect": "Always demands +0.5% more edge.",
-          "from": "Precision day",
-          "since": "2026-11-27T11:01:00Z",
-          "on": 0.032,
-          "off": 0.0199,
-          "bets": 2
-        },
-        {
-          "id": "new_ground",
-          "emoji": "🗺️",
-          "title": "Versatile",
-          "effect": "Keeps trying every bet type (+1 scout bet a day).",
-          "from": "New ground",
-          "since": "2026-11-27T11:01:00Z",
-          "on": 0.0006,
-          "off": 0.0206,
-          "bets": 3
+          "id": "underdog",
+          "emoji": "🐶",
+          "title": "Underdog lover",
+          "effect": "Allows underdogs at odds up to 1.0 higher.",
+          "from": "Underdog hunter",
+          "since": "2026-11-27T11:15:34Z",
+          "on": 0.0278,
+          "off": 0.0186,
+          "bets": 15
         }
       ],
       "mind": {
@@ -11590,26 +11590,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-27T09:15:41Z",
-      "text": "🧬 🦈 The Shark made New ground part of its character: 🗺️ Versatile. It completed the challenge on 2026-11-24 and its bets beat the market by +0.1%. Keeps trying every bet type (+1 scout bet a day)."
-    },
-    {
-      "t": "2026-11-27T09:15:41Z",
-      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
-    },
-    {
-      "t": "2026-11-27T09:15:41Z",
-      "text": "Results:\n- Won +10.98: Buffalo Bills -2.5 (Spread) in Buffalo Bills vs Kansas City Chiefs (Buffalo Bills 13 - 10 Kansas City Chiefs)\n- Lost -5.38: Baylor Bears (Winner) in Gonzaga Bulldogs vs Baylor Bears (Gonzaga Bulldogs 72 - 64 Baylor Bears)\n- Lost -2.08: SMU Mustangs (Winner) in LSU Tigers vs SMU Mustangs (LSU Tigers 95 - 86 SMU Mustangs)"
-    },
-    {
-      "t": "2026-11-27T09:30:47Z",
-      "text": "🧬 🧮 The Quant dropped the 🐶 Underdog lover trait: it stopped working (+1.6% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-27T09:30:47Z",
-      "text": "🧬 🦈 The Shark dropped the 🗺️ Versatile trait: it stopped working (-0.0% vs the market on those days)."
-    },
-    {
       "t": "2026-11-27T09:30:47Z",
       "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
     },
@@ -11708,6 +11688,26 @@
     {
       "t": "2026-11-27T11:01:00Z",
       "text": "🏁 🦈 The Shark now leads the race to go live (7 days to selection)."
+    },
+    {
+      "t": "2026-11-27T11:15:34Z",
+      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
+    },
+    {
+      "t": "2026-11-27T11:15:34Z",
+      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-27T11:15:34Z",
+      "text": "🧬 🦈 The Shark dropped the 🗺️ Versatile trait: it stopped working (-0.0% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-27T11:15:34Z",
+      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
+    },
+    {
+      "t": "2026-11-27T11:15:34Z",
+      "text": "🏁 🧮 The Quant now leads the race to go live (7 days to selection)."
     }
   ]
 }
