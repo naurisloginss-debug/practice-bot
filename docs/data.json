@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T05:00:57Z",
+  "updated": "2026-11-27T05:15:31Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -509,8 +509,8 @@
           "cautious": 0.0173,
           "beat": 0.6623,
           "challenges": 0.643,
-          "traits": 3,
-          "score": 29.71
+          "traits": 4,
+          "score": 31.71
         },
         {
           "who": "shark",
@@ -1245,7 +1245,7 @@
         "measured": 2
       },
       "reading": {
-        "week": 120,
+        "week": 127,
         "latest": [
           {
             "t": "2026-11-26T23:13:11Z",
@@ -2479,8 +2479,22 @@
         "measured": 0
       },
       "reading": {
-        "week": 69,
+        "week": 81,
         "latest": [
+          {
+            "t": "2026-11-27T02:20:41Z",
+            "title": "Game Preview #20: Wolves vs Grizzlies Game Thread",
+            "link": "https://sports.yahoo.com/nba/articles/game-preview-20-wolves-vs-022041833.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-27T01:56:29Z",
+            "title": "Important Jusuf Nurkic Injury Update",
+            "link": "https://sports.yahoo.com/nba/articles/important-jusuf-nurkic-injury-015629072.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
           {
             "t": "2026-11-27T00:15:53Z",
             "title": "Lakers’ Austin Reaves gets crucial injury upgrade ahead of Spurs game",
@@ -2508,20 +2522,6 @@
             "link": "https://sports.yahoo.com/articles/observations-sixers-5-game-win-173500225.html",
             "source": "sports.yahoo.com",
             "tone": 1
-          },
-          {
-            "t": "2026-11-26T07:00:00Z",
-            "title": "Embiid sidelined for Sixers-Blazers with illness",
-            "link": "https://sports.yahoo.com/articles/embiid-sidelined-sixers-blazers-illness-173500321.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-26T03:25:03Z",
-            "title": "LaMelo Ball injury update: Timberwolves star hurt late in win vs. Thunder",
-            "link": "https://sports.yahoo.com/nba/articles/lamelo-ball-injury-timberwolves-star-032503462.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
           }
         ]
       },
@@ -2764,6 +2764,17 @@
           "on": 0.058,
           "off": 0.0141,
           "bets": 16
+        },
+        {
+          "id": "discipline",
+          "emoji": "🧘",
+          "title": "Disciplined",
+          "effect": "Avoids odds above 3.5.",
+          "from": "Discipline day",
+          "since": "2026-11-27T05:15:31Z",
+          "on": 0.0391,
+          "off": 0.0221,
+          "bets": 3
         }
       ],
       "mind": {
@@ -2942,10 +2953,10 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.015,
+        "min_edge": 0.02,
         "odds": [
           1.6,
-          5.0
+          4.0
         ],
         "stop_below": 250
       },
@@ -3483,8 +3494,29 @@
         "measured": 2
       },
       "reading": {
-        "week": 411,
+        "week": 392,
         "latest": [
+          {
+            "t": "2026-11-27T05:00:00Z",
+            "title": "Andy Reid gives 2 injury updates after loss to Bills",
+            "link": "https://sports.yahoo.com/nfl/articles/andy-reid-gives-2-injury-050000116.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-27T01:09:08Z",
+            "title": "USC Trojans Injury Report Sees Two Key Changes As UCLA Game Looms",
+            "link": "https://sports.yahoo.com/college-football/articles/usc-trojans-injury-report-sees-010908543.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-27T01:04:35Z",
+            "title": "Oregon Ducks&#39; Injury Report vs. Washington Huskies Sees No Changes",
+            "link": "https://sports.yahoo.com/college-football/articles/oregon-ducks-injury-report-vs-010435022.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
           {
             "t": "2026-11-27T01:00:00Z",
             "title": "How to Watch Alabama Football vs. Auburn: Kickoff Time, TV Channel, Radio and Weather",
@@ -3503,27 +3535,6 @@
             "t": "2026-11-27T00:27:51Z",
             "title": "Vikings-Falcons Second Injury Report",
             "link": "https://sports.yahoo.com/nfl/articles/vikings-falcons-second-injury-report-002751198.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-26T23:49:38Z",
-            "title": "Boston College Has A New Reason To Believe In Its 2027 Offense",
-            "link": "https://sports.yahoo.com/college-football/articles/boston-college-reason-believe-2027-234938254.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-26T23:49:38Z",
-            "title": "Boston College Has A New Reason To Believe In Its 2027 Offense",
-            "link": "https://sports.yahoo.com/college-football/articles/boston-college-reason-believe-2027-234938844.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-26T23:48:15Z",
-            "title": "Thursday’s Saints vs. Bengals Injury Report: Erik McCoy ungraded to full, Juwan Johnson remains out",
-            "link": "https://sports.yahoo.com/nfl/articles/thursday-saints-vs-bengals-injury-234815054.html",
             "source": "sports.yahoo.com",
             "tone": -1
           }
@@ -3756,15 +3767,15 @@
           "bets": 1
         },
         {
-          "id": "underdog",
-          "emoji": "🐶",
-          "title": "Underdog lover",
-          "effect": "Allows underdogs at odds up to 1.0 higher.",
-          "from": "Underdog hunter",
-          "since": "2026-11-27T05:00:57Z",
-          "on": 0.0278,
-          "off": 0.0186,
-          "bets": 15
+          "id": "precision",
+          "emoji": "🎯",
+          "title": "Precise",
+          "effect": "Always demands +0.5% more edge.",
+          "from": "Precision day",
+          "since": "2026-11-27T05:15:31Z",
+          "on": 0.032,
+          "off": 0.0199,
+          "bets": 2
         }
       ],
       "mind": {
@@ -11554,18 +11565,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-27T03:30:47Z",
-      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
-    },
-    {
-      "t": "2026-11-27T03:30:47Z",
-      "text": "🧬 🦈 The Shark made New ground part of its character: 🗺️ Versatile. It completed the challenge on 2026-11-24 and its bets beat the market by +0.1%. Keeps trying every bet type (+1 scout bet a day)."
-    },
-    {
-      "t": "2026-11-27T03:30:47Z",
-      "text": "🏁 🦈 The Shark now leads the race to go live (7 days to selection)."
-    },
-    {
       "t": "2026-11-27T03:45:31Z",
       "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
     },
@@ -11672,6 +11671,18 @@
     {
       "t": "2026-11-27T05:00:57Z",
       "text": "Placed 11 practice bets:\n- The Lizard: **Under 2.5** (Total) in Boca Juniors vs Gimnasia La Plata (Primera División (Argentina)) at 2.0 on Unibet (SE), stake 4.89, edge +2.1%\n- The Quant: **Miami Heat** (Winner) in New York Knicks vs Miami Heat (NBA) at 2.61 on Marathon Bet, stake 9.63, edge +3.8%\n- The Quant: **Los Angeles Lakers +5.5** (Spread) in San Antonio Spurs vs Los Angeles Lakers (NBA) at 2.04 on Marathon Bet, stake 6.11, edge +2.0%\n- The Quant: **Los Angeles Lakers** (Winner) in San Antonio Spurs vs Los Angeles Lakers (NBA) at 3.08 on Marathon Bet, stake 5.29, edge +2.7%\n- The Quant: **Fresno St Bulldogs -1.5** (Spread) in South Alabama Jaguars vs Fresno St Bulldogs (College basketball (US)) at 2.11 on GTbets, stake 8.68, edge +3.0%\n- The Quant: **Towson Tigers** (Winner) in Pennsylvania Quakers vs Towson Tigers (College basketball (US)) at 2.75 on Unibet (NL), stake 10.55, edge +4.5%\n- The Quant 💭 gut: **Marquette Golden Eagles** (Winner) in Marquette Golden Eagles vs Texas A&M Aggies (College basketball (US)) at 2.2 on 888sport, stake 2.30, edge +1.8%\n- The Shark 💭 gut: **Tulsa Golden Hurricane** (Winner) in UTSA Roadrunners vs Tulsa Golden Hurricane (College football (US)) at 1.93 on Unibet (SE), stake 2.46, edge +-0.3%\n- The Shark 💭 gut: **Utah State Aggies** (Winner) in Utah State Aggies vs Texas State Bobcats (College football (US)) at 3.45 on BetOnline.ag, stake 2.46, edge +-0.4%\n- The Quant 🎲 wild: **Idaho Vandals** (Winner) in Washington St Cougars vs Idaho Vandals (College basketball (US)) at 6.8 on GTbets, stake 1.15, edge +6.3%\n- The Quant 🎲 wild: **Utah Jazz** (Winner) in Utah Jazz vs Denver Nuggets (NBA) at 4.9 on BetAnything, stake 1.15, edge +0.8%"
+    },
+    {
+      "t": "2026-11-27T05:15:31Z",
+      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
+    },
+    {
+      "t": "2026-11-27T05:15:31Z",
+      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
+    },
+    {
+      "t": "2026-11-27T05:15:31Z",
+      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
     }
   ]
 }
