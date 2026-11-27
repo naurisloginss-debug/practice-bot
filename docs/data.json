@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T02:00:57Z",
+  "updated": "2026-11-27T02:15:31Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -16,7 +16,7 @@
     "talk": [
       {
         "who": "quant",
-        "text": "The data put me first. The Lizard, check your model. 7 days until selection. Regression to the mean is coming for the leader."
+        "text": "The data put me first. The Lizard, check your model. The data says I'm the one going live. 7 days to prove it."
       },
       {
         "who": "lizard",
@@ -24,13 +24,13 @@
       },
       {
         "who": "shark",
-        "text": "I smell The Quant's lead from here. Closing in. Only one of us gets real money. Smell that? It's me."
+        "text": "I smell The Quant's lead from here. Closing in. Only one of us gets real money, in 7 days. And I'm hungry."
       }
     ],
     "chars": {
       "lizard": {
-        "iq": 130,
-        "iq_gain": 5,
+        "iq": 131,
+        "iq_gain": 6,
         "streak": 2,
         "best_streak": 8,
         "achievements": [
@@ -152,7 +152,7 @@
             "pending": false
           }
         ],
-        "score": 195,
+        "score": 196,
         "trophies": [
           {
             "kind": "sharpshooter",
@@ -501,18 +501,6 @@
       "min_bets": 30,
       "rows": [
         {
-          "who": "shark",
-          "eligible": true,
-          "measured": 36,
-          "need": 0,
-          "clv": 0.029,
-          "cautious": 0.0166,
-          "beat": 0.6667,
-          "challenges": 0.727,
-          "traits": 4,
-          "score": 31.53
-        },
-        {
           "who": "quant",
           "eligible": true,
           "measured": 76,
@@ -521,8 +509,20 @@
           "cautious": 0.0157,
           "beat": 0.6579,
           "challenges": 0.643,
-          "traits": 4,
-          "score": 30.09
+          "traits": 3,
+          "score": 28.09
+        },
+        {
+          "who": "shark",
+          "eligible": true,
+          "measured": 36,
+          "need": 0,
+          "clv": 0.029,
+          "cautious": 0.0166,
+          "beat": 0.6667,
+          "challenges": 0.727,
+          "traits": 2,
+          "score": 27.53
         },
         {
           "who": "lizard",
@@ -538,11 +538,11 @@
         }
       ],
       "ranking": [
-        "shark",
         "quant",
+        "shark",
         "lizard"
       ],
-      "leader": "shark"
+      "leader": "quant"
     }
   },
   "credits_left": 16329,
@@ -1245,8 +1245,15 @@
         "measured": 2
       },
       "reading": {
-        "week": 94,
+        "week": 120,
         "latest": [
+          {
+            "t": "2026-11-26T23:13:11Z",
+            "title": "West Brom's Price ruled out for up to six weeks",
+            "link": "https://www.bbc.co.uk/sport/football/articles/c6vg2440gq9vo?at_medium=RSS&at_campaign=rss",
+            "source": "feeds.bbci.co.uk",
+            "tone": -1
+          },
           {
             "t": "2026-11-26T20:43:54Z",
             "title": "Amorim: ‘Hutchinson changed the game more than me’ as Ramos injury concern emerges for Milan",
@@ -1281,13 +1288,6 @@
             "link": "https://football-italia.net/fiorentina-confirm-viery-out-until-2027-injury/",
             "source": "football-italia.net",
             "tone": -1
-          },
-          {
-            "t": "2026-11-26T15:32:51Z",
-            "title": "Report Robinio Vaz could return to Roma just 6 months into flop Hull City loan",
-            "link": "https://football-italia.net/report-robinio-vaz-roma-6-months-hull-city/",
-            "source": "football-italia.net",
-            "tone": 1
           }
         ]
       },
@@ -1536,8 +1536,8 @@
         }
       ],
       "mind": {
-        "iq": 130,
-        "iq_week": 17,
+        "iq": 131,
+        "iq_week": 18,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -1633,7 +1633,7 @@
           },
           {
             "d": "2026-11-27",
-            "iq": 130
+            "iq": 131
           }
         ],
         "facts": [
@@ -1742,7 +1742,7 @@
         "min_edge": 0.02,
         "odds": [
           1.6,
-          4.5
+          3.5
         ],
         "stop_below": 250
       },
@@ -2463,8 +2463,29 @@
         "measured": 0
       },
       "reading": {
-        "week": 68,
+        "week": 69,
         "latest": [
+          {
+            "t": "2026-11-27T00:15:53Z",
+            "title": "Lakers’ Austin Reaves gets crucial injury upgrade ahead of Spurs game",
+            "link": "https://sports.yahoo.com/nba/articles/lakers-austin-reaves-gets-crucial-001553229.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-26T22:59:06Z",
+            "title": "76ers rule out Jaylen Brown (hamstring), list Joel Embiid (illness) as questionable for Friday&#39;s game vs. Pacers",
+            "link": "https://sports.yahoo.com/nba/article/76ers-rule-out-jaylen-brown-hamstring-list-joel-embiid-illness-as-questionable-for-fridays-game-vs-pacers-225906822.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-26T20:40:00Z",
+            "title": "Brown out again with hamstring injury for Sixers&#39; last NBA Cup group game",
+            "link": "https://sports.yahoo.com/nba/articles/brown-again-hamstring-injury-sixers-192207841.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
           {
             "t": "2026-11-26T14:09:35Z",
             "title": "Observations after Sixers&#39; 5-game win streak ends with blowout loss to Blazers",
@@ -2480,32 +2501,11 @@
             "tone": -1
           },
           {
-            "t": "2026-11-26T06:57:02Z",
-            "title": "Rockets Scurry Over Suns To Another 116-104 Victory",
-            "link": "https://sports.yahoo.com/nba/articles/rockets-scurry-over-suns-another-065702969.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-26T05:53:20Z",
-            "title": "Game Recap: Suns run out of fuel in 116-104 loss to Rockets",
-            "link": "https://sports.yahoo.com/nba/articles/game-recap-suns-run-fuel-055320447.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
-          },
-          {
             "t": "2026-11-26T03:25:03Z",
             "title": "LaMelo Ball injury update: Timberwolves star hurt late in win vs. Thunder",
             "link": "https://sports.yahoo.com/nba/articles/lamelo-ball-injury-timberwolves-star-032503462.html",
             "source": "sports.yahoo.com",
             "tone": -1
-          },
-          {
-            "t": "2026-11-23T16:18:33Z",
-            "title": "2027 NBA Draft Big Board: Quentin Coleman's meteoric rise, Tyran Stokes stays at No. 1, returners boost stock",
-            "link": "https://www.cbssports.com/nba/news/2027-nba-draft-big-board-quentin-coleman-tyran-stokes-ivan-kharchenkov/",
-            "source": "www.cbssports.com",
-            "tone": 1
           }
         ]
       },
@@ -2730,17 +2730,6 @@
           "on": 0.052,
           "off": 0.0141,
           "bets": 15
-        },
-        {
-          "id": "underdog",
-          "emoji": "🐶",
-          "title": "Underdog lover",
-          "effect": "Allows underdogs at odds up to 1.0 higher.",
-          "from": "Underdog hunter",
-          "since": "2026-11-27T02:00:57Z",
-          "on": 0.0135,
-          "off": 0.0206,
-          "bets": 10
         }
       ],
       "mind": {
@@ -2936,7 +2925,7 @@
         "min_edge": 0.015,
         "odds": [
           1.6,
-          5.0
+          4.0
         ],
         "stop_below": 250
       },
@@ -3466,47 +3455,47 @@
         "measured": 2
       },
       "reading": {
-        "week": 438,
+        "week": 411,
         "latest": [
           {
-            "t": "2026-11-26T22:54:50Z",
-            "title": "Eagles injury updates: Cooper DeJean ruled out, Saquon Barkley questionable to return",
-            "link": "https://sports.yahoo.com/nfl/articles/eagles-injury-updates-cooper-dejean-225450353.html",
+            "t": "2026-11-27T01:00:00Z",
+            "title": "How to Watch Alabama Football vs. Auburn: Kickoff Time, TV Channel, Radio and Weather",
+            "link": "https://sports.yahoo.com/college-football/articles/watch-alabama-football-vs-auburn-010000738.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-27T00:36:09Z",
+            "title": "Eagles make a game of it with blocked punt for touchdown",
+            "link": "https://sports.yahoo.com/nfl/articles/eagles-game-blocked-punt-touchdown-003609213.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-27T00:27:51Z",
+            "title": "Vikings-Falcons Second Injury Report",
+            "link": "https://sports.yahoo.com/nfl/articles/vikings-falcons-second-injury-report-002751198.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-26T22:45:00Z",
-            "title": "Broncos vs. Steelers injury report for Week 12",
-            "link": "https://sports.yahoo.com/nfl/articles/broncos-vs-steelers-injury-report-224500219.html",
+            "t": "2026-11-26T23:49:38Z",
+            "title": "Boston College Has A New Reason To Believe In Its 2027 Offense",
+            "link": "https://sports.yahoo.com/college-football/articles/boston-college-reason-believe-2027-234938254.html",
             "source": "sports.yahoo.com",
-            "tone": -1
+            "tone": 1
           },
           {
-            "t": "2026-11-26T22:33:29Z",
-            "title": "Seahawks-49ers Thursday injury report: Charles Cross a full go, Brock Purdy a DNP",
-            "link": "https://sports.yahoo.com/nfl/articles/seahawks-49ers-thursday-injury-report-223329392.html",
+            "t": "2026-11-26T23:49:38Z",
+            "title": "Boston College Has A New Reason To Believe In Its 2027 Offense",
+            "link": "https://sports.yahoo.com/college-football/articles/boston-college-reason-believe-2027-234938844.html",
             "source": "sports.yahoo.com",
-            "tone": -1
+            "tone": 1
           },
           {
-            "t": "2026-11-26T22:17:29Z",
-            "title": "Parker Washington Pops Up on Jaguars-Titans Thursday Injury Report",
-            "link": "https://sports.yahoo.com/nfl/articles/parker-washington-pops-jaguars-titans-221729169.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-26T22:04:34Z",
-            "title": "Indianapolis Colts Injury Report: Week 12 Thursday",
-            "link": "https://sports.yahoo.com/nfl/articles/indianapolis-colts-injury-report-week-220434599.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-26T22:01:08Z",
-            "title": "Broncos activate RB Tyler Badie and place DL Sai’vion Jones on the IR",
-            "link": "https://sports.yahoo.com/nfl/articles/broncos-activate-rb-tyler-badie-220108503.html",
+            "t": "2026-11-26T23:48:15Z",
+            "title": "Thursday’s Saints vs. Bengals Injury Report: Erik McCoy ungraded to full, Juwan Johnson remains out",
+            "link": "https://sports.yahoo.com/nfl/articles/thursday-saints-vs-bengals-injury-234815054.html",
             "source": "sports.yahoo.com",
             "tone": -1
           }
@@ -3737,28 +3726,6 @@
           "on": 0.0329,
           "off": 0.0178,
           "bets": 1
-        },
-        {
-          "id": "new_ground",
-          "emoji": "🗺️",
-          "title": "Versatile",
-          "effect": "Keeps trying every bet type (+1 scout bet a day).",
-          "from": "New ground",
-          "since": "2026-11-27T02:00:57Z",
-          "on": 0.0006,
-          "off": 0.0206,
-          "bets": 3
-        },
-        {
-          "id": "underdog",
-          "emoji": "🐶",
-          "title": "Underdog lover",
-          "effect": "Allows underdogs at odds up to 1.0 higher.",
-          "from": "Underdog hunter",
-          "since": "2026-11-27T02:00:57Z",
-          "on": 0.0278,
-          "off": 0.0186,
-          "bets": 15
         }
       ],
       "mind": {
@@ -11541,22 +11508,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-27T00:30:45Z",
-      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-27T00:45:31Z",
-      "text": "🧬 🧮 The Quant dropped the 🐶 Underdog lover trait: it stopped working (+1.6% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-27T00:45:31Z",
-      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-27T00:45:31Z",
-      "text": "🧬 🦈 The Shark made New ground part of its character: 🗺️ Versatile. It completed the challenge on 2026-11-24 and its bets beat the market by +0.1%. Keeps trying every bet type (+1 scout bet a day)."
-    },
-    {
       "t": "2026-11-27T00:45:31Z",
       "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
     },
@@ -11659,6 +11610,22 @@
     {
       "t": "2026-11-27T02:00:57Z",
       "text": "🏁 🦈 The Shark now leads the race to go live (7 days to selection)."
+    },
+    {
+      "t": "2026-11-27T02:15:31Z",
+      "text": "🧬 🧮 The Quant dropped the 🐶 Underdog lover trait: it stopped working (+1.6% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-27T02:15:31Z",
+      "text": "🧬 🦈 The Shark dropped the 🗺️ Versatile trait: it stopped working (-0.0% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-27T02:15:31Z",
+      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-27T02:15:31Z",
+      "text": "🏁 🧮 The Quant now leads the race to go live (7 days to selection)."
     }
   ]
 }
