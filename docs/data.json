@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T21:01:00Z",
+  "updated": "2026-11-27T21:15:37Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -521,8 +521,8 @@
           "cautious": 0.0173,
           "beat": 0.6623,
           "challenges": 0.643,
-          "traits": 3,
-          "score": 29.71
+          "traits": 4,
+          "score": 31.71
         },
         {
           "who": "lizard",
@@ -533,8 +533,8 @@
           "cautious": -0.0024,
           "beat": 0.6607,
           "challenges": 0.462,
-          "traits": 2,
-          "score": 7.14
+          "traits": 3,
+          "score": 9.14
         }
       ],
       "ranking": [
@@ -563,7 +563,7 @@
         "min_edge": 0.02,
         "odds": [
           1.6,
-          6.0
+          3.5
         ],
         "stop_below": 250
       },
@@ -1524,6 +1524,17 @@
           "on": 0.013,
           "off": 0.006,
           "bets": 5
+        },
+        {
+          "id": "discipline",
+          "emoji": "🧘",
+          "title": "Disciplined",
+          "effect": "Avoids odds above 3.5.",
+          "from": "Discipline day",
+          "since": "2026-11-27T21:15:37Z",
+          "on": 0.0202,
+          "off": 0.0067,
+          "bets": 9
         }
       ],
       "mind": {
@@ -2763,6 +2774,17 @@
           "on": 0.058,
           "off": 0.0141,
           "bets": 16
+        },
+        {
+          "id": "discipline",
+          "emoji": "🧘",
+          "title": "Disciplined",
+          "effect": "Avoids odds above 3.5.",
+          "from": "Discipline day",
+          "since": "2026-11-27T21:15:37Z",
+          "on": 0.0391,
+          "off": 0.0221,
+          "bets": 3
         }
       ],
       "mind": {
@@ -2944,7 +2966,7 @@
         "min_edge": 0.015,
         "odds": [
           1.6,
-          3.5
+          4.5
         ],
         "stop_below": 250
       },
@@ -3755,7 +3777,7 @@
           "from": "Read and react",
           "since": "2026-11-21T17:45:33Z",
           "on": 0.0888,
-          "off": 0.0161,
+          "off": 0.0151,
           "bets": 2
         },
         {
@@ -3766,7 +3788,7 @@
           "from": "Study day",
           "since": "2026-11-22T17:45:32Z",
           "on": 0.0329,
-          "off": 0.0182,
+          "off": 0.0172,
           "bets": 1
         },
         {
@@ -3777,19 +3799,19 @@
           "from": "Discipline day",
           "since": "2026-11-27T17:01:06Z",
           "on": 0.0157,
-          "off": 0.0186,
+          "off": 0.0176,
           "bets": 4
         },
         {
-          "id": "new_ground",
-          "emoji": "🗺️",
-          "title": "Versatile",
-          "effect": "Keeps trying every bet type (+1 scout bet a day).",
-          "from": "New ground",
-          "since": "2026-11-27T21:01:00Z",
-          "on": 0.0414,
-          "off": 0.0198,
-          "bets": 6
+          "id": "underdog",
+          "emoji": "🐶",
+          "title": "Underdog lover",
+          "effect": "Allows underdogs at odds up to 1.0 higher.",
+          "from": "Underdog hunter",
+          "since": "2026-11-27T21:15:37Z",
+          "on": 0.0278,
+          "off": 0.0176,
+          "bets": 15
         }
       ],
       "mind": {
@@ -11591,22 +11613,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-27T19:45:32Z",
-      "text": "🧬 🦎 The Lizard dropped the 🧘 Disciplined trait: it stopped working (+0.5% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-27T19:45:32Z",
-      "text": "🧬 🧮 The Quant dropped the 🐶 Underdog lover trait: it stopped working (+1.6% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-27T19:45:32Z",
-      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-27T20:00:56Z",
-      "text": "🧬 🦎 The Lizard made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-22 and its bets beat the market by +2.0%. Avoids odds above 3.5."
-    },
-    {
       "t": "2026-11-27T20:00:56Z",
       "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
     },
@@ -11709,6 +11715,22 @@
     {
       "t": "2026-11-27T21:01:00Z",
       "text": "Placed 7 practice bets:\n- The Lizard: **Toulouse** (Winner) in Toulouse vs Rennes (Ligue 1 (France)) at 2.6 on Unibet (SE), stake 4.90, edge +3.4%\n- The Quant: **North Dakota St Bison** (Winner) in North Dakota St Bison vs North Texas Mean Green (College basketball (US)) at 3.3 on Unibet (NL), stake 4.71, edge +2.7%\n- The Quant: **UC Davis Aggies** (Winner) in UC Davis Aggies vs Pacific Tigers (College basketball (US)) at 3.5 on Unibet (NL), stake 6.52, edge +4.0%\n- The Shark: **Tennessee Titans +14.5** (Spread) in Jacksonville Jaguars vs Tennessee Titans (NFL) at 1.91 on 888sport, stake 11.63, edge +3.1%\n- The Lizard ⚡ pounce: **Barracas Central** (Winner) in Rosario Central vs Barracas Central (Primera División (Argentina)) at 9.4 on Betfair, stake 2.04, edge +14.1%\n- The Quant ⚡ pounce: **Golden State Warriors** (Winner) in Portland Trail Blazers vs Golden State Warriors (NBA) at 4.1 on BetAnything, stake 4.53, edge +12.7%\n- The Lizard 💭 gut: **Ascoli** (Winner) in Ascoli vs Virtus Entella (Serie B (Italy 2)) at 1.93 on Unibet (SE), stake 2.32, edge +0.9%"
+    },
+    {
+      "t": "2026-11-27T21:15:37Z",
+      "text": "🧬 🦎 The Lizard made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-22 and its bets beat the market by +2.0%. Avoids odds above 3.5."
+    },
+    {
+      "t": "2026-11-27T21:15:37Z",
+      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
+    },
+    {
+      "t": "2026-11-27T21:15:37Z",
+      "text": "🧬 🦈 The Shark dropped the 🗺️ Versatile trait: it stopped working (+0.5% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-27T21:15:37Z",
+      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
     }
   ]
 }
