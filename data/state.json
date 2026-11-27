@@ -52,18 +52,6 @@
   },
   "log": [
     {
-      "t": "2026-11-27T22:01:00Z",
-      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
-    },
-    {
-      "t": "2026-11-27T22:01:00Z",
-      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-27T22:01:00Z",
-      "text": "🧬 🦈 The Shark made New ground part of its character: 🗺️ Versatile. It completed the challenge on 2026-11-24 and its bets beat the market by +3.0%. Keeps trying every bet type (+1 scout bet a day)."
-    },
-    {
       "t": "2026-11-27T22:15:33Z",
       "text": "🧬 🦎 The Lizard made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-22 and its bets beat the market by +2.0%. Avoids odds above 3.5."
     },
@@ -170,6 +158,18 @@
     {
       "t": "2026-11-27T23:30:45Z",
       "text": "🏁 🧮 The Quant now leads the race to go live (7 days to selection)."
+    },
+    {
+      "t": "2026-11-27T23:45:36Z",
+      "text": "🧬 🦎 The Lizard made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-22 and its bets beat the market by +2.0%. Avoids odds above 3.5."
+    },
+    {
+      "t": "2026-11-27T23:45:36Z",
+      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
+    },
+    {
+      "t": "2026-11-27T23:45:36Z",
+      "text": "🏁 🦈 The Shark now leads the race to go live (7 days to selection)."
     }
   ],
   "levels": {
@@ -3115,32 +3115,38 @@
         "on": 0.013,
         "off": 0.006,
         "bets": 5
+      },
+      "discipline": {
+        "since": "2026-11-27T23:45:36Z",
+        "on": 0.0202,
+        "off": 0.0067,
+        "bets": 9
       }
     },
     "quant": {
       "precision": {
         "since": "2026-11-23T18:30:49Z",
         "on": 0.0324,
-        "off": 0.0195,
+        "off": 0.02,
         "bets": 24
       },
       "study": {
         "since": "2026-11-25T23:45:38Z",
         "on": 0.0291,
-        "off": 0.0213,
+        "off": 0.0218,
         "bets": 17
       },
       "new_ground": {
         "since": "2026-11-26T21:30:45Z",
         "on": 0.058,
-        "off": 0.0156,
+        "off": 0.0161,
         "bets": 16
       },
       "sharp_eye": {
         "since": "2026-11-27T23:00:56Z",
-        "on": -0.0037,
+        "on": 0.0082,
         "off": 0.0238,
-        "bets": 4
+        "bets": 5
       }
     },
     "shark": {
@@ -3161,8 +3167,14 @@
         "on": 0.0157,
         "off": 0.0176,
         "bets": 4
+      },
+      "precision": {
+        "since": "2026-11-27T23:45:36Z",
+        "on": 0.032,
+        "off": 0.019,
+        "bets": 2
       }
     }
   },
-  "race_leader": "quant"
+  "race_leader": "shark"
 }
