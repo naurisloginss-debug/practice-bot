@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T17:30:46Z",
+  "updated": "2026-11-27T17:45:34Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -211,8 +211,8 @@
         ]
       },
       "quant": {
-        "iq": 152,
-        "iq_gain": 9,
+        "iq": 151,
+        "iq_gain": 8,
         "streak": 4,
         "best_streak": 9,
         "achievements": [
@@ -334,7 +334,7 @@
             "pending": false
           }
         ],
-        "score": 239,
+        "score": 238,
         "trophies": [
           {
             "kind": "grower",
@@ -509,8 +509,8 @@
           "cautious": 0.02,
           "beat": 0.6842,
           "challenges": 0.75,
-          "traits": 4,
-          "score": 35.42
+          "traits": 3,
+          "score": 33.42
         },
         {
           "who": "quant",
@@ -521,8 +521,8 @@
           "cautious": 0.0173,
           "beat": 0.6623,
           "challenges": 0.643,
-          "traits": 3,
-          "score": 29.71
+          "traits": 4,
+          "score": 31.71
         },
         {
           "who": "lizard",
@@ -1245,8 +1245,29 @@
         "measured": 2
       },
       "reading": {
-        "week": 117,
+        "week": 108,
         "latest": [
+          {
+            "t": "2026-11-27T16:58:02Z",
+            "title": "In-form O'Leary out to defy old club Bristol City",
+            "link": "https://www.bbc.co.uk/sport/football/articles/cmlywr5jqrr9o?at_medium=RSS&at_campaign=rss",
+            "source": "feeds.bbci.co.uk",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-27T16:20:00Z",
+            "title": "Malagò insists Italy players pushed for Mancini’s return",
+            "link": "https://football-italia.net/malago-italy-players-push-mancini-return/",
+            "source": "football-italia.net",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-27T16:05:30Z",
+            "title": "Spurs' Savio to miss festive fixtures after injury setback",
+            "link": "https://www.bbc.co.uk/sport/football/articles/cw4gnm4p3zxlo?at_medium=RSS&at_campaign=rss",
+            "source": "feeds.bbci.co.uk",
+            "tone": -1
+          },
           {
             "t": "2026-11-27T13:56:34Z",
             "title": "Official: Inter provide Bastoni injury update as recovery time revealed",
@@ -1265,27 +1286,6 @@
             "t": "2026-11-27T12:12:25Z",
             "title": "Nico Paz’s stance on potential Man Utd move and Real Madrid return revealed",
             "link": "https://football-italia.net/nico-paz-stance-real-madrid-return-man-utd/",
-            "source": "football-italia.net",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-27T11:57:24Z",
-            "title": "McInnes tempers 'anxiety' as Rangers seek top spot",
-            "link": "https://www.bbc.co.uk/sport/football/articles/cm4gnqxvy34wo?at_medium=RSS&at_campaign=rss",
-            "source": "feeds.bbci.co.uk",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-27T10:34:09Z",
-            "title": "Botman banned from driving for using phone at wheel",
-            "link": "https://www.bbc.co.uk/news/articles/c6wy43d3ry12o?at_medium=RSS&at_campaign=rss",
-            "source": "feeds.bbci.co.uk",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-27T08:28:16Z",
-            "title": "Today’s Papers – Milan’s comeback, new Juventus goals",
-            "link": "https://football-italia.net/today-papers-milan-comeback-new-juventus-goals/",
             "source": "football-italia.net",
             "tone": 1
           }
@@ -2487,7 +2487,7 @@
         "measured": 0
       },
       "reading": {
-        "week": 93,
+        "week": 83,
         "latest": [
           {
             "t": "2026-11-27T02:20:41Z",
@@ -2772,11 +2772,22 @@
           "on": 0.058,
           "off": 0.0141,
           "bets": 16
+        },
+        {
+          "id": "discipline",
+          "emoji": "🧘",
+          "title": "Disciplined",
+          "effect": "Avoids odds above 3.5.",
+          "from": "Discipline day",
+          "since": "2026-11-27T17:45:34Z",
+          "on": 0.0391,
+          "off": 0.0221,
+          "bets": 3
         }
       ],
       "mind": {
-        "iq": 152,
-        "iq_week": 27,
+        "iq": 151,
+        "iq_week": 26,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -2872,7 +2883,7 @@
           },
           {
             "d": "2026-11-27",
-            "iq": 152
+            "iq": 151
           }
         ],
         "facts": [
@@ -2967,7 +2978,7 @@
         "min_edge": 0.015,
         "odds": [
           1.6,
-          4.5
+          3.5
         ],
         "stop_below": 250
       },
@@ -3518,49 +3529,49 @@
         "measured": 3
       },
       "reading": {
-        "week": 390,
+        "week": 409,
         "latest": [
           {
-            "t": "2026-11-27T13:00:33Z",
-            "title": "5 Takeaways From Texas Tech&#39;s 11th Win to Clinch Big 12 Title Game Berth",
-            "link": "https://sports.yahoo.com/college-football/articles/5-takeaways-texas-techs-11th-130033295.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-27T12:30:05Z",
-            "title": "Jerry Jones: We&#39;ve had damning setbacks, but we won&#39;t make a coaching change",
-            "link": "https://sports.yahoo.com/nfl/articles/jerry-jones-weve-had-damning-123005908.html",
+            "t": "2026-11-27T17:35:23Z",
+            "title": "Alabama Football Gets Key Injury Updates Ahead of Iron Bowl Against Auburn",
+            "link": "https://sports.yahoo.com/college-football/articles/alabama-football-gets-key-injury-173523124.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-27T12:06:10Z",
-            "title": "Week 13 college football upset watch includes Baylor, Nebraska, UCLA top rivalry picks",
-            "link": "https://sports.yahoo.com/college-football/articles/week-13-college-football-upset-120610108.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-27T12:01:26Z",
-            "title": "Texas A&M vs. Texas live updates: Score highlights, analysis",
-            "link": "https://sports.yahoo.com/college-football/articles/texas-m-vs-texas-live-120126649.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-27T12:01:00Z",
-            "title": "How to Watch the Iowa Hawkeyes vs Nebraska Cornhuskers",
-            "link": "https://sports.yahoo.com/college-football/articles/watch-iowa-hawkeyes-vs-nebraska-120100941.html",
+            "t": "2026-11-27T17:33:55Z",
+            "title": "Georgia Football Awaits SEC Championship Opponent as Rivalry Weekend Unfolds",
+            "link": "https://sports.yahoo.com/college-football/articles/georgia-football-awaits-sec-championship-173355391.html",
             "source": "sports.yahoo.com",
             "tone": 1
           },
           {
-            "t": "2026-11-27T11:00:00Z",
-            "title": "When it comes to the national championship, why not the Utes?",
-            "link": "https://sports.yahoo.com/college-football/articles/comes-national-championship-why-not-110000451.html",
+            "t": "2026-11-27T17:26:46Z",
+            "title": "Bears vs. Lions: Inside the Snap Counts, Stats, and the Return of the Cardiac Bears",
+            "link": "https://sports.yahoo.com/nfl/articles/bears-vs-lions-inside-snap-172646571.html",
             "source": "sports.yahoo.com",
             "tone": 1
+          },
+          {
+            "t": "2026-11-27T17:22:53Z",
+            "title": "Report: Colston Loveland is expected to land on IR with knee injury",
+            "link": "https://sports.yahoo.com/nfl/articles/report-colston-loveland-expected-land-172253715.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-27T17:04:49Z",
+            "title": "Jaguars lose WR Parker Washington to shoulder injury as playoffs draw near",
+            "link": "https://www.cbssports.com/nfl/news/jaguars-wr-parker-washington-out-week-12-considered-week-to-week-shoulder-injury-playoffs/",
+            "source": "www.cbssports.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-27T17:02:37Z",
+            "title": "Davis Allen has a high-ankle sprain, Tyler Higbee has a chest contusion",
+            "link": "https://sports.yahoo.com/nfl/articles/davis-allen-high-ankle-sprain-170237834.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
           }
         ]
       },
@@ -3801,17 +3812,6 @@
           "on": 0.0102,
           "off": 0.0209,
           "bets": 3
-        },
-        {
-          "id": "underdog",
-          "emoji": "🐶",
-          "title": "Underdog lover",
-          "effect": "Allows underdogs at odds up to 1.0 higher.",
-          "from": "Underdog hunter",
-          "since": "2026-11-27T17:30:46Z",
-          "on": 0.0278,
-          "off": 0.0222,
-          "bets": 15
         }
       ],
       "mind": {
@@ -11601,14 +11601,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-27T15:45:33Z",
-      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
-    },
-    {
-      "t": "2026-11-27T15:45:33Z",
-      "text": "🧬 🦈 The Shark made New ground part of its character: 🗺️ Versatile. It completed the challenge on 2026-11-24 and its bets beat the market by +0.1%. Keeps trying every bet type (+1 scout bet a day)."
-    },
-    {
       "t": "2026-11-27T16:01:09Z",
       "text": "🧬 🧮 The Quant dropped the 🐶 Underdog lover trait: it stopped working (+1.6% vs the market on those days)."
     },
@@ -11719,6 +11711,14 @@
     {
       "t": "2026-11-27T17:30:46Z",
       "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
+    },
+    {
+      "t": "2026-11-27T17:45:34Z",
+      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
+    },
+    {
+      "t": "2026-11-27T17:45:34Z",
+      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
     }
   ]
 }
