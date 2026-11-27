@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T04:45:30Z",
+  "updated": "2026-11-27T05:00:57Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -319,7 +319,7 @@
           {
             "text": "Games studied",
             "target": 400,
-            "now": 227
+            "now": 261
           },
           {
             "text": "Bets checked against the market",
@@ -509,8 +509,8 @@
           "cautious": 0.0173,
           "beat": 0.6623,
           "challenges": 0.643,
-          "traits": 4,
-          "score": 31.71
+          "traits": 3,
+          "score": 29.71
         },
         {
           "who": "shark",
@@ -521,8 +521,8 @@
           "cautious": 0.0166,
           "beat": 0.6667,
           "challenges": 0.727,
-          "traits": 4,
-          "score": 31.53
+          "traits": 3,
+          "score": 29.53
         },
         {
           "who": "lizard",
@@ -545,8 +545,8 @@
       "leader": "quant"
     }
   },
-  "credits_left": 16322,
-  "last_scan": "2026-11-27@1",
+  "credits_left": 16271,
+  "last_scan": "2026-11-27@5",
   "strategies": {
     "lizard": {
       "name": "The Lizard",
@@ -603,8 +603,8 @@
           "detail": "-0.6% vs the market over 19 bets"
         }
       ],
-      "bets": 151,
-      "open": 44,
+      "bets": 152,
+      "open": 45,
       "won": 31,
       "lost": 76,
       "staked": 334.12,
@@ -1060,7 +1060,7 @@
         },
         {
           "name": "Primera División (Argentina)",
-          "bets": 3,
+          "bets": 4,
           "profit": -11.32,
           "roi": -1.0,
           "avg_clv": 0.0393,
@@ -1188,7 +1188,7 @@
         },
         {
           "name": "Total",
-          "bets": 21,
+          "bets": 22,
           "profit": 19.57,
           "roi": 0.4077,
           "avg_clv": 0.0261,
@@ -1208,7 +1208,7 @@
       "by_sport": [
         {
           "name": "Football",
-          "bets": 151,
+          "bets": 152,
           "profit": -35.88,
           "roi": -0.1074,
           "avg_clv": 0.0053,
@@ -1292,22 +1292,22 @@
         ]
       },
       "diary": {
-        "t": "2026-11-27T01:00:54Z",
+        "t": "2026-11-27T05:00:57Z",
         "mood": "Gap spotted. Striking while the bookmakers sleep.",
         "mindset": "Nauris gave me 500 and said he's not worried about losing it. That's permission to act, not to be careless: I strike more often, but only where the gap is real. Only one of us goes live.",
         "looked": 115,
-        "placed": 5,
+        "placed": 1,
         "wild_choice": "No wild bets today: today's challenge is about discipline.",
-        "scouts": 3,
+        "scouts": 0,
         "passed": [
           {
             "game": "Boca Juniors vs Gimnasia La Plata",
             "league": "Primera División (Argentina)",
             "pick": "Gimnasia La Plata",
-            "odds": 8.5,
+            "odds": 9.5,
             "book": "Unibet (NL)",
-            "edge": 0.139,
-            "reason": "+13.9% looks too good to be true. Worth a careful pounce to find out."
+            "edge": 0.273,
+            "reason": "+27.3% looks too good to be true. Probably a price the bookmaker forgot to update."
           },
           {
             "game": "Blackburn Rovers vs Charlton Athletic",
@@ -1639,84 +1639,84 @@
         "facts": [
           {
             "conf": "solid",
-            "n": 1823,
+            "n": 1867,
             "z": 0,
             "text": "LeoVegas (SE) is the softest bookmaker in Championship (England 2).",
             "detail": "beats fair by 2%+ on 8% of its prices vs 1% across all bookmakers"
           },
           {
             "conf": "solid",
-            "n": 1592,
+            "n": 1634,
             "z": 0,
             "text": "Unibet (NL) is the softest bookmaker in Serie B (Italy 2).",
             "detail": "beats fair by 2%+ on 5% of its prices vs 1% across all bookmakers"
           },
           {
             "conf": "solid",
-            "n": 1474,
+            "n": 1546,
             "z": 0,
             "text": "Matchbook is the softest bookmaker in League Two (England 4).",
-            "detail": "beats fair by 2%+ on 2% of its prices vs 0% across all bookmakers"
+            "detail": "beats fair by 2%+ on 1% of its prices vs 0% across all bookmakers"
           },
           {
             "conf": "solid",
-            "n": 1233,
+            "n": 1272,
             "z": 0,
             "text": "Unibet (SE) is the softest bookmaker in League One (England 3).",
             "detail": "beats fair by 2%+ on 3% of its prices vs 1% across all bookmakers"
           },
           {
             "conf": "solid",
-            "n": 1208,
+            "n": 1245,
             "z": 0,
             "text": "Unibet (SE) is the softest bookmaker in La Liga 2 (Spain 2).",
             "detail": "beats fair by 2%+ on 2% of its prices vs 1% across all bookmakers"
           },
           {
             "conf": "solid",
-            "n": 1156,
+            "n": 1194,
             "z": 0,
             "text": "LeoVegas (SE) is the softest bookmaker in J-League (Japan).",
             "detail": "beats fair by 2%+ on 4% of its prices vs 1% across all bookmakers"
           },
           {
             "conf": "solid",
-            "n": 1085,
+            "n": 1113,
             "z": 0,
             "text": "Unibet (NL) is the softest bookmaker in Brasileirão (Brazil).",
             "detail": "beats fair by 2%+ on 4% of its prices vs 1% across all bookmakers"
           },
           {
             "conf": "solid",
-            "n": 866,
+            "n": 901,
             "z": 0,
             "text": "1xBet is the softest bookmaker in Ligue 1 (France).",
             "detail": "beats fair by 2%+ on 15% of its prices vs 3% across all bookmakers"
           },
           {
             "conf": "solid",
-            "n": 816,
+            "n": 847,
             "z": 0,
             "text": "Unibet (NL) is the softest bookmaker in 2. Bundesliga.",
             "detail": "beats fair by 2%+ on 1% of its prices vs 0% across all bookmakers"
           },
           {
             "conf": "solid",
-            "n": 755,
+            "n": 783,
             "z": 0,
             "text": "LeoVegas (SE) is the softest bookmaker in MLS (USA).",
-            "detail": "beats fair by 2%+ on 8% of its prices vs 1% across all bookmakers"
+            "detail": "beats fair by 2%+ on 9% of its prices vs 1% across all bookmakers"
           },
           {
             "conf": "solid",
-            "n": 403,
+            "n": 417,
             "z": 0,
             "text": "Unibet (SE) is the softest bookmaker in Primera División (Argentina).",
-            "detail": "beats fair by 2%+ on 6% of its prices vs 1% across all bookmakers"
+            "detail": "beats fair by 2%+ on 6% of its prices vs 2% across all bookmakers"
           },
           {
             "conf": "solid",
-            "n": 360,
+            "n": 387,
             "z": 0,
             "text": "Unibet (SE) is the softest bookmaker in Bundesliga - Germany.",
             "detail": "beats fair by 2%+ on 13% of its prices vs 1% across all bookmakers"
@@ -1742,7 +1742,7 @@
         "min_edge": 0.02,
         "odds": [
           1.6,
-          4.5
+          3.5
         ],
         "stop_below": 250
       },
@@ -1780,8 +1780,8 @@
           "detail": "+3.6% vs the market, beat it on 67% of 49 bets"
         }
       ],
-      "bets": 148,
-      "open": 2,
+      "bets": 156,
+      "open": 10,
       "won": 58,
       "lost": 88,
       "staked": 856.38,
@@ -2384,7 +2384,7 @@
       "by_league": [
         {
           "name": "NBA",
-          "bets": 35,
+          "bets": 39,
           "profit": 0.36,
           "roi": 0.004,
           "avg_clv": 0.0296,
@@ -2393,7 +2393,7 @@
         },
         {
           "name": "College basketball (US)",
-          "bets": 96,
+          "bets": 100,
           "profit": 16.66,
           "roi": 0.0241,
           "avg_clv": 0.0208,
@@ -2413,7 +2413,7 @@
       "by_market": [
         {
           "name": "Winner",
-          "bets": 107,
+          "bets": 113,
           "profit": -11.6,
           "roi": -0.0317,
           "avg_clv": 0.0271,
@@ -2422,7 +2422,7 @@
         },
         {
           "name": "Spread",
-          "bets": 7,
+          "bets": 9,
           "profit": -10.19,
           "roi": -0.4906,
           "avg_clv": 0.0207,
@@ -2442,7 +2442,7 @@
       "by_sport": [
         {
           "name": "Basketball",
-          "bets": 148,
+          "bets": 156,
           "profit": -39.66,
           "roi": -0.0463,
           "avg_clv": 0.0219,
@@ -2451,7 +2451,7 @@
         }
       ],
       "gut": {
-        "bets": 21,
+        "bets": 22,
         "measured": 20,
         "avg_clv": 0.0206,
         "beat": 0.5,
@@ -2462,7 +2462,7 @@
         "profit": 0.22
       },
       "wild": {
-        "bets": 8,
+        "bets": 10,
         "won": 1,
         "lost": 7,
         "profit": -2.39,
@@ -2526,31 +2526,49 @@
         ]
       },
       "diary": {
-        "t": "2026-11-27T01:00:54Z",
-        "mood": "The lines are tight tonight. No edge, no bet.",
+        "t": "2026-11-27T05:00:57Z",
+        "mood": "The numbers don't lie. Betting it.",
         "mindset": "500 to work with, and Nauris isn't worried about losing it. More shots, same standard: every bet still has to beat the market. Only one of us goes live.",
-        "looked": 3,
-        "placed": 0,
-        "wild_choice": "Saw Oregon Ducks at 5.80. Tempting. Passed: I'm down (416.16 of 500), and I don't chase losses.",
+        "looked": 34,
+        "placed": 8,
+        "wild_choice": "Feeling sharp after beating the market 4 times in a row. Took a shot: Idaho Vandals at 6.80, Utah Jazz at 4.90.",
         "scouts": 0,
         "passed": [
           {
-            "game": "Pacific Tigers vs Omaha Mavericks",
+            "game": "Washington St Cougars vs Idaho Vandals",
             "league": "College basketball (US)",
-            "pick": "Omaha Mavericks",
-            "odds": 4.0,
-            "book": "William Hill",
-            "edge": -0.0078,
-            "reason": "Odds 4.00 are outside my game (1.6–3.5)."
+            "pick": "Idaho Vandals",
+            "odds": 6.8,
+            "book": "GTbets",
+            "edge": 0.0634,
+            "reason": "Odds 6.80 are outside my game (1.6–3.5)."
           },
           {
-            "game": "Oregon Ducks vs Texas Tech Red Raiders",
+            "game": "Marquette Golden Eagles vs Texas A&M Aggies",
             "league": "College basketball (US)",
-            "pick": "Texas Tech Red Raiders",
-            "odds": 1.19,
-            "book": "BetOnline.ag",
-            "edge": -0.0197,
-            "reason": "Odds 1.19 are outside my game (1.6–3.5)."
+            "pick": "Marquette Golden Eagles",
+            "odds": 2.2,
+            "book": "888sport",
+            "edge": 0.0176,
+            "reason": "Only +1.76% edge. I need +2.0% before I move."
+          },
+          {
+            "game": "New York Knicks vs Miami Heat",
+            "league": "NBA",
+            "pick": "Miami Heat",
+            "odds": 2.55,
+            "book": "Unibet (SE)",
+            "edge": 0.0137,
+            "reason": "Only +1.37% edge. I need +2.0% before I move."
+          },
+          {
+            "game": "Xavier Musketeers vs Virginia Cavaliers",
+            "league": "College basketball (US)",
+            "pick": "Xavier Musketeers",
+            "odds": 3.9,
+            "book": "Unibet (NL)",
+            "edge": 0.012,
+            "reason": "Odds 3.90 are outside my game (1.6–3.5)."
           }
         ]
       },
@@ -2746,17 +2764,6 @@
           "on": 0.058,
           "off": 0.0141,
           "bets": 16
-        },
-        {
-          "id": "underdog",
-          "emoji": "🐶",
-          "title": "Underdog lover",
-          "effect": "Allows underdogs at odds up to 1.0 higher.",
-          "from": "Underdog hunter",
-          "since": "2026-11-27T04:45:30Z",
-          "on": 0.0135,
-          "off": 0.0221,
-          "bets": 10
         }
       ],
       "mind": {
@@ -2863,7 +2870,7 @@
         "facts": [
           {
             "conf": "solid",
-            "n": 3262,
+            "n": 3320,
             "z": 0,
             "text": "LeoVegas (SE) is the softest bookmaker in College basketball (US).",
             "detail": "beats fair by 2%+ on 2% of its prices vs 1% across all bookmakers"
@@ -2877,7 +2884,7 @@
           },
           {
             "conf": "solid",
-            "n": 656,
+            "n": 678,
             "z": 0,
             "text": "Betfair is the softest bookmaker in NBA.",
             "detail": "beats fair by 2%+ on 4% of its prices vs 1% across all bookmakers"
@@ -2919,7 +2926,7 @@
           }
         ],
         "rules": 0,
-        "studied": 941,
+        "studied": 975,
         "resolved": 935
       }
     },
@@ -2935,10 +2942,10 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.02,
+        "min_edge": 0.015,
         "odds": [
           1.6,
-          4.0
+          5.0
         ],
         "stop_below": 250
       },
@@ -2965,14 +2972,14 @@
           "detail": "+2.9% vs the market, beat it on 65% of 31 bets"
         }
       ],
-      "bets": 147,
-      "open": 48,
+      "bets": 149,
+      "open": 50,
       "won": 35,
       "lost": 64,
       "staked": 272.6,
       "profit": -7.43,
       "roi": -0.0273,
-      "avg_edge": 0.0325,
+      "avg_edge": 0.032,
       "avg_clv": 0.0154,
       "beat_close": 0.5402,
       "clv_count": 87,
@@ -3399,7 +3406,7 @@
         },
         {
           "name": "College football (US)",
-          "bets": 97,
+          "bets": 99,
           "profit": -30.76,
           "roi": -0.186,
           "avg_clv": 0.0118,
@@ -3410,7 +3417,7 @@
       "by_market": [
         {
           "name": "Winner",
-          "bets": 112,
+          "bets": 114,
           "profit": 20.0,
           "roi": 0.1025,
           "avg_clv": 0.0178,
@@ -3439,7 +3446,7 @@
       "by_sport": [
         {
           "name": "American football",
-          "bets": 147,
+          "bets": 149,
           "profit": -7.43,
           "roi": -0.0273,
           "avg_clv": 0.0154,
@@ -3448,7 +3455,7 @@
         }
       ],
       "gut": {
-        "bets": 22,
+        "bets": 24,
         "measured": 12,
         "avg_clv": 0.0027,
         "beat": 0.4167,
@@ -3523,14 +3530,23 @@
         ]
       },
       "diary": {
-        "t": "2026-11-27T01:00:54Z",
+        "t": "2026-11-27T05:00:57Z",
         "mood": "Blood in the water. Getting in before the market moves.",
         "mindset": "500 in the tank and Nauris says he's not worried about losing it. More bites, but only clean ones that beat the market. Only one of us gets the seat.",
         "looked": 78,
-        "placed": 1,
-        "wild_choice": "Saw Coastal Carolina Chanticleers at 7.25. Tempting, but I passed. Not feeling it today.",
+        "placed": 2,
+        "wild_choice": "Saw Coastal Carolina Chanticleers at 8.00. Tempting, but I passed. Not feeling it today.",
         "scouts": 0,
         "passed": [
+          {
+            "game": "Utah Utes vs West Virginia Mountaineers",
+            "league": "College football (US)",
+            "pick": "West Virginia Mountaineers",
+            "odds": 17.0,
+            "book": "Betfair",
+            "edge": 0.1823,
+            "reason": "+18.2% looks too good to be true. Worth a careful pounce to find out."
+          },
           {
             "game": "Miami Hurricanes vs Boston College Eagles",
             "league": "College football (US)",
@@ -3541,13 +3557,13 @@
             "reason": "+16.4% looks too good to be true. Worth a careful pounce to find out."
           },
           {
-            "game": "Utah Utes vs West Virginia Mountaineers",
+            "game": "James Madison Dukes vs Coastal Carolina Chanticleers",
             "league": "College football (US)",
-            "pick": "West Virginia Mountaineers",
-            "odds": 15.0,
-            "book": "Unibet (NL)",
-            "edge": 0.121,
-            "reason": "+12.1% looks too good to be true. Worth a careful pounce to find out."
+            "pick": "Coastal Carolina Chanticleers",
+            "odds": 8.0,
+            "book": "Matchbook",
+            "edge": 0.0977,
+            "reason": "Odds 8.00 are outside my game (1.6–5.0)."
           },
           {
             "game": "Syracuse Orange vs Notre Dame Fighting Irish",
@@ -3555,17 +3571,8 @@
             "pick": "Syracuse Orange",
             "odds": 17.5,
             "book": "Matchbook",
-            "edge": 0.0915,
-            "reason": "Odds 17.50 are outside my game (1.6–4.0)."
-          },
-          {
-            "game": "Hawaii Rainbow Warriors vs Sacramento State Hornets",
-            "league": "College football (US)",
-            "pick": "Sacramento State Hornets",
-            "odds": 5.75,
-            "book": "Marathon Bet",
-            "edge": 0.0536,
-            "reason": "Odds 5.75 are outside my game (1.6–4.0)."
+            "edge": 0.0712,
+            "reason": "Odds 17.50 are outside my game (1.6–5.0)."
           }
         ]
       },
@@ -3749,26 +3756,15 @@
           "bets": 1
         },
         {
-          "id": "precision",
-          "emoji": "🎯",
-          "title": "Precise",
-          "effect": "Always demands +0.5% more edge.",
-          "from": "Precision day",
-          "since": "2026-11-27T04:45:30Z",
-          "on": 0.032,
-          "off": 0.0199,
-          "bets": 2
-        },
-        {
-          "id": "new_ground",
-          "emoji": "🗺️",
-          "title": "Versatile",
-          "effect": "Keeps trying every bet type (+1 scout bet a day).",
-          "from": "New ground",
-          "since": "2026-11-27T04:45:30Z",
-          "on": 0.0006,
-          "off": 0.0206,
-          "bets": 3
+          "id": "underdog",
+          "emoji": "🐶",
+          "title": "Underdog lover",
+          "effect": "Allows underdogs at odds up to 1.0 higher.",
+          "from": "Underdog hunter",
+          "since": "2026-11-27T05:00:57Z",
+          "on": 0.0278,
+          "off": 0.0186,
+          "bets": 15
         }
       ],
       "mind": {
@@ -3875,17 +3871,17 @@
         "facts": [
           {
             "conf": "solid",
-            "n": 1882,
+            "n": 1884,
             "z": 0,
             "text": "Betfair is the softest bookmaker in College football (US).",
             "detail": "beats fair by 2%+ on 6% of its prices vs 1% across all bookmakers"
           },
           {
             "conf": "solid",
-            "n": 1308,
+            "n": 1332,
             "z": 0,
             "text": "Betfair is the softest bookmaker in NFL.",
-            "detail": "beats fair by 2%+ on 6% of its prices vs 1% across all bookmakers"
+            "detail": "beats fair by 2%+ on 7% of its prices vs 1% across all bookmakers"
           },
           {
             "conf": "solid",
@@ -3945,6 +3941,43 @@
         "Full Kelly says 3.1% of my fund. I play 0.6× Kelly, capped at 7%: 9.26 of my 491.70.",
         "I read 5 articles about Carolina Panthers lately (nothing that changes much): “Shane Beamer’s Curious Postgame Remark Suddenly Makes a Lot More Sense”",
         "Blood in the water. Getting in before the market moves."
+      ]
+    },
+    {
+      "id": "d8be32bfd4622f27dc8b0430979d8593-lizard-totals",
+      "strategy": "lizard",
+      "placed_at": "2026-11-27T05:00:57Z",
+      "league_key": "soccer_argentina_primera_division",
+      "league": "Primera División (Argentina)",
+      "sport": "Football",
+      "event_id": "d8be32bfd4622f27dc8b0430979d8593",
+      "game": "Boca Juniors vs Gimnasia La Plata",
+      "home": "Boca Juniors",
+      "away": "Gimnasia La Plata",
+      "start": "2026-11-29T23:30:00Z",
+      "market": "totals",
+      "market_name": "Total",
+      "name": "Under",
+      "point": 2.5,
+      "pick": "Under 2.5",
+      "book": "Unibet (SE)",
+      "book_key": "unibet_se",
+      "odds": 2.0,
+      "eff_odds": 2.0,
+      "fair_odds": 1.959,
+      "edge": 0.0211,
+      "stake": 4.89,
+      "status": "open",
+      "closing_fair_odds": null,
+      "clv": null,
+      "profit": 0.0,
+      "score": null,
+      "settled_at": null,
+      "thoughts": [
+        "Pinnacle, the sharpest bookmaker, rates Under 2.5 at 51.1%. That makes the fair price 1.96.",
+        "Unibet (SE) pays 2.00. That is +2.1% above fair. My bar is +2.0%.",
+        "Full Kelly says 2.1% of my fund. I play 0.5× Kelly, capped at 7%: 4.89 of my 464.12.",
+        "Gap spotted. Striking while the bookmakers sleep."
       ]
     },
     {
@@ -4712,6 +4745,45 @@
         "I'm ⚡ Sharp: stakes ×1.15.",
         "Full Kelly says 1.9% of my fund. I play 0.5× Kelly, capped at 7%: 6.29 of my 451.55.",
         "Gap spotted. Striking while the bookmakers sleep."
+      ]
+    },
+    {
+      "id": "8e7c8bc1e0c6b7514f811010faaec76d-shark-h2h-gut",
+      "strategy": "shark",
+      "placed_at": "2026-11-27T05:00:57Z",
+      "gut": true,
+      "league_key": "americanfootball_ncaaf",
+      "league": "College football (US)",
+      "sport": "American football",
+      "event_id": "8e7c8bc1e0c6b7514f811010faaec76d",
+      "game": "Utah State Aggies vs Texas State Bobcats",
+      "home": "Utah State Aggies",
+      "away": "Texas State Bobcats",
+      "start": "2026-11-29T02:30:00Z",
+      "market": "h2h",
+      "market_name": "Winner",
+      "name": "Utah State Aggies",
+      "point": null,
+      "pick": "Utah State Aggies",
+      "book": "BetOnline.ag",
+      "book_key": "betonlineag",
+      "odds": 3.45,
+      "eff_odds": 3.45,
+      "fair_odds": 3.463,
+      "edge": -0.0038,
+      "stake": 2.46,
+      "status": "open",
+      "closing_fair_odds": null,
+      "clv": null,
+      "profit": 0.0,
+      "score": null,
+      "settled_at": null,
+      "thoughts": [
+        "I read that Texas State Bobcats have trouble: “TCU Injury Report: Horned Frogs Face Texas Tech in Thanksgiving Battle”. The price on Utah State Aggies may not have caught up yet.",
+        "My rules say no. I smell it before I can prove it. Biting.",
+        "I read 8 articles about Utah State Aggies lately (nothing that changes much): “Big 12 Conference Championship Game scenarios”",
+        "I read 21 articles about Texas State Bobcats lately (bad news for them): “TCU Injury Report: Horned Frogs Face Texas Tech in Thanksgiving Battle”",
+        "A hunch gets a small stake: 2.46 (0.5% of my fund). My gut is trusted 69% right now, and every hunch is graded against the market."
       ]
     },
     {
@@ -6817,6 +6889,125 @@
       ]
     },
     {
+      "id": "13d9ca3bcb664829c603755d31401002-quant-spreads",
+      "strategy": "quant",
+      "placed_at": "2026-11-27T05:00:57Z",
+      "league_key": "basketball_nba",
+      "league": "NBA",
+      "sport": "Basketball",
+      "event_id": "13d9ca3bcb664829c603755d31401002",
+      "game": "San Antonio Spurs vs Los Angeles Lakers",
+      "home": "San Antonio Spurs",
+      "away": "Los Angeles Lakers",
+      "start": "2026-11-28T02:40:00Z",
+      "market": "spreads",
+      "market_name": "Spread",
+      "name": "Los Angeles Lakers",
+      "point": 5.5,
+      "pick": "Los Angeles Lakers +5.5",
+      "book": "Marathon Bet",
+      "book_key": "marathonbet",
+      "odds": 2.04,
+      "eff_odds": 2.04,
+      "fair_odds": 2.0,
+      "edge": 0.02,
+      "stake": 6.11,
+      "status": "open",
+      "closing_fair_odds": null,
+      "clv": null,
+      "profit": 0.0,
+      "score": null,
+      "settled_at": null,
+      "thoughts": [
+        "Pinnacle, the sharpest bookmaker, rates Los Angeles Lakers +5.5 at 50.0%. That makes the fair price 2.00.",
+        "Marathon Bet pays 2.04. That is +2.0% above fair. My bar is +2.0%.",
+        "I'm ⚡ Sharp: stakes ×1.15.",
+        "Full Kelly says 1.9% of my fund. I play 0.6× Kelly, capped at 7%: 6.11 of my 460.34.",
+        "I read 7 articles about San Antonio Spurs lately (bad news for them): “Lakers’ Austin Reaves gets crucial injury upgrade ahead of Spurs game”",
+        "I read 4 articles about Los Angeles Lakers lately (bad news for them): “Lakers’ Austin Reaves gets crucial injury upgrade ahead of Spurs game”",
+        "The numbers don't lie. Betting it."
+      ]
+    },
+    {
+      "id": "13d9ca3bcb664829c603755d31401002-quant-h2h",
+      "strategy": "quant",
+      "placed_at": "2026-11-27T05:00:57Z",
+      "league_key": "basketball_nba",
+      "league": "NBA",
+      "sport": "Basketball",
+      "event_id": "13d9ca3bcb664829c603755d31401002",
+      "game": "San Antonio Spurs vs Los Angeles Lakers",
+      "home": "San Antonio Spurs",
+      "away": "Los Angeles Lakers",
+      "start": "2026-11-28T02:40:00Z",
+      "market": "h2h",
+      "market_name": "Winner",
+      "name": "Los Angeles Lakers",
+      "point": null,
+      "pick": "Los Angeles Lakers",
+      "book": "Marathon Bet",
+      "book_key": "marathonbet",
+      "odds": 3.08,
+      "eff_odds": 3.08,
+      "fair_odds": 3.0,
+      "edge": 0.0267,
+      "stake": 5.29,
+      "status": "open",
+      "closing_fair_odds": null,
+      "clv": null,
+      "profit": 0.0,
+      "score": null,
+      "settled_at": null,
+      "thoughts": [
+        "Pinnacle, the sharpest bookmaker, rates Los Angeles Lakers at 33.3%. That makes the fair price 3.00.",
+        "Marathon Bet pays 3.08. That is +2.7% above fair. My bar is +2.0%.",
+        "My record on NBA winner bets beats the market, so I'm pressing a little harder here.",
+        "I'm ⚡ Sharp: stakes ×1.15.",
+        "Full Kelly says 1.3% of my fund. I play 0.6× Kelly, capped at 7%: 5.29 of my 460.34.",
+        "I read 7 articles about San Antonio Spurs lately (bad news for them): “Lakers’ Austin Reaves gets crucial injury upgrade ahead of Spurs game”",
+        "I read 4 articles about Los Angeles Lakers lately (bad news for them): “Lakers’ Austin Reaves gets crucial injury upgrade ahead of Spurs game”",
+        "The numbers don't lie. Betting it."
+      ]
+    },
+    {
+      "id": "428050645d1dc8b16d84287e21de55fa-quant-h2h-wild",
+      "strategy": "quant",
+      "placed_at": "2026-11-27T05:00:57Z",
+      "wild": true,
+      "league_key": "basketball_nba",
+      "league": "NBA",
+      "sport": "Basketball",
+      "event_id": "428050645d1dc8b16d84287e21de55fa",
+      "game": "Utah Jazz vs Denver Nuggets",
+      "home": "Utah Jazz",
+      "away": "Denver Nuggets",
+      "start": "2026-11-28T02:40:00Z",
+      "market": "h2h",
+      "market_name": "Winner",
+      "name": "Utah Jazz",
+      "point": null,
+      "pick": "Utah Jazz",
+      "book": "BetAnything",
+      "book_key": "betanysports",
+      "odds": 4.9,
+      "eff_odds": 4.9,
+      "fair_odds": 4.86,
+      "edge": 0.0083,
+      "stake": 1.15,
+      "status": "open",
+      "closing_fair_odds": null,
+      "clv": null,
+      "profit": 0.0,
+      "score": null,
+      "settled_at": null,
+      "thoughts": [
+        "Wild one: Utah Jazz at 4.90. The market gives it 21%.",
+        "Feeling sharp after beating the market 4 times in a row.",
+        "Statistically silly. Doing it anyway, for science.",
+        "My choice, tiny stake: 1.15 (0.25% of my fund). Kept out of my serious record."
+      ]
+    },
+    {
       "id": "bee4ea7a231be77b1ee52ddf3755592f-shark-totals-scout",
       "strategy": "shark",
       "placed_at": "2026-11-25T05:00:53Z",
@@ -6891,6 +7082,44 @@
         "My rules say no. But something in the grass is moving. I'm taking a nibble.",
         "I read 3 articles about Inter Miami CF lately (nothing that changes much): “Klinsmann: ‘Inter have to be very careful against Stuttgart, Esposito a step ahead of Tresoldi’”",
         "A hunch gets a small stake: 2.26 (0.5% of my fund). My gut is trusted 10% right now, and every hunch is graded against the market."
+      ]
+    },
+    {
+      "id": "7597feb141f43dac0aadd1c931ec3fac-quant-h2h-wild",
+      "strategy": "quant",
+      "placed_at": "2026-11-27T05:00:57Z",
+      "wild": true,
+      "league_key": "basketball_ncaab",
+      "league": "College basketball (US)",
+      "sport": "Basketball",
+      "event_id": "7597feb141f43dac0aadd1c931ec3fac",
+      "game": "Washington St Cougars vs Idaho Vandals",
+      "home": "Washington St Cougars",
+      "away": "Idaho Vandals",
+      "start": "2026-11-28T01:00:00Z",
+      "market": "h2h",
+      "market_name": "Winner",
+      "name": "Idaho Vandals",
+      "point": null,
+      "pick": "Idaho Vandals",
+      "book": "GTbets",
+      "book_key": "gtbets",
+      "odds": 6.8,
+      "eff_odds": 6.8,
+      "fair_odds": 6.395,
+      "edge": 0.0634,
+      "stake": 1.15,
+      "status": "open",
+      "closing_fair_odds": null,
+      "clv": null,
+      "profit": 0.0,
+      "score": null,
+      "settled_at": null,
+      "thoughts": [
+        "Wild one: Idaho Vandals at 6.80. The market gives it 16%.",
+        "Feeling sharp after beating the market 4 times in a row.",
+        "Statistically silly. Doing it anyway, for science.",
+        "My choice, tiny stake: 1.15 (0.25% of my fund). Kept out of my serious record."
       ]
     },
     {
@@ -6970,6 +7199,124 @@
         "I read 3 articles about Wisconsin Badgers lately (nothing that changes much): “A look at the availability report for Wisconsin vs. Minnesota Nov. 27”",
         "I read 3 articles about Minnesota Golden Gophers lately (nothing that changes much): “A look at the availability report for Wisconsin vs. Minnesota Nov. 27”",
         "Pounce stake: 5.03 (at most 1% of my fund)."
+      ]
+    },
+    {
+      "id": "3c522e32c3035d7dc3e1734903b84654-quant-h2h",
+      "strategy": "quant",
+      "placed_at": "2026-11-27T05:00:57Z",
+      "league_key": "basketball_nba",
+      "league": "NBA",
+      "sport": "Basketball",
+      "event_id": "3c522e32c3035d7dc3e1734903b84654",
+      "game": "New York Knicks vs Miami Heat",
+      "home": "New York Knicks",
+      "away": "Miami Heat",
+      "start": "2026-11-28T00:10:00Z",
+      "market": "h2h",
+      "market_name": "Winner",
+      "name": "Miami Heat",
+      "point": null,
+      "pick": "Miami Heat",
+      "book": "Marathon Bet",
+      "book_key": "marathonbet",
+      "odds": 2.61,
+      "eff_odds": 2.61,
+      "fair_odds": 2.516,
+      "edge": 0.0376,
+      "stake": 9.63,
+      "status": "open",
+      "closing_fair_odds": null,
+      "clv": null,
+      "profit": 0.0,
+      "score": null,
+      "settled_at": null,
+      "thoughts": [
+        "Pinnacle, the sharpest bookmaker, rates Miami Heat at 39.8%. That makes the fair price 2.52.",
+        "Marathon Bet pays 2.61. That is +3.8% above fair. My bar is +2.0%.",
+        "My record on NBA winner bets beats the market, so I'm pressing a little harder here.",
+        "I'm ⚡ Sharp: stakes ×1.15.",
+        "Full Kelly says 2.3% of my fund. I play 0.6× Kelly, capped at 7%: 9.63 of my 460.34.",
+        "I read 9 articles about New York Knicks lately (nothing that changes much): “Knicks 121, Cavs 102: Scenes from a second-half bench bash”",
+        "I read 3 articles about Miami Heat lately (nothing that changes much): “Heat vs. 76ers NBA picks: Giannis Antetokounmpo likely plays, Joel Embiid probably not in early Wednesday tip”",
+        "The numbers don't lie. Betting it."
+      ]
+    },
+    {
+      "id": "41c094906504126724c665a8f8cbd73a-quant-h2h",
+      "strategy": "quant",
+      "placed_at": "2026-11-27T05:00:57Z",
+      "league_key": "basketball_ncaab",
+      "league": "College basketball (US)",
+      "sport": "Basketball",
+      "event_id": "41c094906504126724c665a8f8cbd73a",
+      "game": "Pennsylvania Quakers vs Towson Tigers",
+      "home": "Pennsylvania Quakers",
+      "away": "Towson Tigers",
+      "start": "2026-11-27T23:00:00Z",
+      "market": "h2h",
+      "market_name": "Winner",
+      "name": "Towson Tigers",
+      "point": null,
+      "pick": "Towson Tigers",
+      "book": "Unibet (NL)",
+      "book_key": "unibet_nl",
+      "odds": 2.75,
+      "eff_odds": 2.75,
+      "fair_odds": 2.632,
+      "edge": 0.0447,
+      "stake": 10.55,
+      "status": "open",
+      "closing_fair_odds": null,
+      "clv": null,
+      "profit": 0.0,
+      "score": null,
+      "settled_at": null,
+      "thoughts": [
+        "Pinnacle, the sharpest bookmaker, rates Towson Tigers at 38.0%. That makes the fair price 2.63.",
+        "Unibet (NL) pays 2.75. That is +4.5% above fair. My bar is +2.0%.",
+        "My record on College basketball (US) winner bets beats the market, so I'm pressing a little harder here.",
+        "I'm ⚡ Sharp: stakes ×1.15.",
+        "Full Kelly says 2.6% of my fund. I play 0.6× Kelly, capped at 7%: 10.55 of my 460.34.",
+        "The numbers don't lie. Betting it."
+      ]
+    },
+    {
+      "id": "61fabe838642d2eb1431fcee1cf2ec02-quant-h2h-gut",
+      "strategy": "quant",
+      "placed_at": "2026-11-27T05:00:57Z",
+      "gut": true,
+      "league_key": "basketball_ncaab",
+      "league": "College basketball (US)",
+      "sport": "Basketball",
+      "event_id": "61fabe838642d2eb1431fcee1cf2ec02",
+      "game": "Marquette Golden Eagles vs Texas A&M Aggies",
+      "home": "Marquette Golden Eagles",
+      "away": "Texas A&M Aggies",
+      "start": "2026-11-27T22:00:00Z",
+      "market": "h2h",
+      "market_name": "Winner",
+      "name": "Marquette Golden Eagles",
+      "point": null,
+      "pick": "Marquette Golden Eagles",
+      "book": "888sport",
+      "book_key": "sport888",
+      "odds": 2.2,
+      "eff_odds": 2.2,
+      "fair_odds": 2.162,
+      "edge": 0.0176,
+      "stake": 2.3,
+      "status": "open",
+      "closing_fair_odds": null,
+      "clv": null,
+      "profit": 0.0,
+      "score": null,
+      "settled_at": null,
+      "thoughts": [
+        "Only +1.76% edge, just under my +2.0% bar. Can't prove it, but I like it.",
+        "My rules say no. The model says no. The 2% of me that isn't a model says try it.",
+        "I read 1 article about Marquette Golden Eagles lately (nothing that changes much): “How to watch Warriors vs. Kings”",
+        "A hunch gets a small stake: 2.30 (0.5% of my fund). My gut is trusted 71% right now, and every hunch is graded against the market."
       ]
     },
     {
@@ -7242,6 +7589,44 @@
       ]
     },
     {
+      "id": "4c0c9710cadfc6d63465ad20a30f5565-quant-spreads",
+      "strategy": "quant",
+      "placed_at": "2026-11-27T05:00:57Z",
+      "league_key": "basketball_ncaab",
+      "league": "College basketball (US)",
+      "sport": "Basketball",
+      "event_id": "4c0c9710cadfc6d63465ad20a30f5565",
+      "game": "South Alabama Jaguars vs Fresno St Bulldogs",
+      "home": "South Alabama Jaguars",
+      "away": "Fresno St Bulldogs",
+      "start": "2026-11-27T19:00:00Z",
+      "market": "spreads",
+      "market_name": "Spread",
+      "name": "Fresno St Bulldogs",
+      "point": -1.5,
+      "pick": "Fresno St Bulldogs -1.5",
+      "book": "GTbets",
+      "book_key": "gtbets",
+      "odds": 2.11,
+      "eff_odds": 2.11,
+      "fair_odds": 2.048,
+      "edge": 0.0303,
+      "stake": 8.68,
+      "status": "open",
+      "closing_fair_odds": null,
+      "clv": null,
+      "profit": 0.0,
+      "score": null,
+      "settled_at": null,
+      "thoughts": [
+        "Pinnacle, the sharpest bookmaker, rates Fresno St Bulldogs -1.5 at 48.8%. That makes the fair price 2.05.",
+        "GTbets pays 2.11. That is +3.0% above fair. My bar is +2.0%.",
+        "I'm ⚡ Sharp: stakes ×1.15.",
+        "Full Kelly says 2.7% of my fund. I play 0.6× Kelly, capped at 7%: 8.68 of my 460.34.",
+        "The numbers don't lie. Betting it."
+      ]
+    },
+    {
       "id": "8fc8552ec633bb09ca2bcb9b15cb6896-shark-h2h",
       "strategy": "shark",
       "placed_at": "2026-11-23T01:00:53Z",
@@ -7357,6 +7742,44 @@
         "I read 3 articles about Ole Miss Rebels lately (bad news for them): “Texas A&M DL dealing with illness; will not play vs. Texas”",
         "I read 5 articles about Mississippi State Bulldogs lately (nothing that changes much): “Kirby Smart Explains Decision to Allow Young RB to Score at End of Georgia Victory”",
         "Pounce stake: 3.10 (at most 1% of my fund)."
+      ]
+    },
+    {
+      "id": "1f0a9e7f76830b196133518ae01bb113-shark-h2h-gut",
+      "strategy": "shark",
+      "placed_at": "2026-11-27T05:00:57Z",
+      "gut": true,
+      "league_key": "americanfootball_ncaaf",
+      "league": "College football (US)",
+      "sport": "American football",
+      "event_id": "1f0a9e7f76830b196133518ae01bb113",
+      "game": "UTSA Roadrunners vs Tulsa Golden Hurricane",
+      "home": "UTSA Roadrunners",
+      "away": "Tulsa Golden Hurricane",
+      "start": "2026-11-27T17:00:00Z",
+      "market": "h2h",
+      "market_name": "Winner",
+      "name": "Tulsa Golden Hurricane",
+      "point": null,
+      "pick": "Tulsa Golden Hurricane",
+      "book": "Unibet (SE)",
+      "book_key": "unibet_se",
+      "odds": 1.93,
+      "eff_odds": 1.93,
+      "fair_odds": 1.935,
+      "edge": -0.0028,
+      "stake": 2.46,
+      "status": "open",
+      "closing_fair_odds": null,
+      "clv": null,
+      "profit": 0.0,
+      "score": null,
+      "settled_at": null,
+      "thoughts": [
+        "The sharp money is moving to Tulsa Golden Hurricane: its chance went from 48% to 52% since I first looked.",
+        "My rules say no. I smell it before I can prove it. Biting.",
+        "I read 1 article about Tulsa Golden Hurricane lately (good news for them): “How to Watch Arkansas Football vs. LSU: Kickoff Time, TV Channel, Radio and Weather”",
+        "A hunch gets a small stake: 2.46 (0.5% of my fund). My gut is trusted 69% right now, and every hunch is graded against the market."
       ]
     },
     {
@@ -11127,450 +11550,10 @@
         "Full Kelly says 1.1% of my fund. I play 0.6× Kelly, capped at 7%: 1.80 of my 457.83.",
         "The numbers don't lie. Betting it."
       ]
-    },
-    {
-      "id": "15a079f55e23d26237844224f258c972-quant-h2h",
-      "strategy": "quant",
-      "placed_at": "2026-11-22T13:01:04Z",
-      "league_key": "basketball_nba",
-      "league": "NBA",
-      "sport": "Basketball",
-      "event_id": "15a079f55e23d26237844224f258c972",
-      "game": "Chicago Bulls vs Denver Nuggets",
-      "home": "Chicago Bulls",
-      "away": "Denver Nuggets",
-      "start": "2026-11-23T00:10:00Z",
-      "market": "h2h",
-      "market_name": "Winner",
-      "name": "Chicago Bulls",
-      "point": null,
-      "pick": "Chicago Bulls",
-      "book": "Matchbook",
-      "book_key": "matchbook",
-      "odds": 4.2,
-      "eff_odds": 4.136,
-      "fair_odds": 3.992,
-      "edge": 0.036,
-      "stake": 1.9,
-      "status": "lost",
-      "closing_fair_odds": 4.323,
-      "clv": -0.0432,
-      "profit": -1.9,
-      "score": "Chicago Bulls 145 - 151 Denver Nuggets",
-      "settled_at": "2026-11-23T05:45:31Z",
-      "thoughts": [
-        "Pinnacle, the sharpest bookmaker, rates Chicago Bulls at 25.0%. That makes the fair price 3.99.",
-        "Matchbook pays 4.20 (4.14 after the exchange fee). That is +3.6% above fair. My bar is +1.5%.",
-        "I'm 🥶 Cold streak: stakes ×0.6.",
-        "Full Kelly says 1.1% of my fund. I play 0.6× Kelly, capped at 7%: 1.90 of my 459.44.",
-        "I read 1 article about Denver Nuggets lately (nothing that changes much): “Ime Udoka calls Rockets &#39;mentally fragile&#39; after loss to Nuggets”",
-        "The numbers don't lie. Betting it."
-      ]
-    },
-    {
-      "id": "335ad5604b51b7742fd1dee92d78da35-quant-h2h",
-      "strategy": "quant",
-      "placed_at": "2026-11-22T13:01:04Z",
-      "league_key": "basketball_nba",
-      "league": "NBA",
-      "sport": "Basketball",
-      "event_id": "335ad5604b51b7742fd1dee92d78da35",
-      "game": "Washington Wizards vs Orlando Magic",
-      "home": "Washington Wizards",
-      "away": "Orlando Magic",
-      "start": "2026-11-23T00:10:00Z",
-      "market": "h2h",
-      "market_name": "Winner",
-      "name": "Washington Wizards",
-      "point": null,
-      "pick": "Washington Wizards",
-      "book": "Unibet (SE)",
-      "book_key": "unibet_se",
-      "odds": 2.85,
-      "eff_odds": 2.85,
-      "fair_odds": 2.795,
-      "edge": 0.0198,
-      "stake": 1.77,
-      "status": "won",
-      "closing_fair_odds": 2.809,
-      "clv": 0.0145,
-      "profit": 3.27,
-      "score": "Washington Wizards 116 - 96 Orlando Magic",
-      "settled_at": "2026-11-23T05:45:31Z",
-      "thoughts": [
-        "Pinnacle, the sharpest bookmaker, rates Washington Wizards at 35.8%. That makes the fair price 2.79.",
-        "Unibet (SE) pays 2.85. That is +2.0% above fair. My bar is +1.5%.",
-        "I'm 🥶 Cold streak: stakes ×0.6.",
-        "Full Kelly says 1.1% of my fund. I play 0.6× Kelly, capped at 7%: 1.77 of my 459.44.",
-        "I read 1 article about Washington Wizards lately (good news for them): “Wizards vs Magic Preview: Washington returns home to face Magic”",
-        "I read 1 article about Orlando Magic lately (good news for them): “Wizards vs Magic Preview: Washington returns home to face Magic”",
-        "The numbers don't lie. Betting it."
-      ]
-    },
-    {
-      "id": "a16abf7d5a75a4f52387662f1774fdf4-lizard-totals",
-      "strategy": "lizard",
-      "placed_at": "2026-11-22T09:00:56Z",
-      "league_key": "soccer_usa_mls",
-      "league": "MLS (USA)",
-      "sport": "Football",
-      "event_id": "a16abf7d5a75a4f52387662f1774fdf4",
-      "game": "Chicago Fire vs Charlotte FC",
-      "home": "Chicago Fire",
-      "away": "Charlotte FC",
-      "start": "2026-11-22T23:30:00Z",
-      "market": "totals",
-      "market_name": "Total",
-      "name": "Under",
-      "point": 3.5,
-      "pick": "Under 3.5",
-      "book": "BetAnything",
-      "book_key": "betanysports",
-      "odds": 2.13,
-      "eff_odds": 2.13,
-      "fair_odds": 2.005,
-      "edge": 0.0622,
-      "stake": 13.71,
-      "status": "won",
-      "closing_fair_odds": 1.965,
-      "clv": 0.0842,
-      "profit": 15.49,
-      "score": "Chicago Fire 1 - 2 Charlotte FC",
-      "settled_at": "2026-11-23T06:15:39Z",
-      "thoughts": [
-        "Pinnacle, the sharpest bookmaker, rates Under 3.5 at 49.9%. That makes the fair price 2.00.",
-        "BetAnything pays 2.13. That is +6.2% above fair. My bar is +2.0%.",
-        "Full Kelly says 5.5% of my fund. I play 0.5× Kelly, capped at 7%: 13.71 of my 497.90.",
-        "Gap spotted. Striking while the bookmakers sleep."
-      ]
-    },
-    {
-      "id": "c42d1c7099dddc8a3b6e8e23a14ebcd9-lizard-h2h-gut",
-      "strategy": "lizard",
-      "placed_at": "2026-11-21T16:00:57Z",
-      "gut": true,
-      "league_key": "soccer_mexico_ligamx",
-      "league": "Liga MX",
-      "sport": "Football",
-      "event_id": "c42d1c7099dddc8a3b6e8e23a14ebcd9",
-      "game": "Guadalajara vs Cruz Azul",
-      "home": "Guadalajara",
-      "away": "Cruz Azul",
-      "start": "2026-11-22T23:07:00Z",
-      "market": "h2h",
-      "market_name": "Winner",
-      "name": "Cruz Azul",
-      "point": null,
-      "pick": "Cruz Azul",
-      "book": "Coolbet",
-      "book_key": "coolbet",
-      "odds": 2.9,
-      "eff_odds": 2.9,
-      "fair_odds": 2.873,
-      "edge": 0.0095,
-      "stake": 2.57,
-      "status": "lost",
-      "closing_fair_odds": 3.441,
-      "clv": -0.1573,
-      "profit": -2.57,
-      "score": "Guadalajara 1 - 0 Cruz Azul",
-      "settled_at": "2026-11-23T02:15:31Z",
-      "thoughts": [
-        "Only +0.95% edge, just under my +2.0% bar. Can't prove it, but I like it.",
-        "My rules say no. But something in the grass is moving. I'm taking a nibble.",
-        "A hunch gets a small stake: 2.57 (0.5% of my fund). My gut is trusted 45% right now, and every hunch is graded against the market."
-      ]
-    },
-    {
-      "id": "08f1d5a366e711c1e29845352bb8137d-lizard-h2h-scout",
-      "strategy": "lizard",
-      "placed_at": "2026-11-21T08:00:54Z",
-      "scout": true,
-      "league_key": "soccer_brazil_campeonato",
-      "league": "Brasileirão (Brazil)",
-      "sport": "Football",
-      "event_id": "08f1d5a366e711c1e29845352bb8137d",
-      "game": "Bragantino-SP vs Vasco da Gama",
-      "home": "Bragantino-SP",
-      "away": "Vasco da Gama",
-      "start": "2026-11-22T22:30:00Z",
-      "market": "h2h",
-      "market_name": "Winner",
-      "name": "Vasco da Gama",
-      "point": null,
-      "pick": "Vasco da Gama",
-      "book": "Unibet (NL)",
-      "book_key": "unibet_nl",
-      "odds": 3.0,
-      "eff_odds": 3.0,
-      "fair_odds": 2.957,
-      "edge": 0.0146,
-      "stake": 2.44,
-      "status": "lost",
-      "closing_fair_odds": 2.665,
-      "clv": 0.1257,
-      "profit": -2.44,
-      "score": "Bragantino-SP 1 - 0 Vasco da Gama",
-      "settled_at": "2026-11-23T04:00:54Z",
-      "thoughts": [
-        "🧭 Exploring. I've only made 3 bets like this (Brasileirão (Brazil) winner bets at middle odds).",
-        "Vasco da Gama at 3.00 is +1.46% above fair: below my usual bar, but the only way to learn if this kind of bet works for me is to try it.",
-        "Scout stake: 2.44 (0.5% of my fund). The result feeds my learning."
-      ]
-    },
-    {
-      "id": "05c828d73504c939e026a844ffcabd3c-quant-h2h-gut",
-      "strategy": "quant",
-      "placed_at": "2026-11-22T09:00:56Z",
-      "gut": true,
-      "league_key": "basketball_ncaab",
-      "league": "College basketball (US)",
-      "sport": "Basketball",
-      "event_id": "05c828d73504c939e026a844ffcabd3c",
-      "game": "Richmond Spiders vs Liberty Flames",
-      "home": "Richmond Spiders",
-      "away": "Liberty Flames",
-      "start": "2026-11-22T21:30:00Z",
-      "market": "h2h",
-      "market_name": "Winner",
-      "name": "Richmond Spiders",
-      "point": null,
-      "pick": "Richmond Spiders",
-      "book": "Unibet (NL)",
-      "book_key": "unibet_nl",
-      "odds": 2.08,
-      "eff_odds": 2.08,
-      "fair_odds": 2.081,
-      "edge": -0.0005,
-      "stake": 2.31,
-      "status": "won",
-      "closing_fair_odds": 2.0,
-      "clv": 0.04,
-      "profit": 2.49,
-      "score": "Richmond Spiders 92 - 88 Liberty Flames",
-      "settled_at": "2026-11-23T02:15:31Z",
-      "thoughts": [
-        "The sharp money is moving to Richmond Spiders: its chance went from 45% to 48% since I first looked.",
-        "My rules say no. The model says no. The 2% of me that isn't a model says try it.",
-        "A hunch gets a small stake: 2.31 (0.5% of my fund). My gut is trusted 75% right now, and every hunch is graded against the market."
-      ]
-    },
-    {
-      "id": "8ba112fabf4e87639338a5f437c5abfe-shark-h2h-gut",
-      "strategy": "shark",
-      "placed_at": "2026-11-19T08:00:56Z",
-      "gut": true,
-      "league_key": "americanfootball_nfl",
-      "league": "NFL",
-      "sport": "American football",
-      "event_id": "8ba112fabf4e87639338a5f437c5abfe",
-      "game": "New York Giants vs Jacksonville Jaguars",
-      "home": "New York Giants",
-      "away": "Jacksonville Jaguars",
-      "start": "2026-11-22T21:25:00Z",
-      "market": "h2h",
-      "market_name": "Winner",
-      "name": "New York Giants",
-      "point": null,
-      "pick": "New York Giants",
-      "book": "Unibet (SE)",
-      "book_key": "unibet_se",
-      "odds": 3.35,
-      "eff_odds": 3.35,
-      "fair_odds": 3.355,
-      "edge": -0.0015,
-      "stake": 2.47,
-      "status": "won",
-      "closing_fair_odds": 3.507,
-      "clv": -0.0449,
-      "profit": 5.8,
-      "score": "New York Giants 23 - 18 Jacksonville Jaguars",
-      "settled_at": "2026-11-23T03:00:57Z",
-      "thoughts": [
-        "I read that Jacksonville Jaguars have trouble: “No major injury issues for Giants as they open practice for game vs. Jaguars”. The price on New York Giants may not have caught up yet.",
-        "My rules say no. I smell it before I can prove it. Biting.",
-        "I read 8 articles about New York Giants lately (bad news for them): “Cam Skattebo done with backflip celebration in wake of Aidan Hutchinson injury”",
-        "I read 6 articles about Jacksonville Jaguars lately (bad news for them): “Urban Meyer Addresses Coaching Future as Maryland Rumors Swirl”",
-        "A hunch gets a small stake: 2.47 (0.5% of my fund). My gut is trusted 55% right now, and every hunch is graded against the market."
-      ]
-    },
-    {
-      "id": "1940706a79cbcbafacdcbf231069716b-shark-spreads-scout",
-      "strategy": "shark",
-      "placed_at": "2026-11-22T01:00:53Z",
-      "scout": true,
-      "league_key": "americanfootball_nfl",
-      "league": "NFL",
-      "sport": "American football",
-      "event_id": "1940706a79cbcbafacdcbf231069716b",
-      "game": "Denver Broncos vs Las Vegas Raiders",
-      "home": "Denver Broncos",
-      "away": "Las Vegas Raiders",
-      "start": "2026-11-22T21:25:00Z",
-      "market": "spreads",
-      "market_name": "Spread",
-      "name": "Denver Broncos",
-      "point": -10.5,
-      "pick": "Denver Broncos -10.5",
-      "book": "Matchbook",
-      "book_key": "matchbook",
-      "odds": 2.02,
-      "eff_odds": 1.9996,
-      "fair_odds": 1.985,
-      "edge": 0.0075,
-      "stake": 2.41,
-      "status": "won",
-      "closing_fair_odds": null,
-      "clv": null,
-      "profit": 2.41,
-      "score": "Denver Broncos 38 - 24 Las Vegas Raiders",
-      "settled_at": "2026-11-23T03:00:57Z",
-      "thoughts": [
-        "🧭 Exploring. I've only made 4 bets like this (NFL spread bets at middle odds).",
-        "Denver Broncos -10.5 at 2.02 is +0.75% above fair: below my usual bar, but the only way to learn if this kind of bet works for me is to try it.",
-        "I read 9 articles about Denver Broncos lately (nothing that changes much): “Has Bo Nix quieted early-season criticisms ahead of Las Vegas Raiders-Denver Broncos Week 11 matchup?”",
-        "I read 9 articles about Las Vegas Raiders lately (good news for them): “Has Bo Nix quieted early-season criticisms ahead of Las Vegas Raiders-Denver Broncos Week 11 matchup?”",
-        "Scout stake: 2.41 (0.5% of my fund). The result feeds my learning."
-      ]
-    },
-    {
-      "id": "4b20b742b6168aaca4f25d87f11b1526-shark-h2h-gut",
-      "strategy": "shark",
-      "placed_at": "2026-11-17T16:01:02Z",
-      "gut": true,
-      "league_key": "americanfootball_nfl",
-      "league": "NFL",
-      "sport": "American football",
-      "event_id": "4b20b742b6168aaca4f25d87f11b1526",
-      "game": "Los Angeles Chargers vs New York Jets",
-      "home": "Los Angeles Chargers",
-      "away": "New York Jets",
-      "start": "2026-11-22T21:05:00Z",
-      "market": "h2h",
-      "market_name": "Winner",
-      "name": "New York Jets",
-      "point": null,
-      "pick": "New York Jets",
-      "book": "Everygame",
-      "book_key": "everygame",
-      "odds": 2.6,
-      "eff_odds": 2.6,
-      "fair_odds": 2.595,
-      "edge": 0.002,
-      "stake": 2.49,
-      "status": "won",
-      "closing_fair_odds": 2.562,
-      "clv": 0.0146,
-      "profit": 3.98,
-      "score": "Los Angeles Chargers 24 - 27 New York Jets",
-      "settled_at": "2026-11-23T03:00:57Z",
-      "thoughts": [
-        "I read that Los Angeles Chargers have trouble: “Report: Tests showed no major injury for Geno Smith”. The price on New York Jets may not have caught up yet.",
-        "My rules say no. I smell it before I can prove it. Biting.",
-        "I read 30 articles about Los Angeles Chargers lately (bad news for them): “Jim Harbaugh on finally getting a win: &quot;Let&#39;s do it every week&quot;”",
-        "I read 10 articles about New York Jets lately (bad news for them): “Giants news: 5 key Giants for playoff run, Dominic Zvada, more”",
-        "A hunch gets a small stake: 2.49 (0.5% of my fund). My gut is trusted 55% right now, and every hunch is graded against the market."
-      ]
-    },
-    {
-      "id": "222a2887819bb18d9b9572aef63d9b9e-quant-h2h-gut",
-      "strategy": "quant",
-      "placed_at": "2026-11-22T01:00:53Z",
-      "gut": true,
-      "league_key": "basketball_nba",
-      "league": "NBA",
-      "sport": "Basketball",
-      "event_id": "222a2887819bb18d9b9572aef63d9b9e",
-      "game": "Atlanta Hawks vs Detroit Pistons",
-      "home": "Atlanta Hawks",
-      "away": "Detroit Pistons",
-      "start": "2026-11-22T20:40:00Z",
-      "market": "h2h",
-      "market_name": "Winner",
-      "name": "Detroit Pistons",
-      "point": null,
-      "pick": "Detroit Pistons",
-      "book": "William Hill",
-      "book_key": "williamhill",
-      "odds": 1.8,
-      "eff_odds": 1.8,
-      "fair_odds": 1.775,
-      "edge": 0.0142,
-      "stake": 2.25,
-      "status": "lost",
-      "closing_fair_odds": 1.885,
-      "clv": -0.0452,
-      "profit": -2.25,
-      "score": "Atlanta Hawks 107 - 97 Detroit Pistons",
-      "settled_at": "2026-11-22T23:45:30Z",
-      "thoughts": [
-        "Only +1.42% edge, just under my +1.5% bar. Can't prove it, but I like it.",
-        "My rules say no. The model says no. The 2% of me that isn't a model says try it.",
-        "I read 1 article about Atlanta Hawks lately (nothing that changes much): “Hawks excel off of turnovers, eliminate Hornets in NBA Cup win”",
-        "I read 2 articles about Detroit Pistons lately (nothing that changes much): “Montverde Madness in Michigan, as Scottie and ‘Em take down the Pistons”",
-        "A hunch gets a small stake: 2.25 (0.5% of my fund). My gut is trusted 75% right now, and every hunch is graded against the market."
-      ]
-    },
-    {
-      "id": "3de909cc36eaaa664e934686e6b26105-lizard-h2h-scout",
-      "strategy": "lizard",
-      "placed_at": "2026-11-22T01:00:53Z",
-      "scout": true,
-      "league_key": "soccer_spain_segunda_division",
-      "league": "La Liga 2 (Spain 2)",
-      "sport": "Football",
-      "event_id": "3de909cc36eaaa664e934686e6b26105",
-      "game": "Burgos CF vs Albacete",
-      "home": "Burgos CF",
-      "away": "Albacete",
-      "start": "2026-11-22T20:00:00Z",
-      "market": "h2h",
-      "market_name": "Winner",
-      "name": "Burgos CF",
-      "point": null,
-      "pick": "Burgos CF",
-      "book": "Coolbet",
-      "book_key": "coolbet",
-      "odds": 2.15,
-      "eff_odds": 2.15,
-      "fair_odds": 2.116,
-      "edge": 0.0159,
-      "stake": 2.49,
-      "status": "won",
-      "closing_fair_odds": 2.147,
-      "clv": 0.0013,
-      "profit": 2.86,
-      "score": "Burgos CF 1 - 0 Albacete",
-      "settled_at": "2026-11-23T04:15:32Z",
-      "thoughts": [
-        "🧭 Exploring. I've only made 5 bets like this (La Liga 2 (Spain 2) winner bets at middle odds).",
-        "Burgos CF at 2.15 is +1.59% above fair: below my usual bar, but the only way to learn if this kind of bet works for me is to try it.",
-        "Scout stake: 2.49 (0.5% of my fund). The result feeds my learning."
-      ]
     }
   ],
   "log": [
     {
-      "t": "2026-11-27T03:15:33Z",
-      "text": "🧬 🧮 The Quant made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-11 and its bets beat the market by +1.3%. Allows underdogs at odds up to 1.0 higher."
-    },
-    {
-      "t": "2026-11-27T03:15:33Z",
-      "text": "🧬 🦈 The Shark dropped the 🗺️ Versatile trait: it stopped working (-0.0% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-27T03:15:33Z",
-      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-27T03:15:33Z",
-      "text": "🏁 🧮 The Quant now leads the race to go live (7 days to selection)."
-    },
-    {
-      "t": "2026-11-27T03:30:47Z",
-      "text": "🧬 🧮 The Quant dropped the 🐶 Underdog lover trait: it stopped working (+1.6% vs the market on those days)."
-    },
-    {
       "t": "2026-11-27T03:30:47Z",
       "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
     },
@@ -11669,6 +11652,26 @@
     {
       "t": "2026-11-27T04:45:30Z",
       "text": "🧬 🦈 The Shark made New ground part of its character: 🗺️ Versatile. It completed the challenge on 2026-11-24 and its bets beat the market by +0.1%. Keeps trying every bet type (+1 scout bet a day)."
+    },
+    {
+      "t": "2026-11-27T05:00:57Z",
+      "text": "🧬 🧮 The Quant dropped the 🐶 Underdog lover trait: it stopped working (+1.6% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-27T05:00:57Z",
+      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-27T05:00:57Z",
+      "text": "🧬 🦈 The Shark dropped the 🗺️ Versatile trait: it stopped working (-0.0% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-27T05:00:57Z",
+      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
+    },
+    {
+      "t": "2026-11-27T05:00:57Z",
+      "text": "Placed 11 practice bets:\n- The Lizard: **Under 2.5** (Total) in Boca Juniors vs Gimnasia La Plata (Primera División (Argentina)) at 2.0 on Unibet (SE), stake 4.89, edge +2.1%\n- The Quant: **Miami Heat** (Winner) in New York Knicks vs Miami Heat (NBA) at 2.61 on Marathon Bet, stake 9.63, edge +3.8%\n- The Quant: **Los Angeles Lakers +5.5** (Spread) in San Antonio Spurs vs Los Angeles Lakers (NBA) at 2.04 on Marathon Bet, stake 6.11, edge +2.0%\n- The Quant: **Los Angeles Lakers** (Winner) in San Antonio Spurs vs Los Angeles Lakers (NBA) at 3.08 on Marathon Bet, stake 5.29, edge +2.7%\n- The Quant: **Fresno St Bulldogs -1.5** (Spread) in South Alabama Jaguars vs Fresno St Bulldogs (College basketball (US)) at 2.11 on GTbets, stake 8.68, edge +3.0%\n- The Quant: **Towson Tigers** (Winner) in Pennsylvania Quakers vs Towson Tigers (College basketball (US)) at 2.75 on Unibet (NL), stake 10.55, edge +4.5%\n- The Quant 💭 gut: **Marquette Golden Eagles** (Winner) in Marquette Golden Eagles vs Texas A&M Aggies (College basketball (US)) at 2.2 on 888sport, stake 2.30, edge +1.8%\n- The Shark 💭 gut: **Tulsa Golden Hurricane** (Winner) in UTSA Roadrunners vs Tulsa Golden Hurricane (College football (US)) at 1.93 on Unibet (SE), stake 2.46, edge +-0.3%\n- The Shark 💭 gut: **Utah State Aggies** (Winner) in Utah State Aggies vs Texas State Bobcats (College football (US)) at 3.45 on BetOnline.ag, stake 2.46, edge +-0.4%\n- The Quant 🎲 wild: **Idaho Vandals** (Winner) in Washington St Cougars vs Idaho Vandals (College basketball (US)) at 6.8 on GTbets, stake 1.15, edge +6.3%\n- The Quant 🎲 wild: **Utah Jazz** (Winner) in Utah Jazz vs Denver Nuggets (NBA) at 4.9 on BetAnything, stake 1.15, edge +0.8%"
     }
   ]
 }
