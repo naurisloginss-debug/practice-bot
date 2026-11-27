@@ -51,22 +51,6 @@
   },
   "log": [
     {
-      "t": "2026-11-27T02:00:57Z",
-      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
-    },
-    {
-      "t": "2026-11-27T02:00:57Z",
-      "text": "🏁 🦈 The Shark now leads the race to go live (7 days to selection)."
-    },
-    {
-      "t": "2026-11-27T02:15:31Z",
-      "text": "🧬 🧮 The Quant dropped the 🐶 Underdog lover trait: it stopped working (+1.6% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-27T02:15:31Z",
-      "text": "🧬 🦈 The Shark dropped the 🗺️ Versatile trait: it stopped working (-0.0% vs the market on those days)."
-    },
-    {
       "t": "2026-11-27T02:15:31Z",
       "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
     },
@@ -169,6 +153,22 @@
     {
       "t": "2026-11-27T03:15:33Z",
       "text": "🏁 🧮 The Quant now leads the race to go live (7 days to selection)."
+    },
+    {
+      "t": "2026-11-27T03:30:47Z",
+      "text": "🧬 🧮 The Quant dropped the 🐶 Underdog lover trait: it stopped working (+1.6% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-27T03:30:47Z",
+      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
+    },
+    {
+      "t": "2026-11-27T03:30:47Z",
+      "text": "🧬 🦈 The Shark made New ground part of its character: 🗺️ Versatile. It completed the challenge on 2026-11-24 and its bets beat the market by +0.1%. Keeps trying every bet type (+1 scout bet a day)."
+    },
+    {
+      "t": "2026-11-27T03:30:47Z",
+      "text": "🏁 🦈 The Shark now leads the race to go live (7 days to selection)."
     }
   ],
   "levels": {
@@ -3116,12 +3116,6 @@
         "on": 0.052,
         "off": 0.0141,
         "bets": 15
-      },
-      "underdog": {
-        "since": "2026-11-27T03:15:33Z",
-        "on": 0.0135,
-        "off": 0.0206,
-        "bets": 10
       }
     },
     "shark": {
@@ -3136,8 +3130,20 @@
         "on": 0.0329,
         "off": 0.0178,
         "bets": 1
+      },
+      "precision": {
+        "since": "2026-11-27T03:30:47Z",
+        "on": 0.032,
+        "off": 0.0199,
+        "bets": 2
+      },
+      "new_ground": {
+        "since": "2026-11-27T03:30:47Z",
+        "on": 0.0006,
+        "off": 0.0206,
+        "bets": 3
       }
     }
   },
-  "race_leader": "quant"
+  "race_leader": "shark"
 }
