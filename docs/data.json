@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T21:45:32Z",
+  "updated": "2026-11-27T22:01:00Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -521,8 +521,8 @@
           "cautious": 0.0173,
           "beat": 0.6623,
           "challenges": 0.643,
-          "traits": 3,
-          "score": 29.71
+          "traits": 4,
+          "score": 31.71
         },
         {
           "who": "lizard",
@@ -533,8 +533,8 @@
           "cautious": -0.0024,
           "beat": 0.6607,
           "challenges": 0.462,
-          "traits": 3,
-          "score": 9.14
+          "traits": 2,
+          "score": 7.14
         }
       ],
       "ranking": [
@@ -563,7 +563,7 @@
         "min_edge": 0.02,
         "odds": [
           1.6,
-          3.5
+          6.0
         ],
         "stop_below": 250
       },
@@ -1524,17 +1524,6 @@
           "on": 0.013,
           "off": 0.006,
           "bets": 5
-        },
-        {
-          "id": "discipline",
-          "emoji": "🧘",
-          "title": "Disciplined",
-          "effect": "Avoids odds above 3.5.",
-          "from": "Discipline day",
-          "since": "2026-11-27T21:45:32Z",
-          "on": 0.0202,
-          "off": 0.0067,
-          "bets": 9
         }
       ],
       "mind": {
@@ -2774,6 +2763,17 @@
           "on": 0.058,
           "off": 0.0141,
           "bets": 16
+        },
+        {
+          "id": "discipline",
+          "emoji": "🧘",
+          "title": "Disciplined",
+          "effect": "Avoids odds above 3.5.",
+          "from": "Discipline day",
+          "since": "2026-11-27T22:01:00Z",
+          "on": 0.0391,
+          "off": 0.0221,
+          "bets": 3
         }
       ],
       "mind": {
@@ -2952,7 +2952,7 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.02,
+        "min_edge": 0.015,
         "odds": [
           1.6,
           3.5
@@ -3792,15 +3792,15 @@
           "bets": 4
         },
         {
-          "id": "precision",
-          "emoji": "🎯",
-          "title": "Precise",
-          "effect": "Always demands +0.5% more edge.",
-          "from": "Precision day",
-          "since": "2026-11-27T21:45:32Z",
-          "on": 0.032,
-          "off": 0.019,
-          "bets": 2
+          "id": "new_ground",
+          "emoji": "🗺️",
+          "title": "Versatile",
+          "effect": "Keeps trying every bet type (+1 scout bet a day).",
+          "from": "New ground",
+          "since": "2026-11-27T22:01:00Z",
+          "on": 0.0299,
+          "off": 0.0198,
+          "bets": 7
         }
       ],
       "mind": {
@@ -11602,22 +11602,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-27T20:12:33Z",
-      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-27T20:12:33Z",
-      "text": "🧬 🦈 The Shark made New ground part of its character: 🗺️ Versatile. It completed the challenge on 2026-11-24 and its bets beat the market by +4.1%. Keeps trying every bet type (+1 scout bet a day)."
-    },
-    {
-      "t": "2026-11-27T20:12:33Z",
-      "text": "✅ 🦈 The Shark completed 🐶 Underdog hunter: 1 bet beat the market."
-    },
-    {
-      "t": "2026-11-27T20:15:34Z",
-      "text": "🧬 🦎 The Lizard made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-22 and its bets beat the market by +2.0%. Avoids odds above 3.5."
-    },
-    {
       "t": "2026-11-27T20:15:34Z",
       "text": "🧬 🧮 The Quant dropped the 🐶 Underdog lover trait: it stopped working (+1.6% vs the market on those days)."
     },
@@ -11720,6 +11704,22 @@
     {
       "t": "2026-11-27T21:45:32Z",
       "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
+    },
+    {
+      "t": "2026-11-27T22:01:00Z",
+      "text": "🧬 🦎 The Lizard dropped the 🧘 Disciplined trait: it stopped working (+0.5% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-27T22:01:00Z",
+      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
+    },
+    {
+      "t": "2026-11-27T22:01:00Z",
+      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-27T22:01:00Z",
+      "text": "🧬 🦈 The Shark made New ground part of its character: 🗺️ Versatile. It completed the challenge on 2026-11-24 and its bets beat the market by +3.0%. Keeps trying every bet type (+1 scout bet a day)."
     }
   ]
 }
