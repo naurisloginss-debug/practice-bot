@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T16:30:48Z",
+  "updated": "2026-11-27T16:45:33Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -480,7 +480,7 @@
             "pending": false
           }
         ],
-        "score": 198,
+        "score": 201,
         "trophies": [
           {
             "kind": "sharpshooter",
@@ -508,9 +508,9 @@
           "clv": 0.032,
           "cautious": 0.02,
           "beat": 0.6842,
-          "challenges": 0.727,
-          "traits": 4,
-          "score": 35.31
+          "challenges": 0.75,
+          "traits": 2,
+          "score": 31.42
         },
         {
           "who": "quant",
@@ -521,8 +521,8 @@
           "cautious": 0.0173,
           "beat": 0.6623,
           "challenges": 0.643,
-          "traits": 4,
-          "score": 31.71
+          "traits": 3,
+          "score": 29.71
         },
         {
           "who": "lizard",
@@ -1742,7 +1742,7 @@
         "min_edge": 0.02,
         "odds": [
           1.6,
-          4.5
+          3.5
         ],
         "stop_below": 250
       },
@@ -2772,17 +2772,6 @@
           "on": 0.058,
           "off": 0.0141,
           "bets": 16
-        },
-        {
-          "id": "underdog",
-          "emoji": "🐶",
-          "title": "Underdog lover",
-          "effect": "Allows underdogs at odds up to 1.0 higher.",
-          "from": "Underdog hunter",
-          "since": "2026-11-27T16:30:48Z",
-          "on": 0.0135,
-          "off": 0.0221,
-          "bets": 10
         }
       ],
       "mind": {
@@ -2978,7 +2967,7 @@
         "min_edge": 0.015,
         "odds": [
           1.6,
-          5.0
+          4.0
         ],
         "stop_below": 250
       },
@@ -3732,10 +3721,11 @@
             "emoji": "🧘",
             "title": "Discipline day",
             "text": "No gut calls, no wild bets, nothing above odds 3.0, and still beat the market.",
-            "status": "judging",
+            "status": "done",
             "market": "totals",
             "target": 109,
-            "league": null
+            "league": null,
+            "detail": "1 bet beat the market."
           },
           {
             "day": "2026-11-22",
@@ -3774,9 +3764,9 @@
             "detail": "No chance today: nothing fit the challenge, and not betting was the right call."
           }
         ],
-        "done": 8,
-        "judged": 11,
-        "streak": 1
+        "done": 9,
+        "judged": 12,
+        "streak": 2
       },
       "traits": [
         {
@@ -3787,7 +3777,7 @@
           "from": "Read and react",
           "since": "2026-11-21T17:45:33Z",
           "on": 0.0888,
-          "off": 0.0155,
+          "off": 0.018,
           "bets": 2
         },
         {
@@ -3798,30 +3788,8 @@
           "from": "Study day",
           "since": "2026-11-22T17:45:32Z",
           "on": 0.0329,
-          "off": 0.0178,
+          "off": 0.0202,
           "bets": 1
-        },
-        {
-          "id": "new_ground",
-          "emoji": "🗺️",
-          "title": "Versatile",
-          "effect": "Keeps trying every bet type (+1 scout bet a day).",
-          "from": "New ground",
-          "since": "2026-11-27T16:30:48Z",
-          "on": 0.0006,
-          "off": 0.0206,
-          "bets": 3
-        },
-        {
-          "id": "underdog",
-          "emoji": "🐶",
-          "title": "Underdog lover",
-          "effect": "Allows underdogs at odds up to 1.0 higher.",
-          "from": "Underdog hunter",
-          "since": "2026-11-27T16:30:48Z",
-          "on": 0.0278,
-          "off": 0.0186,
-          "bets": 15
         }
       ],
       "mind": {
@@ -11606,22 +11574,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-27T15:01:00Z",
-      "text": "🧬 🧮 The Quant dropped the 🧘 Disciplined trait: it stopped working (+1.3% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-27T15:01:00Z",
-      "text": "🧬 🧮 The Quant made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-11 and its bets beat the market by +1.3%. Allows underdogs at odds up to 1.0 higher."
-    },
-    {
-      "t": "2026-11-27T15:01:00Z",
-      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
-    },
-    {
-      "t": "2026-11-27T15:01:00Z",
-      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
-    },
-    {
       "t": "2026-11-27T15:15:33Z",
       "text": "🧬 🧮 The Quant dropped the 🐶 Underdog lover trait: it stopped working (+1.6% vs the market on those days)."
     },
@@ -11724,6 +11676,22 @@
     {
       "t": "2026-11-27T16:30:48Z",
       "text": "🏁 🦈 The Shark now leads the race to go live (7 days to selection)."
+    },
+    {
+      "t": "2026-11-27T16:45:33Z",
+      "text": "🧬 🧮 The Quant dropped the 🐶 Underdog lover trait: it stopped working (+1.6% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-27T16:45:33Z",
+      "text": "🧬 🦈 The Shark dropped the 🗺️ Versatile trait: it stopped working (+0.7% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-27T16:45:33Z",
+      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-27T16:45:33Z",
+      "text": "✅ 🦈 The Shark completed 🧘 Discipline day: 1 bet beat the market."
     }
   ]
 }
