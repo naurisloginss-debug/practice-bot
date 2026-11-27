@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T08:00:58Z",
+  "updated": "2026-11-27T08:15:34Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -12,11 +12,11 @@
       "lizard",
       "shark"
     ],
-    "grower": "lizard",
+    "grower": "quant",
     "talk": [
       {
         "who": "quant",
-        "text": "The data put me first. The Lizard, check your model. 7 days until selection. Regression to the mean is coming for the leader."
+        "text": "The data put me first. The Lizard, check your model. The data says I'm the one going live. 7 days to prove it."
       },
       {
         "who": "lizard",
@@ -24,7 +24,7 @@
       },
       {
         "who": "shark",
-        "text": "I smell The Quant's lead from here. Closing in. Only one of us gets real money. Smell that? It's me."
+        "text": "I smell The Quant's lead from here. Closing in. Only one of us gets real money, in 7 days. And I'm hungry."
       }
     ],
     "chars": {
@@ -211,8 +211,8 @@
         ]
       },
       "quant": {
-        "iq": 149,
-        "iq_gain": 6,
+        "iq": 150,
+        "iq_gain": 7,
         "streak": 4,
         "best_streak": 9,
         "achievements": [
@@ -334,7 +334,7 @@
             "pending": false
           }
         ],
-        "score": 236,
+        "score": 237,
         "trophies": [
           {
             "kind": "grower",
@@ -501,18 +501,6 @@
       "min_bets": 30,
       "rows": [
         {
-          "who": "shark",
-          "eligible": true,
-          "measured": 36,
-          "need": 0,
-          "clv": 0.029,
-          "cautious": 0.0166,
-          "beat": 0.6667,
-          "challenges": 0.727,
-          "traits": 4,
-          "score": 31.53
-        },
-        {
           "who": "quant",
           "eligible": true,
           "measured": 77,
@@ -521,8 +509,20 @@
           "cautious": 0.0173,
           "beat": 0.6623,
           "challenges": 0.643,
-          "traits": 3,
-          "score": 29.71
+          "traits": 4,
+          "score": 31.71
+        },
+        {
+          "who": "shark",
+          "eligible": true,
+          "measured": 36,
+          "need": 0,
+          "clv": 0.029,
+          "cautious": 0.0166,
+          "beat": 0.6667,
+          "challenges": 0.727,
+          "traits": 2,
+          "score": 27.53
         },
         {
           "who": "lizard",
@@ -538,11 +538,11 @@
         }
       ],
       "ranking": [
-        "shark",
         "quant",
+        "shark",
         "lizard"
       ],
-      "leader": "shark"
+      "leader": "quant"
     }
   },
   "credits_left": 16271,
@@ -1245,8 +1245,15 @@
         "measured": 2
       },
       "reading": {
-        "week": 127,
+        "week": 132,
         "latest": [
+          {
+            "t": "2026-11-27T06:54:36Z",
+            "title": "What happens now for Bayern Munich and Musiala?",
+            "link": "https://www.bbc.co.uk/sport/football/articles/cmly5j49ypzqo?at_medium=RSS&at_campaign=rss",
+            "source": "feeds.bbci.co.uk",
+            "tone": 1
+          },
           {
             "t": "2026-11-26T23:13:11Z",
             "title": "West Brom's Price ruled out for up to six weeks",
@@ -1279,13 +1286,6 @@
             "t": "2026-11-26T16:38:05Z",
             "title": "Europa League line-ups: Olympiacos vs. Milan",
             "link": "https://football-italia.net/europa-league-line-ups-olympiacos-vs-milan/",
-            "source": "football-italia.net",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-26T15:43:29Z",
-            "title": "Fiorentina confirm Viery out until 2027 with new thigh injury",
-            "link": "https://football-italia.net/fiorentina-confirm-viery-out-until-2027-injury/",
             "source": "football-italia.net",
             "tone": -1
           }
@@ -2479,7 +2479,7 @@
         "measured": 0
       },
       "reading": {
-        "week": 81,
+        "week": 93,
         "latest": [
           {
             "t": "2026-11-27T02:20:41Z",
@@ -2492,6 +2492,13 @@
             "t": "2026-11-27T01:56:29Z",
             "title": "Important Jusuf Nurkic Injury Update",
             "link": "https://sports.yahoo.com/nba/articles/important-jusuf-nurkic-injury-015629072.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-27T00:34:48Z",
+            "title": "Embiid sidelined for Sixers-Blazers with illness",
+            "link": "https://sports.yahoo.com/articles/embiid-sidelined-sixers-blazers-illness-173500321.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
@@ -2515,13 +2522,6 @@
             "link": "https://sports.yahoo.com/nba/articles/brown-again-hamstring-injury-sixers-192207841.html",
             "source": "sports.yahoo.com",
             "tone": -1
-          },
-          {
-            "t": "2026-11-26T14:09:35Z",
-            "title": "Observations after Sixers&#39; 5-game win streak ends with blowout loss to Blazers",
-            "link": "https://sports.yahoo.com/articles/observations-sixers-5-game-win-173500225.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
           }
         ]
       },
@@ -2764,11 +2764,22 @@
           "on": 0.058,
           "off": 0.0141,
           "bets": 16
+        },
+        {
+          "id": "discipline",
+          "emoji": "🧘",
+          "title": "Disciplined",
+          "effect": "Avoids odds above 3.5.",
+          "from": "Discipline day",
+          "since": "2026-11-27T08:15:34Z",
+          "on": 0.0391,
+          "off": 0.0221,
+          "bets": 3
         }
       ],
       "mind": {
-        "iq": 149,
-        "iq_week": 24,
+        "iq": 150,
+        "iq_week": 25,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -2864,7 +2875,7 @@
           },
           {
             "d": "2026-11-27",
-            "iq": 149
+            "iq": 150
           }
         ],
         "facts": [
@@ -2945,7 +2956,7 @@
         "min_edge": 0.015,
         "odds": [
           1.6,
-          5.0
+          4.0
         ],
         "stop_below": 250
       },
@@ -3483,14 +3494,28 @@
         "measured": 2
       },
       "reading": {
-        "week": 392,
+        "week": 375,
         "latest": [
+          {
+            "t": "2026-11-27T05:29:20Z",
+            "title": "Utah RB Wayshawn Parker gets notable injury upgrade for West Virginia game",
+            "link": "https://sports.yahoo.com/college-football/articles/utah-rb-wayshawn-parker-gets-052920893.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
           {
             "t": "2026-11-27T05:00:00Z",
             "title": "Andy Reid gives 2 injury updates after loss to Bills",
             "link": "https://sports.yahoo.com/nfl/articles/andy-reid-gives-2-injury-050000116.html",
             "source": "sports.yahoo.com",
             "tone": -1
+          },
+          {
+            "t": "2026-11-27T01:17:26Z",
+            "title": "Oklahoma Offensive Lineman Cleared to Play Against Missouri",
+            "link": "https://sports.yahoo.com/college-football/articles/oklahoma-offensive-lineman-cleared-play-011726328.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
           },
           {
             "t": "2026-11-27T01:09:08Z",
@@ -3512,20 +3537,6 @@
             "link": "https://sports.yahoo.com/college-football/articles/watch-alabama-football-vs-auburn-010000738.html",
             "source": "sports.yahoo.com",
             "tone": 1
-          },
-          {
-            "t": "2026-11-27T00:36:09Z",
-            "title": "Eagles make a game of it with blocked punt for touchdown",
-            "link": "https://sports.yahoo.com/nfl/articles/eagles-game-blocked-punt-touchdown-003609213.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-27T00:27:51Z",
-            "title": "Vikings-Falcons Second Injury Report",
-            "link": "https://sports.yahoo.com/nfl/articles/vikings-falcons-second-injury-report-002751198.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
           }
         ]
       },
@@ -3754,28 +3765,6 @@
           "on": 0.0329,
           "off": 0.0178,
           "bets": 1
-        },
-        {
-          "id": "new_ground",
-          "emoji": "🗺️",
-          "title": "Versatile",
-          "effect": "Keeps trying every bet type (+1 scout bet a day).",
-          "from": "New ground",
-          "since": "2026-11-27T08:00:58Z",
-          "on": 0.0006,
-          "off": 0.0206,
-          "bets": 3
-        },
-        {
-          "id": "underdog",
-          "emoji": "🐶",
-          "title": "Underdog lover",
-          "effect": "Allows underdogs at odds up to 1.0 higher.",
-          "from": "Underdog hunter",
-          "since": "2026-11-27T08:00:58Z",
-          "on": 0.0278,
-          "off": 0.0186,
-          "bets": 15
         }
       ],
       "mind": {
@@ -11565,22 +11554,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-27T06:15:31Z",
-      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
-    },
-    {
-      "t": "2026-11-27T06:30:48Z",
-      "text": "🧬 🧮 The Quant dropped the 🐶 Underdog lover trait: it stopped working (+1.6% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-27T06:30:48Z",
-      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
-    },
-    {
-      "t": "2026-11-27T06:30:48Z",
-      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
-    },
-    {
       "t": "2026-11-27T06:45:33Z",
       "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
     },
@@ -11683,6 +11656,22 @@
     {
       "t": "2026-11-27T08:00:58Z",
       "text": "🏁 🦈 The Shark now leads the race to go live (7 days to selection)."
+    },
+    {
+      "t": "2026-11-27T08:15:34Z",
+      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
+    },
+    {
+      "t": "2026-11-27T08:15:34Z",
+      "text": "🧬 🦈 The Shark dropped the 🗺️ Versatile trait: it stopped working (-0.0% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-27T08:15:34Z",
+      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-27T08:15:34Z",
+      "text": "🏁 🧮 The Quant now leads the race to go live (7 days to selection)."
     }
   ]
 }
