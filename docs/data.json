@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T09:00:59Z",
+  "updated": "2026-11-27T09:15:41Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -211,8 +211,8 @@
         ]
       },
       "quant": {
-        "iq": 150,
-        "iq_gain": 7,
+        "iq": 152,
+        "iq_gain": 9,
         "streak": 4,
         "best_streak": 9,
         "achievements": [
@@ -334,7 +334,7 @@
             "pending": false
           }
         ],
-        "score": 237,
+        "score": 239,
         "trophies": [
           {
             "kind": "grower",
@@ -521,8 +521,8 @@
           "cautious": 0.0166,
           "beat": 0.6667,
           "challenges": 0.727,
-          "traits": 3,
-          "score": 29.53
+          "traits": 4,
+          "score": 31.53
         },
         {
           "who": "lizard",
@@ -545,7 +545,7 @@
       "leader": "quant"
     }
   },
-  "credits_left": 16220,
+  "credits_left": 16216,
   "last_scan": "2026-11-27@9",
   "strategies": {
     "lizard": {
@@ -1742,7 +1742,7 @@
         "min_edge": 0.02,
         "odds": [
           1.6,
-          3.5
+          4.5
         ],
         "stop_below": 250
       },
@@ -1757,7 +1757,7 @@
         "Winner"
       ],
       "start_fund": 500,
-      "fund": 460.34,
+      "fund": 452.88,
       "lessons": [
         {
           "kind": "favour",
@@ -1781,12 +1781,12 @@
         }
       ],
       "bets": 158,
-      "open": 12,
+      "open": 10,
       "won": 58,
-      "lost": 88,
-      "staked": 856.38,
-      "profit": -39.66,
-      "roi": -0.0463,
+      "lost": 90,
+      "staked": 863.84,
+      "profit": -47.12,
+      "roi": -0.0545,
       "avg_edge": 0.0305,
       "avg_clv": 0.0219,
       "beat_close": 0.5902,
@@ -2379,6 +2379,14 @@
         {
           "t": "2026-11-27T03:01:00Z",
           "fund": 460.34
+        },
+        {
+          "t": "2026-11-27T09:15:41Z",
+          "fund": 454.96
+        },
+        {
+          "t": "2026-11-27T09:15:41Z",
+          "fund": 452.88
         }
       ],
       "by_league": [
@@ -2394,8 +2402,8 @@
         {
           "name": "College basketball (US)",
           "bets": 101,
-          "profit": 16.66,
-          "roi": 0.0241,
+          "profit": 9.2,
+          "roi": 0.0132,
           "avg_clv": 0.0208,
           "beat_close": 0.5789,
           "clv_count": 76
@@ -2414,8 +2422,8 @@
         {
           "name": "Winner",
           "bets": 115,
-          "profit": -11.6,
-          "roi": -0.0317,
+          "profit": -19.06,
+          "roi": -0.0511,
           "avg_clv": 0.0271,
           "beat_close": 0.6226,
           "clv_count": 106
@@ -2443,8 +2451,8 @@
         {
           "name": "Basketball",
           "bets": 158,
-          "profit": -39.66,
-          "roi": -0.0463,
+          "profit": -47.12,
+          "roi": -0.0545,
           "avg_clv": 0.0219,
           "beat_close": 0.5902,
           "clv_count": 122
@@ -2458,8 +2466,8 @@
         "trust": 0.709,
         "base": 0.4,
         "won": 9,
-        "lost": 11,
-        "profit": 0.22
+        "lost": 12,
+        "profit": -1.86
       },
       "wild": {
         "bets": 10,
@@ -2766,20 +2774,20 @@
           "bets": 16
         },
         {
-          "id": "discipline",
-          "emoji": "🧘",
-          "title": "Disciplined",
-          "effect": "Avoids odds above 3.5.",
-          "from": "Discipline day",
-          "since": "2026-11-27T09:00:59Z",
-          "on": 0.0391,
+          "id": "underdog",
+          "emoji": "🐶",
+          "title": "Underdog lover",
+          "effect": "Allows underdogs at odds up to 1.0 higher.",
+          "from": "Underdog hunter",
+          "since": "2026-11-27T09:15:41Z",
+          "on": 0.0135,
           "off": 0.0221,
-          "bets": 3
+          "bets": 10
         }
       ],
       "mind": {
-        "iq": 150,
-        "iq_week": 25,
+        "iq": 152,
+        "iq_week": 27,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -2875,7 +2883,7 @@
           },
           {
             "d": "2026-11-27",
-            "iq": 150
+            "iq": 152
           }
         ],
         "facts": [
@@ -2888,10 +2896,10 @@
           },
           {
             "conf": "solid",
-            "n": 737,
+            "n": 743,
             "z": 0,
             "text": "The market prices overs in College basketball (US) accurately.",
-            "detail": "49% happened, 50% priced, 737 games"
+            "detail": "49% happened, 50% priced, 743 games"
           },
           {
             "conf": "solid",
@@ -2899,6 +2907,20 @@
             "z": 0,
             "text": "Betfair is the softest bookmaker in NBA.",
             "detail": "beats fair by 2%+ on 4% of its prices vs 1% across all bookmakers"
+          },
+          {
+            "conf": "solid",
+            "n": 560,
+            "z": 0,
+            "text": "The market prices home wins in College basketball (US) accurately.",
+            "detail": "58% happened, 60% priced, 560 games"
+          },
+          {
+            "conf": "solid",
+            "n": 560,
+            "z": 0,
+            "text": "The market prices away wins in College basketball (US) accurately.",
+            "detail": "42% happened, 40% priced, 560 games"
           },
           {
             "conf": "solid",
@@ -2938,7 +2960,7 @@
         ],
         "rules": 0,
         "studied": 976,
-        "resolved": 935
+        "resolved": 941
       }
     },
     "shark": {
@@ -2953,10 +2975,10 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.02,
+        "min_edge": 0.015,
         "odds": [
           1.6,
-          4.0
+          5.0
         ],
         "stop_below": 250
       },
@@ -2970,7 +2992,7 @@
         "Winner"
       ],
       "start_fund": 500,
-      "fund": 492.57,
+      "fund": 503.55,
       "lessons": [
         {
           "kind": "favour",
@@ -2984,12 +3006,12 @@
         }
       ],
       "bets": 151,
-      "open": 52,
-      "won": 35,
+      "open": 51,
+      "won": 36,
       "lost": 64,
-      "staked": 272.6,
-      "profit": -7.43,
-      "roi": -0.0273,
+      "staked": 284.67,
+      "profit": 3.55,
+      "roi": 0.0125,
       "avg_edge": 0.0328,
       "avg_clv": 0.0154,
       "beat_close": 0.5402,
@@ -3394,6 +3416,10 @@
         {
           "t": "2026-11-27T03:01:00Z",
           "fund": 492.57
+        },
+        {
+          "t": "2026-11-27T09:15:41Z",
+          "fund": 503.55
         }
       ],
       "by_league": [
@@ -3409,8 +3435,8 @@
         {
           "name": "NFL",
           "bets": 49,
-          "profit": 21.62,
-          "roi": 0.2038,
+          "profit": 32.6,
+          "roi": 0.2759,
           "avg_clv": 0.0214,
           "beat_close": 0.5,
           "clv_count": 30
@@ -3438,8 +3464,8 @@
         {
           "name": "Spread",
           "bets": 25,
-          "profit": -24.91,
-          "roi": -0.4118,
+          "profit": -13.93,
+          "roi": -0.192,
           "avg_clv": 0.0041,
           "beat_close": 0.4,
           "clv_count": 10
@@ -3458,8 +3484,8 @@
         {
           "name": "American football",
           "bets": 151,
-          "profit": -7.43,
-          "roi": -0.0273,
+          "profit": 3.55,
+          "roi": 0.0125,
           "avg_clv": 0.0154,
           "beat_close": 0.5402,
           "clv_count": 87
@@ -3767,15 +3793,26 @@
           "bets": 1
         },
         {
-          "id": "precision",
-          "emoji": "🎯",
-          "title": "Precise",
-          "effect": "Always demands +0.5% more edge.",
-          "from": "Precision day",
-          "since": "2026-11-27T09:00:59Z",
-          "on": 0.032,
-          "off": 0.0199,
-          "bets": 2
+          "id": "new_ground",
+          "emoji": "🗺️",
+          "title": "Versatile",
+          "effect": "Keeps trying every bet type (+1 scout bet a day).",
+          "from": "New ground",
+          "since": "2026-11-27T09:15:41Z",
+          "on": 0.0006,
+          "off": 0.0206,
+          "bets": 3
+        },
+        {
+          "id": "underdog",
+          "emoji": "🐶",
+          "title": "Underdog lover",
+          "effect": "Allows underdogs at odds up to 1.0 higher.",
+          "from": "Underdog hunter",
+          "since": "2026-11-27T09:15:41Z",
+          "on": 0.0278,
+          "off": 0.0186,
+          "bets": 15
         }
       ],
       "mind": {
@@ -3911,7 +3948,7 @@
         ],
         "rules": 0,
         "studied": 318,
-        "resolved": 238
+        "resolved": 239
       }
     }
   },
@@ -8008,12 +8045,12 @@
       "fair_odds": 2.541,
       "edge": 0.0233,
       "stake": 5.38,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 2.267,
       "clv": 0.1467,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -5.38,
+      "score": "Gonzaga Bulldogs 72 - 64 Baylor Bears",
+      "settled_at": "2026-11-27T09:15:41Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates Baylor Bears at 39.4%. That makes the fair price 2.54.",
         "Everygame pays 2.60. That is +2.3% above fair. My bar is +2.0%.",
@@ -8047,12 +8084,12 @@
       "fair_odds": 1.84,
       "edge": 0.0378,
       "stake": 12.07,
-      "status": "open",
+      "status": "won",
       "closing_fair_odds": null,
       "clv": null,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": 10.98,
+      "score": "Buffalo Bills 13 - 10 Kansas City Chiefs",
+      "settled_at": "2026-11-27T09:15:41Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates Buffalo Bills -2.5 at 54.3%. That makes the fair price 1.84.",
         "MyBookie.ag pays 1.91. That is +3.8% above fair. My bar is +2.0%.",
@@ -8126,12 +8163,12 @@
       "fair_odds": 3.705,
       "edge": 0.0136,
       "stake": 2.08,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 3.647,
       "clv": 0.0297,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -2.08,
+      "score": "LSU Tigers 95 - 86 SMU Mustangs",
+      "settled_at": "2026-11-27T09:15:41Z",
       "thoughts": [
         "Only +1.36% edge, just under my +2.0% bar. Can't prove it, but I like it.",
         "My rules say no. The model says no. The 2% of me that isn't a model says try it.",
@@ -11567,30 +11604,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-27T07:30:50Z",
-      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
-    },
-    {
-      "t": "2026-11-27T07:30:50Z",
-      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-27T07:30:50Z",
-      "text": "🧬 🦈 The Shark dropped the 🗺️ Versatile trait: it stopped working (-0.0% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-27T07:30:50Z",
-      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
-    },
-    {
-      "t": "2026-11-27T07:30:50Z",
-      "text": "🏁 🧮 The Quant now leads the race to go live (7 days to selection)."
-    },
-    {
-      "t": "2026-11-27T07:45:36Z",
-      "text": "🧬 🧮 The Quant dropped the 🧘 Disciplined trait: it stopped working (+1.3% vs the market on those days)."
-    },
-    {
       "t": "2026-11-27T07:45:36Z",
       "text": "🧬 🧮 The Quant made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-11 and its bets beat the market by +1.3%. Allows underdogs at odds up to 1.0 higher."
     },
@@ -11685,6 +11698,30 @@
     {
       "t": "2026-11-27T09:00:59Z",
       "text": "Placed 5 practice bets:\n- The Lizard: **Under 2.5** (Total) in Bristol Rovers vs Tranmere Rovers (League Two (England 4)) at 2.0 on William Hill, stake 7.92, edge +3.4%\n- The Quant 💭 gut: **Dallas Mavericks** (Winner) in Phoenix Suns vs Dallas Mavericks (NBA) at 2.15 on 888sport, stake 2.30, edge +-0.5%\n- The Quant 💭 gut: **Wake Forest Demon Deacons** (Winner) in Wake Forest Demon Deacons vs Memphis Tigers (College basketball (US)) at 2.18 on LeoVegas (SE), stake 2.30, edge +0.0%\n- The Shark 🎲 wild: **Coastal Carolina Chanticleers** (Winner) in James Madison Dukes vs Coastal Carolina Chanticleers (College football (US)) at 8.2 on Matchbook, stake 1.23, edge +12.5%\n- The Shark 🎲 wild: **Sacramento State Hornets** (Winner) in Hawaii Rainbow Warriors vs Sacramento State Hornets (College football (US)) at 5.75 on Unibet (SE), stake 1.23, edge +6.0%"
+    },
+    {
+      "t": "2026-11-27T09:15:41Z",
+      "text": "🧬 🧮 The Quant dropped the 🧘 Disciplined trait: it stopped working (+1.3% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-27T09:15:41Z",
+      "text": "🧬 🧮 The Quant made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-11 and its bets beat the market by +1.3%. Allows underdogs at odds up to 1.0 higher."
+    },
+    {
+      "t": "2026-11-27T09:15:41Z",
+      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-27T09:15:41Z",
+      "text": "🧬 🦈 The Shark made New ground part of its character: 🗺️ Versatile. It completed the challenge on 2026-11-24 and its bets beat the market by +0.1%. Keeps trying every bet type (+1 scout bet a day)."
+    },
+    {
+      "t": "2026-11-27T09:15:41Z",
+      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
+    },
+    {
+      "t": "2026-11-27T09:15:41Z",
+      "text": "Results:\n- Won +10.98: Buffalo Bills -2.5 (Spread) in Buffalo Bills vs Kansas City Chiefs (Buffalo Bills 13 - 10 Kansas City Chiefs)\n- Lost -5.38: Baylor Bears (Winner) in Gonzaga Bulldogs vs Baylor Bears (Gonzaga Bulldogs 72 - 64 Baylor Bears)\n- Lost -2.08: SMU Mustangs (Winner) in LSU Tigers vs SMU Mustangs (LSU Tigers 95 - 86 SMU Mustangs)"
     }
   ]
 }
