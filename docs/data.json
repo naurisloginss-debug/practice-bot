@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T22:30:46Z",
+  "updated": "2026-11-27T22:45:32Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -228,7 +228,7 @@
             "emoji": "🔥",
             "title": "Iron Will",
             "desc": "Completed 5 daily challenges in a row.",
-            "at": null
+            "at": "2026-11-27T22:45:32Z"
           },
           {
             "key": "first_blood",
@@ -334,7 +334,7 @@
             "pending": false
           }
         ],
-        "score": 237,
+        "score": 245,
         "trophies": [
           {
             "kind": "grower",
@@ -509,8 +509,8 @@
           "cautious": 0.019,
           "beat": 0.6829,
           "challenges": 0.769,
-          "traits": 3,
-          "score": 32.52
+          "traits": 4,
+          "score": 34.52
         },
         {
           "who": "quant",
@@ -520,9 +520,9 @@
           "clv": 0.0264,
           "cautious": 0.0186,
           "beat": 0.6667,
-          "challenges": 0.643,
-          "traits": 3,
-          "score": 31.19
+          "challenges": 0.667,
+          "traits": 4,
+          "score": 33.31
         },
         {
           "who": "lizard",
@@ -533,8 +533,8 @@
           "cautious": -0.0024,
           "beat": 0.6607,
           "challenges": 0.462,
-          "traits": 2,
-          "score": 7.14
+          "traits": 3,
+          "score": 9.14
         }
       ],
       "ranking": [
@@ -545,7 +545,7 @@
       "leader": "shark"
     }
   },
-  "credits_left": 16036,
+  "credits_left": 16034,
   "last_scan": "2026-11-27@21",
   "strategies": {
     "lizard": {
@@ -563,7 +563,7 @@
         "min_edge": 0.02,
         "odds": [
           1.6,
-          6.0
+          3.5
         ],
         "stop_below": 250
       },
@@ -590,7 +590,7 @@
         "Total"
       ],
       "start_fund": 500,
-      "fund": 469.66,
+      "fund": 468.3,
       "lessons": [
         {
           "kind": "avoid",
@@ -604,12 +604,12 @@
         }
       ],
       "bets": 158,
-      "open": 50,
-      "won": 32,
-      "lost": 76,
-      "staked": 336.64,
-      "profit": -30.34,
-      "roi": -0.0901,
+      "open": 48,
+      "won": 33,
+      "lost": 77,
+      "staked": 342.69,
+      "profit": -31.7,
+      "roi": -0.0925,
       "avg_edge": 0.0315,
       "avg_clv": 0.0049,
       "beat_close": 0.6226,
@@ -1050,6 +1050,14 @@
         {
           "t": "2026-11-27T22:30:46Z",
           "fund": 469.66
+        },
+        {
+          "t": "2026-11-27T22:45:32Z",
+          "fund": 472.03
+        },
+        {
+          "t": "2026-11-27T22:45:32Z",
+          "fund": 468.3
         }
       ],
       "by_league": [
@@ -1092,8 +1100,8 @@
         {
           "name": "Ligue 1 (France)",
           "bets": 17,
-          "profit": -13.16,
-          "roi": -0.6285,
+          "profit": -14.52,
+          "roi": -0.538,
           "avg_clv": 0.0178,
           "beat_close": 0.8182,
           "clv_count": 11
@@ -1193,8 +1201,8 @@
         {
           "name": "Total",
           "bets": 23,
-          "profit": 19.57,
-          "roi": 0.4077,
+          "profit": 21.94,
+          "roi": 0.436,
           "avg_clv": 0.0238,
           "beat_close": 0.8889,
           "clv_count": 9
@@ -1202,8 +1210,8 @@
         {
           "name": "Winner",
           "bets": 129,
-          "profit": -34.55,
-          "roi": -0.1264,
+          "profit": -38.28,
+          "roi": -0.1382,
           "avg_clv": 0.0025,
           "beat_close": 0.5938,
           "clv_count": 96
@@ -1213,8 +1221,8 @@
         {
           "name": "Football",
           "bets": 158,
-          "profit": -30.34,
-          "roi": -0.0901,
+          "profit": -31.7,
+          "roi": -0.0925,
           "avg_clv": 0.0049,
           "beat_close": 0.6226,
           "clv_count": 106
@@ -1528,6 +1536,17 @@
           "on": 0.013,
           "off": 0.006,
           "bets": 5
+        },
+        {
+          "id": "discipline",
+          "emoji": "🧘",
+          "title": "Disciplined",
+          "effect": "Avoids odds above 3.5.",
+          "from": "Discipline day",
+          "since": "2026-11-27T22:45:32Z",
+          "on": 0.0202,
+          "off": 0.0067,
+          "bets": 9
         }
       ],
       "mind": {
@@ -1719,7 +1738,7 @@
         ],
         "rules": 0,
         "studied": 374,
-        "resolved": 263
+        "resolved": 264
       }
     },
     "quant": {
@@ -2628,10 +2647,11 @@
           "emoji": "🦅",
           "title": "Sharp eye",
           "text": "Find a +3% edge that holds up against the market.",
-          "status": "active",
+          "status": "done",
           "market": "spreads",
           "target": 89,
-          "league": null
+          "league": null,
+          "detail": "1 bet beat the market."
         },
         "recent": [
           {
@@ -2640,10 +2660,11 @@
             "emoji": "🦅",
             "title": "Sharp eye",
             "text": "Find a +3% edge that holds up against the market.",
-            "status": "active",
+            "status": "done",
             "market": "spreads",
             "target": 89,
-            "league": null
+            "league": null,
+            "detail": "1 bet beat the market."
           },
           {
             "day": "2026-11-26",
@@ -2730,9 +2751,9 @@
             "detail": "Studied 99 games."
           }
         ],
-        "done": 9,
-        "judged": 14,
-        "streak": 4
+        "done": 10,
+        "judged": 15,
+        "streak": 5
       },
       "traits": [
         {
@@ -2743,7 +2764,7 @@
           "from": "Precision day",
           "since": "2026-11-23T18:30:49Z",
           "on": 0.0324,
-          "off": 0.0178,
+          "off": 0.0195,
           "bets": 24
         },
         {
@@ -2754,7 +2775,7 @@
           "from": "Study day",
           "since": "2026-11-25T23:45:38Z",
           "on": 0.0291,
-          "off": 0.0199,
+          "off": 0.0213,
           "bets": 17
         },
         {
@@ -2765,8 +2786,19 @@
           "from": "New ground",
           "since": "2026-11-26T21:30:45Z",
           "on": 0.058,
-          "off": 0.0141,
+          "off": 0.0156,
           "bets": 16
+        },
+        {
+          "id": "discipline",
+          "emoji": "🧘",
+          "title": "Disciplined",
+          "effect": "Avoids odds above 3.5.",
+          "from": "Discipline day",
+          "since": "2026-11-27T22:45:32Z",
+          "on": 0.0391,
+          "off": 0.0233,
+          "bets": 3
         }
       ],
       "mind": {
@@ -2945,7 +2977,7 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.015,
+        "min_edge": 0.02,
         "odds": [
           1.6,
           3.5
@@ -3783,6 +3815,17 @@
           "on": 0.0157,
           "off": 0.0176,
           "bets": 4
+        },
+        {
+          "id": "precision",
+          "emoji": "🎯",
+          "title": "Precise",
+          "effect": "Always demands +0.5% more edge.",
+          "from": "Precision day",
+          "since": "2026-11-27T22:45:32Z",
+          "on": 0.032,
+          "off": 0.019,
+          "bets": 2
         }
       ],
       "mind": {
@@ -8130,12 +8173,12 @@
       "fair_odds": 2.0,
       "edge": 0.01,
       "stake": 2.32,
-      "status": "open",
+      "status": "won",
       "closing_fair_odds": 2.01,
       "clv": 0.0048,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": 2.37,
+      "score": "Brest 1 - 0 Paris FC",
+      "settled_at": "2026-11-27T22:45:32Z",
       "thoughts": [
         "🧭 Exploring. I've only made 3 bets like this (Ligue 1 (France) total bets at middle odds).",
         "Under 2.5 at 2.02 is +1.00% above fair: below my usual bar, but the only way to learn if this kind of bet works for me is to try it.",
@@ -8167,12 +8210,12 @@
       "fair_odds": 2.206,
       "edge": 0.0201,
       "stake": 3.73,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 2.397,
       "clv": -0.0615,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -3.73,
+      "score": "Brest 1 - 0 Paris FC",
+      "settled_at": "2026-11-27T22:45:32Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates Paris FC at 45.3%. That makes the fair price 2.21.",
         "LeoVegas (SE) pays 2.25. That is +2.0% above fair. My bar is +2.0%.",
@@ -11584,30 +11627,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-27T20:45:32Z",
-      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
-    },
-    {
-      "t": "2026-11-27T21:01:00Z",
-      "text": "🧬 🦎 The Lizard dropped the 🧘 Disciplined trait: it stopped working (+0.5% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-27T21:01:00Z",
-      "text": "🧬 🧮 The Quant dropped the 🐶 Underdog lover trait: it stopped working (+1.6% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-27T21:01:00Z",
-      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-27T21:01:00Z",
-      "text": "🧬 🦈 The Shark made New ground part of its character: 🗺️ Versatile. It completed the challenge on 2026-11-24 and its bets beat the market by +4.1%. Keeps trying every bet type (+1 scout bet a day)."
-    },
-    {
-      "t": "2026-11-27T21:01:00Z",
-      "text": "Placed 7 practice bets:\n- The Lizard: **Toulouse** (Winner) in Toulouse vs Rennes (Ligue 1 (France)) at 2.6 on Unibet (SE), stake 4.90, edge +3.4%\n- The Quant: **North Dakota St Bison** (Winner) in North Dakota St Bison vs North Texas Mean Green (College basketball (US)) at 3.3 on Unibet (NL), stake 4.71, edge +2.7%\n- The Quant: **UC Davis Aggies** (Winner) in UC Davis Aggies vs Pacific Tigers (College basketball (US)) at 3.5 on Unibet (NL), stake 6.52, edge +4.0%\n- The Shark: **Tennessee Titans +14.5** (Spread) in Jacksonville Jaguars vs Tennessee Titans (NFL) at 1.91 on 888sport, stake 11.63, edge +3.1%\n- The Lizard ⚡ pounce: **Barracas Central** (Winner) in Rosario Central vs Barracas Central (Primera División (Argentina)) at 9.4 on Betfair, stake 2.04, edge +14.1%\n- The Quant ⚡ pounce: **Golden State Warriors** (Winner) in Portland Trail Blazers vs Golden State Warriors (NBA) at 4.1 on BetAnything, stake 4.53, edge +12.7%\n- The Lizard 💭 gut: **Ascoli** (Winner) in Ascoli vs Virtus Entella (Serie B (Italy 2)) at 1.93 on Unibet (SE), stake 2.32, edge +0.9%"
-    },
-    {
       "t": "2026-11-27T21:15:37Z",
       "text": "🧬 🦎 The Lizard made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-22 and its bets beat the market by +2.0%. Avoids odds above 3.5."
     },
@@ -11702,6 +11721,30 @@
     {
       "t": "2026-11-27T22:30:46Z",
       "text": "Results:\n- Won +5.54: Draw (Winner) in Leganés vs Sabadell FC (Leganés 0 - 0 Sabadell FC)"
+    },
+    {
+      "t": "2026-11-27T22:45:32Z",
+      "text": "🧬 🦎 The Lizard made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-22 and its bets beat the market by +2.0%. Avoids odds above 3.5."
+    },
+    {
+      "t": "2026-11-27T22:45:32Z",
+      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
+    },
+    {
+      "t": "2026-11-27T22:45:32Z",
+      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
+    },
+    {
+      "t": "2026-11-27T22:45:32Z",
+      "text": "✅ 🧮 The Quant completed 🦅 Sharp eye: 1 bet beat the market."
+    },
+    {
+      "t": "2026-11-27T22:45:32Z",
+      "text": "Results:\n- Won +2.37: Under 2.5 (Total) in Brest vs Paris FC (Brest 1 - 0 Paris FC)\n- Lost -3.73: Paris FC (Winner) in Brest vs Paris FC (Brest 1 - 0 Paris FC)"
+    },
+    {
+      "t": "2026-11-27T22:45:32Z",
+      "text": "🏅 🧮 The Quant unlocked 🔥 Iron Will: Completed 5 daily challenges in a row."
     }
   ]
 }
