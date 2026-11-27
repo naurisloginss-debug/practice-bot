@@ -51,22 +51,6 @@
   },
   "log": [
     {
-      "t": "2026-11-27T14:00:59Z",
-      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
-    },
-    {
-      "t": "2026-11-27T14:00:59Z",
-      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-27T14:00:59Z",
-      "text": "🧬 🦈 The Shark made New ground part of its character: 🗺️ Versatile. It completed the challenge on 2026-11-24 and its bets beat the market by +0.1%. Keeps trying every bet type (+1 scout bet a day)."
-    },
-    {
-      "t": "2026-11-27T14:00:59Z",
-      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
-    },
-    {
       "t": "2026-11-27T14:15:33Z",
       "text": "🧬 🧮 The Quant dropped the 🧘 Disciplined trait: it stopped working (+1.3% vs the market on those days)."
     },
@@ -169,6 +153,22 @@
     {
       "t": "2026-11-27T15:30:50Z",
       "text": "🏁 🧮 The Quant now leads the race to go live (7 days to selection)."
+    },
+    {
+      "t": "2026-11-27T15:45:33Z",
+      "text": "🧬 🧮 The Quant dropped the 🧘 Disciplined trait: it stopped working (+1.3% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-27T15:45:33Z",
+      "text": "🧬 🧮 The Quant made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-11 and its bets beat the market by +1.3%. Allows underdogs at odds up to 1.0 higher."
+    },
+    {
+      "t": "2026-11-27T15:45:33Z",
+      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
+    },
+    {
+      "t": "2026-11-27T15:45:33Z",
+      "text": "🧬 🦈 The Shark made New ground part of its character: 🗺️ Versatile. It completed the challenge on 2026-11-24 and its bets beat the market by +0.1%. Keeps trying every bet type (+1 scout bet a day)."
     }
   ],
   "levels": {
@@ -3135,11 +3135,11 @@
         "off": 0.0141,
         "bets": 16
       },
-      "discipline": {
-        "since": "2026-11-27T15:30:50Z",
-        "on": 0.0391,
+      "underdog": {
+        "since": "2026-11-27T15:45:33Z",
+        "on": 0.0135,
         "off": 0.0221,
-        "bets": 3
+        "bets": 10
       }
     },
     "shark": {
@@ -3154,6 +3154,18 @@
         "on": 0.0329,
         "off": 0.0178,
         "bets": 1
+      },
+      "precision": {
+        "since": "2026-11-27T15:45:33Z",
+        "on": 0.032,
+        "off": 0.0199,
+        "bets": 2
+      },
+      "new_ground": {
+        "since": "2026-11-27T15:45:33Z",
+        "on": 0.0006,
+        "off": 0.0206,
+        "bets": 3
       }
     }
   },
