@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-28T00:00:57Z",
+  "updated": "2026-11-28T00:15:31Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -29,8 +29,8 @@
     ],
     "chars": {
       "lizard": {
-        "iq": 130,
-        "iq_gain": 5,
+        "iq": 131,
+        "iq_gain": 6,
         "streak": 0,
         "best_streak": 8,
         "achievements": [
@@ -152,7 +152,7 @@
             "pending": false
           }
         ],
-        "score": 198,
+        "score": 199,
         "trophies": [
           {
             "kind": "sharpshooter",
@@ -480,7 +480,7 @@
             "pending": false
           }
         ],
-        "score": 209,
+        "score": 212,
         "trophies": [
           {
             "kind": "sharpshooter",
@@ -508,9 +508,9 @@
           "clv": 0.031,
           "cautious": 0.02,
           "beat": 0.6905,
-          "challenges": 0.714,
+          "challenges": 0.733,
           "traits": 4,
-          "score": 35.4
+          "score": 35.5
         },
         {
           "who": "quant",
@@ -533,8 +533,8 @@
           "cautious": -0.0024,
           "beat": 0.6607,
           "challenges": 0.462,
-          "traits": 2,
-          "score": 7.14
+          "traits": 3,
+          "score": 9.14
         }
       ],
       "ranking": [
@@ -563,7 +563,7 @@
         "min_edge": 0.02,
         "odds": [
           1.6,
-          6.0
+          3.5
         ],
         "stop_below": 250
       },
@@ -1257,7 +1257,7 @@
         "measured": 2
       },
       "reading": {
-        "week": 95,
+        "week": 107,
         "latest": [
           {
             "t": "2026-11-27T20:10:00Z",
@@ -1535,11 +1535,22 @@
           "on": 0.013,
           "off": 0.006,
           "bets": 5
+        },
+        {
+          "id": "discipline",
+          "emoji": "🧘",
+          "title": "Disciplined",
+          "effect": "Avoids odds above 3.5.",
+          "from": "Discipline day",
+          "since": "2026-11-28T00:15:31Z",
+          "on": 0.0202,
+          "off": 0.0067,
+          "bets": 9
         }
       ],
       "mind": {
-        "iq": 130,
-        "iq_week": 8,
+        "iq": 131,
+        "iq_week": 9,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -1639,7 +1650,7 @@
           },
           {
             "d": "2026-11-28",
-            "iq": 130
+            "iq": 131
           }
         ],
         "facts": [
@@ -1748,7 +1759,7 @@
         "min_edge": 0.02,
         "odds": [
           1.6,
-          3.5
+          4.5
         ],
         "stop_below": 250
       },
@@ -2493,33 +2504,40 @@
         "measured": 0
       },
       "reading": {
-        "week": 90,
+        "week": 77,
         "latest": [
+          {
+            "t": "2026-11-27T22:02:23Z",
+            "title": "Lakers&#39; Austin Reaves available for NBA Cup matchup vs. Spurs, returning after 5-game absence",
+            "link": "https://sports.yahoo.com/nba/article/lakers-austin-reaves-available-for-nba-cup-matchup-vs-spurs-returning-after-5-game-absence-224153560.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-27T21:44:44Z",
+            "title": "Lakers&#39; Austin Reaves set to return Friday for showdown against Spurs",
+            "link": "https://sports.yahoo.com/nba/articles/lakers-austin-reaves-set-return-214444607.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-27T20:08:08Z",
+            "title": "Warriors won’t have to face Damian Lillard tonight",
+            "link": "https://sports.yahoo.com/nba/articles/warriors-won-t-face-damian-200808222.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-27T18:07:31Z",
+            "title": "Brown out again with hamstring injury for Sixers&#39; last NBA Cup group game",
+            "link": "https://sports.yahoo.com/nba/articles/brown-again-hamstring-injury-sixers-192207841.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
           {
             "t": "2026-11-27T17:43:17Z",
             "title": "Celtics will be without key player against Hawks",
             "link": "https://sports.yahoo.com/nba/articles/celtics-without-key-player-against-174317584.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-27T02:20:41Z",
-            "title": "Game Preview #20: Wolves vs Grizzlies Game Thread",
-            "link": "https://sports.yahoo.com/nba/articles/game-preview-20-wolves-vs-022041833.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-27T01:56:29Z",
-            "title": "Important Jusuf Nurkic Injury Update",
-            "link": "https://sports.yahoo.com/nba/articles/important-jusuf-nurkic-injury-015629072.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-27T00:34:48Z",
-            "title": "Embiid sidelined for Sixers-Blazers with illness",
-            "link": "https://sports.yahoo.com/articles/embiid-sidelined-sixers-blazers-illness-173500321.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
@@ -2529,13 +2547,6 @@
             "link": "https://sports.yahoo.com/articles/observations-sixers-5-game-win-173500225.html",
             "source": "sports.yahoo.com",
             "tone": 1
-          },
-          {
-            "t": "2026-11-26T06:57:02Z",
-            "title": "Rockets Scurry Over Suns To Another 116-104 Victory",
-            "link": "https://sports.yahoo.com/nba/articles/rockets-scurry-over-suns-another-065702969.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
           }
         ]
       },
@@ -2754,7 +2765,7 @@
           "from": "Precision day",
           "since": "2026-11-23T18:30:49Z",
           "on": 0.0324,
-          "off": 0.02,
+          "off": 0.0199,
           "bets": 24
         },
         {
@@ -2765,7 +2776,7 @@
           "from": "Study day",
           "since": "2026-11-25T23:45:38Z",
           "on": 0.0291,
-          "off": 0.0218,
+          "off": 0.0217,
           "bets": 17
         },
         {
@@ -2776,19 +2787,19 @@
           "from": "New ground",
           "since": "2026-11-26T21:30:45Z",
           "on": 0.058,
-          "off": 0.0161,
+          "off": 0.0162,
           "bets": 16
         },
         {
-          "id": "sharp_eye",
-          "emoji": "🦅",
-          "title": "Sharp-eyed",
-          "effect": "Bets 15% more when the edge is +3% or bigger.",
-          "from": "Sharp eye",
-          "since": "2026-11-27T23:00:56Z",
-          "on": 0.0082,
-          "off": 0.0238,
-          "bets": 5
+          "id": "underdog",
+          "emoji": "🐶",
+          "title": "Underdog lover",
+          "effect": "Allows underdogs at odds up to 1.0 higher.",
+          "from": "Underdog hunter",
+          "since": "2026-11-28T00:15:31Z",
+          "on": 0.0135,
+          "off": 0.0237,
+          "bets": 10
         }
       ],
       "mind": {
@@ -2974,7 +2985,7 @@
         "min_edge": 0.015,
         "odds": [
           1.6,
-          3.5
+          4.5
         ],
         "stop_below": 250
       },
@@ -3529,49 +3540,49 @@
         "measured": 5
       },
       "reading": {
-        "week": 415,
+        "week": 416,
         "latest": [
           {
-            "t": "2026-11-27T20:19:31Z",
-            "title": "Final Saints vs. Bengals Injury Report: 3 players questionable, one ruled out",
-            "link": "https://sports.yahoo.com/nfl/articles/final-saints-vs-bengals-injury-201931160.html",
+            "t": "2026-11-27T23:33:00Z",
+            "title": "Indianapolis Colts Injury Report: Week 12 Who’s In and Who’s Out",
+            "link": "https://sports.yahoo.com/nfl/articles/indianapolis-colts-injury-report-week-233300753.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-27T20:10:00Z",
-            "title": "Notre Dame faces Syracuse to end regular season",
-            "link": "https://sports.yahoo.com/college-football/articles/notre-dame-faces-syracuse-end-201000779.html",
+            "t": "2026-11-27T23:21:11Z",
+            "title": "Ole Miss Dominates to Capture Another Egg Bowl Victory",
+            "link": "https://sports.yahoo.com/college-football/articles/ole-miss-dominates-capture-another-232111487.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-27T23:19:34Z",
+            "title": "Brock Purdy receives major injury update ahead of 49ers-Seahawks game",
+            "link": "https://sports.yahoo.com/nfl/articles/brock-purdy-receives-major-injury-231934520.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-27T20:05:48Z",
-            "title": "Injury-riddled Rams lose 3 more crucial players as concerns mount",
-            "link": "https://sports.yahoo.com/nfl/articles/injury-riddled-rams-lose-3-200548844.html",
+            "t": "2026-11-27T23:01:26Z",
+            "title": "Justin Herbert injury update: Chargers QB out vs Patriots, Uiagalelei to start",
+            "link": "https://sports.yahoo.com/nfl/articles/justin-herbert-injury-chargers-qb-230126654.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-27T19:51:09Z",
-            "title": "Florida WR gets important injury update right before Florida State clash",
-            "link": "https://sports.yahoo.com/college-football/articles/florida-wr-gets-important-injury-195109398.html",
+            "t": "2026-11-27T22:52:37Z",
+            "title": "Justin Herbert ruled out, DJ Uiagalelei to make first start vs. Patriots",
+            "link": "https://sports.yahoo.com/nfl/articles/justin-herbert-ruled-dj-uiagalelei-225237370.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-27T19:45:56Z",
-            "title": "Patriots vs. Chargers Friday injury report: Four ruled out, Christian Barmore questionable",
-            "link": "https://sports.yahoo.com/nfl/articles/patriots-vs-chargers-friday-injury-191511480.html",
+            "t": "2026-11-27T22:50:50Z",
+            "title": "Steelers boost playoff chances with Week 12 win over Broncos",
+            "link": "https://sports.yahoo.com/nfl/articles/steelers-boost-playoff-chances-week-225050929.html",
             "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-27T19:15:33Z",
-            "title": "Bears feared to lose another TE long-term as Colston Loveland looks for second opinion on knee injury",
-            "link": "https://www.cbssports.com/nfl/news/bears-te-colston-loveland-second-opinion-knee-injury-thanksgiving-win/",
-            "source": "www.cbssports.com",
-            "tone": -1
+            "tone": 1
           }
         ]
       },
@@ -3722,10 +3733,11 @@
             "emoji": "🦅",
             "title": "Sharp eye",
             "text": "Find a +3% edge that holds up against the market.",
-            "status": "judging",
+            "status": "done",
             "market": "totals",
             "target": 147,
-            "league": null
+            "league": null,
+            "detail": "1 bet beat the market."
           },
           {
             "day": "2026-11-24",
@@ -3776,8 +3788,8 @@
             "detail": "No bet there today."
           }
         ],
-        "done": 10,
-        "judged": 14,
+        "done": 11,
+        "judged": 15,
         "streak": 0
       },
       "traits": [
@@ -3789,7 +3801,7 @@
           "from": "Read and react",
           "since": "2026-11-21T17:45:33Z",
           "on": 0.0888,
-          "off": 0.0151,
+          "off": 0.0159,
           "bets": 2
         },
         {
@@ -3800,7 +3812,7 @@
           "from": "Study day",
           "since": "2026-11-22T17:45:32Z",
           "on": 0.0329,
-          "off": 0.0172,
+          "off": 0.0179,
           "bets": 1
         },
         {
@@ -3811,19 +3823,19 @@
           "from": "Discipline day",
           "since": "2026-11-27T17:01:06Z",
           "on": 0.0157,
-          "off": 0.0176,
+          "off": 0.0183,
           "bets": 4
         },
         {
-          "id": "new_ground",
-          "emoji": "🗺️",
-          "title": "Versatile",
-          "effect": "Keeps trying every bet type (+1 scout bet a day).",
-          "from": "New ground",
-          "since": "2026-11-28T00:00:57Z",
-          "on": 0.0299,
-          "off": 0.0198,
-          "bets": 7
+          "id": "underdog",
+          "emoji": "🐶",
+          "title": "Underdog lover",
+          "effect": "Allows underdogs at odds up to 1.0 higher.",
+          "from": "Underdog hunter",
+          "since": "2026-11-28T00:15:31Z",
+          "on": 0.0278,
+          "off": 0.0187,
+          "bets": 15
         }
       ],
       "mind": {
@@ -11629,30 +11641,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-27T22:30:46Z",
-      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-27T22:30:46Z",
-      "text": "Results:\n- Won +5.54: Draw (Winner) in Leganés vs Sabadell FC (Leganés 0 - 0 Sabadell FC)"
-    },
-    {
-      "t": "2026-11-27T22:45:32Z",
-      "text": "🧬 🦎 The Lizard made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-22 and its bets beat the market by +2.0%. Avoids odds above 3.5."
-    },
-    {
-      "t": "2026-11-27T22:45:32Z",
-      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
-    },
-    {
-      "t": "2026-11-27T22:45:32Z",
-      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
-    },
-    {
-      "t": "2026-11-27T22:45:32Z",
-      "text": "✅ 🧮 The Quant completed 🦅 Sharp eye: 1 bet beat the market."
-    },
-    {
       "t": "2026-11-27T22:45:32Z",
       "text": "Results:\n- Won +2.37: Under 2.5 (Total) in Brest vs Paris FC (Brest 1 - 0 Paris FC)\n- Lost -3.73: Paris FC (Winner) in Brest vs Paris FC (Brest 1 - 0 Paris FC)"
     },
@@ -11747,6 +11735,30 @@
     {
       "t": "2026-11-28T00:00:57Z",
       "text": "🎯 🦈 The Shark's challenge today: 🦅 Sharp eye. Find a +3% edge that holds up against the market."
+    },
+    {
+      "t": "2026-11-28T00:15:31Z",
+      "text": "🧬 🦎 The Lizard made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-22 and its bets beat the market by +2.0%. Avoids odds above 3.5."
+    },
+    {
+      "t": "2026-11-28T00:15:31Z",
+      "text": "🧬 🧮 The Quant dropped the 🦅 Sharp-eyed trait: it stopped working (+1.0% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-28T00:15:31Z",
+      "text": "🧬 🧮 The Quant made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-11 and its bets beat the market by +1.3%. Allows underdogs at odds up to 1.0 higher."
+    },
+    {
+      "t": "2026-11-28T00:15:31Z",
+      "text": "🧬 🦈 The Shark dropped the 🗺️ Versatile trait: it stopped working (+1.0% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-28T00:15:31Z",
+      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
+    },
+    {
+      "t": "2026-11-28T00:15:31Z",
+      "text": "✅ 🦈 The Shark completed 🦅 Sharp eye: 1 bet beat the market."
     }
   ]
 }
