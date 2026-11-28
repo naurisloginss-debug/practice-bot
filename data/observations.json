@@ -26441,7 +26441,10 @@
       "point": 2.25,
       "over": 0.5223
     },
-    "result": null
+    "result": [
+      2.0,
+      0.0
+    ]
   },
   "9beee8f80a22730b4f399165f8efe447": {
     "league": "soccer_italy_serie_b",
@@ -26457,7 +26460,10 @@
       "point": 2.5,
       "over": 0.4856
     },
-    "result": null
+    "result": [
+      3.0,
+      1.0
+    ]
   },
   "12cb6fab4268f2b1297b47835df4f7ee": {
     "league": "soccer_italy_serie_b",
@@ -26473,7 +26479,10 @@
       "point": 2.75,
       "over": 0.4727
     },
-    "result": null
+    "result": [
+      2.0,
+      2.0
+    ]
   },
   "95250c5fc5cc81a1d7831130f3976f81": {
     "league": "soccer_italy_serie_b",
@@ -30739,6 +30748,753 @@
     "tot": {
       "point": 155.0,
       "over": 0.5053
+    },
+    "result": null
+  },
+  "82c8572825c5b9eeb3009483c3fd03f5": {
+    "league": "soccer_england_league2",
+    "start": "2026-12-01T19:45:00Z",
+    "home": "Accrington Stanley",
+    "away": "Crewe Alexandra",
+    "h2h": {
+      "home": 0.4627,
+      "away": 0.2728,
+      "draw": 0.2644
+    },
+    "tot": {
+      "point": 2.5,
+      "over": 0.504
+    },
+    "result": null
+  },
+  "3a075967bef80a68a0eef9f48dc04911": {
+    "league": "soccer_england_league2",
+    "start": "2026-12-01T19:45:00Z",
+    "home": "Barnet",
+    "away": "Rotherham United",
+    "h2h": {
+      "home": 0.5934,
+      "away": 0.186,
+      "draw": 0.2206
+    },
+    "tot": {
+      "point": 3.0,
+      "over": 0.4789
+    },
+    "result": null
+  },
+  "cc38ec86f6ade355e753b02cea9db172": {
+    "league": "soccer_england_league2",
+    "start": "2026-12-01T19:45:00Z",
+    "home": "Oldham Athletic",
+    "away": "Bristol Rovers",
+    "h2h": {
+      "away": 0.3166,
+      "home": 0.4151,
+      "draw": 0.2684
+    },
+    "tot": {
+      "point": 2.5,
+      "over": 0.5146
+    },
+    "result": null
+  },
+  "fd4d90553f6b964bd24add9d0cf483fc": {
+    "league": "soccer_england_league2",
+    "start": "2026-12-01T19:45:00Z",
+    "home": "Cheltenham Town",
+    "away": "Rochdale",
+    "h2h": {
+      "home": 0.4392,
+      "away": 0.298,
+      "draw": 0.2628
+    },
+    "tot": {
+      "point": 2.75,
+      "over": 0.4867
+    },
+    "result": null
+  },
+  "54d87abea38a6f3f39c37a4a08a7c714": {
+    "league": "soccer_england_league2",
+    "start": "2026-12-01T19:45:00Z",
+    "home": "Chesterfield FC",
+    "away": "Exeter City",
+    "h2h": {
+      "home": 0.5831,
+      "away": 0.1851,
+      "draw": 0.2318
+    },
+    "tot": {
+      "point": 2.75,
+      "over": 0.4867
+    },
+    "result": null
+  },
+  "b02e50a2b42a908621fe036761fe4736": {
+    "league": "soccer_england_league2",
+    "start": "2026-12-01T19:45:00Z",
+    "home": "Grimsby Town",
+    "away": "Colchester United",
+    "h2h": {
+      "away": 0.2026,
+      "home": 0.5727,
+      "draw": 0.2247
+    },
+    "tot": {
+      "point": 3.0,
+      "over": 0.4787
+    },
+    "result": null
+  },
+  "3f5f0b80afbd5b57d895cb178d88ec65": {
+    "league": "soccer_england_league2",
+    "start": "2026-12-01T19:45:00Z",
+    "home": "Crawley Town",
+    "away": "Port Vale",
+    "h2h": {
+      "home": 0.2593,
+      "away": 0.4695,
+      "draw": 0.2712
+    },
+    "tot": {
+      "point": 2.5,
+      "over": 0.5132
+    },
+    "result": null
+  },
+  "65782fd722b1baa782b0a2a140d3a81a": {
+    "league": "soccer_england_league2",
+    "start": "2026-12-01T19:45:00Z",
+    "home": "Northampton Town",
+    "away": "Fleetwood Town",
+    "h2h": {
+      "away": 0.319,
+      "home": 0.3815,
+      "draw": 0.2996
+    },
+    "tot": {
+      "point": 2.25,
+      "over": 0.5133
+    },
+    "result": null
+  },
+  "ba01998fc658ddab9da1d3c01e60326c": {
+    "league": "soccer_england_league2",
+    "start": "2026-12-01T19:45:00Z",
+    "home": "Gillingham",
+    "away": "Swindon Town",
+    "h2h": {
+      "home": 0.4748,
+      "away": 0.2619,
+      "draw": 0.2633
+    },
+    "tot": {
+      "point": 2.75,
+      "over": 0.4974
+    },
+    "result": null
+  },
+  "5c43ff4dfe70b519055eabc226dfd804": {
+    "league": "soccer_england_league2",
+    "start": "2026-12-01T19:45:00Z",
+    "home": "Newport County",
+    "away": "Walsall",
+    "h2h": {
+      "home": 0.4065,
+      "away": 0.3309,
+      "draw": 0.2627
+    },
+    "tot": {
+      "point": 2.75,
+      "over": 0.4908
+    },
+    "result": null
+  },
+  "6741ad1c0ab1941445f9d1c5e6479b7c": {
+    "league": "soccer_england_league2",
+    "start": "2026-12-01T19:45:00Z",
+    "home": "Tranmere Rovers",
+    "away": "Salford City",
+    "h2h": {
+      "away": 0.4643,
+      "home": 0.2659,
+      "draw": 0.2697
+    },
+    "tot": {
+      "point": 2.5,
+      "over": 0.5146
+    },
+    "result": null
+  },
+  "34bdfd6bd6ee37f62b90e1798192958a": {
+    "league": "soccer_england_league2",
+    "start": "2026-12-01T19:45:00Z",
+    "home": "York City",
+    "away": "Shrewsbury Town",
+    "h2h": {
+      "away": 0.232,
+      "home": 0.5134,
+      "draw": 0.2546
+    },
+    "tot": {
+      "point": 2.5,
+      "over": 0.5224
+    },
+    "result": null
+  },
+  "f08bac26ee928c7128b32057a2191889": {
+    "league": "soccer_england_league1",
+    "start": "2026-12-01T19:00:00Z",
+    "home": "Leyton Orient",
+    "away": "Peterborough United",
+    "h2h": {
+      "home": 0.4367,
+      "away": 0.3068,
+      "draw": 0.2565
+    },
+    "tot": {
+      "point": 3.0,
+      "over": 0.5079
+    },
+    "result": null
+  },
+  "c4daed2587bbb2e08600e4686bbc8076": {
+    "league": "soccer_england_league1",
+    "start": "2026-12-01T19:45:00Z",
+    "home": "Barnsley",
+    "away": "Wycombe Wanderers",
+    "h2h": {
+      "home": 0.366,
+      "away": 0.3824,
+      "draw": 0.2515
+    },
+    "tot": {
+      "point": 3.0,
+      "over": 0.5172
+    },
+    "result": null
+  },
+  "2390dced50f37e65055392bb960ca3c6": {
+    "league": "soccer_england_league1",
+    "start": "2026-12-01T19:45:00Z",
+    "home": "Blackpool",
+    "away": "Luton",
+    "h2h": {
+      "home": 0.2183,
+      "away": 0.5561,
+      "draw": 0.2257
+    },
+    "tot": {
+      "point": 3.0,
+      "over": 0.5224
+    },
+    "result": null
+  },
+  "3eb1aa5b9a82cc16ac1067faea9bae79": {
+    "league": "soccer_england_league1",
+    "start": "2026-12-01T19:45:00Z",
+    "home": "Bradford City",
+    "away": "Milton Keynes Dons",
+    "h2h": {
+      "home": 0.4584,
+      "away": 0.2858,
+      "draw": 0.2558
+    },
+    "tot": {
+      "point": 2.75,
+      "over": 0.4804
+    },
+    "result": null
+  },
+  "087f3b9ef4f372728e553efafc33441a": {
+    "league": "soccer_england_league1",
+    "start": "2026-12-01T19:45:00Z",
+    "home": "Plymouth Argyle",
+    "away": "Bromley FC",
+    "h2h": {
+      "away": 0.14,
+      "home": 0.6757,
+      "draw": 0.1843
+    },
+    "tot": {
+      "point": 3.25,
+      "over": 0.4868
+    },
+    "result": null
+  },
+  "537a1d43436d5b508b150efa2b8ad9f0": {
+    "league": "soccer_england_league1",
+    "start": "2026-12-01T19:45:00Z",
+    "home": "Burton Albion",
+    "away": "Wigan Athletic",
+    "h2h": {
+      "home": 0.3319,
+      "away": 0.4109,
+      "draw": 0.2572
+    },
+    "tot": {
+      "point": 2.75,
+      "over": 0.5052
+    },
+    "result": null
+  },
+  "dce2948d4cca3408830a71f28ec030c6": {
+    "league": "soccer_england_league1",
+    "start": "2026-12-01T19:45:00Z",
+    "home": "Cambridge United",
+    "away": "Leicester City",
+    "h2h": {
+      "home": 0.2911,
+      "away": 0.4675,
+      "draw": 0.2415
+    },
+    "tot": {
+      "point": 3.0,
+      "over": 0.5
+    },
+    "result": null
+  },
+  "92ed81d5b4c229343fc4928f7cbb6f14": {
+    "league": "soccer_england_league1",
+    "start": "2026-12-01T19:45:00Z",
+    "home": "Huddersfield Town",
+    "away": "Stevenage",
+    "h2h": {
+      "home": 0.6182,
+      "away": 0.1579,
+      "draw": 0.2239
+    },
+    "tot": {
+      "point": 2.75,
+      "over": 0.4723
+    },
+    "result": null
+  },
+  "86aa700473565e8c6b206f34a052c449": {
+    "league": "soccer_england_league1",
+    "start": "2026-12-01T19:45:00Z",
+    "home": "Mansfield Town",
+    "away": "Stockport County FC",
+    "h2h": {
+      "home": 0.221,
+      "away": 0.5355,
+      "draw": 0.2434
+    },
+    "tot": {
+      "point": 2.75,
+      "over": 0.5079
+    },
+    "result": null
+  },
+  "7a23dd8e8fb8246f69820cf2252389fc": {
+    "league": "soccer_england_league1",
+    "start": "2026-12-01T19:45:00Z",
+    "home": "Notts County",
+    "away": "Wimbledon",
+    "h2h": {
+      "home": 0.5761,
+      "away": 0.1842,
+      "draw": 0.2398
+    },
+    "tot": {
+      "point": 2.5,
+      "over": 0.5144
+    },
+    "result": null
+  },
+  "9379f589cf57c593cd79de676f5a0b20": {
+    "league": "soccer_england_league1",
+    "start": "2026-12-01T19:45:00Z",
+    "home": "Oxford United",
+    "away": "Sheffield Wednesday",
+    "h2h": {
+      "home": 0.4355,
+      "away": 0.3054,
+      "draw": 0.2591
+    },
+    "tot": {
+      "point": 3.0,
+      "over": 0.4684
+    },
+    "result": null
+  },
+  "f1a55e4fb84064b507658b86ddd6c060": {
+    "league": "soccer_england_league1",
+    "start": "2026-12-01T20:00:00Z",
+    "home": "Reading",
+    "away": "Doncaster Rovers",
+    "h2h": {
+      "away": 0.2006,
+      "home": 0.5769,
+      "draw": 0.2225
+    },
+    "tot": {
+      "point": 3.0,
+      "over": 0.5106
+    },
+    "result": null
+  },
+  "fb41bc142de3b6171acb38e45dbc19cc": {
+    "league": "basketball_ncaab",
+    "start": "2026-11-28T18:30:00Z",
+    "home": "Pepperdine Waves",
+    "away": "Lehigh Mountain Hawks",
+    "h2h": {
+      "away": 0.1815,
+      "home": 0.8185
+    },
+    "tot": {
+      "point": 146.5,
+      "over": 0.4869
+    },
+    "result": null
+  },
+  "8b06f4d875045427bb05d25baca8f79a": {
+    "league": "basketball_ncaab",
+    "start": "2026-11-28T19:00:00Z",
+    "home": "Bradley Braves",
+    "away": "Chicago St Cougars",
+    "h2h": {
+      "home": 0.8911,
+      "away": 0.1089
+    },
+    "tot": {
+      "point": 130.0,
+      "over": 0.4948
+    },
+    "result": null
+  },
+  "32f080171c0ab9a3f7fff73b3e48473b": {
+    "league": "basketball_ncaab",
+    "start": "2026-11-28T19:00:00Z",
+    "home": "Navy Midshipmen",
+    "away": "Central Connecticut St Blue Devils",
+    "h2h": {
+      "away": 0.4883,
+      "home": 0.5117
+    },
+    "tot": {
+      "point": 127.5,
+      "over": 0.4921
+    },
+    "result": null
+  },
+  "d1b2e22fe4fa54fcd8ac9966b38cf884": {
+    "league": "basketball_ncaab",
+    "start": "2026-11-28T19:00:00Z",
+    "home": "Columbia Lions",
+    "away": "North Florida Ospreys",
+    "h2h": {
+      "home": 0.8856,
+      "away": 0.1144
+    },
+    "tot": {
+      "point": 155.5,
+      "over": 0.4948
+    },
+    "result": null
+  },
+  "33764207c3ac183b765322d034ca676f": {
+    "league": "basketball_ncaab",
+    "start": "2026-11-28T19:00:00Z",
+    "home": "North Carolina A&T Aggies",
+    "away": "Delaware St Hornets",
+    "h2h": {
+      "away": 0.1786,
+      "home": 0.8214
+    },
+    "tot": {
+      "point": 141.0,
+      "over": 0.5079
+    },
+    "result": null
+  },
+  "a4bba989a865bb1cae29196209ac44ee": {
+    "league": "basketball_ncaab",
+    "start": "2026-11-28T19:00:00Z",
+    "home": "Marshall Thundering Herd",
+    "away": "East Texas A&M Lions",
+    "h2h": {
+      "away": 0.261,
+      "home": 0.739
+    },
+    "tot": {
+      "point": 146.0,
+      "over": 0.4882
+    },
+    "result": null
+  },
+  "c0ab01a46447717304775d584243fa10": {
+    "league": "basketball_ncaab",
+    "start": "2026-11-28T19:00:00Z",
+    "home": "UNC Asheville Bulldogs",
+    "away": "Georgia Southern Eagles",
+    "h2h": {
+      "away": 0.5564,
+      "home": 0.4436
+    },
+    "tot": {
+      "point": 157.0,
+      "over": 0.5066
+    },
+    "result": null
+  },
+  "888b36820cccba73b0fffe14653301b8": {
+    "league": "basketball_ncaab",
+    "start": "2026-11-28T19:00:00Z",
+    "home": "High Point Panthers",
+    "away": "The Citadel Bulldogs",
+    "h2h": null,
+    "tot": {
+      "point": 143.0,
+      "over": 0.5026
+    },
+    "result": null
+  },
+  "01b42eb6b1e23ee85c7d97b0c211ef15": {
+    "league": "basketball_ncaab",
+    "start": "2026-11-28T19:00:00Z",
+    "home": "Iowa Hawkeyes",
+    "away": "Prairie View Panthers",
+    "h2h": null,
+    "tot": {
+      "point": 138.0,
+      "over": 0.4921
+    },
+    "result": null
+  },
+  "970ac6b6a3844cdfce7fc20d35cae505": {
+    "league": "basketball_ncaab",
+    "start": "2026-11-28T19:00:00Z",
+    "home": "Niagara Purple Eagles",
+    "away": "Le Moyne Dolphins",
+    "h2h": {
+      "away": 0.5013,
+      "home": 0.4987
+    },
+    "tot": {
+      "point": 145.5,
+      "over": 0.5026
+    },
+    "result": null
+  },
+  "ba8475c27efc1d5f07fcfbec8d5196b4": {
+    "league": "basketball_ncaab",
+    "start": "2026-11-28T19:00:00Z",
+    "home": "Morgan St Bears",
+    "away": "Manhattan Jaspers",
+    "h2h": {
+      "away": 0.4311,
+      "home": 0.5689
+    },
+    "tot": {
+      "point": 150.0,
+      "over": 0.4804
+    },
+    "result": null
+  },
+  "100c03d3d8e1f7448dc08e8564c5241e": {
+    "league": "basketball_ncaab",
+    "start": "2026-11-28T19:00:00Z",
+    "home": "Presbyterian Blue Hose",
+    "away": "Sacramento St Hornets",
+    "h2h": {
+      "home": 0.5652,
+      "away": 0.4348
+    },
+    "tot": {
+      "point": 156.0,
+      "over": 0.4817
+    },
+    "result": null
+  },
+  "4497a970cf3525016679fe0da54f4cb2": {
+    "league": "basketball_ncaab",
+    "start": "2026-11-28T20:00:00Z",
+    "home": "UNLV Rebels",
+    "away": "UT Rio Grande Valley Vaqueros",
+    "h2h": {
+      "home": 0.8168,
+      "away": 0.1832
+    },
+    "tot": {
+      "point": 150.5,
+      "over": 0.4948
+    },
+    "result": null
+  },
+  "f74785461a18d105d8e622152c252eab": {
+    "league": "basketball_ncaab",
+    "start": "2026-11-28T21:00:00Z",
+    "home": "American Eagles",
+    "away": "UMass Lowell River Hawks",
+    "h2h": {
+      "home": 0.6064,
+      "away": 0.3936
+    },
+    "tot": {
+      "point": 142.5,
+      "over": 0.5079
+    },
+    "result": null
+  },
+  "b67c7733383d387fde5dd64dc6b02c40": {
+    "league": "basketball_ncaab",
+    "start": "2026-11-28T21:00:00Z",
+    "home": "Mt. St. Mary's Mountaineers",
+    "away": "Drexel Dragons",
+    "h2h": {
+      "away": 0.6597,
+      "home": 0.3403
+    },
+    "tot": {
+      "point": 137.0,
+      "over": 0.4974
+    },
+    "result": null
+  },
+  "6231380814e9d3b84baa3b09e4a37e91": {
+    "league": "basketball_ncaab",
+    "start": "2026-11-28T21:00:00Z",
+    "home": "Louisiana Ragin' Cajuns",
+    "away": "McNeese Cowboys",
+    "h2h": {
+      "home": 0.2485,
+      "away": 0.7515
+    },
+    "tot": {
+      "point": 136.5,
+      "over": 0.4948
+    },
+    "result": null
+  },
+  "dd45674c89ad47b8eecdc9790b42a5b5": {
+    "league": "basketball_ncaab",
+    "start": "2026-11-28T21:00:00Z",
+    "home": "San Diego Toreros",
+    "away": "N Colorado Bears",
+    "h2h": {
+      "away": 0.114,
+      "home": 0.886
+    },
+    "tot": {
+      "point": 146.5,
+      "over": 0.5105
+    },
+    "result": null
+  },
+  "afe9b977319660e9f1e02a017df59625": {
+    "league": "basketball_ncaab",
+    "start": "2026-11-28T21:30:00Z",
+    "home": "Lafayette Leopards",
+    "away": "Maine Black Bears",
+    "h2h": {
+      "home": 0.7229,
+      "away": 0.2771
+    },
+    "tot": {
+      "point": 134.0,
+      "over": 0.5026
+    },
+    "result": null
+  },
+  "c70f9b950cddeb76de0d3c88022fc5b6": {
+    "league": "basketball_ncaab",
+    "start": "2026-11-28T23:00:00Z",
+    "home": "Pennsylvania Quakers",
+    "away": "Bucknell Bison",
+    "h2h": {
+      "away": 0.1074,
+      "home": 0.8926
+    },
+    "tot": {
+      "point": 147.0,
+      "over": 0.4934
+    },
+    "result": null
+  },
+  "72a6c6f2d7b437d489d489b8850db58a": {
+    "league": "basketball_ncaab",
+    "start": "2026-11-29T00:00:00Z",
+    "home": "San Francisco Dons",
+    "away": "Bethune-Cookman Wildcats",
+    "h2h": {
+      "away": 0.1922,
+      "home": 0.8078
+    },
+    "tot": {
+      "point": 147.5,
+      "over": 0.5026
+    },
+    "result": null
+  },
+  "0621e218a662075859e747c4fa500e6b": {
+    "league": "basketball_ncaab",
+    "start": "2026-11-29T00:00:00Z",
+    "home": "Morehead St Eagles",
+    "away": "Charleston Southern Buccaneers",
+    "h2h": {
+      "away": 0.5501,
+      "home": 0.4499
+    },
+    "tot": {
+      "point": 150.5,
+      "over": 0.4908
+    },
+    "result": null
+  },
+  "23fa84767409d0b0926e13fc1acf4c8d": {
+    "league": "basketball_ncaab",
+    "start": "2026-11-29T00:00:00Z",
+    "home": "Monmouth Hawks",
+    "away": "Saint Joseph's Hawks",
+    "h2h": {
+      "home": 0.3621,
+      "away": 0.6379
+    },
+    "tot": {
+      "point": 148.5,
+      "over": 0.4856
+    },
+    "result": null
+  },
+  "89d7f45fe31e4356f1089f7590e2f644": {
+    "league": "basketball_ncaab",
+    "start": "2026-11-29T00:30:00Z",
+    "home": "Duquesne Dukes",
+    "away": "South Carolina St Bulldogs",
+    "h2h": null,
+    "tot": {
+      "point": 141.5,
+      "over": 0.4895
+    },
+    "result": null
+  },
+  "ec961e773c72348f784ad65dd8fd83a3": {
+    "league": "basketball_ncaab",
+    "start": "2026-11-29T01:00:00Z",
+    "home": "Notre Dame Fighting Irish",
+    "away": "Stonehill Skyhawks",
+    "h2h": null,
+    "tot": {
+      "point": 148.0,
+      "over": 0.5066
+    },
+    "result": null
+  },
+  "c12532f69cb63c9a2e000c7d4d4575b6": {
+    "league": "basketball_ncaab",
+    "start": "2026-11-29T03:30:00Z",
+    "home": "Louisville Cardinals",
+    "away": "Creighton Bluejays",
+    "h2h": {
+      "away": 0.3183,
+      "home": 0.6817
+    },
+    "tot": {
+      "point": 158.5,
+      "over": 0.5052
     },
     "result": null
   }
