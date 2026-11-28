@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-28T17:15:34Z",
+  "updated": "2026-11-28T17:30:47Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -470,12 +470,12 @@
           {
             "text": "Bets checked against the market",
             "target": 54,
-            "now": 25
+            "now": 27
           },
           {
             "text": "Beat the market on",
             "target": 55,
-            "now": 60,
+            "now": 59,
             "unit": "%",
             "pending": false
           }
@@ -515,14 +515,14 @@
         {
           "who": "shark",
           "eligible": true,
-          "measured": 44,
+          "measured": 46,
           "need": 0,
-          "clv": 0.0301,
-          "cautious": 0.0196,
-          "beat": 0.7045,
+          "clv": 0.03,
+          "cautious": 0.0198,
+          "beat": 0.6957,
           "challenges": 0.733,
           "traits": 4,
-          "score": 35.39
+          "score": 35.36
         },
         {
           "who": "lizard",
@@ -545,7 +545,7 @@
       "leader": "quant"
     }
   },
-  "credits_left": 15702,
+  "credits_left": 15699,
   "last_scan": "2026-11-28@17",
   "strategies": {
     "lizard": {
@@ -590,7 +590,7 @@
         "Total"
       ],
       "start_fund": 500,
-      "fund": 486.95,
+      "fund": 485.85,
       "lessons": [
         {
           "kind": "avoid",
@@ -609,12 +609,12 @@
         }
       ],
       "bets": 175,
-      "open": 48,
-      "won": 40,
-      "lost": 87,
-      "staked": 420.19,
-      "profit": -13.05,
-      "roi": -0.0311,
+      "open": 44,
+      "won": 41,
+      "lost": 90,
+      "staked": 429.76,
+      "profit": -14.15,
+      "roi": -0.0329,
       "avg_edge": 0.0318,
       "avg_clv": 0.0097,
       "beat_close": 0.6268,
@@ -1131,14 +1131,30 @@
         {
           "t": "2026-11-28T17:00:58Z",
           "fund": 486.95
+        },
+        {
+          "t": "2026-11-28T17:30:47Z",
+          "fund": 494.29
+        },
+        {
+          "t": "2026-11-28T17:30:47Z",
+          "fund": 489.38
+        },
+        {
+          "t": "2026-11-28T17:30:47Z",
+          "fund": 488.2
+        },
+        {
+          "t": "2026-11-28T17:30:47Z",
+          "fund": 485.85
         }
       ],
       "by_league": [
         {
           "name": "Bundesliga - Germany",
           "bets": 6,
-          "profit": 0,
-          "roi": null,
+          "profit": -1.1,
+          "roi": -0.1149,
           "avg_clv": 0.114,
           "beat_close": 1.0,
           "clv_count": 4
@@ -1274,8 +1290,8 @@
         {
           "name": "Total",
           "bets": 28,
-          "profit": 30.12,
-          "roi": 0.4118,
+          "profit": 27.77,
+          "roi": 0.3678,
           "avg_clv": 0.0204,
           "beat_close": 0.8125,
           "clv_count": 16
@@ -1283,8 +1299,8 @@
         {
           "name": "Winner",
           "bets": 139,
-          "profit": -30.55,
-          "roi": -0.0964,
+          "profit": -29.3,
+          "roi": -0.0904,
           "avg_clv": 0.0074,
           "beat_close": 0.5902,
           "clv_count": 122
@@ -1294,8 +1310,8 @@
         {
           "name": "Football",
           "bets": 175,
-          "profit": -13.05,
-          "roi": -0.0311,
+          "profit": -14.15,
+          "roi": -0.0329,
           "avg_clv": 0.0097,
           "beat_close": 0.6268,
           "clv_count": 142
@@ -1314,10 +1330,10 @@
       },
       "wild": {
         "bets": 14,
-        "won": 0,
-        "lost": 10,
-        "profit": -12.27,
-        "best": null,
+        "won": 1,
+        "lost": 11,
+        "profit": -6.11,
+        "best": 7.5,
         "avg_clv": 0.0311,
         "appetite": 0.45
       },
@@ -1828,7 +1844,7 @@
         ],
         "rules": 0,
         "studied": 398,
-        "resolved": 288
+        "resolved": 292
       }
     },
     "quant": {
@@ -2942,15 +2958,15 @@
           "bets": 16
         },
         {
-          "id": "discipline",
-          "emoji": "🧘",
-          "title": "Disciplined",
-          "effect": "Avoids odds above 3.5.",
-          "from": "Discipline day",
-          "since": "2026-11-28T17:15:34Z",
-          "on": 0.0391,
+          "id": "sharp_eye",
+          "emoji": "🦅",
+          "title": "Sharp-eyed",
+          "effect": "Bets 15% more when the edge is +3% or bigger.",
+          "from": "Sharp eye",
+          "since": "2026-11-28T17:30:47Z",
+          "on": 0.0399,
           "off": 0.0238,
-          "bets": 3
+          "bets": 11
         }
       ],
       "mind": {
@@ -3129,7 +3145,7 @@
         "min_edge": 0.015,
         "odds": [
           1.6,
-          3.5
+          5.0
         ],
         "stop_below": 250
       },
@@ -3153,12 +3169,12 @@
         {
           "kind": "favour",
           "text": "Backing harder: all leagues · winner · middle odds",
-          "detail": "+1.8% vs the market, beat it on 70% of 27 bets"
+          "detail": "+1.8% vs the market, beat it on 69% of 29 bets"
         },
         {
           "kind": "favour",
           "text": "Backing harder: College football (US) · winner",
-          "detail": "+2.8% vs the market, beat it on 68% of 40 bets"
+          "detail": "+2.8% vs the market, beat it on 67% of 42 bets"
         }
       ],
       "bets": 164,
@@ -3169,9 +3185,9 @@
       "profit": -27.35,
       "roi": -0.0796,
       "avg_edge": 0.0315,
-      "avg_clv": 0.0159,
-      "beat_close": 0.5631,
-      "clv_count": 103,
+      "avg_clv": 0.0161,
+      "beat_close": 0.5619,
+      "clv_count": 105,
       "history": [
         {
           "t": "2026-11-07T16:00:52Z",
@@ -3654,9 +3670,9 @@
           "bets": 111,
           "profit": -66.15,
           "roi": -0.2981,
-          "avg_clv": 0.0152,
-          "beat_close": 0.5915,
-          "clv_count": 71
+          "avg_clv": 0.0155,
+          "beat_close": 0.589,
+          "clv_count": 73
         }
       ],
       "by_market": [
@@ -3665,9 +3681,9 @@
           "bets": 126,
           "profit": -8.38,
           "roi": -0.0333,
-          "avg_clv": 0.0182,
-          "beat_close": 0.5843,
-          "clv_count": 89
+          "avg_clv": 0.0185,
+          "beat_close": 0.5824,
+          "clv_count": 91
         },
         {
           "name": "Spread",
@@ -3694,9 +3710,9 @@
           "bets": 164,
           "profit": -27.35,
           "roi": -0.0796,
-          "avg_clv": 0.0159,
-          "beat_close": 0.5631,
-          "clv_count": 103
+          "avg_clv": 0.0161,
+          "beat_close": 0.5619,
+          "clv_count": 105
         }
       ],
       "gut": {
@@ -3827,9 +3843,9 @@
         "badge": "⚡",
         "stake": 1.15,
         "perk": "Stakes +15%. Consistently beats the market.",
-        "measured": 44,
-        "clv": 0.0301,
-        "beat": 0.7045,
+        "measured": 46,
+        "clv": 0.03,
+        "beat": 0.6957,
         "cold": false,
         "next": {
           "title": "Mastermind",
@@ -3839,7 +3855,7 @@
             {
               "text": "100 measured bets",
               "done": false,
-              "now": "44"
+              "now": "46"
             },
             {
               "text": "beat the market on 57%+",
@@ -3852,7 +3868,7 @@
               "now": "+3.0%"
             }
           ],
-          "progress": 0.44
+          "progress": 0.46
         }
       },
       "explorer": {
@@ -4015,15 +4031,15 @@
           "bets": 22
         },
         {
-          "id": "discipline",
-          "emoji": "🧘",
-          "title": "Disciplined",
-          "effect": "Avoids odds above 3.5.",
-          "from": "Discipline day",
-          "since": "2026-11-28T17:15:34Z",
-          "on": 0.0106,
-          "off": 0.0169,
-          "bets": 7
+          "id": "new_ground",
+          "emoji": "🗺️",
+          "title": "Versatile",
+          "effect": "Keeps trying every bet type (+1 scout bet a day).",
+          "from": "New ground",
+          "since": "2026-11-28T17:30:47Z",
+          "on": 0.0339,
+          "off": 0.0174,
+          "bets": 8
         }
       ],
       "mind": {
@@ -4162,10 +4178,10 @@
           },
           {
             "conf": "solid",
-            "n": 68,
+            "n": 70,
             "z": 0,
             "text": "When I find value, the market moves my way before kick-off 59% of the time.",
-            "detail": "68 bets measured"
+            "detail": "70 bets measured"
           }
         ],
         "rules": 0,
@@ -7336,8 +7352,8 @@
       "edge": 0.0369,
       "stake": 7.56,
       "status": "open",
-      "closing_fair_odds": null,
-      "clv": null,
+      "closing_fair_odds": 3.338,
+      "clv": -0.0399,
       "profit": 0.0,
       "score": null,
       "settled_at": null,
@@ -7375,8 +7391,8 @@
       "edge": 0.0403,
       "stake": 8.87,
       "status": "open",
-      "closing_fair_odds": null,
-      "clv": null,
+      "closing_fair_odds": 2.783,
+      "clv": 0.096,
       "profit": 0.0,
       "score": null,
       "settled_at": null,
@@ -8326,12 +8342,12 @@
       "fair_odds": 7.529,
       "edge": -0.0038,
       "stake": 1.13,
-      "status": "open",
+      "status": "won",
       "closing_fair_odds": 5.866,
       "clv": 0.2786,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": 7.34,
+      "score": "Hamburger SV 0 - 0 Bayern Munich",
+      "settled_at": "2026-11-28T17:30:47Z",
       "thoughts": [
         "Wild one: Draw at 7.50. The market gives it 13%.",
         "Patience is a weapon, but even lizards sunbathe on a crazy rock now and then.",
@@ -8363,12 +8379,12 @@
       "fair_odds": 2.833,
       "edge": 0.0413,
       "stake": 4.91,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 2.637,
       "clv": 0.1189,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -4.91,
+      "score": "SC Paderborn 8 - 1 FC Schalke 04",
+      "settled_at": "2026-11-28T17:30:47Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates FC Schalke 04 at 35.3%. That makes the fair price 2.83.",
         "Unibet (SE) pays 2.95. That is +4.1% above fair. My bar is +2.0%.",
@@ -8401,12 +8417,12 @@
       "fair_odds": 6.615,
       "edge": 0.0401,
       "stake": 1.18,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 6.546,
       "clv": 0.051,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -1.18,
+      "score": "FSV Mainz 05 2 - 1 Union Berlin",
+      "settled_at": "2026-11-28T17:30:47Z",
       "thoughts": [
         "Wild one: Union Berlin at 7.00. The market gives it 15%.",
         "Feeling sharp after beating the market 3 times in a row.",
@@ -8439,12 +8455,12 @@
       "fair_odds": 1.876,
       "edge": 0.0077,
       "stake": 2.35,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 1.876,
       "clv": 0.0077,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -2.35,
+      "score": "1. FC Köln 5 - 0 Elversberg",
+      "settled_at": "2026-11-28T17:30:47Z",
       "thoughts": [
         "🧭 Exploring. I've only made 0 bets like this (Bundesliga - Germany total bets at favourites).",
         "Under 3 at 1.89 is +0.77% above fair: below my usual bar, but the only way to learn if this kind of bet works for me is to try it.",
@@ -11874,26 +11890,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-28T15:30:56Z",
-      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-28T15:30:56Z",
-      "text": "🧬 🦈 The Shark made New ground part of its character: 🗺️ Versatile. It completed the challenge on 2026-11-24 and its bets beat the market by +3.4%. Keeps trying every bet type (+1 scout bet a day)."
-    },
-    {
-      "t": "2026-11-28T15:30:56Z",
-      "text": "Results:\n- Won +16.10: Under 2.5 (Total) in Exeter City vs Crawley Town (Exeter City 0 - 0 Crawley Town)\n- Lost -7.92: Under 2.5 (Total) in Bristol Rovers vs Tranmere Rovers (Bristol Rovers 1 - 3 Tranmere Rovers)\n- Lost -4.32: Charlton Athletic (Winner) in Blackburn Rovers vs Charlton Athletic (Blackburn Rovers 1 - 0 Charlton Athletic)\n- Lost -1.18: Preston North End (Winner) in Preston North End vs Norwich City (Preston North End 1 - 1 Norwich City)\n- Won +18.22: Cambridge United (Winner) in Peterborough United vs Cambridge United (Peterborough United 1 - 2 Cambridge United)\n- Won +8.99: Cambridge United +0.25 (Spread) in Peterborough United vs Cambridge United (Peterborough United 1 - 2 Cambridge United)"
-    },
-    {
-      "t": "2026-11-28T15:45:33Z",
-      "text": "🧬 🧮 The Quant dropped the 🦅 Sharp-eyed trait: it stopped working (+1.7% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-28T15:45:33Z",
-      "text": "🧬 🧮 The Quant made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-11 and its bets beat the market by +1.3%. Allows underdogs at odds up to 1.0 higher."
-    },
-    {
       "t": "2026-11-28T15:45:33Z",
       "text": "🧬 🦈 The Shark dropped the 🗺️ Versatile trait: it stopped working (+1.0% vs the market on those days)."
     },
@@ -11992,6 +11988,26 @@
     {
       "t": "2026-11-28T17:15:34Z",
       "text": "🏁 🧮 The Quant now leads the race to go live (6 days to selection)."
+    },
+    {
+      "t": "2026-11-28T17:30:47Z",
+      "text": "🧬 🧮 The Quant dropped the 🧘 Disciplined trait: it stopped working (+1.3% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-28T17:30:47Z",
+      "text": "🧬 🧮 The Quant made Sharp eye part of its character: 🦅 Sharp-eyed. It completed the challenge on 2026-11-27 and its bets beat the market by +4.0%. Bets 15% more when the edge is +3% or bigger."
+    },
+    {
+      "t": "2026-11-28T17:30:47Z",
+      "text": "🧬 🦈 The Shark dropped the 🧘 Disciplined trait: it stopped working (+1.1% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-28T17:30:47Z",
+      "text": "🧬 🦈 The Shark made New ground part of its character: 🗺️ Versatile. It completed the challenge on 2026-11-24 and its bets beat the market by +3.4%. Keeps trying every bet type (+1 scout bet a day)."
+    },
+    {
+      "t": "2026-11-28T17:30:47Z",
+      "text": "Results:\n- Won +7.34: Draw (Winner) in Hamburger SV vs Bayern Munich (Hamburger SV 0 - 0 Bayern Munich)\n- Lost -4.91: FC Schalke 04 (Winner) in SC Paderborn vs FC Schalke 04 (SC Paderborn 8 - 1 FC Schalke 04)\n- Lost -1.18: Union Berlin (Winner) in FSV Mainz 05 vs Union Berlin (FSV Mainz 05 2 - 1 Union Berlin)\n- Lost -2.35: Under 3 (Total) in 1. FC Köln vs Elversberg (1. FC Köln 5 - 0 Elversberg)"
     }
   ]
 }
