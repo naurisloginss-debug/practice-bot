@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-28T17:30:47Z",
+  "updated": "2026-11-28T17:45:34Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -9,22 +9,22 @@
   "arena": {
     "ranking": [
       "quant",
-      "lizard",
-      "shark"
+      "shark",
+      "lizard"
     ],
     "grower": "lizard",
     "talk": [
       {
         "who": "quant",
-        "text": "The data put me first. The Lizard, check your model. The data says I'm the one going live. 6 days to prove it."
-      },
-      {
-        "who": "lizard",
-        "text": "The Quant can enjoy the view. I'm patient, and I'm coming. Only one of us goes live in 6 days. I'll be the one still standing."
+        "text": "The data put me first. The Shark, check your model. The data says I'm the one going live. 6 days to prove it."
       },
       {
         "who": "shark",
         "text": "I smell The Quant's lead from here. Closing in. Only one of us gets real money, in 6 days. And I'm hungry."
+      },
+      {
+        "who": "lizard",
+        "text": "The Quant can enjoy the view. I'm patient, and I'm coming. Only one of us goes live in 6 days. I'll be the one still standing."
       }
     ],
     "chars": {
@@ -480,7 +480,7 @@
             "pending": false
           }
         ],
-        "score": 214,
+        "score": 217,
         "trophies": [
           {
             "kind": "sharpshooter",
@@ -520,9 +520,9 @@
           "clv": 0.03,
           "cautious": 0.0198,
           "beat": 0.6957,
-          "challenges": 0.733,
-          "traits": 4,
-          "score": 35.36
+          "challenges": 0.75,
+          "traits": 3,
+          "score": 33.44
         },
         {
           "who": "lizard",
@@ -1862,7 +1862,7 @@
         "min_edge": 0.02,
         "odds": [
           1.6,
-          3.5
+          4.5
         ],
         "stop_below": 250
       },
@@ -2958,15 +2958,15 @@
           "bets": 16
         },
         {
-          "id": "sharp_eye",
-          "emoji": "🦅",
-          "title": "Sharp-eyed",
-          "effect": "Bets 15% more when the edge is +3% or bigger.",
-          "from": "Sharp eye",
-          "since": "2026-11-28T17:30:47Z",
-          "on": 0.0399,
+          "id": "underdog",
+          "emoji": "🐶",
+          "title": "Underdog lover",
+          "effect": "Allows underdogs at odds up to 1.0 higher.",
+          "from": "Underdog hunter",
+          "since": "2026-11-28T17:45:34Z",
+          "on": 0.0135,
           "off": 0.0238,
-          "bets": 11
+          "bets": 10
         }
       ],
       "mind": {
@@ -3890,10 +3890,11 @@
           "emoji": "🦅",
           "title": "Sharp eye",
           "text": "Find a +3% edge that holds up against the market.",
-          "status": "active",
+          "status": "done",
           "market": "totals",
           "target": 200,
-          "league": null
+          "league": null,
+          "detail": "1 bet beat the market."
         },
         "recent": [
           {
@@ -3902,10 +3903,11 @@
             "emoji": "🦅",
             "title": "Sharp eye",
             "text": "Find a +3% edge that holds up against the market.",
-            "status": "active",
+            "status": "done",
             "market": "totals",
             "target": 200,
-            "league": null
+            "league": null,
+            "detail": "1 bet beat the market."
           },
           {
             "day": "2026-11-27",
@@ -3992,9 +3994,9 @@
             "detail": "No bet there today."
           }
         ],
-        "done": 11,
-        "judged": 15,
-        "streak": 0
+        "done": 12,
+        "judged": 16,
+        "streak": 1
       },
       "traits": [
         {
@@ -4005,7 +4007,7 @@
           "from": "Read and react",
           "since": "2026-11-21T17:45:33Z",
           "on": 0.0888,
-          "off": 0.0141,
+          "off": 0.0145,
           "bets": 2
         },
         {
@@ -4016,7 +4018,7 @@
           "from": "Study day",
           "since": "2026-11-22T17:45:32Z",
           "on": 0.0329,
-          "off": 0.016,
+          "off": 0.0164,
           "bets": 1
         },
         {
@@ -4027,19 +4029,8 @@
           "from": "Underdog hunter",
           "since": "2026-11-28T16:45:32Z",
           "on": 0.0172,
-          "off": 0.0158,
+          "off": 0.0163,
           "bets": 22
-        },
-        {
-          "id": "new_ground",
-          "emoji": "🗺️",
-          "title": "Versatile",
-          "effect": "Keeps trying every bet type (+1 scout bet a day).",
-          "from": "New ground",
-          "since": "2026-11-28T17:30:47Z",
-          "on": 0.0339,
-          "off": 0.0174,
-          "bets": 8
         }
       ],
       "mind": {
@@ -11890,22 +11881,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-28T15:45:33Z",
-      "text": "🧬 🦈 The Shark dropped the 🗺️ Versatile trait: it stopped working (+1.0% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-28T15:45:33Z",
-      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
-    },
-    {
-      "t": "2026-11-28T16:00:56Z",
-      "text": "🧬 🧮 The Quant dropped the 🐶 Underdog lover trait: it stopped working (+1.6% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-28T16:00:56Z",
-      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
-    },
-    {
       "t": "2026-11-28T16:00:56Z",
       "text": "Results:\n- Won +2.73: Las Palmas (Winner) in Las Palmas vs Andorra CF (Las Palmas 4 - 1 Andorra CF)"
     },
@@ -12008,6 +11983,22 @@
     {
       "t": "2026-11-28T17:30:47Z",
       "text": "Results:\n- Won +7.34: Draw (Winner) in Hamburger SV vs Bayern Munich (Hamburger SV 0 - 0 Bayern Munich)\n- Lost -4.91: FC Schalke 04 (Winner) in SC Paderborn vs FC Schalke 04 (SC Paderborn 8 - 1 FC Schalke 04)\n- Lost -1.18: Union Berlin (Winner) in FSV Mainz 05 vs Union Berlin (FSV Mainz 05 2 - 1 Union Berlin)\n- Lost -2.35: Under 3 (Total) in 1. FC Köln vs Elversberg (1. FC Köln 5 - 0 Elversberg)"
+    },
+    {
+      "t": "2026-11-28T17:45:34Z",
+      "text": "🧬 🧮 The Quant dropped the 🦅 Sharp-eyed trait: it stopped working (+1.7% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-28T17:45:34Z",
+      "text": "🧬 🧮 The Quant made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-11 and its bets beat the market by +1.3%. Allows underdogs at odds up to 1.0 higher."
+    },
+    {
+      "t": "2026-11-28T17:45:34Z",
+      "text": "🧬 🦈 The Shark dropped the 🗺️ Versatile trait: it stopped working (+1.0% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-28T17:45:34Z",
+      "text": "✅ 🦈 The Shark completed 🦅 Sharp eye: 1 bet beat the market."
     }
   ]
 }
