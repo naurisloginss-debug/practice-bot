@@ -52,18 +52,6 @@
   },
   "log": [
     {
-      "t": "2026-11-28T09:30:46Z",
-      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
-    },
-    {
-      "t": "2026-11-28T09:30:46Z",
-      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
-    },
-    {
-      "t": "2026-11-28T09:30:46Z",
-      "text": "Results:\n- Won +6.35: Los Angeles Lakers +5.5 (Spread) in San Antonio Spurs vs Los Angeles Lakers (San Antonio Spurs 99 - 96 Los Angeles Lakers)\n- Lost -5.29: Los Angeles Lakers (Winner) in San Antonio Spurs vs Los Angeles Lakers (San Antonio Spurs 99 - 96 Los Angeles Lakers)\n- Lost -1.15: Utah Jazz (Winner) in Utah Jazz vs Denver Nuggets (Utah Jazz 107 - 120 Denver Nuggets)\n- Won +2.64: Dallas Mavericks (Winner) in Phoenix Suns vs Dallas Mavericks (Phoenix Suns 109 - 113 Dallas Mavericks)\n- Lost -2.26: Minnesota Timberwolves (Winner) in Minnesota Timberwolves vs Memphis Grizzlies (Minnesota Timberwolves 109 - 114 Memphis Grizzlies)\n- Won +10.10: Philadelphia 76ers (Winner) in Indiana Pacers vs Philadelphia 76ers (Indiana Pacers 87 - 111 Philadelphia 76ers)\n- Lost -4.53: Golden State Warriors (Winner) in Portland Trail Blazers vs Golden State Warriors (Portland Trail Blazers 116 - 94 Golden State Warriors)\n- Won +2.71: New Orleans Pelicans (Winner) in Los Angeles Clippers vs New Orleans Pelicans (Los Angeles Clippers 104 - 105 New Orleans Pelicans)"
-    },
-    {
       "t": "2026-11-28T09:45:32Z",
       "text": "🧬 🦎 The Lizard dropped the 🧘 Disciplined trait: it stopped working (+0.5% vs the market on those days)."
     },
@@ -170,6 +158,18 @@
     {
       "t": "2026-11-28T10:55:24Z",
       "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
+    },
+    {
+      "t": "2026-11-28T11:00:57Z",
+      "text": "🧬 🦎 The Lizard dropped the 🧘 Disciplined trait: it stopped working (+0.5% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-28T11:00:57Z",
+      "text": "🧬 🧮 The Quant dropped the 🐶 Underdog lover trait: it stopped working (+1.6% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-28T11:00:57Z",
+      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
     }
   ],
   "levels": {
@@ -3162,12 +3162,6 @@
         "on": 0.013,
         "off": 0.0065,
         "bets": 5
-      },
-      "discipline": {
-        "since": "2026-11-28T10:55:24Z",
-        "on": 0.0263,
-        "off": 0.0072,
-        "bets": 4
       }
     },
     "quant": {
@@ -3188,12 +3182,6 @@
         "on": 0.058,
         "off": 0.0167,
         "bets": 16
-      },
-      "underdog": {
-        "since": "2026-11-28T10:55:24Z",
-        "on": 0.0135,
-        "off": 0.0238,
-        "bets": 10
       }
     },
     "shark": {
@@ -3214,12 +3202,6 @@
         "on": 0.0157,
         "off": 0.0183,
         "bets": 4
-      },
-      "underdog": {
-        "since": "2026-11-28T10:55:24Z",
-        "on": 0.0278,
-        "off": 0.0187,
-        "bets": 15
       }
     }
   },
