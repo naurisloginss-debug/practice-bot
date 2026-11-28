@@ -1,6 +1,6 @@
 {
   "last_scan": "2026-11-28@1",
-  "credits_left": 15959,
+  "credits_left": 15958,
   "league_names": {
     "soccer_italy_serie_b": "Serie B (Italy 2)",
     "soccer_efl_champ": "Championship (England 2)",
@@ -51,18 +51,6 @@
     "soccer_germany_bundesliga": "2026-11-27T22:30:46Z"
   },
   "log": [
-    {
-      "t": "2026-11-28T01:00:54Z",
-      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-28T01:00:54Z",
-      "text": "🧬 🦈 The Shark made New ground part of its character: 🗺️ Versatile. It completed the challenge on 2026-11-24 and its bets beat the market by +3.4%. Keeps trying every bet type (+1 scout bet a day)."
-    },
-    {
-      "t": "2026-11-28T01:00:54Z",
-      "text": "Placed 7 practice bets:\n- The Shark: **Indianapolis Colts +5.5** (Spread) in Indianapolis Colts vs New York Giants (NFL) at 2.0 on 888sport, stake 6.25, edge +1.8%\n- The Shark: **UL Monroe Warhawks** (Winner) in UL Monroe Warhawks vs Marshall Thundering Herd (College football (US)) at 3.25 on Matchbook, stake 7.56, edge +3.7%\n- The Shark: **Southern Mississippi Golden Eagles** (Winner) in Old Dominion Monarchs vs Southern Mississippi Golden Eagles (College football (US)) at 3.05 on BetAnything, stake 8.87, edge +4.0%\n- The Shark 🧭 scout: **Georgia Southern Eagles** (Winner) in Georgia Southern Eagles vs Louisiana Tech Bulldogs (College football (US)) at 1.85 on Matchbook, stake 2.52, edge +1.2%\n- The Quant 💭 gut: **New Orleans Pelicans** (Winner) in Los Angeles Clippers vs New Orleans Pelicans (NBA) at 2.2 on Unibet (SE), stake 2.26, edge +-0.3%\n- The Shark 💭 gut: **Kansas State Wildcats** (Winner) in Iowa State Cyclones vs Kansas State Wildcats (College football (US)) at 2.76 on Matchbook, stake 2.52, edge +1.1%\n- The Shark 💭 gut: **Missouri Tigers** (Winner) in Missouri Tigers vs Oklahoma Sooners (College football (US)) at 1.87 on Matchbook, stake 2.52, edge +0.4%"
-    },
     {
       "t": "2026-11-28T01:15:32Z",
       "text": "🧬 🦎 The Lizard made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-25 and its bets beat the market by +12.9%. Avoids odds above 3.5."
@@ -170,6 +158,18 @@
     {
       "t": "2026-11-28T02:30:46Z",
       "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-28T02:43:44Z",
+      "text": "🧬 🦎 The Lizard made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-25 and its bets beat the market by +12.9%. Avoids odds above 3.5."
+    },
+    {
+      "t": "2026-11-28T02:43:44Z",
+      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
+    },
+    {
+      "t": "2026-11-28T02:43:44Z",
+      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
     }
   ],
   "levels": {
@@ -3153,6 +3153,12 @@
         "on": 0.013,
         "off": 0.006,
         "bets": 5
+      },
+      "discipline": {
+        "since": "2026-11-28T02:43:44Z",
+        "on": 0.129,
+        "off": 0.0067,
+        "bets": 2
       }
     },
     "quant": {
@@ -3173,6 +3179,12 @@
         "on": 0.058,
         "off": 0.0167,
         "bets": 16
+      },
+      "discipline": {
+        "since": "2026-11-28T02:43:44Z",
+        "on": 0.0391,
+        "off": 0.0238,
+        "bets": 3
       }
     },
     "shark": {
@@ -3193,6 +3205,12 @@
         "on": 0.0157,
         "off": 0.0183,
         "bets": 4
+      },
+      "precision": {
+        "since": "2026-11-28T02:43:44Z",
+        "on": 0.032,
+        "off": 0.0198,
+        "bets": 2
       }
     }
   },
