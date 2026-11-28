@@ -53,14 +53,6 @@
   "log": [
     {
       "t": "2026-11-28T13:30:47Z",
-      "text": "🧬 🧮 The Quant made Sharp eye part of its character: 🦅 Sharp-eyed. It completed the challenge on 2026-11-27 and its bets beat the market by +4.0%. Bets 15% more when the edge is +3% or bigger."
-    },
-    {
-      "t": "2026-11-28T13:30:47Z",
-      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-28T13:30:47Z",
       "text": "🧬 🦈 The Shark made New ground part of its character: 🗺️ Versatile. It completed the challenge on 2026-11-24 and its bets beat the market by +3.4%. Keeps trying every bet type (+1 scout bet a day)."
     },
     {
@@ -170,6 +162,14 @@
     {
       "t": "2026-11-28T15:00:58Z",
       "text": "Results:\n- Lost -3.24: 1. FC Kaiserslautern (Winner) in Holstein Kiel vs 1. FC Kaiserslautern (Holstein Kiel 3 - 0 1. FC Kaiserslautern)\n- Lost -4.64: FC St. Pauli (Winner) in Dynamo Dresden vs FC St. Pauli (Dynamo Dresden 2 - 1 FC St. Pauli)"
+    },
+    {
+      "t": "2026-11-28T15:15:40Z",
+      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
+    },
+    {
+      "t": "2026-11-28T15:15:40Z",
+      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
     }
   ],
   "levels": {
@@ -3197,6 +3197,12 @@
         "on": 0.058,
         "off": 0.0167,
         "bets": 16
+      },
+      "discipline": {
+        "since": "2026-11-28T15:15:40Z",
+        "on": 0.0391,
+        "off": 0.0238,
+        "bets": 3
       }
     },
     "shark": {
@@ -3217,6 +3223,12 @@
         "on": 0.0157,
         "off": 0.0183,
         "bets": 4
+      },
+      "precision": {
+        "since": "2026-11-28T15:15:40Z",
+        "on": 0.032,
+        "off": 0.0198,
+        "bets": 2
       }
     }
   },
