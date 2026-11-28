@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-28T09:00:56Z",
+  "updated": "2026-11-28T09:15:32Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -509,8 +509,8 @@
           "cautious": 0.0204,
           "beat": 0.6867,
           "challenges": 0.667,
-          "traits": 4,
-          "score": 35.5
+          "traits": 3,
+          "score": 33.5
         },
         {
           "who": "shark",
@@ -521,8 +521,8 @@
           "cautious": 0.02,
           "beat": 0.6905,
           "challenges": 0.733,
-          "traits": 4,
-          "score": 35.5
+          "traits": 3,
+          "score": 33.5
         },
         {
           "who": "lizard",
@@ -533,8 +533,8 @@
           "cautious": -0.0022,
           "beat": 0.6667,
           "challenges": 0.462,
-          "traits": 3,
-          "score": 9.44
+          "traits": 2,
+          "score": 7.44
         }
       ],
       "ranking": [
@@ -563,7 +563,7 @@
         "min_edge": 0.02,
         "odds": [
           1.6,
-          3.5
+          6.0
         ],
         "stop_below": 250
       },
@@ -1543,17 +1543,6 @@
           "on": 0.013,
           "off": 0.0065,
           "bets": 5
-        },
-        {
-          "id": "discipline",
-          "emoji": "🧘",
-          "title": "Disciplined",
-          "effect": "Avoids odds above 3.5.",
-          "from": "Discipline day",
-          "since": "2026-11-28T09:00:56Z",
-          "on": 0.0263,
-          "off": 0.0072,
-          "bets": 4
         }
       ],
       "mind": {
@@ -1767,7 +1756,7 @@
         "min_edge": 0.02,
         "odds": [
           1.6,
-          4.5
+          3.5
         ],
         "stop_below": 250
       },
@@ -2829,17 +2818,6 @@
           "on": 0.058,
           "off": 0.0167,
           "bets": 16
-        },
-        {
-          "id": "underdog",
-          "emoji": "🐶",
-          "title": "Underdog lover",
-          "effect": "Allows underdogs at odds up to 1.0 higher.",
-          "from": "Underdog hunter",
-          "since": "2026-11-28T09:00:56Z",
-          "on": 0.0135,
-          "off": 0.0238,
-          "bets": 10
         }
       ],
       "mind": {
@@ -3018,7 +2996,7 @@
         "min_edge": 0.015,
         "odds": [
           1.6,
-          4.5
+          3.5
         ],
         "stop_below": 250
       },
@@ -3902,17 +3880,6 @@
           "on": 0.0157,
           "off": 0.0183,
           "bets": 4
-        },
-        {
-          "id": "underdog",
-          "emoji": "🐶",
-          "title": "Underdog lover",
-          "effect": "Allows underdogs at odds up to 1.0 higher.",
-          "from": "Underdog hunter",
-          "since": "2026-11-28T09:00:56Z",
-          "on": 0.0278,
-          "off": 0.0187,
-          "bets": 15
         }
       ],
       "mind": {
@@ -11753,18 +11720,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-28T07:30:46Z",
-      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
-    },
-    {
-      "t": "2026-11-28T07:45:30Z",
-      "text": "🧬 🦎 The Lizard dropped the 🧘 Disciplined trait: it stopped working (+0.5% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-28T07:45:30Z",
-      "text": "🧬 🧮 The Quant dropped the 🧘 Disciplined trait: it stopped working (+1.3% vs the market on those days)."
-    },
-    {
       "t": "2026-11-28T07:45:30Z",
       "text": "🧬 🧮 The Quant made Sharp eye part of its character: 🦅 Sharp-eyed. It completed the challenge on 2026-11-27 and its bets beat the market by +4.0%. Bets 15% more when the edge is +3% or bigger."
     },
@@ -11871,6 +11826,18 @@
     {
       "t": "2026-11-28T09:00:56Z",
       "text": "Placed 5 practice bets:\n- The Lizard: **Cambridge United** (Winner) in Peterborough United vs Cambridge United (League One (England 3)) at 3.45 on Matchbook, stake 7.59, edge +7.7%\n- The Lizard: **Cambridge United +0.25** (Spread) in Peterborough United vs Cambridge United (League One (England 3)) at 2.06 on Matchbook, stake 8.65, edge +3.8%\n- The Quant: **Portland St Vikings** (Winner) in Southern Illinois Salukis vs Portland St Vikings (College basketball (US)) at 3.7 on LeoVegas (SE), stake 4.36, edge +2.7%\n- The Lizard 🧭 scout: **Bolton Wanderers +1** (Spread) in Birmingham City vs Bolton Wanderers (Championship (England 2)) at 2.16 on BetOnline.ag, stake 2.38, edge +0.8%\n- The Quant 💭 gut: **Western Illinois Leathernecks +11.5** (Spread) in Coastal Carolina Chanticleers vs Western Illinois Leathernecks (College basketball (US)) at 1.97 on BetOnline.ag, stake 2.40, edge +0.8%"
+    },
+    {
+      "t": "2026-11-28T09:15:32Z",
+      "text": "🧬 🦎 The Lizard dropped the 🧘 Disciplined trait: it stopped working (+0.5% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-28T09:15:32Z",
+      "text": "🧬 🧮 The Quant dropped the 🐶 Underdog lover trait: it stopped working (+1.6% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-28T09:15:32Z",
+      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
     }
   ]
 }
