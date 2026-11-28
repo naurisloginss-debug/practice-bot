@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-28T15:45:33Z",
+  "updated": "2026-11-28T16:00:56Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -509,8 +509,8 @@
           "cautious": 0.0204,
           "beat": 0.6867,
           "challenges": 0.667,
-          "traits": 4,
-          "score": 35.5
+          "traits": 3,
+          "score": 33.5
         },
         {
           "who": "shark",
@@ -521,8 +521,8 @@
           "cautious": 0.02,
           "beat": 0.6905,
           "challenges": 0.733,
-          "traits": 4,
-          "score": 35.5
+          "traits": 3,
+          "score": 33.5
         },
         {
           "who": "lizard",
@@ -545,7 +545,7 @@
       "leader": "quant"
     }
   },
-  "credits_left": 15761,
+  "credits_left": 15759,
   "last_scan": "2026-11-28@13",
   "strategies": {
     "lizard": {
@@ -590,7 +590,7 @@
         "Total"
       ],
       "start_fund": 500,
-      "fund": 487.03,
+      "fund": 489.76,
       "lessons": [
         {
           "kind": "avoid",
@@ -609,12 +609,12 @@
         }
       ],
       "bets": 173,
-      "open": 50,
-      "won": 38,
+      "open": 49,
+      "won": 39,
       "lost": 85,
-      "staked": 410.59,
-      "profit": -12.97,
-      "roi": -0.0316,
+      "staked": 412.9,
+      "profit": -10.24,
+      "roi": -0.0248,
       "avg_edge": 0.0318,
       "avg_clv": 0.0097,
       "beat_close": 0.6268,
@@ -1115,6 +1115,10 @@
         {
           "t": "2026-11-28T15:30:56Z",
           "fund": 487.03
+        },
+        {
+          "t": "2026-11-28T16:00:56Z",
+          "fund": 489.76
         }
       ],
       "by_league": [
@@ -1202,8 +1206,8 @@
         {
           "name": "La Liga 2 (Spain 2)",
           "bets": 16,
-          "profit": 2.53,
-          "roi": 0.0639,
+          "profit": 5.26,
+          "roi": 0.1255,
           "avg_clv": 0.0059,
           "beat_close": 0.7333,
           "clv_count": 15
@@ -1267,8 +1271,8 @@
         {
           "name": "Winner",
           "bets": 137,
-          "profit": -30.47,
-          "roi": -0.0992,
+          "profit": -27.74,
+          "roi": -0.0896,
           "avg_clv": 0.0074,
           "beat_close": 0.5902,
           "clv_count": 122
@@ -1278,8 +1282,8 @@
         {
           "name": "Football",
           "bets": 173,
-          "profit": -12.97,
-          "roi": -0.0316,
+          "profit": -10.24,
+          "roi": -0.0248,
           "avg_clv": 0.0097,
           "beat_close": 0.6268,
           "clv_count": 142
@@ -1292,9 +1296,9 @@
         "beat": 0.5556,
         "trust": 0.149,
         "base": 0.55,
-        "won": 7,
+        "won": 8,
         "lost": 7,
-        "profit": 4.4
+        "profit": 7.13
       },
       "wild": {
         "bets": 14,
@@ -1582,7 +1586,7 @@
           "from": "Study day",
           "since": "2026-11-21T14:45:34Z",
           "on": 0.0228,
-          "off": 0.0089,
+          "off": 0.0083,
           "bets": 9
         },
         {
@@ -1593,7 +1597,7 @@
           "from": "Sharp eye",
           "since": "2026-11-28T12:30:56Z",
           "on": 0.0304,
-          "off": 0.0069,
+          "off": 0.0063,
           "bets": 14
         },
         {
@@ -1603,9 +1607,9 @@
           "effect": "Avoids odds above 3.5.",
           "from": "Discipline day",
           "since": "2026-11-28T14:00:55Z",
-          "on": 0.0128,
+          "on": 0.0097,
           "off": 0.0095,
-          "bets": 19
+          "bets": 20
         },
         {
           "id": "news",
@@ -1615,7 +1619,7 @@
           "from": "Read and react",
           "since": "2026-11-28T14:45:33Z",
           "on": 0.0132,
-          "off": 0.0096,
+          "off": 0.009,
           "bets": 12
         }
       ],
@@ -1812,7 +1816,7 @@
         ],
         "rules": 0,
         "studied": 374,
-        "resolved": 284
+        "resolved": 285
       }
     },
     "quant": {
@@ -1830,7 +1834,7 @@
         "min_edge": 0.02,
         "odds": [
           1.6,
-          4.5
+          3.5
         ],
         "stop_below": 250
       },
@@ -2924,17 +2928,6 @@
           "on": 0.058,
           "off": 0.0167,
           "bets": 16
-        },
-        {
-          "id": "underdog",
-          "emoji": "🐶",
-          "title": "Underdog lover",
-          "effect": "Allows underdogs at odds up to 1.0 higher.",
-          "from": "Underdog hunter",
-          "since": "2026-11-28T15:45:33Z",
-          "on": 0.0135,
-          "off": 0.0238,
-          "bets": 10
         }
       ],
       "mind": {
@@ -3113,7 +3106,7 @@
         "min_edge": 0.015,
         "odds": [
           1.6,
-          4.5
+          3.5
         ],
         "stop_below": 250
       },
@@ -3997,17 +3990,6 @@
           "on": 0.0157,
           "off": 0.0183,
           "bets": 4
-        },
-        {
-          "id": "underdog",
-          "emoji": "🐶",
-          "title": "Underdog lover",
-          "effect": "Allows underdogs at odds up to 1.0 higher.",
-          "from": "Underdog hunter",
-          "since": "2026-11-28T15:45:33Z",
-          "on": 0.0278,
-          "off": 0.0187,
-          "bets": 15
         }
       ],
       "mind": {
@@ -8334,12 +8316,12 @@
       "fair_odds": 2.182,
       "edge": -0.0009,
       "stake": 2.31,
-      "status": "open",
+      "status": "won",
       "closing_fair_odds": 2.32,
       "clv": -0.0605,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": 2.73,
+      "score": "Las Palmas 4 - 1 Andorra CF",
+      "settled_at": "2026-11-28T16:00:56Z",
       "thoughts": [
         "The sharp money is moving to Las Palmas: its chance went from 42% to 46% since I first looked.",
         "My rules say no. But something in the grass is moving. I'm taking a nibble.",
@@ -11847,18 +11829,6 @@
   "log": [
     {
       "t": "2026-11-28T14:00:55Z",
-      "text": "🧬 🧮 The Quant dropped the 🐶 Underdog lover trait: it stopped working (+1.6% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-28T14:00:55Z",
-      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-28T14:00:55Z",
-      "text": "Results:\n- Lost -2.44: JEF United Chiba (Winner) in Vissel Kobe vs JEF United Chiba (Vissel Kobe 3 - 1 JEF United Chiba)\n- Lost -2.25: Hiroshima Sanfrecce FC (Winner) in Kashiwa Reysol vs Hiroshima Sanfrecce FC (Kashiwa Reysol 3 - 1 Hiroshima Sanfrecce FC)"
-    },
-    {
-      "t": "2026-11-28T14:00:55Z",
       "text": "🦎 The Lizard levelled up: Apprentice → ⚡ Sharp. Stakes +15%. Consistently beats the market."
     },
     {
@@ -11964,6 +11934,18 @@
     {
       "t": "2026-11-28T15:45:33Z",
       "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
+    },
+    {
+      "t": "2026-11-28T16:00:56Z",
+      "text": "🧬 🧮 The Quant dropped the 🐶 Underdog lover trait: it stopped working (+1.6% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-28T16:00:56Z",
+      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-28T16:00:56Z",
+      "text": "Results:\n- Won +2.73: Las Palmas (Winner) in Las Palmas vs Andorra CF (Las Palmas 4 - 1 Andorra CF)"
     }
   ]
 }

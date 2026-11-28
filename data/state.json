@@ -1,6 +1,6 @@
 {
   "last_scan": "2026-11-28@13",
-  "credits_left": 15761,
+  "credits_left": 15759,
   "league_names": {
     "soccer_italy_serie_b": "Serie B (Italy 2)",
     "soccer_efl_champ": "Championship (England 2)",
@@ -30,7 +30,7 @@
     "soccer_efl_champ": "2026-11-28T15:30:56Z",
     "soccer_germany_bundesliga2": "2026-11-28T15:00:58Z",
     "soccer_france_ligue_one": "2026-11-27T22:45:32Z",
-    "soccer_spain_segunda_division": "2026-11-27T22:30:46Z",
+    "soccer_spain_segunda_division": "2026-11-28T16:00:56Z",
     "americanfootball_nfl": "2026-11-27T23:00:56Z",
     "soccer_italy_serie_b": "2026-11-26T03:01:03Z",
     "basketball_nba": "2026-11-28T09:30:46Z",
@@ -51,18 +51,6 @@
     "soccer_germany_bundesliga": "2026-11-27T22:30:46Z"
   },
   "log": [
-    {
-      "t": "2026-11-28T14:00:55Z",
-      "text": "🧬 🧮 The Quant dropped the 🐶 Underdog lover trait: it stopped working (+1.6% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-28T14:00:55Z",
-      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-28T14:00:55Z",
-      "text": "Results:\n- Lost -2.44: JEF United Chiba (Winner) in Vissel Kobe vs JEF United Chiba (Vissel Kobe 3 - 1 JEF United Chiba)\n- Lost -2.25: Hiroshima Sanfrecce FC (Winner) in Kashiwa Reysol vs Hiroshima Sanfrecce FC (Kashiwa Reysol 3 - 1 Hiroshima Sanfrecce FC)"
-    },
     {
       "t": "2026-11-28T14:00:55Z",
       "text": "🦎 The Lizard levelled up: Apprentice → ⚡ Sharp. Stakes +15%. Consistently beats the market."
@@ -170,6 +158,18 @@
     {
       "t": "2026-11-28T15:45:33Z",
       "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
+    },
+    {
+      "t": "2026-11-28T16:00:56Z",
+      "text": "🧬 🧮 The Quant dropped the 🐶 Underdog lover trait: it stopped working (+1.6% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-28T16:00:56Z",
+      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-28T16:00:56Z",
+      "text": "Results:\n- Won +2.73: Las Palmas (Winner) in Las Palmas vs Andorra CF (Las Palmas 4 - 1 Andorra CF)"
     }
   ],
   "levels": {
@@ -3157,25 +3157,25 @@
       "study": {
         "since": "2026-11-21T14:45:34Z",
         "on": 0.0228,
-        "off": 0.0089,
+        "off": 0.0083,
         "bets": 9
       },
       "sharp_eye": {
         "since": "2026-11-28T12:30:56Z",
         "on": 0.0304,
-        "off": 0.0069,
+        "off": 0.0063,
         "bets": 14
       },
       "discipline": {
         "since": "2026-11-28T14:00:55Z",
-        "on": 0.0128,
+        "on": 0.0097,
         "off": 0.0095,
-        "bets": 19
+        "bets": 20
       },
       "news": {
         "since": "2026-11-28T14:45:33Z",
         "on": 0.0132,
-        "off": 0.0096,
+        "off": 0.009,
         "bets": 12
       }
     },
@@ -3197,12 +3197,6 @@
         "on": 0.058,
         "off": 0.0167,
         "bets": 16
-      },
-      "underdog": {
-        "since": "2026-11-28T15:45:33Z",
-        "on": 0.0135,
-        "off": 0.0238,
-        "bets": 10
       }
     },
     "shark": {
@@ -3223,12 +3217,6 @@
         "on": 0.0157,
         "off": 0.0183,
         "bets": 4
-      },
-      "underdog": {
-        "since": "2026-11-28T15:45:33Z",
-        "on": 0.0278,
-        "off": 0.0187,
-        "bets": 15
       }
     }
   },
