@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-28T16:00:56Z",
+  "updated": "2026-11-28T16:15:39Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -509,8 +509,8 @@
           "cautious": 0.0204,
           "beat": 0.6867,
           "challenges": 0.667,
-          "traits": 3,
-          "score": 33.5
+          "traits": 4,
+          "score": 35.5
         },
         {
           "who": "shark",
@@ -521,8 +521,8 @@
           "cautious": 0.02,
           "beat": 0.6905,
           "challenges": 0.733,
-          "traits": 3,
-          "score": 33.5
+          "traits": 4,
+          "score": 35.5
         },
         {
           "who": "lizard",
@@ -2928,6 +2928,17 @@
           "on": 0.058,
           "off": 0.0167,
           "bets": 16
+        },
+        {
+          "id": "discipline",
+          "emoji": "🧘",
+          "title": "Disciplined",
+          "effect": "Avoids odds above 3.5.",
+          "from": "Discipline day",
+          "since": "2026-11-28T16:15:39Z",
+          "on": 0.0391,
+          "off": 0.0238,
+          "bets": 3
         }
       ],
       "mind": {
@@ -3103,7 +3114,7 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.015,
+        "min_edge": 0.02,
         "odds": [
           1.6,
           3.5
@@ -3990,6 +4001,17 @@
           "on": 0.0157,
           "off": 0.0183,
           "bets": 4
+        },
+        {
+          "id": "precision",
+          "emoji": "🎯",
+          "title": "Precise",
+          "effect": "Always demands +0.5% more edge.",
+          "from": "Precision day",
+          "since": "2026-11-28T16:15:39Z",
+          "on": 0.032,
+          "off": 0.0198,
+          "bets": 2
         }
       ],
       "mind": {
@@ -11828,14 +11850,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-28T14:00:55Z",
-      "text": "🦎 The Lizard levelled up: Apprentice → ⚡ Sharp. Stakes +15%. Consistently beats the market."
-    },
-    {
-      "t": "2026-11-28T14:15:32Z",
-      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
-    },
-    {
       "t": "2026-11-28T14:15:32Z",
       "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
     },
@@ -11946,6 +11960,14 @@
     {
       "t": "2026-11-28T16:00:56Z",
       "text": "Results:\n- Won +2.73: Las Palmas (Winner) in Las Palmas vs Andorra CF (Las Palmas 4 - 1 Andorra CF)"
+    },
+    {
+      "t": "2026-11-28T16:15:39Z",
+      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
+    },
+    {
+      "t": "2026-11-28T16:15:39Z",
+      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
     }
   ]
 }
