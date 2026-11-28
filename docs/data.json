@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-28T06:15:32Z",
+  "updated": "2026-11-28T06:30:45Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -31,7 +31,7 @@
       "lizard": {
         "iq": 131,
         "iq_gain": 6,
-        "streak": 4,
+        "streak": 0,
         "best_streak": 8,
         "achievements": [
           {
@@ -142,12 +142,12 @@
           {
             "text": "Bets checked against the market",
             "target": 37,
-            "now": 41
+            "now": 42
           },
           {
             "text": "Beat the market on",
             "target": 69,
-            "now": 61,
+            "now": 60,
             "unit": "%",
             "pending": false
           }
@@ -509,8 +509,8 @@
           "cautious": 0.0204,
           "beat": 0.6867,
           "challenges": 0.667,
-          "traits": 3,
-          "score": 33.5
+          "traits": 4,
+          "score": 35.5
         },
         {
           "who": "shark",
@@ -521,8 +521,8 @@
           "cautious": 0.02,
           "beat": 0.6905,
           "challenges": 0.733,
-          "traits": 3,
-          "score": 33.5
+          "traits": 4,
+          "score": 35.5
         },
         {
           "who": "lizard",
@@ -533,8 +533,8 @@
           "cautious": -0.0022,
           "beat": 0.6667,
           "challenges": 0.462,
-          "traits": 2,
-          "score": 7.44
+          "traits": 3,
+          "score": 9.44
         }
       ],
       "ranking": [
@@ -545,7 +545,7 @@
       "leader": "quant"
     }
   },
-  "credits_left": 15901,
+  "credits_left": 15900,
   "last_scan": "2026-11-28@5",
   "strategies": {
     "lizard": {
@@ -563,7 +563,7 @@
         "min_edge": 0.02,
         "odds": [
           1.6,
-          6.0
+          3.5
         ],
         "stop_below": 250
       },
@@ -611,9 +611,9 @@
       "profit": -27.75,
       "roi": -0.0804,
       "avg_edge": 0.032,
-      "avg_clv": 0.0072,
-      "beat_close": 0.6364,
-      "clv_count": 110,
+      "avg_clv": 0.0049,
+      "beat_close": 0.6306,
+      "clv_count": 111,
       "history": [
         {
           "t": "2026-11-04T12:49:24Z",
@@ -1066,15 +1066,6 @@
       ],
       "by_league": [
         {
-          "name": "J-League (Japan)",
-          "bets": 11,
-          "profit": -8.29,
-          "roi": -0.3505,
-          "avg_clv": 0.0518,
-          "beat_close": 0.75,
-          "clv_count": 8
-        },
-        {
           "name": "Primera División (Argentina)",
           "bets": 5,
           "profit": -11.32,
@@ -1109,6 +1100,15 @@
           "avg_clv": 0.0217,
           "beat_close": 1.0,
           "clv_count": 3
+        },
+        {
+          "name": "J-League (Japan)",
+          "bets": 11,
+          "profit": -8.29,
+          "roi": -0.3505,
+          "avg_clv": 0.0183,
+          "beat_close": 0.6667,
+          "clv_count": 9
         },
         {
           "name": "Ligue 1 (France)",
@@ -1216,9 +1216,9 @@
           "bets": 135,
           "profit": -34.33,
           "roi": -0.1229,
-          "avg_clv": 0.0051,
-          "beat_close": 0.6061,
-          "clv_count": 99
+          "avg_clv": 0.0025,
+          "beat_close": 0.6,
+          "clv_count": 100
         }
       ],
       "by_sport": [
@@ -1227,17 +1227,17 @@
           "bets": 166,
           "profit": -27.75,
           "roi": -0.0804,
-          "avg_clv": 0.0072,
-          "beat_close": 0.6364,
-          "clv_count": 110
+          "avg_clv": 0.0049,
+          "beat_close": 0.6306,
+          "clv_count": 111
         }
       ],
       "gut": {
         "bets": 19,
-        "measured": 13,
-        "avg_clv": -0.0184,
-        "beat": 0.5385,
-        "trust": 0.274,
+        "measured": 14,
+        "avg_clv": -0.0349,
+        "beat": 0.5,
+        "trust": 0.1,
         "base": 0.55,
         "won": 7,
         "lost": 6,
@@ -1261,7 +1261,7 @@
         "measured": 3
       },
       "reading": {
-        "week": 122,
+        "week": 98,
         "latest": [
           {
             "t": "2026-11-27T20:10:00Z",
@@ -1539,6 +1539,17 @@
           "on": 0.013,
           "off": 0.0065,
           "bets": 5
+        },
+        {
+          "id": "discipline",
+          "emoji": "🧘",
+          "title": "Disciplined",
+          "effect": "Avoids odds above 3.5.",
+          "from": "Discipline day",
+          "since": "2026-11-28T06:30:45Z",
+          "on": 0.1183,
+          "off": 0.0072,
+          "bets": 3
         }
       ],
       "mind": {
@@ -2513,8 +2524,22 @@
         "measured": 1
       },
       "reading": {
-        "week": 80,
+        "week": 107,
         "latest": [
+          {
+            "t": "2026-11-28T04:39:24Z",
+            "title": "Grant Nelson making impact amid Nets injuries",
+            "link": "https://sports.yahoo.com/nba/articles/grant-nelson-making-impact-amid-043924040.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-28T03:16:51Z",
+            "title": "Heat 108, Knicks 105: “Really tough to win a poorly coached, corruptly reffed, half rotation injured game.”",
+            "link": "https://sports.yahoo.com/nba/articles/heat-108-knicks-105-really-031651401.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
           {
             "t": "2026-11-28T02:03:02Z",
             "title": "Warriors receive good Steph Curry news amid oblique injury",
@@ -2530,30 +2555,16 @@
             "tone": -1
           },
           {
-            "t": "2026-11-28T00:24:26Z",
-            "title": "The Toronto Raptors can’t lose this NBA Cup game",
-            "link": "https://sports.yahoo.com/nba/articles/toronto-raptors-t-lose-nba-002426877.html",
+            "t": "2026-11-28T01:26:45Z",
+            "title": "Steph Curry ruled out for next three games",
+            "link": "https://sports.yahoo.com/nba/articles/steph-curry-ruled-next-three-012645985.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-27T22:02:23Z",
-            "title": "Lakers&#39; Austin Reaves available for NBA Cup matchup vs. Spurs, returning after 5-game absence",
-            "link": "https://sports.yahoo.com/nba/article/lakers-austin-reaves-available-for-nba-cup-matchup-vs-spurs-returning-after-5-game-absence-224153560.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-27T21:44:44Z",
-            "title": "Lakers&#39; Austin Reaves set to return Friday for showdown against Spurs",
-            "link": "https://sports.yahoo.com/nba/articles/lakers-austin-reaves-set-return-214444607.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-27T20:08:08Z",
-            "title": "Warriors won’t have to face Damian Lillard tonight",
-            "link": "https://sports.yahoo.com/nba/articles/warriors-won-t-face-damian-200808222.html",
+            "t": "2026-11-28T00:24:26Z",
+            "title": "The Toronto Raptors can’t lose this NBA Cup game",
+            "link": "https://sports.yahoo.com/nba/articles/toronto-raptors-t-lose-nba-002426877.html",
             "source": "sports.yahoo.com",
             "tone": -1
           }
@@ -2798,6 +2809,17 @@
           "on": 0.058,
           "off": 0.0167,
           "bets": 16
+        },
+        {
+          "id": "discipline",
+          "emoji": "🧘",
+          "title": "Disciplined",
+          "effect": "Avoids odds above 3.5.",
+          "from": "Discipline day",
+          "since": "2026-11-28T06:30:45Z",
+          "on": 0.0391,
+          "off": 0.0238,
+          "bets": 3
         }
       ],
       "mind": {
@@ -2980,7 +3002,7 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.015,
+        "min_edge": 0.02,
         "odds": [
           1.6,
           3.5
@@ -3570,49 +3592,49 @@
         "measured": 5
       },
       "reading": {
-        "week": 398,
+        "week": 395,
         "latest": [
+          {
+            "t": "2026-11-28T05:45:00Z",
+            "title": "Rams sign tight end away NFC West rival’s practice squad",
+            "link": "https://sports.yahoo.com/nfl/articles/rams-sign-tight-end-away-054500672.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-28T05:30:25Z",
+            "title": "Built by Bama: DeVonta Smith Reminds the Football World What Grit Looks Like",
+            "link": "https://sports.yahoo.com/nfl/articles/built-bama-devonta-smith-reminds-053025348.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-28T05:28:53Z",
+            "title": "Camrix Stott helps Gordonsville football return to state championship for fourth time",
+            "link": "https://sports.yahoo.com/high-school-sports/articles/camrix-stott-helps-gordonsville-football-052853936.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-28T05:20:48Z",
+            "title": "Jets getting much-needed defensive reinforcement with David Onyemata’s return",
+            "link": "https://sports.yahoo.com/nfl/articles/jets-getting-much-needed-defensive-052048067.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-28T05:04:26Z",
+            "title": "Michigan Alum Rips University Leadership as Trev Alberts Remains Open to Return Under One Condition",
+            "link": "https://sports.yahoo.com/college-football/articles/michigan-alum-rips-university-leadership-050426293.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
           {
             "t": "2026-11-28T03:00:26Z",
             "title": "Former Oregon commit Kodi Greene returns to Eugene with Washington",
             "link": "https://sports.yahoo.com/college-football/articles/former-oregon-commit-kodi-greene-030026832.html",
             "source": "sports.yahoo.com",
             "tone": 1
-          },
-          {
-            "t": "2026-11-28T02:36:32Z",
-            "title": "NFL Week 12 injury report: Brock Purdy, Justin Herbert out as QB health dwindles across league",
-            "link": "https://www.cbssports.com/nfl/news/nfl-week-12-injury-report-brock-purdy-justin-herbert-out/",
-            "source": "www.cbssports.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-28T02:32:53Z",
-            "title": "Katin Houser Leads Huge List of Illinois Players Out for Northwestern Game",
-            "link": "https://sports.yahoo.com/college-football/articles/katin-houser-leads-huge-list-023253501.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-28T02:11:00Z",
-            "title": "Bianchi: Jon Sumrall has made Florida football fun again! Can Glenn Schumann do the same at FSU?",
-            "link": "https://sports.yahoo.com/college-football/articles/bianchi-jon-sumrall-made-florida-021100034.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-28T01:55:19Z",
-            "title": "Miami Hurricanes&#39; Ja&#39;Boree Antoine Reportedly Expected to Make Season Debut Against Boston College",
-            "link": "https://sports.yahoo.com/college-football/articles/miami-hurricanes-jaboree-antoine-reportedly-015519960.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-28T01:50:45Z",
-            "title": "Brock Purdy ruled out vs. Seahawks. Can Mac Jones carry 49ers offense?",
-            "link": "https://sports.yahoo.com/nfl/articles/brock-purdy-ruled-vs-seahawks-015045378.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
           }
         ]
       },
@@ -3855,6 +3877,17 @@
           "on": 0.0157,
           "off": 0.0183,
           "bets": 4
+        },
+        {
+          "id": "precision",
+          "emoji": "🎯",
+          "title": "Precise",
+          "effect": "Always demands +0.5% more edge.",
+          "from": "Precision day",
+          "since": "2026-11-28T06:30:45Z",
+          "on": 0.032,
+          "off": 0.0198,
+          "bets": 2
         }
       ],
       "mind": {
@@ -8047,8 +8080,8 @@
       "edge": 0.0121,
       "stake": 2.25,
       "status": "open",
-      "closing_fair_odds": null,
-      "clv": null,
+      "closing_fair_odds": 2.999,
+      "clv": -0.2497,
       "profit": 0.0,
       "score": null,
       "settled_at": null,
@@ -11680,18 +11713,6 @@
   "log": [
     {
       "t": "2026-11-28T04:45:32Z",
-      "text": "🧬 🦎 The Lizard dropped the 🧘 Disciplined trait: it stopped working (+0.5% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-28T04:45:32Z",
-      "text": "🧬 🧮 The Quant dropped the 🧘 Disciplined trait: it stopped working (+1.3% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-28T04:45:32Z",
-      "text": "🧬 🧮 The Quant made Sharp eye part of its character: 🦅 Sharp-eyed. It completed the challenge on 2026-11-27 and its bets beat the market by +4.0%. Bets 15% more when the edge is +3% or bigger."
-    },
-    {
-      "t": "2026-11-28T04:45:32Z",
       "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
     },
     {
@@ -11797,6 +11818,18 @@
     {
       "t": "2026-11-28T06:15:32Z",
       "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-28T06:30:45Z",
+      "text": "🧬 🦎 The Lizard made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-25 and its bets beat the market by +11.8%. Avoids odds above 3.5."
+    },
+    {
+      "t": "2026-11-28T06:30:45Z",
+      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
+    },
+    {
+      "t": "2026-11-28T06:30:45Z",
+      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
     }
   ]
 }
