@@ -53,18 +53,6 @@
   "log": [
     {
       "t": "2026-11-28T02:01:03Z",
-      "text": "🧬 🧮 The Quant made Sharp eye part of its character: 🦅 Sharp-eyed. It completed the challenge on 2026-11-27 and its bets beat the market by +3.4%. Bets 15% more when the edge is +3% or bigger."
-    },
-    {
-      "t": "2026-11-28T02:01:03Z",
-      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-28T02:01:03Z",
-      "text": "🧬 🦈 The Shark made New ground part of its character: 🗺️ Versatile. It completed the challenge on 2026-11-24 and its bets beat the market by +3.4%. Keeps trying every bet type (+1 scout bet a day)."
-    },
-    {
-      "t": "2026-11-28T02:01:03Z",
       "text": "Results:\n- Lost -6.45: Nebraska Cornhuskers (Winner) in Iowa Hawkeyes vs Nebraska Cornhuskers (Iowa Hawkeyes 31 - 7 Nebraska Cornhuskers)\n- Lost -8.65: Appalachian State Mountaineers (Winner) in South Alabama Jaguars vs Appalachian State Mountaineers (South Alabama Jaguars 20 - 13 Appalachian State Mountaineers)\n- Lost -3.10: Akron Zips (Winner) in Akron Zips vs Buffalo Bulls (Akron Zips 9 - 17 Buffalo Bulls)\n- Lost -6.07: San Jose State Spartans (Winner) in San Jose State Spartans vs North Dakota State Bison (San Jose State Spartans 31 - 38 North Dakota State Bison)\n- Lost -5.08: Air Force Falcons (Winner) in New Mexico Lobos vs Air Force Falcons (New Mexico Lobos 42 - 19 Air Force Falcons)\n- Lost -3.10: Mississippi State Bulldogs (Winner) in Ole Miss Rebels vs Mississippi State Bulldogs (Ole Miss Rebels 41 - 17 Mississippi State Bulldogs)\n- Won +18.62: Temple Owls (Winner) in Memphis Tigers vs Temple Owls (Memphis Tigers 31 - 35 Temple Owls)\n- Lost -2.46: Tulsa Golden Hurricane (Winner) in UTSA Roadrunners vs Tulsa Golden Hurricane (UTSA Roadrunners 28 - 22 Tulsa Golden Hurricane)"
     },
     {
@@ -170,6 +158,18 @@
     {
       "t": "2026-11-28T03:15:38Z",
       "text": "Results:\n- Won +15.50: Miami Heat (Winner) in New York Knicks vs Miami Heat (New York Knicks 105 - 108 Miami Heat)"
+    },
+    {
+      "t": "2026-11-28T03:30:46Z",
+      "text": "🧬 🦎 The Lizard made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-25 and its bets beat the market by +12.9%. Avoids odds above 3.5."
+    },
+    {
+      "t": "2026-11-28T03:30:46Z",
+      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
+    },
+    {
+      "t": "2026-11-28T03:30:46Z",
+      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
     }
   ],
   "levels": {
@@ -3153,6 +3153,12 @@
         "on": 0.013,
         "off": 0.006,
         "bets": 5
+      },
+      "discipline": {
+        "since": "2026-11-28T03:30:46Z",
+        "on": 0.129,
+        "off": 0.0067,
+        "bets": 2
       }
     },
     "quant": {
@@ -3173,6 +3179,12 @@
         "on": 0.058,
         "off": 0.0167,
         "bets": 16
+      },
+      "discipline": {
+        "since": "2026-11-28T03:30:46Z",
+        "on": 0.0391,
+        "off": 0.0238,
+        "bets": 3
       }
     },
     "shark": {
@@ -3193,6 +3205,12 @@
         "on": 0.0157,
         "off": 0.0183,
         "bets": 4
+      },
+      "precision": {
+        "since": "2026-11-28T03:30:46Z",
+        "on": 0.032,
+        "off": 0.0198,
+        "bets": 2
       }
     }
   },
