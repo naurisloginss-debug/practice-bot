@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-28T19:30:47Z",
+  "updated": "2026-11-28T19:45:33Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -334,7 +334,7 @@
             "pending": false
           }
         ],
-        "score": 246,
+        "score": 249,
         "trophies": [
           {
             "kind": "grower",
@@ -508,9 +508,9 @@
           "clv": 0.0282,
           "cautious": 0.0208,
           "beat": 0.6824,
-          "challenges": 0.667,
-          "traits": 4,
-          "score": 35.81
+          "challenges": 0.688,
+          "traits": 3,
+          "score": 33.92
         },
         {
           "who": "shark",
@@ -521,8 +521,8 @@
           "cautious": 0.0162,
           "beat": 0.6875,
           "challenges": 0.75,
-          "traits": 3,
-          "score": 29.72
+          "traits": 4,
+          "score": 31.72
         },
         {
           "who": "lizard",
@@ -1857,7 +1857,7 @@
         "min_edge": 0.02,
         "odds": [
           1.6,
-          4.5
+          3.5
         ],
         "stop_below": 250
       },
@@ -2812,10 +2812,11 @@
           "emoji": "🐶",
           "title": "Underdog hunter",
           "text": "Back an underdog (odds 2.5+) that beats the market.",
-          "status": "active",
+          "status": "done",
           "market": "spreads",
           "target": 94,
-          "league": null
+          "league": null,
+          "detail": "1 bet beat the market."
         },
         "recent": [
           {
@@ -2824,10 +2825,11 @@
             "emoji": "🐶",
             "title": "Underdog hunter",
             "text": "Back an underdog (odds 2.5+) that beats the market.",
-            "status": "active",
+            "status": "done",
             "market": "spreads",
             "target": 94,
-            "league": null
+            "league": null,
+            "detail": "1 bet beat the market."
           },
           {
             "day": "2026-11-27",
@@ -2914,9 +2916,9 @@
             "detail": "Used the news in Denver Pioneers."
           }
         ],
-        "done": 10,
-        "judged": 15,
-        "streak": 5
+        "done": 11,
+        "judged": 16,
+        "streak": 6
       },
       "traits": [
         {
@@ -2927,7 +2929,7 @@
           "from": "Precision day",
           "since": "2026-11-23T18:30:49Z",
           "on": 0.0324,
-          "off": 0.0203,
+          "off": 0.0209,
           "bets": 24
         },
         {
@@ -2938,7 +2940,7 @@
           "from": "Study day",
           "since": "2026-11-25T23:45:38Z",
           "on": 0.0291,
-          "off": 0.022,
+          "off": 0.0225,
           "bets": 17
         },
         {
@@ -2949,19 +2951,8 @@
           "from": "New ground",
           "since": "2026-11-26T21:30:45Z",
           "on": 0.058,
-          "off": 0.0167,
+          "off": 0.0173,
           "bets": 16
-        },
-        {
-          "id": "underdog",
-          "emoji": "🐶",
-          "title": "Underdog lover",
-          "effect": "Allows underdogs at odds up to 1.0 higher.",
-          "from": "Underdog hunter",
-          "since": "2026-11-28T19:30:47Z",
-          "on": 0.0135,
-          "off": 0.0238,
-          "bets": 10
         }
       ],
       "mind": {
@@ -3137,7 +3128,7 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.015,
+        "min_edge": 0.02,
         "odds": [
           1.6,
           5.0
@@ -3997,7 +3988,7 @@
           "from": "Read and react",
           "since": "2026-11-21T17:45:33Z",
           "on": 0.0888,
-          "off": 0.0146,
+          "off": 0.0113,
           "bets": 2
         },
         {
@@ -4008,7 +3999,7 @@
           "from": "Study day",
           "since": "2026-11-22T17:45:32Z",
           "on": 0.0329,
-          "off": 0.0165,
+          "off": 0.0131,
           "bets": 1
         },
         {
@@ -4019,8 +4010,19 @@
           "from": "Underdog hunter",
           "since": "2026-11-28T16:45:32Z",
           "on": 0.0172,
-          "off": 0.0165,
+          "off": 0.0117,
           "bets": 22
+        },
+        {
+          "id": "precision",
+          "emoji": "🎯",
+          "title": "Precise",
+          "effect": "Always demands +0.5% more edge.",
+          "from": "Precision day",
+          "since": "2026-11-28T19:45:33Z",
+          "on": 0.032,
+          "off": 0.014,
+          "bets": 2
         }
       ],
       "mind": {
@@ -11871,18 +11873,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-28T18:01:00Z",
-      "text": "🧬 🧮 The Quant dropped the 🐶 Underdog lover trait: it stopped working (+1.6% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-28T18:01:00Z",
-      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
-    },
-    {
-      "t": "2026-11-28T18:01:00Z",
-      "text": "🏁 🦈 The Shark now leads the race to go live (6 days to selection)."
-    },
-    {
       "t": "2026-11-28T18:15:39Z",
       "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
     },
@@ -11989,6 +11979,18 @@
     {
       "t": "2026-11-28T19:30:47Z",
       "text": "🏁 🧮 The Quant now leads the race to go live (6 days to selection)."
+    },
+    {
+      "t": "2026-11-28T19:45:33Z",
+      "text": "🧬 🧮 The Quant dropped the 🐶 Underdog lover trait: it stopped working (+1.6% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-28T19:45:33Z",
+      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
+    },
+    {
+      "t": "2026-11-28T19:45:33Z",
+      "text": "✅ 🧮 The Quant completed 🐶 Underdog hunter: 1 bet beat the market."
     }
   ]
 }
