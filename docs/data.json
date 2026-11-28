@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-28T03:45:33Z",
+  "updated": "2026-11-28T04:00:55Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -533,8 +533,8 @@
           "cautious": -0.0022,
           "beat": 0.6667,
           "challenges": 0.462,
-          "traits": 2,
-          "score": 7.44
+          "traits": 3,
+          "score": 9.44
         }
       ],
       "ranking": [
@@ -545,7 +545,7 @@
       "leader": "quant"
     }
   },
-  "credits_left": 15956,
+  "credits_left": 15954,
   "last_scan": "2026-11-28@1",
   "strategies": {
     "lizard": {
@@ -563,7 +563,7 @@
         "min_edge": 0.02,
         "odds": [
           1.6,
-          6.0
+          3.5
         ],
         "stop_below": 250
       },
@@ -590,7 +590,7 @@
         "Total"
       ],
       "start_fund": 500,
-      "fund": 468.3,
+      "fund": 472.25,
       "lessons": [
         {
           "kind": "avoid",
@@ -604,12 +604,12 @@
         }
       ],
       "bets": 158,
-      "open": 48,
-      "won": 33,
+      "open": 47,
+      "won": 34,
       "lost": 77,
-      "staked": 342.69,
-      "profit": -31.7,
-      "roi": -0.0925,
+      "staked": 344.95,
+      "profit": -27.75,
+      "roi": -0.0804,
       "avg_edge": 0.0315,
       "avg_clv": 0.0061,
       "beat_close": 0.6296,
@@ -1058,6 +1058,10 @@
         {
           "t": "2026-11-27T22:45:32Z",
           "fund": 468.3
+        },
+        {
+          "t": "2026-11-28T04:00:55Z",
+          "fund": 472.25
         }
       ],
       "by_league": [
@@ -1082,8 +1086,8 @@
         {
           "name": "MLS (USA)",
           "bets": 13,
-          "profit": 34.99,
-          "roi": 1.2738,
+          "profit": 38.94,
+          "roi": 1.3098,
           "avg_clv": 0.0254,
           "beat_close": 0.6667,
           "clv_count": 6
@@ -1210,8 +1214,8 @@
         {
           "name": "Winner",
           "bets": 129,
-          "profit": -38.28,
-          "roi": -0.1382,
+          "profit": -34.33,
+          "roi": -0.1229,
           "avg_clv": 0.0038,
           "beat_close": 0.5979,
           "clv_count": 97
@@ -1221,8 +1225,8 @@
         {
           "name": "Football",
           "bets": 158,
-          "profit": -31.7,
-          "roi": -0.0925,
+          "profit": -27.75,
+          "roi": -0.0804,
           "avg_clv": 0.0061,
           "beat_close": 0.6296,
           "clv_count": 108
@@ -1235,9 +1239,9 @@
         "beat": 0.5385,
         "trust": 0.274,
         "base": 0.55,
-        "won": 6,
+        "won": 7,
         "lost": 6,
-        "profit": 2.7
+        "profit": 6.65
       },
       "wild": {
         "bets": 12,
@@ -1535,6 +1539,17 @@
           "on": 0.013,
           "off": 0.006,
           "bets": 5
+        },
+        {
+          "id": "discipline",
+          "emoji": "🧘",
+          "title": "Disciplined",
+          "effect": "Avoids odds above 3.5.",
+          "from": "Discipline day",
+          "since": "2026-11-28T04:00:55Z",
+          "on": 0.129,
+          "off": 0.0067,
+          "bets": 2
         }
       ],
       "mind": {
@@ -1730,7 +1745,7 @@
         ],
         "rules": 0,
         "studied": 374,
-        "resolved": 266
+        "resolved": 267
       }
     },
     "quant": {
@@ -1748,7 +1763,7 @@
         "min_edge": 0.02,
         "odds": [
           1.6,
-          3.5
+          4.5
         ],
         "stop_below": 250
       },
@@ -2787,15 +2802,15 @@
           "bets": 16
         },
         {
-          "id": "sharp_eye",
-          "emoji": "🦅",
-          "title": "Sharp-eyed",
-          "effect": "Bets 15% more when the edge is +3% or bigger.",
-          "from": "Sharp eye",
-          "since": "2026-11-28T03:45:33Z",
-          "on": 0.0399,
+          "id": "underdog",
+          "emoji": "🐶",
+          "title": "Underdog lover",
+          "effect": "Allows underdogs at odds up to 1.0 higher.",
+          "from": "Underdog hunter",
+          "since": "2026-11-28T04:00:55Z",
+          "on": 0.0135,
           "off": 0.0238,
-          "bets": 11
+          "bets": 10
         }
       ],
       "mind": {
@@ -2981,7 +2996,7 @@
         "min_edge": 0.015,
         "odds": [
           1.6,
-          3.5
+          4.5
         ],
         "stop_below": 250
       },
@@ -3855,15 +3870,15 @@
           "bets": 4
         },
         {
-          "id": "new_ground",
-          "emoji": "🗺️",
-          "title": "Versatile",
-          "effect": "Keeps trying every bet type (+1 scout bet a day).",
-          "from": "New ground",
-          "since": "2026-11-28T03:45:33Z",
-          "on": 0.0339,
-          "off": 0.0198,
-          "bets": 8
+          "id": "underdog",
+          "emoji": "🐶",
+          "title": "Underdog lover",
+          "effect": "Allows underdogs at odds up to 1.0 higher.",
+          "from": "Underdog hunter",
+          "since": "2026-11-28T04:00:55Z",
+          "on": 0.0278,
+          "off": 0.0187,
+          "bets": 15
         }
       ],
       "mind": {
@@ -7902,12 +7917,12 @@
       "fair_odds": 2.723,
       "edge": 0.0098,
       "stake": 2.26,
-      "status": "open",
+      "status": "won",
       "closing_fair_odds": 2.445,
       "clv": 0.1249,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": 3.95,
+      "score": "Columbus Crew SC 1 - 0 Inter Miami CF",
+      "settled_at": "2026-11-28T04:00:55Z",
       "thoughts": [
         "Only +0.98% edge, just under my +2.0% bar. Can't prove it, but I like it.",
         "My rules say no. But something in the grass is moving. I'm taking a nibble.",
@@ -11674,30 +11689,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-28T02:15:34Z",
-      "text": "🧬 🦈 The Shark dropped the 🗺️ Versatile trait: it stopped working (+1.0% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-28T02:15:34Z",
-      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
-    },
-    {
-      "t": "2026-11-28T02:30:46Z",
-      "text": "🧬 🦎 The Lizard dropped the 🧘 Disciplined trait: it stopped working (+0.5% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-28T02:30:46Z",
-      "text": "🧬 🧮 The Quant dropped the 🐶 Underdog lover trait: it stopped working (+1.6% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-28T02:30:46Z",
-      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-28T02:43:44Z",
-      "text": "🧬 🦎 The Lizard made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-25 and its bets beat the market by +12.9%. Avoids odds above 3.5."
-    },
-    {
       "t": "2026-11-28T02:43:44Z",
       "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
     },
@@ -11792,6 +11783,30 @@
     {
       "t": "2026-11-28T03:45:33Z",
       "text": "🧬 🦈 The Shark made New ground part of its character: 🗺️ Versatile. It completed the challenge on 2026-11-24 and its bets beat the market by +3.4%. Keeps trying every bet type (+1 scout bet a day)."
+    },
+    {
+      "t": "2026-11-28T04:00:55Z",
+      "text": "🧬 🦎 The Lizard made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-25 and its bets beat the market by +12.9%. Avoids odds above 3.5."
+    },
+    {
+      "t": "2026-11-28T04:00:55Z",
+      "text": "🧬 🧮 The Quant dropped the 🦅 Sharp-eyed trait: it stopped working (+1.7% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-28T04:00:55Z",
+      "text": "🧬 🧮 The Quant made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-11 and its bets beat the market by +1.3%. Allows underdogs at odds up to 1.0 higher."
+    },
+    {
+      "t": "2026-11-28T04:00:55Z",
+      "text": "🧬 🦈 The Shark dropped the 🗺️ Versatile trait: it stopped working (+1.0% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-28T04:00:55Z",
+      "text": "🧬 🦈 The Shark made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-16 and its bets beat the market by +2.8%. Allows underdogs at odds up to 1.0 higher."
+    },
+    {
+      "t": "2026-11-28T04:00:55Z",
+      "text": "Results:\n- Won +3.95: Columbus Crew SC (Winner) in Columbus Crew SC vs Inter Miami CF (Columbus Crew SC 1 - 0 Inter Miami CF)"
     }
   ]
 }
