@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-28T05:00:56Z",
+  "updated": "2026-11-28T05:15:34Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -509,8 +509,8 @@
           "cautious": 0.0204,
           "beat": 0.6867,
           "challenges": 0.667,
-          "traits": 4,
-          "score": 35.5
+          "traits": 3,
+          "score": 33.5
         },
         {
           "who": "shark",
@@ -521,8 +521,8 @@
           "cautious": 0.02,
           "beat": 0.6905,
           "challenges": 0.733,
-          "traits": 4,
-          "score": 35.5
+          "traits": 3,
+          "score": 33.5
         },
         {
           "who": "lizard",
@@ -533,8 +533,8 @@
           "cautious": -0.0022,
           "beat": 0.6667,
           "challenges": 0.462,
-          "traits": 3,
-          "score": 9.44
+          "traits": 2,
+          "score": 7.44
         }
       ],
       "ranking": [
@@ -563,7 +563,7 @@
         "min_edge": 0.02,
         "odds": [
           1.6,
-          3.5
+          6.0
         ],
         "stop_below": 250
       },
@@ -1539,17 +1539,6 @@
           "on": 0.013,
           "off": 0.0065,
           "bets": 5
-        },
-        {
-          "id": "discipline",
-          "emoji": "🧘",
-          "title": "Disciplined",
-          "effect": "Avoids odds above 3.5.",
-          "from": "Discipline day",
-          "since": "2026-11-28T05:00:56Z",
-          "on": 0.129,
-          "off": 0.0072,
-          "bets": 2
         }
       ],
       "mind": {
@@ -1763,7 +1752,7 @@
         "min_edge": 0.02,
         "odds": [
           1.6,
-          4.5
+          3.5
         ],
         "stop_below": 250
       },
@@ -2809,17 +2798,6 @@
           "on": 0.058,
           "off": 0.0167,
           "bets": 16
-        },
-        {
-          "id": "underdog",
-          "emoji": "🐶",
-          "title": "Underdog lover",
-          "effect": "Allows underdogs at odds up to 1.0 higher.",
-          "from": "Underdog hunter",
-          "since": "2026-11-28T05:00:56Z",
-          "on": 0.0135,
-          "off": 0.0238,
-          "bets": 10
         }
       ],
       "mind": {
@@ -3005,7 +2983,7 @@
         "min_edge": 0.015,
         "odds": [
           1.6,
-          4.5
+          3.5
         ],
         "stop_below": 250
       },
@@ -3877,17 +3855,6 @@
           "on": 0.0157,
           "off": 0.0183,
           "bets": 4
-        },
-        {
-          "id": "underdog",
-          "emoji": "🐶",
-          "title": "Underdog lover",
-          "effect": "Allows underdogs at odds up to 1.0 higher.",
-          "from": "Underdog hunter",
-          "since": "2026-11-28T05:00:56Z",
-          "on": 0.0278,
-          "off": 0.0187,
-          "bets": 15
         }
       ],
       "mind": {
@@ -11712,18 +11679,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-28T03:30:46Z",
-      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
-    },
-    {
-      "t": "2026-11-28T03:30:46Z",
-      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
-    },
-    {
-      "t": "2026-11-28T03:45:33Z",
-      "text": "🧬 🦎 The Lizard dropped the 🧘 Disciplined trait: it stopped working (+0.5% vs the market on those days)."
-    },
-    {
       "t": "2026-11-28T03:45:33Z",
       "text": "🧬 🧮 The Quant dropped the 🧘 Disciplined trait: it stopped working (+1.3% vs the market on those days)."
     },
@@ -11830,6 +11785,18 @@
     {
       "t": "2026-11-28T05:00:56Z",
       "text": "Placed 16 practice bets:\n- The Lizard: **FC St. Pauli** (Winner) in Dynamo Dresden vs FC St. Pauli (2. Bundesliga) at 2.48 on Unibet (NL), stake 4.64, edge +2.9%\n- The Lizard: **Under 3** (Total) in Los Angeles FC vs St. Louis City SC (MLS (USA)) at 2.08 on BetAnything, stake 11.68, edge +5.3%\n- The Quant: **Liberty Flames** (Winner) in UNC Wilmington Seahawks vs Liberty Flames (College basketball (US)) at 3.1 on LeoVegas (SE), stake 4.33, edge +2.1%\n- The Quant: **California Golden Bears** (Winner) in Minnesota Golden Gophers vs California Golden Bears (College basketball (US)) at 3.75 on Unibet (NL), stake 4.16, edge +2.7%\n- The Quant: **Loyola Marymount Lions** (Winner) in UC San Diego Tritons vs Loyola Marymount Lions (College basketball (US)) at 2.2 on 888sport, stake 21.20, edge +6.0%\n- The Lizard ⚡ pounce: **Charlton Athletic** (Winner) in Blackburn Rovers vs Charlton Athletic (Championship (England 2)) at 4.1 on LeoVegas (SE), stake 4.32, edge +11.3%\n- The Lizard 🧭 scout: **Mirassol** (Winner) in Mirassol vs Atletico Paranaense (Brasileirão (Brazil)) at 2.12 on GTbets, stake 2.36, edge +1.7%\n- The Shark 🧭 scout: **Virginia Tech Hokies** (Winner) in Virginia Tech Hokies vs Virginia Cavaliers (College football (US)) at 1.76 on Matchbook, stake 2.44, edge +0.6%\n- The Lizard 💭 gut: **RB Leipzig** (Winner) in SC Freiburg vs RB Leipzig (Bundesliga - Germany) at 2.48 on Unibet (SE), stake 2.36, edge +1.9%\n- The Lizard 💭 gut: **Under 2.5** (Total) in Queens Park Rangers vs Sheffield United (Championship (England 2)) at 2.07 on Unibet (NL), stake 2.36, edge +1.1%\n- The Shark 💭 gut: **Las Vegas Raiders** (Winner) in Cleveland Browns vs Las Vegas Raiders (NFL) at 3.1 on Matchbook, stake 2.44, edge +0.3%\n- The Lizard 🎲 wild: **Union Berlin** (Winner) in FSV Mainz 05 vs Union Berlin (Bundesliga - Germany) at 7.0 on Matchbook, stake 1.18, edge +4.0%\n- The Lizard 🎲 wild: **Preston North End** (Winner) in Preston North End vs Norwich City (Championship (England 2)) at 4.6 on LeoVegas (SE), stake 1.18, edge +5.0%\n- The Quant 🎲 wild: **Milwaukee Bucks** (Winner) in Milwaukee Bucks vs Oklahoma City Thunder (NBA) at 5.3 on Matchbook, stake 1.18, edge +-0.9%\n- The Shark 🎲 wild: **Auburn Tigers** (Winner) in Alabama Crimson Tide vs Auburn Tigers (College football (US)) at 6.34 on BetOnline.ag, stake 1.22, edge +-3.0%\n- The Shark 🎲 wild: **Arkansas Razorbacks** (Winner) in Arkansas Razorbacks vs LSU Tigers (College football (US)) at 6.2 on Matchbook, stake 1.22, edge +3.4%"
+    },
+    {
+      "t": "2026-11-28T05:15:34Z",
+      "text": "🧬 🦎 The Lizard dropped the 🧘 Disciplined trait: it stopped working (+0.5% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-28T05:15:34Z",
+      "text": "🧬 🧮 The Quant dropped the 🐶 Underdog lover trait: it stopped working (+1.6% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-28T05:15:34Z",
+      "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
     }
   ]
 }
