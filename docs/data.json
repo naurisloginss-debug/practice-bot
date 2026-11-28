@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-28T18:30:47Z",
+  "updated": "2026-11-28T18:45:29Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -16,11 +16,11 @@
     "talk": [
       {
         "who": "quant",
-        "text": "The data put me first. The Shark, check your model. 6 days until selection. Regression to the mean is coming for the leader."
+        "text": "The data put me first. The Shark, check your model. The data says I'm the one going live. 6 days to prove it."
       },
       {
         "who": "shark",
-        "text": "I smell The Quant's lead from here. Closing in. Only one of us gets real money. Smell that? It's me."
+        "text": "I smell The Quant's lead from here. Closing in. Only one of us gets real money, in 6 days. And I'm hungry."
       },
       {
         "who": "lizard",
@@ -501,18 +501,6 @@
       "min_bets": 30,
       "rows": [
         {
-          "who": "shark",
-          "eligible": true,
-          "measured": 47,
-          "need": 0,
-          "clv": 0.0299,
-          "cautious": 0.0198,
-          "beat": 0.7021,
-          "challenges": 0.75,
-          "traits": 4,
-          "score": 35.62
-        },
-        {
           "who": "quant",
           "eligible": true,
           "measured": 83,
@@ -523,6 +511,18 @@
           "challenges": 0.667,
           "traits": 4,
           "score": 35.5
+        },
+        {
+          "who": "shark",
+          "eligible": true,
+          "measured": 47,
+          "need": 0,
+          "clv": 0.0299,
+          "cautious": 0.0198,
+          "beat": 0.7021,
+          "challenges": 0.75,
+          "traits": 3,
+          "score": 33.62
         },
         {
           "who": "lizard",
@@ -538,11 +538,11 @@
         }
       ],
       "ranking": [
-        "shark",
         "quant",
+        "shark",
         "lizard"
       ],
-      "leader": "shark"
+      "leader": "quant"
     }
   },
   "credits_left": 15696,
@@ -1346,8 +1346,15 @@
         "measured": 6
       },
       "reading": {
-        "week": 75,
+        "week": 109,
         "latest": [
+          {
+            "t": "2026-11-28T16:50:04Z",
+            "title": "Ancelotti to be inducted into Milan Hall of Fame on Dec 6",
+            "link": "https://football-italia.net/ancelotti-to-be-inducted-milan-hall-of-fame/",
+            "source": "football-italia.net",
+            "tone": 1
+          },
           {
             "t": "2026-11-28T13:57:54Z",
             "title": "Genoa worry as Ostigard back in hospital after falling ill",
@@ -1382,13 +1389,6 @@
             "link": "https://www.bbc.co.uk/sport/football/articles/cmlywr5jqrr9o?at_medium=RSS&at_campaign=rss",
             "source": "feeds.bbci.co.uk",
             "tone": 1
-          },
-          {
-            "t": "2026-11-27T16:05:30Z",
-            "title": "Spurs' Savio to miss festive fixtures after injury setback",
-            "link": "https://www.bbc.co.uk/sport/football/articles/cw4gnm4p3zxlo?at_medium=RSS&at_campaign=rss",
-            "source": "feeds.bbci.co.uk",
-            "tone": -1
           }
         ]
       },
@@ -1862,7 +1862,7 @@
         "min_edge": 0.02,
         "odds": [
           1.6,
-          3.5
+          4.5
         ],
         "stop_below": 250
       },
@@ -2671,7 +2671,7 @@
         "measured": 1
       },
       "reading": {
-        "week": 115,
+        "week": 103,
         "latest": [
           {
             "t": "2026-11-28T13:58:31Z",
@@ -2958,15 +2958,15 @@
           "bets": 16
         },
         {
-          "id": "sharp_eye",
-          "emoji": "🦅",
-          "title": "Sharp-eyed",
-          "effect": "Bets 15% more when the edge is +3% or bigger.",
-          "from": "Sharp eye",
-          "since": "2026-11-28T18:30:47Z",
-          "on": 0.0399,
+          "id": "underdog",
+          "emoji": "🐶",
+          "title": "Underdog lover",
+          "effect": "Allows underdogs at odds up to 1.0 higher.",
+          "from": "Underdog hunter",
+          "since": "2026-11-28T18:45:29Z",
+          "on": 0.0135,
           "off": 0.0238,
-          "bets": 11
+          "bets": 10
         }
       ],
       "mind": {
@@ -3744,47 +3744,47 @@
         "measured": 5
       },
       "reading": {
-        "week": 410,
+        "week": 388,
         "latest": [
           {
-            "t": "2026-11-28T15:21:15Z",
-            "title": "Bryce Underwood injury update: Michigan gets positive news ahead of Ohio State game",
-            "link": "https://sports.yahoo.com/college-football/articles/bryce-underwood-injury-michigan-gets-152115249.html",
+            "t": "2026-11-28T18:31:05Z",
+            "title": "Jordon Davison expected to return for Oregon’s regular season finale vs. Washington",
+            "link": "https://sports.yahoo.com/college-football/articles/jordon-davison-expected-return-oregon-183105304.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-28T15:13:38Z",
-            "title": "Ohio State Injury Report: 10 Players Ruled OUT for The Game vs. Michigan",
-            "link": "https://sports.yahoo.com/college-football/articles/ohio-state-injury-report-10-151338227.html",
+            "t": "2026-11-28T18:20:19Z",
+            "title": "USC football vs UCLA live updates: highlights and analysis",
+            "link": "https://sports.yahoo.com/college-football/articles/usc-football-vs-ucla-live-182019903.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-28T15:13:16Z",
-            "title": "Ty Dieffenbach injury update: UCLA gets surprising news for USC game",
-            "link": "https://sports.yahoo.com/college-football/articles/ty-dieffenbach-injury-ucla-gets-151316590.html",
+            "t": "2026-11-28T18:05:48Z",
+            "title": "Ohio State, Michigan separated after brawling during opening kickoff",
+            "link": "https://sports.yahoo.com/college-football/articles/ohio-state-michigan-separated-brawling-180548208.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-28T15:09:46Z",
-            "title": "Michigan football vs. Ohio State: Full game-day injury reports",
-            "link": "https://sports.yahoo.com/college-football/articles/michigan-football-vs-ohio-state-150946444.html",
+            "t": "2026-11-28T18:00:04Z",
+            "title": "SMU Injury Report: Nine Players Ruled Out Ahead Of Stanford Showdown",
+            "link": "https://sports.yahoo.com/college-football/articles/smu-injury-report-nine-players-180004186.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-28T15:09:36Z",
-            "title": "Michigan Injury Report: 9 Players Ruled OUT for The Game vs. Ohio State",
-            "link": "https://sports.yahoo.com/college-football/articles/michigan-injury-report-9-players-150936735.html",
+            "t": "2026-11-28T17:36:40Z",
+            "title": "Kentucky football down star tailback for Louisville clash",
+            "link": "https://sports.yahoo.com/college-football/articles/kentucky-football-down-star-tailback-173640894.html",
             "source": "sports.yahoo.com",
             "tone": -1
           },
           {
-            "t": "2026-11-28T15:00:00Z",
-            "title": "Cardinals – Commanders Week 12 injury reports",
-            "link": "https://sports.yahoo.com/nfl/articles/cardinals-commanders-week-12-injury-150000000.html",
+            "t": "2026-11-28T16:49:20Z",
+            "title": "Illinois vs. Northwestern Preview: How to Watch, Injury Report & Odds",
+            "link": "https://sports.yahoo.com/college-football/articles/illinois-vs-northwestern-preview-watch-164920639.html",
             "source": "sports.yahoo.com",
             "tone": -1
           }
@@ -4007,7 +4007,7 @@
           "from": "Read and react",
           "since": "2026-11-21T17:45:33Z",
           "on": 0.0888,
-          "off": 0.0145,
+          "off": 0.0146,
           "bets": 2
         },
         {
@@ -4018,7 +4018,7 @@
           "from": "Study day",
           "since": "2026-11-22T17:45:32Z",
           "on": 0.0329,
-          "off": 0.0164,
+          "off": 0.0165,
           "bets": 1
         },
         {
@@ -4029,19 +4029,8 @@
           "from": "Underdog hunter",
           "since": "2026-11-28T16:45:32Z",
           "on": 0.0172,
-          "off": 0.0163,
+          "off": 0.0165,
           "bets": 22
-        },
-        {
-          "id": "new_ground",
-          "emoji": "🗺️",
-          "title": "Versatile",
-          "effect": "Keeps trying every bet type (+1 scout bet a day).",
-          "from": "New ground",
-          "since": "2026-11-28T18:30:47Z",
-          "on": 0.0339,
-          "off": 0.0178,
-          "bets": 8
         }
       ],
       "mind": {
@@ -11893,22 +11882,6 @@
   "log": [
     {
       "t": "2026-11-28T17:00:58Z",
-      "text": "🧬 🧮 The Quant dropped the 🐶 Underdog lover trait: it stopped working (+1.6% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-28T17:00:58Z",
-      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
-    },
-    {
-      "t": "2026-11-28T17:00:58Z",
-      "text": "Placed 6 practice bets:\n- The Lizard: **Oldham Athletic** (Winner) in Oldham Athletic vs Bristol Rovers (League Two (England 4)) at 2.48 on Unibet (SE), stake 7.26, edge +2.9%\n- The Lizard: **Leicester City** (Winner) in Cambridge United vs Leicester City (League One (England 3)) at 2.2 on Unibet (SE), stake 8.67, edge +2.8%\n- The Quant: **Toledo Rockets** (Winner) in Valparaiso Beacons vs Toledo Rockets (College basketball (US)) at 2.7 on Unibet (SE), stake 6.63, edge +2.6%\n- The Quant: **North Texas Mean Green** (Winner) in Boise State Broncos vs North Texas Mean Green (College basketball (US)) at 2.77 on BetOnline.ag, stake 5.86, edge +2.4%\n- The Quant: **UMass Lowell River Hawks +3.5** (Spread) in American Eagles vs UMass Lowell River Hawks (College basketball (US)) at 2.0 on 888sport, stake 7.87, edge +2.3%\n- The Shark: **California Golden Bears +9.5** (Spread) in California Golden Bears vs Pittsburgh Panthers (College football (US)) at 2.03 on BetOnline.ag, stake 6.41, edge +2.0%"
-    },
-    {
-      "t": "2026-11-28T17:00:58Z",
-      "text": "Results:\n- Lost -2.67: Draw (Winner) in Carrarese vs Juve Stabia (Carrarese 3 - 1 Juve Stabia)\n- Lost -2.30: Hellas Verona (Winner) in Empoli vs Hellas Verona (Empoli 2 - 2 Hellas Verona)\n- Won +2.16: Ascoli (Winner) in Ascoli vs Virtus Entella (Ascoli 2 - 0 Virtus Entella)"
-    },
-    {
-      "t": "2026-11-28T17:00:58Z",
       "text": "🏁 🦈 The Shark now leads the race to go live (6 days to selection)."
     },
     {
@@ -12010,6 +11983,22 @@
     {
       "t": "2026-11-28T18:30:47Z",
       "text": "🏁 🦈 The Shark now leads the race to go live (6 days to selection)."
+    },
+    {
+      "t": "2026-11-28T18:45:29Z",
+      "text": "🧬 🧮 The Quant dropped the 🦅 Sharp-eyed trait: it stopped working (+1.7% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-28T18:45:29Z",
+      "text": "🧬 🧮 The Quant made Underdog hunter part of its character: 🐶 Underdog lover. It completed the challenge on 2026-11-11 and its bets beat the market by +1.3%. Allows underdogs at odds up to 1.0 higher."
+    },
+    {
+      "t": "2026-11-28T18:45:29Z",
+      "text": "🧬 🦈 The Shark dropped the 🗺️ Versatile trait: it stopped working (+1.1% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-28T18:45:29Z",
+      "text": "🏁 🧮 The Quant now leads the race to go live (6 days to selection)."
     }
   ]
 }
