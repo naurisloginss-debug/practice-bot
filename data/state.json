@@ -1,6 +1,6 @@
 {
   "last_scan": "2026-11-28@9",
-  "credits_left": 15846,
+  "credits_left": 15844,
   "league_names": {
     "soccer_italy_serie_b": "Serie B (Italy 2)",
     "soccer_efl_champ": "Championship (England 2)",
@@ -33,7 +33,7 @@
     "soccer_spain_segunda_division": "2026-11-27T22:30:46Z",
     "americanfootball_nfl": "2026-11-27T23:00:56Z",
     "soccer_italy_serie_b": "2026-11-26T03:01:03Z",
-    "basketball_nba": "2026-11-28T03:15:38Z",
+    "basketball_nba": "2026-11-28T09:30:46Z",
     "basketball_euroleague": "2026-11-26T01:15:32Z",
     "americanfootball_ncaaf": "2026-11-28T08:15:32Z",
     "basketball_ncaab": "2026-11-28T07:15:34Z",
@@ -51,22 +51,6 @@
     "soccer_germany_bundesliga": "2026-11-27T22:30:46Z"
   },
   "log": [
-    {
-      "t": "2026-11-28T07:45:30Z",
-      "text": "🧬 🧮 The Quant made Sharp eye part of its character: 🦅 Sharp-eyed. It completed the challenge on 2026-11-27 and its bets beat the market by +4.0%. Bets 15% more when the edge is +3% or bigger."
-    },
-    {
-      "t": "2026-11-28T07:45:30Z",
-      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-28T07:45:30Z",
-      "text": "🧬 🦈 The Shark made New ground part of its character: 🗺️ Versatile. It completed the challenge on 2026-11-24 and its bets beat the market by +3.4%. Keeps trying every bet type (+1 scout bet a day)."
-    },
-    {
-      "t": "2026-11-28T08:00:54Z",
-      "text": "🧬 🦎 The Lizard made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-25 and its bets beat the market by +2.6%. Avoids odds above 3.5."
-    },
     {
       "t": "2026-11-28T08:00:54Z",
       "text": "🧬 🧮 The Quant dropped the 🦅 Sharp-eyed trait: it stopped working (+1.7% vs the market on those days)."
@@ -170,6 +154,22 @@
     {
       "t": "2026-11-28T09:15:32Z",
       "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-28T09:30:46Z",
+      "text": "🧬 🦎 The Lizard made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-25 and its bets beat the market by +2.6%. Avoids odds above 3.5."
+    },
+    {
+      "t": "2026-11-28T09:30:46Z",
+      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
+    },
+    {
+      "t": "2026-11-28T09:30:46Z",
+      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
+    },
+    {
+      "t": "2026-11-28T09:30:46Z",
+      "text": "Results:\n- Won +6.35: Los Angeles Lakers +5.5 (Spread) in San Antonio Spurs vs Los Angeles Lakers (San Antonio Spurs 99 - 96 Los Angeles Lakers)\n- Lost -5.29: Los Angeles Lakers (Winner) in San Antonio Spurs vs Los Angeles Lakers (San Antonio Spurs 99 - 96 Los Angeles Lakers)\n- Lost -1.15: Utah Jazz (Winner) in Utah Jazz vs Denver Nuggets (Utah Jazz 107 - 120 Denver Nuggets)\n- Won +2.64: Dallas Mavericks (Winner) in Phoenix Suns vs Dallas Mavericks (Phoenix Suns 109 - 113 Dallas Mavericks)\n- Lost -2.26: Minnesota Timberwolves (Winner) in Minnesota Timberwolves vs Memphis Grizzlies (Minnesota Timberwolves 109 - 114 Memphis Grizzlies)\n- Won +10.10: Philadelphia 76ers (Winner) in Indiana Pacers vs Philadelphia 76ers (Indiana Pacers 87 - 111 Philadelphia 76ers)\n- Lost -4.53: Golden State Warriors (Winner) in Portland Trail Blazers vs Golden State Warriors (Portland Trail Blazers 116 - 94 Golden State Warriors)\n- Won +2.71: New Orleans Pelicans (Winner) in Los Angeles Clippers vs New Orleans Pelicans (Los Angeles Clippers 104 - 105 New Orleans Pelicans)"
     }
   ],
   "levels": {
@@ -506,7 +506,7 @@
       },
       {
         "d": "2026-11-28",
-        "iq": 150
+        "iq": 151
       }
     ],
     "shark": [
@@ -2406,20 +2406,20 @@
     }
   },
   "skip_note": "2026-11-06@8",
-  "news_at": "2026-11-28T06:30:45Z",
+  "news_at": "2026-11-28T09:30:46Z",
   "feed_status": {
     "https://www.espn.com/espn/rss/nba/news": "error 2026-11-10T08:42:16Z: no element found: line 1, column 0",
-    "https://www.cbssports.com/rss/headlines/nba/": "ok 2026-11-28T06:30:45Z",
-    "https://sports.yahoo.com/nba/rss.xml": "ok 2026-11-28T06:30:45Z",
+    "https://www.cbssports.com/rss/headlines/nba/": "ok 2026-11-28T09:30:46Z",
+    "https://sports.yahoo.com/nba/rss.xml": "ok 2026-11-28T09:30:46Z",
     "https://www.espn.com/espn/rss/nfl/news": "error 2026-11-10T08:42:16Z: no element found: line 1, column 0",
     "https://www.espn.com/espn/rss/ncf/news": "error 2026-11-10T08:42:16Z: no element found: line 1, column 0",
-    "https://www.cbssports.com/rss/headlines/nfl/": "ok 2026-11-28T06:30:45Z",
-    "https://sports.yahoo.com/nfl/rss.xml": "ok 2026-11-28T06:30:45Z",
-    "https://sports.yahoo.com/college-football/rss.xml": "ok 2026-11-28T06:30:45Z",
-    "https://feeds.bbci.co.uk/sport/football/rss.xml": "ok 2026-11-28T06:30:45Z",
-    "https://feeds.bbci.co.uk/sport/football/championship/rss.xml": "ok 2026-11-28T06:30:45Z",
-    "https://feeds.bbci.co.uk/sport/football/european/rss.xml": "ok 2026-11-28T06:30:45Z",
-    "https://football-italia.net/feed/": "ok 2026-11-28T06:30:45Z"
+    "https://www.cbssports.com/rss/headlines/nfl/": "ok 2026-11-28T09:30:46Z",
+    "https://sports.yahoo.com/nfl/rss.xml": "ok 2026-11-28T09:30:46Z",
+    "https://sports.yahoo.com/college-football/rss.xml": "ok 2026-11-28T09:30:46Z",
+    "https://feeds.bbci.co.uk/sport/football/rss.xml": "ok 2026-11-28T09:30:46Z",
+    "https://feeds.bbci.co.uk/sport/football/championship/rss.xml": "ok 2026-11-28T09:30:46Z",
+    "https://feeds.bbci.co.uk/sport/football/european/rss.xml": "ok 2026-11-28T09:30:46Z",
+    "https://football-italia.net/feed/": "ok 2026-11-28T09:30:46Z"
   },
   "exploring": {
     "lizard": {
@@ -3162,6 +3162,12 @@
         "on": 0.013,
         "off": 0.0065,
         "bets": 5
+      },
+      "discipline": {
+        "since": "2026-11-28T09:30:46Z",
+        "on": 0.0263,
+        "off": 0.0072,
+        "bets": 4
       }
     },
     "quant": {
@@ -3182,6 +3188,12 @@
         "on": 0.058,
         "off": 0.0167,
         "bets": 16
+      },
+      "discipline": {
+        "since": "2026-11-28T09:30:46Z",
+        "on": 0.0391,
+        "off": 0.0238,
+        "bets": 3
       }
     },
     "shark": {
@@ -3202,6 +3214,12 @@
         "on": 0.0157,
         "off": 0.0183,
         "bets": 4
+      },
+      "precision": {
+        "since": "2026-11-28T09:30:46Z",
+        "on": 0.032,
+        "off": 0.0198,
+        "bets": 2
       }
     }
   },

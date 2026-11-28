@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-28T09:15:32Z",
+  "updated": "2026-11-28T09:30:46Z",
   "start_fund": 500,
   "order": [
     "lizard",
@@ -211,8 +211,8 @@
         ]
       },
       "quant": {
-        "iq": 150,
-        "iq_gain": 7,
+        "iq": 151,
+        "iq_gain": 8,
         "streak": 0,
         "best_streak": 9,
         "achievements": [
@@ -334,7 +334,7 @@
             "pending": false
           }
         ],
-        "score": 245,
+        "score": 246,
         "trophies": [
           {
             "kind": "grower",
@@ -509,8 +509,8 @@
           "cautious": 0.0204,
           "beat": 0.6867,
           "challenges": 0.667,
-          "traits": 3,
-          "score": 33.5
+          "traits": 4,
+          "score": 35.5
         },
         {
           "who": "shark",
@@ -521,8 +521,8 @@
           "cautious": 0.02,
           "beat": 0.6905,
           "challenges": 0.733,
-          "traits": 3,
-          "score": 33.5
+          "traits": 4,
+          "score": 35.5
         },
         {
           "who": "lizard",
@@ -533,8 +533,8 @@
           "cautious": -0.0022,
           "beat": 0.6667,
           "challenges": 0.462,
-          "traits": 2,
-          "score": 7.44
+          "traits": 3,
+          "score": 9.44
         }
       ],
       "ranking": [
@@ -545,7 +545,7 @@
       "leader": "quant"
     }
   },
-  "credits_left": 15846,
+  "credits_left": 15844,
   "last_scan": "2026-11-28@9",
   "strategies": {
     "lizard": {
@@ -563,7 +563,7 @@
         "min_edge": 0.02,
         "odds": [
           1.6,
-          6.0
+          3.5
         ],
         "stop_below": 250
       },
@@ -1265,8 +1265,22 @@
         "measured": 3
       },
       "reading": {
-        "week": 98,
+        "week": 116,
         "latest": [
+          {
+            "t": "2026-11-28T09:06:04Z",
+            "title": "Serie A: Inter vs. Genoa – Probable line-ups, where to watch on TV",
+            "link": "https://football-italia.net/serie-a-inter-genoa-probable-line-ups-watch-tv/",
+            "source": "football-italia.net",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-28T07:29:50Z",
+            "title": "I watched every Brighton game at Dortmund - Gross",
+            "link": "https://www.bbc.co.uk/sport/football/videos/cw5y1e747375o?at_medium=RSS&at_campaign=rss",
+            "source": "feeds.bbci.co.uk",
+            "tone": 1
+          },
           {
             "t": "2026-11-27T20:10:00Z",
             "title": "Raimondo makes speedy recovery ahead of Frosinone vs. Parma",
@@ -1293,20 +1307,6 @@
             "title": "Malagò insists Italy players pushed for Mancini’s return",
             "link": "https://football-italia.net/malago-italy-players-push-mancini-return/",
             "source": "football-italia.net",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-27T16:05:30Z",
-            "title": "Spurs' Savio to miss festive fixtures after injury setback",
-            "link": "https://www.bbc.co.uk/sport/football/articles/cw4gnm4p3zxlo?at_medium=RSS&at_campaign=rss",
-            "source": "feeds.bbci.co.uk",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-27T15:03:12Z",
-            "title": "What happens now for Bayern Munich and Musiala?",
-            "link": "https://www.bbc.co.uk/sport/football/articles/cmly5j49ypzqo?at_medium=RSS&at_campaign=rss",
-            "source": "feeds.bbci.co.uk",
             "tone": 1
           }
         ]
@@ -1543,6 +1543,17 @@
           "on": 0.013,
           "off": 0.0065,
           "bets": 5
+        },
+        {
+          "id": "discipline",
+          "emoji": "🧘",
+          "title": "Disciplined",
+          "effect": "Avoids odds above 3.5.",
+          "from": "Discipline day",
+          "since": "2026-11-28T09:30:46Z",
+          "on": 0.0263,
+          "off": 0.0072,
+          "bets": 4
         }
       ],
       "mind": {
@@ -1771,7 +1782,7 @@
         "Winner"
       ],
       "start_fund": 500,
-      "fund": 479.49,
+      "fund": 488.06,
       "lessons": [
         {
           "kind": "favour",
@@ -1795,12 +1806,12 @@
         }
       ],
       "bets": 170,
-      "open": 14,
-      "won": 61,
-      "lost": 95,
-      "staked": 909.68,
-      "profit": -20.51,
-      "roi": -0.0225,
+      "open": 6,
+      "won": 65,
+      "lost": 99,
+      "staked": 948.66,
+      "profit": -11.94,
+      "roi": -0.0126,
       "avg_edge": 0.0305,
       "avg_clv": 0.0233,
       "beat_close": 0.6029,
@@ -2433,14 +2444,46 @@
         {
           "t": "2026-11-28T07:15:34Z",
           "fund": 479.49
+        },
+        {
+          "t": "2026-11-28T09:30:46Z",
+          "fund": 485.84
+        },
+        {
+          "t": "2026-11-28T09:30:46Z",
+          "fund": 480.55
+        },
+        {
+          "t": "2026-11-28T09:30:46Z",
+          "fund": 479.4
+        },
+        {
+          "t": "2026-11-28T09:30:46Z",
+          "fund": 482.04
+        },
+        {
+          "t": "2026-11-28T09:30:46Z",
+          "fund": 479.78
+        },
+        {
+          "t": "2026-11-28T09:30:46Z",
+          "fund": 489.88
+        },
+        {
+          "t": "2026-11-28T09:30:46Z",
+          "fund": 485.35
+        },
+        {
+          "t": "2026-11-28T09:30:46Z",
+          "fund": 488.06
         }
       ],
       "by_league": [
         {
           "name": "NBA",
           "bets": 45,
-          "profit": 15.86,
-          "roi": 0.1591,
+          "profit": 24.43,
+          "roi": 0.1762,
           "avg_clv": 0.0261,
           "beat_close": 0.6098,
           "clv_count": 41
@@ -2468,8 +2511,8 @@
         {
           "name": "Winner",
           "bets": 126,
-          "profit": -2.08,
-          "roi": -0.0051,
+          "profit": 0.14,
+          "roi": 0.0003,
           "avg_clv": 0.028,
           "beat_close": 0.6333,
           "clv_count": 120
@@ -2477,8 +2520,8 @@
         {
           "name": "Spread",
           "bets": 10,
-          "profit": -0.56,
-          "roi": -0.019,
+          "profit": 5.79,
+          "roi": 0.1628,
           "avg_clv": 0.0207,
           "beat_close": 0.8,
           "clv_count": 5
@@ -2497,8 +2540,8 @@
         {
           "name": "Basketball",
           "bets": 170,
-          "profit": -20.51,
-          "roi": -0.0225,
+          "profit": -11.94,
+          "roi": -0.0126,
           "avg_clv": 0.0233,
           "beat_close": 0.6029,
           "clv_count": 136
@@ -2511,15 +2554,15 @@
         "beat": 0.5,
         "trust": 0.696,
         "base": 0.4,
-        "won": 9,
+        "won": 11,
         "lost": 14,
-        "profit": -6.46
+        "profit": -1.11
       },
       "wild": {
         "bets": 11,
         "won": 1,
-        "lost": 8,
-        "profit": -3.54,
+        "lost": 9,
+        "profit": -4.69,
         "best": 4.7,
         "avg_clv": 0.0302,
         "appetite": 0.35
@@ -2527,13 +2570,13 @@
       "pounce": {
         "bets": 1,
         "won": 0,
-        "lost": 0,
-        "profit": 0,
+        "lost": 1,
+        "profit": -4.53,
         "avg_clv": 0.0575,
         "measured": 1
       },
       "reading": {
-        "week": 107,
+        "week": 123,
         "latest": [
           {
             "t": "2026-11-28T04:39:24Z",
@@ -2818,11 +2861,22 @@
           "on": 0.058,
           "off": 0.0167,
           "bets": 16
+        },
+        {
+          "id": "discipline",
+          "emoji": "🧘",
+          "title": "Disciplined",
+          "effect": "Avoids odds above 3.5.",
+          "from": "Discipline day",
+          "since": "2026-11-28T09:30:46Z",
+          "on": 0.0391,
+          "off": 0.0238,
+          "bets": 3
         }
       ],
       "mind": {
-        "iq": 150,
-        "iq_week": 20,
+        "iq": 151,
+        "iq_week": 21,
         "iq_history": [
           {
             "d": "2026-11-04",
@@ -2922,7 +2976,7 @@
           },
           {
             "d": "2026-11-28",
-            "iq": 150
+            "iq": 151
           }
         ],
         "facts": [
@@ -2949,24 +3003,24 @@
           },
           {
             "conf": "solid",
-            "n": 150,
+            "n": 157,
             "z": 0,
             "text": "The market prices overs in NBA accurately.",
-            "detail": "50% happened, 50% priced, 150 games"
+            "detail": "48% happened, 50% priced, 157 games"
           },
           {
             "conf": "solid",
-            "n": 120,
+            "n": 127,
             "z": 0,
             "text": "The market prices home wins in NBA accurately.",
-            "detail": "52% happened, 54% priced, 120 games"
+            "detail": "50% happened, 54% priced, 127 games"
           },
           {
             "conf": "solid",
-            "n": 120,
+            "n": 127,
             "z": 0,
             "text": "The market prices away wins in NBA accurately.",
-            "detail": "48% happened, 46% priced, 120 games"
+            "detail": "50% happened, 46% priced, 127 games"
           },
           {
             "conf": "solid",
@@ -2978,7 +3032,7 @@
         ],
         "rules": 0,
         "studied": 1035,
-        "resolved": 991
+        "resolved": 998
       }
     },
     "shark": {
@@ -2993,7 +3047,7 @@
       "risk": {
         "kelly": 0.6,
         "max_stake_pct": 7,
-        "min_edge": 0.015,
+        "min_edge": 0.02,
         "odds": [
           1.6,
           3.5
@@ -3595,8 +3649,29 @@
         "measured": 5
       },
       "reading": {
-        "week": 395,
+        "week": 361,
         "latest": [
+          {
+            "t": "2026-11-28T08:41:33Z",
+            "title": "Rams guard Bill Murray out for season after torn Achilles in first career start",
+            "link": "https://sports.yahoo.com/nfl/articles/rams-guard-bill-murray-season-084133862.html",
+            "source": "sports.yahoo.com",
+            "tone": -1
+          },
+          {
+            "t": "2026-11-28T08:26:20Z",
+            "title": "Everything You Need to Know For SMU at Stanford",
+            "link": "https://sports.yahoo.com/college-football/articles/everything-know-smu-stanford-082620892.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
+          {
+            "t": "2026-11-28T05:54:40Z",
+            "title": "No. 2 Utah Beats West Virginia 52-28 to Stay Unbeaten",
+            "link": "https://sports.yahoo.com/college-football/articles/no-2-utah-beats-west-055440041.html",
+            "source": "sports.yahoo.com",
+            "tone": 1
+          },
           {
             "t": "2026-11-28T05:45:00Z",
             "title": "Rams sign tight end away NFC West rival’s practice squad",
@@ -3615,27 +3690,6 @@
             "t": "2026-11-28T05:28:53Z",
             "title": "Camrix Stott helps Gordonsville football return to state championship for fourth time",
             "link": "https://sports.yahoo.com/high-school-sports/articles/camrix-stott-helps-gordonsville-football-052853936.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-28T05:20:48Z",
-            "title": "Jets getting much-needed defensive reinforcement with David Onyemata’s return",
-            "link": "https://sports.yahoo.com/nfl/articles/jets-getting-much-needed-defensive-052048067.html",
-            "source": "sports.yahoo.com",
-            "tone": -1
-          },
-          {
-            "t": "2026-11-28T05:04:26Z",
-            "title": "Michigan Alum Rips University Leadership as Trev Alberts Remains Open to Return Under One Condition",
-            "link": "https://sports.yahoo.com/college-football/articles/michigan-alum-rips-university-leadership-050426293.html",
-            "source": "sports.yahoo.com",
-            "tone": 1
-          },
-          {
-            "t": "2026-11-28T03:00:26Z",
-            "title": "Former Oregon commit Kodi Greene returns to Eugene with Washington",
-            "link": "https://sports.yahoo.com/college-football/articles/former-oregon-commit-kodi-greene-030026832.html",
             "source": "sports.yahoo.com",
             "tone": 1
           }
@@ -3880,6 +3934,17 @@
           "on": 0.0157,
           "off": 0.0183,
           "bets": 4
+        },
+        {
+          "id": "precision",
+          "emoji": "🎯",
+          "title": "Precise",
+          "effect": "Always demands +0.5% more edge.",
+          "from": "Precision day",
+          "since": "2026-11-28T09:30:46Z",
+          "on": 0.032,
+          "off": 0.0198,
+          "bets": 2
         }
       ],
       "mind": {
@@ -8425,12 +8490,12 @@
       "fair_odds": 2.0,
       "edge": 0.02,
       "stake": 6.11,
-      "status": "open",
+      "status": "won",
       "closing_fair_odds": null,
       "clv": null,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": 6.35,
+      "score": "San Antonio Spurs 99 - 96 Los Angeles Lakers",
+      "settled_at": "2026-11-28T09:30:46Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates Los Angeles Lakers +5.5 at 50.0%. That makes the fair price 2.00.",
         "Marathon Bet pays 2.04. That is +2.0% above fair. My bar is +2.0%.",
@@ -8465,12 +8530,12 @@
       "fair_odds": 3.0,
       "edge": 0.0267,
       "stake": 5.29,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 2.852,
       "clv": 0.0798,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -5.29,
+      "score": "San Antonio Spurs 99 - 96 Los Angeles Lakers",
+      "settled_at": "2026-11-28T09:30:46Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates Los Angeles Lakers at 33.3%. That makes the fair price 3.00.",
         "Marathon Bet pays 3.08. That is +2.7% above fair. My bar is +2.0%.",
@@ -8507,12 +8572,12 @@
       "fair_odds": 4.86,
       "edge": 0.0083,
       "stake": 1.15,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 4.484,
       "clv": 0.0927,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -1.15,
+      "score": "Utah Jazz 107 - 120 Denver Nuggets",
+      "settled_at": "2026-11-28T09:30:46Z",
       "thoughts": [
         "Wild one: Utah Jazz at 4.90. The market gives it 21%.",
         "Feeling sharp after beating the market 4 times in a row.",
@@ -8545,12 +8610,12 @@
       "fair_odds": 3.639,
       "edge": 0.1267,
       "stake": 4.53,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 3.877,
       "clv": 0.0575,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -4.53,
+      "score": "Portland Trail Blazers 116 - 94 Golden State Warriors",
+      "settled_at": "2026-11-28T09:30:46Z",
       "thoughts": [
         "⚡ BetAnything pays 4.10 for Golden State Warriors. Fair is 3.64: +12.7%. That's huge.",
         "Either they're slow to update, or I'm missing something. I'll pounce carefully and let the final price tell me.",
@@ -8584,12 +8649,12 @@
       "fair_odds": 2.207,
       "edge": -0.003,
       "stake": 2.26,
-      "status": "open",
+      "status": "won",
       "closing_fair_odds": 2.207,
       "clv": -0.003,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": 2.71,
+      "score": "Los Angeles Clippers 104 - 105 New Orleans Pelicans",
+      "settled_at": "2026-11-28T09:30:46Z",
       "thoughts": [
         "The sharp money is moving to New Orleans Pelicans: its chance went from 42% to 45% since I first looked.",
         "My rules say no. The model says no. The 2% of me that isn't a model says try it.",
@@ -8622,12 +8687,12 @@
       "fair_odds": 2.16,
       "edge": -0.0047,
       "stake": 2.3,
-      "status": "open",
+      "status": "won",
       "closing_fair_odds": 2.509,
       "clv": -0.1432,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": 2.64,
+      "score": "Phoenix Suns 109 - 113 Dallas Mavericks",
+      "settled_at": "2026-11-28T09:30:46Z",
       "thoughts": [
         "I read that Phoenix Suns have trouble: “Rockets Scurry Over Suns To Another 116-104 Victory”. The price on Dallas Mavericks may not have caught up yet.",
         "My rules say no. The model says no. The 2% of me that isn't a model says try it.",
@@ -8700,12 +8765,12 @@
       "fair_odds": 1.612,
       "edge": 0.0051,
       "stake": 2.26,
-      "status": "open",
+      "status": "lost",
       "closing_fair_odds": 1.733,
       "clv": -0.0651,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": -2.26,
+      "score": "Minnesota Timberwolves 109 - 114 Memphis Grizzlies",
+      "settled_at": "2026-11-28T09:30:46Z",
       "thoughts": [
         "🧭 Exploring. I've only made 2 bets like this (NBA winner bets at favourites).",
         "Minnesota Timberwolves at 1.62 is +0.51% above fair: below my usual bar, but the only way to learn if this kind of bet works for me is to try it.",
@@ -8893,12 +8958,12 @@
       "fair_odds": 1.629,
       "edge": 0.0249,
       "stake": 15.08,
-      "status": "open",
+      "status": "won",
       "closing_fair_odds": 1.641,
       "clv": 0.0176,
-      "profit": 0.0,
-      "score": null,
-      "settled_at": null,
+      "profit": 10.1,
+      "score": "Indiana Pacers 87 - 111 Philadelphia 76ers",
+      "settled_at": "2026-11-28T09:30:46Z",
       "thoughts": [
         "Pinnacle, the sharpest bookmaker, rates Philadelphia 76ers at 61.4%. That makes the fair price 1.63.",
         "BetAnything pays 1.67. That is +2.5% above fair. My bar is +2.0%.",
@@ -11720,22 +11785,6 @@
   ],
   "log": [
     {
-      "t": "2026-11-28T07:45:30Z",
-      "text": "🧬 🧮 The Quant made Sharp eye part of its character: 🦅 Sharp-eyed. It completed the challenge on 2026-11-27 and its bets beat the market by +4.0%. Bets 15% more when the edge is +3% or bigger."
-    },
-    {
-      "t": "2026-11-28T07:45:30Z",
-      "text": "🧬 🦈 The Shark dropped the 🎯 Precise trait: it stopped working (+1.0% vs the market on those days)."
-    },
-    {
-      "t": "2026-11-28T07:45:30Z",
-      "text": "🧬 🦈 The Shark made New ground part of its character: 🗺️ Versatile. It completed the challenge on 2026-11-24 and its bets beat the market by +3.4%. Keeps trying every bet type (+1 scout bet a day)."
-    },
-    {
-      "t": "2026-11-28T08:00:54Z",
-      "text": "🧬 🦎 The Lizard made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-25 and its bets beat the market by +2.6%. Avoids odds above 3.5."
-    },
-    {
       "t": "2026-11-28T08:00:54Z",
       "text": "🧬 🧮 The Quant dropped the 🦅 Sharp-eyed trait: it stopped working (+1.7% vs the market on those days)."
     },
@@ -11838,6 +11887,22 @@
     {
       "t": "2026-11-28T09:15:32Z",
       "text": "🧬 🦈 The Shark dropped the 🐶 Underdog lover trait: it stopped working (+1.7% vs the market on those days)."
+    },
+    {
+      "t": "2026-11-28T09:30:46Z",
+      "text": "🧬 🦎 The Lizard made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-25 and its bets beat the market by +2.6%. Avoids odds above 3.5."
+    },
+    {
+      "t": "2026-11-28T09:30:46Z",
+      "text": "🧬 🧮 The Quant made Discipline day part of its character: 🧘 Disciplined. It completed the challenge on 2026-11-12 and its bets beat the market by +3.9%. Avoids odds above 3.5."
+    },
+    {
+      "t": "2026-11-28T09:30:46Z",
+      "text": "🧬 🦈 The Shark made Precision day part of its character: 🎯 Precise. It completed the challenge on 2026-11-14 and its bets beat the market by +3.2%. Always demands +0.5% more edge."
+    },
+    {
+      "t": "2026-11-28T09:30:46Z",
+      "text": "Results:\n- Won +6.35: Los Angeles Lakers +5.5 (Spread) in San Antonio Spurs vs Los Angeles Lakers (San Antonio Spurs 99 - 96 Los Angeles Lakers)\n- Lost -5.29: Los Angeles Lakers (Winner) in San Antonio Spurs vs Los Angeles Lakers (San Antonio Spurs 99 - 96 Los Angeles Lakers)\n- Lost -1.15: Utah Jazz (Winner) in Utah Jazz vs Denver Nuggets (Utah Jazz 107 - 120 Denver Nuggets)\n- Won +2.64: Dallas Mavericks (Winner) in Phoenix Suns vs Dallas Mavericks (Phoenix Suns 109 - 113 Dallas Mavericks)\n- Lost -2.26: Minnesota Timberwolves (Winner) in Minnesota Timberwolves vs Memphis Grizzlies (Minnesota Timberwolves 109 - 114 Memphis Grizzlies)\n- Won +10.10: Philadelphia 76ers (Winner) in Indiana Pacers vs Philadelphia 76ers (Indiana Pacers 87 - 111 Philadelphia 76ers)\n- Lost -4.53: Golden State Warriors (Winner) in Portland Trail Blazers vs Golden State Warriors (Portland Trail Blazers 116 - 94 Golden State Warriors)\n- Won +2.71: New Orleans Pelicans (Winner) in Los Angeles Clippers vs New Orleans Pelicans (Los Angeles Clippers 104 - 105 New Orleans Pelicans)"
     }
   ]
 }
